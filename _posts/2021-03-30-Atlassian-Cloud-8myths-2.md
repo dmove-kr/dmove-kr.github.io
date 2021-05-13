@@ -3,7 +3,7 @@ layout: post
 title:  아틀라시안 클라우드에 대한 8가지 오해 Part.2
 subtitle:  데이터 보안부터 성능에 이르기까지 가장 일반적인 오해를 바로잡기
 date:   2021-03-30
-categories: [Atlassian Solutions]
+categories: Atlassian-Solutions
 tags: [Atlassian, Cloud, Cloud Migration]
 ---
 안녕하세요, 디무브입니다!
