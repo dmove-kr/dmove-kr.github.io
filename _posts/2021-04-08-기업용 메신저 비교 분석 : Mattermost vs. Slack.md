@@ -30,6 +30,9 @@ tags: [Atlassian, Messenger, Mattermost, Slack]
 
 
 저희 디무브에서는 오픈소스 기반의 현대적인 협업 메신저인 Mattermost 를 고객 분들께 제공해 드리고 있습니다. 
+
+
+
 ![enter image description here](https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/MM_1.png)
 
 
@@ -39,7 +42,7 @@ Mattermost는 SaaS형태의 Cloud 방식만 제공하는 제품들과는 다르�
 
 아직까지 국내 사용자 분들에게는 생소할 수 있으나, 기능적 우위와 가격경쟁력까지 갖춘 매우 매력적인 제품으로 이미 전세계의 많은 기업들이 Mattermost를 사용하고 있습니다. 
 
-|     |
+<table data-number-column="false"><colgroup><col style="width: 679px;"></colgroup><tbody><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="680"><p data-renderer-start-pos="2041">&nbsp;</p></td></tr></tbody></table>
 
 ### Mattermost vs. Slack Enterprise Grid 기능비교표
 
@@ -65,7 +68,9 @@ Mattermost Enterprise와 Slak Enterprise Grid 간에 구체적으로 차이점�
 
 출처: https://mattermost.com/open-source-advantage/
 
-<tbody class=""><tr class=""><td class="confluenceTd" style="text-align: left;" colspan="1" rowspan="1" data-mce-style="text-align: left;"><p data-renderer-start-pos="1066"><br></p></td></tr></tbody>
+<table data-number-column="false"><colgroup><col style="width: 679px;"></colgroup><tbody><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="680"><p data-renderer-start-pos="2041">&nbsp;</p></td></tr></tbody></table>
+
+
 
 현재 기업용 메신저 도입을 고려 중이시거나, 이미 사용하고 있는 메신저가 있지만 높은 가격과 한정된 기능으로 대체 솔루션을 찾고 계신다면 Mattermost 가 그 해결책이 되어 줄 것이라 확신합니다. 
 
