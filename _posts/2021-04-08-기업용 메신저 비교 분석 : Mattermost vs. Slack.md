@@ -39,9 +39,7 @@ Mattermost는 SaaS형태의 Cloud 방식만 제공하는 제품들과는 다르�
 
 아직까지 국내 사용자 분들에게는 생소할 수 있으나, 기능적 우위와 가격경쟁력까지 갖춘 매우 매력적인 제품으로 이미 전세계의 많은 기업들이 Mattermost를 사용하고 있습니다. 
 
-
-
-<tbody class=""><tr class=""><td class="confluenceTd" style="text-align: left;" colspan="1" rowspan="1" data-mce-style="text-align: left;"><p data-renderer-start-pos="1066"><br></p></td></tr></tbody>
+|     |
 
 ### Mattermost vs. Slack Enterprise Grid 기능비교표
 
