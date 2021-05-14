@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  기업용 메신저 비교 분석 : Mattermost vs. Slack
+title:  기업용 메신저 비교 분석 : Mattermost Slack
 subtitle:  
 date:   2021-04-08 12:00:00
 categories: [Messenger]
