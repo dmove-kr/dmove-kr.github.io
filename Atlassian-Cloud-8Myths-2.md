@@ -4,11 +4,14 @@
 
 > [
 
-아틀라시안  클라우드에  대한  8가지  오해  - Part 1  포스팅](http://dmove.co.kr/blog?tpf=board/view&board_code=1&code=389) 에  이어서  비즈니스를  위한  최선의  결정을  내리실  수  있도록  클라우드와  관련된  보안부터  성능에  이르는  가장  일반적인  오해에  대한  진실을  알려드리려고  합니다.
+[아틀라시안  클라우드에  대한  8가지  오해  - Part 1  포스팅](http://dmove.co.kr/blog?tpf=board/view&board_code=1&code=389) 에  이어서  비즈니스를  위한  최선의  결정을  내리실  수  있도록  클라우드와  관련된  보안부터  성능에  이르는  가장  일반적인  오해에  대한  진실을  알려드리려고  합니다.
 
- *원글 출처:*
+ *원글 출처:*[enter link description here](%E3%85%87%E3%85%87)
+안녕하세요!
+
+스펙터는
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjM0MzI2NjMsMzczMjIwODM5LC0xNT
-I0NjQ4OTIyLC03MzkzMDExMDddfQ==
+eyJoaXN0b3J5IjpbOTAyMDI4Njg2LDM3MzIyMDgzOSwtMTUyND
+Y0ODkyMiwtNzM5MzAxMTA3XX0=
 -->
