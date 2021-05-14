@@ -1,10 +1,10 @@
 ---
-layout:  post
-title: 기업용 메신저 비교 분석 : Mattermost vs. Slack
-subtitle:  Mattermost vs . Slack
-date:  2021-04-08 12:00:00
-categories: [Messenger]
-tags: [Messenger,Slack,Mattermost,Atlassian]
+layout: post
+title:  Ubuntu 마운트
+subtitle:  우분투 마운트
+date:   2021-05-13 12:00:00
+categories: [Linux Solutions]
+tags: [Atlassian, Linux, Linux Mount]
 ---
 
 ### Mattermost vs Slack
