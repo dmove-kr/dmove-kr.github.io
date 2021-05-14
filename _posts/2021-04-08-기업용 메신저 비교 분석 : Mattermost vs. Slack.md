@@ -49,15 +49,15 @@ Mattermost Enterprise와 Slak Enterprise Grid 간에 구체적으로 차이점�
 
 
 
-1. 생산성 (Productivity)
+#### 1. 생산성 (Productivity)
 ![enter image description here](https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-04-08%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.45.49.png)
 
 
-2. 보안 (Security)
+#### 2. 보안 (Security)
 
 ![enter image description here](https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-04-08%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.46.07.png)
 
-3. 자주적인 관리 (Sovereignty)
+#### 3. 자주적인 관리 (Sovereignty)
 
 ![enter image description here](https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-04-08%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.46.28.png)
 
