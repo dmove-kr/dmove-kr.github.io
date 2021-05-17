@@ -25,10 +25,10 @@ Atlassian은 목공, 도자기, 스케치, 스토리 텔링과 같은 창의적�
 
 Slack은 직원들이 전국적으로 이동할 수 있도록 허용했으며 사무실이 없는 곳에서도 직원들을 고용하였습니다. Stewart는 원격 근무를 진행한 한 해 동안 모든 업무가 제대로 이루어지고 효과적이었다고 말합니다. 
 
-이미 직원들은 조
+이미 직원들
 그렇기 때문에 펜데믹이 종식된다 해도 월요일부터 금요일, 9시부터 5시까지 사무실에서 일해야 하는 이전의 방식으로 돌아가지 않을 것이라 예상합니다. 
 
-이미 
+조부모를 방문하고, 레스토랑이나 콘서트에 가는 것과 같은  정상적인 일상으로 돌아가게 된다면 회사는 직원들이 일주일 동안 원하는 시간에 
  
  그는 직원들이 원격 근무의 유연성을 좋아하기 때문에 월요일부터 금요일까지 9시에서 5 시까 지 사무실로 돌아갈 것으로 예상하지 않습니다. 이제 우리는 조부모를 방문하고, 레스토랑과 콘서트에 가서 정상으로 돌아갈 수있는 능력을 갖게되었으므로 사무실은 회사가 직원에게 제공하는 추가 리소스, 팀이 직접 일하고 공동 작업 할 수있는 물리적 공간으로 기능 할 수 있습니다. 일주일에 일.
 
@@ -38,7 +38,7 @@ Zoom의 CEO Eric Yuan은 하이브리드 작업 환경을 옹호하지만 다양
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2NDY2MTExLC0zNjUzODEzNzgsLTc3MD
+eyJoaXN0b3J5IjpbODU5NjA0MTk3LC0zNjUzODEzNzgsLTc3MD
 MwNTgyNiwxNTYzNDEyMDk3LDEwNzY4NjA1MjEsNjQxMTE2MjIz
 LDkwMjAyODY4NiwzNzMyMjA4MzksLTE1MjQ2NDg5MjIsLTczOT
 MwMTEwN119
