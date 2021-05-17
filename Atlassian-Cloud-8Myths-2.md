@@ -15,6 +15,7 @@ COVID-19로 인한 팬데믹 상황을 회사가 어떻게 대응하였고 지�
 
 ### 그들의 워라밸(Work-life balance) 유지 방법
 
+세계에서 가장 성공한 IT 대기업 3곳의 CEO
 Stewart는 현재 Slack 직원의 30% 이상이 코로나 팬데믹 시기에 채용되었다고 밝혔으며 인사팀은 신규 직원을 포함한 모든 구성원이 회사와 문화에 속해있다고 느낄 수 있는 방법을 적극적으로 모색하였습니다. 
 Slack은 한달에 한번 금요일 휴무인 **"Fri-yays"** 를 도입하여 직원들이 업무에서 벗어나 자신과 가족을 위해 시간을 할애 할 수 있도록 지원하였다고 말했습니다. 
 
@@ -47,8 +48,8 @@ Zoom은 작년에 인원 수 측면에서 거의 두 배가되었으므로 이�
 
 Stewart는 하이브리드 작업 옵션을 제공하는 좋은 이유를 봅니다. 우선, 어디서든 고용 할 수 있다면 훨씬 더 큰 풀에서 인재를 고용 할 수 있습니다. 또 다른 하나는 기업 문화가 사무실에있는 것과 얼마나 강하게 연결되어 있는지에 대한 시장 동향이있을 것이며 사람들은이를 바탕으로 다음 역할을 선택할 것입니다. 옵션이 있다면이를 제공하고 직원들에게 유연성을 제공하는 것은 어떻습니까?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTMwMjM5OCwtMzY1MzgxMzc4LC03Nz
-AzMDU4MjYsMTU2MzQxMjA5NywxMDc2ODYwNTIxLDY0MTExNjIy
-Myw5MDIwMjg2ODYsMzczMjIwODM5LC0xNTI0NjQ4OTIyLC03Mz
-kzMDExMDddfQ==
+eyJoaXN0b3J5IjpbMTE2NDAzNTg4OCwtNDgxMzAyMzk4LC0zNj
+UzODEzNzgsLTc3MDMwNTgyNiwxNTYzNDEyMDk3LDEwNzY4NjA1
+MjEsNjQxMTE2MjIzLDkwMjAyODY4NiwzNzMyMjA4MzksLTE1Mj
+Q2NDg5MjIsLTczOTMwMTEwN119
 -->
