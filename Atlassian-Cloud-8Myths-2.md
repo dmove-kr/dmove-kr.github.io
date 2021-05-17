@@ -11,9 +11,13 @@
 
 ---
 
-### Atlassian, Slack, Zoom, 이 세 회사는 워라밸(일과 삶의 균형)을 어떻게 촉진하고 있나요?
+### 글로벌 탑 IT 회사의  워라밸 (일과 삶의 균형)
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTcwMTc0MywtNzcwMzA1ODI2LDE1Nj
+eyJoaXN0b3J5IjpbMTQ3NjE4MTQyNywtNzcwMzA1ODI2LDE1Nj
 M0MTIwOTcsMTA3Njg2MDUyMSw2NDExMTYyMjMsOTAyMDI4Njg2
 LDM3MzIyMDgzOSwtMTUyNDY0ODkyMiwtNzM5MzAxMTA3XX0=
 -->
