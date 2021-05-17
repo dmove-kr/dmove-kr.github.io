@@ -89,6 +89,3 @@ COVID-19 팬데믹은 우리 일상의 많은 부분을 바꿔놓았고, 이는 
 <iframe width="600" height="354" src="https://www.youtube.com/embed/FipL3DrtNLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-<p>감사합니다.</p>
-
-
