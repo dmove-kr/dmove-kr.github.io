@@ -15,9 +15,10 @@ COVID-19로 인한 팬데믹 상황을 회사가 어떻게 대응하였고 지�
 
 ### 그들의 워라밸(Work-life balance) 유지 방법
 
-세계에서 가장 성공한 IT 대기업 3곳의 CEO
+세계에서 가장 성공한 IT 대기업 3곳의 CEO들은 직원 참여와 생산성을 높이기 위해 다양한 직원 혜택을 도입했다고 말했습니다.
+
 Stewart는 현재 Slack 직원의 30% 이상이 코로나 팬데믹 시기에 채용되었다고 밝혔으며 인사팀은 신규 직원을 포함한 모든 구성원이 회사와 문화에 속해있다고 느낄 수 있는 방법을 적극적으로 모색하였습니다. 
-Slack은 한달에 한번 금요일 휴무인 **"Fri-yays"** 를 도입하여 직원들이 업무에서 벗어나 자신과 가족을 위해 시간을 할애 할 수 있도록 지원하였다고 말했습니다. 
+Slack은 한달에 한번 금요일 휴무인 **"Fri-yays"** 를 도입하여 직원들이 업무에서 벗어나 자신과 가족을 위해 시간을 할애 할 수 있도록 지원하고 있습니다.
 
 Eric은 Zoom의 문화가 행복을 전달하는 것이라고 말했습니다. Zoom은 직원들의 정신 건강을 위한 보험과, 식료품 배달 옵션, 수요일은 'No Meeting Day', 스트레스 감소 세션 등 새로운 복지 프로그램을 도입하였습니다. 
 
@@ -26,7 +27,7 @@ Atlassian은 목공, 도자기, 스케치, 스토리 텔링과 같은 창의적�
 ---
 ### 펜데믹 종식 이후 사무실로 돌아갈 수 있게 된다면?
 
-Slack은 직원들이 전국적으로 이동할 수 있도록 허용했으며 사무실이 없는 곳에서도 직원들을 고용하였습니다. Stewart는 원격 근무를 진행한 한 해 동안 모든 업무가 제대로 이루어지고 효과적이었다고 말합니다. 
+Slack은 직원들이 더이상 사무실에서 통근이 가능한 거리에 거주할 필요가 없기 때문에 사무실에서 멀리 떨어져 있는 곳에서도 직원들을 고용하였습니다. Stewart는 원격 근무를 진행한 한 해 동안 모든 업무가 제대로 이루어지고 효과적이었다고 말합니다. 
 
 이미 직원들은 유연한 원격 근무 방식을 즐기고 있기 때문에 펜데믹이 종식된다 해도 월요일부터 금요일, 9시부터 5시까지 사무실에서 일해야 하는 이전의 방식으로 돌아가지 않을 것이라 예상합니다. 
 
@@ -48,8 +49,8 @@ Zoom은 작년에 인원 수 측면에서 거의 두 배가되었으므로 이�
 
 Stewart는 하이브리드 작업 옵션을 제공하는 좋은 이유를 봅니다. 우선, 어디서든 고용 할 수 있다면 훨씬 더 큰 풀에서 인재를 고용 할 수 있습니다. 또 다른 하나는 기업 문화가 사무실에있는 것과 얼마나 강하게 연결되어 있는지에 대한 시장 동향이있을 것이며 사람들은이를 바탕으로 다음 역할을 선택할 것입니다. 옵션이 있다면이를 제공하고 직원들에게 유연성을 제공하는 것은 어떻습니까?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDAzNTg4OCwtNDgxMzAyMzk4LC0zNj
-UzODEzNzgsLTc3MDMwNTgyNiwxNTYzNDEyMDk3LDEwNzY4NjA1
-MjEsNjQxMTE2MjIzLDkwMjAyODY4NiwzNzMyMjA4MzksLTE1Mj
-Q2NDg5MjIsLTczOTMwMTEwN119
+eyJoaXN0b3J5IjpbLTExMjc2MTU4NzYsLTQ4MTMwMjM5OCwtMz
+Y1MzgxMzc4LC03NzAzMDU4MjYsMTU2MzQxMjA5NywxMDc2ODYw
+NTIxLDY0MTExNjIyMyw5MDIwMjg2ODYsMzczMjIwODM5LC0xNT
+I0NjQ4OTIyLC03MzkzMDExMDddfQ==
 -->
