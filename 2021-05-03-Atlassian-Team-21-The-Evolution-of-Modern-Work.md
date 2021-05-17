@@ -63,8 +63,11 @@ Stewart는 하이브리드 작업 환경 제공에 대한 장점을 공유하였
 
 또 다른 하나는 '사무실'에 국한된 기업 문화에 대한 호불호가 분명히 직원들을 채용하는데 영향을 끼칠 것이라고 말했습니다. 업무 환경에 대한 다양한 옵션이 있다면 직원들이 보다 유연한 결정을 내릴 수 있도록 지원할 수 있습니다. 
 
+---
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMjUyMDM2LC02MTM3OTk3MTNdfQ==
+eyJoaXN0b3J5IjpbMTI0NTMwNTY5MSw5ODMyNTIwMzYsLTYxMz
+c5OTcxM119
 -->
