@@ -7,18 +7,18 @@
 
 아시다시피 Slack과 Zoom은 특히 작년에 이례적인 성장을 이루며 전세계 대부분의 직장인들이 필수적으로 사용하는 제품을 제공하는 글로벌 IT 기업입니다. 
 
-이들은 COVID-19로 인한 팬더믹 상황을 회사가 어떻게 대응하였고 지원하였는지, 대규모 원격 근무에서 파생된 새로운 업무 스타일과 그 결과가 어떻게 되는지, 그리고 앞으로 어떻게 나아가야 하는지에 대해서 공유하였습니다. 
+이들은 COVID-19로 인한 팬데믹 상황을 회사가 어떻게 대응하였고 지원하였는지, 대규모 원격 근무에서 파생된 새로운 업무 스타일과 그 결과가 어떻게 되는지, 그리고 앞으로 어떻게 나아가야 하는지에 대해서 공유하였습니다. 
 
 ---
 
 ### 글로벌 탑 IT 회사의  워라밸 (일과 삶의 균형)
 
-스튜어트는 Slack 직원의 30% 이상이 코로나 펜더믹 시기에 채용되었다고  
+스튜어트는 현재 Slack 직원의 30% 이상이 코로나 팬데믹 시기에 채용되었다고 밝혔으며 인사팀은 신규 직원을 포함한 모든 구성원이 회사와 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMDc2NzMzLC03NzAzMDU4MjYsMTU2Mz
-QxMjA5NywxMDc2ODYwNTIxLDY0MTExNjIyMyw5MDIwMjg2ODYs
-MzczMjIwODM5LC0xNTI0NjQ4OTIyLC03MzkzMDExMDddfQ==
+eyJoaXN0b3J5IjpbLTIxNDQzODU5MDgsLTc3MDMwNTgyNiwxNT
+YzNDEyMDk3LDEwNzY4NjA1MjEsNjQxMTE2MjIzLDkwMjAyODY4
+NiwzNzMyMjA4MzksLTE1MjQ2NDg5MjIsLTczOTMwMTEwN119
 -->
