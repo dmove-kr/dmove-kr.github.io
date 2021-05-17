@@ -1,5 +1,5 @@
 
-## ** [ Atlassian Team '21] Zoom & Slack CEO와 함께한 'The Evolution of Modern Work' 키노트 하이라이트 **
+## [ Atlassian Team '21] Zoom & Slack CEO와 함께한 'The Evolution of Modern Work' 키노트 하이라이트
 ![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/04/brand-4570-how-to-lead-remotely-when-you-dont-have-a-clue@2x.png?w=2240&ssl=1)
 안녕하세요, 디무브입니다!
 
@@ -14,17 +14,18 @@
 ### 글로벌 탑 IT 회사의  워라밸 (일과 삶의 균형)
 
 Stewart는 현재 Slack 직원의 30% 이상이 코로나 팬데믹 시기에 채용되었다고 밝혔으며 인사팀은 신규 직원을 포함한 모든 구성원이 회사와 문화에 속해있다고 느낄 수 있는 방법을 적극적으로 모색하였습니다. 
-
 Slack은 한달에 한번 금요일 휴무인 **"Fri-yays"** 를 도입하여 직원들이 업무에서 벗어나 자신과 가족을 위해 시간을 할애 할 수 있도록 지원하였다고 말했습니다. 
 
 Eric은 Zoom의 문화가 행복을 전달하는 것이라고 말했습니다. Zoom은 직원들의 정신 건강을 위한 보험과, 식료품 배달 옵션, 수요일은 'No Meeting Day', 스트레스 감소 세션 등 새로운 복지 프로그램을 도입하였습니다. 
 
-Atlassian은 
+Atlassian은 목공, 도자기, 스케치, 스토리 텔링과 같은 창의적인 활동에 직원들이 참여할 수 있는 리프레시 데이를 진행하였습니다. 
 
+---
+###펜데믹 종식 이후의 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTI2MjQ4NSwtMzY1MzgxMzc4LC03Nz
+eyJoaXN0b3J5IjpbMTUxNzkyNjcwMCwtMzY1MzgxMzc4LC03Nz
 AzMDU4MjYsMTU2MzQxMjA5NywxMDc2ODYwNTIxLDY0MTExNjIy
 Myw5MDIwMjg2ODYsMzczMjIwODM5LC0xNTI0NjQ4OTIyLC03Mz
 kzMDExMDddfQ==
