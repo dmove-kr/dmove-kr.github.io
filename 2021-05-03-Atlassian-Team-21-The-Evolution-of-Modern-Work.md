@@ -6,7 +6,7 @@
 지난 4월 말 진행한 아틀라시안의 디지털 컨퍼런스 [Atlassian Team '21](https://events.atlassian.com/team21) 에서 Atlassian의 공동 창립자이자 공동 CEO인 [Mike Cannon-Brookes](https://www.linkedin.com/in/mcannonbrookes)은 Slack의 공동 창립자 겸 CEO인 [Stewart Butterfield](https://www.linkedin.com/in/butterfield), Zoom의 창립자 겸 CEO인 [Eric Yuan](https://www.linkedin.com/in/ericsyuan) 과 "The Evolution of Modern Work" 라는 주제로 키노트를 진행하였습니다. 
 
 ![enter image description here](https://static.ffx.io/images/$zoom_0.53,$multiply_0.5855,$ratio_1.776846,$width_1059,$x_1,$y_0/t_crop_custom/e_sharpen:25,q_85,f_auto/50082adc8cf5638e333be0833ce4e54d308902b1)
-\\<!--*왼쪽부터 Zoom의 Eric Yuan, Atlassian의 Mice Cannon-Brookes, Slack의 Stewart Butterfield *
+*(왼쪽부터 Zoom의 Eric Yuan, Atlassian의 Mice Cannon-Brookes, Slack의 Stewart Butterfield )*
 
 아시다시피 Slack과 Zoom은 특히 작년에 이례적인 성장을 이루며 전세계 대부분의 직장인들이 필수적으로 사용하는 제품을 제공하는 글로벌 IT 기업입니다. 
 
@@ -72,6 +72,6 @@ COVID-19 팬데믹은 우리 일상의 많은 부분을 바꿔놓았고, 이는 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5NTExMjE2LDk4MzI1MjAzNiwtNjEzNz
-k5NzEzXX0=
+eyJoaXN0b3J5IjpbLTE2MjI3MTgwNTgsOTgzMjUyMDM2LC02MT
+M3OTk3MTNdfQ==
 -->
