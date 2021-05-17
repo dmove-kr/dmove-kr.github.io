@@ -17,12 +17,15 @@ Stewart는 현재 Slack 직원의 30% 이상이 코로나 팬데믹 시기에 �
 
 Slack은 한달에 한번 금요일 휴무인 **"Fri-yays"** 를 도입하여 직원들이 업무에서 벗어나 자신과 가족을 위해 시간을 할애 할 수 있도록 지원하였다고 말했습니다. 
 
-Eric은 
+Eric은 Zoom의 문화가 행복을 전달하는 것이라고 말했습니다. Zoom은 직원들의 정신 건강을 위한 보험과, 식료품 배달 옵션, 수요일은 'No Meeting Day', 스트레스 감소 세션 등 새로운 복지 프로그램을 도입하였습니다. 
+
+Atlassian은 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTM4MTM3OCwtNzcwMzA1ODI2LDE1Nj
-M0MTIwOTcsMTA3Njg2MDUyMSw2NDExMTYyMjMsOTAyMDI4Njg2
-LDM3MzIyMDgzOSwtMTUyNDY0ODkyMiwtNzM5MzAxMTA3XX0=
+eyJoaXN0b3J5IjpbLTQ2NTI2MjQ4NSwtMzY1MzgxMzc4LC03Nz
+AzMDU4MjYsMTU2MzQxMjA5NywxMDc2ODYwNTIxLDY0MTExNjIy
+Myw5MDIwMjg2ODYsMzczMjIwODM5LC0xNTI0NjQ4OTIyLC03Mz
+kzMDExMDddfQ==
 -->
