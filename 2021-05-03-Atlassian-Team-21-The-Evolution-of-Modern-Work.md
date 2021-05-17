@@ -65,9 +65,11 @@ Stewart는 하이브리드 작업 환경 제공에 대한 장점을 공유하였
 
 ---
 
+COVID-19 팬데믹은 우리 일상의 많은 부분을 바꿔놓았고, 이는 직장 생활 또한 마찬가지입니다. 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTMwNTY5MSw5ODMyNTIwMzYsLTYxMz
+eyJoaXN0b3J5IjpbMTczNTUwODAzNiw5ODMyNTIwMzYsLTYxMz
 c5OTcxM119
 -->
