@@ -13,11 +13,12 @@
 
 ### 글로벌 탑 IT 회사의  워라밸 (일과 삶의 균형)
 
+스튜어트는 Slack 직원의 30% 이상이 코로나 펜더믹 시기에 채용되었다고  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjE4MTQyNywtNzcwMzA1ODI2LDE1Nj
-M0MTIwOTcsMTA3Njg2MDUyMSw2NDExMTYyMjMsOTAyMDI4Njg2
-LDM3MzIyMDgzOSwtMTUyNDY0ODkyMiwtNzM5MzAxMTA3XX0=
+eyJoaXN0b3J5IjpbNTYyMDc2NzMzLC03NzAzMDU4MjYsMTU2Mz
+QxMjA5NywxMDc2ODYwNTIxLDY0MTExNjIyMyw5MDIwMjg2ODYs
+MzczMjIwODM5LC0xNTI0NjQ4OTIyLC03MzkzMDExMDddfQ==
 -->
