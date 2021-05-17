@@ -40,6 +40,7 @@ Slack은 직원들이 더이상 사무실에서 통근이 가능한 거리에 �
  
 Zoom의 CEO Eric은 하이브리드 작업 환경을 옹호하지만 다양한 작업 환경에서 생산성을 유지해야하는 문제를 인식하고 있습니다. 
 떄문에 기업은 Slack, Zoom, Jira, Trello 등과 같은 업무를 수행 할 수있는 최고의 도구를 직원들에게 투자하고 제공해야합니다. 
+Eric은 향후 10년 내에, 대면 회의보다 화상 회의 환경이 더욱 
 원격으로 일하는 사람들이 사무실 환경에서 소외감을 느끼지 않도록하는 것도 중요합니다.
 
 ---
@@ -62,5 +63,5 @@ Stewart는 하이브리드 작업 환경 제공에 대한 장점을 공유하였
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5ODc1NzE2NCwtNjEzNzk5NzEzXX0=
+eyJoaXN0b3J5IjpbMTI1NzI0MzUwNiwtNjEzNzk5NzEzXX0=
 -->
