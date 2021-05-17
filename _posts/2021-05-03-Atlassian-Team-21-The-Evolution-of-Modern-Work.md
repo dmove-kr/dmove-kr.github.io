@@ -82,7 +82,7 @@ COVID-19 팬데믹은 우리 일상의 많은 부분을 바꿔놓았고, 이는 
 
 이러한 위기 속에서 더욱 큰 성장을 일으킨 CEO들의 대화 내용이 더 궁금하시다면 아래 전체 영상에서 확인해 보세요! 
 
-<iframe width="900" height="506" src="https://www.youtube.com/embed/FipL3DrtNLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="354" src="https://www.youtube.com/embed/FipL3DrtNLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 감사합니다.
