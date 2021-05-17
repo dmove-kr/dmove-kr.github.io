@@ -11,7 +11,7 @@
 
 ---
 
-### 글로벌 탑 IT 회사의 워라밸 유지 방법
+### 그들의 워라밸(Work-life balance) 유지 방법
 
 Stewart는 현재 Slack 직원의 30% 이상이 코로나 팬데믹 시기에 채용되었다고 밝혔으며 인사팀은 신규 직원을 포함한 모든 구성원이 회사와 문화에 속해있다고 느낄 수 있는 방법을 적극적으로 모색하였습니다. 
 Slack은 한달에 한번 금요일 휴무인 **"Fri-yays"** 를 도입하여 직원들이 업무에서 벗어나 자신과 가족을 위해 시간을 할애 할 수 있도록 지원하였다고 말했습니다. 
@@ -21,7 +21,7 @@ Eric은 Zoom의 문화가 행복을 전달하는 것이라고 말했습니다. Z
 Atlassian은 목공, 도자기, 스케치, 스토리 텔링과 같은 창의적인 활동에 직원들이 참여할 수 있는 리프레시 데이를 진행하였습니다. 
 
 ---
-### 펜데믹 종식 이후 사무실로 돌아가게 될 미래의 업무는?
+### 펜데믹 종식 이후 사무실로 돌아갈 수 있게 된다면?
 
 Slack은 직원들이 전국적으로 이동할 수 있도록 허용했으며 사무실이 없는 곳에서도 직원들을 고용하였습니다. Stewart는 원격 근무를 진행한 한 해 동안 모든 업무가 제대로 이루어지고 효과적이었다고 말합니다. 
 
@@ -32,12 +32,11 @@ Slack은 직원들이 전국적으로 이동할 수 있도록 허용했으며 �
 Zoom의 CEO Eric은 하이브리드 작업 환경을 옹호하지만 다양한 작업 환경에서 생산성을 유지해야하는 문제를 인식하고 있습니다. 떄문에 기업은 Slack, Zoom, Jira, Trello 등과 같은 업무를 수행 할 수있는 최고의 도구를 직원들에게 투자하고 제공해야합니다. 원격으로 일하는 사람들이 사무실 환경에서 소외감을 느끼지 않도록하는 것도 중요합니다.
 
 ---
-
-
+### 앞으로의 과제 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzNDg4NDc5LC0zNjUzODEzNzgsLTc3MD
-MwNTgyNiwxNTYzNDEyMDk3LDEwNzY4NjA1MjEsNjQxMTE2MjIz
-LDkwMjAyODY4NiwzNzMyMjA4MzksLTE1MjQ2NDg5MjIsLTczOT
-MwMTEwN119
+eyJoaXN0b3J5IjpbMTU2NzQ5NjUwMCwtMzY1MzgxMzc4LC03Nz
+AzMDU4MjYsMTU2MzQxMjA5NywxMDc2ODYwNTIxLDY0MTExNjIy
+Myw5MDIwMjg2ODYsMzczMjIwODM5LC0xNTI0NjQ4OTIyLC03Mz
+kzMDExMDddfQ==
 -->
