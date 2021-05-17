@@ -9,9 +9,11 @@
  *원글 출처:*[enter link description here](%E3%85%87%E3%85%87)
 안녕하세요!
 
-스펙터는
+ - [ ] 
+ - List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxMTE2MjIzLDkwMjAyODY4NiwzNzMyMj
-A4MzksLTE1MjQ2NDg5MjIsLTczOTMwMTEwN119
+eyJoaXN0b3J5IjpbMTA3Njg2MDUyMSw2NDExMTYyMjMsOTAyMD
+I4Njg2LDM3MzIyMDgzOSwtMTUyNDY0ODkyMiwtNzM5MzAxMTA3
+XX0=
 -->
