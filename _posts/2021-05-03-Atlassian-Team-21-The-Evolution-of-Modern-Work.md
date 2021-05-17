@@ -1,6 +1,10 @@
 ---
-
-
+layout: post
+title: Atlassian Team '21 - Zoom & Slack CEO와 함께한 'The Evolution of Modern Work' 하이라이트
+subtitle: COViD-19 펜더믹 이후의 업무 환경과 미래
+date: 2021-05-03
+categories: [IT Trend]
+tags: [Atlassian Team 21, Atlassian, Slack, Zoom, Remotework]
 ---
 
 <h2 id="atlassian-team-21-zoom--slack-ceo와-함께한-the-evolution-of-modern-work-키노트-하이라이트">[ Atlassian Team '21] Zoom &amp; Slack CEO와 함께한 ‘The Evolution of Modern Work’ 키노트 하이라이트</h2>
