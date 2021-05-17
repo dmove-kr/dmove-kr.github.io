@@ -13,12 +13,14 @@
 
 ### 글로벌 탑 IT 회사의  워라밸 (일과 삶의 균형)
 
-스튜어트는 현재 Slack 직원의 30% 이상이 코로나 팬데믹 시기에 채용되었다고 밝혔으며 인사팀은 신규 직원을 포함한 모든 구성원이 회사와 
+스튜어트는 현재 Slack 직원의 30% 이상이 코로나 팬데믹 시기에 채용되었다고 밝혔으며 인사팀은 신규 직원을 포함한 모든 구성원이 회사와 문화에 속해있다고 느낄 수 있는 방법을 적극적으로 모색하였습니다. 
+
+Slack은 한달에 한번 금요일 휴무인 **"Fri-yays"** 를 도입하였으며, 직워
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQzODU5MDgsLTc3MDMwNTgyNiwxNT
+eyJoaXN0b3J5IjpbLTEwMjMxOTE0MDIsLTc3MDMwNTgyNiwxNT
 YzNDEyMDk3LDEwNzY4NjA1MjEsNjQxMTE2MjIzLDkwMjAyODY4
 NiwzNzMyMjA4MzksLTE1MjQ2NDg5MjIsLTczOTMwMTEwN119
 -->
