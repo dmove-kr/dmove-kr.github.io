@@ -9,16 +9,11 @@
 
 이들은 COVID-19로 인한 팬더믹 상황을 회사가 어떻게 대응하였고 지원하였는지, 대규모 원격 근무에서 파생된 새로운 업무 스타일과 그 결과가 어떻게 되는지, 그리고 앞으로 어떻게 나아가야 하는지에 대해서 공유하였습니다. 
 
+---
 
-
-
-은 회사가 COVID-19 전염병에 어떻게 대응했는지 공유했습니다. 그들은 사람들이 사무실로 돌아 오면서 일이 바뀌거나 바뀌는 것을 본다.
-
-‍
-
-세션의 하이라이트, 세션 비디오 및 라이브 스크라이브 벽화를 읽어보십시오.
+### Atlassian, Slack, Zoom, 이 세 회사는 워라밸(일과 삶의 균형)을 어떻게 촉진하고 있나요?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDMwNTgyNiwxNTYzNDEyMDk3LDEwNz
-Y4NjA1MjEsNjQxMTE2MjIzLDkwMjAyODY4NiwzNzMyMjA4Mzks
-LTE1MjQ2NDg5MjIsLTczOTMwMTEwN119
+eyJoaXN0b3J5IjpbMjAyNTcwMTc0MywtNzcwMzA1ODI2LDE1Nj
+M0MTIwOTcsMTA3Njg2MDUyMSw2NDExMTYyMjMsOTAyMDI4Njg2
+LDM3MzIyMDgzOSwtMTUyNDY0ODkyMiwtNzM5MzAxMTA3XX0=
 -->
