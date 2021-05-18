@@ -10,8 +10,8 @@ Jira Core가 Jira Work Management 로 새롭게 태어났습니다.
 ---
 ### 친숙한 인터페이스를 갖춘 Jira의 힘 
 
-
+Jira Software는 애자일 팀에서 사용ㅎ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTUxMDg5MTIsMTI5ODA4MjU1OSwtOD
-E1NjEwNzE0XX0=
+eyJoaXN0b3J5IjpbLTc0MzAzMjExNiwxMjk4MDgyNTU5LC04MT
+U2MTA3MTRdfQ==
 -->
