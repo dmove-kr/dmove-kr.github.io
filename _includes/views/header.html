@@ -128,7 +128,18 @@
       header.classList.add("headerScroll");
       document.getElementsByClassName("logo_fix_only").classList.add("logoEnable");
     } else {
-      // document.getElementById("header").style.fontSize = "90px";
+      if (location.href.substring() == "http://localhost:4000/" && (document.body.scrollTop < 30 || document.documentElement.scrollTop < 30)) {
+        // document.getElementById("header").style.fontSize = "90px";
+        header.classList.remove("headerScroll");
+      }
+    }
+  }
+  window.onload = function() {contextPathCheck()};
+  function contextPathCheck() {
+    if (location.href.substring() != "http://localhost:4000/") {
+      header.classList.add("headerScroll");
+      document.getElementsByClassName("logo_fix_only").classList.add("logoEnable");
+    } else {
       header.classList.remove("headerScroll");
     }
   }
