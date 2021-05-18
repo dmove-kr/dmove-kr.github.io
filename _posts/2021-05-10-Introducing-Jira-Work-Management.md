@@ -36,19 +36,19 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
 ---
 ### 새로운 기능
 
- ■ **비즈니스 프로젝트 템플릿**
- 마케팅, HR, 재무, 운영, 디자인 및 영업 등 모든 유형의 비즈니스 팀에 걸쳐 있는 24개의 비즈니스 프로젝트 템플릿을 사용하여 빠르게 프로젝트를 시작할 수 있습니다. 
+#### 비즈니스 프로젝트 템플릿
+마케팅, HR, 재무, 운영, 디자인 및 영업 등 모든 유형의 비즈니스 팀에 걸쳐 있는 24개의 비즈니스 프로젝트 템플릿을 사용하여 빠르게 프로젝트를 시작할 수 있습니다. 
 
 ![project template](/assets/images/banners/Project_Template.png)
 
- ■ **리스트 뷰**
- 인라인 편집 기능을 포함한 목록 보기를 통해 개별 작업부터 대규모 프로젝트까지 모든 규모의 작업을 빠르고 효과적으로 관리할 수 있습니다. 
+#### 리스트 뷰
+인라인 편집 기능을 포함한 목록 보기를 통해 개별 작업부터 대규모 프로젝트까지 모든 규모의 작업을 빠르고 효과적으로 관리할 수 있습니다. 
  
- ![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/c0fe474c-7f7b-42a4-97d6-5deae9efd1b4.gif)
+![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/c0fe474c-7f7b-42a4-97d6-5deae9efd1b4.gif)
 
- ■ **캘린더 뷰**
- 달력을 통해 전반적인 작업 일정을 파악할 수 있습니다. 보다 빠르고 효율적인 계획을 위해 마감일을 확인하고 작업을 업데이트 할 수 있습니다. 
+#### 캘린더 뷰
+달력을 통해 전반적인 작업 일정을 파악할 수 있습니다. 보다 빠르고 효율적인 계획을 위해 마감일을 확인하고 작업을 업데이트 할 수 있습니다. 
  
- ![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/d5dd425a-a74e-4fdf-912d-2f0ea48f1641.gif)
+![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/d5dd425a-a74e-4fdf-912d-2f0ea48f1641.gif)
 
  
