@@ -29,14 +29,15 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
 ---
 ### 새로운 기능
 
- - 비즈니스 프로젝트 템플릿
-   마케팅, HR, 재무, 운영, 디자인 및 영업 등 모든 유형의 비즈니스 팀에 걸쳐 있는 24개의 비즈니스 프로젝트 템플릿을 사용하여 빠르게 프로젝트를 
+ - **비즈니스 프로젝트 템플릿**
+   마케팅, HR, 재무, 운영, 디자인 및 영업 등 모든 유형의 비즈니스 팀에 걸쳐 있는 24개의 비즈니스 프로젝트 템플릿을 사용하여 빠르게 프로젝트를 시작할 수 있습니다. 
 
 ![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/banners/Project_Template.png)
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzgzMDEwOTIsLTE2NzA4MDE1OTIsMT
-E2MDk5MTAyLDc2MzMxMDAxNCw2NjM4NTQ1MDcsLTE4OTE1NjM0
-NzcsLTk4MzQzNzYyMSwxMjk4MDgyNTU5LC04MTU2MTA3MTRdfQ
-==
+eyJoaXN0b3J5IjpbMTEzMjY3NDg5OCwtMTQ3ODMwMTA5MiwtMT
+Y3MDgwMTU5MiwxMTYwOTkxMDIsNzYzMzEwMDE0LDY2Mzg1NDUw
+NywtMTg5MTU2MzQ3NywtOTgzNDM3NjIxLDEyOTgwODI1NTksLT
+gxNTYxMDcxNF19
 -->
