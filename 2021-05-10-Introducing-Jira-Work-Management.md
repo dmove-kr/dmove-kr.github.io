@@ -18,11 +18,11 @@ Jira Work Management는 기존의 Jira Core와 동일한 비즈니스 프로젝�
 
 또한 Jira Work Management는 Jira Software 및 Jira Service Management와 쉽게 연결 되어 제품 전반의 작업 종속성을 갖출 수 있으며 Advanced Roadmap 과 같은 기능을 호환합니다. 
 
-그러나, 기술 팀에 권한을 부여하는 것만으로는 충분하지 않습니다. 
-모든 팀을 동일한 도구로 통합하는 것이 그 어느때보다 중요합니다. 
+---
 
-Jira Work Management는 비즈니스 관리 프로세스를 기반으로 만들어져, Jira Software 및 Jira Service Management와 연동하여 
+## 혁신적인 작업 관리
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNjEyOTg5OCwtOTgzNDM3NjIxLDEyOT
-gwODI1NTksLTgxNTYxMDcxNF19
+eyJoaXN0b3J5IjpbLTE4OTE1NjM0NzcsLTk4MzQzNzYyMSwxMj
+k4MDgyNTU5LC04MTU2MTA3MTRdfQ==
 -->
