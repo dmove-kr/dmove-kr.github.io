@@ -128,7 +128,7 @@
       header.classList.add("headerScroll");
       document.getElementsByClassName("logo_fix_only").classList.add("logoEnable");
     } else {
-      if (location.href.substring() == "http://localhost:4000/" && (document.body.scrollTop < 30 || document.documentElement.scrollTop < 30)) {
+      if (location.href.substring() == "http://blog.dmove.kr/" && (document.body.scrollTop < 30 || document.documentElement.scrollTop < 30)) {
         // document.getElementById("header").style.fontSize = "90px";
         header.classList.remove("headerScroll");
       }
@@ -136,7 +136,7 @@
   }
   window.onload = function() {contextPathCheck()};
   function contextPathCheck() {
-    if (location.href.substring() != "http://localhost:4000/") {
+    if (location.href.substring() != "http://blog.dmove.kr/") {
       header.classList.add("headerScroll");
       document.getElementsByClassName("logo_fix_only").classList.add("logoEnable");
     } else {
