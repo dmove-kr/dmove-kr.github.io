@@ -22,10 +22,10 @@ Jira Work Management는 기존의 Jira Core와 동일한 비즈니스 프로젝�
 
 ## 혁신적인 작업 관리
 
-디지털 방식으로의 업무 변화와 규모의 증가에 따라 체계적인 업무 관리는 점점 어려워지만, Jira를 활용하면 급격한 성장 속도와 변화를 
+디지털 방식으로의 업무 변화와 규모의 증가에 따라 체계적인 업무 관리는 점점 어려워지만, Jira를 활용하면 급격한 성장 속도와 변화를 따라잡을 수 있습니다. 
 
-Jira Work Management를 통해 팀은 조직 간 일관성
+Jira Work Management를 통해 구조화된 워크플로와 업무 공유, 작업에 대한 강력한 자동화 등을 실현할 수 있습니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTExMzM5NTgsLTE4OTE1NjM0NzcsLT
-k4MzQzNzYyMSwxMjk4MDgyNTU5LC04MTU2MTA3MTRdfQ==
+eyJoaXN0b3J5IjpbNjYzODU0NTA3LC0xODkxNTYzNDc3LC05OD
+M0Mzc2MjEsMTI5ODA4MjU1OSwtODE1NjEwNzE0XX0=
 -->
