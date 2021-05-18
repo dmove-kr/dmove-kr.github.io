@@ -39,9 +39,12 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
  ![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/c0fe474c-7f7b-42a4-97d6-5deae9efd1b4.gif?resize=640,378&ssl=1)
 
  - **캘린더 뷰**
-   인라인 편집 기능을 포함한 목록 보기를 통해 개별 작업부터 대규모 프로젝트까지 모든 규모의 작업을 빠르고 효과적으로 관리할 수 있습니다. 
+   달력을 통해 전반적인 작업 일정을 파악할 수 있습니다. 보다 빠르고 효율적인 계획을 위해 마감일을 확인하고 작업을 업데이트 할 수 있습니다. 
+   ![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/d5dd425a-a74e-4fdf-912d-2f0ea48f1641.gif?resize=640,378&ssl=1)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzMyOTE5NSwxMTMyNjc0ODk4LC0xND
+eyJoaXN0b3J5IjpbMTUyNTIwNjk5NywxMTMyNjc0ODk4LC0xND
 c4MzAxMDkyLC0xNjcwODAxNTkyLDExNjA5OTEwMiw3NjMzMTAw
 MTQsNjYzODU0NTA3LC0xODkxNTYzNDc3LC05ODM0Mzc2MjEsMT
 I5ODA4MjU1OSwtODE1NjEwNzE0XX0=
