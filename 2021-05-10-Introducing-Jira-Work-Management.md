@@ -34,10 +34,12 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
 
 ![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/banners/Project_Template.png)
 
-
+ - **목록 보기**
+   인라인 편집 기능을 포함한 목록 보기를 통해
+ ![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/c0fe474c-7f7b-42a4-97d6-5deae9efd1b4.gif?resize=640,378&ssl=1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjY3NDg5OCwtMTQ3ODMwMTA5MiwtMT
-Y3MDgwMTU5MiwxMTYwOTkxMDIsNzYzMzEwMDE0LDY2Mzg1NDUw
-NywtMTg5MTU2MzQ3NywtOTgzNDM3NjIxLDEyOTgwODI1NTksLT
-gxNTYxMDcxNF19
+eyJoaXN0b3J5IjpbLTEzMjE0ODQ4MTMsMTEzMjY3NDg5OCwtMT
+Q3ODMwMTA5MiwtMTY3MDgwMTU5MiwxMTYwOTkxMDIsNzYzMzEw
+MDE0LDY2Mzg1NDUwNywtMTg5MTU2MzQ3NywtOTgzNDM3NjIxLD
+EyOTgwODI1NTksLTgxNTYxMDcxNF19
 -->
