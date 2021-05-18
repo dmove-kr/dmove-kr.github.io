@@ -27,9 +27,9 @@ Jira Work Management는 기존의 Jira Core와 동일한 비즈니스 프로젝�
 Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자동화 등을 지원하며 다음과 같은 새로운 기능이 포함되었습니다.
 
 ---
-
+![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/banners/Project_Template.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDk5MTAyLDc2MzMxMDAxNCw2NjM4NT
-Q1MDcsLTE4OTE1NjM0NzcsLTk4MzQzNzYyMSwxMjk4MDgyNTU5
-LC04MTU2MTA3MTRdfQ==
+eyJoaXN0b3J5IjpbLTE2NzA4MDE1OTIsMTE2MDk5MTAyLDc2Mz
+MxMDAxNCw2NjM4NTQ1MDcsLTE4OTE1NjM0NzcsLTk4MzQzNzYy
+MSwxMjk4MDgyNTU5LC04MTU2MTA3MTRdfQ==
 -->
