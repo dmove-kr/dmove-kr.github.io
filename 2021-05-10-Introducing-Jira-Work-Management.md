@@ -10,8 +10,12 @@ Jira Core가 Jira Work Management 로 새롭게 태어났습니다.
 ---
 ### 친숙한 인터페이스를 갖춘 Jira의 힘 
 
-Jira Software는 애자일 팀에서 사용ㅎ
+Jira Software는 애자일 팀에서 사용하는 최고의 소프트웨어 개발 도구이며, Jira Service Management는 IT 및 운영 팀의 작업 방식을 현대화했습니다.
+
+그러나, 기술 팀에 권한을 부여하는 것만으로는 충분하지 않습니다. 
+모든 팀을 동일한 도구로 통합하는 것이 그 어느때보다 중요합니다. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzAzMjExNiwxMjk4MDgyNTU5LC04MT
-U2MTA3MTRdfQ==
+eyJoaXN0b3J5IjpbLTEzMzY3MDI3MjksMTI5ODA4MjU1OSwtOD
+E1NjEwNzE0XX0=
 -->
