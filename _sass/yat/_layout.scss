@@ -1,7 +1,8 @@
 /**
  * Animation for transparent header
  */
-html {
+ html {
+  font-family: 'Noto Sans KR', sans-serif !important;
   &[data-header-transparent] {
     header.site-header {
       position: fixed;
@@ -17,7 +18,7 @@ html {
 
       &.site-header {
         .site-brand-inner, .page-link {
-          color: #fff;
+          color: #FFFFFF;
           transition: 0.1s color;
         }
 
@@ -116,8 +117,9 @@ html {
   @include relative-font-size(1.125);
   line-height: $header-height;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 25px;
+  top: 10px;
+  z-index: 1000;
 
   .nav-trigger {
     display: none;
@@ -182,6 +184,74 @@ html {
       margin: 0 25px;
     }
   }
+}
+
+
+@media (min-width: 1200px) {
+  #header {
+    height: 104px;
+  }
+  #header .logo {
+    transform: none !important;
+    top: 33px !important;
+  }
+  .site-nav {
+    top: 24px;
+  }
+  .common-list {
+    margin-top: 24px;
+  }
+}
+.page-link {
+  color: #FFFFFF !important;
+  font-size: 18px;
+}
+.headerScroll {
+  background: rgba(255, 255, 255, 0.9) !important;
+  > .header-bottom > .logo > a > .logo_fix_only {
+    display: block !important;
+  }
+  > .header-bottom > .logo > a > .logo_fix_none {
+    display: none !important;
+  }
+  > .wrapper > .site-header-inner > .site-nav > .trigger > .page-link {
+    color: #129393 !important;
+  }
+}
+.logoEnable {
+  display: block !important;
+}
+@media screen and (max-width: 800px) { 
+  .site-nav > label > .menu-icon > svg {
+    fill: rgba(255, 255, 255, 0.8);
+    width: 24px;
+    height: 24px;
+    margin-top: 26px;
+  }
+  .trigger > .page-link {
+    color: #129393 !important;
+  }
+  .trigger {
+    background: rgba(255, 255, 255, 0.9);
+  }
+}
+@media screen and (max-width: 600px) {
+  .page-banner-img {
+    height: 300px !important;
+  }
+  .page-banner .wrapper {
+    height: 350px;
+  }
+  .page-banner-inner {
+    top: 40% !important;
+  }
+}
+h1 {
+  font-weight: 700 !important;
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+a {
+  font-family: 'Noto Sans KR', sans-serif !important;
 }
 
 /**
