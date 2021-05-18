@@ -8,7 +8,10 @@ Jira Core가 Jira Work Management 로 새롭게 태어났습니다.
 개발자 외에도 Jira를 사용하는 마케팅, 재무 및 HR과 같은 비 기술팀의 사용자들을 위해 Atlassian은 보다 친숙하고 직관적인 경험을 제공하는 제품을 개발하였습니다. 
 
 ---
-### 비 기술팀을 위한 작업 관리 도구 
+### 친숙한 인터페이스를 갖춘 Jira의 힘 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODA4MjU1OSwtODE1NjEwNzE0XX0=
+eyJoaXN0b3J5IjpbLTE1MTUxMDg5MTIsMTI5ODA4MjU1OSwtOD
+E1NjEwNzE0XX0=
 -->
