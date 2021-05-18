@@ -8,7 +8,7 @@ Jira Core가 Jira Work Management 로 새롭게 태어났습니다.
 새롭게 재탄생한 Jira Work Management를 통해 조직은 한 곳에서 작업의 모든 측면을 추적하고 관리할 수 있습니다. 
 
 ---
-## 비즈니스 팀을 위한 새로운 Jira 
+### 비즈니스 팀을 위한 새로운 Jira 
 
 Jira Software는 애자일 팀에서 사용하는 최고의 소프트웨어 개발 도구이지만, Jira를 사용하는 대부분의 사용자는 마케팅, 재무 및 HR과 같은 비 기술팀에 속합니다. 
 따라서 Atlassian은 보다 친숙하고 직관적인 경험을 제공하는 제품을 개발하였습니다. 
@@ -20,20 +20,22 @@ Jira Work Management는 기존의 Jira Core와 동일한 비즈니스 프로젝�
 
 ---
 
-## 혁신적인 작업 관리
+### 혁신적인 작업 관리
 
 디지털 방식으로의 업무 변화와 규모의 증가에 따라 체계적인 업무 관리는 점점 어려워지만, Jira를 활용하면 급격한 성장 속도와 변화를 따라잡을 수 있습니다. 
 
 Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자동화 등을 지원하며 다음과 같은 새로운 기능이 포함되었습니다.
 
 ---
+### 새로운 기능
 
  - 비즈니스 프로젝트 템플릿
+   마케팅, HR, 재무, 운영, 디자인 및 영업팀의 
 
 ![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/banners/Project_Template.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTE5Mzg3MSwtMTY3MDgwMTU5MiwxMT
-YwOTkxMDIsNzYzMzEwMDE0LDY2Mzg1NDUwNywtMTg5MTU2MzQ3
-NywtOTgzNDM3NjIxLDEyOTgwODI1NTksLTgxNTYxMDcxNF19
+eyJoaXN0b3J5IjpbOTgwNjMyMzcyLC0xNjcwODAxNTkyLDExNj
+A5OTEwMiw3NjMzMTAwMTQsNjYzODU0NTA3LC0xODkxNTYzNDc3
+LC05ODM0Mzc2MjEsMTI5ODA4MjU1OSwtODE1NjEwNzE0XX0=
 -->
