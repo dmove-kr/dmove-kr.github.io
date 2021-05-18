@@ -43,9 +43,12 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
    ![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/d5dd425a-a74e-4fdf-912d-2f0ea48f1641.gif)
 
 #### 타임라인
-기존의 Gantt 차트를 조정하여 작업 흐름 전반의 연결과 종속성을 강조하도록 설계
+기존의 Gantt 차트를 조정하여 작업 흐름 전반의 연결과 종속성을 강조하도록 설계하였습니다. 또한 팀이 프로젝트의 전체 그림을 파악할 수 있도록 담당자나 상태 같은 데이터를 막대 자체에 추가하였습니다. 
+![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/70fb012d-d739-4688-894c-4b925867ac7d.gif?resize=640,378&ssl=1)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODI4MjYwNiwtMTcyNTEzMDAwNCwxNT
+eyJoaXN0b3J5IjpbMTU1NzM1NTU1MywtMTcyNTEzMDAwNCwxNT
 I1MjA2OTk3LDExMzI2NzQ4OTgsLTE0NzgzMDEwOTIsLTE2NzA4
 MDE1OTIsMTE2MDk5MTAyLDc2MzMxMDAxNCw2NjM4NTQ1MDcsLT
 E4OTE1NjM0NzcsLTk4MzQzNzYyMSwxMjk4MDgyNTU5LC04MTU2
