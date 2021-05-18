@@ -16,13 +16,13 @@ Jira Software는 애자일 팀에서 사용하는 최고의 소프트웨어 개�
 Jira Work Management는 기존의 Jira Core와 동일한 비즈니스 프로젝트 관리 프로세스를 기반으로 만들어졌습니다. 
 이미 사용 중인 고객에게는 4월28일을 기점으로 데이터 손실이나 설정의 변경 없이 자동으로 업데이트 되었습니다. 
 
-Jira Work Management는 Jira Software 및 Jira Service Management와 쉽게 연결 되어 제품 전반의 작업 종속성을 갖출 수 있으며 Advanced Roadmap 과 같은 기능을 호환합니다. 
+또한 Jira Work Management는 Jira Software 및 Jira Service Management와 쉽게 연결 되어 제품 전반의 작업 종속성을 갖출 수 있으며 Advanced Roadmap 과 같은 기능을 호환합니다. 
 
 그러나, 기술 팀에 권한을 부여하는 것만으로는 충분하지 않습니다. 
 모든 팀을 동일한 도구로 통합하는 것이 그 어느때보다 중요합니다. 
 
 Jira Work Management는 비즈니스 관리 프로세스를 기반으로 만들어져, Jira Software 및 Jira Service Management와 연동하여 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY5MDk2MDgsLTk4MzQzNzYyMSwxMj
-k4MDgyNTU5LC04MTU2MTA3MTRdfQ==
+eyJoaXN0b3J5IjpbMTYxNjEyOTg5OCwtOTgzNDM3NjIxLDEyOT
+gwODI1NTksLTgxNTYxMDcxNF19
 -->
