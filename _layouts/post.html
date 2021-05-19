@@ -25,6 +25,14 @@ sidebar:
 
     {%- include views/article.html -%}
 
+    {%- if page.tags.size > 0 -%}
+    <div class="post-tags">
+      {%- for tag in page.tags -%}
+      <a class="post-tag" href="{{ '/tags.html ' | relative_url }}#{{tag}}">#{{tag}}</a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
     {%- assign result = hidden | where_exp: "item", "item == 'navigator'" -%}
     {%- if result.size == 0 -%}
     <div class="post-nav">
