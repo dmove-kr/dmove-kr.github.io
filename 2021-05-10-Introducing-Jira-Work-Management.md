@@ -58,18 +58,16 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
 좌측상단의 페인트 아이콘을 누르면 14가지의 배경색 중 원하는 색으로 변경할 수 있습니다. 
 
 ---
-[Jira Work Management]
-
 디무브는 Atlassian의 공식 파트너사로, 모든 팀이 Jira를 통해 잠재력을 발휘할 수 있도록 지원하고 있습니다. 
 
-새로운 Jira Work Management를 통해 더욱 강력하게 비즈니스 프로젝트를 관리해보고 싶으시다면 언제든지 문의해주세요. 
+새로운 [Jira Work Management](http://dmove.co.kr/products/atlassian/jira-work-management)를 통해 더욱 강력하게 비즈니스 프로젝트를 관리해보고 싶으시다면 언제든지 문의해주세요. 
 
-감사합니다. 
+감사합니다 :)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk4NTY4NiwtMTEyNjM4MTIzLDYwOD
-YzOTA5LC02OTIxMTEwMzEsMTk4MDg1MTc2MywtNTkzOTcyNTAw
-LDE1NTczNTU1NTMsLTE3MjUxMzAwMDQsMTUyNTIwNjk5NywxMT
-MyNjc0ODk4LC0xNDc4MzAxMDkyLC0xNjcwODAxNTkyLDExNjA5
-OTEwMiw3NjMzMTAwMTQsNjYzODU0NTA3LC0xODkxNTYzNDc3LC
-05ODM0Mzc2MjEsMTI5ODA4MjU1OSwtODE1NjEwNzE0XX0=
+eyJoaXN0b3J5IjpbMTIyMjg0MTgzLC0xMTI2MzgxMjMsNjA4Nj
+M5MDksLTY5MjExMTAzMSwxOTgwODUxNzYzLC01OTM5NzI1MDAs
+MTU1NzM1NTU1MywtMTcyNTEzMDAwNCwxNTI1MjA2OTk3LDExMz
+I2NzQ4OTgsLTE0NzgzMDEwOTIsLTE2NzA4MDE1OTIsMTE2MDk5
+MTAyLDc2MzMxMDAxNCw2NjM4NTQ1MDcsLTE4OTE1NjM0NzcsLT
+k4MzQzNzYyMSwxMjk4MDgyNTU5LC04MTU2MTA3MTRdfQ==
 -->
