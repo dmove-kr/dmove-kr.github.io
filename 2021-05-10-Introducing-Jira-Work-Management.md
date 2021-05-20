@@ -44,17 +44,19 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
 
 #### 타임라인
 기존의 Gantt 차트를 조정하여 작업 흐름 전반의 연결과 종속성을 강조하도록 설계하였습니다. 또한 팀이 프로젝트의 전체 그림을 파악할 수 있도록 담당자, 상태와 같은 데이터를 막대 자체에 추가하였습니다. 
-![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/70fb012d-d739-4688-894c-4b925867ac7d.gif?resize=640,378&ssl=1)
+![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/70fb012d-d739-4688-894c-4b925867ac7d.gif)
 
 #### 보드 
 작업이 속한 워크 플로의 진행 과정을 보드 형식으로 표시하여 진행 중인 작업을 확인 및 관리하고 보고할 수 있습니다. 드래그 앤 드롭 형식으로 쉽게 이동이 가능합니다. 
-![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/4f17ad2b-9191-44fa-81b9-674fc914c3c3.gif?resize=640,345&ssl=1)
+![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/4f17ad2b-9191-44fa-81b9-674fc914c3c3.gif)
 
 ####양식
 양식을 사용하여 요구사항에 따라 프로젝트를 쉽게 조정할 수 있습니다.  드래그앤 드롭 방식으로 빠르게 양식을 만들고 관련된 작업을 통합하여 업무의 흐름이 끊기지 않도록 지원합니다. 
-![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/08b6a9ce-5390-4b3a-acbc-96d1e20eba84.gif?resize=640,327&ssl=1)
+![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/08b6a9ce-5390-4b3a-acbc-96d1e20eba84.gif)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTc3OTA1NywtNTkzOTcyNTAwLDE1NT
+eyJoaXN0b3J5IjpbMTk4MDg1MTc2MywtNTkzOTcyNTAwLDE1NT
 czNTU1NTMsLTE3MjUxMzAwMDQsMTUyNTIwNjk5NywxMTMyNjc0
 ODk4LC0xNDc4MzAxMDkyLC0xNjcwODAxNTkyLDExNjA5OTEwMi
 w3NjMzMTAwMTQsNjYzODU0NTA3LC0xODkxNTYzNDc3LC05ODM0
