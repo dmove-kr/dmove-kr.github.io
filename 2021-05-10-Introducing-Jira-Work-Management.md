@@ -58,13 +58,16 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
 좌측상단의 페인트 아이콘을 누르면 14가지의 배경색 중 원하는 색으로 변경할 수 있습니다. 
 
 ---
-** Jira Work Management **는 모든 사람이 쉽게 사용할 수 있습니다. 
+[Jira Work Management](http://dmove.co.kr/products/atlassian/jira-work-management)는 모든 사람이 쉽게 사용할 수 있도록 설계되었습니다.
 
+Jira Cloud를 이미 사용 중이시라면, 추가 비용 없이 새로운 Jira Work Management 환경으로 마이그레이션이 되었으니 확인해보세요!
+
+Atlassian은 모든 팀이 잠재력을 발휘할 수 있도록 지
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjYzODEyMyw2MDg2MzkwOSwtNjkyMT
-ExMDMxLDE5ODA4NTE3NjMsLTU5Mzk3MjUwMCwxNTU3MzU1NTUz
-LC0xNzI1MTMwMDA0LDE1MjUyMDY5OTcsMTEzMjY3NDg5OCwtMT
-Q3ODMwMTA5MiwtMTY3MDgwMTU5MiwxMTYwOTkxMDIsNzYzMzEw
-MDE0LDY2Mzg1NDUwNywtMTg5MTU2MzQ3NywtOTgzNDM3NjIxLD
-EyOTgwODI1NTksLTgxNTYxMDcxNF19
+eyJoaXN0b3J5IjpbMTI1OTgwNjUwOSwtMTEyNjM4MTIzLDYwOD
+YzOTA5LC02OTIxMTEwMzEsMTk4MDg1MTc2MywtNTkzOTcyNTAw
+LDE1NTczNTU1NTMsLTE3MjUxMzAwMDQsMTUyNTIwNjk5NywxMT
+MyNjc0ODk4LC0xNDc4MzAxMDkyLC0xNjcwODAxNTkyLDExNjA5
+OTEwMiw3NjMzMTAwMTQsNjYzODU0NTA3LC0xODkxNTYzNDc3LC
+05ODM0Mzc2MjEsMTI5ODA4MjU1OSwtODE1NjEwNzE0XX0=
 -->
