@@ -47,11 +47,11 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
 ![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/70fb012d-d739-4688-894c-4b925867ac7d.gif?resize=640,378&ssl=1)
 
 #### 보드 
-보드 보기는 작업이 속한 워크 플로의 진행 과정을 표시하여 진행 중인 작업을 확인 및 관리하고 보고하는 
+작업이 속한 워크 플로의 진행 과정을 보드 형식으로 표시하여 진행 중인 작업을 확인 및 관리하고 보고할 수 있습니다. 드래그 앤 드롭 형식으로 쉽게 이동이 가능합니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk1MDk3MDIsMTU1NzM1NTU1MywtMT
-cyNTEzMDAwNCwxNTI1MjA2OTk3LDExMzI2NzQ4OTgsLTE0Nzgz
-MDEwOTIsLTE2NzA4MDE1OTIsMTE2MDk5MTAyLDc2MzMxMDAxNC
-w2NjM4NTQ1MDcsLTE4OTE1NjM0NzcsLTk4MzQzNzYyMSwxMjk4
-MDgyNTU5LC04MTU2MTA3MTRdfQ==
+eyJoaXN0b3J5IjpbLTU5Mzk3MjUwMCwxNTU3MzU1NTUzLC0xNz
+I1MTMwMDA0LDE1MjUyMDY5OTcsMTEzMjY3NDg5OCwtMTQ3ODMw
+MTA5MiwtMTY3MDgwMTU5MiwxMTYwOTkxMDIsNzYzMzEwMDE0LD
+Y2Mzg1NDUwNywtMTg5MTU2MzQ3NywtOTgzNDM3NjIxLDEyOTgw
+ODI1NTksLTgxNTYxMDcxNF19
 -->
