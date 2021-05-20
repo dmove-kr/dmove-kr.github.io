@@ -54,12 +54,13 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
 양식을 사용하여 요구사항에 따라 프로젝트를 쉽게 조정할 수 있습니다.  드래그앤 드롭 방식으로 빠르게 양식을 만들고 관련된 작업을 통합하여 업무의 흐름이 끊기지 않도록 지원합니다. 
 ![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/08b6a9ce-5390-4b3a-acbc-96d1e20eba84.gif)
 
-##
+#### 배경색 변경
+좌측상단의 페인트 아이콘을 누르면 14가지의 배경색 중 원하는 색으로 변경할 수 있습니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzUwODE4MzcsMTk4MDg1MTc2MywtNT
-kzOTcyNTAwLDE1NTczNTU1NTMsLTE3MjUxMzAwMDQsMTUyNTIw
-Njk5NywxMTMyNjc0ODk4LC0xNDc4MzAxMDkyLC0xNjcwODAxNT
-kyLDExNjA5OTEwMiw3NjMzMTAwMTQsNjYzODU0NTA3LC0xODkx
-NTYzNDc3LC05ODM0Mzc2MjEsMTI5ODA4MjU1OSwtODE1NjEwNz
-E0XX0=
+eyJoaXN0b3J5IjpbLTY5MjExMTAzMSwxOTgwODUxNzYzLC01OT
+M5NzI1MDAsMTU1NzM1NTU1MywtMTcyNTEzMDAwNCwxNTI1MjA2
+OTk3LDExMzI2NzQ4OTgsLTE0NzgzMDEwOTIsLTE2NzA4MDE1OT
+IsMTE2MDk5MTAyLDc2MzMxMDAxNCw2NjM4NTQ1MDcsLTE4OTE1
+NjM0NzcsLTk4MzQzNzYyMSwxMjk4MDgyNTU5LC04MTU2MTA3MT
+RdfQ==
 -->
