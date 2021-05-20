@@ -62,9 +62,9 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
 
 Jira Cloud를 이미 사용 중이시라면, 추가 비용 없이 새로운 Jira Work Management 환경으로 마이그레이션이 되었으니 확인해보세요!
 
-Atlassian은 모든 팀이 잠재력을 발휘할 수 있도록 지
+디무브는 Atlassian의 "모든 팀이 잠재력을 발휘 할 수 있는 것" 우리나라의 고객들이 보다 Atlassian 솔루션 통해 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTgwNjUwOSwtMTEyNjM4MTIzLDYwOD
+eyJoaXN0b3J5IjpbMTQwNzcwODM5NSwtMTEyNjM4MTIzLDYwOD
 YzOTA5LC02OTIxMTEwMzEsMTk4MDg1MTc2MywtNTkzOTcyNTAw
 LDE1NTczNTU1NTMsLTE3MjUxMzAwMDQsMTUyNTIwNjk5NywxMT
 MyNjc0ODk4LC0xNDc4MzAxMDkyLC0xNjcwODAxNTkyLDExNjA5
