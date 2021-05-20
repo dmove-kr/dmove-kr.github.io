@@ -56,11 +56,13 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
 
 #### 배경색 변경
 좌측상단의 페인트 아이콘을 누르면 14가지의 배경색 중 원하는 색으로 변경할 수 있습니다. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjExMTAzMSwxOTgwODUxNzYzLC01OT
-M5NzI1MDAsMTU1NzM1NTU1MywtMTcyNTEzMDAwNCwxNTI1MjA2
-OTk3LDExMzI2NzQ4OTgsLTE0NzgzMDEwOTIsLTE2NzA4MDE1OT
-IsMTE2MDk5MTAyLDc2MzMxMDAxNCw2NjM4NTQ1MDcsLTE4OTE1
-NjM0NzcsLTk4MzQzNzYyMSwxMjk4MDgyNTU5LC04MTU2MTA3MT
-RdfQ==
+eyJoaXN0b3J5IjpbNjA4NjM5MDksLTY5MjExMTAzMSwxOTgwOD
+UxNzYzLC01OTM5NzI1MDAsMTU1NzM1NTU1MywtMTcyNTEzMDAw
+NCwxNTI1MjA2OTk3LDExMzI2NzQ4OTgsLTE0NzgzMDEwOTIsLT
+E2NzA4MDE1OTIsMTE2MDk5MTAyLDc2MzMxMDAxNCw2NjM4NTQ1
+MDcsLTE4OTE1NjM0NzcsLTk4MzQzNzYyMSwxMjk4MDgyNTU5LC
+04MTU2MTA3MTRdfQ==
 -->
