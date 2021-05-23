@@ -472,6 +472,17 @@ a {
     word-wrap: normal;
     word-break: normal;
 
+    .post-content-Htag{
+	     float:left;
+        padding:10px;
+        width:60%;
+
+    }
+    .post-content-forCloud{
+	float:left;
+	padding:10px;
+	width:20%;
+    }
     h2 {
       @include relative-font-size(2);
 

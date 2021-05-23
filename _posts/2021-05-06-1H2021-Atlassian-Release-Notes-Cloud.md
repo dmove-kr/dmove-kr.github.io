@@ -12,9 +12,9 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud]
 
 안녕하세요, 디무브 입니다!
 
- 
 
-올해 1분기가 거의 다 지나가고 있습니다. 기간 동안  Jira와 Confluence도 크고 작은 변화가 있었는데요. 제품 별로 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다. 
+
+올해 벌써 상반기가 지나가고 곧 3분기가 다가오고 있습니다.  기간 동안  Jira와 Confluence도 크고 작은 변화가 있었는데요. 제품 별로 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다.
 
 <hr>
 
@@ -23,11 +23,14 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud]
 
 
 
-<h3 id="1월" data-renderer-start-pos="136">1월</h3>
-  
-  
-  
-<ul class="ak-ul" data-indent-level="1"><li><p data-renderer-start-pos="144">로드맵 : 새롭게 생성된 이슈는 담당자와 레이블 필터에 매칭됩니다 (Rolling Out , New This Week) </p></li></ul>
+<h3 id="1월">1월</h3>
+
+
+
+
+
+<h4 id="1. 로드맵 : 새롭게 생성된 이슈는 담당자와 레이블 필터에 매칭됩니다">1. 로드맵 : 새롭게 생성된 이슈는 담당자와 레이블 필터에 매칭됩니다</h4>
+
 
 
 ![Jira Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-1.png)
@@ -43,7 +46,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud]
 
 
 
-<ul class="ak-ul" data-indent-level="1"><li><p data-renderer-start-pos="289">향상된 Release 기능 (Rolling Out) </p></li></ul>
+<h4 id="2. 향상된 Release 기능">2. 향상된 Release 기능 (Rolling Out) </h4>
 
 
 
@@ -75,7 +78,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud]
 
 
 
-<ul class="ak-ul" data-indent-level="1"><li><p data-renderer-start-pos="627">Media Picker를 시스템의 파일 업로드로 변경 (Rolling Out , New This Week) </p></li></ul>
+<h4 id="3. Media Picker를 시스템의 파일 업로드로 변경">3. Media Picker를 시스템의 파일 업로드로 변경 (Rolling Out , New This Week)</h4>
 
 
 
@@ -91,7 +94,7 @@ Files and images 버튼을 클릭하면 나타나는 Media Picker dialog 가 기
 
 
 
-<ul class="ak-ul" data-indent-level="1"><li><p data-renderer-start-pos="885">배포 날짜 범위 지정 필터 </p></li></ul>
+<h4 id="4. 배포 날짜 범위 지정 필터">4. 배포 날짜 범위 지정 필터 </h4>
 
 
 
@@ -112,7 +115,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-<ul class="ak-ul" data-indent-level="1"><li><p data-renderer-start-pos="1031">향상된 RoadMap - Planned Capacity (Rolling Out)</p></li></ul>
+<h4 id="1. 향상된 RoadMap - Planned Capacity ">1. 향상된 RoadMap - Planned Capacity (Rolling Out) </h4>
 
 
 <p data-renderer-start-pos="1069">새로운 Planned Capacity 도구를 사용하여 스프린트를 계획하고 작업을 보다 효율적으로 할당할 수 있습니다. 이 기능을 사용하여 팀이 반복하여 완료할 수 있는 평균 작업량을 설정한 다음 , 다음 작업의 균형을 맞출 수 있습니다. 또한 Overbooking 하지 않도록 반복할 수 있는 용량을 확인 할 수 있습니다.  → <a class="sc-gleUXh dNInRj" href="https://confluence.atlassian.com/advancedroadmapscloud/capacity-and-velocity-998651192.html" title="https://confluence.atlassian.com/advancedroadmapscloud/capacity-and-velocity-998651192.html" data-renderer-mark="true">자세히 보기</a> </p>
@@ -120,10 +123,10 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 <p data-renderer-start-pos="1262">&nbsp;</p>
 
-<ul class="ak-ul" data-indent-level="1"><li><p data-renderer-start-pos="1031">향상된 RoadMap - story-level 이슈 드래그 앤 드롭 기능 (Rolling Out, New This Week)</p></li></ul>
+<h4 id="2. 향상된 RoadMap - story-level 이슈 드래그 앤 드롭 기능 (Rolling Out, New This Week)">2. 향상된 RoadMap - story-level 이슈 드래그 앤 드롭 기능 (Rolling Out, New This Week)</h4>
 
 
-이슈의 드래그 앤 드롭 기능을 활용해 현재 에픽에서 이슈의 순위를 조정하거나 새로운 에픽으로 이동하실 수 있습니다. 
+이슈의 드래그 앤 드롭 기능을 활용해 현재 에픽에서 이슈의 순위를 조정하거나 새로운 에픽으로 이동하실 수 있습니다.
 
 
 
@@ -131,7 +134,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-<ul class="ak-ul" data-indent-level="1"><li><p data-renderer-start-pos="1031">Jira 사이트 가져오기에 대한 익명 엑세스 검사 기능 (Rolling Out)</p></li></ul>
+<h4 id="3. Jira 사이트 가져오기에 대한 익명 엑세스 검사 기능 (Rolling Out) ">3. Jira 사이트 가져오기에 대한 익명 엑세스 검사 기능 (Rolling Out)</h4>
 
 
 
@@ -141,7 +144,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 <p data-renderer-start-pos="1618">&nbsp;</p>
 
 
-<ul class="ak-ul" data-indent-level="1"><li><p data-renderer-start-pos="1031">Portal Group & Request 유형 관리 및 편지 속도 향상 (Rolling Out, New This Week)</p></li></ul>
+<h4 id="4. Portal Group & Request 유형 관리 및 편지 속도 향상">4. Portal Group & Request 유형 관리 및 편지 속도 향상 (Rolling Out, New This Week) </h4>
 
 
 
@@ -151,7 +154,7 @@ Request 유형 페이지 에서 직접 Request 유형을 Portal Group에 추가�
 <p data-renderer-start-pos="1878">&nbsp;</p>
 
 
-<p data-renderer-start-pos="1882">Third-Party 레포지토리 및 마켓플레이스 앱 통합 지원 (New This Week)  </p>
+<h4 id="5. Third-Party 레포지토리 및 마켓플레이스 앱 통합 지원">5. Third-Party 레포지토리 및 마켓플레이스 앱 통합 지원 (New This Week)  </h4>
 
 
 
@@ -167,7 +170,7 @@ Request 유형 페이지 에서 직접 Request 유형을 Portal Group에 추가�
 <p data-renderer-start-pos="2127">&nbsp;</p>
 
 
-<ul class="ak-ul" data-indent-level="1"><li><p data-renderer-start-pos="2131">이슈 보기 : 에픽 상태 필드 추가 (Rolling Out) </p></li></ul>
+<h4 id="6. 이슈 보기 : 에픽 상태 필드 추가 (Rolling Out)">6. 이슈 보기 : 에픽 상태 필드 추가 (Rolling Out) </h4>
 
 
 
@@ -259,7 +262,7 @@ Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통
 
 ■ 차세대 프로젝트는 “팀 관리 프로젝트”로 이름이 변경되며 기능 자체는 그대로 유지됩니다.
 
-■  클래식 프로젝트는 “회사 관리 프로젝트”로 이름이 변경되었습니다. 
+■  클래식 프로젝트는 “회사 관리 프로젝트”로 이름이 변경되었습니다.
 
 
 
@@ -281,10 +284,10 @@ Jira Software의 "pages" 기능을 "project pages"로 이름을 변경하고 사
 
 프로젝트 페이지는 Jira Software 프로젝트를 Confluence 스페이스에 연결하여 문서를 한 곳에 보관합니다. 아직 사이트에 Confluence가 없는 경우 사이트 관리자는 왼쪽 탐색 패널의 프로젝트 페이지 기능을 통해 무료 평가판 인 제품 사용을 시작할 수 있습니다.
 
- 
- 
+
+
  <p data-renderer-start-pos="3276">&nbsp;</p>
- 
+
 
 연결된 공간의 페이지는 지라의 프로젝트 페이지 기능에서 구성될 것입니다. 모든 페이지 구성 및 Confluence의 사용 권한은 유지됩니다. 적절한 권한이 있는 사용자는 프로젝트 페이지를 사용하여 Confluence 페이지를 만들고 기존 문서를 볼 수 있습니다.
 
@@ -318,7 +321,7 @@ Jira Software의 "pages" 기능을 "project pages"로 이름을 변경하고 사
 
 
 
-사용자는 오직 사이트 설정에서 허용하는 경우에만 액세스를 요청하거나 Confluence 에 가입할 수 있습니다. 
+사용자는 오직 사이트 설정에서 허용하는 경우에만 액세스를 요청하거나 Confluence 에 가입할 수 있습니다.
 
 
 
@@ -456,14 +459,14 @@ Jira Software의 "pages" 기능을 "project pages"로 이름을 변경하고 사
 
 
 
-프로젝트에서 주요 Incident를 타임라인과 함께 Jira Service Management에서 전체 기록을 확인할 수 있습니다. 실제 Incident가 발생할 때의 진행 상황을 추적하고, 이를 해결하기 위해 어떤 작업이 수행되었는지, 어떤 작업이 수행되어야 하는지 신속하게 확인할 수 있습니다. 
+프로젝트에서 주요 Incident를 타임라인과 함께 Jira Service Management에서 전체 기록을 확인할 수 있습니다. 실제 Incident가 발생할 때의 진행 상황을 추적하고, 이를 해결하기 위해 어떤 작업이 수행되었는지, 어떤 작업이 수행되어야 하는지 신속하게 확인할 수 있습니다.
 
 
 
 <p data-renderer-start-pos="5708">&nbsp;</p>
 
 
- 
+
 <p data-renderer-start-pos="5710">주요 인시던트의 인시던트 타임라인을 보려면 인시던트로 이동하여 주요 인시던트에서 계속 또는 과거 인시던트를 선택합니다. 그런 다음 탐색할 주요 인시던트를 찾아 해당 인시던트의 타임라인 열에서 보기를 선택합니다.</p>
 
 
@@ -580,9 +583,9 @@ Jira Software의 "pages" 기능을 "project pages"로 이름을 변경하고 사
 
 ■ 계층 구조로 보기 : 스페이스 사이드 바를 활용하여 스페이스의 모든 페이지를 보고 변경할 수 있습니다. 이것은 Space Settings → Contents Tools → Reorder pages 에서 확인 가능합니다.
 
- 
+
  <p data-renderer-start-pos="7120">&nbsp;</p>
- 
+
 
 
 <ul class="ak-ul" data-indent-level="1"><li><p data-renderer-start-pos="7124">Media Picker를 시스템의 파일 업로드로 변경 (Rolling Out ,New This Week)</p></li></ul>
@@ -673,10 +676,10 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 <p data-renderer-start-pos="7915">&nbsp;</p>
 
 
-스페이스를 다른 스페이스와 시각적으로 알기 쉽게 구분하도록 하기 위해, 모든 새로운 스페이스에 동일한 폴더 이미지가 스페이스에 할당된 기본 아이콘이 무작위로 표시 됩니다. 
+스페이스를 다른 스페이스와 시각적으로 알기 쉽게 구분하도록 하기 위해, 모든 새로운 스페이스에 동일한 폴더 이미지가 스페이스에 할당된 기본 아이콘이 무작위로 표시 됩니다.
 
 <p></p>
- 
+
 
 스페이스 를 담당하는 사람은 설정된 기본 아이콘을 변경하거나 자신이 원하는 아이콘으로 업로드하여 변경하실 수 있습니다. 기존에 존재하는 스페이스는 적용되지 않습니다.
 
@@ -737,7 +740,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 사이트에 Jira 및 Confluence가 활성화되어 있는 경우, 적절한 사용 권한이 있는 사용자는 Jira의 프로젝트 페이지 기능을 사용하여 Confluence에 액세스하고 관련 문서와 내용을 찾을 수 있습니다.
 
-사용자는 오직 사이트 설정에서 허용하는 경우에만 액세스를 요청하거나 Confluence 에 가입할 수 있습니다. 
+사용자는 오직 사이트 설정에서 허용하는 경우에만 액세스를 요청하거나 Confluence 에 가입할 수 있습니다.
 
 
 
@@ -758,14 +761,14 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 페이지나 블로그를 출판 하기 전에  “ ••• 클릭” → “Schedule Publish” 를 통해 페이지 또는 블로그의 출판 시간을 설정하실 수 있습니다. 내용이 실제로 게시될 때까지 사용자가 언급한 사용자 또는 페이지, 블로그 또는 공간을 보고 있는 사용자에게 통지가 발송되지 않습니다.
 
- 
+
 
 페이지 또는 블로그가 특정 요일 및 시간에 게시되도록 설정되어 있는지 확인하기 위해  [출판] 버튼이 [예약됨]으로 변경됩니다. 페이지 상단과 최근 페이지 목록의 페이지 제목 옆에 [Publish Scheduled] 표시가 표시됩니다.
 
 <p data-renderer-start-pos="9295">&nbsp;</p>
 
 
-편집기에 anchor(책갈피) 매크로를 사용하실 수 있습니다 (New This Week) 
+편집기에 anchor(책갈피) 매크로를 사용하실 수 있습니다 (New This Week)
 
 
 
@@ -783,7 +786,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 <p data-renderer-start-pos="9487">&nbsp;</p>
- 
+
 
 
 
@@ -795,7 +798,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 사이트 및 제품 관리자가 이러한 사이트 수준 사용 권한을 쉽게 읽고 변경할 수 있도록 전역 권한 페이지를 업그레이드했습니다.
 
- 
+
 
 사용자 그룹, JSM 액세스, 익명 액세스 및 앱 등 사용자 유형별로 페이지를 탭으로 재구성하고 각 탭의 모양을 새로 고쳐서 정보를 보다 깨끗하고 쉽게 검색할 수 있도록 했습니다.
 
@@ -838,18 +841,8 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 <p data-renderer-start-pos="9929">&nbsp;</p>
 
 
-때로는 페이지 제목만으로는 적절한 페이지를 선택하기에 충분하지 않을 수 있습니다. 스페이스의 사이드바에서 페이지 이름을 가리키면 스페이스에 대한 자세한 정보(예: 마지막으로 업데이트된 시간, 페이지를 만든 사람, 페이지에 있는 주석 수 및 좋아요 수)를 볼 수 있습니다. 
+때로는 페이지 제목만으로는 적절한 페이지를 선택하기에 충분하지 않을 수 있습니다. 스페이스의 사이드바에서 페이지 이름을 가리키면 스페이스에 대한 자세한 정보(예: 마지막으로 업데이트된 시간, 페이지를 만든 사람, 페이지에 있는 주석 수 및 좋아요 수)를 볼 수 있습니다.
 
 <p data-renderer-start-pos="10085">&nbsp;</p>
 
 <p data-renderer-start-pos="10087">페이지 카드를 볼 때 각 사용자가 제어할 수 있으므로, 이 기능이 유용하지 않으면 사용자 설정에서 해제할 수 있습니다.</p>
-
-
-
-
-
-
-
-
- 
-

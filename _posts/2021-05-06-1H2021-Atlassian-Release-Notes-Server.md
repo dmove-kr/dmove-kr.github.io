@@ -13,7 +13,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
  
 
-올해도 벌써 상반기가 지나가고 곧 3분기가 다가오고 있습니다.. 기간 동안  Jira와 Confluence도 크고 작은 변화가 있었는데요. 제품 별로 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다. 
+올해도 벌써 상반기가 지나가고 곧 3분기가 다가오고 있습니다. 기간 동안  Jira와 Confluence도 크고 작은 변화가 있었는데요. 제품 별로 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다. 
 
 <hr>
 
