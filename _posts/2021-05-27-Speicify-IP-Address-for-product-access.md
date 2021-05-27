@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Atlassian Cloud] 제품 엑세스를 위한 IP 주소 허용 및 지정
+title: Atlassian Cloud - 제품 엑세스를 위한 IP 주소 허용 및 지정
 subtitle: Specify IP addresses for product access
 date: 2021-05-27
 categories: [Atlassian Solutions]
