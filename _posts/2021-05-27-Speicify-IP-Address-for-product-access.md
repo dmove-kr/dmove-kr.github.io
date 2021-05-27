@@ -83,4 +83,4 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud]
 
 <p data-renderer-start-pos="1227">&nbsp;</p>
 
-<p data-renderer-start-pos="1229">  2. 만들기 양식에 <strong>이름, 허용하려는 제품, 허용하려는 IP 주소(단일 또는 다수),사용 설정</strong>을 작성 후 만들기 버튼 클릭을 하시면 허용 목록이 만들어 집니다.</p>
+<p data-renderer-start-pos="1229">  2. 만들기 양식에 <strong>이름, 허용하려는 제품, 허용하려는 IP 주소(단일 또는 다수),사용 설정</strong>을 작성 후 만들기 버튼 클릭을 하시면 허용 목록이 니다.</p>
