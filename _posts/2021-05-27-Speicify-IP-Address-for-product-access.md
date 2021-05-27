@@ -29,13 +29,14 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud]
 
 <p data-renderer-start-pos="431">현재 IP 허용목록은 다음과 같은 페이지에 적용됩니다.</p>
 
+<p>
 <ul style="list-style-type:disc;">
 <li><p data-renderer-start-pos="497">   1. Jira tasks, issues, projects</p></li>
 <li><p data-renderer-start-pos="497">   2. Conlfuence Pages and Spaces</p></li>
 <li><p data-renderer-start-pos="528">   3. Jira Administration</p></li>
 <li><p data-renderer-start-pos="551">   4. Confluence administration</p></li>
 </ul>
-
+</p>
 
 <p data-renderer-start-pos="580">&nbsp;</p>
 
@@ -66,7 +67,7 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud]
 <h3 id="IP-허용-목록-서비스-찾기" data-renderer-start-pos="1055">IP 허용 목록 서비스 찾기</h3>
 
 <img src="/assets/images/banners/Specify-IP-access/ip_allow_list_find.png">
-![ip_allow_list_find](/assets/images/banners/Specify-IP-access/ip_allow_list_find.png)
+
 
 <p data-renderer-start-pos="1075">&nbsp;</p>
 
@@ -74,11 +75,11 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud]
 
 <h3 id="IP-허용-목록-추가" data-renderer-start-pos="1156">IP 허용 목록 추가</h3>
 
-![ip_allow_list_1](/assets/images/banners/Specify-IP-access/ip_allow_list_1.png)
+<img src="/assets/images/banners/Specify-IP-access/ip_allow_list_1.png">
 
 <p data-renderer-start-pos="1174">  1. IP 허용 목록에서 허용 목록 만들기 (Create allowlist)를 클릭</p>
 
-![ip_allow_list_2](/assets/images/banners/Specify-IP-access/ip_allow_list_2.png)
+<img src="/assets/images/banners/Specify-IP-access/ip_allow_list_2.png">
 
 <p data-renderer-start-pos="1227">&nbsp;</p>
 
