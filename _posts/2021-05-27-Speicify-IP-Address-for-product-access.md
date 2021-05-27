@@ -11,9 +11,9 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud]
 
 <p data-renderer-start-pos="1">안녕하세요, 디무브 입니다. </p>
 
-<p data-renderer-start-pos="21">이번에는 기술적인 내용을 가지고 왔습니다.  바로<strong> “제품 엑세스를 위한
- IP 주소 허용 및 지정“</strong> 방법인데요!
-<p data-renderer-start-pos="84"><strong>“IP 주소 허용 기능”</strong>은 현재  Jira와  Confluence Premium 플랜에서 사용하실 수 있습니다. </p>
+<p data-renderer-start-pos="21">이번에는 기술적인 내용을 가지고 왔습니다.  바로<strong> 제품 엑세스를 위한
+ IP 주소 허용 및 지정</strong> 방법인데요!
+<p data-renderer-start-pos="84"><strong>IP 주소 허용 기능</strong>은 현재  Jira와  Confluence Premium 플랜에서 사용하실 수 있습니다. </p>
 
 
 
