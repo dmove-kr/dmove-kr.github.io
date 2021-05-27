@@ -65,7 +65,7 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud]
 
 <h3 id="IP-허용-목록-서비스-찾기" data-renderer-start-pos="1055">IP 허용 목록 서비스 찾기</h3>
 
-![ip 허용 이미지](https://dmove-kr.github.io/assets/images/banners/Specify-IP-access/ip_allow_list_find.png)
+![ip_allow_list_find](./assets/images/banners/Specify-IP-access/ip_allow_list_find.png)
 
 <p data-renderer-start-pos="1075">&nbsp;</p>
 
@@ -73,11 +73,11 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud]
 
 <h3 id="IP-허용-목록-추가" data-renderer-start-pos="1156">IP 허용 목록 추가</h3>
 
-![ip 허용 이미지](https://dmove-kr.github.io/assets/images/banners/Specify-IP-access/ip_allow_list_1.png)
+![ip_allow_list_1](./assets/images/banners/Specify-IP-access/ip_allow_list_1.png)
 
 <p data-renderer-start-pos="1174">  1. IP 허용 목록에서 허용 목록 만들기 (Create allowlist)를 클릭</p>
 
-![ip 허용 이미지](https://dmove-kr.github.io/assets/images/banners/Specify-IP-access/ip_allow_list_2.png)
+![ip_allow_list_2](./assets/images/banners/Specify-IP-access/ip_allow_list_2.png)
 
 <p data-renderer-start-pos="1227">&nbsp;</p>
 
