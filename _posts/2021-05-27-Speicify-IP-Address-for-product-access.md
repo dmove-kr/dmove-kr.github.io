@@ -31,10 +31,10 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud]
 
 <p>
 <ul style="list-style-type:disc;">
-<li><p data-renderer-start-pos="497">   1. Jira tasks, issues, projects</p></li>
-<li><p data-renderer-start-pos="497">   2. Conlfuence Pages and Spaces</p></li>
-<li><p data-renderer-start-pos="528">   3. Jira Administration</p></li>
-<li><p data-renderer-start-pos="551">   4. Confluence administration</p></li>
+<li><p data-renderer-start-pos="497">   Jira tasks, issues, projects</p></li>
+<li><p data-renderer-start-pos="497">   Conlfuence Pages and Spaces</p></li>
+<li><p data-renderer-start-pos="528">   Jira Administration</p></li>
+<li><p data-renderer-start-pos="551">   Confluence administration</p></li>
 </ul>
 </p>
 
