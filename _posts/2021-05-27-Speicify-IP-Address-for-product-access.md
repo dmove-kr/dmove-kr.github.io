@@ -23,7 +23,7 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud]
 
 <p data-renderer-start-pos="164">&nbsp;</p>
 
-<p data-renderer-start-pos="166">IP 허용 목록은 통해 사용자가 Jira Software, Jira Service Management, Confluence 용 콘텐츠에 엑세스 할 때 허용할 수 있는 IP를 지정하여 “특정 IP만 접근이 가능하도록 허용” 하는 것입니다.</p>
+<p data-renderer-start-pos="166">IP 허용 목록은 통해 사용자가 Jira Software, Jira Service Management, Confluence 용 콘텐츠에 엑세스 할 때 허용할 수 있는 IP를 지정하여 <Strong>특정 IP만 접근이 가능하도록 허용</Strong> 하는 것입니다.</p>
 
 <p data-renderer-start-pos="303">Jira Software Premium에 대한 허용 목록을 설정하면 동일한 사이트의 Jira Service Management에 대한 고객 및 에이전트 포털에도 적용 되며, 이는 Confluence에도 동일하게 적용됩니다.</p>
 
