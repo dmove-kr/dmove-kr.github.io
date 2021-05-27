@@ -65,6 +65,7 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud]
 
 <h3 id="IP-허용-목록-서비스-찾기" data-renderer-start-pos="1055">IP 허용 목록 서비스 찾기</h3>
 
+<img src="/assets/images/banners/Specify-IP-access/ip_allow_list_find.png">
 ![ip_allow_list_find](/assets/images/banners/Specify-IP-access/ip_allow_list_find.png)
 
 <p data-renderer-start-pos="1075">&nbsp;</p>
