@@ -25,9 +25,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Dmove Blog
-email: dmove@dmove.kr
+email: sales@dmove.kr
 author: Dmove
 copyright: Copyright © 2020-2021
+
+tel: 02-6405-0800
 description: >- # this means to ignore newlines until "baseurl:"
   디무브의 블로그에 오신 걸 환영합니다.
   제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. 

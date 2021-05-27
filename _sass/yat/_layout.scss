@@ -41,6 +41,8 @@
 
       .site-footer-inner {
         border-top: solid 1px #eee;
+	width:40%;
+	display:inline-block;
       }
     }
   }
@@ -303,6 +305,53 @@ a {
       @include relative-font-size(2.25);
     }
   }
+
+  .inner{
+  width:100%;
+  max-width:1240px;
+  padding : 20px;
+  margin:0 auto;
+  }
+
+  .fw_25{
+  font-size: 1.5625rem;
+  }
+
+  .fw_400 {
+	  text-align:center;
+	  font-weight: 400!important;
+  }
+
+  .btn_main_more{
+	font-size:0;
+  }
+
+  .btn_main_more a{
+
+	color:#000;
+        display: inline-block;
+    line-height: 1;
+    border: 1px solid #d1d4d4;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 1rem;
+    min-width: 13.125rem;
+    background-color: #fff;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+        }
+
+  .mt40{
+  text-align: center!important;
+  }
+
+
+
+
+
 
   .post-tags {
     padding-right: 150px;
