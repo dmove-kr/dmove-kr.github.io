@@ -3,7 +3,7 @@ layout: post
 title: Jira, Confluence 2021 상반기 릴리즈 노트(2) - Cloud
 subtitle: 상반기 릴리즈 노트
 date: 2021-05-06 16:48:00
-categories: [Atlassian Solutions]
+categories: [Atlassian SolutionRelease Notes]
 tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, Atlassian, 아틀라시안, 아틀라시안클라우드]
 ---
 
@@ -846,3 +846,6 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 <p data-renderer-start-pos="10085">&nbsp;</p>
 
 <p data-renderer-start-pos="10087">페이지 카드를 볼 때 각 사용자가 제어할 수 있으므로, 이 기능이 유용하지 않으면 사용자 설정에서 해제할 수 있습니다.</p>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIyNjAxOTk5Ml19
+-->
