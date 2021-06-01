@@ -5,10 +5,7 @@ subtitle: Specify IP addresses for product access
 date: 2021-05-27
 categories: [Atlassian Solutions]
 tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whitelist, 아틀라시안, 아틀라시안클라우드, 지라, 컨플루언스]
----
-
-![enter image description here](https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629<p> )
-
+---![enter image description here](https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629
 
 안녕하세요, 디무브 입니다! :balloon: 
 
@@ -73,5 +70,6 @@ Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 �
 감사합니다. :smiley:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0NDA4MzI4LC04MjA1Mzc0OTNdfQ==
+eyJoaXN0b3J5IjpbMTMxNTE1NTc0MCw0NjQ0MDgzMjgsLTgyMD
+UzNzQ5M119
 -->
