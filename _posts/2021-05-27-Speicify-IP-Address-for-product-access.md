@@ -84,6 +84,10 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whiteli
 <p data-renderer-start-pos="1227">&nbsp;</p>
 
 <p data-renderer-start-pos="1229">  2. 만들기 양식에 <strong>이름, 허용하려는 제품, 허용하려는 IP 주소(단일 또는 다수),사용 설정</strong>을 작성 후 만들기 버튼 클릭을 하시면 허용 목록이 나옵니다.</p>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDczODM5MjRdfQ==
--->
+
+---
+
+
+아틀라시안 클라우드 프리미엄대해 더 궁금하신 점이 있으시면 언제든지 디무브에게 문의주세요.
+
+감사합니다:)
