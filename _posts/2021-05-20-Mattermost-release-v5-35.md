@@ -38,13 +38,15 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
     
 ![enter image description here](https://mattermost.com/wp-content/uploads/2021/05/Incident-Overview-1024x722.webp)
 
-### 2. 접근 권환의 세분화 (Granular Access Control)
+### 2. 접근 권환의 세분화 (Granular Access Control) 
 
 시스템 관리자는 특정 팀에 대한 인시던트 협업 접근 권한을 구성할 수 있습니다. 시스템 콘솔에서 누가 플레이북을 만들고 인시던트를 시작하는지 또는 누가 민감한 정보에 접근할 수 있는지 등에 대한 권한을 지정하여 보다 세부적으로 관리할 수 있게 되었습니다. 
 
+*(Cloud 제품과 E20 버전에서만 가능합니다)*
+
 ![enter image description here](https://mattermost.com/wp-content/uploads/2021/05/Access-Control-1.webp)
 
-###3. 공유 채널(Cloud 와 E20에서만 가능) 
+### 3. 공유 채널 (Shared Channel) 
 
 외부 파트너와의 협업 또는 서로 연결되어 있는 아키텍처에 관계가 있는 Mattermost 고객은 이제 공유 채널을 만들어 두 개 이상의 서로 다른 Mattermost 객체의 사람들을 한 채널에 모을 수 있습니다.
     
@@ -60,7 +62,20 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
         
 다른 Mattermost 객체의 공유 채널과 구성원은 연동되는 아이콘을 통해 식별 할 수 있습니다.
 
+*(Cloud 제품과 E20 버전에서만 가능합니다)*
+
 ![enter image description here](https://mattermost.com/wp-content/uploads/2021/05/Shared-channels.webp)
+
+공유 채널 생성을 위한 관계 설정 프로세스는 아래와 같습니다. 
+    
+- 1단계 : Mattermost 객체 관리자는 AES 256 비트 대칭 암호화 초대와 이를 해독하기 위한 강력한 암호를 생성합니다.
+        
+    -   2단계 : 수신 관리자는 슬래시 명령을 통해 Mattermost 객체에 초대와 암호를 입력하여 두 서버 간에 보안 연결을 생성합니다.
+        
+    -   3단계 : 채널 내에서 파트너가 실행하는 추가 슬래시 명령어는 연결된 서버에 새 채널을 만듭니다.  
+        **→** 파트너가 입력 한 모든 콘텐츠는 동기화되어 각 객체의 로컬 데이터베이스에 저장
+        
+-   파트너는 자신의 채널 공유를 해제 할 수 있으며, 이때 각 채널은 원래 공유 채널에 게시 한 사람들의 모든 게시물, 반응, 공유 파일 및 표시 이름을 유지합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTIxNjc3MV19
+eyJoaXN0b3J5IjpbLTE3MjQzMjQxOTRdfQ==
 -->
