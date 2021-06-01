@@ -87,11 +87,11 @@ Mattermost에서 파일 검색을 통해 팀의 대화 기록에서 관련 메�
 Mattermost 용 앱을 보다 쉽게 ​​만들고 사용자를 위한 대화 형 통합 환경을 구축 할 수 있는 새로운 앱 프레임 워크를 출시하였습니다.
 개발자는 Mattermost 데스크톱과 클라이언트에서 동작하는 대화형 및 자동 완성 슬래시 명령어를 사용할 수 있습니다.
     
--   Mattermost 서버에 플러그인으로 배포되며 Marketplace에서 설치할 수 있습니다.
-    
--   클라우드 작업 영역에는 이미 기본적으로 활성화 된 App Framework가 있으며 Zendesk 앱을 개발자 미리 보기로 설치할 수 있습니다.
-    
--   커뮤니티 서버의 " [Mattermost Apps](https://community.mattermost.com/core/channels/mattermost-apps "https://community.mattermost.com/core/channels/mattermost-apps") "채널에 가입하여 [첫 번째 앱 만들기](http://developers.mattermost.com/integrate/apps "http://developers.mattermost.com/integrate/apps")를 통해 프레임 워크를 경험할 수 있습니다.
+Mattermost 클라우드 버전에는 이미 기본적으로 활성화 된 앱 프레임워크가 있으며 서버 버전의 경우 플러그인으로 배포되며 Marketplace에서 설치할 수 있습니다.
+  
+ 커뮤니티 서버의 " [Mattermost Apps](https://community.mattermost.com/core/channels/mattermost-apps "https://community.mattermost.com/core/channels/mattermost-apps") "채널에 가입하여 [첫 번째 앱 만들기](http://developers.mattermost.com/integrate/apps "http://developers.mattermost.com/integrate/apps")를 통해 프레임 워크를 경험할 수 있습니다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQxMDE0NTNdfQ==
+eyJoaXN0b3J5IjpbNDExNzAzMTIzXX0=
 -->
