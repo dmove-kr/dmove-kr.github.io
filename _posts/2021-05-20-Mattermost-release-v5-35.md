@@ -41,9 +41,26 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
 ### 2. 접근 권환의 세분화 (Granular Access Control)
 
 시스템 관리자는 특정 팀에 대한 인시던트 협업 접근 권한을 구성할 수 있습니다. 시스템 콘솔에서 누가 플레이북을 만들고 인시던트를 시작하는지 또는 누가 민감한 정보에 접근할 수 있는지 등에 대한 권한을 지정하여 보다 세부적으로 관리할 수 있게 되었습니다. 
+
 ![enter image description here](https://mattermost.com/wp-content/uploads/2021/05/Access-Control-1.webp)
 
+###3. 공유 채널(Cloud 와 E20에서만 가능) 
 
+외부 파트너와의 협업 또는 서로 연결되어 있는 아키텍처에 관계가 있는 Mattermost 고객은 이제 공유 채널을 만들어 두 개 이상의 서로 다른 Mattermost 객체의 사람들을 한 채널에 모을 수 있습니다.
+    
+-   공유 채널의 기능
+    
+    -   메시지 게시
+        
+    -   파일 공유
+        
+    -   메시지 기록을 검색
+        
+    -   실시간 동기화
+        
+다른 Mattermost 객체의 공유 채널과 구성원은 연동되는 아이콘을 통해 식별 할 수 있습니다.
+
+![enter image description here](https://mattermost.com/wp-content/uploads/2021/05/Shared-channels.webp)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA5NTU2OTVdfQ==
+eyJoaXN0b3J5IjpbMTkwMTIxNjc3MV19
 -->
