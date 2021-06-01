@@ -3,8 +3,8 @@ layout: post
 title: Jira, Confluence 2021 상반기 릴리즈 노트(2) - Cloud
 subtitle: 상반기 릴리즈 노트
 date: 2021-05-06 16:48:00
-categories: [Release Notes]
-tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud]
+categories: [Atlassian Solutions]
+tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, Atlassian, 아틀라시안, 아틀라시안클라우드]
 ---
 
 
