@@ -10,7 +10,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 ![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
 
-안녕하세요, 디무브 입니다!
+안녕하세요, 디무브 입니다! :balloon:
 
 
 
@@ -846,6 +846,8 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 <p data-renderer-start-pos="10085">&nbsp;</p>
 
 <p data-renderer-start-pos="10087">페이지 카드를 볼 때 각 사용자가 제어할 수 있으므로, 이 기능이 유용하지 않으면 사용자 설정에서 해제할 수 있습니다.</p>
+
+ 감사합니다. :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjAxOTk5Ml19
+eyJoaXN0b3J5IjpbLTE3MjE3MjA3ODYsLTIyNjAxOTk5Ml19
 -->
