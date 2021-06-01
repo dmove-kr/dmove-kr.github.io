@@ -30,19 +30,15 @@ Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 �
 
 만약 사용자가 허용 목록의 IP 주소에서 페이지에 액세스 하지 않거나 못하는 경우 그 이유를 설명하는 메세지가 표시될 것입니다.
 
-<p data-renderer-start-pos="655">&nbsp;</p>
+클라우드 솔루션 관리자 또는 담당자는 허용 목록당 100개의 IP 주소 또는 네트워크 블록을 설정 할 수 있습니다. IPv4 및 CIDR  블록이 지원 되며, 네트워크 블록을 입력 하는 경우 CIDR 표기법 표준을 지원합니다. 
 
-<p data-renderer-start-pos="657">클라우드 솔루션 관리자 또는 담당자는 허용 목록당 100개의 IP 주소 또는 네트워크 블록을 설정 할 수 있습니다. IPv4 및 CIDR  블록이 지원 되며, 네트워크 블록을 입력 하는 경우 CIDR 표기법 표준을 지원합니다. </p>
+"[여기](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)“를 클릭하여 CIDR 표기법에 대한 자세한 내용을 확인하실 수 있습니다.
 
-<p data-renderer-start-pos="786">&nbsp;</p>
+추가 할 수 있는 값의 몇 가지 예는 다음과 같습니다.
 
-<p style="text-align:center;" data-renderer-start-pos="788">“<a class="sc-jTNJqp kpOsFP" href="https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation" title="https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation" data-renderer-mark="true">여기</a>“를 클릭하여 CIDR 표기법에 대한 자세한 내용을 확인하실 수 있습니다.</p>
-
-<p data-renderer-start-pos="866">&nbsp;</p>
-
-
-<p data-renderer-start-pos="834">추가 할 수 있는 값의 몇 가지 예는 다음과 같습니다.</p>
-
+|Type|Example  |
+|--|--|
+| IPv4 |104.192.143.1  |
 
 <table data-number-column="false"><colgroup><col style="width: 289px;"><col style="width: 289px;"></colgroup><tbody><tr><th rowspan="1" colspan="1" colorname="" class="ak-renderer-tableHeader-sortable-column" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="871"><strong data-renderer-mark="true">Type</strong></p></div><figure class="ak-renderer-tableHeader-sorting-icon ak-renderer-tableHeader-sorting-icon__no-order"><div role="presentation"><figure class="sc-erOsFi jZCgBu"><div class="sorting-icon-svg__no_order table-sorting-icon-inactive sc-eGXxtx cVhpMr"></div></figure></div></figure></th><th rowspan="1" colspan="1" colorname="" class="ak-renderer-tableHeader-sortable-column" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="879"><strong data-renderer-mark="true">Example</strong></p></div><figure class="ak-renderer-tableHeader-sorting-icon ak-renderer-tableHeader-sorting-icon__no-order"><div role="presentation"><figure class="sc-erOsFi jZCgBu"><div class="sorting-icon-svg__no_order table-sorting-icon-inactive sc-eGXxtx cVhpMr"></div></figure></div></figure></th></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="892">IPv4</p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="900">104.192.143.1</p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="919">CIDR </p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="928">104.192.143.0/28<br>104.192.143.16/29<br>104.192.143.24/32<br>2401 : 1d80 : 1010 :: / 64<br>2401 : 1d80 : 1010 :: 150/128&nbsp;</p></div></td></tr></tbody></table>
 
@@ -81,5 +77,5 @@ Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 �
 감사합니다. :smiley:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQyNjg4NDFdfQ==
+eyJoaXN0b3J5IjpbNzg2Nzk3MzIzXX0=
 -->
