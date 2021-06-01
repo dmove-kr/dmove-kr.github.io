@@ -10,7 +10,7 @@ tags: [Atlassian Team 21, Atlassian, Jira, Confluence, Cloud Migration, Atlassia
 ![banner](/assets/images/blog/cloud-enterprise.png)
 
 
-안녕하세요, 디무브 입니다.
+안녕하세요, 디무브 입니다!
 
 지난 4월 말 진행했던 Atlassian Team 21에서는 Atlassian Cloud 에 대해 고객들이 가장 많이 궁금해하는 질문과 그에 대한 답변을 공유했습니다. 
 
@@ -130,10 +130,11 @@ Atlassian Cloud와 관련하여 궁금하셨던 부분이 해결이 되셨나요
 
 더 궁금하신 점이 있으시면 언제든지 저희에게 [문의](http://www.dmove.kr/contact-us/quote-service-inquiry)해주세요! 
 
-감사합니다. :) 
+감사합니다. :smiley:
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTM2MTE4NSwtMjAyMzA2MTM3M119
+eyJoaXN0b3J5IjpbLTE4Mjg3MjkzNTYsMTkwOTM2MTE4NSwtMj
+AyMzA2MTM3M119
 -->
