@@ -25,8 +25,9 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
 이를 통해 여러 인시던트에 대한 정보를 유지하고 추가 정보가 필요할 때 쉽게 검색할 수 있습니다.
 ![enter image description here](https://mattermost.com/wp-content/uploads/2021/05/Incident-Overview-1024x722.webp)
 
-- 접근 권환의 세분화 (Granular Access Control)
-
+- **접근 권환의 세분화 (Granular Access Control)**
+시스템 관리자는 특정 팀에 대한 인시던트 
+세분화 된 시스템 관리자 역할에 대한 권한을 할당 할 때 관리자가 액세스하고 편집 할 수 있는 권한이 있는 System Console에 나열된 범주 아래의 하위 항목을 지정할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDc1OTM1OV19
+eyJoaXN0b3J5IjpbLTg1MjA1NDE4NV19
 -->
