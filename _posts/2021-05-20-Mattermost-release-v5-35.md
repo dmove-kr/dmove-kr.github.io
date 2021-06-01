@@ -50,9 +50,12 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
 
 외부 파트너와의 협업 또는 서로 연결되어 있는 아키텍처에 관계가 있는 Mattermost 고객은 이제 공유 채널을 만들어 두 개 이상의 서로 다른 Mattermost 객체의 사람들을 한 채널에 모을 수 있습니다.
     
--   공유 채널의 기능
+공유 채널의 기능은 아래와 같습니다. 
     
-    -   메시지 게시
+
+ - List item
+
+메시지 게시
         
     -   파일 공유
         
@@ -101,7 +104,9 @@ Mattermost 클라우드 버전에는 이미 기본적으로 활성화 된 앱 �
 Mattermost 클라우드에는 현재 앱이 활성화되어 있으며 워크 스페이스에서 Marketplace를 통해 서버리스 앱을 설치할 수 있습니다.
 
 -----
-기존에 매터모스트를 사용하시는 분들께서 버전 업그레이드를 원하시거나, 매터모스
+기존에 매터모스트를 사용하시는 분들께서 버전 업그레이드를 원하시거나, 매터모스트 신규 도입을 원하시는 분들께서는 언제든지 디무브에게 문의해주세요! 
+
+감사합니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Nzk2MjUyN119
+eyJoaXN0b3J5IjpbMjAyOTEzODBdfQ==
 -->
