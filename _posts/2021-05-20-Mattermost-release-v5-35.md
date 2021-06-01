@@ -32,9 +32,9 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
 
 사용자는 자동화를 구성하여 사고가 발생했을 때 자동으로 다른 채널에 알리고 Web hook 발신을 통해 사고에 대해 신속한 대응을 할 수 있습니다.
     
-    -   예시 1 : 서비스 중단 플레이 북은 사고가 발생했을 때 사고 채널에 대한 링크와 함께 엔지니어링 채널에 자동으로 알릴 수 있습니다.
+    - 예시 1 : 서비스 중단 플레이 북은 사고가 발생했을 때 사고 채널에 대한 링크와 함께 엔지니어링 채널에 자동으로 알릴 수 있습니다.
         
-    -   예시 2 : Webhook 발신은 Jira에서 티켓 생성, Zoom 통화 시작 또는 이메일 목록에 브로드 캐스트와 같은 작업을 자동화하여 시간을 절약 할 수 있습니다.
+    - 예시 2 : Webhook 발신은 Jira에서 티켓 생성, Zoom 통화 시작 또는 이메일 목록에 브로드 캐스트와 같은 작업을 자동화하여 시간을 절약 할 수 있습니다.
     
 ![enter image description here](https://mattermost.com/wp-content/uploads/2021/05/Incident-Overview-1024x722.webp)
 
@@ -56,7 +56,8 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
  - 파일 공유
  - 메시지 기록을 검색 
  - 실시간 동기화
-        
+
+
 다른 Mattermost 객체의 공유 채널과 구성원은 연동되는 아이콘을 통해 식별 할 수 있습니다.
 
 *(Cloud 제품과 E20 버전에서만 가능합니다)*
@@ -69,7 +70,8 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
 - 2단계 : 수신 관리자는 슬래시 명령을 통해 Mattermost 객체에 초대와 암호를 입력하여 두 서버 간에 보안 연결을 생성합니다. 
 - 3단계 : 채널 내에서 파트너가 실행하는 추가 슬래시 명령어는 연결된 서버에 새 채널을 만듭니다.  
         **→** 파트너가 입력 한 모든 콘텐츠는 동기화되어 각 객체의 로컬 데이터베이스에 저장
-        
+     
+    
 파트너는 자신의 채널 공유를 해제 할 수 있으며, 이때 각 채널은 원래 공유 채널에 게시 한 사람들의 모든 게시물, 반응, 공유 파일 및 표시 이름을 유지합니다.
 
 ### 4. 파일 및 문서 검색 기능 
@@ -86,7 +88,7 @@ Mattermost 용 앱을 보다 쉽게 ​​만들고 사용자를 위한 대화 �
     
 Mattermost 클라우드 버전에는 이미 기본적으로 활성화 된 앱 프레임워크가 있으며 서버 버전의 경우 플러그인으로 배포되며 Marketplace에서 설치할 수 있습니다.
   
- 커뮤니티 서버의 " [Mattermost Apps](https://community.mattermost.com/core/channels/mattermost-apps "https://community.mattermost.com/core/channels/mattermost-apps") "채널에 가입하여 [첫 번째 앱 만들기](http://developers.mattermost.com/integrate/apps "http://developers.mattermost.com/integrate/apps")를 통해 프레임 워크를 경험할 수 있습니다.
+커뮤니티 서버의 " [Mattermost Apps](https://community.mattermost.com/core/channels/mattermost-apps "https://community.mattermost.com/core/channels/mattermost-apps") "채널에 가입하여 [첫 번째 앱 만들기](http://developers.mattermost.com/integrate/apps "http://developers.mattermost.com/integrate/apps")를 통해 프레임 워크를 경험할 수 있습니다.
 
 ### 6. AWS Lambda를 통한 서버리스 호스팅 
 
@@ -98,6 +100,7 @@ Mattermost 클라우드 버전에는 이미 기본적으로 활성화 된 앱 �
 Mattermost 클라우드에는 현재 앱이 활성화되어 있으며 워크 스페이스에서 Marketplace를 통해 서버리스 앱을 설치할 수 있습니다.
 
 -----
+
 기존에 매터모스트를 사용하시는 분들께서 버전 업그레이드를 원하시거나, 매터모스트 신규 도입을 원하시는 분들께서는 언제든지 디무브에게 문의해주세요! 
 
 감사합니다. 
