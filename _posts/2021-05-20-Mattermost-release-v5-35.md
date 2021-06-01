@@ -13,7 +13,7 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
 
 ---
 
-### 1. Incident Collaboration - 인시던트 협업
+### 1.  인시던트 협업(Incident Collaboration)
 
  - **애드혹 업무 (Ad-hoc Tasks)**
 
@@ -105,5 +105,5 @@ Mattermost 클라우드에는 현재 앱이 활성화되어 있으며 워크 스
 
 감사합니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDA0MTE1MV19
+eyJoaXN0b3J5IjpbLTE2NjUzNzk3MiwxNDc0MDQxMTUxXX0=
 -->
