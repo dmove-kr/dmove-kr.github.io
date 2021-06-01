@@ -3,7 +3,7 @@ layout: post
 title: Jira, Confluence 2021 상반기 릴리즈 노트(1) -Server, DC
 subtitle: 상반기 릴리즈 노트
 date: 2021-05-06 15:48:00
-categories: [Atlassian Solutions]
+categories: [Atlassian SolutionRelease Notes]
 tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Data Center, Atlassian, 아틀라시안, 아틀라시안데이터센터]
 ---
 
@@ -574,3 +574,6 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
  
  
  
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTI5NjQwMjIyN119
+-->
