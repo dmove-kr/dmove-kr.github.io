@@ -14,27 +14,21 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whiteli
 바로 **제품 액세스를 위한 IP 주소 허용 및 지정** 방법인데요!
 IP 주소 허용 기능은 현재  Jira와  Confluence Cloud의 Premium 플랜에서 사용하실 수 있습니다.
 
-## IP 주소 허용이란? 
+## IP 주소 허용(White List)이란? 
 
-IP 허용 목록은 통해 사용자가 Jira Software, Jira Service Management, Confluence 용 콘텐츠에 액세스 할 때 허용할 수 있는 IP를 지정하여 <Strong>특정 IP만 접근이 가능하도록 허용</Strong> 하는 것입니다.</p>
+IP 허용 목록은 통해 사용자가 Jira Software, Jira Service Management, Confluence 용 콘텐츠에 액세스 할 때 허용할 수 있는 IP를 지정하여 **특정 IP만 접근이 가능하도록 허용하는 것**입니다.
 
-<p data-renderer-start-pos="303">Jira Software Premium에 대한 허용 목록을 설정하면 동일한 사이트의 Jira Service Management에 대한 고객 및 에이전트 포털에도 적용 되며, 이는 Confluence에도 동일하게 적용됩니다.</p>
+Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 사이트의 Jira Service Management에 대한 고객 및 에이전트 포털에도 적용 되며, 이는 Confluence에도 동일하게 적용됩니다.
 
-<p data-renderer-start-pos="431">현재 IP 허용목록은 다음과 같은 페이지에 적용됩니다.</p>
+현재 IP 허용목록은 다음과 같은 페이지에 적용됩니다.
 
-<>
-<ul style="list-style-type:disc;">
-<li><p data-renderer-start-pos="497">   Jira tasks, issues, projects</p></li>
-<li><p data-renderer-start-pos="497">   Conlfuence Pages and Spaces</p></li>
-<li><p data-renderer-start-pos="528">   Jira Administration</p></li>
-<li><p data-renderer-start-pos="551">   Confluence administration</p></li>
-</ul>
-</p>
-
-<p data-renderer-start-pos="580">&nbsp;</p>
+ - Jira tasks, issues, projects
+ - Conlfuence Pages and Spaces
+ - Jira Administration
+ - Confluence administration
 
 
-<p data-renderer-start-pos="582">만약 사용자가 허용 목록의 IP 주소에서 페이지에 액세스 하지 않거나 못하는 경우 그 이유를 설명하는 메세지가 표시될 것입니다.</p>
+만약 사용자가 허용 목록의 IP 주소에서 페이지에 액세스 하지 않거나 못하는 경우 그 이유를 설명하는 메세지가 표시될 것입니다.
 
 <p data-renderer-start-pos="655">&nbsp;</p>
 
@@ -87,5 +81,5 @@ IP 허용 목록은 통해 사용자가 Jira Software, Jira Service Management, 
 감사합니다. :smiley:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDI0OTY1MTddfQ==
+eyJoaXN0b3J5IjpbLTIwNTQyNjg4NDFdfQ==
 -->
