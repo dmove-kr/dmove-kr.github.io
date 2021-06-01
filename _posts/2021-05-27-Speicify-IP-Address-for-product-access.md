@@ -42,22 +42,14 @@ Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 �
 | CIDR |104.192.143.0/28 <br> 104.192.143.16/29 <br> 104.192.143.24/32 <br> 2401 : 1d80 : 1010 :: / 64 <br> 2401 : 1d80 : 1010 :: 150/128  |
   
 
+## Set up
+
+### IP 허용 목록 서비스 찾기
+
+![IP allow list](/assets/images/banners/Specify-IP-access/ip_allow_list_find.png) 
 
 
-
-
-
-
-<h2 id="Set-up">Set up</h2>
-
-<h3 id="IP-허용-목록-서비스-찾기" data-renderer-start-pos="1055">IP 허용 목록 서비스 찾기</h3>
-
-<img src="/assets/images/banners/Specify-IP-access/ip_allow_list_find.png">
-
-
-<p data-renderer-start-pos="1075">&nbsp;</p>
-
-<ul class="ak-ul" data-indent-level="1"><li><p data-renderer-start-pos="1079"><a class="sc-jTNJqp kpOsFP" href="http://admin.atlassian.com" title="http://admin.atlassian.com" data-renderer-mark="true">admin.atlassian.com</a> 에 들어가 로그인 후 설정하시려는 사이트에 들어가 보안 → IP 허용 목록을 선택합니다.</p></li></ul>
+[admin.atlassian.com](http://admin.atlassian.com)에 들어가 로그인 후 설정하시려는 사이트에 들어가 보안 → IP 허용 목록을 선택합니다.</p></li></ul>
 
 <h3 id="IP-허용-목록-추가" data-renderer-start-pos="1156">IP 허용 목록 추가</h3>
 
@@ -79,5 +71,5 @@ Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 �
 감사합니다. :smiley:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDUzNzQ5M119
+eyJoaXN0b3J5IjpbLTY4ODc4OTc2LC04MjA1Mzc0OTNdfQ==
 -->
