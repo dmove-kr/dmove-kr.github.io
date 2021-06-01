@@ -96,9 +96,12 @@ Mattermost 클라우드 버전에는 이미 기본적으로 활성화 된 앱 �
 앱 프레임워크(v0.7) 업데이트에서 서버리스 환경에서 Mattermost 앱을 호스팅하는 지원을 추가하였습니다.
     
 예를 들어 관리자가 "Marketplace"로 이동하여 앱에서 "설치"를 클릭하면 서버는 앱이 포함 된 AWS Lambda 컨테이너를 자동 프로비저닝 할 수 있습니다.
-서버리스 호스팅 지원은 AWS Lambda에 액세스 할 수 있는 계정이 있는 매터모스트 클라우드에만 가능제한됩니다.
+서버리스 호스팅 지원은 AWS Lambda에 액세스 할 수 있는 계정이 있는 EC2 호스팅 Mattermost 인스턴스에서만 가능합니다. 
     
 Mattermost 클라우드에는 현재 앱이 활성화되어 있으며 워크 스페이스에서 Marketplace를 통해 서버리스 앱을 설치할 수 있습니다.
+
+-----
+기존에 매터모스트를 사용하시는 분들께서 버전 업그레이드를 원하시거나, 매터모스
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzgwNzIwOV19
+eyJoaXN0b3J5IjpbLTk5Nzk2MjUyN119
 -->
