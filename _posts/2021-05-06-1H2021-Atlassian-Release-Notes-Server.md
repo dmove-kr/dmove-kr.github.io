@@ -9,7 +9,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 ![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
 
-안녕하세요, 디무브 입니다!
+안녕하세요, 디무브 입니다! :balloon:
 
  
 
@@ -569,11 +569,12 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
  
  <hr>
  
+ 감사합니다. :smiley:
  
  
  
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjQwMjIyN119
+eyJoaXN0b3J5IjpbMzgwMzA0MjAzLDEyOTY0MDIyMjddfQ==
 -->
