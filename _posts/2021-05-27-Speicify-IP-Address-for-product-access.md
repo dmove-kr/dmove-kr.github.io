@@ -8,16 +8,15 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whiteli
 ----![enter image description here](https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629<p> )
 
 
-안녕하세요, 디무브 입니다! :balloon: </p>  
+안녕하세요, 디무브 입니다! :balloon: 
 
-
-<p><p data-renderer-star이번에는 기술적인 내용을 가지고 왔습니다.  바로 **제품 액세스를 위한
- IP 주소 허용 및 지정 방법인데요!
+이번에는 기술적인 내용을 가지고 왔습니다.  
+바로 **제품 액세스를 위한 IP 주소 허용 및 지정** 방법인데요!
 IP 주소 허용 기능은 현재  Jira와  Confluence Cloud의 Premium 플랜에서 사용하실 수 있습니다.
 
-##IP-주소-t-pos="164">&nbsp;</p>
+## IP 주소 허용이란? 
 
-<p data-renderer-start-pos="166">IP 허용 목록은 통해 사용자가 Jira Software, Jira Service Management, Confluence 용 콘텐츠에 액세스 할 때 허용할 수 있는 IP를 지정하여 <Strong>특정 IP만 접근이 가능하도록 허용</Strong> 하는 것입니다.</p>
+IP 허용 목록은 통해 사용자가 Jira Software, Jira Service Management, Confluence 용 콘텐츠에 액세스 할 때 허용할 수 있는 IP를 지정하여 <Strong>특정 IP만 접근이 가능하도록 허용</Strong> 하는 것입니다.</p>
 
 <p data-renderer-start-pos="303">Jira Software Premium에 대한 허용 목록을 설정하면 동일한 사이트의 Jira Service Management에 대한 고객 및 에이전트 포털에도 적용 되며, 이는 Confluence에도 동일하게 적용됩니다.</p>
 
@@ -88,5 +87,5 @@ IP 주소 허용 기능은 현재  Jira와  Confluence Cloud의 Premium 플랜�
 감사합니다. :smiley:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjgyNDQzODFdfQ==
+eyJoaXN0b3J5IjpbLTE3NDI0OTY1MTddfQ==
 -->
