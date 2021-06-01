@@ -49,19 +49,17 @@ Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 �
 ![IP allow list](/assets/images/banners/Specify-IP-access/ip_allow_list_find.png) 
 
 
-[admin.atlassian.com](http://admin.atlassian.com)에 들어가 로그인 후 설정하시려는 사이트에 들어가 보안 → IP 허용 목록을 선택합니다.</p></li></ul>
+[admin.atlassian.com](http://admin.atlassian.com)에 들어가 로그인 후 설정하시려는 사이트에 들어가 보안 → IP 허용 목록을 선택합니다.
 
-<h3 id="IP-허용-목록-추가" data-renderer-start-pos="1156">IP 허용 목록 추가</h3>
+### IP 허용 목록 추가
 
-<img src="/assets/images/banners/Specify-IP-access/ip_allow_list_1.png">
+![IP allow list](/assets/images/banners/Specify-IP-access/ip_allow_list_1.png)
 
-<p data-renderer-start-pos="1174">  1. IP 허용 목록에서 허용 목록 만들기 (Create allowlist)를 클릭</p>
+ 1. IP 허용 목록에서 허용 목록 만들기 (Create allowlist)를 클릭
 
-<img src="/assets/images/banners/Specify-IP-access/ip_allow_list_2.png">
+![--](/assets/images/banners/Specify-IP-access/ip_allow_list_2.png)
 
-<p data-renderer-start-pos="1227">&nbsp;</p>
-
-<p data-renderer-start-pos="1229">  2. 만들기 양식에 <strong>이름, 허용하려는 제품, 허용하려는 IP 주소(단일 또는 다수),사용 설정</strong>을 작성 후 만들기 버튼 클릭을 하시면 허용 목록이 나옵니다.</p>
+ 2. 만들기 양식에 **이름, 허용하려는 제품, 허용하려는 IP 주소(단일 또는 다수),사용 설정**을 작성 후 만들기 버튼 클릭을 하시면 허용 목록이 나옵니다.
 
 ---
 
@@ -71,5 +69,5 @@ Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 �
 감사합니다. :smiley:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODc4OTc2LC04MjA1Mzc0OTNdfQ==
+eyJoaXN0b3J5IjpbNDY0NDA4MzI4LC04MjA1Mzc0OTNdfQ==
 -->
