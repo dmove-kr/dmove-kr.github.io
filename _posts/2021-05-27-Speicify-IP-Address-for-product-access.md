@@ -5,13 +5,16 @@ subtitle: Specify IP addresses for product access
 date: 2021-05-27
 categories: [Atlassian Solutions]
 tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whitelist, 아틀라시안, 아틀라시안클라우드, 지라, 컨플루언스]
----![enter image description here](https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629
+---
+
+![enter image description here](https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629<p> )
+
 
 안녕하세요, 디무브 입니다! :balloon: 
 
 이번에는 기술적인 내용을 가지고 왔습니다.  
 바로 **제품 액세스를 위한 IP 주소 허용 및 지정** 방법인데요!
-IP 주소 허용 기능은 현재  Jira와  Confluence Cloud의 Premium 플랜에서 사용하실 수 있습니다.
+</br> IP 주소 허용 기능은 현재  Jira와  Confluence Cloud의 Premium 플랜에서 사용하실 수 있습니다.
 
 
 ## IP 주소 허용(White List)이란? 
@@ -28,7 +31,7 @@ Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 �
  - Confluence administration
 
 
-만약 사용자가 허용 목록의 IP 주소에서 페이지에 액세스 하지 않거나 못하는 경우 그 이유를 설명하는 메세지가 표시될 것입니다.
+</br> 만약 사용자가 허용 목록의 IP 주소에서 페이지에 액세스 하지 않거나 못하는 경우 그 이유를 설명하는 메세지가 표시될 것입니다.
 
 클라우드 솔루션 관리자 또는 담당자는 허용 목록당 100개의 IP 주소 또는 네트워크 블록을 설정 할 수 있습니다. IPv4 및 CIDR  블록이 지원 되며, 네트워크 블록을 입력 하는 경우 CIDR 표기법 표준을 지원합니다. 
 
@@ -70,6 +73,5 @@ Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 �
 감사합니다. :smiley:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDM1MTM5OCw0NjQ0MDgzMjgsLTgyMD
-UzNzQ5M119
+eyJoaXN0b3J5IjpbNDY0NDA4MzI4LC04MjA1Mzc0OTNdfQ==
 -->
