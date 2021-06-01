@@ -91,7 +91,14 @@ Mattermost 클라우드 버전에는 이미 기본적으로 활성화 된 앱 �
   
  커뮤니티 서버의 " [Mattermost Apps](https://community.mattermost.com/core/channels/mattermost-apps "https://community.mattermost.com/core/channels/mattermost-apps") "채널에 가입하여 [첫 번째 앱 만들기](http://developers.mattermost.com/integrate/apps "http://developers.mattermost.com/integrate/apps")를 통해 프레임 워크를 경험할 수 있습니다.
 
+### 6. AWS Lambda를 통한 서버리스 호스팅 
 
+앱 프레임워크(v0.7) 업데이트에서 서버리스 환경에서 Mattermost 앱을 호스팅하는 지원을 추가하였습니다.
+    
+예를 들어 관리자가 "Marketplace"로 이동하여 앱에서 "설치"를 클릭하면 서버는 앱이 포함 된 AWS Lambda 컨테이너를 자동 프로비저닝 할 수 있습니다.
+서버리스 호스팅 지원은 AWS Lambda에 액세스 할 수 있는 계정이 있는 매터모스트 클라우드에만 가능제한됩니다.
+    
+Mattermost 클라우드에는 현재 앱이 활성화되어 있으며 워크 스페이스에서 Marketplace를 통해 서버리스 앱을 설치할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExNzAzMTIzXX0=
+eyJoaXN0b3J5IjpbMTk0MzgwNzIwOV19
 -->
