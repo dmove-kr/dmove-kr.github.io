@@ -25,10 +25,13 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
 이를 통해 여러 인시던트에 대한 정보를 유지하고 추가 정보가 필요할 때 쉽게 검색할 수 있습니다.
 ![enter image description here](https://mattermost.com/wp-content/uploads/2021/05/Incident-Overview-1024x722.webp)
 
-- **접근 권환의 세분화 (Granular Access Control)**
-시스템 관리자는 특정 팀에 대한 인시던트 협업 접근 권한을 구성하여 누가 플레이북을 만들고 인시던트를 시작하는지 또는 누가 민감한 정보에 접근할 수 있는지 등에 대한 권한을 지정할 수  있습니다. 
+
+### 2. 접근 권환의 세분화 (Granular Access Control)**
+
+시스템 관리자는 특정 팀에 대한 인시던트 협업 접근 권한을 구성할 수 있습니다. 시스템 콘솔에서 누가 플레이북을 만들고 인시던트를 시작하는지 또는 누가 민감한 정보에 접근할 수 있는지 등에 대한 권한을 지정하여 보다 세부적으로 관리할 수 있게 되었습니다. 
+![enter image description here](https://mattermost.com/wp-content/uploads/2021/05/Access-Control-1.webp)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzcyNjYxMzJdfQ==
+eyJoaXN0b3J5IjpbODUyNTM4NjgxXX0=
 -->
