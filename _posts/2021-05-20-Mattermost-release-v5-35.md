@@ -13,7 +13,7 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
 
 ---
 
-### 1. Incident Collaboration - 인시던트 관리 
+### 1. Incident Collaboration - 인시던트 협업
 
  - **애드혹 업무 (Ad-hoc Tasks)**
 인시던트 관리에 참여하는 사람들은 플레이 북에 사전 정의된 작업 템플릿을 사용하여 즉시 작업을 추가, 편집 및 제거하여 새로운 시나리오에 빠르게 적응할 수 있습니다.
@@ -26,8 +26,9 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
 ![enter image description here](https://mattermost.com/wp-content/uploads/2021/05/Incident-Overview-1024x722.webp)
 
 - **접근 권환의 세분화 (Granular Access Control)**
-시스템 관리자는 특정 팀에 대한 인시던트 
-세분화 된 시스템 관리자 역할에 대한 권한을 할당 할 때 관리자가 액세스하고 편집 할 수 있는 권한이 있는 System Console에 나열된 범주 아래의 하위 항목을 지정할 수 있습니다.
+시스템 관리자는 특정 팀에 대한 인시던트 협업 접근 권한을 구성하여 누가 플레이북을 만들고 인시던트를 시작하는지 또는 누가 민감한 정보에 접근할 수 있는지 등에 대한 권한을 지정할 수  있습니다. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjA1NDE4NV19
+eyJoaXN0b3J5IjpbLTE5NzcyNjYxMzJdfQ==
 -->
