@@ -103,7 +103,8 @@ Mattermost 클라우드에는 현재 앱이 활성화되어 있으며 워크 스
 
 기존에 매터모스트를 사용하시는 분들께서 버전 업그레이드를 원하시거나, 매터모스트 신규 도입을 원하시는 분들께서는 언제든지 디무브에게 문의해주세요! 
 
-감사합니다. 
+감사합니다. :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUzNzk3MiwxNDc0MDQxMTUxXX0=
+eyJoaXN0b3J5IjpbLTE1NDEwNTc1MzksLTE2NjUzNzk3MiwxND
+c0MDQxMTUxXX0=
 -->
