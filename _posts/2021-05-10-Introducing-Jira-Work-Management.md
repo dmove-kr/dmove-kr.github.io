@@ -9,7 +9,7 @@ tags: [Atlassian Team 21, Atlassian, Jira, Jira Work Management, Project Managem
 
 ![banner](https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/download-2.png?resize=1560,760&ssl=1)
 
-안녕하세요, 디무브입니다!
+안녕하세요, 디무브 입니다!
 
 지난 4월 말 진행된 Atlassian Team'21에서 Jira Core Cloud의 향상된 버전인 **"Jira Work Management"** 공개되었습니다. 
 
@@ -79,4 +79,7 @@ Jira Work Management는 구조화된 워크플로와 업무 공유, 업무 자�
 
 새로운 [Jira Work Management](http://dmove.co.kr/products/atlassian/jira-work-management)를 통해 더욱 강력하게 비즈니스 프로젝트를 관리해보고 싶으시다면 언제든지 문의해주세요. 
 
-감사합니다 :)
+감사합니다. :smiley:
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyODY2OTQzMzldfQ==
+-->
