@@ -81,7 +81,7 @@ Mattermost에서 파일 검색을 통해 팀의 대화 기록에서 관련 메�
 또한 최근에 모든 채널에서 공유 한 파일에 쉽게 접근하고 문서, 사진 또는 비디오와 같은 특정 파일 유형으로 필터링 할 수 있습니다.
 ![enter image description here](https://mattermost.com/wp-content/uploads/2021/05/file-search.webp)
 
-### 5. 앱 프레임워크(Apps Framework) for 개발자
+### 5. 앱 프레임워크(Apps Framework)
 
 Mattermost 용 앱을 보다 쉽게 ​​만들고 사용자를 위한 대화 형 통합 환경을 구축 할 수 있는 새로운 앱 프레임 워크를 출시하였습니다.
 개발자는 Mattermost 데스크톱과 클라이언트에서 동작하는 대화형 및 자동 완성 슬래시 명령어를 사용할 수 있습니다.
