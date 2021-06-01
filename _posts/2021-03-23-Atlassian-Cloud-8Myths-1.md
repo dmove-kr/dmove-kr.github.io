@@ -6,7 +6,7 @@ date:   2021-03-23 12:00:00
 categories: [Atlassian Solutions]
 tags: [Atlassian, Cloud, Cloud Migration]
 ---
-안녕하세요, 디무브입니다!
+안녕하세요, 디무브 입니다! :balloon:
 
 클라우드 마이그레이션을 전문으로 하는 Atlassian의 솔루션 파트너인 저희는 클라우드로의 마이그레이션을 주저하는 대부분의 고객들이 잘못되었거나 오래 된 정보로 인해 많은 오해를 하고 있다는 것을 알게되었습니다.
 
@@ -141,9 +141,14 @@ Atlassian에서는 지속적인 테스트를 통해 새 기능, 보안 업데이
 Cloud Migration 및 신규 도입과 관련하여 궁금하신 점이 있으시다면,
 Atlassian 파트너사인 [디무브에게 문의](http://dmove.co.kr/contact-us/quote-service-inquiry)해주세요!
 
+감사합니다. :smiley:
+
 **.**
 
 **.**
 
 ***본 포스팅은 다음 편으로 이어집니다.***
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTU5NDUwMTcyNV19
+-->
