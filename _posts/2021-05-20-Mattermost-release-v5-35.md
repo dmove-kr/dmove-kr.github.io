@@ -7,7 +7,7 @@ categories: [Mattermost]
 tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매터모스트, 사내메신저, 기업용메신저]
 ---
 
-안녕하세요, 디무브 입니다! :balloon:
+안녕하세요, 디무브 입니다!:balloon:
 
 5월 17일에 Mattermost의 5.35버전이 배포 되었습니다. 이번 배포에서는 어떠한 기능들이 포함되어 있는 지 한 번 살펴 보겠습니다.
 
@@ -103,8 +103,8 @@ Mattermost 클라우드에는 현재 앱이 활성화되어 있으며 워크 스
 
 기존에 매터모스트를 사용하시는 분들께서 버전 업그레이드를 원하시거나, 매터모스트 신규 도입을 원하시는 분들께서는 언제든지 디무브에게 문의해주세요! 
 
-감사합니다. :smiley:
+감사합니다.:smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTcwOTY1NiwtMTY2NTM3OTcyLDE0Nz
+eyJoaXN0b3J5IjpbMTEyMjc4MTMwMiwtMTY2NTM3OTcyLDE0Nz
 QwNDExNTFdfQ==
 -->
