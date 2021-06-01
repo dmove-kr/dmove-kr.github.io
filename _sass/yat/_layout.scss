@@ -563,7 +563,12 @@ a {
     }
 
     p, hr {
+      
       margin-bottom: 24px;
+    }
+    
+    p {
+    display:inline-block;
     }
 
     hr {
