@@ -78,9 +78,11 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
 ### 4. 파일 및 문서 검색 기능 
 
 Mattermost에서 파일 검색을 통해 팀의 대화 기록에서 관련 메시지와 파일을 모두 찾을 수 있습니다.
-검색은 파일 이름과 일치하거나 지원되는 문서 유형 내에서 일치하는 텍스트를 포함하는 첨부 파일에 대한 결과
-    
--   또한 최근에 모든 채널에서 공유 한 파일에 쉽게 액세스하고 문서, 사진 또는 비디오와 같은 특정 파일 유형으로 필터링 할 수 있습니다.
+검색은 파일 이름과 일치하거나 지원되는 문서 유형 내에서 일치하는 텍스트를 포함하는 첨부 파일을 찾아줍니다. 
+또한 최근에 모든 채널에서 공유 한 파일에 쉽게 접근하고 문서, 사진 또는 비디오와 같은 특정 파일 유형으로 필터링 할 수 있습니다.
+![enter image description here](https://mattermost.com/wp-content/uploads/2021/05/file-search.webp)
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDUyNzM0Nl19
+eyJoaXN0b3J5IjpbNzI2MDIzNzczXX0=
 -->
