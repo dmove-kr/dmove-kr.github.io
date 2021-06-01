@@ -9,7 +9,7 @@ tags: [Atlassian Team 21, Atlassian, Slack, Zoom, Remotework]
 ![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/04/brand-4570-how-to-lead-remotely-when-you-dont-have-a-clue@2x.png?w=2240&ssl=1)
 
 
-안녕하세요, 디무브입니다!
+안녕하세요, 디무브 입니다! :balloon:
 
 지난 4월 말 진행한 아틀라시안의 디지털 컨퍼런스 [Atlassian Team '21](https://events.atlassian.com/team21) 에서 Atlassian의 공동 창립자이자 공동 CEO인 [Mike Cannon-Brookes](https://www.linkedin.com/in/mcannonbrookes)은 Slack의 공동 창립자 겸 CEO인 [Stewart Butterfield](https://www.linkedin.com/in/butterfield), Zoom의 창립자 겸 CEO인 [Eric Yuan](https://www.linkedin.com/in/ericsyuan) 과 "The Evolution of Modern Work" 라는 주제로 키노트를 진행하였습니다. 
 
@@ -90,3 +90,6 @@ COVID-19 팬데믹은 우리 일상의 많은 부분을 바꿔놓았고, 이는 
 <iframe width="600" height="354" src="https://www.youtube.com/embed/FipL3DrtNLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwMjc0NjczODRdfQ==
+-->
