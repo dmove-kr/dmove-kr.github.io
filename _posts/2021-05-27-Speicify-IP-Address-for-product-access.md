@@ -5,7 +5,9 @@ subtitle: Specify IP addresses for product access
 date: 2021-05-27
 categories: [Atlassian Solutions]
 tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whitelist, 아틀라시안, 아틀라시안클라우드, 지라, 컨플루언스]
----![enter image description here](https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629
+---
+
+![enter image description here](https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629
 
 안녕하세요, 디무브 입니다! :balloon: 
 
