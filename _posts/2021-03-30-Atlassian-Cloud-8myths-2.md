@@ -6,7 +6,7 @@ date:   2021-03-30
 categories: [Atlassian Solutions]
 tags: [Atlassian, Cloud, Cloud Migration]
 ---
-안녕하세요, 디무브입니다!
+안녕하세요, 디무브 입니다! :balloon:
 
 [아틀라시안  클라우드에  대한  8가지  오해  - Part 1  포스팅](https://dmove-kr.github.io/atlassian%20solutions/2021/03/23/Atlassian-Cloud-8Myths-1.html)에  이어서  비즈니스를  위한  최선의  결정을  내리실  수  있도록  클라우드와  관련된  보안부터  성능에  이르는  가장  일반적인  오해에  대한  진실을  알려드리려고  합니다.
 
@@ -159,5 +159,8 @@ Atlassian 솔루션 파트너인 디무브에게 문의해 주시면
 
 비즈니스를 위한 최고의 솔루션을 함께 살펴보세요!
 
-감사합니다. 
+감사합니다. :smiley:
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNDYyMzQwNDc2XX0=
+-->
