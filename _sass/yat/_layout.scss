@@ -555,7 +555,7 @@ a {
     img, svg, iframe {
       margin-left: auto;
       margin-right: auto;
-      display: block;
+      display: inline;
     }
 
     h2, h3, h4, h5, h6 {
@@ -567,9 +567,7 @@ a {
       margin-bottom: 24px;
     }
     
-    p {
-    display:inline-block;
-    }
+    
 
     hr {
       height: 1px;
