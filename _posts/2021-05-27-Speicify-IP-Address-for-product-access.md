@@ -39,7 +39,11 @@ Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 �
 |Type|Example  |
 |--|--|
 | IPv4 |104.192.143.1  |
-
+| CIDR |104.192.143.0/28 
+104.192.143.16/29  
+104.192.143.24/32  
+2401 : 1d80 : 1010 :: / 64  
+2401 : 1d80 : 1010 :: 150/128  |
 <table data-number-column="false"><colgroup><col style="width: 289px;"><col style="width: 289px;"></colgroup><tbody><tr><th rowspan="1" colspan="1" colorname="" class="ak-renderer-tableHeader-sortable-column" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="871"><strong data-renderer-mark="true">Type</strong></p></div><figure class="ak-renderer-tableHeader-sorting-icon ak-renderer-tableHeader-sorting-icon__no-order"><div role="presentation"><figure class="sc-erOsFi jZCgBu"><div class="sorting-icon-svg__no_order table-sorting-icon-inactive sc-eGXxtx cVhpMr"></div></figure></div></figure></th><th rowspan="1" colspan="1" colorname="" class="ak-renderer-tableHeader-sortable-column" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="879"><strong data-renderer-mark="true">Example</strong></p></div><figure class="ak-renderer-tableHeader-sorting-icon ak-renderer-tableHeader-sorting-icon__no-order"><div role="presentation"><figure class="sc-erOsFi jZCgBu"><div class="sorting-icon-svg__no_order table-sorting-icon-inactive sc-eGXxtx cVhpMr"></div></figure></div></figure></th></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="892">IPv4</p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="900">104.192.143.1</p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="919">CIDR </p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="928">104.192.143.0/28<br>104.192.143.16/29<br>104.192.143.24/32<br>2401 : 1d80 : 1010 :: / 64<br>2401 : 1d80 : 1010 :: 150/128&nbsp;</p></div></td></tr></tbody></table>
 
 
@@ -77,5 +81,5 @@ Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 �
 감사합니다. :smiley:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2Nzk3MzIzXX0=
+eyJoaXN0b3J5IjpbLTE5NDM2NDI4NzldfQ==
 -->
