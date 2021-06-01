@@ -5,7 +5,7 @@ subtitle: Specify IP addresses for product access
 date: 2021-05-27
 categories: [Atlassian Solutions]
 tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whitelist, 아틀라시안, 아틀라시안클라우드, 지라, 컨플루언스]
----
+--
 
 <img style="max-width:100%; max-height: 400px;" src="https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629">
 
@@ -17,7 +17,8 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whiteli
 
 
 
-<hr>
+
+>
 
 <h2 id="IP-주소-허용이란?" data-renderer-start-pos="151">IP 주소 허용이란?</h2>
 
@@ -29,14 +30,14 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whiteli
 
 <p data-renderer-start-pos="431">현재 IP 허용목록은 다음과 같은 페이지에 적용됩니다.</p>
 
-<p>
+<>
 <ul style="list-style-type:disc;">
 <li><p data-renderer-start-pos="497">   Jira tasks, issues, projects</p></li>
 <li><p data-renderer-start-pos="497">   Conlfuence Pages and Spaces</p></li>
 <li><p data-renderer-start-pos="528">   Jira Administration</p></li>
 <li><p data-renderer-start-pos="551">   Confluence administration</p></li>
-</ul>
-</p>
+</ul
+</p
 
 <p data-renderer-start-pos="580">&nbsp;</p>
 
@@ -60,7 +61,8 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whiteli
 <table data-number-column="false"><colgroup><col style="width: 289px;"><col style="width: 289px;"></colgroup><tbody><tr><th rowspan="1" colspan="1" colorname="" class="ak-renderer-tableHeader-sortable-column" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="871"><strong data-renderer-mark="true">Type</strong></p></div><figure class="ak-renderer-tableHeader-sorting-icon ak-renderer-tableHeader-sorting-icon__no-order"><div role="presentation"><figure class="sc-erOsFi jZCgBu"><div class="sorting-icon-svg__no_order table-sorting-icon-inactive sc-eGXxtx cVhpMr"></div></figure></div></figure></th><th rowspan="1" colspan="1" colorname="" class="ak-renderer-tableHeader-sortable-column" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="879"><strong data-renderer-mark="true">Example</strong></p></div><figure class="ak-renderer-tableHeader-sorting-icon ak-renderer-tableHeader-sorting-icon__no-order"><div role="presentation"><figure class="sc-erOsFi jZCgBu"><div class="sorting-icon-svg__no_order table-sorting-icon-inactive sc-eGXxtx cVhpMr"></div></figure></div></figure></th></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="892">IPv4</p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="900">104.192.143.1</p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="919">CIDR </p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="340"><div class="fabric-editor-block-mark sc-MKjYC jMeqlo" data-align="center"><p data-renderer-start-pos="928">104.192.143.0/28<br>104.192.143.16/29<br>104.192.143.24/32<br>2401 : 1d80 : 1010 :: / 64<br>2401 : 1d80 : 1010 :: 150/128&nbsp;</p></div></td></tr></tbody></table>
 
 
-<hr>
+<
+
 
 <h2 id="Set-up">Set up</h2>
 
@@ -91,3 +93,6 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whiteli
 아틀라시안 클라우드 프리미엄대해 더 궁금하신 점이 있으시면 언제든지 디무브에게 문의주세요.
 
 감사합니다:)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE5MDMzOTEzNV19
+-->
