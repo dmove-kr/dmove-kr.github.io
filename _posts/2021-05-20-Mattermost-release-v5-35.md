@@ -52,16 +52,10 @@ tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매�
     
 공유 채널의 기능은 아래와 같습니다. 
     
-
- - List item
-
-메시지 게시
-        
-    -   파일 공유
-        
-    -   메시지 기록을 검색
-        
-    -   실시간 동기화
+ - 메시지 게시
+ - 파일 공유
+ - 메시지 기록을 검색 
+ - 실시간 동기화
         
 다른 Mattermost 객체의 공유 채널과 구성원은 연동되는 아이콘을 통해 식별 할 수 있습니다.
 
@@ -108,5 +102,5 @@ Mattermost 클라우드에는 현재 앱이 활성화되어 있으며 워크 스
 
 감사합니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTEzODBdfQ==
+eyJoaXN0b3J5IjpbMTQ3NDA0MTE1MV19
 -->
