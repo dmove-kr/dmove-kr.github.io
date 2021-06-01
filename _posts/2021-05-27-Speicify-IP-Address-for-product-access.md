@@ -9,7 +9,7 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whiteli
 
 <img style="max-width:100%; max-height: 400px;" src="https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629">
 
-<p data-renderer-start-pos="1">안녕하세요, 디무브 입니다. </p>
+<p data-renderer-start-pos="1">안녕하세요, 디무브 입니다!  </p>
 
 <p data-renderer-start-pos="21">이번에는 기술적인 내용을 가지고 왔습니다.  바로<strong> 제품 액세스를 위한
  IP 주소 허용 및 지정</strong> 방법인데요!
@@ -92,7 +92,7 @@ tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whiteli
 
 아틀라시안 클라우드 프리미엄대해 더 궁금하신 점이 있으시면 언제든지 디무브에게 문의주세요.
 
-감사합니다:)
+감사합니다. :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDMzOTEzNV19
+eyJoaXN0b3J5IjpbLTEwMzg0NTU4MjhdfQ==
 -->
