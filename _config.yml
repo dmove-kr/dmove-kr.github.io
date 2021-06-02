@@ -35,7 +35,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. 
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dmove-kr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.dmove.kr" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 
 # Yat date format
