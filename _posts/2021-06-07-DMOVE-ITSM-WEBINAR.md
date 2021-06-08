@@ -117,7 +117,7 @@ Atlassian의 공식 파트너인 디무브의 아틀라시안 솔루션 전문�
 
 ## <span style="color:blueviolet;"><u>발표자 소개 </u></span>
 
-<div style=" border: 1px solid; display:block; position:relative; min-height:180px !important;padding-bottom:20px !important;margin:30px 0;border-bottom:0; ">
+<div style="  display:block; position:relative; min-height:180px !important;padding-bottom:10px !important;margin:30px 0;border-bottom:0; border: 1px solid; ">
 		<figure style="width:200px; float:left;  ">
             		<img style="width:150px;height:150px; display:inline-block; border-radius:50% !important;" src="https://dmove.co.kr/html/_skin/img/sub/company/img_ourteam_andy.png" alt="">
             </figure>
