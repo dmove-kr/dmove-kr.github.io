@@ -164,7 +164,7 @@ margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; di
 
 
 <div class="btn_main_more mt40 mb_t_c" style="background-color: #1980B6;">
-		   <a href="https://talkit.tv/Event/2586" style="color:white;">사전등록 하러가기</a>
+		  <span style="color:white;"> <a href="https://talkit.tv/Event/2586" ">사전등록 하러가기</a> </span>
 		    </div>
 
 
