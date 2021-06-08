@@ -146,7 +146,7 @@ Atlassian의 공식 파트너인 디무브의 아틀라시안 솔루션 전문�
 
 
 
-  <div style="width:100%; color:#fff !important; float: left; position:relative; min-height: 1px; padding-right: 15px; padding-left: 15px; background-color:#333333; margin-bottom:10px;">
+  <div style="width:100%; color:#fff !important; float: left; position:relative; min-height: 1px; padding-right: 15px; padding-left: 15px; background-color:#333333; margin-bottom:20px;">
         <ul style="border: 0 !important; padding-left: 0; margin-bottom: 0; list-style: none; margin-top: 0; margin-block-start: 1em; margin-block-end: 1em;
 margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; display:inline-flex;" id="nav-white ">
             <li style="font-size: 17px !important; line-height: 23px !important; text-align: -webkit-match-parent;">
