@@ -155,8 +155,7 @@ margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; di
     <img src="https://talkit.tv/userfiles/images/file1623075818298.jpg" title="file1623075818298.jpg" style=" max-width:100%; display:block; vertical-align: middle; border:0; height: auto;">
     </div>
       </div>
-     </div>
-
+    
 
 
 <br>
