@@ -146,7 +146,7 @@ Atlassian의 공식 파트너인 디무브의 아틀라시안 솔루션 전문�
 
 
 
-  <div style="width:100%; color:#fff !important; float: left; position:relative; min-height: 1px; padding-right: 15px; padding-left: 15px; background-color:#333333;">
+  <div style="width:100%; color:#fff !important; float: left; position:relative; min-height: 1px; padding-right: 15px; padding-left: 15px; background-color:#333333; margin-bottom:10px;">
         <ul style="border: 0 !important; padding-left: 0; margin-bottom: 0; list-style: none; margin-top: 0; margin-block-start: 1em; margin-block-end: 1em;
 margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; display:inline-flex;" id="nav-white ">
             <li style="font-size: 17px !important; line-height: 23px !important; text-align: -webkit-match-parent;">
@@ -170,7 +170,7 @@ margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; di
 <hr>
 
 
-<div class="btn_main_more mt40 mb_t_c">
+<div class="btn_main_more mt40 mb_t_c" style="margin-left: 45px;">
       <a href="https://talkit.tv/Event/2586" style="background-color: #1980B6; color:white;">사전등록 하러가기</a> 
 		    </div>
 
