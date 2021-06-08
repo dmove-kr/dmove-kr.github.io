@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Atlassian Webinar - 디지털 트랜스포매이션을 위한 아틀라시안의 IT 서비스 관리 
 subtitle: Dmove ITSM 웨비나
@@ -7,6 +6,7 @@ date: 2021-06-07
 categories: [ITSM Webinar]
 Author: 위거남 차장(디무브)
 tags: [아틀라시안,ITSM,IT서비스,Atlassian,JiraServiceManagement,Jira,지라,협업솔루션,ITIL,디지털트랜스포케이션]
+
 
 
 ---
@@ -51,6 +51,7 @@ tags: [아틀라시안,ITSM,IT서비스,Atlassian,JiraServiceManagement,Jira,지
 <hr>
 
 
+
 <br>
 
 
@@ -87,6 +88,7 @@ Atlassian의 공식 파트너인 디무브의 아틀라시안 솔루션 전문�
 
 <hr>
 
+
 ## <span style="color:blueviolet;"><u>세션 안내 </u></span>
 
 
@@ -109,6 +111,7 @@ Atlassian의 공식 파트너인 디무브의 아틀라시안 솔루션 전문�
 
 
 <hr>
+
 
 
 
@@ -149,13 +152,17 @@ margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; di
             <a href="#goodsTab" style="background-color:#333333; color:white !important; font-weight:bold; margin-right:10px; " data-toggle="tab">경품 안내</a>
             </li>
 
+
         </ul>
+
  <div style="padding:15px 0;">
  <div style="display: block; opacity: 1; padding-bottom:20px !important; transition: opacity .15 linear;" id="goodsTab">
     <img src="https://talkit.tv/userfiles/images/file1623075818298.jpg" title="file1623075818298.jpg" style=" max-width:100%; display:block; vertical-align: middle; border:0; height: auto;">
     </div>
-      </div>
-    
+      </div></div>
+
+
+
 
 
 <br>
@@ -165,6 +172,7 @@ margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; di
 <div class="btn_main_more mt40 mb_t_c">
       <a href="https://talkit.tv/Event/2586" style="background-color: #1980B6; color:white;">사전등록 하러가기</a> 
 		    </div>
+
 
 
 
