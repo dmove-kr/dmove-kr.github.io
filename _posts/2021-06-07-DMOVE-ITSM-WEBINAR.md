@@ -15,7 +15,6 @@ tags: [아틀라시안,ITSM,IT서비스,Atlassian,JiraServiceManagement,Jira,지
 
 ![](https://talkit.tv/userfiles/images/file1622460868828.jpg)
 
-![](https://blog.dmove.kr/assets/images/banners/Webinar/ITSM-Thumbnail.png)
 
 
 
