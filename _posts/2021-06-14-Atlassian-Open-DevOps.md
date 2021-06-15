@@ -15,9 +15,10 @@ tags: [Atlassian, Jira, Confluence, Bitbucket, Opsgenie, Atlassian Cloud, OpenDe
 Open Devops를 통해 소프트웨어팀이 원하는 도구와 방식으로 효율적으로 작업할 수 있도록 지원하는 방법을 살펴 보겠습니다.
 
 ---
-![OpenDev](/assets/images/blog/Opendev_2.png)
 
 ### Open DevOps 소개 
+
+![OpenDev](/assets/images/blog/Opendev_2.png)
 
 2020년 04월28일에 발표한 아틀라시안의 Open DevOps는 Jira Software를 중심으로 Confluence, Bitbucket 및 Opsgenie의 무료 버전의 제품을 기본적으로 제공하여 소프트웨어의 제공 및 운영을 시작하는 데 필요한 것들을 제공할 수 있는 DevOps환경 구축을 위한 솔루션입니다.
 
@@ -101,7 +102,9 @@ Open DevOps 내에서 GitHub 또는 GitLab과 같은 타사 도구로 교체하�
 - **Feature flagging :** LaunchDarkly, Split
 - **Observability :** Datadog, Dynatrace, Sentry, Sumo Logic
 - **CI / CD :** CircleCI, JFrog, Codefresh, Harness, Gitlab
-        
+
+
+
 Open DevOps는 Jira의 코드, 배포, 서비스 운영 및 문서를 위한 원 클릭 설정으로 시작했으며 앞으로 확장성을 더 강화하여 Jira에서 더욱 쉽게 구성할 수 있도록 만들 것입니다.
 
 ---
@@ -115,7 +118,6 @@ Open DevOps는 Jira의 코드, 배포, 서비스 운영 및 문서를 위한 원
 ---
  
 지금까지 여러분과 함께 Open DevOps의 기능에 대하여 살펴 보았습니다.
-
 더 자세한 내용이 궁금하시거나 지원이 필요하시면 디무브로 문의해주세요.
 
 감사합니다.😃
