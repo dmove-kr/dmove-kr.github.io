@@ -6,7 +6,7 @@ categories: [Atlassian Solutions]
 tags: [Atlassian, Jira, Confluence, Bitbucket, Opsgenie, Atlassian Cloud, OpenDevOps, DevOps, 오픈데브옵스, 데브옵스, 아틀라시안, 아틀라시안클라우드, 지라, 컨플루언스]
 ---
 
-![banner](/assets/images/blog/opendev_1.png)
+![banner](/assets/images/blog/Opendev_1.png)
 
 안녕하세요, 디무브 입니다! :balloon: 
 
@@ -15,7 +15,7 @@ tags: [Atlassian, Jira, Confluence, Bitbucket, Opsgenie, Atlassian Cloud, OpenDe
 Open Devops를 통해 소프트웨어팀이 원하는 도구와 방식으로 효율적으로 작업할 수 있도록 지원하는 방법을 살펴 보겠습니다.
 
 ---
-![OpenDev](/assets/images/blog/opendev_2.png)
+![OpenDev](/assets/images/blog/Opendev_2.png)
 
 ### Open DevOps 소개 
 
@@ -35,13 +35,13 @@ Open Devops를 통해 소프트웨어팀이 원하는 도구와 방식으로 효
 
 ### Jira를 중심으로 한 모든 DevOps 기능 
 
-![OpenDev](/assets/images/blog/opendev_3.png)
+![OpenDev](/assets/images/blog/Opendev_3.png)
 
 Open DevOps의 기본 기능을 사용하면 개발자와 운영 담당자가 Jira를 수동으로 업데이트하거나 지속적으로 컨텍스트를 전환하는 것이 아닌 작업에 집중할 수 있습니다. 
 
 #### 코드 작업 (Code in Jira)
 
-![OpenDev](/assets/images/blog/opendev_4.png)
+![OpenDev](/assets/images/blog/Opendev_4.png)
 
 Bitbucket, GitLab 및 GitHub를 포함한 Git 리포지토리를 Jira Software에 직접 통합할 수 있습니다.
     
@@ -52,7 +52,7 @@ Jira는 가장 최근 업데이트 순서대로 코드 탭에 리포지토리를
 
 #### 배포 (Deployments in Jira)
 
-![OpenDev](/assets/images/blog/opendev_5.png)
+![OpenDev](/assets/images/blog/Opendev_5.png)
 
 개발 작업에 Jira 이슈 키를 포함하면 배포 탭에 배포가 자동으로 채워져 고객에게 어떤 값이 언제 제공되었는지 명확하게 파악할 수 있습니다.
     
@@ -61,7 +61,7 @@ Bitbucket Pipelines에서 Gitlab, Jenkins, Azure DevOps, Circle CI 또는 JFrog�
 
 #### On-call 일정 (On-call schedule in Jira)
 
-![OpenDev](/assets/images/blog/opendev_6.png)
+![OpenDev](/assets/images/blog/Opendev_6.png)
 
 서비스가 중단되어 누군가 호출해야 하는 경우 On-call 탭을 사용하면 누가 통화 중인지 묻지 않고도 Opsgenie를 통해 적절한 사람에게 전달합니다.
 
@@ -73,7 +73,7 @@ Open DevOps에 포함 된 Confluence를 통해 팀은 변경 관리, 런북 및 
 
 #### 자동화 (Automation in Jira)
 
-![OpenDev](/assets/images/blog/opendev_7.png)
+![OpenDev](/assets/images/blog/Opendev_7.png)
 
 팀은 Jira의 자동화 엔진을 사용하여 모든 개발 도구에서 강력한 워크 플로우를 생성 할 수 있으며, 이는 작업을 개발 활동과 동기화 상태로 유지하고 모든 사람의 시간을 절약할 수 있도록 합니다.
     
@@ -91,7 +91,7 @@ Ehgks Open DevOps의 각 작업은 Jira 문제와 관련이 있으므로 Jira는
 
 ### Open DevOps의 확장과 커스터마이징
 
-![OpenDev](/assets/images/blog/opendev_8.png)
+![OpenDev](/assets/images/blog/Opendev_8.png)
 
 Open DevOps 내에서 GitHub 또는 GitLab과 같은 타사 도구로 교체하거나 다른 파트너 사의 도구로 확장하여 커스터 마이징이 가능합니다.  
 → Jira는 feature flagging, observability, monitoring, security, CI/CD 등 고객이 이미 사용하는 도구를 결합하는 결합 조직 역할을 합니다.
