@@ -74,6 +74,7 @@ Open DevOps에 포함 된 Confluence를 통해 팀은 변경 관리, 런북 및 
 #### 자동화 (Automation in Jira)
 
 ![OpenDev](/assets/images/blog/opendev_7.png)
+
 팀은 Jira의 자동화 엔진을 사용하여 모든 개발 도구에서 강력한 워크 플로우를 생성 할 수 있으며, 이는 작업을 개발 활동과 동기화 상태로 유지하고 모든 사람의 시간을 절약할 수 있도록 합니다.
     
 "PR이 병합 될 때"와 같은 트리거를 통해 자동화는 Jira 문제를 업데이트하고 Slack / Microsoft Teams 메시지를 보내는 등의 규칙을 실행할 수 있습니다.
