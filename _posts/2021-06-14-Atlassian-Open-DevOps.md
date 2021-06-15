@@ -102,9 +102,7 @@ Open DevOps 내에서 GitHub 또는 GitLab과 같은 타사 도구로 교체하�
 - **Feature flagging :** LaunchDarkly, Split
 - **Observability :** Datadog, Dynatrace, Sentry, Sumo Logic
 - **CI / CD :** CircleCI, JFrog, Codefresh, Harness, Gitlab
-
-
-
+ <br>
 Open DevOps는 Jira의 코드, 배포, 서비스 운영 및 문서를 위한 원 클릭 설정으로 시작했으며 앞으로 확장성을 더 강화하여 Jira에서 더욱 쉽게 구성할 수 있도록 만들 것입니다.
 
 ---
