@@ -90,6 +90,8 @@ Ehgks Open DevOps의 각 작업은 Jira 문제와 관련이 있으므로 Jira는
 
 ### Open DevOps의 확장과 커스터마이징
 
+![OpenDev](/assets/images/blog/opendev_8.png)
+
 Open DevOps 내에서 GitHub 또는 GitLab과 같은 타사 도구로 교체하거나 다른 파트너 사의 도구로 확장하여 커스터 마이징이 가능합니다.  
 → Jira는 feature flagging, observability, monitoring, security, CI/CD 등 고객이 이미 사용하는 도구를 결합하는 결합 조직 역할을 합니다.
     
@@ -113,3 +115,4 @@ Open DevOps는 Jira의 코드, 배포, 서비스 운영 및 문서를 위한 원
  
 지금까지 여러분과 함께 Open DevOps의 기능에 대하여 살펴 보았습니다. 
 더 자세한 내용이 궁금하시거나 지원이 필요하시면 디무브로 문의해주세요.
+감사합니다.😃
