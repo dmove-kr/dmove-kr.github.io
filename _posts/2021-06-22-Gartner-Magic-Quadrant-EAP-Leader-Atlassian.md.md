@@ -10,7 +10,7 @@ tags: [Atlassian, Jira, Atlassian Cloud, EAP, Agile Planning Tool, Gartner, Magi
 
 아틀라시안이 **엔터프라이즈 애자일 계획 도구**(EAP, Enterprise Agile Planning Tools)에 대한 가트너의 **2021년 Magic Quadrant** 에서 리더로 선정되었습니다. :clap: :clap: :clap:
 
-엔터프라이즈 기업을 위한 애자일 솔루션 시장을 선도하는 아틀라시안이 엔터프라이즈 애자일 계획 도구(의 Magic Quadrant에서 리더로 선정된 것은 2017년, 2018년, 2020년을 포함하여 올해로 4번째 입니다.
+엔터프라이즈 기업을 위한 애자일 솔루션 시장을 선도하는 [아틀라시안이 엔터프라이즈 애자일 계획 도구의 Magic Quadrant에서 리더로 선정](https://www.atlassian.com/gartner)된 것은 2017년, 2018년, 2020년을 포함하여 올해로 4번째 입니다.
 
 Atlassian은 팀 을 위한 애자일 도구인 Jira Software를 기반으로 엔터프라이즈 기업의 애자일 업무 문화를 전략적으로 극대화하고 있습니다.
 
@@ -138,5 +138,6 @@ Atlassian의 솔루션과 함께 애자일을 구현을 위한 맞춤형 컨설�
 
 ##### _가트너는 미국 및 그 외 국가에서 Gartner, Inc. 및/또는 그 자회사의 등록 상표 및 서비스 마크이며 허가 하에 여기에서 사용됩니다. All rights reserved._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTI2MzQxNywtMTUzMDgyOTY4OV19
+eyJoaXN0b3J5IjpbLTE2Njg1OTcxMTcsLTE1MzA4Mjk2ODldfQ
+==
 -->
