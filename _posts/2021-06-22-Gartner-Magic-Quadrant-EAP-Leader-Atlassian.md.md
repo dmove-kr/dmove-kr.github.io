@@ -57,7 +57,31 @@ EAP 도구는 전략 및 포트폴리오 관리 수준으로 발전하게 되었
 ---
 ### 2021 Gartner Magic Quadrant - Enterprise Agile Planning Tool
 
+   ![enter image description here](https://www.gartner.com/resources/733800/733887/Figure_1_Magic_Quadrant_for_Enterprise_Agile_Planning_Tools.png?reprintKey=1-25SRWZ04)
+*Source: Gartner (April,2021)*
+
+위 표에서도 알 수 있듯이, Atlassian은 EAP 분야에서 Magic Quadrant 리더입니다.
+
+EAP Magic Quadrant에서 말하는 “리더”는 아래와 같은 강점을 내포하고 있습니다.
+
+-   애자일 사고와 관행을 주도하고 DevOps와 결합하여 강력한 비전을 보여줌
+    
+-   광범위한 시장 및 고객을 보유하고 있음
+    
+-   파트너를 통해 확장 가능한 기능을 제공하는 마켓 플레이스 구축
+    
+-   교육 및 구현을 위한 전 세계적으로 강력한 네트워크와 운영 능력을 갖추고 있음
+    
+
+Atlassian의 Jira Align은 대표적인 EAP 도구로 엔터프라이즈 애자일 프레임 워크를 지원하는 모든 기능을 갖추고 있어 대규모 조직에서 소프트웨어를 배포하고 제공하는 것을 확장하는데 중점을 둡니다.
+
+Jira Align의 고객은 대기업에서 대규모 글로벌 기업에 이르기까지 다양합니다.
+
+Atlassian이 2020년 10월에 모든 제품의 로드맵을 클라우드로 전환한다고 발표하였듯이 Jira Align 은 주로 클라우드 기반의 솔루션으로 판매되었지만, 규제 요구사항이 있는 고객을 위한 온프레미스 버전도 제공합니다.
+
+2021년 2월에는 클라우드 기반 데이터 시각화 및 분석 제공 업체 Chartio를 인수하여 Jira 제품군과의 통합을 계획하고 있습니다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDI3MjYwNywtMTUzMDgyOTY4OV19
+eyJoaXN0b3J5IjpbNjIyMDUwODU0LC0xNTMwODI5Njg5XX0=
 -->
