@@ -6,9 +6,11 @@ date: 2021-06-22
 categories: [IT Trend]
 tags: [Atlassian, Jira, Atlassian Cloud, EAP, Agile Planning Tool, Gartner, Magic Quadrant, Jira Align, 매직쿼드런트, 아틀라시안, 애자일계획도구]
 ---
+안녕하세요, 디무브 입니다! 🎈
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTM3ODY0XX0=
+eyJoaXN0b3J5IjpbLTE1MzA4Mjk2ODldfQ==
 -->
