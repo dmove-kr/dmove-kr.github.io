@@ -8,7 +8,7 @@ tags: [Atlassian, Jira, Atlassian Cloud, EAP, Agile Planning Tool, Gartner, Magi
 ---
 안녕하세요, 디무브 입니다! 🎈
 
-아틀라시안이 엔터프라이즈 **애자일 계획 도구**(EAP, Enterprise Agile Planning Tools)에 대한 가트너의 **2021년 Magic Quadrant** 에서 리더로 선정되었습니다. :clap: :clap: :clap:
+아틀라시안이 **엔터프라이즈 애자일 계획 도구**(EAP, Enterprise Agile Planning Tools)에 대한 가트너의 **2021년 Magic Quadrant** 에서 리더로 선정되었습니다. :clap: :clap: :clap:
 
 엔터프라이즈 기업을 위한 애자일 솔루션 시장을 선도하는 아틀라시안이 엔터프라이즈 애자일 계획 도구(의 Magic Quadrant에서 리더로 선정된 것은 2017년, 2018년, 2020년을 포함하여 올해로 4번째 입니다.
 
@@ -27,12 +27,37 @@ Atlassian은 팀 을 위한 애자일 도구인 Jira Software를 기반으로 �
 
 EAP 도구는 전략 및 포트폴리오 관리 수준으로 발전하게 되었고 현재는 프로젝트 에서 “가치 흐름(Value Stream)”으로 EAP 도구의 핵심이 이동하게 되면서 가치 흐름 관리 플랫폼(Value Stream Management Platform)이나 가치 흐름 전달 플랫폼(Value Stream Delivery Platform)과 같은 기능을 반영하고 있습니다.
 
-*
+**가치 흐름 지도(Value Stream Mapping): 회사의 정보 및 자료 흐름에서 낭비되는 단계를 식별하고 제거하는 데 사용되는 기술*
 
-*가치 흐름 지도(Value Stream Mapping): 회사의 정보 및 자료 흐름에서 낭비되는 단계를 식별하고 제거하는 데 사용되는 기술
 
-*
+아시다시피 엔터프라이즈 기업을 위한 애자일은 꾸준히 성장하는 관행입니다.
+
+애자일 개발을 채택한 조직은 여러 애자일 팀의 작업을 조정하고 애자일 방법론을 지원하기 위해 거버넌스와 리더십 프로세스를 조정해야 하며, EAP 도구는 작업 전달에 대한 가시성을 높임으로써 이를 지원합니다.
+
+애자일 시장의 EAP 도구는 여러 소스의 데이터를 결합하여 조직의 요구를 해결하기 위해 다음과 같은 내용을 지원합니다.
+
+-   업무 성과를 기반으로 한 월별, 주별 및 일일 점진적 개발 지원
+    
+-   SAFe(Scaled Agile Framework)과 같은 엔터프라이즈 애자일 프레임 워크 지원
+    
+-   제품 로드맵
+    
+-   작업 흐름에 대한 가시성 향상
+    
+-   작업 백로그 관리
+    
+-   개인 및 팀을 위한 협업 기능
+    
+-   팀 간 종속성 관리
+    
+-   릴리즈 계획 및 예측
+    
+-   수행중인 작업의 재정적 측면 가시화
+
+---
+### 2021 Gartner Magic Quadrant - Enterprise Agile Planning Tool
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDAyNTEsLTE1MzA4Mjk2ODldfQ==
+eyJoaXN0b3J5IjpbMTMwMDI3MjYwNywtMTUzMDgyOTY4OV19
 -->
