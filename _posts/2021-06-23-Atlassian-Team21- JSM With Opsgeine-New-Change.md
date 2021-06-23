@@ -34,17 +34,25 @@ tags: [Atlassian, Team21 , JSM, Opsgeine]
 
 # 1. Opsgeine
 
-  ![](https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/Opsgeine.png)
+  ![](https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/Opsgeine.png){: .imgcenter}
 
 
 
-- Opsgeine는 알림과 경고를 관리하는 소프트웨어입니다.  Opsgeine는 사용하는 팀원들에게 모든 인시던트에 대응하고 해결하며,  학습할 수 있는 환경을 제공합니다.   Opsgeine는 독립적으로 Standalone 타입을 제공하지만, JSM의 엔진인 인시던트 관리 기능도 제공합니다.
+  
+
+  
+
+
+
+- Opsgeine는 알림과 경고를 관리하는 소프트웨어입니다.  Opsgeine는 사용하는 팀원들에게 모든 인시던트에 대응하고 해결하며,  학습할 수 있는 환경을 제공합니다. Opsgeine는 독립적으로Standalone 타입을 제공하지만, JSM의 엔진인 인시던트 관리 기능도 제공합니다.
 
 
 
 - Opsgeine는 IT 서비스 및 인프라와 관련된 인시던트를 핵심으로 관리하며, 모니터링 서비스 데스크에 대한 로그 툴에 대한 경보를 중심적으로 집중화 하였습니다. 또한 200개가 넘는 서드 파티 툴과 연결할 수 있으며, 강력한 API와 웹 훅, 이메일 통합 기능을 제공합니다.
 
   
+
+---
 
 
 
@@ -138,6 +146,10 @@ tags: [Atlassian, Team21 , JSM, Opsgeine]
 
 - Investigation View는 영향을 받는 서비스와 견롼된 성공과 실패된 배포 및 통과된 인시던트를 제공합니다.  또한 종속적인 서비스와 관련된 항목도 확인할 수 있죠.   
 
+  
+
+
+
 - 첨부된 사진의 그래프는 많은 정보를 가지고 있습니다. 배포된 각 주변의 헤일로는 커밋 수를 나타냅니다. 이것은 각각의 커밋과 개발자의 기여를 쉽게 볼 수 있으며 선택할 수 있습니다.
 
 
@@ -145,6 +157,10 @@ tags: [Atlassian, Team21 , JSM, Opsgeine]
 ![](https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/Investigation%20View%202.png)
 
 - 배포된 내용이 의심스러울 경우 연동된 깃랩 배포를 선택하여 인시던트의 세부사항을 확인하고, 잠재적인 원인으로 추가할 수 있습니다.
+
+  
+
+
 
 ### 5. Potential Causes
 
@@ -185,9 +201,9 @@ tags: [Atlassian, Team21 , JSM, Opsgeine]
 
   
 
-→  기능은 출시된 지 얼마 안됐으며, 조사 결과 Opsgeine를 이용하는 70% 이상의 고객이 이 기능을 사용하기 시작하여 많은 사람들이 즐겨 사용하고 있습니다. 
 
-​    
+
+→  기능은 출시된 지 얼마 안됐으며, 조사 결과 Opsgeine를 이용하는 70% 이상의 고객이 이 기능을 사용하기 시작하여 많은 사람들이 즐겨 사용하고 있습니다. 
 
 ### 2. Snyk 및 아마존 데브옵스 Guru와의 새로운 통합
 
@@ -210,7 +226,9 @@ tags: [Atlassian, Team21 , JSM, Opsgeine]
 <p>
 </p>
 
-- Opsgeine는 아틀라시안의 대표적인 툴인 Jira와 통합하는 것이 더 쉬워졌으며, Opsgeine는 Jira로 이벤트를 트리거할 수 있으며, 그 반대로 Jira에서 Opsgeine로 트리거 할 수 있습니다.  이러한 양방향 관계를 설정하면 프로세스를 간소활 할 수 있고, 절차를 준수할 수 있습니다. 
+- Opsgeine는 아틀라시안의 대표적인 툴인 Jira와 통합하는 것이 더 쉬워졌으며, Opsgeine는 Jira로 이벤트를 트리거할 수 있으며, 그 반대로 Jira에서 Opsgeine로 트리거 할 수 있습니다.  이러한 양방향 관계를 설정하면 프로세스를 간소활 할 수 있고, 절차를 준수할 수 있습니다.  
+
+  
 
   
 
@@ -267,6 +285,10 @@ tags: [Atlassian, Team21 , JSM, Opsgeine]
 ![](https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/Future Opsgeine 6.png){: .imgcenter}
 
 - 인시던트 세부 내용의 오른쪽은 공통 메타데이터가 출력되며, 응답자는 상태, 응답 팀, 담당자 등을 한눈에 확인할 수 있고 필요 시 변경할 수 있습니다.
+
+
+
+  
 
 
 
