@@ -2,7 +2,7 @@
 layout: post
 title: Atlassian Team21 - JSM 과 Opsgeine의 새로운 변화 
 subtitle: Team21
-date: 2021-06-23
+date: 2021-06-29
 categories: [Atlassian Solutions]
 Author: Jackson
 tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스지니, ITSM]
