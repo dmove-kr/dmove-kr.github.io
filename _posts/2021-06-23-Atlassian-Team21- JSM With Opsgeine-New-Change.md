@@ -20,9 +20,11 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 안녕하세요! 디무브 입니다. 🎈
 
-최근에 아틀라시안에서 Team21을 통해 아틀라시안의 현황과 미래의 비전에 대해 발표했었는데요. 특히 ITSM의 변화와 개발과 운영 사이의 관계를 많이 언급했습니다. 
+최근에 아틀라시안에서 Team21을 통해 아틀라시안의 현황과 미래의 비전에 대해 발표했었는데요. 
 
-이번 시간에는 아틀라시안의  ITSM 솔루션인 Jira Service Management와 인시던트 모니터링 툴인 Opsgeine에 대해 알아보겠습니다.
+특히 ITSM의 변화와 개발과 운영 사이의 관계를 많이 언급했습니다. 
+
+아틀라시안의  ITSM 솔루션인 Jira Service Management와 인시던트 모니터링 툴인 Opsgeine에 대해 알아보겠습니다.
 
   
 
