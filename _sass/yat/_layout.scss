@@ -528,6 +528,17 @@ a {
 
     }
     
+    h1 {
+ @include relative-font-size(2.25);
+
+      @include media-query($on-laptop) {
+        @include relative-font-size(2);
+	
+      }
+      margin-bottom:20px;
+
+    }
+
     h2 {
       @include relative-font-size(2);
 
@@ -555,7 +566,12 @@ a {
     img, svg, iframe {
       margin-left: auto;
       margin-right: auto;
-      display: inline;
+      
+    }
+
+    .imgcenter{
+	    display:block;
+	    margin:auto;
     }
 
     h2, h3, h4, h5, h6 {
