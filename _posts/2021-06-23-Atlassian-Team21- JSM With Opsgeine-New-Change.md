@@ -268,19 +268,39 @@ tags: [Atlassian, Team21 , JSM, Opsgeine]
 
 - Opsgeine의 변경 사항 중 하나는 이슈를 연결하고, 첨부 파일을 추가하고, 모든 활동을 추적할 수 있는 경고의 세부 정보에 관한 것입니다. 경고에 대한 세부 페이지는 정보가 밀집되어 있습니다.
 
+  
+
+---
+
+
+
 
 
 ![](https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/Future Opsgeine 3.png){: .imgcenter}
 
-- 변화된 레이아웃은 아틀라시안 벤투 박스 레이아웃과 일치합니다. 당신은 치명적인 정보를 상단에서 볼 수 있으며, 사용자들이 빠르게 보고 우선순위를 정할 수 있을 뿐만 아니라, 경고를 중대한 인시던트로 상향 시키고 당신의 티켓과 연결 할 수 있도록 합니다.
+- 변화된 레이아웃은 아틀라시안 벤투 박스 레이아웃과 일치합니다. 당신은 치명적인 정보를 상단에서 볼 수 있으며, 사용자들이 빠르게 보고 우선순위를 정할 수 있을 뿐만 아니라, 경고를 중대한 인시던트로 상향 시키고 당신의 티켓과 연결 할 수 있도록 합니다.  
+
+---
+
+
+
+
 
 ![](https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/Future Opsgeine 4.png){: .imgcenter}
 
 - 인시던트를 해결하기 위한 활동은 아래 탭 구조에 표시되며, 중요한 정보를 찾는데 도움이 되도록 잘 필터링 할 수 있습니다.
 
+---
+
+
+
 <img class="imgcenter" src="https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/Future Opsgeine 5.png" style="zoom:80%;" />
 
 - 추가 속성에서는  확장 가능한 영역에 추가 속성 및 관련 티켓이 표시되고, 비어있다면 해당 영역이 표시 되지 않습니다. 
+
+---
+
+
 
 ![](https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/Future Opsgeine 6.png){: .imgcenter}
 

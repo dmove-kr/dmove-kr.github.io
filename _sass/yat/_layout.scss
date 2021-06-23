@@ -592,6 +592,8 @@ a {
     }
     
     li{
+    margin-bottom: 20px;
+    margin-top: 20px;
     list-style-type:disc;
     }
   }
@@ -605,6 +607,8 @@ a {
 
     ul {
       margin-left: 15px;
+      margin-top : 20px;
+      margin-bottom : 20px;
       .post-link {
         @include relative-font-size(1.075);
       }
