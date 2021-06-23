@@ -3,9 +3,9 @@ layout: post
 title: Atlassian Team21 - JSM 과 Opsgeine의 새로운 변화 
 subtitle: Team21
 date: 2021-06-23
-categories: [Team21]
+categories: [Atlassian Solutions]
 Author: Jackson
-tags: [Atlassian, Team21 , JSM, Opsgeine]
+tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스지니, ITSM]
 
 
 
@@ -18,7 +18,9 @@ tags: [Atlassian, Team21 , JSM, Opsgeine]
 
 
 
-안녕하세요! 디무브 입니다.  최근에 아틀라시안에서 Team21을 통해 아틀라시안의 현황과 미래의 비전에 대해 발표했었는데요. 특히 ITSM의 변화와 개발과 운영 사이의 관계를 많이 언급했습니다. 
+안녕하세요! 디무브 입니다. 🎈
+
+최근에 아틀라시안에서 Team21을 통해 아틀라시안의 현황과 미래의 비전에 대해 발표했었는데요. 특히 ITSM의 변화와 개발과 운영 사이의 관계를 많이 언급했습니다. 
 
 이번 시간에는 아틀라시안의  ITSM 솔루션인 Jira Service Management와 인시던트 모니터링 툴인 Opsgeine에 대해 알아보겠습니다.
 
@@ -32,7 +34,7 @@ tags: [Atlassian, Team21 , JSM, Opsgeine]
 
   
 
-# 1. Opsgeine
+# Opsgeine
 
   ![](https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/Opsgeine.png){: .imgcenter}
 
@@ -521,4 +523,7 @@ tags: [Atlassian, Team21 , JSM, Opsgeine]
 - 곧 아틀라시안에서는 문서 보고 및 분석 툴의 전문 기업인 Chartio를 인수하여 Chartio 가 가진 최신화된 보고서 및 분석기능을 활용해 JSM에서 선보일 것입니다.
 
 ---
+
+아틀라시안의 JSM 및 옵스지니를 활용하여 장애관리를 구현하고 싶으시다면 언제든지 저희에게 문의해주세요.
+감사합니다.😃
 
