@@ -15,7 +15,7 @@ tags: [Dmove, Zabbix,zabbix,5.4,zabbix5.4]
 
 
 
-![image1](https://https://blog.dmove.kr//assets/images/banners/Zabbix/5.4/image1.png)
+![image1](https://blog.dmove.kr//assets/images/banners/Zabbix/5.4/image1.png)
 
   <p></p>
 
@@ -33,7 +33,7 @@ tags: [Dmove, Zabbix,zabbix,5.4,zabbix5.4]
 
 ## 1. Reporting and Visualization 
 
-### 1-1. :star: Unification of Screens(화면 통합기능) :star: 
+### 1-1. Unification of Screens(화면 통합기능)
 
 
 
