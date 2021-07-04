@@ -229,7 +229,7 @@ __Zabbix 5.4__
 
   
 
-### 2-3 **New set of functions 
+### 2-3 New set of functions 
 
 [6 Support functions [Zabbix Documentation 5.4]](https://www.zabbix.com/documentation/current/manual/appendix/functions)
 
@@ -446,8 +446,9 @@ __Zabbix 5.4__
 <center>- Better XML preprocessing - </center>
 
 ### 2-13 More improvements 
+<p></p>
 
-- 보안 관련 변경 사항 및 실시간 내보내기와 관련된 기타 변경 사항도 있습니다.
+보안 관련 변경 사항 및 실시간 내보내기와 관련된 기타 변경 사항은 다음과 같습니다.
 
 - **보안 관련(Security-related)**
 
@@ -463,7 +464,7 @@ __Zabbix 5.4__
 
   ＊ 실시간으로 추출한 정보의 구성 세분화
 
-- 추가 사항
+- __추가 사항__
 
   ＊ VMWare 클러스터 모니터링 지원
 
