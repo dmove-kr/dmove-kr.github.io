@@ -142,9 +142,9 @@ tags: [Dmove, Zabbix,zabbix,5.4,zabbix5.4]
 
 
 
-## **2. More powerful and simple**
+## 2. More powerful and simple
 
-### 2-1  **Tags for items **
+### 2-1  Tags for items 
 
 - Zabbix는 이미 트리거, 호스트, 호스트 프로토 타입 및 템플릿과 같은 거의 모든 필수 개체에 대한 태그를 지원하고 있습니다. **Tags for items**의 도입으로 인하여  Zabbix 5.4에서는 Item level의 애플리케이션을 T태그로 대체하였으며 대체된 애플리케이션을 더 이상 지원하지 않습니다.
 
@@ -164,7 +164,7 @@ tags: [Dmove, Zabbix,zabbix,5.4,zabbix5.4]
 
 
 
-## 2-2  **Syntax **
+## 2-2  Syntax 
 
 - 이전 버전에서는 트리거에 대한 특수 구문, 계산 된 항목에 대한 일부 기능 구문 및 집계 된 항목에 대해 다른 구문을 사용했습니다. 이는 구문이 복잡하고 문서를 참조해야 했습니다. 
 - 하지만  Zabbix 5.4에서 새롭게 도입된 **Syntax**는 기능에 초점을 두고 Triggers, Calculated, Aggregate에 대해 정확히 동일한 구문을 사용합니다.
