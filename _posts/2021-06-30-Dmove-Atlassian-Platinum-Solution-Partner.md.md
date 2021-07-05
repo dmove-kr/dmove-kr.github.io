@@ -19,13 +19,12 @@ Atlassian의 플래티넘 파트너로, 디무브는 Atlassian 이 제공하는 
 
 Agile 프레임 워크를 기반으로 ALM, ITSM, DevOps 및 CI/CD 등을 구현하기 위하여 특정 요구 사항과 비즈니스 환경에 맞는 맞춤 컨설팅을 제공하고 시스템 통합, 배포, 업그레이드와 같은 전문적인 기술 지원을 수행합니다. 
 
-또한 데모, 교육 및 서비스 포털 등을 통해 소규모 조직부터 대규모 기업까지 풍부한 경험과 전문 지식으로 
+또한 현장 데모, 교육 및 서비스 포털 등을 통해 소규모 조직부터 대규모 기업까지 풍부한 경험과 전문 지식으로 고객을 지원합니다. 
 
+----
 
-우리는 현장 데모, 교육 및 사용자 정의를 제공하는 문서를 통해 대규모 고객을 지원할 수 있습니다. 대규모 기업 고객을 지원하는 심층 수직 시장 경험과 비즈니스 혁신 전문 지식.
-
-DevOps 및 ITSM에 대한 검증 된 전문성을 갖춘 CRG는 다음과 같은 솔루션을 제공합니다.
+Atlassian의 새로운 FY22를 플래티넘 솔루션 파트너로 시작하게 되어 매우 기쁘고, 이러한 결과를 이루어 낼 수 있도록 디무브를 믿고 협력해주신 고객분들께 진심으로 감사의 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTA1ODU2OSwtODQ5MDkzMzQ2LC0xNz
-I5MTQ4MjQ5LC01ODc4MzYyMjBdfQ==
+eyJoaXN0b3J5IjpbNjM2MDQ5MiwtODQ5MDkzMzQ2LC0xNzI5MT
+Q4MjQ5LC01ODc4MzYyMjBdfQ==
 -->
