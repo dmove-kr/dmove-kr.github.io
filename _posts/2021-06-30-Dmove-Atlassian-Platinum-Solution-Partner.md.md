@@ -25,11 +25,11 @@ Agile 프레임 워크를 기반으로 ALM, ITSM, DevOps 및 CI/CD 등을 구현
 
 Atlassian의 새로운 FY22를 플래티넘 솔루션 파트너로 시작하게 되어 매우 기쁘고, 이러한 결과를 이루어 낼 수 있도록 디무브를 믿고 협력해주신 고객분들께 진심으로 감사의 말씀을 드립니다. 
 
-디무브는 앞으로도 고객분들의 진정한 디지털 혁신과 비즈니스 변화를 돕기 위하여 최선을 다할 것이며, 신뢰할수 있는 비즈니스 파트너
+디무브는 앞으로도 Atlassian 솔루션을 통한 조직의 변화와 혁신을 성공적으로 진행할 수 있도록 지원하는 신뢰할수 있는 비즈니스 파트너가  최선을 다하겠습니다. 
 
 감사합니다! 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDY3NDE4MCwtODQ5MDkzMzQ2LC0xNz
-I5MTQ4MjQ5LC01ODc4MzYyMjBdfQ==
+eyJoaXN0b3J5IjpbLTE2NDI2MzA2ODQsLTg0OTA5MzM0NiwtMT
+cyOTE0ODI0OSwtNTg3ODM2MjIwXX0=
 -->
