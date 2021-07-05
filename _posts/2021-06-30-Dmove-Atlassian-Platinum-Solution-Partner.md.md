@@ -9,10 +9,11 @@ Atlassian 솔루션 파트너는 고객이 Atlassian 의 제품 도입 및 활�
 지난 2020년 9월 말, Atlassian 파트너 프로그램에 합류한 이후 10개월이라는 짧은 기간 안에 플래티넘 솔루션 파트너를 달성한 것은, 아시아 퍼시픽 최초라는 점에서 더욱 뜻깊은 결과입니다. 
 
  - 2020년 9월 25일: Atlassian Solution Partner 등록
- - 2020년 12월 7일: Atlassian "C
+ - 2020년 12월 7일: Atlassian "Gold Solution Partner" 달성
+ - 2021년 6월 28일: Atlassian "Platinum Solution Partner" 달성
 
-“2020년 9월 말 아틀라시안의 파트너 프로그램에 합류한 이후 3개월만인 2020년 12월에 골드 솔루션 파트너 자격을 취득한데 이어, 아시아 퍼시픽 최초로 9개월만에 플래티넘 솔루션 파트너 자격을 얻는 쾌거를 이루었다”고 전했다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTU0NDEwMzQsLTE3MjkxNDgyNDksLT
-U4NzgzNjIyMF19
+eyJoaXN0b3J5IjpbLTg0OTA5MzM0NiwtMTcyOTE0ODI0OSwtNT
+g3ODM2MjIwXX0=
 -->
