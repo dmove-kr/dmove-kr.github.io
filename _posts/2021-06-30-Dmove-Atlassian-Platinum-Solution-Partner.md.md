@@ -16,13 +16,17 @@ Atlassian 솔루션 파트너는 고객이 Atlassian 의 제품 도입 및 활�
 ### Platinum Solution Partner
 
 Atlassian의 플래티넘 파트너로, 디무브는 Atlassian 이 제공하는 포트폴리오를 통해 복잡한 요구 사항에 대한 솔루션을 제공합니다. 
-Agile 프레임 워크를 기반으로 한 ITSM, DevOps 및 CI/CD 와 같은  
+
+Agile 프레임 워크를 기반으로 ALM, ITSM, DevOps 및 CI/CD 등을 구현하기 위하여 고객과 협력하여 전문적인 컨설팅을 제공하고 시스템 통합, 배포 및 업그레이드를 수행합니다. 
+
+또한, 현장 데모, 교
+
 Platinum은 전 세계 파트너로서 전체 Atlassian 포트폴리오에 특화되어 있으며 복잡한 기업 요구 사항에 대한 솔루션을 제공합니다. 우리는 완벽한 ALM, 소스 제어 관리, CICD 등을 제공하기 위해 여러 팀과 긴밀히 협력합니다. CRG Solutions는 Atlassian의 가장 큰 고객과 협력하여 실제 시스템 통합, 배포, 업그레이드를 수행하고 Atlassian 소프트웨어를 특정 요구에 맞게 사용자 정의합니다.
 As Platinum worldwide partners, we are specialized in the entire Atlassian portfolio and provide solutions for complex enterprise needs. We work closely with different teams to provide complete ALM, source control management, CICD & much more. CRG Solutions works with Atlassian’s largest customers to conduct hands-on system integrations, deployments, upgrades & customize Atlassian software to their specific needs.
 우리는 현장 데모, 교육 및 사용자 정의를 제공하는 문서를 통해 대규모 고객을 지원할 수 있습니다. 대규모 기업 고객을 지원하는 심층 수직 시장 경험과 비즈니스 혁신 전문 지식.
 
 DevOps 및 ITSM에 대한 검증 된 전문성을 갖춘 CRG는 다음과 같은 솔루션을 제공합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY2OTIzNzIsLTg0OTA5MzM0NiwtMT
-cyOTE0ODI0OSwtNTg3ODM2MjIwXX0=
+eyJoaXN0b3J5IjpbOTkwNDY1NTQ5LC04NDkwOTMzNDYsLTE3Mj
+kxNDgyNDksLTU4NzgzNjIyMF19
 -->
