@@ -1,12 +1,12 @@
 안녕하세요, 디무브입니다.
 
-디무브에서 6월28일자로 Atlassian의 **'플래티넘 솔루션 파트너'**를 획득하게 되었습니다! 
+디무브가 6월28일자로 Atlassian의 **'플래티넘 솔루션 파트너'**를 획득하게 되었습니다! 
 
 Atlassian 솔루션 파트너는 고객이 Atlassian 의 제품 도입 및 활용을 극대화 할 수 있도록 전문적인 솔루션 구현과 컨설팅 및 기술지원을 제공합니다. 
 
 **플래티넘**은 솔루션 파트너가 달성할 수 있는 가장 높은 수준의 파트너쉽이며, 디무브가 Atlassian에 대한 깊이 있는 기술력과 경험을 보유하고 있는 전문가로 인정받았음을 의미합니다.
 
-지난 2020년 9월 말, Atlassian 파트너 프로그램에 합류한 이후 10개월이라는 짧은 기간 안에 플래티넘 솔루션 파트너를 달성한 것은, 아시아 퍼시픽 최초라는 점에서 더욱 뜻깊은 결과입니다. 
+지난 2020년 9월 말 Atlassian 파트너 프로그램에 합류한 이후 10개월이라는 짧은 기간 안에 플래티넘 솔루션 파트너를 달성하게 되었고, 이러한 빠른 성장은 아시아 퍼시픽 최초라는 점에서 더욱 뜻깊은 결과입니다. 
 
 ### Our Atlassian Journey 
  - 2020년 9월 25일: Atlassian Solution Partner 등록
@@ -27,8 +27,9 @@ Atlassian의 새로운 FY22를 플래티넘 솔루션 파트너로 시작하게 
 
 디무브는 앞으로도 고객분들의 진정한 디지털 혁신과 비즈니스 변화를 돕기 위하여 최선을 다하겠습니다. 
 
-Atlassian을 통한 조직의 
+감사합니다! 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU3NjQ4NjIsLTg0OTA5MzM0NiwtMT
-cyOTE0ODI0OSwtNTg3ODM2MjIwXX0=
+eyJoaXN0b3J5IjpbLTg5NDE2ODk2MSwtODQ5MDkzMzQ2LC0xNz
+I5MTQ4MjQ5LC01ODc4MzYyMjBdfQ==
 -->
