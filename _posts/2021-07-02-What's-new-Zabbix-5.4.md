@@ -5,12 +5,7 @@ subtitle: Zabbix5.4
 date: 2021-07-02
 categories: [Zabbix]
 Author: Jackson
-tags: [Dmove, Zabbix,zabbix,5.4,zabbix5.4]
-
-
-
-
-
+tags: [Dmove, Zabbix,zabbix5.4,자빅스]
 ---
 
 
@@ -695,9 +690,7 @@ __Question 6. 향후 Red Hat 7 , CentOS 7 또는  RHEL 7에 대해 Zabbix 6.0 �
 
 <p></p>
 
-
-
 ---
 
----
+
 
