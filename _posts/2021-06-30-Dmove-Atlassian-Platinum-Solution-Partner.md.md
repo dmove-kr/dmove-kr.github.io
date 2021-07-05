@@ -1,4 +1,4 @@
-## /[assets](https://github.com/dmove-kr/dmove-kr.github.io/tree/main/assets)/[images](https://github.com/dmove-kr/dmove-kr.github.io/tree/main/assets/images)/[blog](https://github.com/dmove-kr/dmove-kr.github.io/tree/main/assets/images/blog)/**Platinum Solution Partner grey.png**
+
 
 안녕하세요, 디무브입니다.
 
@@ -32,6 +32,7 @@ Atlassian의 새로운 FY22를 플래티넘 솔루션 파트너로 시작하게 
 감사합니다! 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDYwNTA1LC0xNDQyNDA4MTE2LC04ND
-kwOTMzNDYsLTE3MjkxNDgyNDksLTU4NzgzNjIyMF19
+eyJoaXN0b3J5IjpbLTE5NzMxODM2MCwtMjEwNjA1MDUsLTE0ND
+I0MDgxMTYsLTg0OTA5MzM0NiwtMTcyOTE0ODI0OSwtNTg3ODM2
+MjIwXX0=
 -->
