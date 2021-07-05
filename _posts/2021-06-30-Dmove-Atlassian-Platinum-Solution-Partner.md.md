@@ -19,18 +19,17 @@ Atlassian의 플래티넘 파트너로, 디무브는 Atlassian 이 제공하는 
 
 Agile 프레임 워크를 기반으로 ALM, ITSM, DevOps 및 CI/CD 등을 구현하기 위하여 특정 요구 사항과 비즈니스 환경에 맞는 맞춤 컨설팅을 제공하고 시스템 통합, 배포, 업그레이드와 같은 전문적인 기술 지원을 수행합니다. 
 
-또한 "
-또한 현장 데모, 교육 및 서비스 포털 등을 통해 소규모 조직부터 대규모 기업까지 풍부한 경험과 전문 지식으로 고객을 지원합니다. 
+또한 "Cloud First"로의 변화를 결정한 Atlassian의 새로운 전략에 맞춰 디무브는 풍부한 경험과 전문 지식으로 고객의 클라우드 마이그레이션과 신규 구축을 지원합니다. 
 
 ----
 
 Atlassian의 새로운 FY22를 플래티넘 솔루션 파트너로 시작하게 되어 매우 기쁘고, 이러한 결과를 이루어 낼 수 있도록 디무브를 믿고 협력해주신 고객분들께 진심으로 감사의 말씀을 드립니다. 
 
-디무브는 앞으로도 고객분들의 진정한 디지털 혁신과 비즈니스 변화를 돕기 위하여 최선을 다하겠습니다. 
+디무브는 앞으로도 고객분들의 진정한 디지털 혁신과 비즈니스 변화를 돕기 위하여 최선을 다할 것이며, 신뢰할수 있는 비즈니스 파트너
 
 감사합니다! 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzMzODI5ODksLTg0OTA5MzM0NiwtMT
-cyOTE0ODI0OSwtNTg3ODM2MjIwXX0=
+eyJoaXN0b3J5IjpbMTgxNDY3NDE4MCwtODQ5MDkzMzQ2LC0xNz
+I5MTQ4MjQ5LC01ODc4MzYyMjBdfQ==
 -->
