@@ -64,10 +64,15 @@ Atlassian ITSM 웨비나에 대한 뜨거운 관심은 진행하는 동안 올�
 
 웨비나에 대한 전체 내용이 궁금하신 분들께서는, 아래 영상을 통해 확인하실 수 있습니다.
 
+<iframe width="600" height="400" src="https://www.youtube.com/watch?v=lWMZqBXv87I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+추후에도 웨비나에서 다룬 내용에 대해 궁금하신 점이 있으시면 저희에게 언제든지 알려주세요.
 
+디무브에서는 앞으로도 다양한 주제로 찾아뵐 것을 약속 드리며, 본 포스팅을 마무리하도록 하겠습니다.
+
+감사합니다. 😃
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ1ODkxNzMsLTExMDM1OTI0NzMsMT
-A0Njk0ODM4OCwtNDE3NDEwODU1LC0yMjYxNDg1MjIsLTY2ODk3
-MzIwOSwtNzMxMzAzMDQ3LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTk1NzYxNDkzMywtMTEwMzU5MjQ3MywxMD
+Q2OTQ4Mzg4LC00MTc0MTA4NTUsLTIyNjE0ODUyMiwtNjY4OTcz
+MjA5LC03MzEzMDMwNDcsLTIwODg3NDY2MTJdfQ==
 -->
