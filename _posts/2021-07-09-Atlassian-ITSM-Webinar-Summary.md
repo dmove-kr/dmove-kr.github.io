@@ -44,7 +44,7 @@ DevOps와 Agile의 개념이 결합 된 가장 최신의 ITIL 프레임 워크�
 
 그렇다면, 아틀라시안이 추구하는 ITSM에 대한 차별점은 무엇이며, Jira Service Management(JSM)를 중심으로 이루어진 아틀라시안의 ITSM 솔루션은 어떤 역할을 할 수 있을까요?
 
-아틀라시안에서는 “사람과 문화 + 검증된 관행 + 협업 도구” 이 3가지를 통해 팀의 역량을 극대화 할 수 있다고 믿고 있으며, 아틀라시안의 솔루션을 통해 이를 증명하고 있습니다.
+아틀라시안에서는 **“사람과 문화 + 검증된 관행 + 협업 도구”** 이 3가지를 통해 팀의 역량을 극대화 할 수 있다고 믿고 있으며, 아틀라시안의 솔루션을 통해 이를 증명하고 있습니다.
 
 조직은 JSM을 통해 지식관리, 변경관리, 자산관리, 구성관리, 인시던트관리와 같은 ITSM의 핵심 관리를 한 곳에서 운영하고 관리할 수 있으며, 실제 고객의 Case Study를 통해 개방형 협업 플랫폼을 통해 팀 업무에 대한 가시성을 높이고 소통과 협업을 증대할 수 있는 방안에 대해 공유드렸습니다.
 
@@ -63,6 +63,8 @@ DevOps와 Agile의 개념이 결합 된 가장 최신의 ITIL 프레임 워크�
 JSM의 기본 기능인 ‘Automation’을 통한 업무 자동화 구현과, 도입시 우려되는 구축 기간 및 커스터마이징 문제, ISMS와 같은 인증 심사와 외감법 대응을 위한 보안 및 인증 가능 여부, SLA 적용 방안에 대해 답변을 드렸습니다.
 
 ---
+
+
 1시간이라는 짧은 시간 내에서 아틀라시안의 ITSM에 대한 핵심 내용으로 알차게 구성해 보았는데요!
 
 Atlassian ITSM 웨비나에 대한 뜨거운 관심은 진행하는 동안 올려주신 실시간 질문들에서도 알수 있었습니다.
@@ -73,7 +75,7 @@ Atlassian ITSM 웨비나에 대한 뜨거운 관심은 진행하는 동안 올�
 
 웨비나에 대한 전체 내용이 궁금하신 분들께서는, 아래 영상을 통해 확인하실 수 있습니다.
 
-<iframe width="600" height="400" src="https://www.youtube.com/watch?v=lWMZqBXv87I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/lWMZqBXv87I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 추후에도 웨비나에서 다룬 내용에 대해 궁금하신 점이 있으시면 저희에게 언제든지 알려주세요.
 
