@@ -16,7 +16,8 @@
 
 | **Agenda** |
 |**"ITSM" 이란?** <br> -   ITSM 및 ITIL4 개요 <br> -   ITSM을 통한 디지털 트랜스포메이션 </br>|
-|**Atlassian 의 ITSM 도구 - 지라 서비스 매니지먼트** <br> -   Atlassian ITSM 솔루션만의 차별점<br>  -   Jira Service Management Cloud의 핵심 기능<br> | **활용 사례 Demo** |
+|**Atlassian 의 ITSM 도구 - 지라 서비스 매니지먼트** <br> -   Atlassian ITSM 솔루션만의 차별점<br>  -   Jira Service Management Cloud의 핵심 기능<br>| 
+|**활용 사례 Demo** <br> -   Asset Management : JSM의 Insight 기능을 활용한 자산관리 <br> -   Incident Management: Opsgenie와의 연동으로 더욱 파워풀한 장애관리 <br>|
 
 
 **활용 사례 Demo**
@@ -33,7 +34,7 @@
 
 ## Session 1. ITSM 이란?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjk3OTk1ODksLTQxNzQxMDg1NSwtMj
-I2MTQ4NTIyLC02Njg5NzMyMDksLTczMTMwMzA0NywtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMTA0Njk0ODM4OCwtNDE3NDEwODU1LC0yMj
+YxNDg1MjIsLTY2ODk3MzIwOSwtNzMxMzAzMDQ3LC0yMDg4NzQ2
+NjEyXX0=
 -->
