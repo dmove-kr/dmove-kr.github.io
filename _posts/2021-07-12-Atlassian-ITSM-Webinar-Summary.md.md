@@ -44,8 +44,30 @@ DevOps와 Agile의 개념이 결합 된 가장 최신의 ITIL 프레임 워크�
 데모 세션의 경우 크게 자산 관리와 인시던트 관리, 2가지로 나눈 시나리오로 미리 준비한 데모 영상을 설명 드렸습니다.
 
 데모 영상에서는 AWS EC2 인스턴스를 활용한 서비스 환경에서의 Jira Service Management Cloud를 통해 자산/구성 관리 (CMDB), 요청 관리, 인시던트 관리 등 사용자가 요청을 신청하는 방법과 어떻게 에이전트가 자산을 관리하고 구성하며, 인시던트 발생 시 해결할 수 있는지 확인 하실 수 있습니다.
+
+## Session 4. Q&A
+
+이번 웨비나에서는 사전 등록을 하실 때 “ITSM 또는 Atlassian의 Jira Service Management 제품에 대해 궁금하신 점”에 대하여 미리 질문을 드렸습니다.
+
+정말 다양하고 많은 질문들 중에서도 주로 궁금해 하시는 점을 위주로 저희가 미리 정리한 내용을 Q&A 시간에 공유했는데요. 
+
+JSM의 기본 기능인 ‘Automation’을 통한 업무 자동화 구현과, 도입시 우려되는 구축 기간 및 커스터마이징 문제, ISMS와 같은 인증 심사와 외감법 대응을 위한 보안 및 인증 가능 여부, SLA 적용 방안에 대해 답변을 드렸습니다.
+
+---
+1시간이라는 짧은 시간 내에서 아틀라시안의 ITSM에 대한 핵심 내용으로 알차게 구성해 보았는데요!
+
+Atlassian ITSM 웨비나에 대한 뜨거운 관심은 진행하는 동안 올려주신 실시간 질문들에서도 알수 있었습니다.
+
+저희 디무브팀은 물론 아틀라시안의 한국 리전 대표님까지 합세하여 답변을 드렸지만, 시간적 제약으로 인해 미처 답변을 드리지 못한 분들도 계셨습니다.
+
+웨비나 종료 후, 사전 질문 + 실시간 질문 + 사후 질문 (설문 조사) 를 통해 남겨주신 문의 사항은 저희가 개별적으로 모두 답변을 드렸으니 도움이 되셨기를 바랍니다.
+
+웨비나에 대한 전체 내용이 궁금하신 분들께서는, 아래 영상을 통해 확인하실 수 있습니다.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0MTYxOTI2LC0xMTAzNTkyNDczLDEwND
-Y5NDgzODgsLTQxNzQxMDg1NSwtMjI2MTQ4NTIyLC02Njg5NzMy
-MDksLTczMTMwMzA0NywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyNjQ1ODkxNzMsLTExMDM1OTI0NzMsMT
+A0Njk0ODM4OCwtNDE3NDEwODU1LC0yMjYxNDg1MjIsLTY2ODk3
+MzIwOSwtNzMxMzAzMDQ3LC0yMDg4NzQ2NjEyXX0=
 -->
