@@ -64,7 +64,7 @@ Atlassian ITSM 웨비나에 대한 뜨거운 관심은 진행하는 동안 올�
 
 웨비나에 대한 전체 내용이 궁금하신 분들께서는, 아래 영상을 통해 확인하실 수 있습니다.
 
-<iframe width="600" height="400" src="https://www.youtube.com/watch?v=lWMZqBXv87I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/lWMZqBXv87I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 추후에도 웨비나에서 다룬 내용에 대해 궁금하신 점이 있으시면 저희에게 언제든지 알려주세요.
 
@@ -72,7 +72,8 @@ Atlassian ITSM 웨비나에 대한 뜨거운 관심은 진행하는 동안 올�
 
 감사합니다. 😃
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzYxNDkzMywtMTEwMzU5MjQ3MywxMD
-Q2OTQ4Mzg4LC00MTc0MTA4NTUsLTIyNjE0ODUyMiwtNjY4OTcz
-MjA5LC03MzEzMDMwNDcsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEzMDc5MTcyNjAsMTk1NzYxNDkzMywtMT
+EwMzU5MjQ3MywxMDQ2OTQ4Mzg4LC00MTc0MTA4NTUsLTIyNjE0
+ODUyMiwtNjY4OTczMjA5LC03MzEzMDMwNDcsLTIwODg3NDY2MT
+JdfQ==
 -->
