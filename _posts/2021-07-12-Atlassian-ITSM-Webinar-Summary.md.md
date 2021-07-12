@@ -22,10 +22,30 @@
 
  
 ## Session 1. ITSM 이란?
+![img1](/assets/images/blog/ITSM_Webinar_Session1.png)
+
+먼저, 디지털 트랜스포메이션에 대해 알아보고 ITSM과 결합하여 내부 운영 조직 개선에 어떠한 영향을 줄 수 있는지를 이야기 하였습니다.
+
+전세계적으로 코로나19 팬데믹 사태가 장기화 되면서 **“뉴노멀”**이라는 새로운 시대로의 급작스러운 변화를 받아들이고 이겨내기 위해, 조직 문화와 업무 방식의 디지털 전환은 필수적이 되었고 그 어느때보다 빠르게 변화하고 있습니다.
+
+DevOps와 Agile의 개념이 결합 된 가장 최신의 ITIL 프레임 워크인 ITIL v.4를 기반으로 하는 ITSM의 특징과 강점, 관행 등을 설명하면서 서비스 전달과 고객 만족도 향상, 비즈니스 변화에 대응 가능한 안정적인 서비스 환경 등을 위해 전통적인 방식의 IT 운영 방식을 탈피하고 개선해야하는 필요성을 전달하였습니다.
+
+## Session 2. Atlassian 의 ITSM 도구 - 지라 서비스 매니지먼트
 ![img1](/assets/images/blog/ITSM_Webinar_Session2.png)
 
+그렇다면, 아틀라시안이 추구하는 ITSM에 대한 차별점은 무엇이며, Jira Service Management(JSM)를 중심으로 이루어진 아틀라시안의 ITSM 솔루션은 어떤 역할을 할 수 있을까요?
+
+아틀라시안에서는 “사람과 문화 + 검증된 관행 + 협업 도구” 이 3가지를 통해 팀의 역량을 극대화 할 수 있다고 믿고 있으며, 아틀라시안의 솔루션을 통해 이를 증명하고 있습니다.
+
+조직은 JSM을 통해 지식관리, 변경관리, 자산관리, 구성관리, 인시던트관리와 같은 ITSM의 핵심 관리를 한 곳에서 운영하고 관리할 수 있으며, 실제 고객의 Case Study를 통해 개방형 협업 플랫폼을 통해 팀 업무에 대한 가시성을 높이고 소통과 협업을 증대할 수 있는 방안에 대해 공유드렸습니다.
+
+## Session 3. 활용 사례 Demo
+
+데모 세션의 경우 크게 자산 관리와 인시던트 관리, 2가지로 나눈 시나리오로 미리 준비한 데모 영상을 설명 드렸습니다.
+
+데모 영상에서는 AWS EC2 인스턴스를 활용한 서비스 환경에서의 Jira Service Management Cloud를 통해 자산/구성 관리 (CMDB), 요청 관리, 인시던트 관리 등 사용자가 요청을 신청하는 방법과 어떻게 에이전트가 자산을 관리하고 구성하며, 인시던트 발생 시 해결할 수 있는지 확인 하실 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM1OTI0NzMsMTA0Njk0ODM4OCwtND
-E3NDEwODU1LC0yMjYxNDg1MjIsLTY2ODk3MzIwOSwtNzMxMzAz
-MDQ3LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbOTA0MTYxOTI2LC0xMTAzNTkyNDczLDEwND
+Y5NDgzODgsLTQxNzQxMDg1NSwtMjI2MTQ4NTIyLC02Njg5NzMy
+MDksLTczMTMwMzA0NywtMjA4ODc0NjYxMl19
 -->
