@@ -15,24 +15,9 @@
 본 웨비나는 아래 아젠다와 같이 크게 4가지 파트로 구성하여 진행하였습니다.
 
 | **Agenda** |
-|**"ITSM" 이란?** </br> |
--   ITSM 및 ITIL4 개요 </br>
--   ITSM을 통한 디지털 트랜스포메이션 </br> |
-|  |  |
+|**"ITSM" 이란?** <br> -   ITSM 및 ITIL4 개요 <br> -   ITSM을 통한 디지털 트랜스포메이션 </br>|
+|**Atlassian 의 ITSM 도구 - 지라 서비스 매니지먼트** <br> -   Atlassian ITSM 솔루션만의 차별점<br>  -   Jira Service Management Cloud의 핵심 기능<br> | **활용 사례 Demo** |
 
-**"ITSM" 이란?**
-
--   ITSM 및 ITIL4 개요
-    
--   ITSM을 통한 디지털 트랜스포메이션
-    
-
-**Atlassian 의 ITSM 도구 - 지라 서비스 매니지먼트**
-
--   Atlassian ITSM 솔루션만의 차별점
-    
--   Jira Service Management Cloud의 핵심 기능
-    
 
 **활용 사례 Demo**
 
@@ -48,6 +33,7 @@
 
 ## Session 1. ITSM 이란?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzQxMDg1NSwtMjI2MTQ4NTIyLC02Nj
-g5NzMyMDksLTczMTMwMzA0NywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEzNjk3OTk1ODksLTQxNzQxMDg1NSwtMj
+I2MTQ4NTIyLC02Njg5NzMyMDksLTczMTMwMzA0NywtMjA4ODc0
+NjYxMl19
 -->
