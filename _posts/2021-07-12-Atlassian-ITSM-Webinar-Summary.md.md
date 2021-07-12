@@ -15,7 +15,9 @@
 본 웨비나는 아래 아젠다와 같이 크게 4가지 파트로 구성하여 진행하였습니다.
 
 | **Agenda** |
-|**"ITSM" 이란?**|
+|**"ITSM" 이란?** </br> |
+-   ITSM 및 ITIL4 개요 </br>
+-   ITSM을 통한 디지털 트랜스포메이션 </br> |
 |  |  |
 
 **"ITSM" 이란?**
@@ -46,6 +48,6 @@
 
 ## Session 1. ITSM 이란?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjE0ODUyMiwtNjY4OTczMjA5LC03Mz
-EzMDMwNDcsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTQxNzQxMDg1NSwtMjI2MTQ4NTIyLC02Nj
+g5NzMyMDksLTczMTMwMzA0NywtMjA4ODc0NjYxMl19
 -->
