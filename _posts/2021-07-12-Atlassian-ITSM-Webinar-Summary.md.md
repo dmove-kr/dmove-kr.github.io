@@ -1,4 +1,4 @@
-![banner](/assets/images/blog/TSM_Webinar_Title.png)
+![banner](/assets/images/blog/ITSM_Webinar_Title.png)
 
 안녕하세요, 디무브 입니다! 🎈
 
@@ -22,11 +22,10 @@
 
  
 ## Session 1. ITSM 이란?
-![img1](/assets/images/blog/TSM_Webinar_Title.png)
+![img1](/assets/images/blog/ITSM_Webinar_Session2.png)
 
-## **ITSM_Webinar_Session2.png**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjE2Mzg4OSwxMDQ2OTQ4Mzg4LC00MT
-c0MTA4NTUsLTIyNjE0ODUyMiwtNjY4OTczMjA5LC03MzEzMDMw
-NDcsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTExMDM1OTI0NzMsMTA0Njk0ODM4OCwtND
+E3NDEwODU1LC0yMjYxNDg1MjIsLTY2ODk3MzIwOSwtNzMxMzAz
+MDQ3LC0yMDg4NzQ2NjEyXX0=
 -->
