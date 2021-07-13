@@ -24,7 +24,7 @@ tags: [Atlassian, ITSM, Digital Transformation, Jira Service Management, Agile, 
 본 웨비나는 아래 아젠다와 같이 크게 4가지 파트로 구성하여 진행하였습니다.
 
 | **Agenda** |
-| **"ITSM" 이란?** <br> -   ITSM 및 ITIL4 개요 <br> -   ITSM을 통한 디지털 트랜스포메이션 </br> |
+| **"ITSM" 이란?** <br> -   ITSM 및 ITIL4 개요 <br> -   ITSM을 통한 디지털 트랜스포메이션 <br> |
 | **Atlassian 의 ITSM 도구 - 지라 서비스 매니지먼트** <br> -   Atlassian ITSM 솔루션만의 차별점<br>  -   Jira Service Management Cloud의 핵심 기능<br> | 
 | **활용 사례 Demo** <br> -   Asset Management : JSM의 Insight 기능을 활용한 자산관리 <br> -   Incident Management: Opsgenie와의 연동으로 더욱 파워풀한 장애관리 <br> |
 | **Q&A** <br> -   사전 질문 답변 및 실시간 질의 응답 |
