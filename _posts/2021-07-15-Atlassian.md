@@ -1,4 +1,4 @@
-
+![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/02/image-20201008-155621-4.png?w=1560&ssl=1)
 안녕하세요, 디무브입니다! 🎈
 
 Atlassian 클라우드는 뛰어난 확장성과 뉴노멀 시대에 맞는 원격 근무에 친화적인 환경 등의 장점을 토대로 소규모 팀부터 엔터프라이즈 조직까지, 모든 규모의 조직을 아우르는 플랜을 제공하고 있습니다.
@@ -194,5 +194,5 @@ Atlassian Access의 주요 기능은 아래와 같습니다.
 감사합니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTE2MTEwOCwtMTUxODcxMzgwM119
+eyJoaXN0b3J5IjpbLTg2NDc2MzA1MCwtMTUxODcxMzgwM119
 -->
