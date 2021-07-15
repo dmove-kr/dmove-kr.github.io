@@ -25,7 +25,30 @@ Atlassian 클라우드는 뛰어난 확장성과 뉴노멀 시대에 맞는 원�
 
 아래 퀴즈를 통해 우리 조직에게 맞는 클라우드 플랜은 뭔지 알아보세요!
 
-<script type="text/javascript" src="/vendor.js?8adbe94c2dc875bdf2c8"></script><script type="text/javascript" src="/main.js?8adbe94c2dc875bdf2c8"></script>
+<div id="interact-5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be">
+  <iframe
+    id="interactApp5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be"
+    name="5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be"
+    class="interact-app-container"
+    height="545"
+    allowtransparency="true"
+    frameborder="0"
+    style="
+      width: 800px;
+      border: none;
+      max-width: 100%;
+      margin: 0px;
+      transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+      height: 545px;
+    "
+    src="https://quiz.tryinteract.com/#/5ff60e94ca405200169f63fc?embed=5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be&amp;auto_resize=1&amp;origin=https%3A%2F%2Fwww.atlassian.com"
+    ><a
+      href="https://quiz.tryinteract.com/#/5ff60e94ca405200169f63fc?embed=5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be&auto_resize=1&origin=https%3A%2F%2Fwww.atlassian.com"
+      title="Interact Quiz"
+      >Take my quiz!</a
+    ></iframe
+  >
+</div>
   
 ## 클라우드 플랜 살펴보기
 
@@ -132,7 +155,7 @@ Atlassian Access의 주요 기능은 아래와 같습니다.
     
 -   McAfee MVISION Cloud와 CASB 통합
     
--   액티브 디렉토리 동기화
+-   액티브 디렉토리 동기화 (Azure AD, Okta)
     
 -   기기 가시성
     
