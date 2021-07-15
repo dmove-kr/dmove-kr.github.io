@@ -18,23 +18,14 @@ Atlassian 클라우드는 뛰어난 확장성과 뉴노멀 시대에 맞는 원�
 
 ## 아틀라시안 클라우드 플랜 비교 장표
 
-![img1](assets/images/blog/cloud_plan.png)
+![Cloud plan](/assets/images/blog/cloud_plan.png)
+
 
 ## 퀴즈타임
 
 아래 퀴즈를 통해 우리 조직에게 맞는 클라우드 플랜은 뭔지 알아보세요!
 
- <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>Interact Quiz</title>
-    <script type="text/javascript" src="//use.typekit.net/jvi8xzm.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <script src="https://cdn.polyfill.io/v2/polyfill.js?features=es5,es6"></script>
-    <script type="text/javascript">!function(){var t=window.analytics=window.analytics||[];if(!t.initialize)if(t.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{t.invoked=!0,t.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"],t.factory=function(e){return function(){var n=Array.prototype.slice.call(arguments);return n.unshift(e),t.push(n),t}};for(var e=0;e<t.methods.length;e++){var n=t.methods[e];t[n]=t.factory(n)}t.load=function(e,n){var i=document.createElement("script");i.type="text/javascript",i.async=!0,i.src="https://i.tryinteract.com/analytics/init.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(i,o),t._loadOptions=n},t.SNIPPET_VERSION="4.1.0",t.load("",{integrations:{All:!1,"Google Analytics":!1,"Segment.io":!0}})}}();</script>
-  <link href="/styles.css?8adbe94c2dc875bdf2c8" rel="stylesheet"></head>
-  <body>
-    <div id="root"></div>
-  <script type="text/javascript" src="/vendor.js?8adbe94c2dc875bdf2c8"></script><script type="text/javascript" src="/main.js?8adbe94c2dc875bdf2c8"></script></body>
+<script type="text/javascript" src="/vendor.js?8adbe94c2dc875bdf2c8"></script><script type="text/javascript" src="/main.js?8adbe94c2dc875bdf2c8"></script>
   
 ## 클라우드 플랜 살펴보기
 
