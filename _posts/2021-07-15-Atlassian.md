@@ -27,8 +27,6 @@ Atlassian 클라우드는 뛰어난 확장성과 뉴노멀 시대에 맞는 원�
 
 ## 클라우드 플랜 살펴보기
 
-assets/images/blog/cloud_plan.png
-
 ### 무료 플랜 : 10명 이하의 소규모 팀
 
 10명 이하의 소규모 팀 이지만, 좀 더 가시적으로 목표를 관리하고 싶다면 무료 플랜을 사용해 보세요.
@@ -196,6 +194,6 @@ Atlassian Access의 주요 기능은 아래와 같습니다.
 감사합니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTUxOTkzODIsLTg2NDc2MzA1MCwtMT
-UxODcxMzgwM119
+eyJoaXN0b3J5IjpbLTg2NDc2MzA1MCwtMTk1NTE5OTM4MiwtOD
+Y0NzYzMDUwLC0xNTE4NzEzODAzXX0=
 -->
