@@ -20,35 +20,6 @@ Atlassian 클라우드는 뛰어난 확장성과 뉴노멀 시대에 맞는 원�
 
 ![Cloud plan](/assets/images/blog/cloud_plan.png)
 
-
-## 퀴즈타임
-
-아래 퀴즈를 통해 우리 조직에게 맞는 클라우드 플랜은 뭔지 알아보세요!
-
-<div id="interact-5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be">
-  <iframe
-    id="interactApp5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be"
-    name="5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be"
-    class="interact-app-container"
-    height="545"
-    allowtransparency="true"
-    frameborder="0"
-    style="
-      width: 800px;
-      border: none;
-      max-width: 100%;
-      margin: 0px;
-      transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
-      height: 545px;
-    "
-    src="https://quiz.tryinteract.com/#/5ff60e94ca405200169f63fc?embed=5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be&amp;auto_resize=1&amp;origin=https%3A%2F%2Fwww.atlassian.com"
-    ><a
-      href="https://quiz.tryinteract.com/#/5ff60e94ca405200169f63fc?embed=5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be&auto_resize=1&origin=https%3A%2F%2Fwww.atlassian.com"
-      title="Interact Quiz"
-      >Take my quiz!</a
-    ></iframe
-  >
-</div>
   
 ## 클라우드 플랜 살펴보기
 
@@ -209,6 +180,38 @@ Atlassian Access의 주요 기능은 아래와 같습니다.
 위의 자동화 예와 같은 수치를 뽑아보고, 귀하의 선택으로 인해 팀이 절약할 수 있을 것으로 예상하는 시간 또는 비용은 얼마인지 알려주세요. 도구의 선택이 비즈니스 수익을 개선하는 방법으로 연결될 수록 긍정적인 피드백을 얻을 수 있습니다.
 
 ----------
+
+
+## 퀴즈타임
+
+아래 퀴즈를 통해 우리 조직에게 맞는 클라우드 플랜은 뭔지 미리 테스트 해볼 수 있습니다:) 
+
+<div id="interact-5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be">
+  <iframe
+    id="interactApp5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be"
+    name="5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be"
+    class="interact-app-container"
+    height="545"
+    allowtransparency="true"
+    frameborder="0"
+    style="
+      width: 800px;
+      border: none;
+      max-width: 100%;
+      margin: 0px;
+      transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+      height: 545px;
+    "
+    src="https://quiz.tryinteract.com/#/5ff60e94ca405200169f63fc?embed=5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be&amp;auto_resize=1&amp;origin=https%3A%2F%2Fwww.atlassian.com"
+    ><a
+      href="https://quiz.tryinteract.com/#/5ff60e94ca405200169f63fc?embed=5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be&auto_resize=1&origin=https%3A%2F%2Fwww.atlassian.com"
+      title="Interact Quiz"
+      >Take my quiz!</a
+    ></iframe
+  >
+</div>
+
+---
 
 아틀라시안 클라우드 제품을 도입하는 것에 대한 의사 결정을 내리기에 여전히 고민 되시나요?
 
