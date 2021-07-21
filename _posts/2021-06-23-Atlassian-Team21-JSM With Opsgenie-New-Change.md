@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Atlassian Team21 - JSM 과 Opsgeine의 새로운 변화 
+title: Atlassian Team21 - JSM 과 Opsgenie의 새로운 변화 
 subtitle: Atlassian Team21
 date: 2021-06-23
 categories: [Atlassian Solutions]
 Author: Jackson
-tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스지니, ITSM]
+tags: [Atlassian,Jira Service Management,JSM, Opsgenie, 아틀라시안, 옵스지니, ITSM]
 
 
 
@@ -24,7 +24,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 특히 ITSM의 변화와 개발과 운영 사이의 관계를 많이 언급했습니다. 
 
-아틀라시안의  ITSM 솔루션인 Jira Service Management와 인시던트 모니터링 툴인 Opsgeine에 대해 알아보겠습니다.
+아틀라시안의  ITSM 솔루션인 Jira Service Management와 인시던트 모니터링 툴인 Opsgenie에 대해 알아보겠습니다.
 
   
 
@@ -36,7 +36,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
   
 
-# Opsgeine
+# Opsgenie
 
   ![](https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/Opsgeine.png){: .imgcenter}
 
@@ -48,11 +48,11 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 
 
-- Opsgeine는 알림과 경고를 관리하는 소프트웨어입니다.  Opsgeine는 사용하는 팀원들에게 모든 인시던트에 대응하고 해결하며,  학습할 수 있는 환경을 제공합니다. Opsgeine는 독립적으로Standalone 타입을 제공하지만, JSM의 엔진인 인시던트 관리 기능도 제공합니다.
+- Opsgenie는 알림과 경고를 관리하는 소프트웨어입니다.  Opsgeine는 사용하는 팀원들에게 모든 인시던트에 대응하고 해결하며,  학습할 수 있는 환경을 제공합니다. Opsgenie는 독립적으로 Standalone 타입을 제공하지만, JSM의 엔진인 인시던트 관리 기능도 제공합니다.
 
 
 
-- Opsgeine는 IT 서비스 및 인프라와 관련된 인시던트를 핵심으로 관리하며, 모니터링 서비스 데스크에 대한 로그 툴에 대한 경보를 중심적으로 집중화 하였습니다. 또한 200개가 넘는 서드 파티 툴과 연결할 수 있으며, 강력한 API와 웹 훅, 이메일 통합 기능을 제공합니다.
+- Opsgenie는 IT 서비스 및 인프라와 관련된 인시던트를 핵심으로 관리하며, 모니터링 서비스 데스크에 대한 로그 툴에 대한 경보를 중심적으로 집중화 하였습니다. 또한 200개가 넘는 서드 파티 툴과 연결할 수 있으며, 강력한 API와 웹 훅, 이메일 통합 기능을 제공합니다.
 
   
 
@@ -88,7 +88,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 
 
-- Opsgeine에서는 알림을 카테고리로 분류하여 유연하게 알림을 분류할 수 있으며, 어느 상황에 알림이 생성됐는지 확인하여 하루 중 알림에 포함된 정보를 살펴볼 수 있습니다. 또한 알림의 우선 순위를 정하여 알림의    상태을 보고 해결할 수 있는 적절한 팀으로 알림을 전달할 수 있습니다.  
+- Opsgenie에서는 알림을 카테고리로 분류하여 유연하게 알림을 분류할 수 있으며, 어느 상황에 알림이 생성됐는지 확인하여 하루 중 알림에 포함된 정보를 살펴볼 수 있습니다. 또한 알림의 우선 순위를 정하여 알림의    상태을 보고 해결할 수 있는 적절한 팀으로 알림을 전달할 수 있습니다.  
 
   
 
@@ -102,7 +102,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 
 
-- Opsgeine의 Routing role 기능을 활용하여 알림의 상태에 알맞는 팀에게 알림을 전달한 다음 수행할 작업을 결정하는 에스컬레이션 정책을 활용하여 팀에게 얼마나 적극적으로 알릴 지를 결정할 수 있으며, 알림에 대한 조취를 취하지 않을 경우 수행할 작업을 결정할 수 있습니다. 
+- Opsgenie의 Routing role 기능을 활용하여 알림의 상태에 알맞는 팀에게 알림을 전달한 다음 수행할 작업을 결정하는 에스컬레이션 정책을 활용하여 팀에게 얼마나 적극적으로 알릴 지를 결정할 수 있으며, 알림에 대한 조취를 취하지 않을 경우 수행할 작업을 결정할 수 있습니다. 
 
 
 
@@ -114,7 +114,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 
 
-- Opsgeine는 스케줄을 설정하여 본인 또는 팀원에게 그 날 자신에게 무슨 일이 생기더라도 정확한 시간에 맞춰 알림을 알릴 수 있으며 예약 또는 대기 중인 일정을 확인 할 수 있습니다.
+- Opsgenie는 스케줄을 설정하여 본인 또는 팀원에게 그 날 자신에게 무슨 일이 생기더라도 정확한 시간에 맞춰 알림을 알릴 수 있으며 예약 또는 대기 중인 일정을 확인 할 수 있습니다.
 
 
 
@@ -126,7 +126,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 
 
-- Opsgeine를 매우 강력하게 만드는 것 중 하나는 여러 개의 알림 채널을 사용한다는 것입니다. 여기에는 모바일,  SMS 문자, 전화, 이메일, 채팅 도구 등이 포함되어 있습니다.  Opsgeine를 사용하는 각 사용자는 알림을 설정하여 모든 알림에 즉각적으로 대비하며, 중요한 경고에 대한 알림을 놓치지 않도록 보장합니다.
+- Opsgenie를 매우 강력하게 만드는 것 중 하나는 여러 개의 알림 채널을 사용한다는 것입니다. 여기에는 모바일,  SMS 문자, 전화, 이메일, 채팅 도구 등이 포함되어 있습니다.  Opsgenie를 사용하는 각 사용자는 알림을 설정하여 모든 알림에 즉각적으로 대비하며, 중요한 경고에 대한 알림을 놓치지 않도록 보장합니다.
 
 
 
@@ -138,7 +138,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 
 
-- 다음은 Opsgeine의 모바일 어플리케이션입니다. 모바일에서는 손가락 터치만으로도 응답자가 인식하고 에스컬레이션 할 수 있으며, AWS EC2 재시작 또는 서버 재시작과 같은 즉각적으로 강력한 작업을 수행할 수 있습니다.
+- 다음은 Opsgenie의 모바일 어플리케이션입니다. 모바일에서는 손가락 터치만으로도 응답자가 인식하고 에스컬레이션 할 수 있으며, AWS EC2 재시작 또는 서버 재시작과 같은 즉각적으로 강력한 작업을 수행할 수 있습니다.
 
 
 
@@ -181,7 +181,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 
 
-## Opsgeine의 새로운 기능
+## Opsgenie의 새로운 기능
 
 
 
@@ -189,7 +189,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 ![](https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/New Opsgeine 1.png)
 
-- Opsgeine은 네이티브 컨퍼런스 브릿지를 회전하여 인시던트 발생에 대한 신속한 협업을 수행할 수 있으며 인터페이스를 단순화하여 어떤 팀이 온라인 상태이고 누가 말하는 지를 쉽게 확인할 수 있습니다. 
+- Opsgenie은 네이티브 컨퍼런스 브릿지를 회전하여 인시던트 발생에 대한 신속한 협업을 수행할 수 있으며 인터페이스를 단순화하여 어떤 팀이 온라인 상태이고 누가 말하는 지를 쉽게 확인할 수 있습니다. 
 
 
 
@@ -197,27 +197,27 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 
 
-**Opsgeine with iOS**
+**Opsgenie with iOS**
 
 
 
-- Opsgeine 의 또다른 향상된 기능은 Apple iOS 장치의 방해 금지 모드를 활용하는 것과 관련이 있습니다. Apple Device는 Opsgeine 의 경고를 중요한 경고로 우선순위를 두어 사용자가 일반적인 알림을 차단하더라도 중요한 알림은 여전히 전달되도록 할 것입니다.  
+- Opsgenie 의 또다른 향상된 기능은 Apple iOS 장치의 방해 금지 모드를 활용하는 것과 관련이 있습니다. Apple Device는 Opsgenie 의 경고를 중요한 경고로 우선순위를 두어 사용자가 일반적인 알림을 차단하더라도 중요한 알림은 여전히 전달되도록 할 것입니다.  
 
   
 
 
 
-→  기능은 출시된 지 얼마 안됐으며, 조사 결과 Opsgeine를 이용하는 70% 이상의 고객이 이 기능을 사용하기 시작하여 많은 사람들이 즐겨 사용하고 있습니다. 
+→  기능은 출시된 지 얼마 안됐으며, 조사 결과 Opsgenie를 이용하는 70% 이상의 고객이 이 기능을 사용하기 시작하여 많은 사람들이 즐겨 사용하고 있습니다. 
 
 ### 2. Snyk 및 아마존 데브옵스 Guru와의 새로운 통합
 
 ![](https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/New Opsgeine 2.png){: .imgcenter}
 
-- Opsgeine는 대부분의 IT 서드 파티 툴과 통합이 가능하며 지속적으로 새로운 즉시 통합 기능을 추가하고 있습니다. 새롭게 추가된 통합할 수 있는 툴 중 하나는 보안 취약점을 탐지하는 툴인 Snyk이고, 다른 하나는 인시던트 발생을 예측하는 머신 러닝 기능을 수행할 수 있는  아마존 데브옵스 툴인 Guru입니다. 
+- Opsgenie는 대부분의 IT 서드 파티 툴과 통합이 가능하며 지속적으로 새로운 즉시 통합 기능을 추가하고 있습니다. 새롭게 추가된 통합할 수 있는 툴 중 하나는 보안 취약점을 탐지하는 툴인 Snyk이고, 다른 하나는 인시던트 발생을 예측하는 머신 러닝 기능을 수행할 수 있는  아마존 데브옵스 툴인 Guru입니다. 
 
 
 
-- Opsgeine는 이 두개의 툴과 직접적으로 연결하여 예외적인 항목도 감지하여 알릴 수 있습니다.  
+- Opsgenie는 이 두개의 툴과 직접적으로 연결하여 예외적인 항목도 감지하여 알릴 수 있습니다.  
 
   
 
@@ -230,7 +230,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 <p>
 </p>
 
-- Opsgeine는 아틀라시안의 대표적인 툴인 Jira와 통합하는 것이 더 쉬워졌으며, Opsgeine는 Jira로 이벤트를 트리거할 수 있으며, 그 반대로 Jira에서 Opsgeine로 트리거 할 수 있습니다.  이러한 양방향 관계를 설정하면 프로세스를 간소활 할 수 있고, 절차를 준수할 수 있습니다.  
+- Opsgenie는 아틀라시안의 대표적인 툴인 Jira와 통합하는 것이 더 쉬워졌으며, Opsgenie는 Jira로 이벤트를 트리거할 수 있으며, 그 반대로 Jira에서 Opsgenie로 트리거 할 수 있습니다.  이러한 양방향 관계를 설정하면 프로세스를 간소활 할 수 있고, 절차를 준수할 수 있습니다.  
 
   
 
@@ -256,7 +256,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 
 
-- On-call 스케줄은 Opsgeine의 초석입니다. On-call 기능만으로는 여러 회전, 오버라이드, 휴일 등으로 인해 복잡하고 이해하기 어려운 경우가 많습니다.  따라서 스케쥴의 사용자 인터페이스를 단순화하여 일정을 쉽게 설정하고 읽을 수 있습니다.   
+- On-call 스케줄은 Opsgenie의 초석입니다. On-call 기능만으로는 여러 회전, 오버라이드, 휴일 등으로 인해 복잡하고 이해하기 어려운 경우가 많습니다.  따라서 스케쥴의 사용자 인터페이스를 단순화하여 일정을 쉽게 설정하고 읽을 수 있습니다.   
 
   
 
@@ -270,7 +270,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
 
 
-- Opsgeine의 변경 사항 중 하나는 이슈를 연결하고, 첨부 파일을 추가하고, 모든 활동을 추적할 수 있는 경고의 세부 정보에 관한 것입니다. 경고에 대한 세부 페이지는 정보가 밀집되어 있습니다.
+- Opsgenie의 변경 사항 중 하나는 이슈를 연결하고, 첨부 파일을 추가하고, 모든 활동을 추적할 수 있는 경고의 세부 정보에 관한 것입니다. 경고에 대한 세부 페이지는 정보가 밀집되어 있습니다.
 
   
 
@@ -484,7 +484,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgeine, 아틀라시안, 옵스�
 
   
 
-- 슬랙과 MS teams와 같은 채팅 툴과  JSM을 연동하여  전용 채널을 생성하여 문제 및 인시던트를 보고하고 도움을 요청할 수 있습니다.
+- 슬랙, Mattermost 및 MS teams와 같은 메신터 툴과 JSM을 연동하여  전용 채널을 생성하여 문제 및 인시던트를 보고하고 도움을 요청할 수 있습니다.
 
     
 
