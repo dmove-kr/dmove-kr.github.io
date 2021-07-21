@@ -3,7 +3,7 @@ layout: post
 title: 웨비나 생생 후기 - 디지털 트랜스포메이션을 위한 아틀라시안의 IT 서비스 관리 (ITSM)
 Subtitle: Transform your IT service management with Atlassian
 date: 2021-07-09
-categories: [Event]
+categories: [Events]
 tags: [Atlassian, ITSM, Digital Transformation, Jira Service Management, Agile, DevOps, Atlassian ITSM, IT]
 ---
 
