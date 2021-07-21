@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Atlassian Team21 - JSM 과 Opsgeine의 새로운 변화 
-subtitle: Team21
+subtitle: Atlassian Team21
 date: 2021-06-23
 categories: [Atlassian Solutions]
 Author: Jackson
