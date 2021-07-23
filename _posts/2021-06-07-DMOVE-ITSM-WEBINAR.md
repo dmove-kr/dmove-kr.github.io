@@ -3,7 +3,7 @@ layout: post
 title: Atlassian Webinar - 디지털 트랜스포매이션을 위한 아틀라시안의 IT 서비스 관리 
 subtitle: Dmove ITSM 웨비나
 date: 2021-06-07
-categories: [Events]
+categories: [ITSM Webinar]
 Author: 위거남 차장(디무브)
 tags: [아틀라시안,ITSM,IT서비스,Atlassian,JiraServiceManagement,Jira,지라,협업솔루션,ITIL,디지털트랜스포케이션]
 
@@ -17,6 +17,7 @@ tags: [아틀라시안,ITSM,IT서비스,Atlassian,JiraServiceManagement,Jira,지
 
 
 
+![](https://blog.dmove.kr/assets/images/banners/Webinar/ITSM-Thumbnail.png)
 
 :calendar: 일자 : 2021년 6월 29일 (화)
 
@@ -172,7 +173,6 @@ margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; di
 <div class="btn_main_more mt40 mb_t_c" style="margin-left: 45px;">
       <a href="https://talkit.tv/Event/2586" style="background-color: #1980B6; color:white;">사전등록 하러가기</a> 
 		    </div>
-
 
 
 
