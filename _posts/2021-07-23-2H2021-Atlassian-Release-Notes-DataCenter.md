@@ -10,7 +10,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
 
 
 
@@ -48,7 +48,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-1.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-1.png)
 
 다음 규칙에 따라 새 용어의 단수 및 복수 형식을 정의할 수 있습니다:
 
@@ -75,7 +75,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
  저희는 댓글에 대한 접근성을 염두에 두고 있습니다. 이번 릴리스에서는 키보드 탐색 기능과 댓글 관련 보조 기술 지원을 개선했으며  또한 코멘트 영역의 모양을 새로 고쳤습니다.
 
-![img](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-2.png)
+![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-2.png)
 
 ---
 
@@ -89,7 +89,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![img](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-3.png)
+![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-3.png)
 
 **3-1. 컴포넌트 및 라이브러리 업그레이드**
 
@@ -146,7 +146,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-4.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-4.png)
 
 
 
@@ -240,7 +240,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-1.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-1.png)
 
 
 
@@ -278,7 +278,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-2.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-2.png)
 
 
 
@@ -321,7 +321,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-3.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-3.png)
 
 
 
@@ -339,7 +339,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-4.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-4.png)
 
 
 
@@ -369,7 +369,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-5.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-5.png)
 
 
 
@@ -383,7 +383,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-6.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-6.png)
 
 
 
@@ -399,7 +399,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-7.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-7.png)
 
 
 

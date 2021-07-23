@@ -9,7 +9,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
 
 안녕하세요, 디무브 입니다! :balloon:
 
@@ -31,7 +31,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 **1. 사용자가 프로젝트 페이지로부터 Confluence 접근이 허용됩니다** **[ROLLING OUT]** **[NEW THIS WEEK]** 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/M-J-Cloud-Jira-1.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/M-J-Cloud-Jira-1.png)
 
 <p></p>
 
@@ -71,7 +71,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
- ![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/M-J-Cloud-Jira-2.png){: .imgcenter}  
+ ![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/M-J-Cloud-Jira-2.png){: .imgcenter}  
 
  프리미엄 플랜 고객은 보드와 백로그에서 Insights를 확인하시기 바랍니다. 이 새로운 데이터중심 기능은 기존 프로세스를 조정하고, 더 나은 결과를 도출하고, 확신을 가지고 계획을 수립할 수 있도록 지원합니다.
 
@@ -243,7 +243,7 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 <p></p>
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/M-J-Cloud-Jira-3.png){: .imgcenter}
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/M-J-Cloud-Jira-3.png){: .imgcenter}
 
 
 
@@ -311,7 +311,7 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 **1. 변경된 달력을 사용하여 변경 요청 보기, 스케줄 생성 및 리스케줄을 활용해보세요!** **[ROLLING OUT]**  
 
- ![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-1.png)
+ ![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-1.png)
 
 변경된 달력을 사용하여 모든 서비스 프로젝트에서 변경 요청을 보고, 생성하고, 다시 예약할 수 있습니다. 달력에서 시간을 선택하여 새 변경 요청을 만들거나, 기존 요청을 클릭하여 끌어서 다시 예약하거나, 필터를 사용하여 필요한 항목을 신속하게 찾을 수 있습니다.
 
@@ -355,7 +355,7 @@ Jira Service Management에서 변경 관리를 볼 때 , 여러분은 미해결 
 
 **4. 헬프 데스크에서 사용자 경험이 개선됩니다!** **[ROLLING OUT]**  **[NEW THIS WEEK]**  
 
-![img](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-2.png)
+![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-2.png)
 
  
 
@@ -555,7 +555,7 @@ Jira plan Confluence 매크로의 고급 로드맵을 사용하면 Confluence �
 
 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/M-J-Cloud-WIKI-1.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/M-J-Cloud-WIKI-1.png)
 
 
 
@@ -699,7 +699,7 @@ Jira 이슈 링크를 Confluence 페이지에 붙여넣으면 URL이 페이지 �
 
 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/M-J-Cloud-WIKI-2.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/M-J-Cloud-WIKI-2.png)
 
 
 
@@ -717,7 +717,7 @@ Jira 이슈 링크를 Confluence 페이지에 붙여넣으면 URL이 페이지 �
 
 
 
-![](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/M-J-Cloud-WIKI-3.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/M-J-Cloud-WIKI-3.png)
 
 
 
