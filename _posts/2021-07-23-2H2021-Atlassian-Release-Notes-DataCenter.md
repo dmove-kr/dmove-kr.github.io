@@ -22,7 +22,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-# ***1. Jira Software***
+# 1. Jira Software
 
  
 
@@ -220,7 +220,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
  
 
-# ***2. Jira Service Management***
+# 2. Jira Service Management
 
 
 
@@ -503,7 +503,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 ------
 
-# ***3. Confluence***
+# 3. Confluence
 
 
 
