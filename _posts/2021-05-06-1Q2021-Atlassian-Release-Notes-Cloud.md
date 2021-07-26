@@ -14,7 +14,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-올해 벌써 상반기가 지나가고 곧 3분기가 다가오고 있습니다.  기간 동안 저희 아틀라시안의 주요제품인 JSM, Jira Software, Confluence도 크고 작은 변화가 있었는데요. 제품 별로 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다.
+지난 1분기 동안 아틀라시안의 주요제품인 JSM, Jira Software, Confluence에도 크고 작은 변화가 있었는데요. 제품 별로 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다.
 
 <hr>
 
