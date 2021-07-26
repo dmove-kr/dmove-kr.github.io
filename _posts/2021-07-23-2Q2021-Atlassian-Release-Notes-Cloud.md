@@ -539,11 +539,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 ------
 
 ### 7월
-
- 
-
 ---
-
 
 
 #### 1. 신뢰할 수 있는 사용자 (Trusted Users):를 위한 새로운 사용자 초대를 위한 UI 변경 [ROLLING OUT]  [NEW THIS WEEK]  
