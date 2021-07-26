@@ -304,6 +304,7 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
 ### 7월
 
+---
  
 
 #### 1. 그룹으로부터 요청 수락 [ROLLING OUT] [NEW THIS WEEK]  
@@ -353,8 +354,6 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
 
 ## 3. Confluence
-
----
 
 
 
