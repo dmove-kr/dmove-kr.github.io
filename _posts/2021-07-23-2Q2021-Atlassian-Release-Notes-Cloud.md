@@ -19,11 +19,11 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-# 1. Jira Software
+## 1. Jira Software
 
  
 
-## 5월
+### 5월
 
 ---
 
@@ -31,7 +31,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-### 1. 차세대 보드 및 백로그에 직접적으로 인사이트(Insight) 기능을 사용할 수 있습니다 [ROLLING OUT]
+#### 1. 차세대 보드 및 백로그에 직접적으로 인사이트(Insight) 기능을 사용할 수 있습니다 [ROLLING OUT]
 
 
 
@@ -53,7 +53,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-### 2. 미래의 스프린트를 생성하고 스케줄 하세요! [ROLLING OUT]
+#### 2. 미래의 스프린트를 생성하고 스케줄 하세요! [ROLLING OUT]
 
 
 
@@ -78,7 +78,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
  
 
-### 3. 클라우드 제품과 관련된 마켓플레이스 앱 검색 기능 [ROLLING OUT]  
+#### 3. 클라우드 제품과 관련된 마켓플레이스 앱 검색 기능 [ROLLING OUT]  
 
  
 
@@ -100,13 +100,13 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-## 6월
+### 6월
 
 ---
 
 
 
-### 1. 팀 관리 프로젝트 : 종료된 스프린트를 다시 실행하도록 합니다[ROLLING OUT]  [NEW THIS WEEK]
+#### 1. 팀 관리 프로젝트 : 종료된 스프린트를 다시 실행하도록 합니다[ROLLING OUT]  [NEW THIS WEEK]
 
  
 
@@ -122,15 +122,13 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-
-
-## 7월
+### 7월 
 
 ---
 
 <p></p>
 
-### 1. 프로젝트 페이지 : 프로젝트를 페이지 및 개선된 UI와 연결 [ROLLING OUT] 
+#### 1. 프로젝트 페이지 : 프로젝트를 페이지 및 개선된 UI와 연결 [ROLLING OUT] 
 
  
 
@@ -150,7 +148,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
  
 
-### 2. 배포 데이터가 있는 모든 프로젝트에 대해 배포 기능 실행  [NEW THIS WEEK]
+#### 2. 배포 데이터가 있는 모든 프로젝트에 대해 배포 기능 실행  [NEW THIS WEEK]
 
 <p></p>
 
@@ -160,7 +158,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용하여 이슈를 일정 기간 동안 파악할 수 있습니다.
 
-[여기](https://support.atlassian.com/jira-software-cloud/docs/enable-deployments/#Understand-your-deployments-view)를 클릭하여 배포에 대해 자세히 알아보고 이 기능을 최대한 활용하세요!
+[여기](https://support.atlassian.com/jira-software-cloud/docs/enable-deployments/##Understand-your-deployments-view)를 클릭하여 배포에 대해 자세히 알아보고 이 기능을 최대한 활용하세요!
 
 
 
@@ -168,13 +166,13 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 
 
-# 2. Jira Service Management
+## 2. Jira Service Management
 
 
 
  
 
-## 5월
+### 5월
 
  
 
@@ -182,7 +180,7 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 
 
-### 1. 대기열을 관리하여 팀의 작업 우선 순위 지정 [ROLLING OUT]  
+#### 1. 대기열을 관리하여 팀의 작업 우선 순위 지정 [ROLLING OUT]  
 
  <p></p>
 
@@ -200,7 +198,7 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
  <p></p>
 
-### 2. 이메일 처리 로그에서 검색 및 필터링
+#### 2. 이메일 처리 로그에서 검색 및 필터링
 
  <p></p>
 
@@ -216,13 +214,13 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 
 
-## 6월
+### 6월
 
 ---
 
 <p></p>
 
-### 1.  변경 사항 달력(Change Calendar)을 사용하여 변경 요청 보기, 스케줄 생성 및 리스케줄을 활용해보세요! [ROLLING OUT]  
+#### 1.  변경 사항 달력(Change Calendar)을 사용하여 변경 요청 보기, 스케줄 생성 및 리스케줄을 활용해보세요! [ROLLING OUT]  
 
  ![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-1.png)
 
@@ -238,7 +236,7 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 
 
-### 2. 기술 자료 공간에서 초안 관리 [ROLLING OUT]  
+#### 2. 기술 자료 공간에서 초안 관리 [ROLLING OUT]  
 
 
 
@@ -254,7 +252,7 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 
 
-### 3. 변경 요청의 영향을 받는 서비스에서 발생한 미해결 인시던트 확인 [ROLLING OUT]  
+#### 3. 변경 요청의 영향을 받는 서비스에서 발생한 미해결 인시던트 확인 [ROLLING OUT]  
 
  
 
@@ -268,7 +266,7 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
  
 
-### 4. 헬프 데스크에서 사용자 경험이 개선됩니다! [ROLLING OUT]  [NEW THIS WEEK]  
+#### 4. 헬프 데스크에서 사용자 경험이 개선됩니다! [ROLLING OUT]  [NEW THIS WEEK]  
 
 ![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-2.png)
 
@@ -288,7 +286,7 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
 <p></p>
 
-### 5. 에이전트에 대한 기술 자료 문서 보기 향상  [NEW THIS WEEK]  
+#### 5. 에이전트에 대한 기술 자료 문서 보기 향상  [NEW THIS WEEK]  
 
  <p></p>
 
@@ -304,11 +302,11 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
 
 
-## 7월
+### 7월
 
  
 
-### 1. 그룹으로부터 요청 수락 [ROLLING OUT] [NEW THIS WEEK]  
+#### 1. 그룹으로부터 요청 수락 [ROLLING OUT] [NEW THIS WEEK]  
 
  
 
@@ -324,7 +322,7 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
 
 
-### 2. Confluence 서버 사이트에서 기술 자료로 공간 연결  [ROLLING OUT]   [NEW THIS WEEK]  
+#### 2. Confluence 서버 사이트에서 기술 자료로 공간 연결  [ROLLING OUT]   [NEW THIS WEEK]  
 
  
 
@@ -338,7 +336,7 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
  
 
-### 3. e-메일의 외부 의견 허용 [ROLLING OUT]   [NEW THIS WEEK]  
+#### 3. e-메일의 외부 의견 허용 [ROLLING OUT]   [NEW THIS WEEK]  
 
  
 
@@ -348,27 +346,25 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
 
 
----
 
-
-
- 
-
----
-
-
-
-# 3. Confluence
-
- 
-
-## 5월
 
 ---
 
 
 
-### 1. 컨텐츠 편집 속도 향상 [NEW THIS WEEK]  
+## 3. Confluence
+
+---
+
+
+
+### 5월
+
+---
+
+
+
+#### 1. 컨텐츠 편집 속도 향상 [NEW THIS WEEK]  
 
 Confluence 탐색 또는 홈 페이지의 최근 메뉴에 페이지와 블로그가 있으면 컨텐츠 편집으로 더 빠르게 이동할 수 있습니다. 페이지 이름 옆에 있는 편집 아이콘을 선택하여 편집 환경을 엽니다.
 
@@ -382,7 +378,7 @@ Confluence 탐색 또는 홈 페이지의 최근 메뉴에 페이지와 블로�
 
 
 
-### 2. 당신의 공간을 색다르게 보실 수 있습니다! [ROLLING OUT]   [NEW THIS WEEK]  
+#### 2. 당신의 공간을 색다르게 보실 수 있습니다! [ROLLING OUT]   [NEW THIS WEEK]  
 
 페이지 간의 관계가 중요할 때는 공간의 페이지를 트리처럼 보는 것이 좋지만, 이제는 공간의 페이지를 보는 방법에 대한 옵션이 더 많아졌습니다.
 
@@ -396,11 +392,7 @@ Confluence 탐색 또는 홈 페이지의 최근 메뉴에 페이지와 블로�
 
 
 
- 
-
- 
-
-### 4. 페이지를 블로그로 변환 [ROLLING OUT]  [NEW THIS WEEK]  
+#### 4. 페이지를 블로그로 변환 [ROLLING OUT]  [NEW THIS WEEK]  
 
  
 
@@ -422,7 +414,7 @@ Confluence 탐색 또는 홈 페이지의 최근 메뉴에 페이지와 블로�
 
  
 
-### 5. Advanced Roadmaps for Jira 매크로 [NEW THIS WEEK]  
+#### 5. Advanced Roadmaps for Jira 매크로 [NEW THIS WEEK]  
 
  
 
@@ -440,7 +432,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
-### 6. 페이지 요소 찾아보기 또는 검색 기능  [ROLLING OUT]  
+#### 6. 페이지 요소 찾아보기 또는 검색 기능  [ROLLING OUT]  
 
  
 
@@ -464,15 +456,11 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
-## 6월
+### 6월
 
 
 
----
-
-
-
-### 1. 페이지 아카이브(Archive)하는 것을 추천합니다 [ROLLING OUT]  
+#### 1. 페이지 아카이브(Archive)하는 것을 추천합니다 [ROLLING OUT]  
 
  
 
@@ -490,7 +478,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
  
 
-### 2. 이미지에 캡션 추가 [ROLLING OUT]  
+#### 2. 이미지에 캡션 추가 [ROLLING OUT]  
 
  
 
@@ -502,7 +490,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
-### 3. 매크로 결과를 설정하는 동안 세부 조정 기능 [ROLLING OUT]  
+#### 3. 매크로 결과를 설정하는 동안 세부 조정 기능 [ROLLING OUT]  
 
 
 
@@ -518,7 +506,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
  
 
-### 4. 가장 최근에 방문한 페이지 보기[ROLLING OUT]  [NEW THIS WEEK]  
+#### 4. 가장 최근에 방문한 페이지 보기[ROLLING OUT]  [NEW THIS WEEK]  
 
 
 
@@ -536,7 +524,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
  
 
-### 5. 팀 캘린더가 새로운 보기에 추가 됩니다! [NEW THIS WEEK]  
+#### 5. 팀 캘린더가 새로운 보기에 추가 됩니다! [NEW THIS WEEK]  
 
 
 
@@ -550,7 +538,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 ------
 
-## 7월
+### 7월
 
  
 
@@ -558,7 +546,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
-### 1. 신뢰할 수 있는 사용자 (Trusted Users):를 위한 새로운 사용자 초대를 위한 UI 변경 [ROLLING OUT]  [NEW THIS WEEK]  
+#### 1. 신뢰할 수 있는 사용자 (Trusted Users):를 위한 새로운 사용자 초대를 위한 UI 변경 [ROLLING OUT]  [NEW THIS WEEK]  
 
  
 
@@ -570,7 +558,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
-### 2. 사이드바에서 블로그 및 최상위 페이지 생성 [ROLLING OUT]  [NEW THIS WEEK]  
+#### 2. 사이드바에서 블로그 및 최상위 페이지 생성 [ROLLING OUT]  [NEW THIS WEEK]  
 
  
 
@@ -582,7 +570,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
-### 3. 사이드바에서 신속하게 조치 취하기 [ROLLING OUT]  [NEW THIS WEEK]  
+#### 3. 사이드바에서 신속하게 조치 취하기 [ROLLING OUT]  [NEW THIS WEEK]  
 
  
 

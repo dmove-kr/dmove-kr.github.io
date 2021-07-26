@@ -1,4 +1,4 @@
-I"<W<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+I"�W<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
 
 <p>안녕하세요, 디무브 입니다! :balloon:</p>
 
@@ -12,7 +12,7 @@
 
 <p></p>
 
-<h3 id="1-차세대-보드-및-백로그에-직접적으로-인사이트-기능을-사용할-수-있습니다-rolling-out">1. 차세대 보드 및 백로그에 직접적으로 인사이트 기능을 사용할 수 있습니다 [ROLLING OUT]</h3>
+<h3 id="1-차세대-보드-및-백로그에-직접적으로-인사이트insight-기능을-사용할-수-있습니다-rolling-out">1. 차세대 보드 및 백로그에 직접적으로 인사이트(Insight) 기능을 사용할 수 있습니다 [ROLLING OUT]</h3>
 
 <p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/M-J-Cloud-Jira-2.png" alt="" class="imgcenter" /></p>
 
@@ -83,7 +83,7 @@
 
 <p>프로젝트 페이지를 업데이트하여 전체 공간이 아닌 단일 Confluence 페이지를 연결할 수 있습니다. Connect to different space or page(다른 공간에 연결) 아이콘(화살표 두 개로 표시됨)을 선택하여 이 작업을 수행할 수 있습니다.   <a href="https://support.atlassian.com/jira-software-cloud/docs/enable-and-disable-pages/">자세히 알아보기</a></p>
 
-<p>프로젝트 페이지에 대한 몇 가지 사소한 UI도 변경되었습니다:</p>
+<p>프로젝트 페이지에 대한 몇 가지 UI도 변경되었습니다:</p>
 
 <ul>
   <li>화면 하단에 Powered by Confluence라는 메시지가 표시됩니다. 이 옵션을 선택하면 연결된 Confluence 공간으로 이동합니다.</li>
@@ -103,17 +103,17 @@
 
 <p>Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용하여 이슈를 일정 기간 동안 파악할 수 있습니다.</p>
 
-<p><a href="https://support.atlassian.com/jira-software-cloud/docs/enable-deployments/#Understand-your-deployments-view">여기</a>를 클릭하여 배포에 대해 자세히 알아보고 이 기능을 최대한 활용하세요!</p>
+<p><a href="https://support.atlassian.com/jira-software-cloud/docs/enable-deployments/##Understand-your-deployments-view">여기</a>를 클릭하여 배포에 대해 자세히 알아보고 이 기능을 최대한 활용하세요!</p>
 
 <hr />
 
-<h1 id="2-jira-service-management">2. Jira Service Management</h1>
+<h2 id="2-jira-service-management">2. Jira Service Management</h2>
 
-<h2 id="5월-1">5월</h2>
+<h3 id="5월-1">5월</h3>
 
 <hr />
 
-<h3 id="1-대기열을-관리하여-팀의-작업-우선-순위-지정-rolling-out">1. 대기열을 관리하여 팀의 작업 우선 순위 지정 [ROLLING OUT]</h3>
+<h4 id="1-대기열을-관리하여-팀의-작업-우선-순위-지정-rolling-out">1. 대기열을 관리하여 팀의 작업 우선 순위 지정 [ROLLING OUT]</h4>
 
 <p></p>
 
@@ -125,7 +125,7 @@
 
 <p></p>
 
-<h3 id="2-이메일-처리-로그에서-검색-및-필터링">2. 이메일 처리 로그에서 검색 및 필터링</h3>
+<h4 id="2-이메일-처리-로그에서-검색-및-필터링">2. 이메일 처리 로그에서 검색 및 필터링</h4>
 
 <p></p>
 
@@ -135,13 +135,13 @@
 
 <hr />
 
-<h2 id="6월-1">6월</h2>
+<h3 id="6월-1">6월</h3>
 
 <hr />
 
 <p></p>
 
-<h3 id="1--변경-사항-달력change-calendar을-사용하여-변경-요청-보기-스케줄-생성-및-리스케줄을-활용해보세요-rolling-out">1.  변경 사항 달력(Change Calendar)을 사용하여 변경 요청 보기, 스케줄 생성 및 리스케줄을 활용해보세요! [ROLLING OUT]</h3>
+<h4 id="1--변경-사항-달력change-calendar을-사용하여-변경-요청-보기-스케줄-생성-및-리스케줄을-활용해보세요-rolling-out">1.  변경 사항 달력(Change Calendar)을 사용하여 변경 요청 보기, 스케줄 생성 및 리스케줄을 활용해보세요! [ROLLING OUT]</h4>
 
 <p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-1.png" alt="" /></p>
 
@@ -153,7 +153,7 @@
 
 <hr />
 
-<h3 id="2-기술-자료-공간에서-초안-관리-rolling-out">2. 기술 자료 공간에서 초안 관리 [ROLLING OUT]</h3>
+<h4 id="2-기술-자료-공간에서-초안-관리-rolling-out">2. 기술 자료 공간에서 초안 관리 [ROLLING OUT]</h4>
 
 <p>아직 작성 중이거나 게시 되지 않은 문서 초안에 대해서 기술 자료 공간 내에서 개요를 볼 수 있습니다.</p>
 
@@ -161,13 +161,13 @@
 
 <hr />
 
-<h3 id="3-변경-요청의-영향을-받는-서비스에서-발생한-미해결-인시던트-확인-rolling-out">3. 변경 요청의 영향을 받는 서비스에서 발생한 미해결 인시던트 확인 [ROLLING OUT]</h3>
+<h4 id="3-변경-요청의-영향을-받는-서비스에서-발생한-미해결-인시던트-확인-rolling-out">3. 변경 요청의 영향을 받는 서비스에서 발생한 미해결 인시던트 확인 [ROLLING OUT]</h4>
 
-<p>Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트로 인해 영향을 받는 서비스를 확인할 수 있습니다.  이슈 보기에서 이러한 경고는 ###영향을 받는 서비스(Affected Service)### 필드에 표시됩니다.</p>
+<p>Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트로 인해 영향을 받는 서비스를 확인할 수 있습니다.  이슈 보기에서 이러한 경고는 <strong>영향을 받는 서비스(Affected Service)</strong> 필드에 표시됩니다.</p>
 
 <hr />
 
-<h3 id="4-헬프-데스크에서-사용자-경험이-개선됩니다-rolling-out--new-this-week">4. 헬프 데스크에서 사용자 경험이 개선됩니다! [ROLLING OUT]  [NEW THIS WEEK]</h3>
+<h4 id="4-헬프-데스크에서-사용자-경험이-개선됩니다-rolling-out--new-this-week">4. 헬프 데스크에서 사용자 경험이 개선됩니다! [ROLLING OUT]  [NEW THIS WEEK]</h4>
 
 <p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-2.png" alt="img" /></p>
 
@@ -181,7 +181,7 @@
 
 <p></p>
 
-<h3 id="5-에이전트에-대한-기술-자료-문서-보기-향상--new-this-week">5. 에이전트에 대한 기술 자료 문서 보기 향상  [NEW THIS WEEK]</h3>
+<h4 id="5-에이전트에-대한-기술-자료-문서-보기-향상--new-this-week">5. 에이전트에 대한 기술 자료 문서 보기 향상  [NEW THIS WEEK]</h4>
 
 <p></p>
 
@@ -193,9 +193,9 @@
 
 <hr />
 
-<h2 id="7월-1">7월</h2>
+<h3 id="7월-1">7월</h3>
 
-<h3 id="1-그룹으로부터-요청-수락-rolling-out-new-this-week">1. 그룹으로부터 요청 수락 [ROLLING OUT] [NEW THIS WEEK]</h3>
+<h4 id="1-그룹으로부터-요청-수락-rolling-out-new-this-week">1. 그룹으로부터 요청 수락 [ROLLING OUT] [NEW THIS WEEK]</h4>
 
 <p>이제 그룹 단위로 승인을 진행할 수 있습니다. 단, 모든 사람으로부터 승인을 요청하려면 각 그룹 별 최소 인원 또는 그룹과 무관한 최소 인원이 필요합니다.</p>
 
@@ -203,13 +203,13 @@
 
 <hr />
 
-<h3 id="2-confluence-서버-사이트에서-기술-자료로-공간-연결--rolling-out---new-this-week">2. Confluence 서버 사이트에서 기술 자료로 공간 연결  [ROLLING OUT]   [NEW THIS WEEK]</h3>
+<h4 id="2-confluence-서버-사이트에서-기술-자료로-공간-연결--rolling-out---new-this-week">2. Confluence 서버 사이트에서 기술 자료로 공간 연결  [ROLLING OUT]   [NEW THIS WEEK]</h4>
 
 <p>이제 Confluence 서버 사이트의 공간에서 Jira Service Management Cloud의 기술 자료로 문서를 가져와 셀프 서비스 데스크를 생성하실  수 있습니다.</p>
 
 <hr />
 
-<h3 id="3-e-메일의-외부-의견-허용-rolling-out---new-this-week">3. e-메일의 외부 의견 허용 [ROLLING OUT]   [NEW THIS WEEK]</h3>
+<h4 id="3-e-메일의-외부-의견-허용-rolling-out---new-this-week">3. e-메일의 외부 의견 허용 [ROLLING OUT]   [NEW THIS WEEK]</h4>
 
 <p>이제 유효한 문제 키가 포함된 외부 전자 메일을 문제에 대한 주석으로 추가할 수 있습니다.</p>
 
@@ -219,13 +219,13 @@
 
 <hr />
 
-<h1 id="3-confluence">3. Confluence</h1>
+<h2 id="3-confluence">3. Confluence</h2>
 
-<h2 id="5월-2">5월</h2>
+<h3 id="5월-2">5월</h3>
 
 <hr />
 
-<h3 id="1-컨텐츠-편집-속도-향상-new-this-week">1. 컨텐츠 편집 속도 향상 [NEW THIS WEEK]</h3>
+<h4 id="1-컨텐츠-편집-속도-향상-new-this-week">1. 컨텐츠 편집 속도 향상 [NEW THIS WEEK]</h4>
 
 <p>Confluence 탐색 또는 홈 페이지의 최근 메뉴에 페이지와 블로그가 있으면 컨텐츠 편집으로 더 빠르게 이동할 수 있습니다. 페이지 이름 옆에 있는 편집 아이콘을 선택하여 편집 환경을 엽니다.</p>
 
@@ -233,7 +233,7 @@
 
 <hr />
 
-<p>### 2. 당신의 공간을 색다르게 보실 수 있습니다! [ROLLING OUT]   [NEW THIS WEEK]</p>
+<h3 id="2-당신의-공간을-색다르게-보실-수-있습니다-rolling-out---new-this-week">2. 당신의 공간을 색다르게 보실 수 있습니다! [ROLLING OUT]   [NEW THIS WEEK]</h3>
 
 <p>페이지 간의 관계가 중요할 때는 공간의 페이지를 트리처럼 보는 것이 좋지만, 이제는 공간의 페이지를 보는 방법에 대한 옵션이 더 많아졌습니다.</p>
 
@@ -309,7 +309,7 @@
 
 <hr />
 
-<h3 id="4-가장-최근에-방문한-페이지-보기-rolling-out--new-this-week">4. 가장 최근에 방문한 페이지 보기[ ROLLING OUT]  [NEW THIS WEEK]</h3>
+<h3 id="4-가장-최근에-방문한-페이지-보기rolling-out--new-this-week">4. 가장 최근에 방문한 페이지 보기[ROLLING OUT]  [NEW THIS WEEK]</h3>
 
 <p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/M-J-Cloud-WIKI-2.png" alt="" /></p>
 

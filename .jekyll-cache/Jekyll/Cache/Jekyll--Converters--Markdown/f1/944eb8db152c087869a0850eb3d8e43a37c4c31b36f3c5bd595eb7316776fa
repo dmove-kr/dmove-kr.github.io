@@ -1,4 +1,4 @@
-I"�W<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+I"�W<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
 
 <p>안녕하세요, 디무브 입니다! :balloon:</p>
 
@@ -12,7 +12,7 @@
 
 <p></p>
 
-<h3 id="1-차세대-보드-및-백로그에-직접적으로-인사이트-기능을-사용할-수-있습니다-rolling-out">1. 차세대 보드 및 백로그에 직접적으로 인사이트 기능을 사용할 수 있습니다 [ROLLING OUT]</h3>
+<h3 id="1-차세대-보드-및-백로그에-직접적으로-인사이트insight-기능을-사용할-수-있습니다-rolling-out">1. 차세대 보드 및 백로그에 직접적으로 인사이트(Insight) 기능을 사용할 수 있습니다 [ROLLING OUT]</h3>
 
 <p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/M-J-Cloud-Jira-2.png" alt="" class="imgcenter" /></p>
 
@@ -83,7 +83,7 @@
 
 <p>프로젝트 페이지를 업데이트하여 전체 공간이 아닌 단일 Confluence 페이지를 연결할 수 있습니다. Connect to different space or page(다른 공간에 연결) 아이콘(화살표 두 개로 표시됨)을 선택하여 이 작업을 수행할 수 있습니다.   <a href="https://support.atlassian.com/jira-software-cloud/docs/enable-and-disable-pages/">자세히 알아보기</a></p>
 
-<p>프로젝트 페이지에 대한 몇 가지 사소한 UI도 변경되었습니다:</p>
+<p>프로젝트 페이지에 대한 몇 가지 UI도 변경되었습니다:</p>
 
 <ul>
   <li>화면 하단에 Powered by Confluence라는 메시지가 표시됩니다. 이 옵션을 선택하면 연결된 Confluence 공간으로 이동합니다.</li>
@@ -103,17 +103,17 @@
 
 <p>Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용하여 이슈를 일정 기간 동안 파악할 수 있습니다.</p>
 
-<p><a href="https://support.atlassian.com/jira-software-cloud/docs/enable-deployments/#Understand-your-deployments-view">여기</a>를 클릭하여 배포에 대해 자세히 알아보고 이 기능을 최대한 활용하세요!</p>
+<p><a href="https://support.atlassian.com/jira-software-cloud/docs/enable-deployments/##Understand-your-deployments-view">여기</a>를 클릭하여 배포에 대해 자세히 알아보고 이 기능을 최대한 활용하세요!</p>
 
 <hr />
 
-<h1 id="2-jira-service-management">2. Jira Service Management</h1>
+<h2 id="2-jira-service-management">2. Jira Service Management</h2>
 
-<h2 id="5월-1">5월</h2>
+<h3 id="5월-1">5월</h3>
 
 <hr />
 
-<h3 id="1-대기열을-관리하여-팀의-작업-우선-순위-지정-rolling-out">1. 대기열을 관리하여 팀의 작업 우선 순위 지정 [ROLLING OUT]</h3>
+<h4 id="1-대기열을-관리하여-팀의-작업-우선-순위-지정-rolling-out">1. 대기열을 관리하여 팀의 작업 우선 순위 지정 [ROLLING OUT]</h4>
 
 <p></p>
 
@@ -309,7 +309,7 @@
 
 <hr />
 
-<h3 id="4-가장-최근에-방문한-페이지-보기-rolling-out--new-this-week">4. 가장 최근에 방문한 페이지 보기[ ROLLING OUT]  [NEW THIS WEEK]</h3>
+<h3 id="4-가장-최근에-방문한-페이지-보기rolling-out--new-this-week">4. 가장 최근에 방문한 페이지 보기[ROLLING OUT]  [NEW THIS WEEK]</h3>
 
 <p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/M-J-Cloud-WIKI-2.png" alt="" /></p>
 
