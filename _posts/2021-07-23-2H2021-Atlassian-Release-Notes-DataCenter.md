@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 2021 Atlassian 주요 제품 릴리즈 노트 (May ~ July) - Server,DC
-Subtitle: Release Note
+Subtitle: Atlassian Release Note
 date: 2021-07-23
-categories: [Atlassian Solutions]
+categories: [Atlassian Release Note]
 tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드, Jira Cloud, Release, Release Note, Jira Sofrware, Jira Service Management, Confluence, Wiki]
 
 ---
