@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Jira, Confluence 2021 상반기 릴리즈 노트(1) -Server, DC
-subtitle: 상반기 릴리즈 노트
+title: 2021 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Apr) -Server, DC
+subtitle: Atlassian Release Note
 date: 2021-05-06 15:48:00
-categories: [Atlassian Solutions]
+categories: [Atlassian Release Note]
 tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Data Center, Atlassian, 아틀라시안, 아틀라시안데이터센터]
 ---
 
