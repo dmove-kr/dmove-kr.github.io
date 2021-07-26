@@ -60,7 +60,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 ### ■ Version 8.16
 
-
+---
 
 
 
@@ -298,6 +298,7 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 ### ■ Version 7.11
 
+---
 
 
 
@@ -438,6 +439,8 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
 
 ### ■ Version 7.12
+  
+---
 
 #### 1. 사이트에 대한 데이터 및 인사이트 확보 가능 [Data Center]
 
