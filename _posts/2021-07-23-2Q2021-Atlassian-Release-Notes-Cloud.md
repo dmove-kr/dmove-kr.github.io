@@ -31,7 +31,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-### 1. 차세대 보드 및 백로그에 직접적으로 인사이트 기능을 사용할 수 있습니다 [ROLLING OUT]
+### 1. 차세대 보드 및 백로그에 직접적으로 인사이트(Insight) 기능을 사용할 수 있습니다 [ROLLING OUT]
 
 
 
@@ -136,7 +136,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 프로젝트 페이지를 업데이트하여 전체 공간이 아닌 단일 Confluence 페이지를 연결할 수 있습니다. Connect to different space or page(다른 공간에 연결) 아이콘(화살표 두 개로 표시됨)을 선택하여 이 작업을 수행할 수 있습니다.   [자세히 알아보기](https://support.atlassian.com/jira-software-cloud/docs/enable-and-disable-pages/)
 
-프로젝트 페이지에 대한 몇 가지 사소한 UI도 변경되었습니다:
+프로젝트 페이지에 대한 몇 가지 UI도 변경되었습니다:
 
 
 
