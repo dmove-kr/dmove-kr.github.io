@@ -1,4 +1,4 @@
-I"i�<p><img src="https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+I"~�<p><img src="https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
 
 <p>안녕하세요, 디무브 입니다! :balloon:</p>
 
@@ -6,55 +6,53 @@
 
 <hr />
 
-<h4 id="1-jira-software">1. Jira Software</h4>
+<h2 id="1-jira-software">1. Jira Software</h2>
 
 <h3 id="1월">1월</h3>
 
 <hr />
 
-<p><strong>1. 로드맵 : 새롭게 생성된 이슈는 담당자와 레이블 필터에 매칭됩니다</strong></p>
+<h4 id="1-로드맵roadmap--새롭게-생성된-이슈는-담당자와-레이블-필터에-매칭됩니다-rolling-out-new-this-week">1. 로드맵(Roadmap) : 새롭게 생성된 이슈는 담당자와 레이블 필터에 매칭됩니다 [ROLLING OUT] [NEW THIS WEEK]</h4>
 
 <p><img src="https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-1.png" alt="Jira Cloud" /></p>
 
-<p data-renderer-start-pos="192">&nbsp;</p>
+<p><strong>1-1. 새롭게 생성된 이슈는 담당자와 레이블 필터에 매칭됩니다 [ROLLING OUT] [NEW THIS WEEK] </strong></p>
 
-<p data-renderer-start-pos="194">로드맵에서 생성된 새로운 이슈가 자동으로 할당되고 레이블이 지정되며, 마지막으로 선택한 담당자 및 현재 Roadmap의 레이블 필터와 매칭됩니다. → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/jira-software-cloud/docs/customize-your-view-on-the-roadmap/" title="https://support.atlassian.com/jira-software-cloud/docs/customize-your-view-on-the-roadmap/" data-renderer-mark="true">자세히보기</a></p>
+<p>로드맵에서 생성된 새로운 이슈가 자동으로 할당되고 레이블이 지정되며, 마지막으로 선택한 담당자 및 현재 로드맵의 레이블 필터와 매칭됩니다. → <a href="https://support.atlassian.com/jira-software-cloud/docs/customize-your-view-on-the-roadmap/">자세히보기</a></p>
 
-<hr />
-
-<p><strong>2. 향상된 Release 기능 [ROLLING OUT]</strong></p>
-
-<p><img src="https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-2.png" alt="Jira Cloud" /></p>
-
-<p data-renderer-start-pos="318"> 릴리즈 → 버전 → 릴리즈 노트로 이동하여 향상된 릴리즈 노트 기능에 확인하실 수 있습니다. 업데이트된 릴리즈 노트 페이지는 다음과 같습니다.</p>
-
-<p>■ Markdown format으로 릴리즈 노트 생성</p>
-
-<p>■ 레이아웃 및 이슈 유형에 따라 릴리스 노트 재생성</p>
-
-<p>■ 편집기에서 Release Note 포맷 및 업데이트</p>
-
-<p>■ Release Note를 클립보드에 복사</p>
-
-<ul>
-  <li>RoadMap : 가장 좌측 열을 사용하여 에픽 순서 변경 [ROLLING OUT]</li>
-</ul>
+<p><strong>1-2. RoadMap : 가장 좌측 열을 사용하여 에픽 순서 변경 [ROLLING OUT]</strong></p>
 
 <p>색상화 된 에픽 바를 수평으로 드래그 하여 start &amp; due dates를 업데이트 할 수 있습니다.</p>
 
 <hr />
 
-<p><strong id="3. Media Picker를 시스템의 파일 업로드로 변경">3. Media Picker를 시스템의 파일 업로드로 변경 [ROLLING OUT]  [NEW THIS WEEK]</strong></p>
+<h4 id="2-향상된-릴리즈-노트release-notes-기능-rolling-out">2. 향상된 릴리즈 노트(Release Notes) 기능 [ROLLING OUT]</h4>
+
+<p><img src="https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-2.png" alt="Jira Cloud" /></p>
+
+<p>릴리즈 → 버전 → 릴리즈 노트로 이동하여 향상된 기능을 릴리즈 노트 기능에 확인하실 수 있습니다. 업데이트된 릴리즈 노트 페이지는 다음과 같습니다.</p>
+
+<p>■ Markdown format으로 릴리즈 노트 생성</p>
+
+<p>■ 레이아웃 및 이슈 유형에 따라 릴리즈 노트릴리스 노트 재생성</p>
+
+<p>■ 편집기에서 릴리즈 노트Release Note 포맷 및 업데이트</p>
+
+<p>■ 릴리즈 노트Release Note를 클립보드에 복사</p>
+
+<hr />
+
+<h4 id="3-media-picker를-시스템의-파일-업로드로-변경-rolling-out--new-this-week">3. Media Picker를 시스템의 파일 업로드로 변경 [ROLLING OUT]  [NEW THIS WEEK]</h4>
 
 <p><img src="https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-3.png" alt="Jira Cloud" /></p>
 
 <p data-renderer-start-pos="670">&nbsp;</p>
 
-<p>Files and images 버튼을 클릭하면 나타나는 Media Picker dialog 가 기본 제공 파일 업로드 Dialog로 대체됩니다.  또한 이것은 Dropbox와 Google Drive 와 같은 서비스의 파일에 연결할 수 있습니다. 페이지 또는 이슈에 링크를 붙여넣으면 항상 최신 버전을 사용하실 수 있도록 편리한 Smart Link를 생성하실 수 있습니다.</p>
+<p>파일 및 이미지(Files and Images)를 업로드 하기 위한 미디어 선택 기능이 제품에 내장된 파일 업로드 기능으로 개선되었습니다. Dropbox나 Google Drive와 같은 파일 서비스와도 연결할 수 있으며, 페이지 또는 이슈에 링크를 붙여넣으면 항상 최신 버전을 사용할 수 있는 Smart Link를 생성할 수 있습니다.</p>
 
 <hr />
 
-<p><strong>4. 배포 날짜 범위 지정 필터</strong></p>
+<h4 id="4-배포-날짜-범위-지정-필터-rolling-out-new-this-week">4. 배포 날짜 범위 지정 필터 [ROLLING OUT] [NEW THIS WEEK]</h4>
 
 <p>Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 가능한 상태로 변경이 가능하며, 날짜 범위의 필터를 사용하여 배포가 가능한 날짜의 범위를 지정하실 수 있습니다.</p>
 
@@ -66,31 +64,33 @@
 
 <hr />
 
-<p><strong>1. 향상된 RoadMap - Planned Capacity [ROLLING OUT] </strong></p>
+<h4 id="1-로드맵roadmap">1. 로드맵(RoadMap)</h4>
 
-<p data-renderer-start-pos="1069">새로운 Planned Capacity 도구를 사용하여 스프린트를 계획하고 작업을 보다 효율적으로 할당할 수 있습니다. 이 기능을 사용하여 팀이 반복하여 완료할 수 있는 평균 작업량을 설정한 다음 , 다음 작업의 균형을 맞출 수 있습니다. 또한 Overbooking 하지 않도록 반복할 수 있는 용량을 확인 할 수 있습니다.  → <a class="sc-gleUXh dNInRj" href="https://confluence.atlassian.com/advancedroadmapscloud/capacity-and-velocity-998651192.html" title="https://confluence.atlassian.com/advancedroadmapscloud/capacity-and-velocity-998651192.html" data-renderer-mark="true">자세히 보기</a> </p>
+<p><strong>1-1. 향상된 로드맵(RoadMap) - Planned Capacity [ROLLING OUT]</strong></p>
 
-<hr />
+<p>새로운 Planned Capacity(역량 계획)도구를 사용하여 스프린트를 계획하고 작업을 보다 효율적으로 할당할 수 있습니다. 이 기능을 사용하면 팀이 반복하여 완료할 수 있는 평균 작업량을 설정하여 작업의 균형을 맞추고 과도한 업무량이 할당 되는 것을 방지할 수 있습니다.</p>
 
-<p><strong>2. 향상된 RoadMap - story-level 이슈 드래그 앤 드롭 기능 [ROLLING OUT] [NEW THIS WEEK]</strong></p>
+<p>이 기능을 사용하여 팀이 반복하여 완료할 수 있는 평균 작업량을 설정한 다음, 다음 작업의 균형을 맞출 수 있습니다. 또한 Overbooking 하지 않도록 반복할 수 있는 용량을 확인 할 수 있습니다.  → <a href="https://confluence.atlassian.com/advancedroadmapscloud/capacity-and-velocity-998651192.html">자세히 보기</a></p>
+
+<p><strong>1-2. 1-2. 로드맵(RoadMap) :Story-level 이슈 드래그 앤 드롭 기능 [ROLLING OUT] [NEW THIS WEEK]</strong></p>
 
 <p>이슈의 드래그 앤 드롭 기능을 활용해 현재 에픽에서 이슈의 순위를 조정하거나 새로운 에픽으로 이동하실 수 있습니다.</p>
 
 <hr />
 
-<p><strong>3. Jira 사이트 가져오기에 대한 익명 엑세스 검사 기능 [ROLLING OUT]</strong></p>
+<h4 id="2-jira-사이트-가져오기에-대한-익명-엑세스-검사-기능-rolling-out">2. Jira 사이트 가져오기에 대한 익명 엑세스 검사 기능 [ROLLING OUT]</h4>
 
 <p>마이그레이션 후 프로젝트, 대시보드, 필터가 익명 엑세스에 취약한 경우를 체크합니다. 익명의 엑세스는 데이터를 사람들이 사용할 수 있고 온라인으로 검색할 수 있기 때문에 마이그레이션 전에 공용 엑세스 권한 부여 여부를 선택할 수 있습니다.  영향을 받는 프로젝트, 대시보드, 필터를 검사하기 위해 CSV 형식의 파일을 다운로드 하실 수 있습니다.</p>
 
 <hr />
 
-<p><strong>4. Portal Group &amp; Request 유형 관리 및 편지 속도 향상 [ROLLING OUT] [NEW THIS WEEK]</strong></p>
+<h4 id="3-portal-group--request-유형-관리-및-편지-속도-향상-rolling-out-new-this-week">3. Portal Group &amp; Request 유형 관리 및 편지 속도 향상 [ROLLING OUT] [NEW THIS WEEK]</h4>
 
 <p>Request 유형 페이지 에서 직접 Request 유형을 Portal Group에 추가하고 Request 유형이 어떤 Portal Group 및 이슈 유형에 있는 지 추가 열을 통해 한 눈에 보실 수 있습니다. 또한 Request 유형 페이지에 새 필터를 추가하여 키워드, 이슈 유형 또는 Portal Group 별로 Request 유형을 필터링 할 수 있습니다.</p>
 
 <hr />
 
-<p><strong>5. Third-Party 레포지토리 및 마켓플레이스 앱 통합 지원 [NEW THIS WEEK]</strong></p>
+<h4 id="4-third-party-레포지토리-및-마켓플레이스-앱-통합-지원-new-this-week">4. Third-Party 레포지토리 및 마켓플레이스 앱 통합 지원 [NEW THIS WEEK]</h4>
 
 <p>코드 레포지토리를 Jira 프로젝트와 연결한 후  다음을 참조하여 Jira 내 코드 특징을 자세히 확인할 수 있습니다.</p>
 
@@ -102,9 +102,9 @@
 
 <hr />
 
-<p><strong>6. 이슈 보기 : 에픽 상태 필드 추가 [ROLLING OUT]</strong></p>
+<h4 id="5-이슈-보기--에픽-상태-필드-추가-rolling-out">5. 이슈 보기 : 에픽 상태 필드 추가 [ROLLING OUT]</h4>
 
-<p data-renderer-start-pos="2158">에픽 상태 커스텀 필드가  새로운 이슈 보기에 추가 되었습니다. Jira 관리자에게 요청하여 성공 상태 필드를 추가하여 해당 화면을 사용하는 모든 이슈에 표시됩니다.  → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/jira-cloud-administration/docs/add-a-custom-field-to-a-screen/" title="https://support.atlassian.com/jira-cloud-administration/docs/add-a-custom-field-to-a-screen/" data-renderer-mark="true">자세히보기</a></p>
+<p>에픽 상태 커스텀 필드가  새로운 이슈 보기에 추가 되었습니다. Jira 관리자에게 요청하여 성공 상태 필드를 추가하여 해당 화면을 사용하는 모든 이슈에 표시됩니다.  → <a href="https://support.atlassian.com/jira-cloud-administration/docs/add-a-custom-field-to-a-screen/">자세히보기</a></p>
 
 <hr />
 
@@ -112,7 +112,7 @@
 
 <hr />
 
-<p><strong>1. RoadMap : 기본적으로 에픽 bar 제거</strong></p>
+<h4 id="1-roadmap--기본적으로-에픽-bar-제거">1. RoadMap : 기본적으로 에픽 bar 제거</h4>
 
 <p data-renderer-start-pos="2299">로드맵을 정확하게 작성하기 위해 에픽 작성과 일정을 두 파트로 나누었습니다. → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/jira-software-cloud/docs/create-epics-on-the-roadmap/" title="https://support.atlassian.com/jira-software-cloud/docs/create-epics-on-the-roadmap/" data-renderer-mark="true">자세히 보기</a> </p>
 
@@ -136,21 +136,28 @@
 
 <p data-renderer-start-pos="2548">&nbsp;</p>
 
-<p><strong>2. 모든 프로젝트에서 SCM data 배포가 가능해집니다</strong></p>
+<h4 id="2-모든-프로젝트에서-scm-data-배포가-가능해집니다">2. 모든 프로젝트에서 SCM data 배포가 가능해집니다</h4>
 
 <p><img src="https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-6.png" alt="Jira Cloud" /></p>
 
 <p data-renderer-start-pos="2590">Jira 프로젝트에 SCM (Source Code Management) 도구를 통합하면 배포 기능을 사용하여 Deploy Pipeline을 시간 경과에 따라 생기는 문제에 대해 파악할 수 있습니다. → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/jira-software-cloud/docs/enable-deployments/" title="https://support.atlassian.com/jira-software-cloud/docs/enable-deployments/" data-renderer-mark="true">자세히 보기</a></p>
 
-<p><strong>3. 프로젝트 생성 업데이트 사항 [ROLLING OUT]  [NEW THIS WEEK]</strong></p>
+<h4 id="3-프로젝트-생성-업데이트-사항-rolling-out--new-this-week">3. 프로젝트 생성 업데이트 사항 [ROLLING OUT]  [NEW THIS WEEK]</h4>
 
 <p>Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통해 더 간단히 만들 수 있게 되어 팀의 업무 방식에 가장 적합한 템플릿을 찾아 효과적인 프로젝트를 생성할 수 있습니다.</p>
 
 <p>추가적으로 차세대 및 클래식 프로젝트를 보다 더 명확하고 알기 쉽게 이름을 변경하였습니다.</p>
 
-<p>■ 차세대 프로젝트는 “팀 관리 프로젝트”로 이름이 변경되며 기능 자체는 그대로 유지됩니다.</p>
+<hr />
 
-<p>■  클래식 프로젝트는 “회사 관리 프로젝트”로 이름이 변경되었습니다.</p>
+<ul>
+  <li>
+    <p>차세대 프로젝트는 “팀 관리 프로젝트”로 이름이 변경되며 기능 자체는 그대로 유지됩니다.</p>
+  </li>
+  <li>
+    <p>클래식 프로젝트는 “회사 관리 프로젝트”로 이름이 변경되었습니다.</p>
+  </li>
+</ul>
 
 <hr />
 
@@ -158,11 +165,11 @@
 
 <p></p>
 
-<p><strong>1. 프로젝트 페이지 개선과 Jira 및 Confluence 연결 [ROLLING OUT]</strong></p>
+<h4 id="1-프로젝트-페이지-개선과-jira-및-confluence-연결-rolling-out">1. 프로젝트 페이지 개선과 Jira 및 Confluence 연결 [ROLLING OUT]</h4>
 
-<p>Jira Software의 “pages” 기능을 “project pages”로 이름을 변경하고 사용과 이해하기 쉽도록 개선했습니다.</p>
+<p>Jira Software의 페이지(Pages)기능을 프로젝트 페이지(Project Pages)로 이름을 변경하고 사용과 이해하기 쉽도록 개선했습니다.</p>
 
-<p>프로젝트 페이지는 Jira Software 프로젝트를 Confluence 스페이스에 연결하여 문서를 한 곳에 보관합니다. 아직 사이트에 Confluence가 없는 경우 사이트 관리자는 왼쪽 탐색 패널의 프로젝트 페이지 기능을 통해 무료 평가판 인 제품 사용을 시작할 수 있습니다.</p>
+<p>프로젝트 페이지는 Jira Software 프로젝트를 Confluence 공간에 연결하여 문서를 한 곳에 보관합니다. 아직 사이트에 Confluence가 없는 경우 사이트 관리자는 왼쪽 탐색 패널의 프로젝트 페이지 기능을 통해 무료 평가판 인 제품 사용을 시작할 수 있습니다.</p>
 
 <p>연결된 공간의 페이지는 지라의 프로젝트 페이지 기능에서 구성될 것입니다. 모든 페이지 구성 및 Confluence의 사용 권한은 유지됩니다. 적절한 권한이 있는 사용자는 프로젝트 페이지를 사용하여 Confluence 페이지를 만들고 기존 문서를 볼 수 있습니다.</p>
 
@@ -170,7 +177,7 @@
 
 <p data-renderer-start-pos="3426">&nbsp;</p>
 
-<p><strong>2. 차세대 프로젝트 : 단일 열에 여러개의 상태가 할당 가능해집니다. [ROLLING OUT]</strong></p>
+<h4 id="2-차세대-프로젝트--단일-열에-여러개의-상태가-할당-가능해집니다-rolling-out">2. 차세대 프로젝트 : 단일 열에 여러개의 상태가 할당 가능해집니다. [ROLLING OUT]</h4>
 
 <p align="center"><img src="/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-7.png" /></p>
 
@@ -180,7 +187,7 @@
 
 <hr />
 
-<p><strong>3. Jira 프로젝트 페이지에서 사용자가 Confluence에 가입할 수 있도록 허용할 수 있습니다 [ROLLING OUT] [NEW THIS WEEK]</strong></p>
+<h4 id="3-jira-프로젝트-페이지에서-사용자가-confluence에-가입할-수-있도록-허용할-수-있습니다-rolling-out-new-this-week">3. Jira 프로젝트 페이지에서 사용자가 Confluence에 가입할 수 있도록 허용할 수 있습니다 [ROLLING OUT] [NEW THIS WEEK]</h4>
 
 <p>사이트에 Jira 및 Confluence가 활성화되어 있는 경우, 적절한 사용 권한이 있는 사용자는 Jira의 프로젝트 페이지 기능을 사용하여 Confluence에 액세스하고 관련 문서와 내용을 찾을 수 있습니다.</p>
 
@@ -196,7 +203,7 @@
 
 <hr />
 
-<p><strong>1. 서비스와 연결된 승인자에게 승인 요청 [ROLLING OUT]</strong></p>
+<p>####1. 서비스와 연결된 승인자에게 승인 요청 [ROLLING OUT]####</p>
 
 <p data-renderer-start-pos="3961">새로운 IT service Management 템플릿에서 워크플로우에 대한 승인을 구성할 때 관리자는 서비스와 과나련된 승인자가 변경 사항을 플래그로 지정 , 검토 , 승인할 수 있도록 허용하여 서비스 품질에 영향을 미칠 위험을 줄일 수 있습니다. → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/jira-service-management-cloud/docs/request-approval-from-approvers-associated-with-a-service/" title="https://support.atlassian.com/jira-service-management-cloud/docs/request-approval-from-approvers-associated-with-a-service/" data-renderer-mark="true">자세히 보기</a></p>
 
@@ -204,19 +211,19 @@
 
 <hr />
 
-<p><strong>2. OAuth를 사용하여 사용자 지정 Microsoft 이메일 주소 설정</strong></p>
+<p>####2. OAuth를 사용하여 사용자 지정 Microsoft 이메일 주소 설정####</p>
 
 <p data-renderer-start-pos="4279">Jira 사이트 관리자인 경우 이제 애플리케이션별 암호 대신 OAuth를 사용하여 사용자 지정 Microsoft 이메일 계정을 추가할 수 있습니다. → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/jira-service-desk-cloud/docs/add-an-email-account/" title="https://support.atlassian.com/jira-service-desk-cloud/docs/add-an-email-account/" data-renderer-mark="true">자세히 보기</a></p>
 
 <hr />
 
-<p><strong>3. 한 번에 연결된 여러 스페이스 변경</strong></p>
+<p>####3. 한 번에 연결된 여러 스페이스 변경####</p>
 
 <p data-renderer-start-pos="4399">연결된 여러 스페이스를 동시에 변경하여 시간을 절약하고 작업을 보다 효율적으로 수행할 수 있습니다.  여러 개의 공간을 선택하여 링크를 차단하거나 “Project Settings → Knowledge base“ 에서 볼 수 있는 사용자를 변경하실 수 있습니다. → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/jira-service-management-cloud/docs/link-confluence-spaces-to-your-service-project/" title="https://support.atlassian.com/jira-service-management-cloud/docs/link-confluence-spaces-to-your-service-project/" data-renderer-mark="true">자세히 보기</a></p>
 
 <hr />
 
-<p><strong>4. Media Picker를 시스템의 파일 업로드로 변경 [ROLLING OUT] [NEW THIS WEEK]</strong></p>
+<p>####4. Media Picker를 시스템의 파일 업로드로 변경 [ROLLING OUT] [NEW THIS WEEK]####</p>
 
 <p><img src="https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira%20Service%20Management-1.png" alt="릴리즈노트 클라우드 Jira Service Management" /></p>
 
@@ -226,7 +233,7 @@
 
 <h3 id="3월.1" data-renderer-start-pos="4814"><em data-renderer-mark="true"><strong data-renderer-mark="true"> </strong></em> 3월</h3>
 
-<p><strong>1. 주요 Incident 대기열에서 Incidient Command Center에 엑세스 [ROLLING OUT]</strong></p>
+<p>####1. 주요 Incident 대기열에서 Incidient Command Center에 엑세스 [ROLLING OUT]####</p>
 
 <p data-renderer-start-pos="4878">ICC( Incidient Command Center )는 고객과 고객의 팀이 주요 Incident에 허용할 수 있도록 지원하는 비디오 및 음성 통화 도구 입니다.  이를 활용하여 관련된 팀과 쉽고 직접적으로 소통할 수 있습니다. </p>
 
@@ -234,7 +241,7 @@
 
 <hr />
 
-<p><strong>2. 프로젝트 생성하는 방법에 대한 업데이트 [ROLLING OUT] [NEW THIS WEEK]</strong></p>
+<p>####2. 프로젝트 생성하는 방법에 대한 업데이트 [ROLLING OUT] [NEW THIS WEEK]####</p>
 
 <p data-renderer-start-pos="5277">추가적으로 차세대 및 클래식 프로젝트를 보다 더 명확하고 알기 쉽게 이름을 변경하였습니다.</p>
 
@@ -244,7 +251,7 @@
 
 <hr />
 
-<p><strong>3. Incident 타임라인을 활용한 주요 incident 이력 확인 [NEW THIS WEEK]</strong></p>
+<p>####3. Incident 타임라인을 활용한 주요 incident 이력 확인 [NEW THIS WEEK]####</p>
 
 <p><img src="https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira%20Service%20Management-2.png" alt="릴리즈노트 클라우드 Jira Service Management" /></p>
 
@@ -260,13 +267,13 @@
 
 <hr />
 
-<p><strong>1. 새로운 에디터를 사용하여 링크를 추가할 때 어떠한 페이지나 블로그 검색이 가능합니다. [NEW THIS WEEK]</strong></p>
+<p>####1. 새로운 에디터를 사용하여 링크를 추가할 때 어떠한 페이지나 블로그 검색이 가능합니다. [NEW THIS WEEK]####</p>
 
 <p data-renderer-start-pos="5912">새로운 편집기를 사용하여 링크를 추가할 때 URL을 붙여 넣거나 최근에 본 페이지 또는 블로그를 선택하는 것 이외의 사이트에서 페이지 또는 블로그를 검색하실 수 있습니다.</p>
 
 <hr />
 
-<p><strong>2. Jira Issue URL 이 smart links로 변환됩니다 [ROLLING OUT]</strong></p>
+<p>####2. Jira Issue URL 이 smart links로 변환됩니다 [ROLLING OUT]####</p>
 
 <p>Confluence 페이지에서 Jira issue Link를 붙여넣으면 URL 이 페이지 아이콘과 페이지 제목을 표시하는 Smart Link로 변환됩니다. 이는 Jira &amp; Confluence 사이트가 응용 어플리케이션 연결로 연결되어 있거나 둘 다 Cloud Version 일 경우 작동합니다.</p>
 
@@ -278,7 +285,7 @@
 
 <hr />
 
-<p><strong>4. 보관된 페이지에서 ‘좋아요’ 버튼 숨기기 [ROLLING OUT]</strong></p>
+<p>####4. 보관된 페이지에서 ‘좋아요’ 버튼 숨기기 [ROLLING OUT]####</p>
 
 <p data-renderer-start-pos="6376"> 페이지를 보관할 때, 이 페이지가 오래되었거단 더 이상 현재 작업과 관련없음을 팀에게 알립니다. 아무도 보관된 페이지에 관심을 가지거나 접근하면 안되기 때문에, ‘좋아요' 버튼을 숨겨 '좋아요’를 추가 할 수 없도록 조치하였습니다.</p>
 
@@ -302,7 +309,7 @@
 
 <hr />
 
-<p><strong>8. 페이지 작업 재구성 [ROLLING OUT]</strong></p>
+<p>####8. 페이지 작업 재구성 [ROLLING OUT]####</p>
 
 <p>해당 기능은 추가 작업 ( ••• ) 메뉴에 추가되었고 내용은 다음과 같습니다.</p>
 
@@ -312,7 +319,7 @@
 
 <hr />
 
-<p><strong>9. Media Picker를 시스템의 파일 업로드로 변경 [ROLLING OUT] [NEW THIS WEEK]</strong></p>
+<p>####9. Media Picker를 시스템의 파일 업로드로 변경 [ROLLING OUT] [NEW THIS WEEK]####</p>
 
 <p><img src="https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-1.png" alt="Confluence Cloud" /></p>
 
@@ -330,13 +337,13 @@
 
 <hr />
 
-<p><strong>1. 스마트 링크 및 스마트 카드를 활용해 하이퍼링크 개선</strong></p>
+<p>####1. 스마트 링크 및 스마트 카드를 활용해 하이퍼링크 개선####</p>
 
 <p data-renderer-start-pos="7573">Smart  Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시에 독자가 페이지에 계속 게시할 수 있도록 세부 정보를 제공할 수 있습니다. → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/confluence-cloud/docs/insert-links-and-anchors/" title="https://support.atlassian.com/confluence-cloud/docs/insert-links-and-anchors/" data-renderer-mark="true">자세히 보기</a> </p>
 
 <hr />
 
-<p><strong>2. 템플릿을 바로 선택하기 전에 쉽게 정렬 [ROLLING OUT]</strong></p>
+<p>####2. 템플릿을 바로 선택하기 전에 쉽게 정렬 [ROLLING OUT]####</p>
 
 <p><img src="https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-2.png" alt="Confluence Cloud" /></p>
 
@@ -362,7 +369,7 @@
 
 <hr />
 
-<p><strong>2. 새 편집기에 앵커 매크로 사용이 가능합니다 [ROLLING OUT] [NEW THIS WEEK]</strong></p>
+<p>####2. 새 편집기에 앵커 매크로 사용이 가능합니다 [ROLLING OUT] [NEW THIS WEEK]####</p>
 
 <p><img src="https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-4.png" alt="Confluence Cloud" /></p>
 
@@ -390,7 +397,7 @@
 
 <hr />
 
-<p><strong>1. Jira 프로젝트 페이지에서 사용자가 Confluence에 가입할 수 있도록 허용할 수 있습니다 [ROLLING OUT]</strong></p>
+<p>####1. Jira 프로젝트 페이지에서 사용자가 Confluence에 가입할 수 있도록 허용할 수 있습니다 [ROLLING OUT]####</p>
 
 <p>사이트에 Jira 및 Confluence가 활성화되어 있는 경우, 적절한 사용 권한이 있는 사용자는 Jira의 프로젝트 페이지 기능을 사용하여 Confluence에 액세스하고 관련 문서와 내용을 찾을 수 있습니다.</p>
 
@@ -400,7 +407,7 @@
 
 <hr />
 
-<p><strong>2. 페이지 또는 블로그 출판 예약 기능 추가 [ROLLING OUT] [NEW THIS WEEK]</strong></p>
+<p>####2. 페이지 또는 블로그 출판 예약 기능 추가 [ROLLING OUT] [NEW THIS WEEK]####</p>
 
 <p align="center"><img src="/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-7.png" /></p>
 
@@ -410,7 +417,7 @@
 
 <hr />
 
-<p><strong>3. 편집기에 anchor(책갈피) 매크로를 사용하실 수 있습니다 [NEW THIS WEEK]</strong></p>
+<p>####3. 편집기에 anchor(책갈피) 매크로를 사용하실 수 있습니다 [NEW THIS WEEK]####</p>
 
 <p align="center"><img src="/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-8.png" /></p>
 
@@ -450,7 +457,7 @@
 
 <hr />
 
-<p><strong>5. 사이드바의 페이지 이름 위로 마우스를 가져가면 자세한 정보를 확인할 수 있습니다 [ROLLING OUT] [NEW THIS WEEK]</strong></p>
+<p>####5. 사이드바의 페이지 이름 위로 마우스를 가져가면 자세한 정보를 확인할 수 있습니다 [ROLLING OUT] [NEW THIS WEEK]####</p>
 
 <p data-renderer-start-pos="9929">&nbsp;</p>
 

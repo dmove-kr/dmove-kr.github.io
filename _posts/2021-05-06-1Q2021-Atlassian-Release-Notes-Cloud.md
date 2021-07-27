@@ -31,8 +31,6 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-
-
 #### 1. 로드맵(Roadmap) : 새롭게 생성된 이슈는 담당자와 레이블 필터에 매칭됩니다 [ROLLING OUT] [NEW THIS WEEK]
 
 
@@ -41,9 +39,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-<p data-renderer-start-pos="192">&nbsp;</p>
-
-**1-1. 새롭게 생성된 이슈는 담당자와 레이블 필터에 매칭됩니다 [ROLLING OUT] [NEW THIS WEEK] **
+<strong>1-1. 새롭게 생성된 이슈는 담당자와 레이블 필터에 매칭됩니다 [ROLLING OUT] [NEW THIS WEEK] </strong>
 
 
 
@@ -134,7 +130,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-**1-1. 향상된 로드맵(RoadMap) - Planned Capacity [ROLLING OUT] ** 
+**1-1. 향상된 로드맵(RoadMap) - Planned Capacity [ROLLING OUT]**
 
 새로운 Planned Capacity(역량 계획)도구를 사용하여 스프린트를 계획하고 작업을 보다 효율적으로 할당할 수 있습니다. 이 기능을 사용하면 팀이 반복하여 완료할 수 있는 평균 작업량을 설정하여 작업의 균형을 맞추고 과도한 업무량이 할당 되는 것을 방지할 수 있습니다. 
 
@@ -144,7 +140,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-**1-2. 로드맵(RoadMap) :Story-level 이슈 드래그 앤 드롭 기능** ROLLING OUT  nEW THIS WEEK  
+**1-2. 로드맵(RoadMap) :Story-level 이슈 드래그 앤 드롭 기능 [ROLLING OUT] [NEW THIS WEEK]**
 
 이슈의 드래그 앤 드롭 기능을 활용해 현재 에픽에서 이슈의 순위를 조정하거나 새로운 에픽으로 이동하실 수 있습니다. 
 
@@ -361,7 +357,7 @@ Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통
 
 
 
-####1. 서비스와 연결된 승인자에게 승인 요청 [ROLLING OUT]####
+#### 1. 서비스와 연결된 승인자에게 승인 요청 [ROLLING OUT]
 
 
 
@@ -380,7 +376,7 @@ Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통
 
 
 
-####2. OAuth를 사용하여 사용자 지정 Microsoft 이메일 주소 설정####
+#### 2. OAuth를 사용하여 사용자 지정 Microsoft 이메일 주소 설정
 
 
 <p data-renderer-start-pos="4279">Jira 사이트 관리자인 경우 이제 애플리케이션별 암호 대신 OAuth를 사용하여 사용자 지정 Microsoft 이메일 계정을 추가할 수 있습니다. → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/jira-service-desk-cloud/docs/add-an-email-account/" title="https://support.atlassian.com/jira-service-desk-cloud/docs/add-an-email-account/" data-renderer-mark="true">자세히 보기</a></p>
@@ -391,7 +387,7 @@ Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통
 
 
 
-####3. 한 번에 연결된 여러 스페이스 변경####
+#### 3. 한 번에 연결된 여러 스페이스 변경
 
 
 
@@ -404,7 +400,7 @@ Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통
 
 
 
-####4. Media Picker를 시스템의 파일 업로드로 변경 [ROLLING OUT] [NEW THIS WEEK]####
+#### 4. Media Picker를 시스템의 파일 업로드로 변경 [ROLLING OUT] [NEW THIS WEEK]
 
 
 
@@ -426,7 +422,7 @@ Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통
 
 
 
-####1. 주요 Incident 대기열에서 Incidient Command Center에 엑세스 [ROLLING OUT]####
+#### 1. 주요 Incident 대기열에서 Incidient Command Center에 엑세스 [ROLLING OUT]
 
 
 
@@ -442,7 +438,7 @@ Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통
 
 
 
-####2. 프로젝트 생성하는 방법에 대한 업데이트 [ROLLING OUT] [NEW THIS WEEK]####
+#### 2. 프로젝트 생성하는 방법에 대한 업데이트 [ROLLING OUT] [NEW THIS WEEK]
 
 
 
@@ -459,7 +455,7 @@ Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통
 
 
 
-####3. Incident 타임라인을 활용한 주요 incident 이력 확인 [NEW THIS WEEK]####
+#### 3. Incident 타임라인을 활용한 주요 incident 이력 확인 [NEW THIS WEEK]
 
 
 
@@ -492,7 +488,7 @@ Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통
 
 
 
-####1. 새로운 에디터를 사용하여 링크를 추가할 때 어떠한 페이지나 블로그 검색이 가능합니다. [NEW THIS WEEK]####
+#### 1. 새로운 에디터를 사용하여 링크를 추가할 때 어떠한 페이지나 블로그 검색이 가능합니다. [NEW THIS WEEK]
 
 
 
@@ -504,7 +500,7 @@ Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통
 
 
 
-####2. Jira Issue URL 이 smart links로 변환됩니다 [ROLLING OUT]####
+#### 2. Jira Issue URL 이 smart links로 변환됩니다 [ROLLING OUT]
 
 
 
@@ -516,7 +512,7 @@ Confluence 페이지에서 Jira issue Link를 붙여넣으면 URL 이 페이지 
 
 
 
-<strong>3. 페이지 일괄 보관 [ROLLING OUT]</strong>
+#### 3. 페이지 일괄 보관 [ROLLING OUT]
 
 
 
@@ -529,7 +525,7 @@ Confluence 페이지에서 Jira issue Link를 붙여넣으면 URL 이 페이지 
 
 
 
-####4. 보관된 페이지에서 ‘좋아요’ 버튼 숨기기 [ROLLING OUT]####
+#### 4. 보관된 페이지에서 ‘좋아요’ 버튼 숨기기 [ROLLING OUT]
 
 
 
@@ -542,7 +538,7 @@ Confluence 페이지에서 Jira issue Link를 붙여넣으면 URL 이 페이지 
 
 
 
-<strong>5. Confluence 에서 페이지와 블로그 삭제 기능 [ROLLING OUT] [NEW THIS WEEK] </strong>
+#### 5. Confluence 에서 페이지와 블로그 삭제 기능 [ROLLING OUT] [NEW THIS WEEK]
 
 
 
@@ -554,7 +550,7 @@ Confluence 페이지에서 Jira issue Link를 붙여넣으면 URL 이 페이지 
 
 
 
-<strong>6. Media Viewer 기능이 탑재된 Office Connector 문서 [ROLLING OUT] </strong>
+#### 6. Media Viewer 기능이 탑재된 Office Connector 문서 [ROLLING OUT]
 
 
 
@@ -565,7 +561,7 @@ Confluence 페이지에서 Jira issue Link를 붙여넣으면 URL 이 페이지 
 
 
 
-<strong>7. 보관할 페이지 추천 기능 [ROLLING OUT] </strong>
+#### 7. 보관할 페이지 추천 기능 [ROLLING OUT]
 
 
 
@@ -575,7 +571,7 @@ Confluence 페이지에서 Jira issue Link를 붙여넣으면 URL 이 페이지 
 
 
 
-####8. 페이지 작업 재구성 [ROLLING OUT]####
+#### 8. 페이지 작업 재구성 [ROLLING OUT]
 
 
 
@@ -590,7 +586,7 @@ Confluence 페이지에서 Jira issue Link를 붙여넣으면 URL 이 페이지 
 
 
 
-####9. Media Picker를 시스템의 파일 업로드로 변경 [ROLLING OUT] [NEW THIS WEEK]####
+#### 9. Media Picker를 시스템의 파일 업로드로 변경 [ROLLING OUT] [NEW THIS WEEK]
 
 
 
@@ -607,7 +603,7 @@ Files and images 버튼을 클릭하면 나타나는 Media Picker dialog 가 기
 
 
 
-<strong>10. Team Calendar 의 새로운 변화 [ROLLING OUT] [NEW THIS WEEK] </strong>
+#### 10. Team Calendar 의 새로운 변화 [ROLLING OUT] [NEW THIS WEEK]
 
 
 Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤트에 엑세스하고, 리스트, 주, 월, 타임라인을 보실 수 있습니다. 또한 인터페이스가 전 보다 더 보기 좋게 변경 되었습니다.
@@ -625,7 +621,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 
-####1. 스마트 링크 및 스마트 카드를 활용해 하이퍼링크 개선####
+#### 1. 스마트 링크 및 스마트 카드를 활용해 하이퍼링크 개선
 
 
 <p data-renderer-start-pos="7573">Smart  Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시에 독자가 페이지에 계속 게시할 수 있도록 세부 정보를 제공할 수 있습니다. → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/confluence-cloud/docs/insert-links-and-anchors/" title="https://support.atlassian.com/confluence-cloud/docs/insert-links-and-anchors/" data-renderer-mark="true">자세히 보기</a> </p>
@@ -636,7 +632,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 
-####2. 템플릿을 바로 선택하기 전에 쉽게 정렬 [ROLLING OUT]####
+#### 2. 템플릿을 바로 선택하기 전에 쉽게 정렬 [ROLLING OUT]
 
 
 
@@ -663,7 +659,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 
-<strong>1. 새로운 아이콘에 임의로 아이콘이 할당 됩니다  [ROLLING OUT] [NEW THIS WEEK] </strong>
+#### 1. 새로운 아이콘에 임의로 아이콘이 할당 됩니다  [ROLLING OUT] [NEW THIS WEEK]
 
 
 
@@ -688,7 +684,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 
-####2. 새 편집기에 앵커 매크로 사용이 가능합니다 [ROLLING OUT] [NEW THIS WEEK]####
+#### 2. 새 편집기에 앵커 매크로 사용이 가능합니다 [ROLLING OUT] [NEW THIS WEEK]
 
 
 ![Confluence Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-4.png)
@@ -703,7 +699,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 
-<strong> 3. 스페이스 내의 페이지 보기가 달라집니다 [ROLLING OUT] [NEW THIS WEEK] </strong>
+#### 3. 스페이스 내의 페이지 보기가 달라집니다 [ROLLING OUT] [NEW THIS WEEK] 
 
 
 ![Confluence Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-5.png)
@@ -715,7 +711,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 
-<strong>4. 목차 매크로에 머리글 요소가 포함됩니다 [ROLLING OUT] [NEW THIS WEEK] </strong>
+#### 4. 목차 매크로에 머리글 요소가 포함됩니다 [ROLLING OUT] [NEW THIS WEEK]
 
 
 
@@ -737,7 +733,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 
-####1. Jira 프로젝트 페이지에서 사용자가 Confluence에 가입할 수 있도록 허용할 수 있습니다 [ROLLING OUT]####
+#### 1. Jira 프로젝트 페이지에서 사용자가 Confluence에 가입할 수 있도록 허용할 수 있습니다 [ROLLING OUT]
 
 
 사이트에 Jira 및 Confluence가 활성화되어 있는 경우, 적절한 사용 권한이 있는 사용자는 Jira의 프로젝트 페이지 기능을 사용하여 Confluence에 액세스하고 관련 문서와 내용을 찾을 수 있습니다.
@@ -754,7 +750,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 
-####2. 페이지 또는 블로그 출판 예약 기능 추가 [ROLLING OUT] [NEW THIS WEEK]####
+#### 2. 페이지 또는 블로그 출판 예약 기능 추가 [ROLLING OUT] [NEW THIS WEEK]
 
 
 
@@ -776,7 +772,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 
-####3. 편집기에 anchor(책갈피) 매크로를 사용하실 수 있습니다 [NEW THIS WEEK]####
+#### 3. 편집기에 anchor(책갈피) 매크로를 사용하실 수 있습니다 [NEW THIS WEEK]
 
 
 
@@ -798,7 +794,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 
-<strong>4. 전역 권한 관리가 더 편리해 졌습니다  [NEW THIS WEEK] </strong>
+#### 4. 전역 권한 관리가 더 편리해 졌습니다  [NEW THIS WEEK]
 
 
 
@@ -846,7 +842,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 
-####5. 사이드바의 페이지 이름 위로 마우스를 가져가면 자세한 정보를 확인할 수 있습니다 [ROLLING OUT] [NEW THIS WEEK]####
+#### 5. 사이드바의 페이지 이름 위로 마우스를 가져가면 자세한 정보를 확인할 수 있습니다 [ROLLING OUT] [NEW THIS WEEK]
 
 
 <p data-renderer-start-pos="9929">&nbsp;</p>

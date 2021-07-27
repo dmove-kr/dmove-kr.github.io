@@ -1,4 +1,4 @@
-I"�W<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+I"�W<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
 
 <p>안녕하세요, 디무브 입니다! :balloon:</p>
 
@@ -195,6 +195,8 @@
 
 <h3 id="7월-1">7월</h3>
 
+<hr />
+
 <h4 id="1-그룹으로부터-요청-수락-rolling-out-new-this-week">1. 그룹으로부터 요청 수락 [ROLLING OUT] [NEW THIS WEEK]</h4>
 
 <p>이제 그룹 단위로 승인을 진행할 수 있습니다. 단, 모든 사람으로부터 승인을 요청하려면 각 그룹 별 최소 인원 또는 그룹과 무관한 최소 인원이 필요합니다.</p>
@@ -218,8 +220,6 @@
 <hr />
 
 <h2 id="3-confluence">3. Confluence</h2>
-
-<hr />
 
 <h3 id="5월-2">5월</h3>
 
@@ -283,6 +283,8 @@
 
 <h3 id="6월-2">6월</h3>
 
+<hr />
+
 <h4 id="1-페이지-아카이브archive하는-것을-추천합니다-rolling-out">1. 페이지 아카이브(Archive)하는 것을 추천합니다 [ROLLING OUT]</h4>
 
 <p>이번 업데이트에서 대량 아카이브 작업에서 제외된 페이지 아카이브를 권장하는 알림 이메일을 추가했습니다.</p>
@@ -324,7 +326,6 @@
 <hr />
 
 <h3 id="7월-2">7월</h3>
-
 <hr />
 
 <h4 id="1-신뢰할-수-있는-사용자-trusted-users를-위한-새로운-사용자-초대를-위한-ui-변경-rolling-out--new-this-week">1. 신뢰할 수 있는 사용자 (Trusted Users):를 위한 새로운 사용자 초대를 위한 UI 변경 [ROLLING OUT]  [NEW THIS WEEK]</h4>
