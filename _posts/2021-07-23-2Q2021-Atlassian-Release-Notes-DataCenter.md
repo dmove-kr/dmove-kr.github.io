@@ -78,7 +78,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-아틀라시안은 댓글에 대한 접근성을 개선하고자 키보드 탐색 기능과 댓글 관련 보조 기술 지원을 개선했으며, 댓글 영역의 모양을 변경하였습니다. 
+ 아틀라시안은 코멘트에 대한 접근성을 개선하고자 키보드 탐색 기능과 코멘트 관련 보조 기술 지원을 개선했으며, 코멘트 영역의 모양을 변경하였습니다. 
 
 ![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-2.png)
 
@@ -86,11 +86,11 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-#### 3.  Jira 보안 강화
+#### 3.  Jira 보안 강화 (Jira Service Management 4.17 버전과 동일 적용)
 
 
 
-데이터센터 및 서버 제품의 보안은 매우 중요한 문제이기 때문에, 아틀라시안은 취약점 관리 프로그램(Vulnerability Management Program)을 통해 다양한 접근 방식을 사용하여 보안 문제를 찾아 해결합니다. 이제 이러한 접근 방식을 두 배로 확장하여 더 빠르게 많은 부분을 개선하고 있습니다. 더 많은 개선과 더 빠른 개선을 실현하고 있습니다.
+ 데이터센터 및 서버 제품의 보안은 매우 중요한 문제이기 때문에, 아틀라시안은 취약점 관리 프로그램(Vulnerability Management Program)을 통해 다양한 접근 방식을 사용하여 보안 문제를 찾아 해결합니다. 이제 이러한 접근 방식을 두 배로 확장하여 더 빠르게 많은 부분을 개선하고 있습니다. 더 많은 개선과 더 빠른 개선을 실현하고 있습니다.
 
 
 
@@ -124,7 +124,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-#### 4. 새로운 지원 플랫폼
+#### 4. 새로운 지원 플랫폼 (Jira Service Management 4.17 버전과 동일 적용)
 
  
 
@@ -159,19 +159,19 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-#### 2. 시간 경과에 따른 이슈 변경 분석 [Data Center]
+#### 2. 시간 경과에 따른 이슈 변경 분석 [Data Center] (Jira Service Management 4.18 버전과 동일 적용)
 
 
 
- 아틀라시안은 고객들이 비즈니스 인텔리전스(BI) 툴을 통해 Jira 데이터를 분석할 수 있도록  데이터 파이프라인을 지속적으로 개선하고 있습니다.
+아틀라시안은 고객들이 비즈니스 인텔리전스(BI) 툴을 통해 Jira 데이터를 분석할 수 있도록  데이터 파이프라인을 지속적으로 개선하고 있습니다.
 
 
 
 **2-1. 이슈 히스토리 내보내기**
 
+ 아틀라시안은 고객이 데이터를 보다 심층적으로 분석할 수 있도록 돕기 위해 과거 이슈데이터를 내보냅니다. 새 이슈기록 파일에는 기록 탭에 표시되는 모든 정보가 포함됩니다.
 
 
-아틀라시안은 고객이 데이터를 보다 심층적으로 분석할 수 있도록 돕기 위해 과거 이슈데이터를 내보냅니다. 새 이슈기록 파일에는 기록 탭에 표시되는 모든 정보가 포함됩니다.
 
 데이터를 보다 심층적으로 분석할 수 있도록 이슈 기록 파일을 내보낼 때 “기록 탭(History Tab)에 모든 과거 정보가 포함되어 나타납니다. 
 
@@ -193,7 +193,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 **2-2. 내보내기 위치 변경**
 
-이제 REST API를 사용하여 데이터 파이프라인이 파일을 내보낼 사용자 지정 위치를 설정할 수 있습니다. 이 기능은 Amazon S3 또는 Azure Blob 스토리지와 같은 데이터 레이크 관련 스토리지로 직접 파일을 전송하려는 경우에 특히 유용합니다.
+ 이제 REST API를 사용하여 데이터 파이프라인이 파일을 내보낼 사용자 지정 위치를 설정할 수 있습니다. 이 기능은 Amazon S3 또는 Azure Blob 스토리지와 같은 데이터 레이크 관련 스토리지로 직접 파일을 전송하려는 경우에 특히 유용합니다.
 
 
 
@@ -237,76 +237,19 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 ### ■ Version 4.17
 
- 
-
 ---
 
-
-
-#### 1.  Jira 보안 강화 (Jira 8.17과 동일)
-
-
-
-데이터센터 및 서버 제품의 보안은 매우 중요한 문제이기 때문에, 아틀라시안은 취약점 관리 프로그램(Vulnerability Management Program)을 통해 다양한 접근 방식을 사용하여 보안 문제를 찾아 해결합니다. 이제 이러한 접근 방식을 두 배로 확장하여 더 빠르게 많은 부분을 개선하고 있습니다. 더 많은 개선과 더 빠른 개선을 실현하고 있습니다.
-
-
-
-![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-1.png)
-
-
-
-**1-1. 컴포넌트 및 라이브러리 업그레이드**
-
-
-
-아틀라시안은 항상 최신의 보안 상태를 유지해야 하는 핵심 컴포넌트 요소와 서드 파티(3rd Party) 라이브러리를 선별하여, 이 전 보다 더 많은 취약점과 문제를 해결하고 Jira를 안전하게 보호할 수 있도록 하였습니다. 
-
-이번 릴리스에서는 다음 보안 사항을 해결했습니다:
-
-- Jira 플랫폼의 취약점 100문제 해결
-- Jira 서비스 관리의 취약점 20문제 해결
-- 많은 내부 라이브러리를 쉽게 활동할 수 있도록 해결
-
-업그레이드된 라이브러리에 대한 자세한 내용은 [개발자 문서](https://confluence.atlassian.com/jiracore/preparing-for-jira-8-17-1047551150.html)를 참조해주세요.
-
-
-
-**1-2. LTS 릴리스로 백포트**
-
- 
-
-LTS 릴리즈는 안정성이 최우선이기 때문에 문제를 신속하게 복구하기 어려울 때가 있습니다. 하지만 아틀라시안에서는 중요한 수정 사항을 완료할 때 이를 백포팅하는 데 주력하고 있으므로 Jira 8.5 및 Jira 8.13 LTS 버전에 대한 버그 해결 또한 이번 릴리즈에 반영되었습니다. 
-
-
-
----
-
-#### 2. 데이터 파이프라인 내보내기에 사용자 지정 필드(Custom Field) 포함
+#### 1. 데이터 파이프라인 내보내기에 사용자 지정 필드(Custom Field) 포함
 
   
 
-이제 데이터 파이프라인 내보내기에 사용자 정의 필드를 포함할 수 있습니다. 시스템 필드, Jira Software 및 Jira Service Management의 표준 사용자 지정 필드, 사용자가 생성한 사용자 지정 필드, 그리고 개발자가 해당 필드를 내보낼 수 있게 만든 경우 Marketplace 앱에서 가져온 필드도 내보낼 수 있습니다 → [자세히 보기](https://confluence.atlassian.com/adminjiraserver/data-pipeline-1027142324.html)
+ 이제 데이터 파이프라인 내보내기에 사용자 정의 필드를 포함할 수 있습니다. 시스템 필드, Jira Software 및 Jira Service Management의 표준 사용자 지정 필드, 사용자가 생성한 사용자 지정 필드, 그리고 개발자가 해당 필드를 내보낼 수 있게 만든 경우 Marketplace 앱에서 가져온 필드도 내보낼 수 있습니다 → [자세히 보기](https://confluence.atlassian.com/adminjiraserver/data-pipeline-1027142324.html)
 
 
 
 ![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-2.png)
 
 
-
-
-
----
-
-#### 3. 새로운 지원 플랫폼 (Jira 8.17과 동일) 
-
-
-
-지원되는 플랫폼 목록에 새로운 데이터베이스와 브라우저가 추가 되었습니다. 
-
-- DataBase :  Microsoft SQL Server 2019
-- Browser : Microsoft Edge (Chromium)
-
-이 Jira 버전에서 지원되는 기능에 대한 자세한 내용은 [지원되는 플랫폼](https://confluence.atlassian.com/adminjiraserver/supported-platforms-938846830.html)을 참조하십시오.
 
 ------
 
@@ -330,7 +273,7 @@ LTS 릴리즈는 안정성이 최우선이기 때문에 문제를 신속하게 �
 
 
 
-고객은 에이전트와 유사한 방식으로 SLA를 인식하지만 실제 목표(예: 5일 이내)는 파악하지 못합니다. 고객은 SLA에 따라 요청을 처리하기 위해 남은 시간과 상태를 확인할 수 있습니다. SLA를 생성하거나 편집하는 동안에도 SLA를 표시하도록 프로젝트 설정에서 선택할 수 있습니다. → [SLA 설정에 대해 자세히 알아보기](https://confluence.atlassian.com/servicemanagementserver/setting-up-slas-939926373.html) 
+ 고객은 에이전트와 유사한 방식으로 SLA를 인식하지만 실제 목표(예: 5일 이내)는 파악하지 못합니다. 고객은 SLA에 따라 요청을 처리하기 위해 남은 시간과 상태를 확인할 수 있습니다. SLA를 생성하거나 편집하는 동안에도 SLA를 표시하도록 프로젝트 설정에서 선택할 수 있습니다. → [SLA 설정에 대해 자세히 알아보기](https://confluence.atlassian.com/servicemanagementserver/setting-up-slas-939926373.html) 
 
 
 
@@ -338,7 +281,7 @@ LTS 릴리즈는 안정성이 최우선이기 때문에 문제를 신속하게 �
 
 
 
-아틀라시안은 또한 SLA를 보다 일관되고 이해하기 쉽게 만들기 위해 SLA의 모양과 느낌을 변경했습니다. 
+ 아틀라시안은 또한 SLA를 보다 일관되고 이해하기 쉽게 만들기 위해 SLA의 모양과 느낌을 변경했습니다. 
 
 다음은 에이전트의 입장에서 표시되는 SLA 의 샘플입니다:
 
@@ -429,14 +372,6 @@ LTS 릴리즈는 안정성이 최우선이기 때문에 문제를 신속하게 �
 
 
 이러한 기능을 원하지만 업그레이드할 준비가 되지 않은 경우 Jira 모바일 플러그인을 업그레이드할 수 있습니다. 모바일 앱에 대해 자세히 알고 싶으시다면 [여기](https://confluence.atlassian.com/servicemanagementserver/jira-data-center-and-server-mobile-app-1026523326.html)를 클릭해주세요!
-
----
-
-#### 5. 시간 경과에 따른 이슈 변경 분석 [Data Center] (Jira 8.18과 동일)
-
-
-
- 아틀라시안은 고객들이 비즈니스 인텔리전스(BI) 툴을 통해 Jira 데이터를 분석할 수 있도록  데이터 파이프라인을 지속적으로 개선하고 있습니다.
 
 
 
