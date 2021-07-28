@@ -31,7 +31,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-#### 1. 차세대 보드 및 백로그에 직접적으로 인사이트(Insight) 기능을 사용할 수 있습니다 [ROLLING OUT]
+#### 1. 차세대 보드 및 백로그에 직접적으로 인사이트(Insight) 기능 추가 [ROLLING OUT]
 
 
 
@@ -53,7 +53,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-#### 2. 미래의 스프린트를 생성하고 스케줄 하세요! [ROLLING OUT]
+#### 2. **다가올 스프린트 생성 및 계획** [ROLLING OUT]
 
 
 
@@ -106,7 +106,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-#### 1. 팀 관리 프로젝트 : 종료된 스프린트를 다시 실행하도록 합니다[ROLLING OUT]  [NEW THIS WEEK]
+#### 1. 팀 관리 프로젝트 : 종료된 스프린트를 재실행 [ROLLING OUT]  [NEW THIS WEEK]
 
  
 
@@ -166,15 +166,9 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 
 
-## 2. Jira Service Management
-
-
-
- 
+## 2. Jira Service Management 
 
 ### 5월
-
- 
 
 ---
 
@@ -220,7 +214,7 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 <p></p>
 
-#### 1.  변경 사항 달력(Change Calendar)을 사용하여 변경 요청 보기, 스케줄 생성 및 리스케줄을 활용해보세요! [ROLLING OUT]  
+#### 1.  **변경 사항 달력(Change Calendar)변경된 달력을 사용하여 변경 요청 및 스케줄 관리** [ROLLING OUT]  
 
  ![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-1.png)
 
@@ -266,7 +260,7 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
  
 
-#### 4. 헬프 데스크에서 사용자 경험이 개선됩니다! [ROLLING OUT]  [NEW THIS WEEK]  
+#### 4. 헬프 데스크 사용자 경험 개선 [ROLLING OUT]  [NEW THIS WEEK]  
 
 ![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-2.png)
 
@@ -305,7 +299,7 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 ### 7월
 
 ---
- 
+
 
 #### 1. 그룹으로부터 요청 수락 [ROLLING OUT] [NEW THIS WEEK]  
 
@@ -377,7 +371,7 @@ Confluence 탐색 또는 홈 페이지의 최근 메뉴에 페이지와 블로�
 
 
 
-#### 2. 당신의 공간을 색다르게 보실 수 있습니다! [ROLLING OUT]   [NEW THIS WEEK]  
+#### 2. **페이지 공간 보기에 다양한 옵션 추가** [ROLLING OUT]   [NEW THIS WEEK]  
 
 페이지 간의 관계가 중요할 때는 공간의 페이지를 트리처럼 보는 것이 좋지만, 이제는 공간의 페이지를 보는 방법에 대한 옵션이 더 많아졌습니다.
 
@@ -460,7 +454,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 ---
 
 
-#### 1. 페이지 아카이브(Archive)하는 것을 추천합니다 [ROLLING OUT]  
+#### 1. **페이지 아카이브(Archive) 작업 개선** [ROLLING OUT]  
 
  
 
@@ -524,7 +518,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
  
 
-#### 5. 팀 캘린더가 새로운 보기에 추가 됩니다! [NEW THIS WEEK]  
+#### 5. **팀 캘린더가 새로운 보기에 추가** [NEW THIS WEEK]  
 
 
 

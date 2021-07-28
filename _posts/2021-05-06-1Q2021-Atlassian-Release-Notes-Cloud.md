@@ -68,11 +68,11 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 ■ Markdown format으로 릴리즈 노트 생성
 
-■ 레이아웃 및 이슈 유형에 따라 릴리즈 노트릴리스 노트 재생성
+■ 레이아웃 및 이슈 유형에 따라 릴리즈 노트재생성
 
-■ 편집기에서 릴리즈 노트Release Note 포맷 및 업데이트
+■ 편집기에서 릴리즈 노트 포맷 및 업데이트
 
-■ 릴리즈 노트Release Note를 클립보드에 복사
+■ 릴리즈 노트를 클립보드에 복사
 
 
 
@@ -400,21 +400,6 @@ Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통
 
 
 
-#### 4. Media Picker를 시스템의 파일 업로드로 변경 [ROLLING OUT] [NEW THIS WEEK]
-
-
-
-
-![릴리즈노트 클라우드 Jira Service Management](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira%20Service%20Management-1.png)
-
-
-
-
-<p data-renderer-start-pos="4604">Files and images 버튼을 클릭하면 나타나는 Media Picker dialog 가 기본 제공 파일 업로드 Dialog로 대체됩니다.  또한 이것은 Dropbox와 Google Drive 와 같은 서비스의 파일에 연결할 수 있습니다. 페이지 또는 이슈에 링크를 붙여넣으면 항상 최신 버전을 사용하실 수 있도록 편리한 Smart Link를 생성하실 수 있습니다.</p>
-
-
-
-<hr>
 
 
 
@@ -586,24 +571,9 @@ Confluence 페이지에서 Jira issue Link를 붙여넣으면 URL 이 페이지 
 
 
 
-#### 9. Media Picker를 시스템의 파일 업로드로 변경 [ROLLING OUT] [NEW THIS WEEK]
 
 
-
-
-![Confluence Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-1.png)
-
-
-
-Files and images 버튼을 클릭하면 나타나는 Media Picker dialog 가 기본 제공 파일 업로드 Dialog로 대체됩니다.  또한 이것은 Dropbox와 Google Drive 와 같은 서비스의 파일에 연결할 수 있습니다. 페이지 또는 이슈에 링크를 붙여넣으면 항상 최신 버전을 사용하실 수 있도록 편리한 Smart Link를 생성하실 수 있습니다.
-
-
-
----
-
-
-
-#### 10. Team Calendar 의 새로운 변화 [ROLLING OUT] [NEW THIS WEEK]
+#### 9. Team Calendar 의 새로운 변화 [ROLLING OUT] [NEW THIS WEEK]
 
 
 Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤트에 엑세스하고, 리스트, 주, 월, 타임라인을 보실 수 있습니다. 또한 인터페이스가 전 보다 더 보기 좋게 변경 되었습니다.
