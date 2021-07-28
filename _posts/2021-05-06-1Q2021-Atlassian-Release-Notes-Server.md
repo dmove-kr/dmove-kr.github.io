@@ -38,7 +38,9 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 
 
- 8.15 DataCenter 버전부터 Advanced RoadMap 기능이 Jira Software 에 번들로 포함되어 사용할 수 있게 되었습니다. 서 사용 가능합니다. 이 기능을 활용해 여러 팀과 프로젝트에서 작업을 계획하고 추적할 수 있으며, 다양한 시나리오를 탐색할 수 있습니다.  작업 트래킹이 가능하며, 다른 시나리오를 탐색합니다. 자세한 내용은 여기를 클릭하여 확인하실 수 있습니다.
+ 8.15 DataCenter 버전부터 Advanced RoadMap 기능이 Jira Software 에 번들로 포함되어 사용할 수 있게 되었습니다. 서 사용 가능합니다. 이 기능을 활용해 여러 팀과 프로젝트에서 작업을 계획하고 추적할 수 있으며, 다양한 시나리오를 탐색할 수 있습니다.  
+
+자세한 내용은 [여기](https://confluence.atlassian.com/jirasoftwareserver/view-your-plan-1044784216.html)를 클릭하여 확인하실 수 있습니다.
 
 <hr>
 
@@ -98,7 +100,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 
 
-DVCS 계정 관리를 더 수월하게 관리할 수 있도록 개선되었습니다. 사용자의 계정과 Repository에 대한 관리, 경험, 성능을 개선시키기 위해 DVCS 계정 페이지를 재설계 하였으며, 통합에 사용되는 화면을 보기 쉽게 정리하고 검색 기능도 추가하였습니다.
+DVCS 계정을 더 수월하게 관리할 수 있도록 개선되었습니다. 사용자의 계정과 Repository에 대한 관리, 경험, 성능을 개선시키기 위해 DVCS 계정 페이지를 재설계 하였으며, 통합에 사용되는 화면을 보기 쉽게 정리하고 검색 기능도 추가하였습니다.
 
 <hr>
 
@@ -108,7 +110,7 @@ DVCS 계정 관리를 더 수월하게 관리할 수 있도록 개선되었습�
 ![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-6.png)
 
 
-SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로그인 시 적합한 환경에서 로그인 할 수 있게 되었습니다. 새로운 모든 로그인 방법은 Jira Service Management Mangemnet의 고객 포털에 대해 독립적으로 활성화 할 수 있습니다.
+SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로그인 시 적합한 환경에서 로그인 할 수 있게 되었습니다. 새로운 모든 로그인 방법은 Jira Service Management의 고객 포털에 대해 독립적으로 활성화 할 수 있습니다.
 
 <hr>
 
@@ -121,7 +123,7 @@ SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로�
 
 
 
-데이터 파이프라인 Data Pipeline을 통해 Jira에서 현재 상태를 내보내 Tableau나 PowerBI와 같은 비즈니스 인텔리전스 툴에서 데이터를 분석할 수 있습니다. 분석을 위해 Tableau 나 PowerBI 와 같이 선호하는 Business intelligence 플랫폼에 데이터를 제공할 수 있습니다.
+데이터 파이프라인을 통해 Jira에서 현재 상태를 내보내 Tableau나 PowerBI와 같은 비즈니스 인텔리전스 툴에서 데이터를 분석할 수 있습니다. 
 
 <hr>
 
@@ -212,7 +214,7 @@ Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로
 
 
 
- 이전 버전 까지 사용자 포털에서의  투표 기능은 에이전트agents나 Jira 인스턴스instance에 접근할 수 있는 계정에서만 사용 가능했습니다.  하지만 이제 포털과 상호 작용하는 수많은 고객들과 사용자들이 투표 기능을 사용할 수 있어 기능의 포괄성을 확장시켰습니다.
+ 이전 버전 까지 사용자 포털에서의  투표 기능은 에이전트나 Jira 인스턴스에 접근할 수 있는 계정에서만 사용 가능했습니다.  하지만 이제 포털과 상호 작용하는 수많은 고객들과 사용자들이 투표 기능을 사용할 수 있어 기능의 포괄성을 확장시켰습니다.
 
 
 
@@ -227,11 +229,11 @@ Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로
 
 
 
-관리자 및 데이터 분석가에게 Jira Software 및 Jira Core(현, Jira Work Management) Jira Core 및 Soft Ware 에서 현재 상태의 데이터를 내보낼 수 있는 기능을 제공하기 시작했으며 Jira Service Management와 관련된 데이터도 포함됩니다.
+관리자 및 데이터 분석가에게 Jira Software 및 Jira Core(현, Jira Work Management)에서 현재 상태의 데이터를 내보낼 수 있는 기능을 제공하기 시작했으며 Jira Service Management와 관련된 데이터도 포함됩니다.
 
  
 
-API를 통해 Jira 및 Jira Service Management 에서 현재 상태의 데이터를 추출하여 Tableau 나 PowerBI와 같은 비즈니스 인텔리전스 툴에 Business Intelligence Platform 에 공급하여 “사용자 할동에 대한 보고서 및 시각화 생성“ , “조직의 리더가 팀이 Jira Service Management를 사용하는 방법을 이해하기 더 잘 이해“ , “Jira Service Management 사용 최적화에 대한 더 나은 결정“등 을 할 수 있습니다.
+API를 통해 Jira 및 Jira Service Management 에서 현재 상태의 데이터를 추출하여 Tableau 나 PowerBI와 같은 비즈니스 인텔리전스 툴에 공급하여 “사용자 할동에 대한 보고서 및 시각화 생성“ , “조직의 리더가 팀이 Jira Service Management를 사용하는 방법을 이해하기“ , “Jira Service Management 사용 최적화에 대한 더 나은 결정“ 등을 할 수 있습니다.
 
 
 
@@ -307,6 +309,10 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 
 
+7.11 DataCenter 버전에 Analytics 기능이 새롭게 추가되었습니다. Analytics가 가지고 있는 핵심기능은 다음과 같습니다.
+
+
+
  **1-1. 전체적인 Insight 확인**
 
 
@@ -365,7 +371,7 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 
 
-Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니다. 해당 기능을 통해 이벤트, 릴리즈 휴일 등 팀에 영향을 미치는 이벤트를 생성하여 캘린더를 구성하실 수 있습니다.  또한 Jira, Opsgenie Opsgeine, Outlook, Google 등 다양한 제품들과 연동이 가능합니다.
+Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니다. 해당 기능을 통해 이벤트, 릴리즈 휴일 등 팀에 영향을 미치는 이벤트를 생성하여 캘린더를 구성하실 수 있습니다.  또한 Jira,  Opsgeine, Outlook, Google 등 다양한 제품들과 연동이 가능합니다.
 
 
 
@@ -375,7 +381,7 @@ Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니�
 
 
 
-**3-1. 트러블 슈팅 시 시 로그 표시**
+**3-1. 트러블 슈팅 시 로그 표시**
 
 
 
@@ -384,7 +390,7 @@ Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니�
 
 
 
- 트러블 슈팅 시 로그 파일을 표시하여 문제 전과 후의 로그를 쉽게 파악하여 트러블 슈팅 이 훨씬 수월해 졌습니다. 질 것입니다. 해당 로그는 **General Configuration → Logging and Profiling Profilling** 에서 확인하실 수 있습니다.
+ 트러블 슈팅 시 로그 파일을 표시하여 문제 전과 후의 로그를 쉽게 파악하여 트러블 슈팅 이 훨씬 수월해 졌습니다. 해당 로그는 **General Configuration → Logging and Profiling Profilling** 에서 확인하실 수 있습니다.
 
 
 
@@ -439,7 +445,7 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
 
 ### ■ Version 7.12
-  
+
 ---
 
 #### 1. 사이트에 대한 데이터 및 인사이트 확보 가능 [Data Center]
@@ -450,7 +456,7 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
 
 
- 이제 Confluence에서 현재 상태 데이터를 내보낸 다음 Tableau나 PowerBI와 같은 비즈니스 인텔리전스 툴플랫폼에 데이터를 제공하실 수 있습니다. 이 데이터를 화용해 ‘보고서 생성 및 사용자 활동에 대한 시각화’, ‘팀이 Confluence를 사용하는 방법을  더 쉽게 제공’ , ‘Confluence 최적화’ 등 활용하실 수 있습니다. 데이터 내보내기는 **General Configuration → Data pipeline**에서 내보내기가 가능합니다.
+ 이제 Confluence에서 현재 상태 데이터를 내보낸 다음 Tableau나 PowerBI와 같은 비즈니스 인텔리전스 툴에 데이터를 제공하실 수 있습니다. 이 데이터를 활용해 ‘보고서 생성 및 사용자 활동에 대한 시각화’, ‘팀이 Confluence를 사용하는 방법을  더 쉽게 제공’ , ‘Confluence 최적화’ 등 활용하실 수 있습니다. 데이터 내보내기는 **General Configuration → Data pipeline**에서 내보내기가 가능합니다.
 
 
 
@@ -467,7 +473,7 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
 
 
- Confluence 에서 문제 발생 시 Atlassian Support 에 문의 티켓을 요청하여 문의를 하면 드리면 문제 진단에 필요한 Thread Dump를 제공 받을 수 하실 수 있습니다. 이에 Thread 이름에 사용자 이름과 요청 URL 을 포함하여 문제를 식별하여 트러블 슈팅을 더욱 쉽게 해결 하실 수 있습니다.
+ Confluence 에서 문제 발생 시 Atlassian Support 에 문의 티켓을 요청하여 문제 진단에 필요한 Thread Dump를 제공 받을 수 있습니다. 이에 Thread 이름에 사용자 이름과 요청 URL 을 포함하여 문제를 식별하여 트러블 슈팅을 더욱 쉽게 해결 하실 수 있습니다.
 
  
 

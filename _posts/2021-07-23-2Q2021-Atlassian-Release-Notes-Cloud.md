@@ -51,8 +51,6 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-
-
 #### 2. **다가올 스프린트 생성 및 계획** [ROLLING OUT]
 
 
@@ -214,7 +212,7 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 <p></p>
 
-#### 1.  **변경 사항 달력(Change Calendar)변경된 달력을 사용하여 변경 요청 및 스케줄 관리** [ROLLING OUT]  
+#### 1.  **변경 사항 달력(Change Calendar)을 사용하여 변경 요청 및 스케줄 관리** [ROLLING OUT]  
 
  ![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-1.png)
 
@@ -371,21 +369,9 @@ Confluence 탐색 또는 홈 페이지의 최근 메뉴에 페이지와 블로�
 
 
 
-#### 2. **페이지 공간 보기에 다양한 옵션 추가** [ROLLING OUT]   [NEW THIS WEEK]  
-
-페이지 간의 관계가 중요할 때는 공간의 페이지를 트리처럼 보는 것이 좋지만, 이제는 공간의 페이지를 보는 방법에 대한 옵션이 더 많아졌습니다.
-
- 
-
-공간 사이드바의 페이지 옆에 있는 •••를 선택하여 페이지를 다른 보기로 전환하면 트리 관계가 제거되고 페이지가 마지막으로 업데이트된 날짜 또는 제목별로 정렬된 페이지 목록이 표시됩니다. 공백에서 선택하는 사항은 변경할 때까지 유지됩니다.
 
 
-
----
-
-
-
-#### 4. 페이지를 블로그로 변환 [ROLLING OUT]  [NEW THIS WEEK]  
+#### 2. 페이지를 블로그로 변환 [ROLLING OUT]  [NEW THIS WEEK]  
 
  
 
@@ -407,7 +393,7 @@ Confluence 탐색 또는 홈 페이지의 최근 메뉴에 페이지와 블로�
 
  
 
-#### 5. Advanced Roadmaps for Jira 매크로 [NEW THIS WEEK]  
+#### 3. Advanced Roadmaps for Jira 매크로 [NEW THIS WEEK]  
 
  
 
@@ -425,7 +411,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
-#### 6. 페이지 요소 찾아보기 또는 검색 기능  [ROLLING OUT]  
+#### 4. 페이지 요소 찾아보기 또는 검색 기능  [ROLLING OUT]  
 
  
 
@@ -536,7 +522,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 ---
 
 
-#### 1. 신뢰할 수 있는 사용자 (Trusted Users):를 위한 새로운 사용자 초대를 위한 UI 변경 [ROLLING OUT]  [NEW THIS WEEK]  
+#### 1. 신뢰할 수 있는 사용자 (Trusted Users):새로운 사용자 초대를 위한 UI 변경 [ROLLING OUT]  [NEW THIS WEEK]  
 
  
 

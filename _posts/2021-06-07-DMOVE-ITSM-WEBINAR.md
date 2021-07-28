@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Atlassian Webinar - 디지털 트랜스포매이션을 위한 아틀라시안의 IT 서비스 관리 
+title: Atlassian Webinar - 디지털 트랜스포매이션을 위한 아틀라시안의 IT 서비스 관리
 subtitle: Dmove ITSM 웨비나
 date: 2021-06-07
 categories: [News & Events]
@@ -25,7 +25,7 @@ tags: [아틀라시안,ITSM,IT서비스,Atlassian,JiraServiceManagement,Jira,지
 
 &#127970; 위치 : 온라인 세미나 
 
-:date: 달력에 추가 : <a href="https://talkit.tv/Event/Article/ICS/?IDX=2586" title="아웃룩 등록" style="display:inline-block;"><img src="https://talkit.tv/images/icon_Outlook.png" width="20" style="margin-right:3px; display:inline-block;">Outlook</a> <a href="https://talkit.tv/Event/Article/ICS/_Google.asp?IDX=2586" target="_blank" title="구글캘린더 등록" style="display:inline-block;" ><img src="https://talkit.tv/images/icon_googlecalendar.png" width="20" style="margin-right:3px; display:inline-block;">Google</a> 
+:date: 달력에 추가 : <a href="https://talkit.tv/Event/Article/ICS/?IDX=2586" title="아웃룩 등록" style="display:inline-block;"><img src="https://talkit.tv/images/icon_Outlook.png" width="20" style="margin-right:3px; display:inline-block;">Outlook</a> <a href="https://talkit.tv/Event/Article/ICS/_Google.asp?IDX=2586" target="_blank" title="구글캘린더 등록" style="display:inline-block;" ><img src="https://talkit.tv/images/icon_googlecalendar.png" width="20" style="margin-right:3px; display:inline-block;">Google</a>
 
 
 
@@ -60,7 +60,7 @@ tags: [아틀라시안,ITSM,IT서비스,Atlassian,JiraServiceManagement,Jira,지
 
 > ITSM - IT 팀이 고객에게 IT 서비스를 제공하고 관리하기 위한 모든 프로세스와 활동
 
-  
+
 
   오늘날 효율적인 서비스 제공은 IT 팀의 핵심 역량으로 자리 잡으며 비즈니스 및 최신 기술 트렌드를 따라 잡기 위해 IT 팀은 협업 및 고객 중심 방법으로 전환하고 있습니다.  
 
@@ -171,13 +171,5 @@ margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; di
 
 
 <div class="btn_main_more mt40 mb_t_c" style="margin-left: 45px;">
-      <a href="https://talkit.tv/Event/2586" style="background-color: #1980B6; color:white;">사전등록 하러가기</a> 
+      <a href="https://talkit.tv/Event/2586" style="background-color: #1980B6; color:white;">사전등록 하러가기</a>
 		    </div>
-
-
-
-
-
-
-
-

@@ -25,11 +25,11 @@ tags: [Atlassian, ITSM, Digital Transformation, Jira Service Management, Agile, 
 
 | **Agenda** |
 | **"ITSM" 이란?** <br> -   ITSM 및 ITIL4 개요 <br> -   ITSM을 통한 디지털 트랜스포메이션 <br> |
-| **Atlassian 의 ITSM 도구 - 지라 서비스 매니지먼트** <br> -   Atlassian ITSM 솔루션만의 차별점<br>  -   Jira Service Management Cloud의 핵심 기능<br> | 
+| **Atlassian 의 ITSM 도구 - 지라 서비스 매니지먼트** <br> -   Atlassian ITSM 솔루션만의 차별점<br>  -   Jira Service Management Cloud의 핵심 기능<br> |
 | **활용 사례 Demo** <br> -   Asset Management : JSM의 Insight 기능을 활용한 자산관리 <br> -   Incident Management: Opsgenie와의 연동으로 더욱 파워풀한 장애관리 <br> |
 | **Q&A** <br> -   사전 질문 답변 및 실시간 질의 응답 |
 
- 
+
 ## Session 1. ITSM 이란?
 ![img1](/assets/images/blog/ITSM_Webinar_Session1.png)
 
@@ -58,7 +58,7 @@ DevOps와 Agile의 개념이 결합 된 가장 최신의 ITIL 프레임 워크�
 
 이번 웨비나에서는 사전 등록을 하실 때 “ITSM 또는 Atlassian의 Jira Service Management 제품에 대해 궁금하신 점”에 대하여 미리 질문을 드렸습니다.
 
-정말 다양하고 많은 질문들 중에서도 주로 궁금해 하시는 점을 위주로 저희가 미리 정리한 내용을 Q&A 시간에 공유했는데요. 
+정말 다양하고 많은 질문들 중에서도 주로 궁금해 하시는 점을 위주로 저희가 미리 정리한 내용을 Q&A 시간에 공유했는데요.
 
 JSM의 기본 기능인 ‘Automation’을 통한 업무 자동화 구현과, 도입시 우려되는 구축 기간 및 커스터마이징 문제, ISMS와 같은 인증 심사와 외감법 대응을 위한 보안 및 인증 가능 여부, SLA 적용 방안에 대해 답변을 드렸습니다.
 
