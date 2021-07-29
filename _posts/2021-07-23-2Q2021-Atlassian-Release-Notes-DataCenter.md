@@ -18,7 +18,8 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 안녕하세요, 디무브 입니다! :balloon:
 
 
-5월부터 7월까지 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence의 서버와 데이터 센터 버전에 어떠한 변화가 있었는지 정리해 보았습니다. 
+5월부터 7월까지 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence의 서버와 데이터 센터 버전에 어떠한 변화가 있었는지 정리해 보았습니다.   
+
 많은 기능들이 개선되었으니 꼭 확인해보세요!
 
 ---
@@ -414,7 +415,8 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 ---
 
-Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다. 
+Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.   
+
 Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요! 
 
 감사합니다.😃
