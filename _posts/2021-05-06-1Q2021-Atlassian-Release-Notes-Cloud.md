@@ -18,7 +18,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 각 제품의 Cloud 버전에는 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다.
 
 <hr>
----
+
 
 ## 1. Jira Software
 
@@ -310,7 +310,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 <hr>
----
+
 
 ## 2. Jira Service Management
 
@@ -362,7 +362,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
----
+
 
 ### 3월
 
@@ -376,7 +376,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
----
+
 
 
 
@@ -407,7 +407,6 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
----
 
 
 
@@ -431,7 +430,6 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
----
 
 
 
@@ -441,7 +439,6 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 프리미엄 플랜의 공간 관리자는 일괄 보관을 통해  공간을 깔끔하고 최신 상태로 유지할 수 있습니다. 한 번의 작업으로 최대 500개의 페이지를 보관하실 수 있습니다.
 
----
 
 
 
@@ -449,11 +446,10 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
- 페이지를 보관할 때, 이 페이지가 오래되었거나 더 이상 현재 작업과 관련없음을 팀에게 알립니다. 아무도 보관된 페이지에 관심을 가지거나 접근하면 안되기 때문에, 보관된 페이지에 관심을 갖거나 접근하지 않도록 ‘좋아요' 버튼을 숨겨 '좋아요’를 추가 할 수 없도록 조치하였습니다.
+ 페이지를 보관할 때, 이 페이지가 오래되었거나 더 이상 현재 작업과 관련없음을 팀에게 알립니다. 보관된 페이지에 관심을 갖거나 접근하지 않도록 ‘좋아요' 버튼을 숨겨 '좋아요’를 추가 할 수 없도록 조치하였습니다.
 
 
 
----
 
 
 
@@ -465,8 +461,6 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
----
-
 
 
 #### 6. Media Viewer 기능이 탑재된 Office Connector 문서 [ROLLING OUT]
@@ -477,8 +471,6 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
----
-
 
 
 #### 7. 보관할 페이지 추천 기능 [ROLLING OUT]
@@ -487,7 +479,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
  일괄 보관 작업에서 제외된 페이지 보관을 추천 또는 권장 하는 알림 메일 기능이 추가되었습니다. 
 
----
+
 
 
 
@@ -502,7 +494,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 ■ 계층 구조로 보기 : 공간 사이드 바를 활용하여 공간의 모든 페이지를 보고 변경할 수 있습니다. 이것은 Space Settings → Contents Tools → Reorder pages 에서 확인 가능합니다.
 
----
+
 
 
 
@@ -514,7 +506,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤트에 엑세스하고, 리스트, 주, 월, 타임라인을 보실 수 있습니다. 또한 인터페이스가 전 보다 더 보기 좋게 변경 되었습니다.
 
 
-<hr>
+
 
 
 
@@ -522,7 +514,7 @@ Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤
 
 
 
----
+
 
 
 
@@ -532,7 +524,6 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
----
 
 
 
@@ -549,7 +540,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
----
+
 
 
 
@@ -557,7 +548,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
----
+
 
 
 
@@ -576,7 +567,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
----
+
 
 
 
@@ -591,7 +582,6 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
----
 
 
 
@@ -608,7 +598,6 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 공간 사이드바의 페이지 옆에 있는 •••를 선택하여 페이지를 다른 보기로 전환하면 트리 관계가 제거되고 페이지가 마지막으로 업데이트된 날짜 또는 제목별로 정렬된 페이지 목록이 표시됩니다. 공백에서 선택하는 사항은 변경할 때까지 유지됩니다.
 
----
 
 
 
@@ -622,7 +611,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 사용하는 편집기에 관계없이 목차 매크로에는 이모지, 주석, 상태 또는 날짜와 같은 제목 텍스트에 추가하는 추가 정보가 표시됩니다.
 
-<hr>
+
 
 
 
@@ -630,7 +619,6 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
----
 
 
 
@@ -652,7 +640,6 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
----
 
 
 
@@ -676,7 +663,6 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
----
 
 
 
@@ -690,9 +676,12 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 페이지 카드를 볼 때 각 사용자가 제어할 수 있으므로, 이 기능이 유용하지 않으면 사용자 설정에서 해제할 수 있습니다.
 
+---
+
+Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.   
+
+Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!
 
 
- 감사합니다. :smiley:
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE3MjA3ODYsLTIyNjAxOTk5Ml19
--->
+감사합니다. :smiley:
+
