@@ -18,10 +18,10 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 안녕하세요, 디무브 입니다! :balloon:
 
 
+5월부터 7월까지 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence의 서버와 데이터 센터 버전에 어떠한 변화가 있었는지 정리해 보았습니다. 
+많은 기능들이 개선되었으니 꼭 확인해보세요!
 
-이번 시간에는 5월에서 지금까지 아틀라시안의 주요 제품인 Jira Software , JSM, Confluence의 서버와 데이터 센터 버전은 어떠한 변화가 있었는지 확인해보시는 시간을 가지겠습니다.
-
-
+---
 
 ## 1. Jira Software
 
@@ -29,7 +29,6 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 ### ■ Version 8.17
 
----
 
 
 
@@ -57,7 +56,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 다음 규칙에 따라 새 용어의 단수 및 복수 형식을 정의할 수 있습니다:
 
----
+
 
 - 에픽과 스프린트의 이름을 맞바꿀 수 없습니다.
 - 용어는 40자로 제한됩니다.
@@ -70,7 +69,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
----
+
 
 
 
@@ -82,7 +81,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 ![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-2.png)
 
----
+
 
 
 
@@ -102,7 +101,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 이번 릴리스에서는 다음 보안 사항을 해결했습니다:
 
----
+
 
 - Jira 플랫폼의 취약점 100문제 해결
 - Jira 서비스 관리의 취약점 20문제 해결
@@ -110,7 +109,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 업그레이드된 라이브러리에 대한 자세한 내용은 [개발자 문서](https://confluence.atlassian.com/jiracore/preparing-for-jira-8-17-1047551150.html)를 참조해주세요.
 
----
+
 
  
 
@@ -120,7 +119,6 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
----
 
 
 
@@ -141,7 +139,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 ### ■ Version 8.18
 
----
+
 
 
 
@@ -155,7 +153,6 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
----
 
 
 
@@ -197,7 +194,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
----
+
 
 
 
@@ -237,7 +234,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 ### ■ Version 4.17
 
----
+
 
 #### 1. 데이터 파이프라인 내보내기에 사용자 지정 필드(Custom Field) 포함
 
@@ -251,13 +248,13 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-------
+
 
 ### ■ Version 4.18
 
 
 
----
+
 
 
 
@@ -295,7 +292,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
----
+
 
 
 
@@ -311,7 +308,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 [여기](https://confluence.atlassian.com/servicemanagementserver/configuring-the-customer-portal-939926277.html)를 클릭하여 포털 설정에 대해 자세히 알아보세요!
 
----
+
 
 
 
@@ -335,7 +332,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
----
+
 
 
 
@@ -355,7 +352,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
  
 
----
+
 
 #### 4. 탭할 때마다 모바일 앱 기능 향상
 
@@ -363,7 +360,6 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 다음은 최근 변경 사항 요약입니다:
 
----
 
 - 요청 승인 및 거부
 - 다중 사용자 선택 사용자 정의 필드(iOS만 해당)
@@ -371,13 +367,12 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 - JSM 관련 필드 보기: 요청 유형, 요청 참가자 및 조직
 - JSM 관련 필드 편집: 조직 또는 단체
 
----
+
 
 이러한 기능을 원하지만 업그레이드할 준비가 되지 않은 경우 Jira 모바일 플러그인을 업그레이드할 수 있습니다. 모바일 앱에 대해 자세히 알고 싶으시다면 [여기](https://confluence.atlassian.com/servicemanagementserver/jira-data-center-and-server-mobile-app-1026523326.html)를 클릭해주세요!
 
 
 
-------
 
 ### 해결된 이슈 사항
 
@@ -419,5 +414,8 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 ---
 
----
+Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다. 
+Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요! 
+
+감사합니다. 
 
