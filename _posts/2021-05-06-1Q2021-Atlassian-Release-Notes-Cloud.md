@@ -50,7 +50,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 **1-2. 가장 좌측 열을 사용하여 에픽 순서 변경 [ROLLING OUT]**
 
 
-색상화된 에픽 바를 수평으로 드래그 하여 start & due dates를 업데이트 할 수 있습니다.
+색상화된 에픽 바를 수평으로 드래그 하여 시작일 및 마감일을 업데이트 할 수 있습니다.
 
 
 
@@ -68,7 +68,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 ■ Markdown format으로 릴리즈 노트 생성
 
-■ 레이아웃 및 이슈 유형에 따라 릴리즈 노트재생성
+■ 레이아웃 및 이슈 유형에 따라 릴리즈 노트 재생성
 
 ■ 편집기에서 릴리즈 노트 포맷 및 업데이트
 
@@ -115,12 +115,6 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 <p data-renderer-start-pos="1027">&nbsp;</p>
 
-
-
-
-
-
-
 #### 1. 로드맵(RoadMap)
 
 
@@ -138,13 +132,11 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-
-
 #### 2. Jira 사이트 가져오기에 대한 익명 액세스 검사 기능 [ROLLING OUT]
 
 
 
- 마이그레이션 후 프로젝트, 대시보드, 필터가 익명 액세스엑세스 에 취약한 경우를 체크합니다. 익명의 액세스엑세스 는 데이터를 사람들이 사용할 수 있고 온라인으로 검색할 수 있기 때문에 마이그레이션 전에 공용 액세스엑세스 권한 부여 여부를 선택할 수 있습니다.  영향을 받는 프로젝트, 대시보드, 필터를 검사하기 위해 CSV 형식의 파일을 다운로드 하실 수 있습니다.
+ 마이그레이션 후 프로젝트, 대시보드, 필터가 익명 액세스에 취약한 경우를 체크합니다. 익명의 액세스는 데이터를 사람들이 사용할 수 있고 온라인으로 검색할 수 있기 때문에 마이그레이션 전에 공용 액세스 권한 부여 여부를 선택할 수 있습니다.  영향을 받는 프로젝트, 대시보드, 필터를 검사하기 위해 CSV 형식의 파일을 다운로드 하실 수 있습니다.
 
 
 
@@ -205,9 +197,9 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-   1.로드맵 Roadmap에서 에픽 생성(Create epic) 선택
+   1.로드맵에서 에픽 생성(Create epic) 선택
 
-   2.에픽 이름을 작성하고 엔터 버튼 Enter 클릭
+   2.에픽 이름을 작성하고 엔터 버튼클릭
 
 **1-2. 에픽 일정 조정**
 
@@ -274,7 +266,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-프로젝트 페이지는 Jira Software 프로젝트를 Confluence 스페이스 공간에 연결하여 문서를 한 곳에 보관합니다. 아직 사이트에 Confluence가 없는 경우 사이트 관리자는 왼쪽 탐색 패널의 프로젝트 페이지 기능을 통해 무료 평가판 인 제품 사용을 시작할 수 있습니다.
+프로젝트 페이지는 Jira Software 프로젝트를 Confluence 공간에 연결하여 문서를 한 곳에 보관합니다. 아직 사이트에 Confluence가 없는 경우 사이트 관리자는 왼쪽 탐색 패널의 프로젝트 페이지 기능을 통해 무료 평가판 인 제품 사용을 시작할 수 있습니다.
 
 
 
@@ -313,7 +305,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-<p data-renderer-start-pos="3873">→ <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/user-management/docs/specify-how-users-get-site-access/" title="https://support.atlassian.com/user-management/docs/specify-how-users-get-site-access/" data-renderer-mark="true">사이트 엑세스 허용 설정</a></p>
+<p data-renderer-start-pos="3873">→ <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/user-management/docs/specify-how-users-get-site-access/" title="https://support.atlassian.com/user-management/docs/specify-how-users-get-site-access/" data-renderer-mark="true">사이트 액세스 허용 설정</a></p>
 
 
 
@@ -338,7 +330,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-새로운 IT Service Management 템플릿에서 워크플로우에 대한 승인을 구성할 때 관리자는 서비스와 관련된과나련된 승인자가 변경 사항을 플래그로 지정, 검토, 승인할 수 있도록 허용하여 서비스 품질에 영향을 미칠 위험을 줄일 수 있습니다. → [자세히 보기](https://support.atlassian.com/jira-service-management-cloud/docs/request-approval-from-approvers-associated-with-a-service/)
+새로운 IT Service Management 템플릿에서 워크플로우에 대한 승인을 구성할 때 관리자는 서비스와 관련된 승인자가 변경 사항을 플래그로 지정, 검토, 승인할 수 있도록 허용하여 서비스 품질에 영향을 미칠 위험을 줄일 수 있습니다. → [자세히 보기](https://support.atlassian.com/jira-service-management-cloud/docs/request-approval-from-approvers-associated-with-a-service/)
 
 
 
@@ -362,25 +354,21 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-#### 4. 한 번에 연결된 여러 스페이스 변경
+#### 4. 한 번에 연결된 여러 공간 변경
 
 
 
-
-<p data-renderer-start-pos="4399">연결된 여러 스페이스를 동시에 변경하여 시간을 절약하고 작업을 보다 효율적으로 수행할 수 있습니다.  여러 개의 공간을 선택하여 링크를 차단하거나 “Project Settings → Knowledge base“ 에서 볼 수 있는 사용자를 변경하실 수 있습니다. → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/jira-service-management-cloud/docs/link-confluence-spaces-to-your-service-project/" title="https://support.atlassian.com/jira-service-management-cloud/docs/link-confluence-spaces-to-your-service-project/" data-renderer-mark="true">자세히 보기</a></p>
-
+연결된 여러 공간을 동시에 변경하여 시간을 절약하고 작업을 보다 효율적으로 수행할 수 있습니다.  여러 개의 공간을 선택하여 링크를 차단하거나 “Project Settings → Knowledge base“ 에서 볼 수 있는 사용자를 변경하실 수 있습니다. → [자세히 보기](https://support.atlassian.com/jira-service-management-cloud/docs/link-confluence-spaces-to-your-service-project/)
 
 
 
+---
+
+### 3월
 
 
 
-
-<h3 id="3월.1" data-renderer-start-pos="4814"><em data-renderer-mark="true"><strong data-renderer-mark="true"> </strong></em> 3월</h3>
-
-
-
-#### 1. 주요 인시던트(Incident) 대기열에서 Incident Command Center 에 세스 [ROLLING OUT]
+#### 1. 주요 인시던트(Incident) 대기열에서 Incident Command Center 에 액세스 [ROLLING OUT]
 
  ICC(Incident Command Center)는 고객과 고객의 팀이 주요 인시던트에 허용할 수 있도록 지원하는 비디오 및 음성 통화 도구 입니다.  이를 활용하여 관련된 팀과 쉽고 직접적으로 소통할 수 있습니다. 
 
@@ -399,7 +387,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 ![릴리즈노트 클라우드 Jira Service Management](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira%20Service%20Management-2.png)
 
- Jira Service Management의 프로젝트에서 주요 인시던트Incident를 타임라인과 함께 Jira Service Management에서 전체 기록을 확인할 수 있습니다. 실제 인시던트Incident가 발생할 때의 진행 상황을 추적하고, 이를 해결하기 위해 어떤 작업이 수행되었는지, 어떤 작업을 수행해야 하는지 어떤 작업이 수행되어야 하는지 신속하게 확인할 수 있습니다. 
+ Jira Service Management의 프로젝트에서 주요 인시던트를 타임라인과 함께 Jira Service Management에서 전체 기록을 확인할 수 있습니다. 실제 인시던트가 발생할 때의 진행 상황을 추적하고, 이를 해결하기 위해 어떤 작업이 수행되었는지, 어떤 작업을 수행해야 하는지 신속하게 확인할 수 있습니다. 
 
 
 
@@ -451,7 +439,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
-프리미엄 플랜의 스페이스 관리자는 일괄 보관을 통해  스페이스를 깔끔하고 최신 상태로 유지할 수 있습니다. 한 번의 작업으로 최대 500개의 페이지를 보관하실 수 있습니다.
+프리미엄 플랜의 공간 관리자는 일괄 보관을 통해  공간을 깔끔하고 최신 상태로 유지할 수 있습니다. 한 번의 작업으로 최대 500개의 페이지를 보관하실 수 있습니다.
 
 ---
 
@@ -461,7 +449,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
- 페이지를 보관할 때, 이 페이지가 오래되었거나거단 더 이상 현재 작업과 관련없음을 팀에게 알립니다. 아무도 보관된 페이지에 관심을 가지거나 접근하면 안되기 때문에, 보관된 페이지에 관심을 갖거나 접근하지 않도록 ‘좋아요' 버튼을 숨겨 '좋아요’를 추가 할 수 없도록 조치하였습니다.
+ 페이지를 보관할 때, 이 페이지가 오래되었거나 더 이상 현재 작업과 관련없음을 팀에게 알립니다. 아무도 보관된 페이지에 관심을 가지거나 접근하면 안되기 때문에, 보관된 페이지에 관심을 갖거나 접근하지 않도록 ‘좋아요' 버튼을 숨겨 '좋아요’를 추가 할 수 없도록 조치하였습니다.
 
 
 
@@ -582,9 +570,9 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 <p data-renderer-start-pos="7915">&nbsp;</p>
 
- 공간을스페이스를 다른 공간과스페이스와 시각적으로 알기 쉽게 구분하도록 하기 위해, 모든 새로운 공간스페이스에 동일한 폴더 이미지가 스페이스에 할당된 기본 아이콘이 무작위로 표시 됩니다. 
+ 공간을  다른 공간과스페이스와 시각적으로 알기 쉽게 구분하도록 하기 위해, 모든 새로운 공간에 동일한 폴더 이미지가 스페이스에 할당된 기본 아이콘이 무작위로 표시 됩니다. 
 
-공간을스페이스를 담당하는 사람은 설정된 기본 아이콘을 변경하거나 자신이 원하는 아이콘으로 업로드하여 변경하실 수 있습니다. 기존에 존재하는 공간은스페이스 적용되지 않습니다.
+공간을 담당하는 사람은 설정된 기본 아이콘을 변경하거나 자신이 원하는 아이콘으로 업로드하여 변경하실 수 있습니다. 기존에 존재하는 공간은 적용되지 않습니다.
 
 
 
@@ -592,7 +580,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-#### 2. 새 편집기에 앵커(책갈피) 매크로 기능 추가 [ROLLING OUT] [NEW THIS WEEK]
+#### 2. 앵커(책갈피) 매크로 기능 추가 [ROLLING OUT] [NEW THIS WEEK]
 
 
 ![Confluence Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-4.png)

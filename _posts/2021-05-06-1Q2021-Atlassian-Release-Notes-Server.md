@@ -38,7 +38,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 
 
- 8.15 DataCenter 버전부터 Advanced RoadMap 기능이 Jira Software 에 번들로 포함되어 사용할 수 있게 되었습니다. 서 사용 가능합니다. 이 기능을 활용해 여러 팀과 프로젝트에서 작업을 계획하고 추적할 수 있으며, 다양한 시나리오를 탐색할 수 있습니다.  
+ 8.15 DataCenter 버전부터 Advanced RoadMap 기능이 Jira Software 에 번들로 포함되어 사용할 수 있게 되었습니다. 이 기능을 활용해 여러 팀과 프로젝트에서 작업을 계획하고 추적할 수 있으며, 다양한 시나리오를 탐색할 수 있습니다.  
 
 자세한 내용은 [여기](https://confluence.atlassian.com/jirasoftwareserver/view-your-plan-1044784216.html)를 클릭하여 확인하실 수 있습니다.
 
@@ -71,15 +71,15 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 ![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-3.png)
 
-사용자 지정 필드Custom Field가 많아지면 Jira 인스턴스를 복잡하게 만들며 성능에 영향을 미칩니다. 하지만 필드를 삭제할 때 어떠한 필드를 삭제하면 좋을지 파악하기란 쉽지 않았습니다.
+사용자 지정 필드가 많아지면 Jira 인스턴스를 복잡하게 만들며 성능에 영향을 미칩니다. 하지만 필드를 삭제할 때 어떠한 필드를 삭제하면 좋을지 파악하기란 쉽지 않았습니다.
 
 
 
-이러한 어려움을 지원하기 위해 이 어려움과 부담감을 감소시키기 위해 8.16 버전 에서는 사용자 지정 필드Custom Field에 이슈Issues와 마지막 업데이트 값 Last Value update, 대량 삭제 항목이 새롭게 추가되어 해당 필드를 사용하는 이슈의 갯수와 마지막으로 언제 업데이트가 되었는지 쉽게 파악할 수 있습니다.
+이러한 어려움을 지원하기 위해 8.16 버전 에서는 사용자 지정 필드에 이슈와 마지막 업데이트 값, 대량 삭제 항목이 새롭게 추가되어 해당 필드를 사용하는 이슈의 갯수와 마지막으로 언제 업데이트가 되었는지 쉽게 파악할 수 있습니다.
 
 
 
-또한 한 개 씩 필드를 삭제해왔던 이전 버전들과 달리 대량 삭제가 가능하여 사용자 지정 필드Custom Field를 쉽게 관리하고 Jira 인스턴스 성능 유지가 훨씬 수월해 졌습니다. 쉬워질 겁니다.
+또한 한 개 씩 필드를 삭제해왔던 이전 버전들과 달리 대량 삭제가 가능하여 사용자 지정 필드를 쉽게 관리하고 Jira 인스턴스 성능 유지가 훨씬 수월해 졌습니다.
 
 <hr>
 
@@ -87,7 +87,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 ![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-4.png)
 
- 이전 까지는 설명 Description 필드에 공통적인 내용 작성 시 매번 생성할 때마다 같은 내용을 입력해야 하는 번거로움이 있었습니다. 하지만 이번 업데이트로 설명 필드에 기본값을 생성할 수 있어 Confluence의 템플릿과 같이 활용할 수 있게 되었습니다. 기본 값을 설정해 번거로움이 감소할 것입니다.
+ 이전 까지는 설명 필드에 공통적인 내용 작성 시 매번 생성할 때마다 같은 내용을 입력해야 하는 번거로움이 있었습니다. 하지만 이번 업데이트로 설명 필드에 기본값을 생성할 수 있어 Confluence의 템플릿과 같이 활용할 수 있게 되었습니다.
 
 <hr>
 
@@ -371,13 +371,13 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 
 
-Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니다. 해당 기능을 통해 이벤트, 릴리즈 휴일 등 팀에 영향을 미치는 이벤트를 생성하여 캘린더를 구성하실 수 있습니다.  또한 Jira,  Opsgeine, Outlook, Google 등 다양한 제품들과 연동이 가능합니다.
+Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니다. 해당 기능을 통해 이벤트, 릴리즈 휴일 등 팀에 영향을 미치는 이벤트를 생성하여 캘린더를 구성하실 수 있습니다.  또한 Jira,  Opsgenie, Outlook, Google 등 다양한 제품들과 연동이 가능합니다.
 
 
 
 <hr>
 
-#### 3. TroubleShooting 개선 [Server] [DataCenter]
+#### 3. 트러블 슈팅 개선 [Server] [DataCenter]
 
 
 
@@ -390,7 +390,7 @@ Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니�
 
 
 
- 트러블 슈팅 시 로그 파일을 표시하여 문제 전과 후의 로그를 쉽게 파악하여 트러블 슈팅 이 훨씬 수월해 졌습니다. 해당 로그는 **General Configuration → Logging and Profiling Profilling** 에서 확인하실 수 있습니다.
+ 트러블 슈팅 시 로그 파일을 표시하여 문제 전과 후의 로그를 쉽게 파악하여 트러블 슈팅 이 훨씬 수월해 졌습니다. 해당 로그는 **General Configuration → Logging and Profiling** 에서 확인하실 수 있습니다.
 
 
 
@@ -408,8 +408,7 @@ Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니�
 
 
 
-
-<p data-renderer-start-pos="6456">현재 대부분의 로그 항목은 'atlassian-confluence.log’에 작성되어 구체적인 에러 파악을 하기위한 로그 분석이 쉽지 않았습니다. 하지만 일부 항목을 세분화하여 전용 로그 파일이 생성되 문제가 되는 파트의 로그를 바로 확인하여 Troubleshooting 하기 편리해졌습니다. 추가 된 항목은 다음과 같습니다.</p>
+<p data-renderer-start-pos="6456">현재 대부분의 로그 항목은 'atlassian-confluence.log’에 작성되어 구체적인 에러 파악을 하기위한 로그 분석이 쉽지 않았습니다. 하지만 일부 항목을 세분화하여 전용 로그 파일이 생성되 문제가 되는 파트의 로그를 바로 확인하여 트러블슈팅 하기 편리해졌습니다. 추가 된 항목은 다음과 같습니다.</p>
 
 
 
