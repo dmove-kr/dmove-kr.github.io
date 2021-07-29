@@ -13,10 +13,11 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 안녕하세요, 디무브 입니다! :balloon:
 
  
+지난 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었는데요. 
 
-지난 1분기 동안 아틀라시안의 주요제품인 JSM, Jira Software, Confluence에도 크고 작은 변화가 있었는데요. 제품 별로 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다.
+각 제품의 Server 및 Data Center 버전에는 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다.
 
-
+---
 
 ## 1. Jira Software
 
@@ -25,7 +26,6 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 ### ■ Version 8.15
 
----
 
 
 
@@ -42,7 +42,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 자세한 내용은 [여기](https://confluence.atlassian.com/jirasoftwareserver/view-your-plan-1044784216.html)를 클릭하여 확인하실 수 있습니다.
 
-<hr>
+
 
 
 #### 2. 이메일 알림에 첨부 표시[Data Center]
@@ -57,12 +57,11 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 이전 버전까지는 이미지 첨부가 이메일 알림에 표시되지 않았습니다. 하지만 8.15 이상의 버전부터 이메일 알림에 이미지 첨부 표시 기능이 추가되어 모든 이미지에 보안 토큰을 포함하여 최대 7일동안 알림이 이미지를 보실 수 있습니다.
 
 
-<hr>
 
 
 ### ■ Version 8.16
 
----
+
 
 
 
@@ -81,7 +80,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 또한 한 개 씩 필드를 삭제해왔던 이전 버전들과 달리 대량 삭제가 가능하여 사용자 지정 필드를 쉽게 관리하고 Jira 인스턴스 성능 유지가 훨씬 수월해 졌습니다.
 
-<hr>
+
 
 #### 2. 설명(Description)필드의 기본값 설정
 
@@ -89,7 +88,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
  이전 까지는 설명 필드에 공통적인 내용 작성 시 매번 생성할 때마다 같은 내용을 입력해야 하는 번거로움이 있었습니다. 하지만 이번 업데이트로 설명 필드에 기본값을 생성할 수 있어 Confluence의 템플릿과 같이 활용할 수 있게 되었습니다.
 
-<hr>
+
 
 
 #### 3. DVCS 관리 [SERVER] [DATA CENTER]
@@ -102,7 +101,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 DVCS 계정을 더 수월하게 관리할 수 있도록 개선되었습니다. 사용자의 계정과 Repository에 대한 관리, 경험, 성능을 개선시키기 위해 DVCS 계정 페이지를 재설계 하였으며, 통합에 사용되는 화면을 보기 쉽게 정리하고 검색 기능도 추가하였습니다.
 
-<hr>
+
 
 #### 4. 사용자가 여러 ID 공급자로 로그인하도록 허용 [Data Center]
 
@@ -112,7 +111,7 @@ DVCS 계정을 더 수월하게 관리할 수 있도록 개선되었습니다. �
 
 SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로그인 시 적합한 환경에서 로그인 할 수 있게 되었습니다. 새로운 모든 로그인 방법은 Jira Service Management의 고객 포털에 대해 독립적으로 활성화 할 수 있습니다.
 
-<hr>
+
 
 #### 5. 데이터 파이프라인 내보내기 상태 확인 기능 [Data Center]
 
@@ -125,7 +124,7 @@ SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로�
 
 데이터 파이프라인을 통해 Jira에서 현재 상태를 내보내 Tableau나 PowerBI와 같은 비즈니스 인텔리전스 툴에서 데이터를 분석할 수 있습니다. 
 
-<hr>
+
 
 ### 해결된 이슈 사항
 
@@ -158,7 +157,7 @@ SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로�
 
 ### ■ Version 4.15
 
----
+
 
 
 
@@ -172,14 +171,12 @@ SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로�
 
 Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로 IT 분야를 포함한 비즈니스 자산을 생성 및 관리하고 요청,사건,변경 등을 통해 상호작용 할 수 있습니다.  또한 H/W, S/W, 사무 기기 등 소유하고 있는 모든 것을 한 눈에 보고 명확하게 분류 할 수 있습니다.  이 앱이 가진 핵심 기능은 다음과 같습니다:
 
----
+
 
 1. 소유 한 것을 한 눈에 확인 가능합니다.
-
 2. 사건, 변경 등 서비스 요청이 들어올 때마다 자산을 이슈에 연결하여 사람들이 즉각적인 컨텍스트를 얻고 모든 세부 정보를 알 수 있습니다.
 3. 다양한 자산 관리에 탁월합니다. 
 
-<hr>
 
 #### 2. 고객 포털 개선 [Server] [Data Center]
 
@@ -218,7 +215,7 @@ Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로
 
 
 
-<hr> 
+
 
 #### 3. 향상된 데이터 인사이트를 Jira Service Management에서 활용
 
@@ -237,7 +234,7 @@ API를 통해 Jira 및 Jira Service Management 에서 현재 상태의 데이터
 
 
 
-<hr>
+
 
 
 #### 4. 이메일 알림에 이미지 첨부 표시 [Server] [Data Center]
@@ -254,7 +251,7 @@ API를 통해 Jira 및 Jira Service Management 에서 현재 상태의 데이터
 
 <p data-renderer-start-pos="4176">&nbsp;</p>
 
-<hr>
+
 
 ### ■  Version 4.16
 
@@ -262,7 +259,7 @@ API를 통해 Jira 및 Jira Service Management 에서 현재 상태의 데이터
 
 Jira Software 8.16 버전과 업데이트 내역이 같습니다. 
 
-<hr>
+
 
 ### 해결된 이슈 사항
 
@@ -300,7 +297,7 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 ### ■ Version 7.11
 
----
+
 
 
 
@@ -359,7 +356,7 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 <p data-renderer-start-pos="5821">공간 권한 기능을 사용하여 보기 권한이 있는 공간의 데이터만 볼 수있도록 설정하실 수 있으며, 분석 보고서에 대한 엑세스에 대해 특정 그룹, 개별 공간의 특정 사용자로 제한 하고 필요에 따라 모든 사람이 볼 수 있도록 설정할 수 있습니다. </p>
 
-<hr>
+
 
 #### 2. Confluence에 Team Calendar 앱 추가 [Data Center]
 
@@ -375,7 +372,7 @@ Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니�
 
 
 
-<hr>
+
 
 #### 3. 트러블 슈팅 개선 [Server] [DataCenter]
 
@@ -394,7 +391,7 @@ Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니�
 
 
 
-<hr>
+
 
 **3-2. 보다 더 명확하게 하기 위한 전용 로그 파일 제공**
 
@@ -421,7 +418,7 @@ Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니�
 
 
 
-<hr>
+
 
 
 #### 4. Access logging 기본 설정 [Server] [Data Center]
@@ -439,13 +436,12 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
 
 
- <hr>
 
 
 
 ### ■ Version 7.12
 
----
+
 
 #### 1. 사이트에 대한 데이터 및 인사이트 확보 가능 [Data Center]
 
@@ -459,7 +455,6 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
 
 
- <hr>
 
 
 #### 2. Thread Dump 에 진단 정보 추가 [Server] [Data Center]
@@ -481,8 +476,6 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
 
 
-
- <hr>
 
 
 
@@ -514,12 +507,12 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
  <hr>
 
- 감사합니다. :smiley:
+  
+Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.
+
+Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!
+
+감사합니다. 😃
 
 
 
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwMzA0MjAzLDEyOTY0MDIyMjddfQ==
--->
