@@ -14,10 +14,11 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-지난 1분기 동안 아틀라시안의 주요제품인 JSM, Jira Software, Confluence에도 크고 작은 변화가 있었는데요. 제품 별로 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다.
+지난 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었는데요. 
+각 제품의 Cloud 버전에는 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다.
 
 <hr>
-
+---
 
 ## 1. Jira Software
 
@@ -27,7 +28,6 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 ### 1월
 
----
 
 
 
@@ -52,7 +52,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 색상화된 에픽 바를 수평으로 드래그 하여 start & due dates를 업데이트 할 수 있습니다.
 
----
+
 
 
 
@@ -76,7 +76,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
----
+
 
 
 
@@ -93,7 +93,6 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
----
 
 
 
@@ -116,7 +115,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 <p data-renderer-start-pos="1027">&nbsp;</p>
 
----
+
 
 
 
@@ -138,7 +137,6 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
----
 
 
 
@@ -148,7 +146,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
  마이그레이션 후 프로젝트, 대시보드, 필터가 익명 액세스엑세스 에 취약한 경우를 체크합니다. 익명의 액세스엑세스 는 데이터를 사람들이 사용할 수 있고 온라인으로 검색할 수 있기 때문에 마이그레이션 전에 공용 액세스엑세스 권한 부여 여부를 선택할 수 있습니다.  영향을 받는 프로젝트, 대시보드, 필터를 검사하기 위해 CSV 형식의 파일을 다운로드 하실 수 있습니다.
 
----
+
 
 
 
@@ -158,7 +156,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
  Request 유형 페이지 에서 직접 Request 유형을 Portal Group에 추가하고 Request 유형이 어떤 Portal Group 및 이슈 유형에 있는 지 추가 열을 통해 한 눈에 보실 수 있습니다. 또한 Request 유형 페이지에 새 필터를 추가하여 키워드, 이슈 유형 또는 Portal Group 별로 Request 유형을 필터링 할 수 있습니다.
 
----
+
 
 
 
@@ -174,7 +172,6 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 ■ 연결 흐름을 구성하려면, 프로젝트의 코드 페이지에서 추가 옵션 (•••)을 선택하여 확인할 수 있습니다.
 
----
 
 
 
@@ -188,7 +185,6 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 <h3 id="3월" data-renderer-start-pos="2262">3월</h3>
 
----
 
 
 
@@ -256,11 +252,10 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 추가적으로 차세대 및 클래식 프로젝트를 보다 더 명확하고 알기 쉽게 이름을 변경하였습니다.
 
----
 
 ■ 차세대 프로젝트는 “**팀 관리 프로젝트(Team-managed)**”로 이름이 변경되며 기능 자체는 그대로 유지됩니다.
 
-■  클래식 프로젝트는 “**회사 관리 프로젝트(Company-managed)**”로 이름이 변경되었습니다. 
+■ 클래식 프로젝트는 “**회사 관리 프로젝트(Company-managed)**”로 이름이 변경되었습니다. 
 
 <hr>
 
@@ -283,11 +278,10 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-연결된 공간의 페이지는 지라의 프로젝트 페이지 기능에서 구성되며, 모든 페이지 구성 및 Confluence의 사용 권한은 유지 됩니다. 될 것입니다. 모든 페이지 구성 및 Confluence의 사용 권한은 유지됩니다. 적절한 적합한 권한이 있는 사용자는 프로젝트 페이지를 사용하여 Confluence 페이지를 만들고 기존 문서를 볼 수 있습니다.
+연결된 공간의 페이지는 지라의 프로젝트 페이지 기능에서 구성되며, 모든 페이지 구성 및 Confluence의 사용 권한은 유지 됩니다. 적합한 권한이 있는 사용자는 프로젝트 페이지를 사용하여 Confluence 페이지를 만들고 기존 문서를 볼 수 있습니다.
 
 
 
----
 
 
 
@@ -301,11 +295,9 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-<p data-renderer-start-pos="3479">차세대 프로젝트에서 단일 열에 둘 이상의 상태를 추가할 수 있습니다. 보드를 정렬했던 경험을 활용하여  유사한 상태를 그룹화 하고 보드를 자유롭게 만들 수 있습니다. 또한 동일한 열 내에서 작업을 새로운 상태로 삭제가 가능합니다. → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/jira-software-cloud/docs/configure-columns-and-statuses-in-your-next-gen-project/" title="https://support.atlassian.com/jira-software-cloud/docs/configure-columns-and-statuses-in-your-next-gen-project/" data-renderer-mark="true">자세히 보기</a></p>
+<p data-renderer-start-pos="3479">차세대 프로젝트에서 단일 열에 둘 이상의 상태를 추가할 수 있습니다. 보드를 정렬했던 경험을 활용하여 유사한 상태를 그룹화 하고 보드를 자유롭게 만들 수 있습니다. 또한 동일한 열 내에서 작업을 새로운 상태로 삭제가 가능합니다. → <a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/jira-software-cloud/docs/configure-columns-and-statuses-in-your-next-gen-project/" title="https://support.atlassian.com/jira-software-cloud/docs/configure-columns-and-statuses-in-your-next-gen-project/" data-renderer-mark="true">자세히 보기</a></p>
 
 
-
----
 
 
 
@@ -313,7 +305,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-사이트에 Jira 및 Confluence가 활성화되어 있는 경우, 적절한 사용 권한이 있는 사용자는 Jira의 프로젝트 페이지 기능을 사용하여 Confluence에 액세스하고 관련 문서와 내용을 찾을 수 있습니다.
+사이트에 Jira 및 Confluence가 활성화되어 있는 경우, 적합한 사용 권한이 있는 사용자는 Jira의 프로젝트 페이지 기능을 사용하여 Confluence에 액세스하고 관련 문서와 내용을 찾을 수 있습니다.
 
 
 
@@ -326,7 +318,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 <hr>
-
+---
 
 ## 2. Jira Service Management
 
@@ -336,7 +328,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
----
+
 
 
 
@@ -346,7 +338,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-새로운 IT Service Management 템플릿에서 워크플로우에 대한 승인을 구성할 때 관리자는 서비스와 관련된과나련된 승인자가 변경 사항을 플래그로 지정 , 검토 , 승인할 수 있도록 허용하여 서비스 품질에 영향을 미칠 위험을 줄일 수 있습니다. → [자세히 보기](https://support.atlassian.com/jira-service-management-cloud/docs/request-approval-from-approvers-associated-with-a-service/)
+새로운 IT Service Management 템플릿에서 워크플로우에 대한 승인을 구성할 때 관리자는 서비스와 관련된과나련된 승인자가 변경 사항을 플래그로 지정, 검토, 승인할 수 있도록 허용하여 서비스 품질에 영향을 미칠 위험을 줄일 수 있습니다. → [자세히 보기](https://support.atlassian.com/jira-service-management-cloud/docs/request-approval-from-approvers-associated-with-a-service/)
 
 
 
@@ -359,9 +351,6 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
----
-
-
 
 #### 3. OAuth를 사용하여 사용자 지정 Microsoft 이메일 주소 설정
 
@@ -370,7 +359,6 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
----
 
 
 
@@ -383,8 +371,6 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
----
-
 
 
 
@@ -394,7 +380,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-#### 1. 주요 인시던트 대기열에서 Incident Command Center 에 엑세스 [ROLLING OUT]
+#### 1. 주요 인시던트(Incident) 대기열에서 Incident Command Center 에 세스 [ROLLING OUT]
 
  ICC(Incident Command Center)는 고객과 고객의 팀이 주요 인시던트에 허용할 수 있도록 지원하는 비디오 및 음성 통화 도구 입니다.  이를 활용하여 관련된 팀과 쉽고 직접적으로 소통할 수 있습니다. 
 
