@@ -47,7 +47,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-**1-2. 가장 좌측 열을 사용하여 에픽 순서 변경 **
+**1-2. 가장 좌측 열을 사용하여 에픽 순서 변경**
 
 
 색상화된 에픽 바를 수평으로 드래그 하여 시작일 및 마감일을 업데이트 할 수 있습니다.
@@ -119,13 +119,13 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-**1-1. Planned Capacity **
+**1-1. Planned Capacity**
 
 새로운 Planned Capacity(역량 계획)도구를 사용하여 스프린트를 계획하고 작업을 보다 효율적으로 할당할 수 있습니다. 이 기능을 사용하면 팀이 반복하여 완료할 수 있는 평균 작업량을 설정하여 작업의 균형을 맞추고 과도한 업무량이 할당 되는 것을 방지할 수 있습니다.   → [자세히 보기](https://confluence.atlassian.com/advancedroadmapscloud/capacity-and-velocity-998651192.html) 
 
 
 
-**1-2. Story-level 이슈 드래그 앤 드롭 기능  **
+**1-2. Story-level 이슈 드래그 앤 드롭 기능**
 
 이슈의 드래그 앤 드롭 기능을 활용해 현재 에픽에서 이슈의 순위를 조정하거나 새로운 에픽으로 이동하실 수 있습니다. 
 
