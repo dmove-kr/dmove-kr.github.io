@@ -13,11 +13,11 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 안녕하세요, 디무브 입니다! :balloon:
 
+5월부터 7월까지 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence의 Cloud 버전에 어떠한 변화가 있었는지 정리해 보았습니다. 
+많은 기능들이 개선되었으니 꼭 확인해보세요!
 
 
-이번 시간에는 5월에서 지금까지 아틀라시안의 주요 제품인 Jira Software , JSM, Confluence에서 어떠한 변화가 있었는지 확인해보시는 시간을 가지겠습니다.
-
-
+---
 
 ## 1. Jira Software
 
@@ -25,7 +25,6 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 ### 5월
 
----
 
 <p></p>
 
@@ -47,7 +46,6 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 <p></p>
 
----
 
 
 
@@ -90,8 +88,6 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
----
-
 
 
 <p></p>
@@ -100,7 +96,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 ### 6월
 
----
+
 
 
 
@@ -116,13 +112,11 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
----
 
 
 
 ### 7월 
 
----
 
 <p></p>
 
@@ -142,7 +136,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 <p></p>
 
-------
+
 
  
 
@@ -160,15 +154,14 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 
 
-------
 
 
+---
 
 ## 2. Jira Service Management 
 
 ### 5월
 
----
 
 
 
@@ -183,8 +176,6 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 [여기](https://support.atlassian.com/jira-service-management-cloud/docs/arrange-queues-into-groups-to-prioritize-work-for-your-team/)를 클릭하여 대기열 그룹에 대해 자세히 알아보세요!
 
 
-
----
 
 
 
@@ -202,13 +193,13 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 
 
----
+
 
 
 
 ### 6월
 
----
+
 
 <p></p>
 
@@ -224,7 +215,7 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 
 
----
+
 
 
 
@@ -238,7 +229,7 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 
 
----
+
 
 
 
@@ -252,7 +243,6 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
 
 
----
 
 
 
@@ -272,7 +262,7 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
   
 
----
+
 
 
 
@@ -290,13 +280,12 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
 <p></p>
 
----
 
 
 
 ### 7월
 
----
+
 
 
 #### 1. 그룹으로부터 요청 수락 [ROLLING OUT] [NEW THIS WEEK]  
@@ -311,7 +300,6 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
  
 
----
 
 
 
@@ -323,7 +311,7 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
 
 
----
+
 
 
 
@@ -351,7 +339,6 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
 ### 5월
 
----
 
 
 
@@ -365,7 +352,7 @@ Confluence 탐색 또는 홈 페이지의 최근 메뉴에 페이지와 블로�
 
 
 
----
+
 
 
 
@@ -387,7 +374,7 @@ Confluence 탐색 또는 홈 페이지의 최근 메뉴에 페이지와 블로�
 
 
 
----
+
 
 
 
@@ -405,7 +392,6 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
----
 
 
 
@@ -429,7 +415,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
  
 
----
+
 
 
 
@@ -437,7 +423,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 ### 6월
 
----
+
 
 
 #### 1. **페이지 아카이브(Archive) 작업 개선** [ROLLING OUT]  
@@ -452,7 +438,6 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 이 문제는 아카이브 작업을 진행한 사람이 특정 페이지를 볼 수 있는 권한이 없거나 아카이브 할 수 있는 권한이 없는 경우에 발생하며, 이로 인해 제외된 페이지는 페이지 트리에 남아있게 됩니다. 이런 경우가 발생하면 이메일을 통해 알려주고, 아카이브 할 수 있는 방법을 안내해 드립니다. 
 
----
 
 
 
@@ -466,7 +451,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
----
+
 
 
 
@@ -480,7 +465,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
----
+
 
 
 
@@ -498,13 +483,13 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
----
+
 
 
 
  
 
-#### 5. **팀 캘린더가 새로운 보기에 추가** [NEW THIS WEEK]  
+#### 5. **팀 캘린더에 새로운 보기 추가** [NEW THIS WEEK]  
 
 
 
@@ -516,13 +501,13 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
-------
+
 
 ### 7월
----
 
 
-#### 1. 신뢰할 수 있는 사용자 (Trusted Users):새로운 사용자 초대를 위한 UI 변경 [ROLLING OUT]  [NEW THIS WEEK]  
+
+#### 1. 신뢰할 수 있는 사용자(Trusted Users):새로운 사용자 초대를 위한 UI 변경 [ROLLING OUT]  [NEW THIS WEEK]  
 
  
 
@@ -530,7 +515,6 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
  
 
----
 
 
 
@@ -542,7 +526,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
  
 
----
+
 
 
 
@@ -568,9 +552,11 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
-
-
 ---
 
----
+
+Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다. 
+Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요! 
+
+감사합니다.😃
 
