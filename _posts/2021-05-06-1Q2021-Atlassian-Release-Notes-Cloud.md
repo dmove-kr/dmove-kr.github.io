@@ -293,7 +293,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-#### 3. Jira 프로젝트 페이지에서 사용자가 Confluence에 가입할 수 있도록 허용할 수 있습니다 [ROLLING OUT] [NEW THIS WEEK]
+#### 3. Jira 프로젝트 페이지에서 사용자가 Confluence에 가입할 수 있도록 허용 [ROLLING OUT] [NEW THIS WEEK]
 
 
 
