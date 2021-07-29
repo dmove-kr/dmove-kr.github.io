@@ -39,7 +39,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-<strong>1-1. 새롭게 생성된 이슈에 담당자와 레이블 필터에 매칭 [ROLLING OUT] [NEW THIS WEEK] </strong>
+<strong>1-1. 새롭게 생성된 이슈에 담당자와 레이블 필터에 매칭   </strong>
 
 
 
@@ -47,7 +47,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-**1-2. 가장 좌측 열을 사용하여 에픽 순서 변경 [ROLLING OUT]**
+**1-2. 가장 좌측 열을 사용하여 에픽 순서 변경 **
 
 
 색상화된 에픽 바를 수평으로 드래그 하여 시작일 및 마감일을 업데이트 할 수 있습니다.
@@ -56,7 +56,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-#### 2. 향상된 릴리즈 노트(Release Notes) 기능 [ROLLING OUT]
+#### 2. 향상된 릴리즈 노트(Release Notes) 기능 
 
 
 
@@ -80,7 +80,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-#### 3. Media Picker를 시스템의 파일 업로드로 변경 (JSM 및 Confluence 동일 적용) [ROLLING OUT]  [NEW THIS WEEK]
+#### 3. Media Picker를 시스템의 파일 업로드로 변경 (JSM 및 Confluence 동일 적용)   
 
 
 
@@ -96,7 +96,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-#### 4. 배포 날짜 범위 지정 필터 [ROLLING OUT] [NEW THIS WEEK]
+#### 4. 배포 날짜 범위 지정 필터  
 
 
 
@@ -119,20 +119,20 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-**1-1. Planned Capacity [ROLLING OUT]**
+**1-1. Planned Capacity **
 
 새로운 Planned Capacity(역량 계획)도구를 사용하여 스프린트를 계획하고 작업을 보다 효율적으로 할당할 수 있습니다. 이 기능을 사용하면 팀이 반복하여 완료할 수 있는 평균 작업량을 설정하여 작업의 균형을 맞추고 과도한 업무량이 할당 되는 것을 방지할 수 있습니다.   → [자세히 보기](https://confluence.atlassian.com/advancedroadmapscloud/capacity-and-velocity-998651192.html) 
 
 
 
-**1-2. Story-level 이슈 드래그 앤 드롭 기능 [ROLLING OUT] [NEW THIS WEEK]**
+**1-2. Story-level 이슈 드래그 앤 드롭 기능  **
 
 이슈의 드래그 앤 드롭 기능을 활용해 현재 에픽에서 이슈의 순위를 조정하거나 새로운 에픽으로 이동하실 수 있습니다. 
 
 
 
 
-#### 2. Jira 사이트 가져오기에 대한 익명 액세스 검사 기능 [ROLLING OUT]
+#### 2. Jira 사이트 가져오기에 대한 익명 액세스 검사 기능 
 
 
 
@@ -142,7 +142,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-#### 3. Portal Group & Request 유형 관리 및 편집 속도 향상 [ROLLING OUT] [NEW THIS WEEK]
+#### 3. Portal Group & Request 유형 관리 및 편집 속도 향상  
 
 
 
@@ -152,7 +152,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-#### 4. Third-Party 레포지토리 및 마켓플레이스 앱 통합 지원 [NEW THIS WEEK]
+#### 4. Third-Party 레포지토리 및 마켓플레이스 앱 통합 지원 
 
 
 
@@ -167,7 +167,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-#### 5. 이슈 보기 : 에픽 상태 필드 추가 [ROLLING OUT]
+#### 5. 이슈 보기 : 에픽 상태 필드 추가 
 
 에픽 상태 커스텀 필드가  새로운 이슈 보기에 추가 되었습니다. Jira 관리자에게 요청하여 성공 상태 필드를 추가하여 해당 화면을 사용하는 모든 이슈에 표시됩니다.  → [자세히보기](https://support.atlassian.com/jira-cloud-administration/docs/add-a-custom-field-to-a-screen/)
 
@@ -236,7 +236,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-#### 3. 프로젝트 생성 업데이트 사항 (JSM Cloud 에도 동일 적용) [ROLLING OUT]  [NEW THIS WEEK] 
+#### 3. 프로젝트 생성 업데이트 사항 (JSM Cloud 에도 동일 적용)    
 
  Jira에서 프로젝트를 만들 때 새로운 템플릿 라이브러리를 통해 더 간단히 만들 수 있게 되어 팀의 업무 방식에 가장 적합한 템플릿을 찾아 효과적인 프로젝트를 생성할 수 있습니다. 
 
@@ -258,7 +258,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 <p></p>
 
-#### 1. 프로젝트 페이지 개선과 Jira 및 Confluence 연결 [ROLLING OUT]
+#### 1. 프로젝트 페이지 개선과 Jira 및 Confluence 연결 
 
 
 
@@ -279,7 +279,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 <p data-renderer-start-pos="3426">&nbsp;</p>
 
-#### 2. 차세대 프로젝트 : 단일 열에 여러개의 상태가 할당 가능 [ROLLING OUT]
+#### 2. 차세대 프로젝트 : 단일 열에 여러개의 상태가 할당 가능 
 
 
 
@@ -293,7 +293,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-#### 3. Jira 프로젝트 페이지에서 사용자가 Confluence에 가입할 수 있도록 허용 [ROLLING OUT] [NEW THIS WEEK]
+#### 3. Jira 프로젝트 페이지에서 사용자가 Confluence에 가입할 수 있도록 허용  
 
 
 
@@ -324,7 +324,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-#### 1. 서비스와 연결된 승인자에게 승인 요청 [ROLLING OUT]
+#### 1. 서비스와 연결된 승인자에게 승인 요청 
 
 
 
@@ -334,7 +334,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-#### 2. Quick Start 패널 [ROLLING OUT]
+#### 2. Quick Start 패널 
 
 
 
@@ -368,7 +368,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-#### 1. 주요 인시던트(Incident) 대기열에서 Incident Command Center 에 액세스 [ROLLING OUT]
+#### 1. 주요 인시던트(Incident) 대기열에서 Incident Command Center 에 액세스 
 
  ICC(Incident Command Center)는 고객과 고객의 팀이 주요 인시던트에 허용할 수 있도록 지원하는 비디오 및 음성 통화 도구 입니다.  이를 활용하여 관련된 팀과 쉽고 직접적으로 소통할 수 있습니다. 
 
@@ -380,7 +380,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
-#### 2. 인시던트 타임라인을 활용한 주요 인시던트 이력 확인 [NEW THIS WEEK]
+#### 2. 인시던트 타임라인을 활용한 주요 인시던트 이력 확인 
 
 
 
@@ -410,7 +410,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
-#### 1. 새로운 에디터를 사용하여 링크 추가 시 페이지나 블로그 검색 가능 [NEW THIS WEEK]
+#### 1. 새로운 에디터를 사용하여 링크 추가 시 페이지나 블로그 검색 가능 
 
 
 
@@ -418,11 +418,11 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
----
 
 
 
-#### 2. Jira Issue URL의 Smart links로 변환 [ROLLING OUT]
+
+#### 2. Jira Issue URL의 Smart links로 변환 
 
 
 
@@ -433,7 +433,9 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
-#### 3. 페이지 일괄 보관 [ROLLING OUT]
+
+
+#### 3. 페이지 일괄 보관 
 
 
 
@@ -442,18 +444,11 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
-#### 4. 보관된 페이지에서 ‘좋아요’ 버튼 숨기기 [ROLLING OUT]
-
-
-
- 페이지를 보관할 때, 이 페이지가 오래되었거나 더 이상 현재 작업과 관련없음을 팀에게 알립니다. 보관된 페이지에 관심을 갖거나 접근하지 않도록 ‘좋아요' 버튼을 숨겨 '좋아요’를 추가 할 수 없도록 조치하였습니다.
 
 
 
 
-
-
-#### 5. Confluence 에서 페이지와 블로그 삭제 기능 [ROLLING OUT] [NEW THIS WEEK]
+#### 4. Confluence 에서 페이지와 블로그 삭제 기능  
 
 
 
@@ -463,7 +458,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
-#### 6. Media Viewer 기능이 탑재된 Office Connector 문서 [ROLLING OUT]
+#### 5. Media Viewer 기능이 탑재된 Office Connector 문서 
 
 
 
@@ -473,7 +468,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
-#### 7. 보관할 페이지 추천 기능 [ROLLING OUT]
+#### 6. 보관할 페이지 추천 기능 
 
  
 
@@ -483,7 +478,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
-#### 8. 페이지 작업 재구성 [ROLLING OUT]
+#### 7. 페이지 작업 재구성 
 
 
 
@@ -498,9 +493,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
-
-
-#### 9. Team Calendar 의 새로운 변화 [ROLLING OUT] [NEW THIS WEEK]
+#### 8. Team Calendar 의 새로운 변화  
 
 
 Team Calendar 의 UI, 기능 등 사항이 변경되어 모든 달력 및 이벤트에 엑세스하고, 리스트, 주, 월, 타임라인을 보실 수 있습니다. 또한 인터페이스가 전 보다 더 보기 좋게 변경 되었습니다.
@@ -527,7 +520,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-#### 2. 템플릿을 바로 선택하기 전에 쉽게 정렬 [ROLLING OUT]
+#### 2. 템플릿을 바로 선택하기 전에 쉽게 정렬 
 
 
 
@@ -550,9 +543,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-
-
-#### 1. 새로운 아이콘 임의 할당  [ROLLING OUT] [NEW THIS WEEK]
+#### 1. 새로운 아이콘 임의 할당   
 
 
 
@@ -571,7 +562,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-#### 2. 앵커(책갈피) 매크로 기능 추가 [ROLLING OUT] [NEW THIS WEEK]
+#### 2. 앵커(책갈피) 매크로 기능 추가  
 
 
 ![Confluence Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-4.png)
@@ -585,7 +576,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-#### 3. 페이지 공간 보기에 다양한 옵션 추가 [ROLLING OUT] [NEW THIS WEEK] 
+#### 3. 페이지 공간 보기에 다양한 옵션 추가   
 
 
 ![Confluence Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-5.png)
@@ -600,8 +591,10 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
+---
 
-#### 4. 목차 매크로에 머리글 요소가 포함 [ROLLING OUT] [NEW THIS WEEK]
+
+#### 4. 목차 매크로에 머리글 요소가 포함  
 
 
 
@@ -622,7 +615,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-#### 1. 페이지 또는 블로그 출판 예약 기능 추가 [ROLLING OUT] [NEW THIS WEEK]
+#### 1. 페이지 또는 블로그 출판 예약 기능 추가  
 
 
 
@@ -643,7 +636,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-#### 2. 편리해진 전역 권한  [NEW THIS WEEK]
+#### 2. 편리해진 전역 권한  
 
 ![Confluence Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-9.png)
 
@@ -666,7 +659,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-#### 3. 사이드바에서 페이지 상세 정보가 확인 가능[ROLLING OUT] [NEW THIS WEEK]
+#### 3. 사이드바에서 페이지 상세 정보가 확인 가능 
 
 
 
