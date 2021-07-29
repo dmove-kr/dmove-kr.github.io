@@ -665,13 +665,11 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 <p data-renderer-start-pos="9524"> 사이트 및 제품 관리자가 이러한 사이트 수준 사용 권한을 쉽게 읽고 변경할 수 있도록 전역 권한 페이지를 업그레이드했습니다.</p>
 
-<p data-renderer-start-pos="9596">&nbsp;</p>
 
 
 <p data-renderer-start-pos="9598">사용자 그룹, JSM 액세스, 익명 액세스 및 앱 등 사용자 유형별로 페이지를 탭으로 재구성하고 각 탭의 모양을 새로 고쳐서 정보를 보다 깨끗하고 쉽게 검색할 수 있도록 했습니다.</p>
 
 
-<p data-renderer-start-pos="9700">&nbsp;</p>
 
 
 <p data-renderer-start-pos="9702">부여된 권한 유형별로 목록을 필터링할 수 있는 기능도 추가되었습니다. 예를 들어 사이트에 공백을 만들 수 있는 권한이 있는 모든 사용자 그룹을 보려면 검색란 옆에 있는 필터 단추를 클릭하고 공간 만들기 상자를 선택할 수 있습니다. → “<a class="sc-gleUXh dNInRj" href="https://support.atlassian.com/confluence-cloud/docs/manage-global-permissions/" title="https://support.atlassian.com/confluence-cloud/docs/manage-global-permissions/" data-renderer-mark="true">여기</a>“ 를 클릭하여 전역 권한 관리에 대해 자세히 알아보세요!</p>
