@@ -423,7 +423,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
-#### 2. Jira Issue URL의 Smart links로 변환됩니다 [ROLLING OUT]
+#### 2. Jira Issue URL의 Smart links로 변환 [ROLLING OUT]
 
 
 
@@ -612,7 +612,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-#### 4. 목차 매크로에 머리글 요소가 포함됩니다 [ROLLING OUT] [NEW THIS WEEK]
+#### 4. 목차 매크로에 머리글 요소가 포함 [ROLLING OUT] [NEW THIS WEEK]
 
 
 
