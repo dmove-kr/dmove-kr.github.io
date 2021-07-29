@@ -500,7 +500,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 ■ 제한 : 공유 버튼 좌측에 잠금 아이콘을 사용합니다.
 
-■ 계층 구조로 보기 : 스페이스 사이드 바를 활용하여 스페이스의 모든 페이지를 보고 변경할 수 있습니다. 이것은 Space Settings → Contents Tools → Reorder pages 에서 확인 가능합니다.
+■ 계층 구조로 보기 : 공간 사이드 바를 활용하여 공간의 모든 페이지를 보고 변경할 수 있습니다. 이것은 Space Settings → Contents Tools → Reorder pages 에서 확인 가능합니다.
 
 ---
 
