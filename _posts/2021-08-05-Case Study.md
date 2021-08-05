@@ -3,7 +3,7 @@ Case Study - Atlassian Jira 와 메신저 연동
 
 안녕하세요, 디무브입니다. 🎈
 
-디뭅
+디무브에서 직접 Atlassian 솔루션 관련 프로젝트를 진행하며 경험하였던 메신저 연동과 관련된 Case Study를 공유해 드리고자 합니다. 
 
 메신저는 즉각적인 피드백을 주고 받을 수 있다는 장점 때문에 기업의 중요한 커뮤니케이션 채널로 자리 잡았습니다. 그리고 메신저 솔루션을 도입해 사용 중인 대부분의 기업은 중요한 Notification 을 E-Mail 보다는 메신저를 통해 받는 것을 선호하고 계십니다.
 
@@ -20,5 +20,5 @@ Atlassian 에서는 자체적인 Marketplace 에서 다양한 3rd Party Addon �
 연동을 하고나면 메신저에서 메신저 채널 별로 Jira 이슈의 생성 또는 업데이트 시 알림을 받게 되죠.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjUxMzM4NzFdfQ==
+eyJoaXN0b3J5IjpbNTMzMzI4OTMxXX0=
 -->
