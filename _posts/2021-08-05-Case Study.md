@@ -28,7 +28,8 @@ Atlassian의 Jira는 프로젝트 관리와 소프트웨어 개발에 있어 가
 ![Jira Issue](/assets/images/blog/Case Study_2.png)
 
 연동을 하고나면 메신저에서 메신저 채널 별로 Jira 이슈의 생성 또는 업데이트 시 알림을 받게 됩니다.  
-따라서 메신저를 통해 **Jira 이슈의 업데이트 내역을 확인하고 상태 변경 등도 가능**하기 때문에 이정도 기능으로도 충분히 효율적이고 고객의 
+
+메신저를 통해 Jira 이슈의 업데이트 내역을 확인할 뿐만 아니라 상태 등을 바로 변경할 수도 있기 때문에, 보다 효율적이고 편리하게 업무에 활용하실 수 있게 되어 만족 상태 변경 등도 가능**하기 때문에 이정도 기능으로도 보다 효율적이고 편하게 효율적이고 고객의 
 
 하지만 이렇게 연동 및 구성했을 경우에 제약사항이 하나 있죠.  
 **“**_**채널 별로 알림을 받아야 한다”**_ 는것 입니다.  
@@ -71,6 +72,6 @@ Jira처럼 웹 리퀘스트를 발생시킬 수 있는 솔루션들이 있다면
 
 하지만 다우 메신저는 Jira와 연동할수 있는 Add-on이 없죠.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Njg5Nzc4NywtMTUxNzkxMzUzOCwtMj
-AyMzQzODMxMywxMDc2NTMwMTk4LDEwNzUxNDM5NDhdfQ==
+eyJoaXN0b3J5IjpbODkyMTMwMjA2LC0xNTE3OTEzNTM4LC0yMD
+IzNDM4MzEzLDEwNzY1MzAxOTgsMTA3NTE0Mzk0OF19
 -->
