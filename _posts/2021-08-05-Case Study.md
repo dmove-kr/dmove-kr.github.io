@@ -8,7 +8,7 @@ Case Study - Atlassian Jira 와 메신저 연동
 
 그리고 메신저 솔루션을 도입해 사용 중인 대부분의 기업은 중요한 Notification 을 E-Mail 보다는 메신저를 통해 받는 것을 선호하고 계십니다.
 
-메신저 솔루션은 SaaS 형태의 Slack 이나 Teams 부터, 오픈소스 기반의 설치형 솔루션인 Mattermost 나 Rocket Chat, 그리고 그 밖에 다양한 벤더사들의 제품이 존재합니다. 
+메신저 솔루션은 SaaS 형태의 Slack 이나 Teams 부터, 오픈소스 기반의 설치형 솔루션인 [Mattermost](http://dmove.co.kr/products/mattermost) 나 Rocket Chat, 그리고 그 밖에 다양한 벤더사들의 제품이 존재합니다. 
 
 이러한 다양한 종류의 메신저와의 Notification 연동은 대부분의 기업형 솔루션들이 가지고 있는 숙제가 되고 있습니다.
 
@@ -65,6 +65,6 @@ Jira처럼 웹 리퀘스트를 발생시킬 수 있는 솔루션들이 있다면
 
 하지만 다우 메신저는 Jira와 연동할수 있는 Add-on이 없죠.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc5MTM1MzgsLTIwMjM0MzgzMTMsMT
-A3NjUzMDE5OCwxMDc1MTQzOTQ4XX0=
+eyJoaXN0b3J5IjpbMTc4MzAyMDg5NywtMTUxNzkxMzUzOCwtMj
+AyMzQzODMxMywxMDc2NTMwMTk4LDEwNzUxNDM5NDhdfQ==
 -->
