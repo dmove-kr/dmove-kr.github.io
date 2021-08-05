@@ -87,9 +87,9 @@ Jira 뿐만 아니라 Atlassian의 모든 제품의 가장 큰 특징 중 하나
 
 언제든지 아틀라시안 전문 파트너인 디무브에게 문의해주세요.
 
-감사합니다.
+감사합니다. 😃
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODcwOTk3NzMsODA3MTg2MTgwLC0xMz
-IwNjExMjIxLC0xNTE3OTEzNTM4LC0yMDIzNDM4MzEzLDEwNzY1
-MzAxOTgsMTA3NTE0Mzk0OF19
+eyJoaXN0b3J5IjpbMTcwODAwNjU3MSw4MDcxODYxODAsLTEzMj
+A2MTEyMjEsLTE1MTc5MTM1MzgsLTIwMjM0MzgzMTMsMTA3NjUz
+MDE5OCwxMDc1MTQzOTQ4XX0=
 -->
