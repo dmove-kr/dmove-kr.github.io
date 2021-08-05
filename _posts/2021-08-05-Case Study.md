@@ -2,7 +2,7 @@ Case Study - Atlassian Jira 와 메신저 연동
 
 ![Banner](/assets/images/blog/Case Study_1.png)
 
-안녕하세요, 디무브입니다. 🎈
+안녕하세요, 디무브입니다! 🎈
 
 메신저는 즉각적인 피드백을 주고 받을 수 있다는 장점 때문에 기업의 중요한 커뮤니케이션 채널로 자리 잡았습니다. 
 
@@ -89,7 +89,7 @@ Jira 뿐만 아니라 Atlassian의 모든 제품의 가장 큰 특징 중 하나
 
 감사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTcxMzQ4OCw4MDcxODYxODAsLTEzMj
-A2MTEyMjEsLTE1MTc5MTM1MzgsLTIwMjM0MzgzMTMsMTA3NjUz
-MDE5OCwxMDc1MTQzOTQ4XX0=
+eyJoaXN0b3J5IjpbLTE2ODcwOTk3NzMsODA3MTg2MTgwLC0xMz
+IwNjExMjIxLC0xNTE3OTEzNTM4LC0yMDIzNDM4MzEzLDEwNzY1
+MzAxOTgsMTA3NTE0Mzk0OF19
 -->
