@@ -1,5 +1,6 @@
 Case Study - Atlassian Jira 와 메신저 연동
 
+![Banner](/assets/images/blog/Case Study_1.png)
 
 안녕하세요, 디무브입니다. 🎈
 
@@ -21,8 +22,8 @@ Atlassian 에서는 자체적인 Marketplace 에서 다양한 3rd Party Addon �
 
 연동을 하고나면 메신저에서 메신저 채널 별로 Jira 이슈의 생성 또는 업데이트 시 알림을 받게 되죠.
 
-![Jira Issue](/assets/images/blog/Case Study_1.png)
+![Jira Issue](/assets/images/blog/Case Study_2.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTE0Mzk0OF19
+eyJoaXN0b3J5IjpbMTA3NjUzMDE5OCwxMDc1MTQzOTQ4XX0=
 -->
