@@ -7,6 +7,7 @@ categories: [Atlassian Solutions]
 tags: [Atlassian, 아틀라시안, 지라, 슬랙, 팀즈, Jira, Slack, Teams, 메신저연동, 지라연동]
 ---
 
+
 ![Banner](/assets/images/blog/Case Study_1.png)
 
 안녕하세요, 디무브입니다! 🎈
