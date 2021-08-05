@@ -19,11 +19,11 @@ Atlassian의 Jira는 프로젝트 관리와 소프트웨어 개발에 있어 가
 실제로 디무브에서도 Atlassian 관련 프로젝트를 진행하며 메신저 연동과 관련된 요구사항과 이에 대한 구현 작업을 여러 차례 경험하였고, 이를 Case Study로 정리해서 공유해 드리고자 합니다. 
 
 ---
-## Case 1. 애드온을 통한 연동 
+## Case 1. Add-on을 통한 연동 
 
 > **메신저와 이슈 트래커, 이 둘을 연동하여 함께 사용한다면 훨씬 유용하고 시너지는 배가 되지 않을까?**
 
-기본적으로 Atlassian 에서는 자체적인 Marketplace 에서 다양한 3rd Party Addon 을 제공하고 있으며, Slack 이나 Teams 같은 자주 사용되는 메신저 솔루션과의 연동은 유료나 무료로 판매되는 이러한 3rd Party Addon 을 통해 쉽게 구현 가능합니다.
+기본적으로 Atlassian 에서는 자체적인 Marketplace에서 다양한 Add-on 을 제공하고 있으며, Slack이나 MS Team와 같은 자주 사용되는 메신저 솔루션과의 연동은 유료나 무료로 판매되는 Add-on 을 통해 쉽게 구현 가능합니다.
 
 연동을 하고나면 메신저에서 메신저 채널 별로 Jira 이슈의 생성 또는 업데이트 시 알림을 받게 됩니다. 
 
@@ -65,6 +65,6 @@ Jira처럼 웹 리퀘스트를 발생시킬 수 있는 솔루션들이 있다면
 
 하지만 다우 메신저는 Jira와 연동할수 있는 Add-on이 없죠.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MzAyMDg5NywtMTUxNzkxMzUzOCwtMj
-AyMzQzODMxMywxMDc2NTMwMTk4LDEwNzUxNDM5NDhdfQ==
+eyJoaXN0b3J5IjpbODU3NjY4MzUzLC0xNTE3OTEzNTM4LC0yMD
+IzNDM4MzEzLDEwNzY1MzAxOTgsMTA3NTE0Mzk0OF19
 -->
