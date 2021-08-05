@@ -66,10 +66,11 @@ Jira처럼 웹 리퀘스트를 발생시킬 수 있는 솔루션들이 있다면
 
 여느 조직이나 마찬가지겠지만, 금융권은 특히 새로운 툴을 도입하거나 변화를 주는게 쉽지는 않습니다.  
 
-이 고객사는 “_Cloud 버전 구성을 하면서 메신저는 기존에 쓰던 다우 메신저를 연동하여 개개인 별로 Slack과 동일한 화면으로 알림을 받을 수 있는게 요구사항 “_ 중 하나였습니다.  
+ 고객사의 요구사항 중 하나는 바로 “_Jira Cloud 버전을 구성 하면서 메신저는 기존에 쓰던 다우 메신저와 연동하여 개개인 별로 Slack과 동일한 화면으로 알림을 받을 수 있으면 좋겠다 “_ 중 하나였습니다.  
 
 하지만 다우 메신저는 Jira와 연동할수 있는 Add-on이 없죠.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA2MTEyMjEsLTE1MTc5MTM1MzgsLT
-IwMjM0MzgzMTMsMTA3NjUzMDE5OCwxMDc1MTQzOTQ4XX0=
+eyJoaXN0b3J5IjpbLTExOTM1NjEwMjcsLTEzMjA2MTEyMjEsLT
+E1MTc5MTM1MzgsLTIwMjM0MzgzMTMsMTA3NjUzMDE5OCwxMDc1
+MTQzOTQ4XX0=
 -->
