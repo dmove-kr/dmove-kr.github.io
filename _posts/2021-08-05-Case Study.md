@@ -1,7 +1,13 @@
+Case Study - Atlassian Jira 와 메신저 연동
 
 
+안녕하세요, 디무브입니다. 🎈
 
-> Written with [StackEdit](https://stackedit.io/).
+메신저는 즉각적인 피드백을 주고 받을 수 있다는 장점 때문에 기업의 중요한 커뮤니케이션 채널로 자리 잡았습니다. 그리고 메신저 솔루션을 도입해 사용 중인 대부분의 기업은 중요한 Notification 을 E-Mail 보다는 메신저를 통해 받는 것을 선호하고 계십니다.
+
+메신저 솔루션은 SaaS 형태의 Slack이나 Teams 부터, 오픈소스 기반의 설치형 솔루션인 Mattermost 나 Rocket Chat, 그리고 그 밖에 다양한 벤더사들의 제품이 존재하며, 이러한 다양한 종류의 메신저와의 Notification 연동은 대부분의 기업형 솔루션들이 가지고 있는 숙제가 되고 있습니다.
+
+Atlassian 의 Jira 솔루션은 프로젝트 관리와 소프트웨어 개발에 있어 가장 주목받고 있는 솔루션이며, 많은 개발 조직에서 Jira 를 활용하여 과업 관리와 이슈 트래킹, CICD 연계를 위해 사용하고 계십니다. Jira 역시 다른 기업형 솔루션들처럼 메신저와의 연동에 대한 요구를 상시 받고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTA3MTA4Nzk5XX0=
 -->
