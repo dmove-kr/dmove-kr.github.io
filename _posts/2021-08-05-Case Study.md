@@ -41,11 +41,13 @@ _“이렇게 채널 별로 알림을 받으면 불필요한 인원들도 불필
 
 ![Module](/assets/images/blog/Case Study_3.png)
 
-#
-지라에는 웹 리퀘스트를 보낼 수 있는 기능이 자체적으로 내장되어 있습니다. 그래서 지라의 중요 이벤트 발생 시 주요 데이터를 지정한 URL 로 보낼 수 있습니다. 이를 활용하여 지라에서 웹 리퀘스트를 보내주면 이를 파싱하여 필요한 데이터만 Teams 의 RestAPI 를 활용해 DM 을 보내는 형태로 동작되게 됩니다.
+## Case 3. 자체 연동 모듈 개발 
 
-지라처럼 웹 리퀘스트를 발생시킬 수 있는 솔루션들이 있다면 저희가 사용한 방법을 모두 활용하실 수 있을것입니다.
+Jira에는 웹 리퀘스트를 보낼 수 있는 기능이 자체적으로 내장되어 있습니다. 그래서 Jira의 중요 이벤트 발생 시 주요 데이터를 지정한 URL 로 보낼 수 있습니다. 
+이를 활용하여 Jira에서 웹 리퀘스트를 보내주면 이를 파싱하여 필요한 데이터만 Teams(또는 타 메신저)의 RestAPI 를 활용해 DM 을 보내는 형태로 동작되게 됩니다.
+
+ㅓ처럼 웹 리퀘스트를 발생시킬 수 있는 솔루션들이 있다면 저희가 사용한 방법을 모두 활용하실 수 있을것입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjgyNjUsLTIwMjM0MzgzMTMsMTA3Nj
-UzMDE5OCwxMDc1MTQzOTQ4XX0=
+eyJoaXN0b3J5IjpbMTk5OTc1MDI5NCwtMjAyMzQzODMxMywxMD
+c2NTMwMTk4LDEwNzUxNDM5NDhdfQ==
 -->
