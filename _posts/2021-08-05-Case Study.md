@@ -62,7 +62,7 @@ Jira처럼 웹 리퀘스트를 발생시킬 수 있는 솔루션들이 있다면
 
 > 연동 Add-on이 없는 기존의 상용 메신저를 Jira와 연동하고싶다.
 
-이번 고객사도 마찬가지로 금융권입니다. 
+이번 케이스는 위 케이스와는 다른 금융권 고객사 입니다.
 
 여느 조직이나 마찬가지겠지만, 금융권은 특히 새로운 툴을 도입하거나 변화를 주는게 쉽지는 않습니다.  
 
@@ -89,7 +89,7 @@ Jira 뿐만 아니라 Atlassian의 모든 제품의 가장 큰 특징 중 하나
 
 감사합니다. 😃
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODAwNjU3MSw4MDcxODYxODAsLTEzMj
-A2MTEyMjEsLTE1MTc5MTM1MzgsLTIwMjM0MzgzMTMsMTA3NjUz
-MDE5OCwxMDc1MTQzOTQ4XX0=
+eyJoaXN0b3J5IjpbLTIzODI2MzU4NSwxNzA4MDA2NTcxLDgwNz
+E4NjE4MCwtMTMyMDYxMTIyMSwtMTUxNzkxMzUzOCwtMjAyMzQz
+ODMxMywxMDc2NTMwMTk4LDEwNzUxNDM5NDhdfQ==
 -->
