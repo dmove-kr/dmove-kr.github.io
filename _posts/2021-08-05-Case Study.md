@@ -15,7 +15,7 @@ Atlassian의 Jira는 프로젝트 관리와 소프트웨어 개발에 있어 가
 실제로 디무브에서도 Atlassian 관련 프로젝트를 진행하며 메신저 연동과 관련된 요구사항과 이에 대한 구현 작업을 여러 차례 경험하였고, 이를 Case Study로 정리해서 공유해 드리고자 합니다. 
 
 ---
-## 애드온을 통한 연동 
+## Case 1. 애드온을 통한 연동 
 
 > **메신저와 이슈 트래커, 이 둘을 연동하여 함께 사용한다면 훨씬 유용하고 시너지는 배가 되지 않을까?**
 
@@ -27,7 +27,7 @@ Atlassian의 Jira는 프로젝트 관리와 소프트웨어 개발에 있어 가
 
 ---
 
-## 개인별 알림 설정
+## Case 2. 개인별 알림 설정
 
 > 채널 별로 알림을 받는것이 아닌 개인별로 알림을 받고싶다.
 
@@ -35,12 +35,17 @@ Atlassian의 Jira는 프로젝트 관리와 소프트웨어 개발에 있어 가
 
 _“이렇게 채널 별로 알림을 받으면 불필요한 인원들도 불필요한 알림을 받게된다. 우리는 개인별로 관련된 알림만 받고싶다.”_
 
-기존의 방법처럼 Add-on을 사용하여 연동을 할 경우 해당 인원을 채널 별로 구성 하는 수작업을 진행했었어야 했고, 그렇지 않으면 불가능한 요구사항이겠죠.
+기존의 방법처럼 Add-on을 사용하여 연동을 할 경우 해당 인원을 채널 별로 구성 하는 수작업을 진행했었어야 했고, 그렇지 않으면 단순히 설정만으로는 불가능한 요구사항 이었습니다. 
 
 **그래서 저희는 Add-on을 사용하지 않고 자체적으로 연동 모듈을 만들어 알림을 커스텀이 가능하도록 했습니다.**
 
-![](blob:https://dmove.atlassian.net/e2d0e4fb-187c-4beb-ac86-4e96937a182c#media-blob-url=true&id=d675fa0c-9461-40c4-b5e8-bf83a7b90ab4&collection=contentId-133398799&contextId=133398799&mimeType=image%2Fpng&name=%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-07-13%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.58.07.png&size=38491&width=1166&height=176)
+![Module](/assets/images/blog/Case Study_3.png)
+
+#
+지라에는 웹 리퀘스트를 보낼 수 있는 기능이 자체적으로 내장되어 있습니다. 그래서 지라의 중요 이벤트 발생 시 주요 데이터를 지정한 URL 로 보낼 수 있습니다. 이를 활용하여 지라에서 웹 리퀘스트를 보내주면 이를 파싱하여 필요한 데이터만 Teams 의 RestAPI 를 활용해 DM 을 보내는 형태로 동작되게 됩니다.
+
+지라처럼 웹 리퀘스트를 발생시킬 수 있는 솔루션들이 있다면 저희가 사용한 방법을 모두 활용하실 수 있을것입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTgwMTQ4MywtMjAyMzQzODMxMywxMD
-c2NTMwMTk4LDEwNzUxNDM5NDhdfQ==
+eyJoaXN0b3J5IjpbLTgwMjgyNjUsLTIwMjM0MzgzMTMsMTA3Nj
+UzMDE5OCwxMDc1MTQzOTQ4XX0=
 -->
