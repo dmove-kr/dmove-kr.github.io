@@ -71,8 +71,16 @@ Jira처럼 웹 리퀘스트를 발생시킬 수 있는 솔루션들이 있다면
 하지만 다우 메신저는 Jira와 연동할수 있는 Add-on이 없는 상태 입니다. 
 
 **그래서 이번에도 자체적으로 연동 모듈을 만들어 알림을 커스텀이 가능하도록 했습니다.**
+
+![Module](/assets/images/blog/Case Study_4.png)
+
+모듈의 원리는 동일하며 2번째 사례의 코드를 활용하여 간단히 메신저 연동을 구현했습니다.
+
+---
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTE2NzQyMSwtMTMyMDYxMTIyMSwtMT
-UxNzkxMzUzOCwtMjAyMzQzODMxMywxMDc2NTMwMTk4LDEwNzUx
-NDM5NDhdfQ==
+eyJoaXN0b3J5IjpbODA3MTg2MTgwLC0xMzIwNjExMjIxLC0xNT
+E3OTEzNTM4LC0yMDIzNDM4MzEzLDEwNzY1MzAxOTgsMTA3NTE0
+Mzk0OF19
 -->
