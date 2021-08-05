@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Case Study] 아틀라시안 Jira와 사내 메신저 연동
+title: Case Study - 아틀라시안 Jira와 사내 메신저 연동
 Subtitle: Messengaer Intigration with Jira
 date: 2021-08-05
 categories: [Atlassian Solutions]
