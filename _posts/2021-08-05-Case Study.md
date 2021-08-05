@@ -81,8 +81,15 @@ Jira처럼 웹 리퀘스트를 발생시킬 수 있는 솔루션들이 있다면
 Jira 뿐만 아니라 Atlassian의 모든 제품의 가장 큰 특징 중 하나가 바로 타 도구들과의 통합이기 때문에, 여러 메신저와의 연동 자체에는 큰 어려움이 없습니다.
 
 하지만 위 케이스들 처럼, 업무와 무관하거나 불필요한 알림이 무분별하게 메신저로 날라와 방해받고 싶지 않은 마음은 모두 똑같기 때문에, **Jira 이슈의 내용을 관련된 사람 개개인에게 메신저를 통해 알림을 오도록 설정**하고 싶다는 요구사항은 많은 고객 분들께서 갖고 계신 부분이었습니다.
+
+**우리 조직도 Jira와 사내 메신저를 효과적으로 연동해서 사용하고 싶으신가요?**  
+**또는 메신저 연동과 관련된 또 다른 고민을 하고 계신가요?**
+
+언제든지 아틀라시안 전문 파트너인 디무브에게 문의해주세요.
+
+감사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5MjA3MDc4LDgwNzE4NjE4MCwtMTMyMD
-YxMTIyMSwtMTUxNzkxMzUzOCwtMjAyMzQzODMxMywxMDc2NTMw
-MTk4LDEwNzUxNDM5NDhdfQ==
+eyJoaXN0b3J5IjpbMjAwMTcxMzQ4OCw4MDcxODYxODAsLTEzMj
+A2MTEyMjEsLTE1MTc5MTM1MzgsLTIwMjM0MzgzMTMsMTA3NjUz
+MDE5OCwxMDc1MTQzOTQ4XX0=
 -->
