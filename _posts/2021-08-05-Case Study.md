@@ -31,16 +31,16 @@ Atlassian의 Jira는 프로젝트 관리와 소프트웨어 개발에 있어 가
 
 > 채널 별로 알림을 받는것이 아닌 개인별로 알림을 받고싶다.
 
-최근 디무브를 통해 Jira Jira를 신규 도입한 금융권 고객사 중 기존에 메신저를 Teams를 사용하고 있었던 고객사가 있었습니다. 이 곳의 요청 사항은 채널별이 아닌 개인별로 Notification 을 받아 보고 싶다는 것이었습니다.
+최근 디무브를 통해 Jira를 신규로 도입한 금융권 고객사 한 곳은 사내 메신저로 Teams를 사용하고 있었습니다. 이 곳의 요청 사항은 채널별이 아닌 개인별로 Notification 을 받아 보고 싶다는 것이었습니다.
 
 _“이렇게 채널 별로 알림을 받으면 불필요한 인원들도 불필요한 알림을 받게된다. 우리는 개인별로 관련된 알림만 받고싶다.”_
 
-기존의 방법처럼 Add-on을 사용하여 연동을 했다면 인원을 채널 별로 구성을 하는 수작업을 했다면 모르겠지만 그렇지 않으면 불가능한 요구사항이겠죠.
+기존의 방법처럼 Add-on을 사용하여 연동을 할 경우 해당 인원을 채널 별로 구성 하는 수작업을 진행했었어야 했고, 그렇지 않으면 불가능한 요구사항이겠죠.
 
 **그래서 저희는 Add-on을 사용하지 않고 자체적으로 연동 모듈을 만들어 알림을 커스텀이 가능하도록 했습니다.**
 
 ![](blob:https://dmove.atlassian.net/e2d0e4fb-187c-4beb-ac86-4e96937a182c#media-blob-url=true&id=d675fa0c-9461-40c4-b5e8-bf83a7b90ab4&collection=contentId-133398799&contextId=133398799&mimeType=image%2Fpng&name=%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-07-13%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.58.07.png&size=38491&width=1166&height=176)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDM3MTU0NSwtMjAyMzQzODMxMywxMD
+eyJoaXN0b3J5IjpbMTEwOTgwMTQ4MywtMjAyMzQzODMxMywxMD
 c2NTMwMTk4LDEwNzUxNDM5NDhdfQ==
 -->
