@@ -54,7 +54,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 
 
-이전 버전까지는 이미지 첨부가 이메일 알림에 표시되지 않았습니다. 하지만 8.15 이상의 버전부터 이메일 알림에 이미지 첨부 표시 기능이 추가되어 모든 이미지에 보안 토큰을 포함하여 최대 7일동안 알림이 이미지를 보실 수 있습니다.
+이전 버전까지는 이미지 첨부가 이메일 알림에 표시되지 않았습니다. 하지만 8.15 이상의 버전부터 이메일 알림에 이미지 첨부 표시 기능이 추가되어 모든 이미지에 보안 토큰을 포함하여 최대 7일동안 알림 이미지를 보실 수 있습니다.
 
 
 
@@ -247,7 +247,7 @@ API를 통해 Jira 및 Jira Service Management 에서 현재 상태의 데이터
 
 
 
-<p data-renderer-start-pos="4080">Jira 8.15와 같이 추가되어  이메일 알림에 이미지 첨부 표시 기능이 추가되어 모든 이미지에 보안 토큰을 포함하여 최대 7일동안 알림이 이미지를 보실 수 있습니다.</p>
+<p data-renderer-start-pos="4080">Jira 8.15와 같이 추가되어  이메일 알림에 이미지 첨부 표시 기능이 추가되어 모든 이미지에 보안 토큰을 포함하여 최대 7일동안 알림 이미지를 보실 수 있습니다.</p>
 
 <p data-renderer-start-pos="4176">&nbsp;</p>
 
@@ -368,7 +368,9 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 
 
-Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니다. 해당 기능을 통해 이벤트, 릴리즈 휴일 등 팀에 영향을 미치는 이벤트를 생성하여 캘린더를 구성하실 수 있습니다.  또한 Jira,  Opsgenie, Outlook, Google 등 다양한 제품들과 연동이 가능합니다.
+Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니다. 해당 기능을 통해 이벤트, 릴리즈 휴일 등 팀에 영향을 미치는 이벤트를 생성하여 캘린더를 구성하실 수 있습니다.  
+
+또한 Jira,  Opsgenie, Outlook, Google 등 다양한 제품들과 연동이 가능합니다.
 
 
 
