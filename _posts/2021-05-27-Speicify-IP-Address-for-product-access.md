@@ -19,7 +19,7 @@ IP 주소 허용 기능은 현재  Jira와  Confluence Cloud의 Premium 플랜�
 
 ## IP 주소 허용(White List)이란? 
 
-IP 허용 목록은 통해 사용자가 Jira Software, Jira Service Management, Confluence 용 콘텐츠에 액세스 할 때 허용할 수 있는 IP를 지정하여 **특정 IP만 접근이 가능하도록 허용하는 것**입니다.
+IP 허용 목록 통해 사용자가 Jira Software, Jira Service Management, Confluence 용 콘텐츠에 액세스 할 때 허용할 수 있는 IP를 지정하여 **특정 IP만 접근이 가능하도록 허용하는 것**입니다.
 
 Jira Software Cloud Premium에 대한 허용 목록을 설정하면 동일한 사이트의 Jira Service Management에 대한 고객 및 에이전트 포털에도 적용 되며, 이는 Confluence에도 동일하게 적용됩니다.
 
