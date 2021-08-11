@@ -8,11 +8,11 @@ categories: [Atlassian Release Note]
 tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Data Center, Atlassian, 아틀라시안, 아틀라시안데이터센터]
 ---
 
-![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
 
 안녕하세요, 디무브 입니다! :balloon:
 
- 
+
 지난 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었는데요. 
 
 각 제품의 Server 및 Data Center 버전에는 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다.
@@ -34,7 +34,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 
 
-![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-1.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-1.png)
 
 
 
@@ -50,7 +50,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 
 
-![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-2.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-2.png)
 
 
 
@@ -68,7 +68,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 #### 1. 사용자 지정 필드 개선 [Data Center] 
 
 
-![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-3.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-3.png)
 
 사용자 지정 필드가 많아지면 Jira 인스턴스를 복잡하게 만들며 성능에 영향을 미칩니다. 하지만 필드를 삭제할 때 어떠한 필드를 삭제하면 좋을지 파악하기란 쉽지 않았습니다.
 
@@ -84,7 +84,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 #### 2. 설명(Description)필드의 기본값 설정
 
-![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-4.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-4.png)
 
  이전 까지는 설명 필드에 공통적인 내용 작성 시 매번 생성할 때마다 같은 내용을 입력해야 하는 번거로움이 있었습니다. 하지만 이번 업데이트로 설명 필드에 기본값을 생성할 수 있어 Confluence의 템플릿과 같이 활용할 수 있게 되었습니다.
 
@@ -95,7 +95,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 
 
-![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-5.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-5.png)
 
 
 
@@ -106,7 +106,7 @@ DVCS 계정을 더 수월하게 관리할 수 있도록 개선되었습니다. �
 #### 4. 사용자가 여러 ID 공급자로 로그인하도록 허용 [Data Center]
 
 
-![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-6.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-6.png)
 
 
 SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로그인 시 적합한 환경에서 로그인 할 수 있게 되었습니다. 새로운 모든 로그인 방법은 Jira Service Management의 고객 포털에 대해 독립적으로 활성화 할 수 있습니다.
@@ -117,7 +117,7 @@ SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로�
 
 
 
-![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-7.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-7.png)
 
 
 
@@ -132,15 +132,33 @@ SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로�
 <p data-renderer-start-pos="1637"><strong data-renderer-mark="true">■ Version 8.15</strong></p>
 
 
-<table data-number-column="false"><colgroup><col style="width: 418px;"><col style="width: 211px;"><col style="width: 128px;"></colgroup><tbody><tr><th rowspan="1" colspan="1" colorname="" class="ak-renderer-tableHeader-sortable-column" data-colwidth="419"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="1656"><strong data-renderer-mark="true">Summary</strong></p></div><figure class="ak-renderer-tableHeader-sorting-icon ak-renderer-tableHeader-sorting-icon__no-order"><div role="presentation"><figure class="sc-erNlkL ggzRUZ"><div class="sorting-icon-svg__no_order table-sorting-icon-inactive sc-FQuPU eaHKqG"></div></figure></div></figure></th><th rowspan="1" colspan="1" colorname="" class="ak-renderer-tableHeader-sortable-column" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="1667"><strong data-renderer-mark="true">Key</strong></p></div><figure class="ak-renderer-tableHeader-sorting-icon ak-renderer-tableHeader-sorting-icon__no-order"><div role="presentation"><figure class="sc-erNlkL ggzRUZ"><div class="sorting-icon-svg__no_order table-sorting-icon-inactive sc-FQuPU eaHKqG"></div></figure></div></figure></th><th rowspan="1" colspan="1" colorname="" class="ak-renderer-tableHeader-sortable-column" data-colwidth="129"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="1674"><strong data-renderer-mark="true">Status</strong></p></div><figure class="ak-renderer-tableHeader-sorting-icon ak-renderer-tableHeader-sorting-icon__no-order"><div role="presentation"><figure class="sc-erNlkL ggzRUZ"><div class="sorting-icon-svg__no_order table-sorting-icon-inactive sc-FQuPU eaHKqG"></div></figure></div></figure></th></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="419"><p data-renderer-start-pos="1686">Kanban 보드의 Drag and Drog 기능을 통해 전환 시 대기 상태 열의 모든 전환을 표시하지 않은 현상</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="1753"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JSWSERVER-20774?src=confmacro" title="https://jira.atlassian.com/browse/JSWSERVER-20774?src=confmacro" data-renderer-mark="true">JSWSERVER-20774</a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="129"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="1772"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span> </p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="419"><p data-renderer-start-pos="1780">인사이트 문서의 링크가 깨지는 현상</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="1803"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JRASERVER-72302?src=confmacro" title="https://jira.atlassian.com/browse/JRASERVER-72302?src=confmacro" data-renderer-mark="true"><u data-renderer-mark="true">JRASERVER-72302</u></a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="129"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="1822"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span>  </p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="419"><p data-renderer-start-pos="1831">LDAP 인증에서 Health Check가 실패하는 현상</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="1866"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JRASERVER-71855?src=confmacro" title="https://jira.atlassian.com/browse/JRASERVER-71855?src=confmacro" data-renderer-mark="true">JRASERVER-71855</a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="129"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="1885"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span>  </p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="419"><p data-renderer-start-pos="1894">새 프로젝트로 보드를 생성 시 오류가 표시되는 현상</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="1926"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JRASERVER-71839?src=confmacro" title="https://jira.atlassian.com/browse/JRASERVER-71839?src=confmacro" data-renderer-mark="true"><u data-renderer-mark="true">JRASERVER-71839</u></a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="129"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="1945"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span>  </p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="419"><p data-renderer-start-pos="1954">새로운 보드를 생성하는 동안 Project Lead가 선택되지 않는 현상</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="1998"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JRASERVER-71811?src=confmacro" title="https://jira.atlassian.com/browse/JRASERVER-71811?src=confmacro" data-renderer-mark="true">JRASERVER-71811</a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="129"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2017"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span>  </p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="419"><p data-renderer-start-pos="2026">Azure DB 서비스를 SQL Server 2014로 표시하지만</p><p data-renderer-start-pos="2064">데이터베이스가 SQL Server 2017인 상태로 확인</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2099"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JRASERVER-71549?src=confmacro" title="https://jira.atlassian.com/browse/JRASERVER-71549?src=confmacro" data-renderer-mark="true">JRASERVER-71549</a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="129"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2118"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span>  </p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="419"><p data-renderer-start-pos="2127">이슈 편집 권한 없이 에픽 링크를 이용할 수 없는 현상</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2161"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JSWSERVER-20770?src=confmacro" title="https://jira.atlassian.com/browse/JSWSERVER-20770?src=confmacro" data-renderer-mark="true">JSWSERVER-20770</a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="129"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2180"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span>  </p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="419"><p data-renderer-start-pos="2189">JQL 검색 박스가 너무 좁은 현상</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2212"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JRASERVER-71290?src=confmacro" title="https://jira.atlassian.com/browse/JRASERVER-71290?src=confmacro" data-renderer-mark="true"><u data-renderer-mark="true">JRASERVER-71290</u></a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="129"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2231"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span>  </p></div></td></tr></tbody></table>
+
+| **Summary**                                                  | **Key**                                                      | **Status** |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :--------- |
+| Kanban 보드의 Drag and Drog 기능을 통해 전환 시 <br />대기 상태 열의 모든 전환을 표시하지 않은 현상 | [JSWSERVER-20774](https://jira.atlassian.com/browse/JSWSERVER-20774?src=confmacro) | **CLOSED** |
+| 인사이트 문서의 링크가 깨지는 현상                           | [JRASERVER-72302](https://jira.atlassian.com/browse/JRASERVER-72302?src=confmacro) | **CLOSED** |
+| LDAP 인증에서 Health Check가 실패하는 현상                   | [JRASERVER-71855](https://jira.atlassian.com/browse/JRASERVER-71855?src=confmacro) | **CLOSED** |
+| 새 프로젝트로 보드를 생성 시 오류가 표시되는 현상            | [JRASERVER-71839](https://jira.atlassian.com/browse/JRASERVER-71839?src=confmacro) | **CLOSED** |
+| 새로운 보드를 생성하는 동안 Project Lead가 선택되지 않는 현상 | [JRASERVER-71811](https://jira.atlassian.com/browse/JRASERVER-71811?src=confmacro) | **CLOSED** |
+| Azure DB 서비스를 SQL Server 2014로 표시하지만<br />데이터베이스가 SQL Server 2017인 상태로 확인 | [JRASERVER-71549](https://jira.atlassian.com/browse/JRASERVER-71549?src=confmacro) | **CLOSED** |
+| 이슈 편집 권한 없이 에픽 링크를 이용할 수 없는 현상          | [JSWSERVER-20770](https://jira.atlassian.com/browse/JSWSERVER-20770?src=confmacro) | **CLOSED** |
+| JQL 검색 박스가 너무 좁은 현상                               | [JRASERVER-71290](https://jira.atlassian.com/browse/JRASERVER-71290?src=confmacro) | **CLOSED** |
+
+ 
+
+**■ Version 8.16**
 
 
 
-<p data-renderer-start-pos="2241"><strong data-renderer-mark="true">■ Version 8.16</strong></p>
+| **Summary**                                                  | **Key**                                                      | **Status** |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :--------- |
+| 상위 작업에서 하위 작업 완료 시 Active Sprint 에서 Java Script 오류가 발생 | [JSWSERVER-20837](https://jira.atlassian.com/browse/JSWSERVER-20837?src=confmacro) | **CLOSED** |
+| 이슈를 편집할 때 “Move to Done“ 버튼이 사라지는 현상         | [JSWSERVER-20788](https://jira.atlassian.com/browse/JSWSERVER-20788?src=confmacro) | **CLOSED** |
+| 프로젝트 유형 아이콘의 대비가 충분하지 않은 현상             | [JSWSERVER-20758](https://jira.atlassian.com/browse/JSWSERVER-20758?src=confmacro) | **CLOSED** |
+| Sprint picker 필드가 Cpu에 과부하를 발생시키는 현상          | [JSWSERVER-20445](https://jira.atlassian.com/browse/JSWSERVER-20445?src=confmacro) | **CLOSED** |
+| DB 연결 실패로 인한 스레드로 인해 사용자 인증이 멈추는 현상  | [JRASERVER-71876](https://jira.atlassian.com/browse/JRASERVER-71876?src=confmacro) | **CLOSED** |
 
-
-
-<table data-number-column="false"><colgroup><col style="width: 421px;"><col style="width: 211px;"><col style="width: 125px;"></colgroup><tbody><tr><th rowspan="1" colspan="1" colorname="" class="ak-renderer-tableHeader-sortable-column" data-colwidth="422"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2260"><strong data-renderer-mark="true">Summary</strong></p></div><figure class="ak-renderer-tableHeader-sorting-icon ak-renderer-tableHeader-sorting-icon__no-order"><div role="presentation"><figure class="sc-erNlkL ggzRUZ"><div class="sorting-icon-svg__no_order table-sorting-icon-inactive sc-FQuPU eaHKqG"></div></figure></div></figure></th><th rowspan="1" colspan="1" colorname="" class="ak-renderer-tableHeader-sortable-column" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2271"><strong data-renderer-mark="true">Key</strong></p></div><figure class="ak-renderer-tableHeader-sorting-icon ak-renderer-tableHeader-sorting-icon__no-order"><div role="presentation"><figure class="sc-erNlkL ggzRUZ"><div class="sorting-icon-svg__no_order table-sorting-icon-inactive sc-FQuPU eaHKqG"></div></figure></div></figure></th><th rowspan="1" colspan="1" colorname="" class="ak-renderer-tableHeader-sortable-column" data-colwidth="126"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2278"><strong data-renderer-mark="true">Status</strong></p></div><figure class="ak-renderer-tableHeader-sorting-icon ak-renderer-tableHeader-sorting-icon__no-order"><div role="presentation"><figure class="sc-erNlkL ggzRUZ"><div class="sorting-icon-svg__no_order table-sorting-icon-inactive sc-FQuPU eaHKqG"></div></figure></div></figure></th></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="422"><p data-renderer-start-pos="2290">상위 작업에서 하위 작업 완료 시 Active Sprint 에서 Java Script 오류가 발생</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2348"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JSWSERVER-20837?src=confmacro" title="https://jira.atlassian.com/browse/JSWSERVER-20837?src=confmacro" data-renderer-mark="true">JSWSERVER-20837</a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="126"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2367"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span>  </p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="422"><p data-renderer-start-pos="2376">이슈를 편집할 때 “Move to Done“ 버튼이 사라지는 현상</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2416"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JSWSERVER-20788?src=confmacro" title="https://jira.atlassian.com/browse/JSWSERVER-20788?src=confmacro" data-renderer-mark="true">JSWSERVER-20788</a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="126"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2435"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span>  </p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="422"><p data-renderer-start-pos="2444">프로젝트 유형 아이콘의 대비가 충분하지 않은 현상</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2475"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JSWSERVER-20758?src=confmacro" title="https://jira.atlassian.com/browse/JSWSERVER-20758?src=confmacro" data-renderer-mark="true">JSWSERVER-20758</a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="126"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2494"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span>  </p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="422"><p data-renderer-start-pos="2503">Sprint picker 필드가 Cpu에 과부하를 발생시키는 현상</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2543"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JSWSERVER-20445?src=confmacro" title="https://jira.atlassian.com/browse/JSWSERVER-20445?src=confmacro" data-renderer-mark="true"><u data-renderer-mark="true">JSWSERVER-20445</u></a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="126"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2562"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span>  </p></div></td></tr><tr><td rowspan="1" colspan="1" colorname="" data-colwidth="422"><p data-renderer-start-pos="2571">DB 연결 실패로 인한 스레드로 인해 사용자 인증이 멈추는 현상</p></td><td rowspan="1" colspan="1" colorname="" data-colwidth="212"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2610"><a class="sc-gleUXh dNInRj" href="https://jira.atlassian.com/browse/JRASERVER-71876?src=confmacro" title="https://jira.atlassian.com/browse/JRASERVER-71876?src=confmacro" data-renderer-mark="true">JRASERVER-71876</a></p></div></td><td rowspan="1" colspan="1" colorname="" data-colwidth="126"><div class="fabric-editor-block-mark sc-dBaXSw cNSLOA" data-align="center"><p data-renderer-start-pos="2629"><span class="status-lozenge-span" title="Closed" data-node-type="status" data-color="green"><span class="_bfhkaxbu _2rko1nwa _vchhusvi _syaz1u00 _1e0c1o8l _1wyb1skh _k48p1fw0 _vwz4kb7n _p12f1osq _ca0qyh40 _u5f3idpf _n3td1l7b _19bvidpf _1p1dangw _s7n41q9y" style="--_1ly4823:#E3FCEF; --_fer9fa:3px; --_srel9g:#006644;"><span class="_1e0c1o8l _s7n4jp4b _1reo15vq _18m915vq _1bto1l2s _o5721q9c _vchhusvi _ca0qidpf _u5f370xm _n3tdidpf _19bv70xm _p12fvyns _1bsb1osq" style="--_1xlms2h:4px; --_1w406pq:200px;">Closed</span></span></span>  </p></div></td></tr></tbody></table>
+ 
 
 
 
@@ -165,11 +183,11 @@ SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로�
 
 
 
-![릴리즈 노트 Jira Service Management](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-1.png)
+![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-1.png)
 
 
 
-Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로 IT 분야를 포함한 비즈니스 자산을 생성 및 관리하고 요청,사건,변경 등을 통해 상호작용 할 수 있습니다.  또한 H/W, S/W, 사무 기기 등 소유하고 있는 모든 것을 한 눈에 보고 명확하게 분류 할 수 있습니다.  이 앱이 가진 핵심 기능은 다음과 같습니다:
+Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로 IT 분야를 포함한 비즈니스 자산을 생성 및 관리하고 요청, 사건, 변경 등을 통해 상호작용 할 수 있습니다.  또한 H/W, S/W, 사무 기기 등 소유하고 있는 모든 것을 한 눈에 보고 명확하게 분류 할 수 있습니다.  이 앱이 가진 핵심 기능은 다음과 같습니다:
 
 
 
@@ -183,7 +201,7 @@ Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로
 
 
 
-![릴리즈 노트 Jira Service Management](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-2.png)
+![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-2.png)
 
 
 
@@ -197,7 +215,7 @@ Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로
 
 
 
-![릴리즈 노트 Jira Service Management](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-3.png)
+![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-3.png)
 
 
 
@@ -206,7 +224,7 @@ Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로
 
 
 
-![릴리즈 노트 Jira Service Management](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-4.png)
+![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-4.png)
 
 
 
@@ -220,7 +238,7 @@ Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로
 #### 3. 향상된 데이터 인사이트를 Jira Service Management에서 활용
 
 
-![릴리즈 노트 Jira Service Management](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-5.png)
+![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-5.png)
 
 
 
@@ -242,7 +260,7 @@ API를 통해 Jira 및 Jira Service Management 에서 현재 상태의 데이터
 
 
 
-![릴리즈 노트 Jira Service Management](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-6.png)
+![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-6.png)
 
 
 
@@ -315,7 +333,7 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 
 
-![릴리즈 노트 Confluence](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-1.png)
+![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-1.png)
 
 
 날짜 및 콘텐츠 유형별로 보고서를 필터링하고 사이트 전체 보기, 인기있는 공간 식별, 공간 또는 페이지에서 가장 활동적인 사용자를 확인하실 수 있습니다.
@@ -329,7 +347,7 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 
 
-![릴리즈 노트 Confluence](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-2.png)
+![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-2.png)
 
 
 
@@ -346,7 +364,7 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 
 
-![릴리즈 노트 Confluence](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-3.png)
+![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-3.png)
 
 
 
@@ -363,7 +381,7 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 
 
-![릴리즈 노트 Confluence](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-4.png)
+![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-4.png)
 
 
 
@@ -385,7 +403,7 @@ Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니�
 
 
 
-![릴리즈 노트 Confluence](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-5.png)
+![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-5.png)
 
 
 
@@ -399,7 +417,7 @@ Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니�
 
 
 
-<p align="center"><img src="/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-6.png"></p>
+<p align="center"><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-6.png"></p>
 
 
 
@@ -449,7 +467,7 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
 
 
- ![릴리즈 노트 Confluence](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-7.png)
+ ![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-7.png)
 
 
 
@@ -464,7 +482,7 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
 
 
-  ![릴리즈 노트 Confluence](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-8.png)
+  ![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-8.png)
 
 
 
@@ -509,7 +527,7 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
  <hr>
 
-  
+
 Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.
 
 Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!
