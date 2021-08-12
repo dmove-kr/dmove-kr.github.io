@@ -1,4 +1,4 @@
-I"�|<p><img src="https://blog.dmove.kr//assets/images/banners/Zabbix/5.4/image1.png" alt="image1" /></p>
+I"�|<p><img src="https://blog.dmove.kr//assets/images/banners/Zabbix/5.4/image1.png" alt="image1" /></p>
 
 <p></p>
 
@@ -19,7 +19,7 @@
     <p>기존의 Zabbix 5.2 에서는 문제에 대한 “사전-정의” 보기를 도입했었습니다. <strong>Monitoring</strong>  →  <strong>Problems</strong> 에서 필터의 옵션 값에 따라 서로 다른 보기를 설정하고 문제의 유형과 매칭하여 한 번의 클릭으로 보기를 전환해 서로 다른 유형의 정보들을 쉽게 확인할 수 있었습니다.</p>
   </li>
   <li>
-    <p>이번 Zabbix 5.4에서는 Zabbix 5.2에서 분리되어 있던 화면 기능을 <strong>Dashboards</strong>로 통합하여 워크 플로우 간단하고 사용자 친화적으로 만들었습니다.</p>
+    <p>이번 Zabbix 5.4에서는 Zabbix 5.2에서 분리되어 있던 화면 기능을 <strong>Dashboards</strong>로 통합하여 워크 플로우를 간단하고 사용자 친화적으로 만들었습니다.</p>
   </li>
 </ul>
 
@@ -419,7 +419,7 @@ Zabbix 5.4버전의 Scheduled PDF reports 기능을 이용하여 보고서를 �
   <li>
     <p><strong>실시간 내보내기(Real-time exprot)</strong></p>
 
-    <p>＊ 이벤트(장애와 같은)의 심각도에 대한 정보가 실시간 내보기에 포함됩니다.</p>
+    <p>＊ 이벤트(장애와 같은)의 심각도에 대한 정보가 실시간 내보내기에 포함됩니다.</p>
 
     <p>＊ 실시간으로 추출한 정보의 구성 세분화</p>
   </li>
@@ -594,7 +594,7 @@ Zabbix 5.4버전의 Scheduled PDF reports 기능을 이용하여 보고서를 �
 
 <p>→ Zabbix 6.0에 계획된 일부 변경 사항은 비즈니스 서비스 모니터링과 관련이 있으며 이 개발의 일환으로 SLA보고를 위해 특별히 제작 된 새로운 위젯을 포함하고 있습니다. 그래서 우리는 이 방향으로 개발하고 있으며 시각적으로 더 매력적이고 유연성을 가진 위젯을 가질 것으로 생각합니다.</p>
 
-<p>__Question4. 우리가 했던 방식으로 Value map을 구현 한 이유는 무엇입니까? 사용자 매크로 전역 템플릿 호스트처럼 3 단계로 구현하지 않은 이유는 무엇인가요? __</p>
+<p><strong>Question4. 우리가 했던 방식으로 Value map을 구현 한 이유는 무엇입니까? 사용자 매크로 전역 템플릿 호스트처럼 3 단계로 구현하지 않은 이유는 무엇인가요? </strong></p>
 
 <p>→ 세 가지 수준으로 구현하면 Global value map이 여전히 존재하며 이 경우 Value map을 관리하기가 매우 어렵습니다. 예를 들어 서비스 상태와 같은 Global map이 정의되어 있다고 가정할 때 다음과 같은 질문이 있을 수 있습니다.</p>
 
@@ -621,5 +621,4 @@ Zabbix 5.4버전의 Scheduled PDF reports 기능을 이용하여 보고서를 �
 <p></p>
 
 <hr />
-
 :ET
