@@ -1,4 +1,4 @@
-I"�<p><img src="/assets/images/blog/Opendev_1.png" alt="banner" /></p>
+I"�<p><img src="/assets/images/blog/Opendev_1.png" alt="banner" /></p>
 
 <p>안녕하세요, 디무브 입니다! :balloon:</p>
 
@@ -20,7 +20,7 @@
 
 <p>2020년 DevOps 트렌드 설문 조사에 따르면 응답자들은 아이디어를 제품으로 옮기기 위해 평균 10개의 도구를 사용했다고 합니다.</p>
 
-<p>모든 팀의 업무는 다 다르고 필요한 도구는 빠르게 변화기 때문에 조직들은 업무 수행의 다양성에 대응하기 위해 여러 개발 도구들을 통합하고 싶어 했습니다.</p>
+<p>모든 팀의 업무는 다 다르고 필요한 도구는 빠르게 변하기 때문에 조직들은 업무 수행의 다양성에 대응하기 위해 여러 개발 도구들을 통합하고 싶어 했습니다.</p>
 
 <p>또한 업무를 유연하게 지원할 수 있는 도구의 필요성을 느꼈습니다.</p>
 
@@ -40,7 +40,7 @@
 
 <p>변경 사항을 푸시 하거나 분기를 병합 할 때 Jira 발급 키를 포함하기 만하면 Jira가 즉시 업데이트를 수행 합니다.</p>
 
-<p>Jira는 가장 최근 업데이트 순서대로 코드 탭에 리포지토리를 자동으로 표시하므로 모든 이해 관계자는 팀이 현재 작업 중인 내용 파악할 수 있습니다.</p>
+<p>Jira는 가장 최근 업데이트 순서대로 코드 탭에 리포지토리를 자동으로 표시하므로 모든 이해 관계자는 팀이 현재 작업 중인 내용을 파악할 수 있습니다.</p>
 
 <h4 id="배포-deployments-in-jira">배포 (Deployments in Jira)</h4>
 
@@ -92,7 +92,7 @@
   <li><strong>Observability :</strong> Datadog, Dynatrace, Sentry, Sumo Logic</li>
   <li><strong>CI / CD :</strong> CircleCI, JFrog, Codefresh, Harness, Gitlab
  <br />
-Open DevOps는 Jira의 코드, 배포, 서비스 운영 및 문서를 위한 원 클릭 설정으로 시작했으며 앞으로 확장성을 더 강화하여 Jira에서 더욱 쉽게 구성할 수 있도록 만들 것입니다.</li>
+ Open DevOps는 Jira의 코드, 배포, 서비스 운영 및 문서를 위한 원 클릭 설정으로 시작했으며 앞으로 확장성을 더 강화하여 Jira에서 더욱 쉽게 구성할 수 있도록 만들 것입니다.</li>
 </ul>
 
 <hr />

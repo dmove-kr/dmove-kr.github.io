@@ -148,7 +148,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgenie, 아틀라시안, 옵스�
 
 
 
-- Investigation View는 영향을 받는 서비스와 견롼된 성공과 실패된 배포 및 통과된 인시던트를 제공합니다.  또한 종속적인 서비스와 관련된 항목도 확인할 수 있죠.   
+- Investigation View는 영향을 받는 서비스와 관련된 성공과 실패된 배포 및 통과된 인시던트를 제공합니다.  또한 종속적인 서비스와 관련된 항목도 확인할 수 있습니다.   
 
   
 
@@ -230,7 +230,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgenie, 아틀라시안, 옵스�
 <p>
 </p>
 
-- Opsgenie는 아틀라시안의 대표적인 툴인 Jira와 통합하는 것이 더 쉬워졌으며, Opsgenie는 Jira로 이벤트를 트리거할 수 있으며, 그 반대로 Jira에서 Opsgenie로 트리거 할 수 있습니다.  이러한 양방향 관계를 설정하면 프로세스를 간소활 할 수 있고, 절차를 준수할 수 있습니다.  
+- Opsgenie는 아틀라시안의 대표적인 툴인 Jira와 통합하는 것이 더 쉬워졌으며, Opsgenie는 Jira로 이벤트를 트리거할 수 있으며, 그 반대로 Jira에서 Opsgenie로 트리거 할 수 있습니다.  이러한 양방향 관계를 설정하면 프로세스를 간소화 할 수 있고, 절차를 준수할 수 있습니다.  
 
   
 
@@ -282,7 +282,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgenie, 아틀라시안, 옵스�
 
 ![](https://blog.dmove.kr/assets/images/banners/Team21/New%20JSM%20and%20Opsgeine/Future Opsgeine 3.png){: .imgcenter}
 
-- 변화된 레이아웃은 아틀라시안 벤투 박스 레이아웃과 일치합니다. 당신은 치명적인 정보를 상단에서 볼 수 있으며, 사용자들이 빠르게 보고 우선순위를 정할 수 있을 뿐만 아니라, 경고를 중대한 인시던트로 상향 시키고 당신의 티켓과 연결 할 수 있도록 합니다.  
+- 변화된 레이아웃은 아틀라시안 벤투 박스 레이아웃과 일치합니다. 관리자는 치명적인 정보를 상단에서 볼 수 있으며, 사용자들이 빠르게 보고 우선순위를 정할 수 있을 뿐만 아니라, 경고를 중대한 인시던트로 상향 시키고 관리자의 티켓과 연결 할 수 있도록 합니다.  
 
 ---
 
@@ -336,7 +336,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgenie, 아틀라시안, 옵스�
 
 
 
-- JSM은 기존의 오래된 ITSM 솔루션과는 달리 훌륭한 서비스를 제공하여 가치를 빠르게 제공하고 전통적인 ITSM의 복잡성의 단점을 보완하여 극도록 쉽게 배포하고 사용할 수 있습니다. 
+- JSM은 기존의 오래된 ITSM 솔루션과는 달리 훌륭한 서비스를 제공하여 가치를 빠르게 제공하고 전통적인 ITSM의 복잡성의 단점을 보완하여 쉽게 배포하고 사용할 수 있습니다. 
 
   
 
@@ -344,7 +344,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgenie, 아틀라시안, 옵스�
 
   
 
-- 마지막으로 JSM은 데브옵스 사이의 협업을 향상시킵니다. 그것은 개발과 운영 및 복구에 이르는 비즈니스 요청의 속조를 높여 아이디어에서 작업으로 빠르게  이동할 수 있습니다.
+- 마지막으로 JSM은 데브옵스 사이의 협업을 향상시킵니다. 그것은 개발과 운영 및 복구에 이르는 비즈니스 요청의 속도를 높여 아이디어에서 작업으로 빠르게  이동할 수 있습니다.
 
   
 
@@ -440,7 +440,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgenie, 아틀라시안, 옵스�
 
   
 
-- 클라우드 버전에서 Mindville 인사이트를 사용하는 사용자는 에이전트에게 무료로 네트워크 스캐너를 제공하여 이요할 수 있는 장치의 IP를 수집하고, CSV와 JSON 파일 형태인 데이터를 가져올 수 있습니다.
+- 클라우드 버전에서 Mindville 인사이트를 사용하는 사용자는 에이전트에게 무료로 네트워크 스캐너를 제공하여 이용할 수 있는 장치의 IP를 수집하고, CSV와 JSON 파일 형태인 데이터를 가져올 수 있습니다.
 
 
 
@@ -484,7 +484,7 @@ tags: [Atlassian,Jira Service Management,JSM, Opsgenie, 아틀라시안, 옵스�
 
   
 
-- 슬랙, Mattermost 및 MS teams와 같은 메신터 툴과 JSM을 연동하여  전용 채널을 생성하여 문제 및 인시던트를 보고하고 도움을 요청할 수 있습니다.
+- 슬랙, Mattermost 및 MS teams와 같은 메신저 툴과 JSM을 연동하여  전용 채널을 생성하여 문제 및 인시던트를 보고하고 도움을 요청할 수 있습니다.
 
     
 

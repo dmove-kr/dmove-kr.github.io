@@ -28,7 +28,7 @@ Open Devops를 통해 소프트웨어팀이 원하는 도구와 방식으로 효
 
 2020년 DevOps 트렌드 설문 조사에 따르면 응답자들은 아이디어를 제품으로 옮기기 위해 평균 10개의 도구를 사용했다고 합니다. 
     
-모든 팀의 업무는 다 다르고 필요한 도구는 빠르게 변화기 때문에 조직들은 업무 수행의 다양성에 대응하기 위해 여러 개발 도구들을 통합하고 싶어 했습니다.
+모든 팀의 업무는 다 다르고 필요한 도구는 빠르게 변하기 때문에 조직들은 업무 수행의 다양성에 대응하기 위해 여러 개발 도구들을 통합하고 싶어 했습니다.
     
 또한 업무를 유연하게 지원할 수 있는 도구의 필요성을 느꼈습니다.
 
@@ -48,7 +48,7 @@ Bitbucket, GitLab 및 GitHub를 포함한 Git 리포지토리를 Jira Software�
     
 변경 사항을 푸시 하거나 분기를 병합 할 때 Jira 발급 키를 포함하기 만하면 Jira가 즉시 업데이트를 수행 합니다.
     
-Jira는 가장 최근 업데이트 순서대로 코드 탭에 리포지토리를 자동으로 표시하므로 모든 이해 관계자는 팀이 현재 작업 중인 내용 파악할 수 있습니다.
+Jira는 가장 최근 업데이트 순서대로 코드 탭에 리포지토리를 자동으로 표시하므로 모든 이해 관계자는 팀이 현재 작업 중인 내용을 파악할 수 있습니다.
 
 
 #### 배포 (Deployments in Jira)
@@ -84,7 +84,7 @@ Open DevOps에 포함 된 Confluence를 통해 팀은 변경 관리, 런북 및 
 
 Jira는 팀이 가치를 제공하는 빈도와 같은 추세를 자동으로 계산하므로 수동으로 도구를 조정하거나 운영 팀에 버그 이슈를 줄 필요가 없습니다.
         
-Ehgks Open DevOps의 각 작업은 Jira 문제와 관련이 있으므로 Jira는 병목 현상에 대한 통찰력을 제공하여 팀 성과를 개선 할 수 있습니다.
+또한 Open DevOps의 각 작업은 Jira 문제와 관련이 있으므로 Jira는 병목 현상에 대한 통찰력을 제공하여 팀 성과를 개선 할 수 있습니다.
         
 서비스 운영 및 지원을 위해 Open DevOps를 Jira Service Management와도 통합할 수 있습니다.
 
@@ -103,7 +103,7 @@ Open DevOps 내에서 GitHub 또는 GitLab과 같은 타사 도구로 교체하�
 - **Observability :** Datadog, Dynatrace, Sentry, Sumo Logic
 - **CI / CD :** CircleCI, JFrog, Codefresh, Harness, Gitlab
  <br>
-Open DevOps는 Jira의 코드, 배포, 서비스 운영 및 문서를 위한 원 클릭 설정으로 시작했으며 앞으로 확장성을 더 강화하여 Jira에서 더욱 쉽게 구성할 수 있도록 만들 것입니다.
+ Open DevOps는 Jira의 코드, 배포, 서비스 운영 및 문서를 위한 원 클릭 설정으로 시작했으며 앞으로 확장성을 더 강화하여 Jira에서 더욱 쉽게 구성할 수 있도록 만들 것입니다.
 
 ---
 
@@ -114,7 +114,7 @@ Open DevOps는 Jira의 코드, 배포, 서비스 운영 및 문서를 위한 원
 만약 이미 Atlassian의 제품들을 사용하고 있다면 [http://atlassian.com/solution/devops](http://atlassian.com/solution/devops "http://atlassian.com/solution/devops") 에서 아직 사용하고 있지 않은 제품들의 무료 버전을 여러분이 사용하고 있는 제품에 연결할 수 있습니다.
 
 ---
- 
+
 지금까지 여러분과 함께 Open DevOps의 기능에 대하여 살펴 보았습니다.
 더 자세한 내용이 궁금하시거나 지원이 필요하시면 디무브로 문의해주세요.
 
