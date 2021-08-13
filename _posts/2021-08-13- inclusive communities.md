@@ -57,6 +57,35 @@
 - 사내 메신저: [Mattermost](http://dmove.co.kr/products/mattermost)를 활용하여 전체 구성원에게 중요도가 높은 공지를 빠르게 안내하거나 목적 또는 필요에 따라 채널을 별도로 생성합니다. 즉각적인 피드백이 요구되는 경우 멘션(@)을 사용하여 전달합니다. 
 
 
+![Step3](/assets/images/blog/community_3.jpeg)
+
+## **STEP 3: 실행 (TEST)**
+
+### 다양한 시도 (Experiment with format)
+
+초청 연사, Q&A 시간, 단어/주제에 대한 토론 등 여러 형식으로 진행해 봅니다.
+
+### 소규모 시작 (Start small)
+
+작은 규모로 몇 명의 사람들이 한두 번의 모임을 가져 자연스럽게 주변으로 넓혀갑니다.
+
+### 가벼운 모임 유지 (Keep it light-weight)
+
+구성원들에게 또 하나의 업무라고 느껴지지 않을 정도의 가벼운 모임을 유지합니다.
+
+### 친숙한 원격 업무 공간 조성 (Make it remote-friendly)
+
+Zoom, Microsoft Teams와 같이 화상 채팅이 가능한 툴을 활용하여 원격으로도 미팅이 유지될 수 있도록 해야 합니다.
+
+▶ **디무브의 실제 활용 예시**  
+
+정부에서 수도권 지역 거리 두기를 4단계로 격상함에 따라 저희 디무브도 주 3일 재택근무를 시행하고 있습니다. 재택근무 시 평상시 사용하는 툴을 이용하여 관리하고 있습니다.
+
+-   Confluence: 공유 공간에 재택근무 가이드를 제공하고, Attendance Report 페이지를 추가하여 휴가, 외근, 재택, 오피스 등으로 구분 지어 오피스 출근 인원이 최대 4인을 넘지 않도록 유연하게 조정합니다.
+    
+-   Mattermost: Work From Home 채널을 추가로 개설하여 재택근무 시 출퇴근을 알립니다.
+    
+-   Microsoft Teams: 재택근무 시 오피스에서 근무하는 구성원들과 함께 팀 미팅을 진행합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDE5MTM0NCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTkwNDQxNTQ2MCw3MzA5OTgxMTZdfQ==
 -->
