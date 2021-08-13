@@ -77,7 +77,7 @@
 
 Zoom, Microsoft Teams와 같이 화상 채팅이 가능한 툴을 활용하여 원격으로도 미팅이 유지될 수 있도록 해야 합니다.
 
-▶ **디무브의 실제 활용 예시**  
+▶ **디무브의 Best Practice**  
 
 정부에서 수도권 지역 거리 두기를 4단계로 격상함에 따라 저희 디무브도 주 3일 재택근무를 시행하고 있습니다. 재택근무 시 평상시 사용하는 툴을 이용하여 관리하고 있습니다.
 
@@ -104,15 +104,30 @@ Zoom, Microsoft Teams와 같이 화상 채팅이 가능한 툴을 활용하여 �
 
 회사 내 서로 다른 팀 또는 회사 외의 조직과 아이디어를 공유하여 협력합니다.
 
-▶ **디무브의 실제 활용 예시**  
+▶ **디무브의 Best Practice**  
 
 - QBR Meeting: 분기마다 QBR(Quarterly Business Review)을 진행하여 과거와 현재에 대한 영업 성과 및 목표에 대한 비교를 통해 앞으로 나아갈 방향에 대해 논의합니다. QBR 진행 시 구성원이 OKR(Objectve and Key Results)을 직접 작성해 봄으로써 목표를 위해 해야 할 과제를 구체화시키고, 목표치 달성을 위해 구성원 간 협력합니다.
 
 - Onboarding Process: 신규 입사자가 새로운 환경에 적응할 수 있도록 Onboarding 가이드를 제공합니다. 교육, 목표 등에 대해 매니저와 논의 후 작성된 Probation Review를 바탕으로 1달에 1번씩, 3개월 동안 평가를 거쳐 업무의 체계화 및 개선을 위해 함께 노력합니다.
 
 협업이라는 주된 목표를 기반으로 한 상호작용은 단순한 이익 증대뿐만 아니라 각 기업 간의 역량을 강화시키는 시너지 효과를 냅니다. 
-디무브는 Atlaasian Platinum Solution Partner 이자 Mattermost, Zabbix 외에 최근 ALM Works와도 파트너십을 맺게 되었습니다. 
+디무브는 Atlaasian Platinum Solution Partner 이자 Mattermost, Zabbix, Jscrambler 외에 최근 ALM Works와도 파트너십을 맺게 되었습니다. 
 효율적인 관리와 보완을 통해 고객분들께 보다 나은 서비스를 제공할 수 있도록 노력합니다.
+
+
+![Step5](/assets/images/blog/community_5.jpeg)
+
+## STEP 5: 개선 및 성장 (IMPROVE & GROW)
+
+### 조정 및 관련성 유지 (Adapt & keep it relevant)
+
+설문조사를 통해 얻은 내용을 바탕으로 실제로 구현하기 위해 노력하고 그룹과의 대화를 통해 관련성을 유지해야 합니다.
+
+### 커뮤니티 활성화 (Grow the community)
+
+이미 진행했던 이벤트에 대한 블로그를 작성하는 등 이벤트를 지속적으로 공유하여 공동체를 키워야 합니다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5NTE2Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDAyMDc1NDQ4LDczMDk5ODExNl19
 -->
