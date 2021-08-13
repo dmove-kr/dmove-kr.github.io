@@ -27,6 +27,12 @@
 회고(retrospective)의 반대 개념으로 프로젝트 시작 전 성공과 실패 유무에 대해 생각해 봄으로써 위험을 예측하고 방지합니다.
 
 *Pre-mortem 이란? : 비즈니스 용어로 프로젝트 시작 전 실패할 수 있는 이유에 대해 논의하고 회의하여 사전에 생길 수 있는 문제들을 미리 파악하고 대비하는 행위*
+
+▶ **디무브는 기본적으로 업무 진행 시 두 제품을 아래와 같은 용도로 사용합니다.**
+
+-   [Confluence](http://dmove.co.kr/products/atlassian/confluence): 공간 생성 후 회의록 템플릿을 이용하여 Pre-mortem을 시행하고, 해당 공간에 하위 페이지를 만들어 요구에 대한 정보 및 의견 공유, 업무 일지 등을 작성합니다.
+    
+-   Jira Software: 해당 팀의 관리자는 과업에 대한 직무를 개인에게 할당하고, 업무 목표에 대한 프로세스 추적을 통하여 진행 과정을 확인합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDE4ODYwMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTUzNDE1NjUxNCw3MzA5OTgxMTZdfQ==
 -->
