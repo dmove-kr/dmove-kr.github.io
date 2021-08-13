@@ -32,7 +32,23 @@
 
 -   [Confluence](http://dmove.co.kr/products/atlassian/confluence): 공간 생성 후 회의록 템플릿을 이용하여 Pre-mortem을 시행하고, 해당 공간에 하위 페이지를 만들어 요구에 대한 정보 및 의견 공유, 업무 일지 등을 작성합니다.
     
--   Jira Software: 해당 팀의 관리자는 과업에 대한 직무를 개인에게 할당하고, 업무 목표에 대한 프로세스 추적을 통하여 진행 과정을 확인합니다.
+-   [Jira Software](http://dmove.co.kr/products/atlassian/jira-software): 해당 팀의 관리자는 과업에 대한 직무를 개인에게 할당하고, 업무 목표에 대한 프로세스 추적을 통하여 진행 과정을 확인합니다.
+
+![Step2](/assets/images/blog/community_2.png)
+
+## **STEP 2: 팀원 간 소통 (SHARE)**
+
+### 지원 및 자원 (Get executive buy-in)
+
+지원 및 자원을 제공할 수 있는 리더를 활용하여 다양한 이야기를 나누고 타당성을 제시합니다.
+
+### 전파 (spread the word)
+
+리더는 소통할 수 있는 Confluence Blogs, Town Hall 등 매개체를 활용합니다.
+
+▶ 매주 월요일 오전 Weekly Review Meeting을 진행하여 구성원 간 업무에 대한 자유로운 피드백을 주고받습니다. 미팅을 통해 본인의 업무를 객관적으로 진단하여 업무의 지연을 방지함은 물론, 팀 또는 포지션 간 사일로를 허물고 회사 전체의 목표와 방향에 대한 거시적인 관점을 기릅니다.
+
+▶ Mattermost를 활용하여 전체 구성원에게 중요도가 높은 공지를 빠르게 안내하거나 즉각적인 피드백이 요구되는 경우 멘션(@)을 사용하여 전달합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDE1NjUxNCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwNTkxNTkyODMsNzMwOTk4MTE2XX0=
 -->
