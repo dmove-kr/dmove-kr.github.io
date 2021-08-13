@@ -17,9 +17,9 @@ tags: [Atlassian, AtlassianTeam21, 아틀라시안, 협업솔루션, 협업툴, 
 
 ---
 
-![Step1](/assets/images/blog/community_1.png)
-
 ## STEP 1: 팀 구성 및 계획 (TEAM UP&DESIGN)
+
+![Step1](/assets/images/blog/community_1.png)
 
 ### 공동 리더(지도자) 찾기 (Find co-leaders)
 
@@ -49,10 +49,11 @@ tags: [Atlassian, AtlassianTeam21, 아틀라시안, 협업솔루션, 협업툴, 
 -   **[Jira Software](http://dmove.co.kr/products/atlassian/jira-software)**: 해당 팀의 관리자는 과업에 대한 직무를 개인에게 할당하고, 업무 목표에 대한 프로세스 추적을 통하여 진행 과정을 확인합니다.
 
 
-
-![Step2](/assets/images/blog/community_2.png)
+---
 
 ## STEP 2: 팀원 간 소통 (SHARE)
+
+![Step2](/assets/images/blog/community_2.png)
 
 ### 지원 및 자원 (Get executive buy-in)
 
@@ -70,9 +71,11 @@ tags: [Atlassian, AtlassianTeam21, 아틀라시안, 협업솔루션, 협업툴, 
 - **사내 메신저**: [Mattermost](http://dmove.co.kr/products/mattermost)를 활용하여 전체 구성원에게 중요도가 높은 공지를 빠르게 안내하거나 목적 또는 필요에 따라 채널을 별도로 생성합니다. 즉각적인 피드백이 요구되는 경우 멘션(@)을 사용하여 전달합니다. 
 
 
-![Step3](/assets/images/blog/community_3.jpeg)
+---
 
 ## STEP 3: 실행 (TEST)
+
+![Step3](/assets/images/blog/community_3.jpeg)
 
 ### 다양한 시도 (Experiment with format)
 
@@ -101,10 +104,11 @@ Zoom, Microsoft Teams와 같이 화상 채팅이 가능한 툴을 활용하여 �
     
 -   Microsoft Teams: 재택근무 시 오피스에서 근무하는 구성원들과 함께 화상 미팅을 진행합니다. 뿐만 아니라 필요시 외부 파트너 또는 고객과의 미팅에도 활용합니다. 
 
-
-![Step4](/assets/images/blog/community_4.jpeg)
+---
 
 ## STEP 4: 평가 및 학습 (MEASURE & LEARN)
+
+![Step4](/assets/images/blog/community_4.jpeg)
 
 ### 설문 조사 요청 (Send quick surveys)
 
@@ -129,10 +133,11 @@ Zoom, Microsoft Teams와 같이 화상 채팅이 가능한 툴을 활용하여 �
 디무브는 Atlaasian Platinum Solution Partner 이자 Mattermost, Zabbix, Jscrambler 외에 최근 ALM Works와도 파트너십을 맺게 되었습니다. 
 효율적인 관리와 보완을 통해 고객분들께 보다 나은 서비스를 제공할 수 있도록 노력합니다.
 
-
-![Step5](/assets/images/blog/community_5.jpeg)
+---
 
 ## STEP 5: 개선 및 성장 (IMPROVE & GROW)
+
+![Step5](/assets/images/blog/community_5.jpeg)
 
 ### 조정 및 관련성 유지 (Adapt & keep it relevant)
 
