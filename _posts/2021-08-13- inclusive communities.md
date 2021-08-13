@@ -22,7 +22,11 @@
 
 요구 사항을 바탕으로 공동체 과업을 정합니다.
 
-### 프리모템 시행 (Hold a premortem)
+### 프리모템 시행 (Hold a pre-mortem)
+
+회고(retrospective)의 반대 개념으로 프로젝트 시작 전 성공과 실패 유무에 대해 생각해 봄으로써 위험을 예측하고 방지합니다.
+
+*Pre-mortem 이란? : 비즈니스 용어로 프로젝트 시작 전 실패할 수 있는 이유에 대해 논의하고 회의하여 사전에 생길 수 있는 문제들을 미리 파악하고 대비하는 행위*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxOTAxNTEwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTc5NDE4ODYwMSw3MzA5OTgxMTZdfQ==
 -->
