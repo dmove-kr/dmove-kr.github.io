@@ -50,9 +50,11 @@
 
 리더는 소통할 수 있는 Confluence Blogs, Town Hall 등 매개체를 활용합니다.
 
-▶ 매주 월요일 오전 Weekly Review Meeting을 진행하여 구성원 간 업무에 대한 자유로운 피드백을 주고받습니다. 미팅을 통해 본인의 업무를 객관적으로 진단하여 업무의 지연을 방지함은 물론, 팀 또는 포지션 간 사일로를 허물고 회사 전체의 목표와 방향에 대한 거시적인 관점을 기릅니다.
+▶ **디무브의 실제 활용 예시**  
 
-▶ Mattermost를 활용하여 전체 구성원에게 중요도가 높은 공지를 빠르게 안내하거나 즉각적인 피드백이 요구되는 경우 멘션(@)을 사용하여 전달합니다.
+- Weekly Review Meeting: 매주 월요일 오전에 30분 간 Weekly Review Meeting을 진행하여 구성원 간 업무에 대한 자유로운 피드백을 주고받습니다. 미팅을 통해 본인의 업무를 객관적으로 진단하여 업무의 지연을 방지함은 물론, 팀 또는 포지션 간 사일로를 허물고 회사 전체의 목표와 방향에 대한 거시적인 관점을 기릅니다. 
+
+- 사내 메신저: [Mattermost](http://dmove.co.kr/products/mattermost)를 활용하여 전체 구성원에게 중요도가 높은 공지를 빠르게 안내하거나 즉각적인 피드백이 요구되는 경우 멘션(@)을 사용하여 전달합니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODY1NzIyNCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwMTM4OTMxODcsNzMwOTk4MTE2XX0=
 -->
