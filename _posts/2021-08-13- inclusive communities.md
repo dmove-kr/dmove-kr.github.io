@@ -106,6 +106,13 @@ Zoom, Microsoft Teams와 같이 화상 채팅이 가능한 툴을 활용하여 �
 
 ▶ **디무브의 실제 활용 예시**  
 
+- QBR Meeting: 분기마다 QBR(Quarterly Business Review)을 진행하여 과거와 현재에 대한 영업 성과 및 목표에 대한 비교를 통해 앞으로 나아갈 방향에 대해 논의합니다. QBR 진행 시 구성원이 OKR(Objectve and Key Results)을 직접 작성해 봄으로써 목표를 위해 해야 할 과제를 구체화시키고, 목표치 달성을 위해 구성원 간 협력합니다.
+
+- Onboarding Process: 신규 입사자가 새로운 환경에 적응할 수 있도록 Onboarding 가이드를 제공합니다. 교육, 목표 등에 대해 매니저와 논의 후 작성된 Probation Review를 바탕으로 1달에 1번씩, 3개월 동안 평가를 거쳐 업무의 체계화 및 개선을 위해 함께 노력합니다.
+
+협업이라는 주된 목표를 기반으로 한 상호작용은 단순한 이익 증대뿐만 아니라 각 기업 간의 역량을 강화시키는 시너지 효과를 냅니다. 
+디무브는 Atlaasian Platinum Solution Partner 이자 Mattermost, Zabbix 외에 최근 ALM Works와도 파트너십을 맺게 되었습니다. 
+효율적인 관리와 보완을 통해 고객분들께 보다 나은 서비스를 제공할 수 있도록 노력합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzAzNDk0NDUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODI5NTE2Myw3MzA5OTgxMTZdfQ==
 -->
