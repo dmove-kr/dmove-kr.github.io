@@ -59,7 +59,7 @@
 
 ![Step3](/assets/images/blog/community_3.jpeg)
 
-## **STEP 3: 실행 (TEST)**
+## STEP 3: 실행 (TEST)
 
 ### 다양한 시도 (Experiment with format)
 
@@ -85,7 +85,27 @@ Zoom, Microsoft Teams와 같이 화상 채팅이 가능한 툴을 활용하여 �
     
 -   Mattermost: Work From Home 채널을 추가로 개설하여 재택근무 시 출퇴근을 알립니다.
     
--   Microsoft Teams: 재택근무 시 오피스에서 근무하는 구성원들과 함께 팀 미팅을 진행합니다.
+-   Microsoft Teams: 재택근무 시 오피스에서 근무하는 구성원들과 함께 화상 미팅을 진행합니다. 뿐만 아니라 필요시 외부 파트너 또는 고객과의 미팅에도 활용합니다. 
+
+
+![Step4](/assets/images/blog/community_4.jpeg)
+
+## STEP 4: 평가 및 학습 (MEASURE & LEARN)
+
+### 설문 조사 요청 (Send quick surveys)
+
+활동 후 효과 유무를 알아보기 위해 좋았던 점, 개선점 등과 같은 간단한 설문 조사를 요청합니다.
+
+### 정기적인 회고 (Hold quarterly retros)
+
+분기마다 지난 일에 대한 비교와 평가의 시간을 갖습니다.
+
+### 협력 (Learn from other groups)
+
+회사 내 서로 다른 팀 또는 회사 외의 조직과 아이디어를 공유하여 협력합니다.
+
+▶ **디무브의 실제 활용 예시**  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDQxNTQ2MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE2NzAzNDk0NDUsNzMwOTk4MTE2XX0=
 -->
