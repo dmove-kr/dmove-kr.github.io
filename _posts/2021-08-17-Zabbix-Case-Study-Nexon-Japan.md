@@ -4,7 +4,7 @@ title: Zabbix Case Study - 넥슨 재팬 구축 사례
 Subtitle: Zabbix Case Study
 date: 2021-08-17
 categories: [Zabbix]
-tags: [Dmove, Zabbix,zabbix,자빅스, Case Study, Nexon Zapan]
+tags: [Dmove, Zabbix,자빅스, 모니터링솔루션, 모니터링툴, 자빅스 구축, Case Study, Nexon Zapan]
 
 ---
 
