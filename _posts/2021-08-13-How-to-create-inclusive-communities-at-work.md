@@ -3,7 +3,7 @@ layout: post
 title: Atlassian Team21 - 직장 내 포괄 공동체 구성 단계 및 운영 방법 가이드
 Subtitle: How to create inclusive communities at work
 date: 2021-08-13
-categories: [IT Trends]
+categories: [IT Trend]
 tags: [Atlassian, AtlassianTeam21, 아틀라시안, 협업솔루션, 협업툴, teamwork, community, Working Culture, New Normal]
 ---
 
