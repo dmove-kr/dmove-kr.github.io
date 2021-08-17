@@ -16,8 +16,9 @@ tags: [Dmove, Zabbix,zabbix,자빅스, Case Study, Nexon Zapan]
 
 안녕하세요, 디무브입니다! 🎈
 
-오픈소스 모니터링 솔루션인[ Zabbix](https://www.zabbix.com/features)의 실제 고객 구축 사례에 대해 소개해 드리고자 합니다. <br/>
-바로 우리 나라 게임 회사의 3N이라고 잘 알려져 있는 넥슨의 일본 지사인 넥슨 재팬 케이스인데요.
+본 포스팅에서는 오픈소스 모니터링 솔루션인[ Zabbix](https://www.zabbix.com/features)의 실제 고객 구축 사례에 대해 소개해 드리고자 합니다. <br/>
+
+바로 우리 나라 게임 회사의 3N이라고 잘 알려져 있는 넥슨의 일본 지사인 넥슨 재팬 케이스인데요.<br/>
 
 
 
