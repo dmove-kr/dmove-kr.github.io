@@ -39,7 +39,7 @@ tags: [Dmove, Zabbix,zabbix,자빅스, Case Study, Nexon Zapan]
 
  
 
-![](https://blog.dmove.co.kr/assets/images/banners/Zabbix/Case%20Study/casestudy1.png)
+![](https://blog.dmove.kr/assets/images/banners/Zabbix/Case%20Study/casestudy1.png)
 
 
 
@@ -57,7 +57,7 @@ tags: [Dmove, Zabbix,zabbix,자빅스, Case Study, Nexon Zapan]
 
 
 
-<img src="https://blog.dmove.co.kr/assets/images/banners/Zabbix/Case%20Study/casestudy2.png" align=left style="max-width: 290px; max-height: 210px; zoom: 80%; margin-right: 20px;"/>사진은 넥슨재팬에서 인프라를 설계하고 관리하는 담당자인 넥슨운영본부 기술부 시스템정보실 인프라팀 구성원입니다.
+<img src="https://blog.dmove.kr/assets/images/banners/Zabbix/Case%20Study/casestudy2.png" align=left style="max-width: 290px; max-height: 210px; zoom: 80%; margin-right: 20px;"/>사진은 넥슨재팬에서 인프라를 설계하고 관리하는 담당자인 넥슨운영본부 기술부 시스템정보실 인프라팀 구성원입니다.
 
 그들은 스트레스 없는 게임 경험을 위해 안정적인 24x7 서비스를 구축하고자 시스템 운영을 모니터링 하고 있습니다. 
 
