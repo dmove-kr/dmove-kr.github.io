@@ -1,5 +1,5 @@
 ![enter image description here](https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/07/remote-cloud2-1.png?w=1160&ssl=1)
-안녕하세요, 디무브 입니다!
+안녕하세요, 디무브 입니다! 🎈
 
 코로나로 인한 팬데믹 현상이 전 세계적으로 장기화 되고 있는 지금, 원격 근무는 선택이 아닌 필수가 되었는데요. 
 
@@ -124,9 +124,8 @@ _Standford_의 한 연구 클라우드 앱과 SaaS 형태의 시스템을 사용
     
 
 
-(원문출처: https://www.atlassian.com/blog/platform/benefits-of-remote-work-in-the-cloud)
+*(원문출처: https://www.atlassian.com/blog/platform/benefits-of-remote-work-in-the-cloud)*
 
-* 
 ----------
 
 보다 효율적인 원격 근무 환경을 지원하기 위하여 Atlassian 솔루션을 도입하고자 하신다면,
@@ -135,6 +134,6 @@ Atlassian 클라우드 전문가인 디무브에게 언제든지 문의해주세
 
 감사합니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzUxNTc1NCwxMzY4MzEzNzgzLDczMD
+eyJoaXN0b3J5IjpbMTY1MjEwNzA1MCwxMzY4MzEzNzgzLDczMD
 k5ODExNl19
 -->
