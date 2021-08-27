@@ -132,8 +132,8 @@ _Standford_의 한 연구 클라우드 앱과 SaaS 형태의 시스템을 사용
 
 Atlassian 클라우드 전문가인 디무브에게 언제든지 문의해주세요!
 
-감사합니다. 
+감사합니다. 😃
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjEwNzA1MCwxMzY4MzEzNzgzLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTExMTk4NjM0MjAsMTM2ODMxMzc4Myw3Mz
+A5OTgxMTZdfQ==
 -->
