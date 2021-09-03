@@ -68,7 +68,7 @@ Atlassian Cloud 내에서도 Okta, OneLogin, Google Cloud 또는 Azure AD와 같
 
 데이터 베이스를 갖춘 후 2단계 인증(2FA) 또는 다단계 인증(MFA) 등의 인증 프로세스를 도입하여 시스템의 보안을 더욱 강화하고 사용자를 정확하게 식별할 수 있습니다.
 
-![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/07/connect_sso_to_access.png?resize=768,500&ssl=1)
+![identity and authentication](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/07/connect_sso_to_access.png?resize=768,500&ssl=1)
 
 ### 기기 인증
 
@@ -80,7 +80,7 @@ Atlassian Cloud 내에서도 Okta, OneLogin, Google Cloud 또는 Azure AD와 같
 
 따라서 모든 기기는 시스템에 대한 엑세스 권한을 부여하기 전에 Atlassian의 MDM(모바일 장치 관리) 프로그램과 같은 데이터베이스에서 고유하게 식별되어야 합니다.
 
-![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/06/edit-app-configuration-policy.png?w=768&ssl=1)
+![Authenticate devices](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/06/edit-app-configuration-policy.png?w=768&ssl=1)
 
 앞서 언급한 바와 같이, 대부분이 사용자는 여러 기기를 사용하기 때문에 특정 플랫폼에 접근할 수 있는 장치 유형과 보안 절차를 결정해야 합니다.
 
@@ -103,7 +103,7 @@ ID 및 기기 인증에 대한 절차를 구축했다면, 다음 단계는 특�
 
 그렇게 하면 외부 공격자가소프트웨어 엔지니어의 자격 증명에 액세스할 수 있는 경우에도 재무, HR 또는 마케팅 부서의 기밀 데이터에한 정보는 얻을 수 없습니다.
 
-[enter link description here](https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/07/access_user_provisioning.png?resize=768,303&ssl=1)
+![access management system](https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/07/access_user_provisioning.png?resize=768,303&ssl=1)
 
 Atlassian Access의 사용자 프로비저닝을 사용하면 다양한 사용자 그룹을 설정하고 역할에 따라 작업을 수행하는 데 필요한 앱에 대한 액세스를 정확하게 제공할 수 있습니다.
 
