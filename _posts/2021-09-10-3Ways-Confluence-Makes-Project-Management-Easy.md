@@ -4,7 +4,7 @@ title: Confluence 활용 Tip.1 - 프로젝트를 효과적으로 관리하는 3�
 Subtitle: Confluence의 프로젝트 관리
 date: 2021-09-10
 categories: [Atlassian Solutions]
-tags: [Atlassian, 아틀라시안, Confluence, 컨플루언스, 프로젝트 관리, Confluence 활용]
+tags: [Atlassian, 아틀라시안, Confluence, 컨플루언스, 프로젝트관리, Confluence 활용, KMS, 문서관리, 협업솔루션, 협업도구]
 ---
 
 
