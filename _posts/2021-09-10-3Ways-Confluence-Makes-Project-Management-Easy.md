@@ -9,7 +9,7 @@ tags: [Atlassian, 아틀라시안, Confluence, 컨플루언스, 프로젝트 관
 
 
 
-![](https://blog.dmove.co.kr/assets/images/banners/Confluence/3%20ways%20confluence-main.png)
+![](https://blog.dmove.kr/assets/images/banners/Confluence/3%20ways%20confluence-main.png)
 
 
 
@@ -67,7 +67,7 @@ Atlassian은 Confluence에 모든 유형의 프로젝트에 대한 프로젝트 
 
 
 
-![](https://blog.dmove.co.kr/assets/images/banners/Confluence/3%20ways%20confluence1.png)
+![](https://blog.dmove.kr/assets/images/banners/Confluence/3%20ways%20confluence1.png)
 
 
 
@@ -91,7 +91,7 @@ Atlassian은 Confluence에 모든 유형의 프로젝트에 대한 프로젝트 
 
  프로젝트와 관련된 모든 사람들은 자신이 처리해야 할 작업에 대한 결과물을 바로 생성하여 보고하여 팀 프로젝트 진행 시 결론이 없는 혼란스러운 상황을 줄일 수 있습니다.
 
-![](https://blog.dmove.co.kr/assets/images/banners/Confluence/3%20ways%20confluence2.png)
+![](https://blog.dmove.kr/assets/images/banners/Confluence/3%20ways%20confluence2.png)
 
 
 
@@ -115,7 +115,7 @@ Atlassian에서는 팀 프로젝트 기간 동안 프로젝트 계획 페이지�
 
 
 
-![](https://blog.dmove.co.kr/assets/images/banners/Confluence/3%20ways%20confluence3.png)
+![](https://blog.dmove.kr/assets/images/banners/Confluence/3%20ways%20confluence3.png)
 
 
 
@@ -131,7 +131,7 @@ Atlassian에서는 미팅이 있을 때,  Confluence에 미팅 노트 페이지�
 
 
 
-![](https://blog.dmove.co.kr/assets/images/banners/Confluence/3%20ways%20confluence4.png)
+![](https://blog.dmove.kr/assets/images/banners/Confluence/3%20ways%20confluence4.png)
 
 
 
