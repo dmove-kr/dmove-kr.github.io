@@ -77,7 +77,7 @@ Atlassian 템플릿 갤러리에서는 템플릿을 검색 하거나 카테고�
 
 
 
-![](https://blog.dmove.kr/assets/images/banners/Confluence-Template/Template3.png)
+![](https://blog.dmove.kr/assets/images/banners/Confluence-Template/Template3.png){margin-left: 30px;}
 
 ---
 
@@ -307,7 +307,6 @@ Confluence에서 제공하는 모든 템플릿이 궁금하시다면 아래 링�
     padding: .375rem .75rem;  
           border-radius: .25rem; text-align: center; !important;">Confluence의 모든 템플릿 보기</a></center>
 
- 
 
 
 
