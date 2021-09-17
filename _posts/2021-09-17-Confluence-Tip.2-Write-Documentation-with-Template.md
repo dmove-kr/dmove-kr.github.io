@@ -72,12 +72,11 @@ Atlassian 템플릿 갤러리에서는 템플릿을 검색 하거나 카테고�
     border: 2px solid transparent;
     padding: .375rem .75rem;  
           border-radius: .25rem; text-align: center; !important;">템플릿 갤러리 방문하기</a></center>
-
 <br/>
 
 
 
-![](https://blog.dmove.kr/assets/images/banners/Confluence-Template/Template3.png){margin-left: 30px;}
+![](https://blog.dmove.kr/assets/images/banners/Confluence-Template/Template3.png)
 
 ---
 
@@ -171,7 +170,7 @@ Optimizely 사가 공유한 “**실험 계획 및 결과(Experiment Plan and Re
 
 <br/>
 
-![](https://blog.dmove.kr/assets/images/banners/Confluence-Template/Template11.png) {margin-left:30px;}
+![](https://blog.dmove.kr/assets/images/banners/Confluence-Template/Template11.png)
 
 <center>핵심 비즈니스 검토 템플릿 (Executive Busniess Review)</center>
 
