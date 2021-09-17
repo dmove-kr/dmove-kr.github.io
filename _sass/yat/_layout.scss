@@ -126,7 +126,7 @@
 
   .nav-trigger {
     display: none;
-   
+
   }
 
   .menu-icon {
@@ -227,7 +227,7 @@
 .logoEnable {
   display: block !important;
 }
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 800px) {
   .site-nav > label > .menu-icon > svg {
     fill: rgba(255, 255, 255, 0.8);
     width: 24px;
@@ -527,13 +527,13 @@ a {
         width:60%;
 
     }
-    
+
     h1 {
  @include relative-font-size(2.25);
 
       @include media-query($on-laptop) {
         @include relative-font-size(2);
-	
+
       }
       margin-bottom:30px;
 
@@ -566,7 +566,7 @@ a {
     img, svg, iframe {
       margin-left: auto;
       margin-right: auto;
-      
+
     }
 
     .imgcenter{
@@ -575,22 +575,22 @@ a {
     }
 
     h2, h3, h4, h5, h6 {
-      margin: 60px 0 19px;
+      margin: 30px 0 19px;
     }
 
     p, hr {
-      
+
       margin-bottom: 24px;
     }
-    
-    
+
+
 
     hr {
       height: 3px;
       background-color: #ebebeb;
       border: none;
     }
-    
+
     li{
     margin-bottom: 20px;
     margin-top: 20px;
