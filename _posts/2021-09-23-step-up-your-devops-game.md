@@ -119,7 +119,7 @@ Atlassian의 고급 관찰 기능(Advanced Observability)은 팀이 플랫폼 �
 
 예를 들어, Dynatrace와의 통합은 모니터링 플랫폼과 Jira간에 발생한 문제를 동기화하거나 Bitbucket 배포 작업을 플랫폼에 보내 문제의 근본 원인을 파악할 수 있습니다.
 
-Sumo Logic과 같은 솔루션을 통해 한 개의 대시보드에서 여러 Atlassian 제품의 정보를 통합하여 확인할 수 있습니다.
+Sumo Logic과 같은 솔루션을 통해 한 개의 대시보드에서 여러 Atlassian 제품의 정보를 통합하여 확인할 수도 있습니다.
 
 ### 모니터링 및 관찰 가능성에 접근하는 방법
 ![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/11/pasted-image-0-3.png?resize=768,264&ssl=1)
@@ -139,7 +139,9 @@ Sumo Logic과 같은 솔루션을 통해 한 개의 대시보드에서 여러 At
 **팀 간에 도구를 공유합니다.**
 
 개발, 운영 및 비즈니스의 팀 간에 공통 언어를 사용할 수 있는 도구를 채택하여 보다 효과적으로 협업할 수 있습니다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTU5MDE3NywtODU3Nzg4NTkzLDgxNj
+eyJoaXN0b3J5IjpbLTI2NTQxMzU4NSwtODU3Nzg4NTkzLDgxNj
 A4MTc1MF19
 -->
