@@ -59,7 +59,9 @@ DevSecOps 용 Atlassian 통합은 Jira 또는 Bitbucket 내에서 보안 관행�
 
 ### DevSecOps 사례 구축을 위한 팁
 
+![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/11/pasted-image-0.png?resize=768,269&ssl=1)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTIxMjUzMV19
+eyJoaXN0b3J5IjpbLTEyNDU5MTE1MTJdfQ==
 -->
