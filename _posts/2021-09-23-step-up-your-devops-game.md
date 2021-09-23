@@ -1,3 +1,4 @@
+![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/11/devopsecosystem_1160x620_@2x.png?resize=1560,760&ssl=1)
 안녕하세요, 디무브입니다!
 
 현재 업무를 수행하고 있는 대부분의 팀은 목표를 달성하는 데 필요한 여러 업체의 다양한 도구를 사용하고 있습니다.
@@ -155,6 +156,6 @@ DevOps를 보다 성공적으로 시작하고 싶으시다면 언제든지 디�
 
 감사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTU0NzY2MCwtMjY1NDEzNTg1LC04NT
-c3ODg1OTMsODE2MDgxNzUwXX0=
+eyJoaXN0b3J5IjpbLTEwNDIwNzM2NjksMTI0MTU0NzY2MCwtMj
+Y1NDEzNTg1LC04NTc3ODg1OTMsODE2MDgxNzUwXX0=
 -->
