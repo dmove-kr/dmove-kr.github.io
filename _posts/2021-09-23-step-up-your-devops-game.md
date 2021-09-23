@@ -61,7 +61,23 @@ DevSecOps 용 Atlassian 통합은 Jira 또는 Bitbucket 내에서 보안 관행�
 
 ![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/11/pasted-image-0.png?resize=768,269&ssl=1)
 
+**도구가 아닌 방법에 대해 생각합니다.**
+
+DevSecOps는 올바른 도구를 비롯하여 사고 방식의 전환도 필요합니다. 계획 및 개발 프로세스에 보안을 통합하는 방법을 이해하는 데 시간을 할애하십시오. 보안에 관한 올바른 사고방식이나 문화가 있으면 도구의 가치를 극대화할 수 있습니다.
+
+**이해 관계자의 동의를 얻어야 합니다.**
+
+보안을 개발 프로세스에 적용했을 때 얻을 수 있는 주요 이점들을 제시하여 이해 관계자의 동의를 얻을 수 있도록 합니다.
+
+**보안을 위해 공유 모델을 채택합니다.**
+
+적합한 이해 관계자의 동의를 얻으면 더 많은 참여를 이끌 수 있습니다. 이해 관계자들과 협력하여 팀에 도움이 되는 방법을 정의합니다.
+
+**개발자가 정보에 입각한 결정을 내릴 수 있도록 합니다.**
+
+개발자가 보안 전문가가 될 필요는 없지만 정보에 입각한 결정을 내릴 수 있을 만큼 초기에 관련 정보가 있어야 합니다. 올바른 도구를 사용하면 개발자가 필요로 하는 정보를 얻을 수 있습니다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU5MTE1MTJdfQ==
+eyJoaXN0b3J5IjpbODE2MDgxNzUwXX0=
 -->
