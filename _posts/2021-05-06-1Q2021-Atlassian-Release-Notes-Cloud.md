@@ -8,7 +8,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 ---
 
 
-![릴리즈 노트 이미지](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
 
 안녕하세요, 디무브 입니다! :balloon:
 
@@ -35,7 +35,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-![Jira Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-1.png)
+![Jira Cloud](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-1.png)
 
 
 
@@ -60,7 +60,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-![Jira Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-2.png)
+![Jira Cloud](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-2.png)
 
  릴리즈 → 버전 → 릴리즈 노트로 이동하여 향상된 기능을 릴리즈 노트 기능에 확인하실 수 있습니다. 업데이트된 릴리즈 노트 페이지는 다음과 같습니다.
 
@@ -85,7 +85,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, At
 
 
 
-![Jira Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-3.png)
+![Jira Cloud](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-3.png)
 
 <p data-renderer-start-pos="670">&nbsp;</p>
 
@@ -189,7 +189,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-![Jira Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-4.png)
+![Jira Cloud](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-4.png)
 
 
 
@@ -208,7 +208,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-![Jira Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-5.png)
+![Jira Cloud](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-5.png)
 
 
 
@@ -227,7 +227,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-![Jira Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-6.png)
+![Jira Cloud](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-6.png)
 
 
 
@@ -385,7 +385,7 @@ Commend Center 열에서 **Join** 또는 **Start** 버튼을 선택하여 Jira S
 
 
 
-![릴리즈노트 클라우드 Jira Service Management](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira%20Service%20Management-2.png)
+![릴리즈노트 클라우드 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira%20Service%20Management-2.png)
 
  Jira Service Management의 프로젝트에서 주요 인시던트를 타임라인과 함께 Jira Service Management에서 전체 기록을 확인할 수 있습니다. 실제 인시던트가 발생할 때의 진행 상황을 추적하고, 이를 해결하기 위해 어떤 작업이 수행되었는지, 어떤 작업을 수행해야 하는지 신속하게 확인할 수 있습니다. 
 
@@ -524,7 +524,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-![Confluence Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-2.png)
+![Confluence Cloud](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-2.png)
 
 
 
@@ -547,7 +547,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-![Confluence Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-3.png)
+![Confluence Cloud](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-3.png)
 
 
 <p data-renderer-start-pos="7915">&nbsp;</p>
@@ -565,7 +565,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 #### 2. 앵커(책갈피) 매크로 기능 추가  
 
 
-![Confluence Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-4.png)
+![Confluence Cloud](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-4.png)
 
 
 
@@ -579,7 +579,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 #### 3. 페이지 공간 보기에 다양한 옵션 추가   
 
 
-![Confluence Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-5.png)
+![Confluence Cloud](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-5.png)
 
 
 
@@ -597,7 +597,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-<p align="center"><img src="/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-6.png"></p>
+<p align="center"><img src="/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-6.png"></p>
 
 
 
@@ -618,7 +618,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 
 
-<p align="center"><img src="/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-7.png"/></p>
+<p align="center"><img src="/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-7.png"/></p>
 
 
 
@@ -637,7 +637,7 @@ Smart Link 와 Smart Card를 활용하여 링크를 돋보이게 하는 동시�
 
 #### 2. 편리해진 전역 권한  
 
-![Confluence Cloud](https://gongdol572.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-9.png)
+![Confluence Cloud](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Confluence-9.png)
 
 
 

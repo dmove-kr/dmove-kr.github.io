@@ -34,7 +34,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 
 
-![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-1.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-1.png)
 
 
 
@@ -50,7 +50,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 
 
-![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-2.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-2.png)
 
 
 
@@ -68,7 +68,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 #### 1. 사용자 지정 필드 개선 [Data Center] 
 
 
-![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-3.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-3.png)
 
 사용자 지정 필드가 많아지면 Jira 인스턴스를 복잡하게 만들며 성능에 영향을 미칩니다. 하지만 필드를 삭제할 때 어떠한 필드를 삭제하면 좋을지 파악하기란 쉽지 않았습니다.
 
@@ -84,7 +84,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 #### 2. 설명(Description)필드의 기본값 설정
 
-![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-4.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-4.png)
 
  이전 까지는 설명 필드에 공통적인 내용 작성 시 매번 생성할 때마다 같은 내용을 입력해야 하는 번거로움이 있었습니다. 하지만 이번 업데이트로 설명 필드에 기본값을 생성할 수 있어 Confluence의 템플릿과 같이 활용할 수 있게 되었습니다.
 
@@ -95,7 +95,7 @@ tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Da
 
 
 
-![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-5.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-5.png)
 
 
 
@@ -106,7 +106,7 @@ DVCS 계정을 더 수월하게 관리할 수 있도록 개선되었습니다. �
 #### 4. 사용자가 여러 ID 공급자로 로그인하도록 허용 [Data Center]
 
 
-![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-6.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-6.png)
 
 
 SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로그인 시 적합한 환경에서 로그인 할 수 있게 되었습니다. 새로운 모든 로그인 방법은 Jira Service Management의 고객 포털에 대해 독립적으로 활성화 할 수 있습니다.
@@ -117,7 +117,7 @@ SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로�
 
 
 
-![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-7.png)
+![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-jira-7.png)
 
 
 
@@ -183,7 +183,7 @@ SAML 및 OPEN ID 연결 구성에서 여러 IdPs를 구성해 사용자가 로�
 
 
 
-![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-1.png)
+![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-1.png)
 
 
 
@@ -201,7 +201,7 @@ Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로
 
 
 
-![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-2.png)
+![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-2.png)
 
 
 
@@ -215,7 +215,7 @@ Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로
 
 
 
-![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-3.png)
+![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-3.png)
 
 
 
@@ -224,7 +224,7 @@ Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로
 
 
 
-![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-4.png)
+![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-4.png)
 
 
 
@@ -238,7 +238,7 @@ Mindville Insight는 자산 및 구성 관리를 위한 어플리케이션으로
 #### 3. 향상된 데이터 인사이트를 Jira Service Management에서 활용
 
 
-![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-5.png)
+![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-5.png)
 
 
 
@@ -260,7 +260,7 @@ API를 통해 Jira 및 Jira Service Management 에서 현재 상태의 데이터
 
 
 
-![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-6.png)
+![릴리즈 노트 Jira Service Management](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20-Server-Jira%20Service%20Management-6.png)
 
 
 
@@ -333,7 +333,7 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 
 
-![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-1.png)
+![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-1.png)
 
 
 날짜 및 콘텐츠 유형별로 보고서를 필터링하고 사이트 전체 보기, 인기있는 공간 식별, 공간 또는 페이지에서 가장 활동적인 사용자를 확인하실 수 있습니다.
@@ -347,7 +347,7 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 
 
-![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-2.png)
+![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-2.png)
 
 
 
@@ -364,7 +364,7 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 
 
-![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-3.png)
+![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-3.png)
 
 
 
@@ -381,7 +381,7 @@ Jira Software 8.16 버전과 업데이트 내역이 같습니다.
 
 
 
-![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-4.png)
+![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-4.png)
 
 
 
@@ -403,7 +403,7 @@ Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니�
 
 
 
-![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-5.png)
+![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-5.png)
 
 
 
@@ -417,7 +417,7 @@ Team Calendar 기능이 Confluence Data Center에 번들로 추가되었습니�
 
 
 
-<p align="center"><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-6.png"></p>
+<p align="center"><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-6.png"></p>
 
 
 
@@ -467,7 +467,7 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
 
 
- ![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-7.png)
+ ![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-7.png)
 
 
 
@@ -482,7 +482,7 @@ URL 요청뿐만 아니라 액세스 로그에는 사용자 이름, HTTP 상태,
 
 
 
-  ![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-8.png)
+  ![릴리즈 노트 Confluence](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Confluence/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-Confluence-8.png)
 
 
 
