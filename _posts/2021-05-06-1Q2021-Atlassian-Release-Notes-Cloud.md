@@ -283,7 +283,7 @@ Deployments View로 이동하여 Calendar 아이콘을 클릭하여 배포가 �
 
 
 
-<p align="center"><img src="/assets/images/banners/Release%20Note%20Cloud/Jira/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-7.png"></p>
+<p align="center"><img src="/assets/images/banners/Release%20Note%20Cloud/Jira/2021_1Q/%EC%83%81%EB%B0%98%EA%B8%B0%EB%85%B8%ED%8A%B8%20Cloud-Jira-7.png"></p>
 
 
 
