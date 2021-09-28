@@ -35,7 +35,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
- ![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/M-J-Cloud-Jira-2.png){: .imgcenter}  
+ ![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/2021_2Q/M-J-Cloud-Jira-2.png){: .imgcenter}  
 
  프리미엄 플랜 고객은 보드와 백로그에서 인사이트 항목을 확인해 보세요. 인사이트는 데이터를 토대로 프로세스를 조정하거나 더 나은 결과를 도출 할 수있도록 도와주며, 데이터 기반의 계획을 수립할 수 있도록 지원합니다. 
 
@@ -145,7 +145,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 <p></p>
 
-![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/M-J-Cloud-Jira-3.png){: .imgcenter}
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira/2021_2Q/M-J-Cloud-Jira-3.png){: .imgcenter}
 
 
 
@@ -206,7 +206,7 @@ Jira 프로젝트에 코드 개발 툴을 통합하면 배포 기능을 사용�
 
 #### 1.  **변경 사항 달력(Change Calendar)을 사용하여 변경 요청 및 스케줄 관리**   
 
- ![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-1.png)
+ ![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_2Q/M-J-Cloud-JSM-1.png)
 
  변경 사항 달력(Change Calendar)을 사용하여 모든 서비스 프로젝트에서 변경 요청을 보고, 생성하고, 다시 예약할 수 있습니다. 달력에서 시간을 선택하여 새 변경 요청을 만들거나, 기존 요청을 클릭하여 끌어서 다시 예약하거나, 필터를 사용하여 필요한 항목을 신속하게 찾을 수 있습니다.
 
@@ -251,7 +251,7 @@ Jira Service Management에서 변경 관리를 볼 때  미해결 인시던트�
 
 #### 4. 헬프 데스크 사용자 경험 개선     
 
-![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/M-J-Cloud-JSM-2.png)
+![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_2Q/M-J-Cloud-JSM-2.png)
 
  
 
@@ -470,7 +470,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
-![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/M-J-Cloud-WIKI-2.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_2Q/M-J-Cloud-WIKI-2.png)
 
 
 
@@ -488,7 +488,7 @@ Advanced Roadmaps for Jira를 Confluence 페이지 내에 삽입할 수 있는 �
 
 
 
-![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/M-J-Cloud-WIKI-3.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_2Q/M-J-Cloud-WIKI-3.png)
 
 
 

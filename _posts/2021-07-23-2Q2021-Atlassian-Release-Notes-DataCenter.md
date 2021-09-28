@@ -53,7 +53,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-1.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/2021_2Q/M-J-Server-Jira-1.png)
 
 다음 규칙에 따라 새 용어의 단수 및 복수 형식을 정의할 수 있습니다:
 
@@ -80,7 +80,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
  아틀라시안은 코멘트에 대한 접근성을 개선하고자 키보드 탐색 기능과 코멘트 관련 보조 기술 지원을 개선했으며, 코멘트 영역의 모양을 변경하였습니다. 
 
-![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-2.png)
+![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/2021_2Q/M-J-Server-Jira-2.png)
 
 
 
@@ -94,7 +94,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-3.png)
+![img](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/2021_2Q/M-J-Server-Jira-3.png)
 
 **3-1. 컴포넌트 및 라이브러리 업그레이드**
 
@@ -150,7 +150,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
  이번 릴리즈에서는 Jira의 코멘트 사용 경험을 개선하고자 이슈에 게시된 의견에 대한 반응을 표현할 수 있도록 하였습니다. 관심 표현, 피드백 또는 승인 프로세스 속도를 높이기 위해 이모티콘을 사용할 수 있습니다. 
 
-![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/M-J-Server-Jira-4.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira/2021_2Q/M-J-Server-Jira-4.png)
 
 
 
@@ -245,7 +245,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-2.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2021_2Q/M-J-Server-JSM-2.png)
 
 
 
@@ -267,7 +267,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-3.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2021_2Q/M-J-Server-JSM-3.png)
 
 
 
@@ -285,7 +285,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-4.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2021_2Q/M-J-Server-JSM-4.png)
 
 
 
@@ -315,7 +315,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-5.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2021_2Q/M-J-Server-JSM-5.png)
 
 
 
@@ -327,7 +327,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-6.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2021_2Q/M-J-Server-JSM-6.png)
 
 
 
@@ -343,7 +343,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/M-J-Server-JSM-7.png)
+![](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2021_2Q/M-J-Server-JSM-7.png)
 
 
 
