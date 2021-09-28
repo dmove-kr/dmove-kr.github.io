@@ -1,11 +1,11 @@
 ---
 
 layout: post
-title: 2021 Atlassian 주요 제품 릴리즈 노트 (July ~ Sep) - Cloud
+title: 2021 Atlassian 주요 제품 릴리즈 노트 (Jul ~ Sep) - Cloud
 Subtitle: Release Note
 date: 2021-09-28
 categories: [Atlassian Release Note]
-tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드, Jira Cloud, Release, Release Note, Jira Sofrware, Jira Service Management, Confluence, Wiki]
+tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드, Jira, jira, Jira Cloud, Release, Release Note, Jira Sofrware, Jira Service Management, Confluence,컨플,DevOps, 데브옵스, dev, Dev, 에자일, Agile, Wiki]
 
 ---
 
@@ -13,7 +13,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
 
-안녕하세요, 디무브 입니다! :balloon:
+안녕하세요. 디무브 입니다! :balloon:
 
 이번 시간에는 3분기인 7~9월 동안 아틀라시안의 주요 제품인 Jira, Jira Service Management, Confluence Cloud 버전에 어떠한 변화가 있었는지 정리해 보았습니다.
 
@@ -57,13 +57,13 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 Oauth 자격증명을 통해 Jira Cloud과 On-premise 개발도구 (Bitubucket, Jenkins 등)를 연결하여 사용할 수 있게 되었습니다.  브랜치, 커밋, 풀 리퀘스트와 같은 개발에 필요한 데이터 정보를 주고 전송할 수 있으며 다음과 같은 기능을 수행할 수 있습니다:
 
----
+
 
 - 브랜치의 첫 커밋에서 Bitbucket 까지 작업 시간인 타임 메트릭 주기를 계산합니다.
 - 연결된 Bitbucket의 레포지토리는 Jira 프로젝트의 코드에 표시됩니다.
 - Jira 이벤트에 대한 자동화된 트리거를 수행합니다. 여기에는 브랜치 , 커밋, 풀 리퀘스트 생성, 거부, Merge등이 포함됩니다.
 
----
+
 
 [Jira Cloud와 Bitbucket Data Oauth 자격 증명 설정하기 ](https://confluence.atlassian.com/bitbucketserver/link-bitbucket-with-jira-776640408.html#LinkBitbucketwithJira-ApplicationLinksandOAuthconnections){: .imgcenter}
 
@@ -83,14 +83,14 @@ Oauth 자격증명을 통해 Jira Cloud과 On-premise 개발도구 (Bitubucket, 
 
 이번 릴리즈에 여러 가지 알림 서비스 관련 기능들이 업데이트 되었습니다. 모든 사이트의 알림이 메뉴에 표시되며 읽지 않은 알림을 표시하도록 정렬할 수 있으며 또한 알림 삭제 기능이 제거되어 알림을 잃어버릴 염려할 필요 없습니다. 주요 변경 사항은 다음과 같습니다 :
 
-------
+
 
 - 읽지 않은 알림만 표시
 - 알림 삭제 방지(알림 삭제 기능 x)
 - 모든 Jira & Confluence 사이트의 알림을 통합하여 확인
 - 내게 필요한 옵션 및 알림 표시 개선 (ex 업데이트 사항)
 
-------
+
 
  <br/>
 
@@ -164,8 +164,6 @@ Jira와 Jira Service Management에서 Opsgenie와 연동하여 프로젝트 별�
 
 외부에서 사용 가능한 이슈 키를 통해 해당 이슈에 이메일을 통해 댓글을 남길 수 있습니다. 외부 이메일 계정에서 이슈에 대한 댓글을 추가하기 위한 설정 방법은 아래와 같습니다 :
 
----
-
 
 
 ![](https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_3Q/3.png){: .imgcenter}
@@ -180,7 +178,7 @@ Jira와 Jira Service Management에서 Opsgenie와 연동하여 프로젝트 별�
 
 ​     2. 이메일의 → **유효한 이슈 키를 포함하는 모든 이메일을 이슈에 대한 댓글로 추가하는 것을 허용하시겠습니까?**“에서 “예“ 를 클릭합니다. 
 
-------
+
 
  <br/>
 
