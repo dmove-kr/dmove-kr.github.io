@@ -259,7 +259,7 @@ ITIL 모범 사례를 따르는 새로운 워크플로우를 설계하여 변경
 
 
 
-**4.19.0 에서 해결된 이슈**
+**[4.19.0에서 해결된 이슈](https://confluence.atlassian.com/servicemanagement/issues-resolved-in-4-19-0-1079347974.html)**
 
 2021년 8월 26일 출시 - 전체 내용은  [4.19.0에서 해결된 이슈](https://confluence.atlassian.com/servicemanagement/issues-resolved-in-4-19-0-1079347974.html) 문서에서 확인하실 수 있습니다.
 
@@ -272,7 +272,7 @@ ITIL 모범 사례를 따르는 새로운 워크플로우를 설계하여 변경
 
 
 
-**4.19.1 에서 해결된 이슈**
+**[4.19.1에서 해결된 이슈](https://confluence.atlassian.com/servicemanagement/issues-resolved-in-4-19-1-1085185212.html)**
 
 2021년 9월 16일 출시 - 전체 내용은 [4.19.1에서 해결된 이슈](https://confluence.atlassian.com/servicemanagement/issues-resolved-in-4-19-1-1085185212.html) 문서에서 확인하실 수 있습니다
 
@@ -375,7 +375,7 @@ Atlassian은 품질, 안정성 및 성능에 대해 설정한 기존의 기준�
 
 
 
-**7.13.0 에서 해결된 이슈**
+**[7.13.0에서 해결된 이슈](https://confluence.atlassian.com/doc/issues-resolved-in-7-13-0-1077784243.html)**
 
 2021년 8월 17일 출시 - 전체 내용은  [7.13.0에서 해결된 이슈](https://confluence.atlassian.com/doc/issues-resolved-in-7-13-0-1077784243.html) 문서에서 확인하실 수 있습니다.
 
