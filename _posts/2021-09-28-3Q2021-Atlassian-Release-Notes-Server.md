@@ -318,54 +318,54 @@ Atlassian은 품질, 안정성 및 성능에 대해 설정한 기존의 기준�
 새로운 장기 지원 릴리스로 업그레이드하는 것은 사이트 보안을 점검하기 위한 좋은 기회입니다. Confluence를 처음 설치한 이후로 권장 사항이 변경되었을 수 있으므로 이 업그레이드의 일부로 확인해야 할 사항의 목록을 작성했습니다. 
 <br/>
 
-- **권고 알림을 구독하고 기술 연락처 세부 정보를 최신 상태로 유지**
+- **권고 알림을 구독하고 기술 연락처 세부 정보를 최신 상태로 유지** <br/>
   보안 권고 알림 및 기타 중요한 기술 업데이트를 수신합니다. 
   [Atlassian 이메일 및 개인 정보 기본 설정](https://my.atlassian.com/email) 
 
  
 
-- **루트가 아닌 전용 사용자 계정으로 Confluence를 실행하십시오.**
+- **루트가 아닌 전용 사용자 계정으로 Confluence를 실행하십시오.** <br/>
   해당 계정을 Confluence가 써야 하는 디렉토리로 제한하십시오. 
   [전용 사용자 계정을 만드는 방법 알아보기](https://confluence.atlassian.com/doc/creating-a-dedicated-user-account-on-the-operating-system-to-run-confluence-255362445.html)
   
-- **Confluence 디렉토리에 액세스할 수 있는 계정 제한**
+- **Confluence 디렉토리에 액세스할 수 있는 계정 제한** <br/>
   선택한 사용자 계정만 **Confluence 디렉토리**를 읽고 쓸 수 있도록 합니다. 여기에는 첨부 파일, 백업 또는 데이터 파이프라인 내보내기를 저장할 수 있는 사용자 지정 디렉토리가 포함됩니다.
   [계정이 특정 디렉토리에 쓰도록 허용하는 방법 알아보기](https://confluence.atlassian.com/doc/creating-a-dedicated-user-account-on-the-operating-system-to-run-confluence-255362445.html)
   
-- **네트워크 파일 시스템을 마운트할 수 있는 호스트 제한**
+- **네트워크 파일 시스템을 마운트할 수 있는 호스트 제한** <br/>
   NFS 파일 시스템을 마운트할 수 있는 호스트를 Linux의 /etc/exports 파일과 같은 Confluence 호스트로만 제한하십시오. 자세한 내용은 운영 체제 설명서를 참조하십시오.
   
-- **데이터베이스 액세스** 
+- **데이터베이스 액세스** <br/>
   데이터베이스 액세스를 Confluence 호스트로만 제한합니다(iptables 또는 내장 데이터베이스 보안 도구 사용). 이 작업을 수행하는 방법을 알아보려면 데이터베이스 설명서를 참조하십시오.
   
-- **보안 관리자 세션 사용**
+- **보안 관리자 세션 사용** <br/>
   관리자가 관리자 기능에 액세스하려면 비밀번호를 다시 입력하고 관리자 세션에 대한 짧은 시간 제한을 설정해야 합니다. 
   [보안 관리자 세션을 켜는 방법 알아보기](https://confluence.atlassian.com/doc/configuring-secure-administrator-sessions-218269595.html)
   
-- **허용 목록**
+- **허용 목록** <br/>
   SSRF(서버 측 요청 위조) 공격을 방지하기 위하여 인커밍 (수신)및 아웃커밍(발신) 연결을 제한합니다.
   [허용 목록을 켜는 방법 알아보기](https://confluence.atlassian.com/doc/configuring-the-allowlist-381255821.html)
   
-- **통합을 위한 개인 액세스 토큰 사용**
+- **통합을 위한 개인 액세스 토큰 사용** <br/>
   API 요청 인증을 사용하여 기본 인증(사용자 이름 및 비밀번호)보다 더 안전한 방법을 제공합니다.
   [개인 액세스 토큰 관리 방법 알아보기](https://confluence.atlassian.com/enterprise/using-personal-access-tokens-1026032365.html)
-- **confluence-administrators 그룹 멤버십 검토**
+- **confluence-administrators 그룹 멤버십 검토** <br/>
   '수퍼 그룹'의 구성원은 모든 관리 기능에 액세스하고 제한된 페이지를 포함한 모든 콘텐츠에 액세스할 수 있습니다. 이 그룹의 구성원을 제한하고 대신 시스템 관리자 전역 권한이 있는 새 그룹을 만드십시오. 
   [confluence-administrators 슈퍼 그룹에 대해 알아보기](https://confluence.atlassian.com/doc/global-permissions-overview-138709.html)
   
-- **관리자 계정 관행 검토**
+- **관리자 계정 관행 검토** <br/>
   관리자 계정 공유를 피하고 'admin' 또는 'jdoe'와 같이 쉽게 추측되는 사용자 이름을 피하십시오. 관리자에게 두 개의 계정을 제공하여 일상적인 Confluence 사용과 관리자 작업에 서로 다른 계정을 사용할 수 있도록 하십시오. 
-- **액세스 로그 모니터링** 
+- **액세스 로그 모니터링**  <br/>
   액세스 로그는 비정상적인 활동을 식별하는 데 사용할 수 있습니다. 로그는 설치 디렉토리에 기록되며 선호하는 모니터링 도구를 사용하여 이러한 로그를 모니터링할 수 있습니다. 
   [액세스 로깅에 대해 알아보기](https://confluence.atlassian.com/doc/configure-access-logs-1044780567.html)
   
-- **요청 제한을 사용하여 불필요한 익명 사용자의 요청을 차단** [**Data Center**] 
+- **요청 제한을 사용하여 불필요한 익명 사용자의 요청을 차단** [**Data Center**] <br/>
   허용할 이유가 없는 경우 익명 사용자의 REST API 요청을 차단하거나 요청 수를 제한하여 DoS 공격의 위험을 줄입 수 있습니다. 
   [요청 제한을 사용하여 요청을 차단하는 방법 알아보기](https://confluence.atlassian.com/doc/improving-instance-stability-with-rate-limiting-992679004.html)
-- **감사 로그 설정 검토** [**Data Center**] 
+- **감사 로그 설정 검토** [**Data Center**] <br/>
   감사 로그 기능은 마지막 업그레이드 이후 크게 변경되었을 수 있습니다. 모니터링할 수 있는 이벤트를 확인합니다. 
   [감사 로그에 쓸 수 있는 이벤트 알아보기](https://confluence.atlassian.com/doc/audit-log-events-in-confluence-1005333793.html)
-- **Single Sign On(SSO) 고려** [**Data Center**] 
+- **Single Sign On(SSO) 고려** [**Data Center**] <br/>
   Confluence를 SSO용 ID 공급자와 통합하기 위한 여러 옵션이 있습니다.
   [사용 가능한 다양한 SSO 옵션에 대해 알아보기](https://confluence.atlassian.com/doc/single-sign-on-for-confluence-data-center-879955981.html)
 
