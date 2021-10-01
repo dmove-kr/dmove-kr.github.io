@@ -22,10 +22,14 @@ Atlassian 플래티넘 솔루션 파트너인 디무브의 아틀라시안 솔�
 ## 아젠다
 | 시간 | 주제 |
 |--|--|
-| 16:00 ~ 16:15 | **Atlassian의 DevOps** <br> - DevOps의 필요성 및 당면 과제 
+| 16:00 ~ 16:15 | **Atlassian의 DevOps** <br> - DevOps의 필요성 및 당면 과제 <br> - Atlassian의 Open DevOps 솔루션 <br> - Jira Cloud 중심의 DevOps 업무 방식 
+ | 16:15 ~ 16:30 | **Atlassian의 DevOps 라이프사이클** <br> - Atlassian Cloud를 기반으로 한 DevOps 라이프사이클 <br> - Atlassian의 Open DevOps 솔루션 <br> - Jira Cloud 중심의 DevOps 업무 방식 
+ | 16:00 ~ 16:15 | **Atlassian의 DevOps** <br> - DevOps의 필요성 및 당면 과제 <br> - Atlassian의 Open DevOps 솔루션 <br> - Jira Cloud 중심의 DevOps 업무 방식 
  |
+ 
+ |--|--| 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQyNjU3OTUsLTEzOTYzNDk5MzEsMT
+eyJoaXN0b3J5IjpbLTEzODM5MTcxMTMsLTEzOTYzNDk5MzEsMT
 E5NzE3NTEyNiwtMjA4ODc0NjYxMl19
 -->
