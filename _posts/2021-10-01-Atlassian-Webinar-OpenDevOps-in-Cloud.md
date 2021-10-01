@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [아틀라시안 웨비나] 클라우드 환경에서의 성공적인 DevOps 도입
+title: 아틀라시안 웨비나 - 클라우드 환경에서의 성공적인 DevOps 도입
 Subtitle: Atlassian Open DevOps in Cloud
 date: 2021-10-01
 categories: [News and Events]
