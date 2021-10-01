@@ -27,11 +27,14 @@ Atlassian 플래티넘 솔루션 파트너인 디무브의 아틀라시안 솔�
  | 16:30 ~ 16:50 | **DevOps Demo** <br> - Atlassian Cloud 툴체인을 활용한 AWS DevOps 데모 시연
  | 16:50 ~ 17:00 | **Q&A** <br> - 질의응답
  
-  
  
- |--|--| 
+## 발표자  
+![Speaker](/assets/images/blog/Speaker.png)
+
+## 참여 이벤트
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTEwNzM1MzUsLTEzOTYzNDk5MzEsMT
-E5NzE3NTEyNiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNzAzNjc2MzUxLC0xMzk2MzQ5OTMxLDExOT
+cxNzUxMjYsLTIwODg3NDY2MTJdfQ==
 -->
