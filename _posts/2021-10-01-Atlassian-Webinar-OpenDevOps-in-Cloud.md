@@ -20,17 +20,20 @@ tags: [Atlassian, 아틀라시안, DevOps, OpenDevOps, 데브옵스, Bitbucket, 
       <a href="https://talkit.tv/Event/2657" style="background-color: #15B1B1; color:white;">사전등록 하러가기</a>
 		    </div>
         
+---
 
 ## 아틀라시안 웨비나 안내
 
 **주제: 클라우드 환경에서의 성공적인 Atlassian DevOps 도입**
+
 **날짜: 2021년 10월 7일**
+
 **시간: 오후4시 ~ 오후5시** 
+
 **장소: 온라인세미나**
 
 ![Target Customer](/assets/images/blog/Target.png)
 
----
 
 “DevOps”란 전체적인 개발 프로세스에서 개발과 운영 사이의 장벽을 허무는 사고 방식과 문화적 변화를 의미합니다.
 
