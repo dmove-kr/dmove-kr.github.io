@@ -19,11 +19,13 @@ DevOps의 궁극적인 목표는 개발 팀과 운영 팀 간의 업무 프로�
 
 Atlassian 플래티넘 솔루션 파트너인 디무브의 아틀라시안 솔루션 전문가와 함께 DevOps를 시작하고 기존 프로세스를 개선할 수 있는 아이디어와 인사이트를 얻어가세요!
 
-|  |  |
+## 아젠다
+| 시간 | 주제 |
 |--|--|
-|  |  |
+| 16:00 ~ 16:15 | **Atlassian의 DevOps** <br> - DevOps의 필요성 및 당면 과제 
+ |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTYzNDk5MzEsMTE5NzE3NTEyNiwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE4NDQyNjU3OTUsLTEzOTYzNDk5MzEsMT
+E5NzE3NTEyNiwtMjA4ODc0NjYxMl19
 -->
