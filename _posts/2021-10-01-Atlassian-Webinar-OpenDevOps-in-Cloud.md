@@ -22,7 +22,7 @@ tags: [Atlassian, 아틀라시안, DevOps, OpenDevOps, 데브옵스, Bitbucket, 
         
 ---
 
-## 아틀라시안 웨비나 안내
+## 웨비나 소개
 
 **주제: 클라우드 환경에서의 성공적인 Atlassian DevOps 도입**
 
