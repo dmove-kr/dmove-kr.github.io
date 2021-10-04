@@ -1,11 +1,11 @@
 ---
-
 layout: post
 title: 2021 Atlassian 주요 제품 릴리즈 노트 (Jul ~ Sep) - Cloud
 Subtitle: Release Note
 date: 2021-09-28
 categories: [Atlassian Release Note]
 tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드, Jira, jira, Jira Cloud, Release, Release Note, Jira Sofrware, Jira Service Management, Confluence,컨플,DevOps, 데브옵스, dev, Dev, 에자일, Agile, Wiki]
+
 
 ---
 
@@ -39,7 +39,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 해당 기능은 **프로젝트 설정 → 컴포넌트** 또는 **프로젝트 설정 → 세부 사항 → 기본 담당자**에서 선택할 수 있습니다. 
 
-[자동으로 담당자 설정하기](https://support.atlassian.com/jira-software-cloud/docs/who-does-the-automatic-assignee-option-assign-an-issue-to/){: .imgcenter }
+<center><a src="ttps://support.atlassian.com/jira-software-cloud/docs/who-does-the-automatic-assignee-option-assign-an-issue-to/">자동으로 담당자 설정하기</a></center>
 
 <br/>
 
@@ -65,7 +65,7 @@ Oauth 자격증명을 통해 Jira Cloud과 On-premise 개발도구 (Bitubucket, 
 
 
 
-[Jira Cloud와 Bitbucket Data Oauth 자격 증명 설정하기 ](https://confluence.atlassian.com/bitbucketserver/link-bitbucket-with-jira-776640408.html#LinkBitbucketwithJira-ApplicationLinksandOAuthconnections){: .imgcenter}
+<center><a src="https://confluence.atlassian.com/bitbucketserver/link-bitbucket-with-jira-776640408.html#LinkBitbucketwithJira-ApplicationLinksandOAuthconnections">Jira Cloud와 Bitbucket Data Oauth 자격 증명 설정하기</a></center>
 
  <br/>
 
@@ -152,7 +152,9 @@ Jira와 Jira Service Management에서 Opsgenie와 연동하여 프로젝트 별�
 
 #### 1.그룹 단위의 요청 승인
 
-![](https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_3Q/1.png){: .imgcenter}
+
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_3Q/1.png"/></center>
 
  Jira Service Management는 접수된 요청에 대해 승인 또한 반려를 선택하여 접수된 요청을 처리할 것인지 판단하는 **요청 승인** 기능이 있습니다. 이번 릴리즈 업데이트에서는 그룹 단위의 요청 승인 기능이 추가되어 한 명의 사용자가 전체 요청 승인을 담당해야 하는 불편함과 어려움을 해결할 수 있습니다.  
 
@@ -192,7 +194,9 @@ Jira와 Jira Service Management에서 Opsgenie와 연동하여 프로젝트 별�
 
 이제 Jira Service Management 에서 구글 계정을 연동 하여 해당 계정으로 이메일 요청을 접수 받을 수 있습니다. 구글 계정 등록 시 계정은 Oauth 방식으로 인증이 진행됩니다. 
 
-[구글 계정 또는 커스텀 계정 설정](https://support.atlassian.com/jira-service-management-cloud/docs/add-an-email-account/){: .imgcenter}
+
+
+<center><a src="https://support.atlassian.com/jira-service-management-cloud/docs/add-an-email-account/">구글 계정 또는 커스텀 계정 설정</a></center>
 
 <br/>
 
@@ -302,8 +306,7 @@ Jira Service Management의 8월 업데이트는 Jira Software 8월 업데이트�
 
 
 
-[
-템플릿 갤러리 자세히 알아보기](https://blog.dmove.kr/atlassian solutions/2021/09/17/Confluence-Tip.2-Write-Documentation-with-Template.html){: .imgcenter}
+<center><a src="https://blog.dmove.kr/atlassian solutions/2021/09/17/Confluence-Tip.2-Write-Documentation-with-Template.html">템플릿 갤러리 자세히 알아보기</a></center>
 
  <br/>
 
