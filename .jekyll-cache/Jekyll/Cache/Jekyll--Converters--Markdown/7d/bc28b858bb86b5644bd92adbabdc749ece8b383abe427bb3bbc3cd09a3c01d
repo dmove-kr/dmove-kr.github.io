@@ -1,4 +1,4 @@
-I"B@<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+I"@<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
 
 <p>안녕하세요. 디무브 입니다! :balloon:</p>
 
@@ -20,7 +20,7 @@
 
 <p>해당 기능은 <strong>프로젝트 설정 → 컴포넌트</strong> 또는 <strong>프로젝트 설정 → 세부 사항 → 기본 담당자</strong>에서 선택할 수 있습니다.</p>
 
-<p><a href="https://support.atlassian.com/jira-software-cloud/docs/who-does-the-automatic-assignee-option-assign-an-issue-to/" class="imgcenter">자동으로 담당자 설정하기</a></p>
+<center><a src="ttps://support.atlassian.com/jira-software-cloud/docs/who-does-the-automatic-assignee-option-assign-an-issue-to/">자동으로 담당자 설정하기</a></center>
 
 <p><br /></p>
 
@@ -38,7 +38,7 @@
   <li>Jira 이벤트에 대한 자동화된 트리거를 수행합니다. 여기에는 브랜치 , 커밋, 풀 리퀘스트 생성, 거부, Merge등이 포함됩니다.</li>
 </ul>
 
-<p><a href="https://confluence.atlassian.com/bitbucketserver/link-bitbucket-with-jira-776640408.html#LinkBitbucketwithJira-ApplicationLinksandOAuthconnections" class="imgcenter">Jira Cloud와 Bitbucket Data Oauth 자격 증명 설정하기 </a></p>
+<center><a src="https://confluence.atlassian.com/bitbucketserver/link-bitbucket-with-jira-776640408.html#LinkBitbucketwithJira-ApplicationLinksandOAuthconnections">Jira Cloud와 Bitbucket Data Oauth 자격 증명 설정하기</a></center>
 
 <p><br /></p>
 
@@ -109,7 +109,7 @@
 
 <h4 id="1그룹-단위의-요청-승인">1.그룹 단위의 요청 승인</h4>
 
-<p><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_3Q/1.png" alt="" class="imgcenter" /></p>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_3Q/1.png" /></center>
 
 <p>Jira Service Management는 접수된 요청에 대해 승인 또한 반려를 선택하여 접수된 요청을 처리할 것인지 판단하는 <strong>요청 승인</strong> 기능이 있습니다. 이번 릴리즈 업데이트에서는 그룹 단위의 요청 승인 기능이 추가되어 한 명의 사용자가 전체 요청 승인을 담당해야 하는 불편함과 어려움을 해결할 수 있습니다.</p>
 
@@ -139,7 +139,7 @@
 
 <p>이제 Jira Service Management 에서 구글 계정을 연동 하여 해당 계정으로 이메일 요청을 접수 받을 수 있습니다. 구글 계정 등록 시 계정은 Oauth 방식으로 인증이 진행됩니다.</p>
 
-<p><a href="https://support.atlassian.com/jira-service-management-cloud/docs/add-an-email-account/" class="imgcenter">구글 계정 또는 커스텀 계정 설정</a></p>
+<center><a src="https://support.atlassian.com/jira-service-management-cloud/docs/add-an-email-account/">구글 계정 또는 커스텀 계정 설정</a></center>
 
 <p><br /></p>
 
@@ -229,8 +229,7 @@
 
 <p>템플릿의 용도와 목적, 사용 방법까지 템플릿 갤러리에서 제공하는 템플릿을 통해 Confluence에서 다양하게 활용할 수 있습니다.</p>
 
-<p><a href="https://blog.dmove.kr/atlassian solutions/2021/09/17/Confluence-Tip.2-Write-Documentation-with-Template.html" class="imgcenter">
-템플릿 갤러리 자세히 알아보기</a></p>
+<center><a src="https://blog.dmove.kr/atlassian solutions/2021/09/17/Confluence-Tip.2-Write-Documentation-with-Template.html">템플릿 갤러리 자세히 알아보기</a></center>
 
 <p><br /></p>
 

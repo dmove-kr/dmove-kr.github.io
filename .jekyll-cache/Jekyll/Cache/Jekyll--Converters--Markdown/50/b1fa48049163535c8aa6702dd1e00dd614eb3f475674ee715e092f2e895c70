@@ -1,4 +1,4 @@
-I"�y<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+I"�y<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
 
 <p>안녕하세요, 디무브 입니다! :balloon:</p>
 
@@ -330,7 +330,7 @@
 
 <ul>
   <li>최종 사용자 활동 로깅을 포함한 추가 감사 로그 이벤트</li>
-  <li>OpenID를 사용한 싱글 사인온</li>
+  <li>OpenID를 사용한 Single Sign On (SSO)</li>
   <li>기본적으로 활성화된 액세스 로깅</li>
   <li>더 나은 통합을 위한 Webhook 및 개인 액세스 토큰</li>
   <li>페이지 조회수, 수정 사항 등을 추적하기 위한 분석</li>

@@ -1,0 +1,23 @@
+I"�<p><img src="http://localhost:4000/assets/images/banners/Jira-Confluence-Connect/1.png" alt="" /></p>
+
+<p>안녕하세요, 디무브 입니다!</p>
+
+<p>Jira는  버그 추적, 이슈 추적 등 전체적인 프로젝트 관리를 수행할 수 있는 아틀라시안의 대표적인 솔루션 입니다.</p>
+
+<p>Jira에서 생성한 이슈를 기반으로 수많은 계획과 논의 사항이 발생하지만 모든 내용을 jira에 정리하기는 쉽지 않습니다.</p>
+
+<p>Confluence는 아틀라시안의 문서 관리 솔루션으로 논의 사항, 세부 수정 사항 등 Jira에서 발생한 많은 사항들을 쉽게 정리할 수 있어 Jira와 Confluence를 같이 사용하게 되면 프로젝트의 완성도를 더욱 높일 수 있습니다.</p>
+
+<p>이번 시간에는 업무를 편하게 진행할 수 있도록 Confluence의 페이지와 Jira의 이슈를 연결하는 방법에 대해 소개하고자 합니다.</p>
+
+<hr />
+
+<h2 id="jira와-confluence를-연결하는-6가지-방법">Jira와 Confluence를 연결하는 6가지 방법</h2>
+
+<h3 id="1-jira-매크로를-활용한-자동화된-연결confluence">1. Jira 매크로를 활용한 자동화된 연결(Confluence)</h3>
+
+<div style="width:45%; float:left; margin-left : 10%;"><img src="http://localhost:4000/assets/images/banners/Jira-Confluence-Connect/2.png" /></div>
+<div style="width:45%;float:right;"><img src="http://localhost:4000/assets/images/banners/Jira-Confluence-Connect/3.png" /></div>
+<div style="clear:both;"></div>
+
+:ET

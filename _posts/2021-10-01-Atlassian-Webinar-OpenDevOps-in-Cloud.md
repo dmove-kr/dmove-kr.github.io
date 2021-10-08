@@ -8,7 +8,7 @@ tags: [Atlassian, 아틀라시안, DevOps, OpenDevOps, 데브옵스, Bitbucket, 
 ---
 
 
-![Banner](/assets/images/blog/Title Banner_DevOps.png)
+![Banner](https://blog.dmove.kr/assets/images/blog/Title Banner_DevOps.png)
 
 안녕하세요. 디무브 입니다. 🎈 
 
@@ -19,7 +19,7 @@ tags: [Atlassian, 아틀라시안, DevOps, OpenDevOps, 데브옵스, Bitbucket, 
 <div class="btn_main_more mt40 mb_t_c" style="margin-left: 45px;">
       <a href="https://talkit.tv/Event/2657" style="background-color: #15B1B1; color:white;">사전등록 하러가기</a>
 		    </div>
-        
+
 ---
 
 ## 웨비나 소개
@@ -53,12 +53,12 @@ Atlassian 플래티넘 솔루션 파트너인 디무브의 아틀라시안 솔�
 | 시간 | 주제 |
 |--|--|
 | 16:00 ~ 16:15 | **Atlassian의 DevOps** <br> - DevOps의 필요성 및 당면 과제 <br> - Atlassian의 Open DevOps 솔루션 <br> - Jira Cloud 중심의 DevOps 업무 방식 |
- | 16:15 ~ 16:30 | **Atlassian의 DevOps 라이프사이클** <br> - Atlassian Cloud를 기반으로 한 DevOps 라이프사이클 <br> - 타 도구와의 통합을 통한 확장 및 효율적인 업무 자동화 |
- | 16:30 ~ 16:50 | **DevOps Demo** <br> - Atlassian Cloud 툴체인을 활용한 AWS DevOps 데모 시연 | 
- | 16:50 ~ 17:00 | **Q&A** <br> - 질의응답|
+| 16:15 ~ 16:30 | **Atlassian의 DevOps 라이프사이클** <br> - Atlassian Cloud를 기반으로 한 DevOps 라이프사이클 <br> - 타 도구와의 통합을 통한 확장 및 효율적인 업무 자동화 |
+| 16:30 ~ 16:50 | **DevOps Demo** <br> - Atlassian Cloud 툴체인을 활용한 AWS DevOps 데모 시연 |
+| 16:50 ~ 17:00 | **Q&A** <br> - 질의응답|
+
  
- 
- 
+
 ## 발표자  
 ![Speaker](/assets/images/blog/Speaker.png)
 
@@ -72,4 +72,3 @@ Atlassian 플래티넘 솔루션 파트너인 디무브의 아틀라시안 솔�
 <div class="btn_main_more mt40 mb_t_c" style="margin-left: 45px;">
       <a href="https://talkit.tv/Event/2657" style="background-color: #15B1B1; color:white;">사전등록 하러가기</a>
 		    </div>
-

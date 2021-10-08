@@ -154,9 +154,9 @@ sitemap: True
 # Build settings
 # highlighter: none
 # markdown: kramdown
-markdown: GFM
+markdown: kramdown
 kmarkdown:
-  input: GFM
+  input: kramdown
 
 plugins:
   - jekyll-feed
