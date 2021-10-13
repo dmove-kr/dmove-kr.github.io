@@ -1,4 +1,4 @@
-I"<p><img src="/assets/images/blog/Title Banner_DevOps.png" alt="Banner" /></p>
+I" <p><img src="https://blog.dmove.kr/assets/images/blog/Title Banner_DevOps.png" alt="Banner" /></p>
 
 <p>안녕하세요. 디무브 입니다. 🎈</p>
 
@@ -37,12 +37,33 @@
 <p>Atlassian 플래티넘 솔루션 파트너인 디무브의 아틀라시안 솔루션 전문가와 함께 DevOps를 시작하고 기존 프로세스를 개선할 수 있는 아이디어와 인사이트를 얻어가세요!</p>
 
 <h2 id="아젠다">아젠다</h2>
-<p>| 시간 | 주제 |
-|–|–|
-| 16:00 ~ 16:15 | **Atlassian의 DevOps** <br /> - DevOps의 필요성 및 당면 과제 <br /> - Atlassian의 Open DevOps 솔루션 <br /> - Jira Cloud 중심의 DevOps 업무 방식 |
- | 16:15 ~ 16:30 | **Atlassian의 DevOps 라이프사이클** <br /> - Atlassian Cloud를 기반으로 한 DevOps 라이프사이클 <br /> - 타 도구와의 통합을 통한 확장 및 효율적인 업무 자동화 |
- | 16:30 ~ 16:50 | **DevOps Demo** <br /> - Atlassian Cloud 툴체인을 활용한 AWS DevOps 데모 시연 | 
- | 16:50 ~ 17:00 | **Q&amp;A** <br /> - 질의응답|</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">시간</th>
+      <th style="text-align: right">주제</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">16:00 ~ 16:15</td>
+      <td style="text-align: right">**Atlassian의 DevOps** <br /> - DevOps의 필요성 및 당면 과제 <br /> - Atlassian의 Open DevOps 솔루션 <br /> - Jira Cloud 중심의 DevOps 업무 방식</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">16:15 ~ 16:30</td>
+      <td style="text-align: right">**Atlassian의 DevOps 라이프사이클** <br /> - Atlassian Cloud를 기반으로 한 DevOps 라이프사이클 <br /> - 타 도구와의 통합을 통한 확장 및 효율적인 업무 자동화</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">16:30 ~ 16:50</td>
+      <td style="text-align: right">**DevOps Demo** <br /> - Atlassian Cloud 툴체인을 활용한 AWS DevOps 데모 시연</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">16:50 ~ 17:00</td>
+      <td style="text-align: right">**Q&amp;A** <br /> - 질의응답</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="발표자">발표자</h2>
 <p><img src="/assets/images/blog/Speaker.png" alt="Speaker" /></p>
@@ -55,5 +76,4 @@
 <div class="btn_main_more mt40 mb_t_c" style="margin-left: 45px;">
       <a href="https://talkit.tv/Event/2657" style="background-color: #15B1B1; color:white;">사전등록 하러가기</a>
 		    </div>
-
 :ET
