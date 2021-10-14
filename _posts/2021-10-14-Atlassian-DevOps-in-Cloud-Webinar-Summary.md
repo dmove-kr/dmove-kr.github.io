@@ -22,12 +22,17 @@ tags: [Atlassian, 아틀라시안, DevOps, OpenDevOps, 데브옵스, Bitbucket, 
 ---
 
 본 웨비나는 아래 아젠다와 같이 크게 4가지 파트로 구성하여 진행하였습니다.
+
+
+
+
+
 | 주제 |
-|--|
- | **Atlassian의 DevOps** <br> - DevOps의 필요성 및 당면 과제 <br> - Atlassian의 Open DevOps 솔루션 <br> - Jira Cloud 중심의 DevOps 업무 방식 |
-| **Atlassian의 DevOps 라이프사이클** <br> - Atlassian Cloud를 기반으로 한 DevOps 라이프사이클 <br> - 타 도구와의 통합을 통한 확장 및 효율적인 업무 자동화 |
-| **DevOps Demo** <br> - Atlassian Cloud 툴체인을 활용한 AWS DevOps 데모 시연 | 
-| **Q&A** <br> - 질의응답|
+|:--|
+| **Atlassian의 DevOps** <br/> - DevOps의 필요성 및 당면 과제 <br/> - Atlassian의 Open DevOps 솔루션 <br/> - Jira Cloud 중심의 DevOps 업무 방식 |
+| **Atlassian의 DevOps 라이프사이클** <br/> - Atlassian Cloud를 기반으로 한 DevOps 라이프사이클 <br/> - 타 도구와의 통합을 통한 확장 및 효율적인 업무 자동화 |
+| **DevOps Demo** <br/> - Atlassian Cloud 툴체인을 활용한 AWS DevOps 데모 시연 |
+| **Q&A** <br/> - 질의응답 |
 
 
 ## Session 1. DevOps의 필요성 및 당면 과제
@@ -74,7 +79,7 @@ Jira Cloud를 기반으로 DevOps를 위해 필요한 도구들을 연결하여 
 -   **Deployment In Jira**: Jira Cloud에서는 코드의 빌드, 배포 및 파이프라인에 걸쳐 일어나는 진행 상황을 확인할 수 있습니다. 코드 커밋 시에 포함된 이슈 키를 기반으로 이러한 추적성이 제공되며 별도의 설정 과정을 거치지 않아도 Jira 내에서 모니터링이 가능합니다.
     
 -   **Release in Jira**: DevOps의 가장 중요한 목표인 가치 전달의 속도를 최대화하기 위해서는 제품이나코드 출시의 시간을 단축시키는 것이 중요합니다. Jira Cloud가 제공하는 메트릭을 통해 배포 속도를 저해하는 요소를 파악하고 배포 주기를 관리할 수 있습니다.
-    
+
 이처럼 아틀라시안을 활용한 DevOps 전환을 수행할 결우 워크플로우의 가속화나 팀 역량 강화, 툴 체인의 사용자화, 업무 효율성 증가를 기대하실 수 있습니다.
 
 
@@ -85,17 +90,17 @@ Jira Cloud를 기반으로 DevOps를 위해 필요한 도구들을 연결하여 
 Atlassian의 툴체인은 전반적인 DevOps 라이프사이클을 자동화하고 통합할 수 있는 환경을 제공합니다.
 
 1.  **Plan**
-    
+
 개발 도구를 사용하지 않는 IT 운영 및 비즈니스 팀에서도 언제 어떤 일이 발생하고 있는지 알아야 하며 그러기 위해서는 팀과 도구간의 업무를 자동으로 통합해주는 Jira Cloud와 같은 플랫폼이 필요합니다.
         
 Jira Cloud와 Bitbucket Cloud, GitHub과 GitLab 등을 통합하면 개발자는 코드를 작성하는 곳에서 바로 이슈를 추적할 수 있고 프로젝트 업데이트가 가능합니다.
         
 2.  **Build**
-    
+
 Bitbucket Cloud는 git 기반으로 코드 작성과 검토를 위한 최적의 환경을 제공하며, 개발자가 소스 저장소나 이슈 관리 시스템에 접근하지 않더라도 작업 목록을 쉽게 조회해볼 수 있는 환경을 제공하고 있습니다.
         
 3.  **CI/CD**
-    
+
 DevOps 팀은 CI/CD 프로세스를 자동화 하거나 더 자주 확인하여 파이프라인을 가속화해야 합니다.
         
 Bitbucket Cloud를 통해 정적 분석 툴이나 취약점 점검 툴과 연계하여 우리 코드가 가지고 있는 잠재적인 문제점들을 코드가 배포되기 전에 미리 알 수 있도록 구성할 수 있습니다. 
@@ -103,13 +108,13 @@ Bitbucket Cloud를 통해 정적 분석 툴이나 취약점 점검 툴과 연계
 또한 Jira Service Management와의 통합을 통해 배포 이력에 대한 변경 관리가 가능하며 이에 대한 승인 절차도 만들어 낼 수 있습니다.
         
 4.  **Operate & Monitor**
-    
+
 DevOps를 채택하고 배포 프로세스를 자동화함에 따라 코드 변경과 관련된 인시던트가 증가 하게 되므로, 인시던트가 발생했을 문제의 원인을 신속하게 판단하는 것이 더욱 중요합니다.
         
 이를 위해 Jira Cloud와 Git 기반의 코드 커밋 내역이 연계되어 있으며, 이를 OpsGenie와 연계하면 손쉽게 최근의 배포 사항에 대한 추적이 가능합니다.
         
 5.  **Communicatio & Collaboration**
-    
+
 성공적인 DevOps구현은 도구를 연결하는 것에서 끝나지 않습니다. 대부분의 DevOps 실무자는 이에 동의하며, 성공적인 구현에는 사람과 문화가 가장 중요한 요인이라고 말합니다.
         
 이를 위해 Atlassian에서는 DevOps 모범 사례를 알아보고 공유할 수 있는 새로운 리소스 허브를 공유하고 있습니다.
