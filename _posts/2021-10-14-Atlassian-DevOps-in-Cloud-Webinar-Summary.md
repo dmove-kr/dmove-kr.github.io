@@ -113,7 +113,7 @@ DevOps를 채택하고 배포 프로세스를 자동화함에 따라 코드 변�
         
 이를 위해 Jira Cloud와 Git 기반의 코드 커밋 내역이 연계되어 있으며, 이를 OpsGenie와 연계하면 손쉽게 최근의 배포 사항에 대한 추적이 가능합니다.
         
-5.  **Communicatio & Collaboration**
+5.  **Communication & Collaboration**
 
 성공적인 DevOps구현은 도구를 연결하는 것에서 끝나지 않습니다. 대부분의 DevOps 실무자는 이에 동의하며, 성공적인 구현에는 사람과 문화가 가장 중요한 요인이라고 말합니다.
         
