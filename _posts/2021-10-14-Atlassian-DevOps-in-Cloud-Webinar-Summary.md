@@ -7,7 +7,7 @@ categories: [News and Events]
 tags: [Atlassian, 아틀라시안, DevOps, OpenDevOps, 데브옵스, Bitbucket, Jira, Confluence, Opsgenie, CICD, 빌드배포, 애자일, Agile, 토크아이티]
 ---
 
-![Banner]([https://blog.dmove.kr/assets/images/blog/Title](https://blog.dmove.kr/assets/images/blog/Title)  Banner_DevOps.png)
+![Banner]([https://blog.dmove.kr/assets/images/blog/Title](https://blog.dmove.kr/assets/images/blog/Title Banner_DevOps.png)
 
 안녕하세요. 디무브 입니다.  🎈
 
