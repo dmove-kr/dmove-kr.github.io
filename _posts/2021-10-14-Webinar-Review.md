@@ -11,15 +11,18 @@
 다시 한번, 참여해주신 모든 분들께 감사의 말씀을 드리며, 진행했던 웨비나에 대해 리뷰하는 시간을 가져보려 합니다.
 
 ---
+본 웨비나는 아래 아젠다와 같이 크게 4가지 파트로 구성하여 진행하였습니다.
+| 주제 |
+|--|
+ | **Atlassian의 DevOps** <br> - DevOps의 필요성 및 당면 과제 <br> - Atlassian의 Open DevOps 솔루션 <br> - Jira Cloud 중심의 DevOps 업무 방식 |
+| **Atlassian의 DevOps 라이프사이클** <br> - Atlassian Cloud를 기반으로 한 DevOps 라이프사이클 <br> - 타 도구와의 통합을 통한 확장 및 효율적인 업무 자동화 |
+| **DevOps Demo** <br> - Atlassian Cloud 툴체인을 활용한 AWS DevOps 데모 시연 | 
+| **Q&A** <br> - 질의응답|
 
-  | 시간 | 주제 |
-|--|--|
-| 16:00 ~ 16:15 | **Atlassian의 DevOps** <br> - DevOps의 필요성 및 당면 과제 <br> - Atlassian의 Open DevOps 솔루션 <br> - Jira Cloud 중심의 DevOps 업무 방식 |
- | 16:15 ~ 16:30 | **Atlassian의 DevOps 라이프사이클** <br> - Atlassian Cloud를 기반으로 한 DevOps 라이프사이클 <br> - 타 도구와의 통합을 통한 확장 및 효율적인 업무 자동화 |
- | 16:30 ~ 16:50 | **DevOps Demo** <br> - Atlassian Cloud 툴체인을 활용한 AWS DevOps 데모 시연 | 
- | 16:50 ~ 17:00 | **Q&A** <br> - 질의응답|
+## Session 1. DevOps의 필요성 및 당면 과제
 
+![session1]([https://blog.dmove.kr/assets/images/blog/](https://blog.dmove.kr/assets/images/blog/sesson1)
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzQ3NTk0OF19
+eyJoaXN0b3J5IjpbNDYyNzM5Nzc3XX0=
 -->
