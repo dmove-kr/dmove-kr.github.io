@@ -22,7 +22,51 @@
 ## Session 1. DevOps의 필요성 및 당면 과제
 
 ![session1]([https://blog.dmove.kr/assets/images/blog/](https://blog.dmove.kr/assets/images/blog/sesson1)
- 
+
+오늘날의 급변하는 시장에서 성공하기 위해 많은 기업은 가치를 높이기 위한 하나의 도구와 문화로 DevOps를 채택하고 있습니다.
+
+실제로, 아틀라시안에서 조사한 [DevOps Survey](https://blog.dmove.kr/homepage_use/devops.html)에 따르면 응답자의 약 90%가 DevOps가 기업의 성과와 조직 구조에 긍정적인 영향을 주었다고 말합니다.
+
+하지만 DevOps를 도입하고 활용하는데 많은 조직이 어려움을 겪고 있는 것 또한 우리가 직면한 현실입니다.
+
+위 조사에 따르면 DevOps 환경을 만들기 위해 조직은 너무 많은 종류의 도구를 사용하고 있으며 이를 통합하는 작업으로 인해 정작 중요한 개발 작업에는 하루에 1-4시간 정도밖에 투자하지 못하는 비효율적인 업무 생산성이 DevOps 진입 장벽의 가장 큰 이유였습니다.
+
+결국 우리는 DevOps의 가치를 실현하기 위하여 적절한 도구를 선택해야 하며, 근본적인 조직 문화와 업무 프로세스를 개선해야만 한다는 메세지를 전달하였습니다.
+
+## Session 2. Atlassian 의 Open DevOps 솔루션
+
+![session2]([https://blog.dmove.kr/assets/images/blog/](https://blog.dmove.kr/assets/images/blog/sesson2)
+
+DevOps 를 구현하기 위해서는 빌드/배포/테스트를 위한 도구가 필수적으로 필요합니다.
+
+하나의 솔루션에서 필요한 모든 기능과 니즈를 만족시킬 수 있다면 좋겠지만, 그러한 솔루션은 존재하지 않습니다.
+
+아틀라시안은 DevOps 를 정착시키기 위해 필요한 무수한 도구의 사용으로 발생하는 복잡성을 해결하기 위해  
+Jira Cloud를 기반으로 DevOps를 위해 필요한 도구들을 연결하여 사용할 수 있도록 하는 생태계를 준비했습니다.
+
+그리고 아틀라시안의 이러한 생태계는 개방되어 있기 때문에 자주 사용되는 다른 도구와도 이미 연계할 수 있는 기능이 있거나, 1,400개 이상의 클라우드 앱이 등록되어있는 아틀라시안의 자체적인 마켓플레이스를 통해 연계가 가능합니다.
+
+물론 오픈된 API 를 활용해 직접 개발도 가능합니다.
+
+
+## Session 3. Jira Cloud 중심의 DevOps 업무 방식
+
+![session3]([https://blog.dmove.kr/assets/images/blog/](https://blog.dmove.kr/assets/images/blog/sesson3)
+
+앞서 말했듯, 아틀라시안은 Jira Cloud를 기반으로 모든 조직을 연결하여 업무를 기록하고 공유하는 것은 물론, 작업에 대한 가시성을 지원하고 있습니다.
+
+조직은 아래와 같은 Jira Cloud만의 특화된 기능을 통해 DevOps Practice 전반에 걸쳐 일어나는 업무를 추적할 수 있습니다.
+
+-   **Code In Jira**: Jira Cloud에서는 생성된 개별 작업 단위나 코드와 직접 연계가 가능하여 코드 커밋 시 이슈 키를 포함하면 팀의 모든 사용자는 자신이 작업 중인 모든 저장소를 확인하고, 팀이 작업중인 코드를 한 곳에서 볼 수 있습니다. 도 지라를 통해 확인 가능합니다
+    
+-   **Deployment In Jira**: Jira Cloud에서는 코드의 빌드, 배포 및 파이프라인에 걸쳐 일어나는 진행 상황을 확인할 수 있습니다. 코드 커밋 시에 포함된 이슈 키를 기반으로 이러한 추적성이 제공되며 별도의 설정 과정을 거치지 않아도 Jira 내에서 모니터링이 가능합니다.
+    
+-   **Release in Jira**: DevOps의 가장 중요한 목표인 가치 전달의 속도를 최대화하기 위해서는 제품이나코드 출시의 시간을 단축시키는 것이 중요합니다. Jira Cloud가 제공하는 메트릭을 통해 배포 속도를 저해하는 요소를 파악하고 배포 주기를 관리할 수 있습니다.
+    
+
+이처럼 아틀라시안을 활용한 DevOps 전환을 수행할 결우 워크플로우의 가속화나 팀 역량 강화, 툴 체인의 사용자화, 업무 효율성 증가를 기대하실 수 있습니다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyNzM5Nzc3XX0=
+eyJoaXN0b3J5IjpbLTExNzAxMTgyMDNdfQ==
 -->
