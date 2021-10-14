@@ -7,7 +7,7 @@ categories: [News and Events]
 tags: [Atlassian, 아틀라시안, DevOps, OpenDevOps, 데브옵스, Bitbucket, Jira, Confluence, Opsgenie, CICD, 빌드배포, 애자일, Agile, 토크아이티]
 ---
 
-![Banner]([https://blog.dmove.kr/assets/images/blog/Title](https://blog.dmove.kr/assets/images/blog/Title Banner_DevOps.png)
+![Banner](https://blog.dmove.kr/assets/images/blog/Title Banner_DevOps.png)
 
 안녕하세요. 디무브 입니다.  🎈
 
@@ -32,7 +32,7 @@ tags: [Atlassian, 아틀라시안, DevOps, OpenDevOps, 데브옵스, Bitbucket, 
 
 ## Session 1. DevOps의 필요성 및 당면 과제
 
-![session1]([https://blog.dmove.kr/assets/images/blog/](https://blog.dmove.kr/assets/images/blog/session1.png)
+![session1](https://blog.dmove.kr/assets/images/blog/session1.png)
 
 오늘날의 급변하는 시장에서 성공하기 위해 많은 기업은 가치를 높이기 위한 하나의 도구와 문화로 DevOps를 채택하고 있습니다.
 
@@ -47,7 +47,7 @@ tags: [Atlassian, 아틀라시안, DevOps, OpenDevOps, 데브옵스, Bitbucket, 
 
 ## Session 2. Atlassian 의 Open DevOps 솔루션
 
-![session2]([https://blog.dmove.kr/assets/images/blog/](https://blog.dmove.kr/assets/images/blog/session2.png)
+![session2](https://blog.dmove.kr/assets/images/blog/session2.png)
 
 DevOps 를 구현하기 위해서는 빌드/배포/테스트를 위한 도구가 필수적으로 필요합니다.
 
@@ -63,7 +63,7 @@ Jira Cloud를 기반으로 DevOps를 위해 필요한 도구들을 연결하여 
 
 ## Session 3. Jira Cloud 중심의 DevOps 업무 방식
 
-![session3]([https://blog.dmove.kr/assets/images/blog/](https://blog.dmove.kr/assets/images/blog/session3.png)
+![session3](https://blog.dmove.kr/assets/images/blog/session3.png)
 
 앞서 말했듯, 아틀라시안은 Jira Cloud를 기반으로 모든 조직을 연결하여 업무를 기록하고 공유하는 것은 물론, 작업에 대한 가시성을 지원하고 있습니다.
 
@@ -80,7 +80,7 @@ Jira Cloud를 기반으로 DevOps를 위해 필요한 도구들을 연결하여 
 
 ## Session 4. Atlassian Cloud를 기반으로 한 DevOps 라이프사이클
 
-![session4]([https://blog.dmove.kr/assets/images/blog/](https://blog.dmove.kr/assets/images/blog/session4.png)
+![session4](https://blog.dmove.kr/assets/images/blog/session4.png)
 
 Atlassian의 툴체인은 전반적인 DevOps 라이프사이클을 자동화하고 통합할 수 있는 환경을 제공합니다.
 
