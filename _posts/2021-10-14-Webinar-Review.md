@@ -114,7 +114,7 @@ DevOps를 채택하고 배포 프로세스를 자동화함에 따라 코드 변�
 
 1시간이라는 짧은 시간 내에서 아틀라시안의 Open DevOps에 대한 핵심 내용으로 알차게 구성해 보았는데요!
 
-웨비나를 통해 DevOps에 대해 더 잘 이해하고 인사이트를 ㅇ
+웨비나를 통해 DevOps에 대해 더 잘 이해하고 인사이트를 얻으실 수 있는 기회가 되셨기를 바랍니다. 
 
 웨비나에 대한 전체 내용이 궁금하신 분들께서는, 아래 영상을 통해 확인하실 수 있습니다.
 
@@ -126,5 +126,5 @@ DevOps를 채택하고 배포 프로세스를 자동화함에 따라 코드 변�
 
 감사합니다. 🙂
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDk2MjAwOTUsLTE3MjE4MzI5Nl19
+eyJoaXN0b3J5IjpbMjAxMjU0NTkxMiwtMTcyMTgzMjk2XX0=
 -->
