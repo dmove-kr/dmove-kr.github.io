@@ -1,4 +1,4 @@
-I"q=<p><img src="https://blog.dmove.kr/assets/images/banners/Forge/1.png" alt="Banner" /></p>
+I"�<<p><img src="https://blog.dmove.kr/assets/images/banners/Forge/1.png" alt="Banner" /></p>
 
 <p>안녕하세요, 디무브 입니다!</p>
 
@@ -10,7 +10,7 @@
 
 <p>이번 포스팅에서는 Atlassian이 발표한 클라우드 용 차세대 앱 개발 지원 플랫폼인 <strong>Forge</strong>에 대해 살펴보겠습니다.</p>
 
-<h1 id="atlassian-클라우드-용-차세대-앱-개발-지원-플랫폼-forge"><strong>Atlassian 클라우드 용 차세대 앱 개발 지원 플랫폼 Forge</strong></h1>
+<h3 id="atlassian-클라우드-용-차세대-앱-개발-지원-플랫폼-forge">Atlassian 클라우드 용 차세대 앱 개발 지원 플랫폼 Forge</h3>
 
 <p>Atlassian 제품을 사용하는 200,000명 이상의 개별 고객들은 각자가 해결해야 할 문제를 가지고 있습니다. 때때로 이러한 문제들은 Jira 또는 Confluence를 사용하여도 해결할 수 없는 경우도 있었습니다.</p>
 
@@ -46,11 +46,11 @@
 
 <p>이제 각 기능에 대해 자세히 살펴보겠습니다.</p>
 
-<h2 id="강력한-플랫폼을-통해-앱을-더-쉽게-인증하고-구축할-수-있습니다"><strong>강력한 플랫폼을 통해 앱을 더 쉽게 인증하고 구축할 수 있습니다</strong></h2>
+<h3 id="강력한-플랫폼을-통해-앱을-더-쉽게-인증하고-구축할-수-있습니다">강력한 플랫폼을 통해 앱을 더 쉽게 인증하고 구축할 수 있습니다</h3>
 
 <p>Forge를 기반으로 구축된 새로운 앱은 기존 클라우드 앱 개발 프레임워크를 사용하여 구축된 앱과 근본적으로 다릅니다. Forge를 사용할 경우 Atlassian의 클라우드 플랫폼의 범위 내에서 앱을 구축하게 되고 실행하므로 개발자와 고객 모두에게 새로운 이점을 제공합니다.</p>
 
-<center><img src="https://blog.dmove.kr/assets/images/banners/Forge/3.png" /></center>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Forge/2.png" /></center>
 
 <p><br /></p>
 
@@ -58,7 +58,7 @@
 
 <p><br /></p>
 
-<h3 id="직관적인-앱-개발"><strong>직관적인 앱 개발</strong></h3>
+<h4 id="직관적인-앱-개발">직관적인 앱 개발</h4>
 
 <p>모든 요구 사항을 충족하는 클라우드 앱을 만드는 것은 복잡한 프로세스입니다. 하지만 Forge에서 제공하는 쉬운 명령어 인터페이스, 정확한 문서, 앱 샘플 및 제약성이 낮은 온보딩 프로세스를 사용하여 개발자는 앱을 전보다 효율적으로 구축할 수 있습니다.</p>
 
@@ -68,7 +68,7 @@
 
 <p><br /></p>
 
-<h3 id="플랫폼-규정-준수"><strong>플랫폼 규정 준수</strong></h3>
+<h4 id="플랫폼-규정-준수">플랫폼 규정 준수</h4>
 
 <p>Forge를 사용하면 개발자가 고객 데이터를 Atlassian 클라우드에서 호스팅할 수 있으므로 GDPR 및 기타 규제 요구 사항을 더 쉽게 준수할 수 있습니다. Atlassian은 Forge에 대한 SOC2 인증과 향후 고객의 Data residency 에 대한 요구를 충족시키기 위해 노력하고 있습니다.</p>
 
@@ -76,7 +76,7 @@
 
 <p><img src="https://blog.dmove.kr/assets/images/banners/Forge/5.png" alt="" /></p>
 
-<h3 id="확장성"><strong>확장성</strong></h3>
+<h4 id="확장성">확장성</h4>
 
 <p>확장 가능하고 성능이 뛰어난 클라우드 인프라를 구축하는 것은 특별한 기술로서, 커뮤니티의 많은 개발자들에게는 새로운 기술에 대한 여정이며, 이들 중 일부는 on-premise 배포를 위한 구축에 더 익숙할 것입니다.</p>
 
@@ -94,27 +94,25 @@
 
 <p><br /></p>
 
-<h2 id="많은-앱들이-고객을-위한-엔터프라이즈-급-보안을-지원합니다"><strong>많은 앱들이 고객을 위한 엔터프라이즈 급 보안을 지원합니다</strong></h2>
+<h3 id="많은-앱들이-고객을-위한-엔터프라이즈-급-보안을-지원합니다">많은 앱들이 고객을 위한 엔터프라이즈 급 보안을 지원합니다</h3>
 
 <p>클라우드에서 엔터프라이즈 고객의 요구 사항을 충족하는 데 투자함으로써 앱 생태계에서도 동일한 작업을 수행할 수 있도록 지원합니다. 대부분의 클라우드 생태계의 표준 패턴은 앱 개발자가 자체 인프라에서 실행하여 보안을 분류하고 고객의 요구 사항을 충족시키는 것입니다. Atlassian은 보안의 세 가지 측면을 해결함으로써 개발자와 고객 모두를 도울 수 있었습니다.</p>
 
-<p><br /></p>
-
-<h3 id="더-많은-제어"><strong>더 많은 제어</strong></h3>
+<h4 id="더-많은-제어">더 많은 제어</h4>
 
 <p>Atlassian에서 호스팅하는 컴퓨팅 및 스토리지를 사용하면 개발자가 앱을 구축하고 호스팅하기 위해 외부 플랫폼에 의존할 필요가 없습니다. 즉, Atlassian의 클라우드에서 데이터를 외부로 전송하는 경우만이 Atlassian클라우드 플랫폼의 영역 밖에 해당하는 일이 됩니다. 예를 들어 Atlassian 클라우드에서 데이터를 외부로 보내는 경우는 앱이 특정 원격 API를 사용하여 이슈 데이터를 해석해야 하는 이러한 경우에만 앱이 Atlassian 클라우드에서 데이터를 외부로 보냅니다.</p>
 
-<h3 id="세분화"><strong>세분화</strong></h3>
+<h4 id="세분화">세분화</h4>
 
 <p>Forge는 OAuth 2.0을 사용하여 보다 세분화된 범위를 지원하여 앱이 고객의 사용 사례를 수행하는데 필요한 데이터에만 접근할 수 있도록 합니다.</p>
 
-<h3 id="더-많은-가시성"><strong>더 많은 가시성</strong></h3>
+<h4 id="더-많은-가시성">더 많은 가시성</h4>
 
 <p>Forge 앱의 관리자에게 앱의 세분화된 제어 및 범위에 대한 자세한 정보가 제공됩니다.</p>
 
 <p><br /></p>
 
-<h2 id="atlassian의-marketplace는-모든-고객이-작업을-진행할-수-있도록-지원합니다"><strong>Atlassian의 Marketplace는 모든 고객이 작업을 진행할 수 있도록 지원합니다</strong></h2>
+<h3 id="atlassian의-marketplace는-모든-고객이-작업을-진행할-수-있도록-지원합니다">Atlassian의 Marketplace는 모든 고객이 작업을 진행할 수 있도록 지원합니다</h3>
 
 <p>Forge에 구축된 앱은 무료 또는 유료로 Atlassian Marketplace에 게시될 수 있습니다. Atlassian은 모든 앱을 검토하여 고객의 요구 사항을 충족하는지 확인합니다. 또한 승인 전에 Atlassian제품에서 사용할 준비가 되었는지 확인한 후 승인합니다.</p>
 
@@ -136,7 +134,7 @@
 
 <p><br /></p>
 
-<h2 id="forge를-통해-개발자-커뮤니티의-잠재력-발휘"><strong>Forge를 통해 개발자 커뮤니티의 잠재력 발휘</strong></h2>
+<h3 id="forge를-통해-개발자-커뮤니티의-잠재력-발휘">Forge를 통해 개발자 커뮤니티의 잠재력 발휘</h3>
 
 <p>Atlassian은 <a href="https://www.atlassian.com/blog/announcements/introducing-forge" title="https://www.atlassian.com/blog/announcements/introducing-forge">베타</a> 기간 동안 3,500개 이상의 Forge 앱이 만들어진 것을 확인하였으며 고객, 개발자 및 기존 파트너와 긴밀히 협력하여 피드백을 통해 플랫폼을 개선했습니다.</p>
 
@@ -148,7 +146,7 @@
 
 <p><br /></p>
 
-<h2 id="지금-바로-forge를-구축해-보세요"><strong>지금 바로 Forge를 구축해 보세요</strong></h2>
+<h3 id="지금-바로-forge를-구축해-보세요">지금 바로 Forge를 구축해 보세요</h3>
 
 <p>Atlassian은 사용 사례를 위하여 앱 및 통합을 구축하려는 고객이든 Atlassian Marketplace에서 대형 앱을 만들려는 개발자든 상관없이 Forge를 테스트해 볼 수 있도록 제공하고 있습니다.</p>
 
