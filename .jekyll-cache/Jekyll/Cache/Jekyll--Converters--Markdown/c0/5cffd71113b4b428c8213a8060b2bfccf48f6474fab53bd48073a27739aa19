@@ -1,4 +1,4 @@
-I"�)<p><img src="https://blog.dmove.kr/assets/images/blog/Title Banner_DevOps.png" alt="Banner" /></p>
+I"*<p><img src="https://blog.dmove.kr/assets/images/blog/Title Banner_DevOps.png" alt="Banner" /></p>
 
 <p>안녕하세요. 디무브 입니다.  🎈</p>
 
@@ -126,7 +126,7 @@ Jira Cloud를 기반으로 DevOps를 위해 필요한 도구들을 연결하여 
 <p>이를 위해 Jira Cloud와 Git 기반의 코드 커밋 내역이 연계되어 있으며, 이를 OpsGenie와 연계하면 손쉽게 최근의 배포 사항에 대한 추적이 가능합니다.</p>
 
 <ol>
-  <li><strong>Communicatio &amp; Collaboration</strong></li>
+  <li><strong>Communication &amp; Collaboration</strong></li>
 </ol>
 
 <p>성공적인 DevOps구현은 도구를 연결하는 것에서 끝나지 않습니다. 대부분의 DevOps 실무자는 이에 동의하며, 성공적인 구현에는 사람과 문화가 가장 중요한 요인이라고 말합니다.</p>
@@ -147,7 +147,7 @@ Jira Cloud를 기반으로 DevOps를 위해 필요한 도구들을 연결하여 
 
 <p>웨비나에 대한 전체 내용이 궁금하신 분들께서는, 아래 영상을 통해 확인하실 수 있습니다.</p>
 
-<p><a href="https://www.youtube.com/watch?v=QdjEMouytIU">https://www.youtube.com/watch?v=QdjEMouytIU</a></p>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/QdjEMouytIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <p>추후에도 웨비나에서 다룬 내용에 대해 궁금하신 점이 있으시면 저희에게 언제든지 알려주세요.</p>
 
