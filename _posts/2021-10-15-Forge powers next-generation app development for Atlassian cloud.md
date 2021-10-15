@@ -55,7 +55,7 @@ Forge를 통해 아래에 기재된 앱 개발 단계를 끌어올릴 수 있습
 
 Forge를 기반으로 구축된 새로운 앱은 기존 클라우드 앱 개발 프레임워크를 사용하여 구축된 앱과 근본적으로 다릅니다. Forge를 사용할 경우 Atlassian의 클라우드 플랫폼의 범위 내에서 앱을 구축하게 되고 실행하므로 개발자와 고객 모두에게 새로운 이점을 제공합니다.
 
-<center><img src="https://blog.dmove.kr/assets/images/banners/Forge/3.png" ></center>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Forge/2.png" ></center>
 
 <br/>
 
