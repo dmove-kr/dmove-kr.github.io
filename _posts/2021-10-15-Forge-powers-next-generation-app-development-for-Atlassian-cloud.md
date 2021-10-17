@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Atlassian 클라우드 차세대 앱 개발 플랫폼 Forge
-Subtitle: Atlassian 클라우드 차세대 앱 개발 플랫폼 Forge
+title: Atlassian 클라우드 차세대 앱 개발 플랫폼 Forge를 소개합니다. 
+Subtitle: Forge for altassian cloud app development
 date: 2021-10-15
 categories: [Atlassian Solutions]
-tags: [Atlassian, 아틀라시안, Cloud, 클라우드, Forge, Jira, Confluence ]
+tags: [Atlassian, 아틀라시안, Cloud, 클라우드, Forge, Jira, Confluence, DevOps, Altassian Cloud, Atlassian Marketplace, 아틀라시안마켓플레이스 ]
 ---
 
 
 
 ![Banner](https://blog.dmove.kr/assets/images/banners/Forge/1.png)
 
-안녕하세요, 디무브 입니다!
+안녕하세요, 디무브 입니다!🎈
 
 Atlasian에서는 마켓플레이스를 통해 제품의 기능 확장, 통합 등을 지원하고 있습니다.
 
@@ -166,3 +166,5 @@ Atlassian은 사용 사례를 위하여 앱 및 통합을 구축하려는 고객
 기존 개발자 커뮤니티와 마켓플레이스 파트너를 위해 Atlassian은 Forge 플랫폼에 최근 출시된 제품들을 확인하고 있으며 Forge에 대한 자세한 내용은 Atlassian 개발자 사이트 [**About Forge**](https://developer.atlassian.com/platform/forge/) 에서 확인하실 수 있습니다.
 
 Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!
+
+감사합니다. 🙂
