@@ -80,15 +80,13 @@ Adaptavist는 위 3 제품 외에도 다양한 솔루션을 제공하여 고객�
 
 실제로 국내의 대부분의 고객들도 이미 사용하고 계시는 제품인데요.
 
-Jira와 Confluence에 Adaptavist가 제공하는 강력한 기능을 추가하여 보다 효과적으로 활용하고 싶으신가요?
+Jira와 Confluence에 Adaptavist가 제공하는 강력한 기능을 추가하여 보다 효과적으로 활용하고 싶으시거나, 구매 결정을 하기 전에 30일동안 제공되는 무료 평가판을 체험해 보고 싶으신가요?
 
 혹은 이미 구입하였지만 사용에 어려움이 있으신가요?
 
-구매 결정을 하기 전에 30일동안 제공되는 무료 평가판을 체험해 보고 싶으신가요?
-
-ScriptRunner 외 Adaptavist의 제품과 관련된 어떠한 문의사항도 주저하지 마시고 공식 파트너사인 디무브에게 문의해주세요!
+ScriptRunner 는 물론 Adaptavist의 제품과 관련된 어떠한 문의사항도 주저하지 마시고 공식 파트너사인 디무브에게 문의해주세요!
 
 감사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4NDE3NjgyXX0=
+eyJoaXN0b3J5IjpbLTQzOTAzMDE4M119
 -->
