@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adaptavist 파트너쉽 및 Scriptrunner(Atlassian Add-on)소개
+title: Adaptavist 파트너쉽 및 ScriptRunner(Atlassian Add-on)소개
 Subtitle: Adaptavist Partner Announcement
 date: 2021-10-19
 categories: [Atlassian Solutions]
