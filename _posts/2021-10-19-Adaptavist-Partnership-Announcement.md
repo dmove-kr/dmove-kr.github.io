@@ -103,6 +103,6 @@ Jira와 Confluence에 Adaptavist가 제공하는 강력한 기능을 추가하�
 
 혹은 이미 구입하였지만 사용에 어려움이 있으신가요?
 
-ScriptRunner 는 물론 Adaptavist의 제품과 관련된 어떠한 문의사항도 주저하지 마시고 공식 파트너사인 디무브에게 문의해주세요!
+ScriptRunner는 물론 Adaptavist의 제품과 관련된 어떠한 문의사항도 주저하지 마시고 공식 파트너사인 디무브에게 문의해주세요!
 
 감사합니다.🙂
