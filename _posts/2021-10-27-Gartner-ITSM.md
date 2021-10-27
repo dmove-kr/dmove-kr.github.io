@@ -25,6 +25,14 @@ ITSM 도구는 인프라 및 운영 조직이 IT 서비스 인력, 인프라, �
 
 
 
+## Magic Quadrant
+
+**Figure 1: Magic Quadrant for IT Service Management Tools**
+
+![](blob:https://dmove.atlassian.net/b17bb33d-af81-4e31-b650-a2d42d067489#media-blob-url=true&id=71e26ac1-3b94-478f-bd32-f753afc2248c&collection=contentId-403211091&contextId=403211091&mimeType=image%2Fpng&name=image-20210915-033400.png&size=32907&width=570&height=592&alt=)
+
+![enter image description here](https://static.ziftsolutions.com/files/8a9982117bb7901b017bc4167537191b/thamb.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3ODQ0MTQ3LDE3MzMyNzg4NDNdfQ==
+eyJoaXN0b3J5IjpbOTI5ODUyODQ1LDcyNzg0NDE0NywxNzMzMj
+c4ODQzXX0=
 -->
