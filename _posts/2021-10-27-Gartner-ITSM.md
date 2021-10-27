@@ -125,7 +125,24 @@ ITSM 시장에 대해 공급업체가 제공하는 핵심 상품 및 서비스�
 
 브랜드와 사업을 홍보하고 제품의 이미지를 각인시킬 수 있는 메시지 전달을 위한 마케팅 프로그램 또한 중요합니다.
 
+### 비전 완성도(Completeness of Vision)
+
+비전 완성도는 시장의 요구사항을 이해하고 이를 제품 및 서비스로 구현하는 공급업체의 능력과 명확하고 차별화된 마케팅 및 영업 전략을 보유하고 있는가에 대한 능력을 말합니다.
+
+또한 ITSM에 대한 접근 방식이 증명 가능해야 하며, 전문지식을 보유하고 지속적인 투자를 진행하여 혁신을 이룰 수 있어야 합니다.
+
+---
+
+전세계적으로 ITSM 시장은 이미 성숙해 있으며 매년 빠르게 진화하고 있습니다.
+
+시장에는 수백개의 ITSM 도구가 있지만, 우리 조직의 규모와 요구사항에 맞는 도구를 선택하는 것이 중요합니다.
+
+비즈니스 변화에 빠르게 대응하고 뛰어난 고객 서비스 경험을 제공하길 원하신다면, 아틀라시안의 Jira Service Management를 통해 팀의 협업 문화를 개선할 수 있습니다.
+
+보다 자세한 내용이 궁금하시다면 디무브에게 문의해주세요!
+
+감사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2NTM0NjMxLC0xOTQwODc3MDYzLDcyNz
-g0NDE0NywxNzMzMjc4ODQzXX0=
+eyJoaXN0b3J5IjpbLTEzNzA1ODcyMzksLTE5NDA4NzcwNjMsNz
+I3ODQ0MTQ3LDE3MzMyNzg4NDNdfQ==
 -->
