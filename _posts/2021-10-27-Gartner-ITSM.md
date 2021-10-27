@@ -124,7 +124,8 @@ ITSM 시장에 대해 공급업체가 제공하는 핵심 상품 및 서비스�
 또한 역동적으로 변화하는 시장의 요구사항에 유연하고 경쟁력 있게 대응할 수 있으며 판매를 위한 모든 활동과 채널의 효율성 여부가 포함됩니다.
 
 브랜드와 사업을 홍보하고 제품의 이미지를 각인시킬 수 있는 메시지 전달을 위한 마케팅 프로그램 또한 중요합니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA4NzcwNjMsNzI3ODQ0MTQ3LDE3Mz
-MyNzg4NDNdfQ==
+eyJoaXN0b3J5IjpbODY2NTM0NjMxLC0xOTQwODc3MDYzLDcyNz
+g0NDE0NywxNzMzMjc4ODQzXX0=
 -->
