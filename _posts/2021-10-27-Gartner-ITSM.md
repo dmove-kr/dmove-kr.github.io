@@ -23,7 +23,7 @@ ITSM 도구는 인프라 및 운영 조직이 IT 서비스 인력, 인프라, �
 
 이미 시장에는 수 많은 ITSM 도구가 존재하며, 공급업체는 경쟁력을 확보하기 위하여 비 IT 직무와 관련된 사용 사례를 확대하기 위하여 집중하고 있습니다.
 
-
+---
 
 ## Magic Quadrant
 
@@ -43,9 +43,9 @@ Atlassian은 2021년 ITSM 매직 쿼드런트에서 유일하게 “Visionary”
 
 Visionary는 아직 리더 만큼의 시장 장악력은 부족할 수 있으나, 차별화된 메시지와 제품 전략으로 ITSM 프로세스와 운영에 대한 효율성과 민첩함을 제공하는 혁신적인 접근 방식을 지닌 업체를 의미합니다.
 
-Atlassian의 ITSM 도구인 Jira Service Management의 제품 전략은 개발, 운영 및 비즈니스 팀을 위한 디지털 경험을 통합하는데에 중점을 두고 있습니다. J
+Atlassian의 ITSM 도구인 Jira Service Management의 제품 전략은 개발, 운영 및 비즈니스 팀을 위한 디지털 경험을 통합하는데에 중점을 두고 있습니다. 
 
-ira Service Management의 고객은 전 세계적으로 다양하며, 소규모 조직부터 대규모 엔터프라이즈 기업까지 아우릅니다.
+Jira Service Management의 고객은 전 세계적으로 다양하며, 소규모 조직부터 대규모 엔터프라이즈 기업까지 아우릅니다.
 
 Atlassian의 ITSM 로드맵에는 ITOM 기능 및 로우 코드(Low-code) 워크플로우에 대한 투자가 포함되어 있습니다. 최근에는 Halp(챗봇), Chartio(데이터분석 및 보고서), ThinkTilt(양식 디자인) 및 및 Mindville(자산 및 구성관리를 위한 Insight)등을 인수하였습니다.
 
@@ -100,7 +100,7 @@ ServiceNow는 최근 AI 및 ML 기술력을 보유한 회사를 인수하여 플
     
 -   Cherwell은 Ivanti에 인수되었습니다.
 
-
+---
 
 ## 선정 기준
 
@@ -111,7 +111,20 @@ ServiceNow는 최근 AI 및 ML 기술력을 보유한 회사를 인수하여 플
 -   제품에 대한 마케팅 캠페인을 실행하고, 지난 12개월 동안 제품에 대한 주요 업데이트 및 릴리스를 진행하여 지속적인 개발과 투자를 입증해야 합니다.
     
 -   2020년 한해 동안 ITSM 제품에서 발생한 연간 수익이 3천만 달러 이상이고, 2019년에 비해 20% 이상의 성장률을 보여야 합니다.
+
+---
+
+
+## 평가 기준
+
+### 실행 능력(Ability to Execute)
+
+ITSM 시장에 대해 공급업체가 제공하는 핵심 상품 및 서비스가 실행 가능하며 지속적인 투자를 통해 발전시킬 수 있는지를 평가합니다.
+
+또한 역동적으로 변화하는 시장의 요구사항에 유연하고 경쟁력 있게 대응할 수 있으며 판매를 위한 모든 활동과 채널의 효율성 여부가 포함됩니다.
+
+브랜드와 사업을 홍보하고 제품의 이미지를 각인시킬 수 있는 메시지 전달을 위한 마케팅 프로그램 또한 중요합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzUxODYwMzYsNzI3ODQ0MTQ3LDE3Mz
+eyJoaXN0b3J5IjpbLTE5NDA4NzcwNjMsNzI3ODQ0MTQ3LDE3Mz
 MyNzg4NDNdfQ==
 -->
