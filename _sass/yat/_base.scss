@@ -182,7 +182,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: $content-width;
+ // max-width: $content-width;
+  max-width: 70%;
   margin: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;

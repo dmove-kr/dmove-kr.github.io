@@ -75,7 +75,7 @@
   & > .wrapper {
     margin: 0 60px;
     padding: 0;
-    max-width: 100%;
+    max-width: 920px;
     transition: 0.2s margin;
 
     @include media-query(1024px) {
@@ -196,7 +196,7 @@
     height: 104px;
   }
   #header .logo {
-    margin-left:10%;
+    margin-left:5%;
     transform: none !important;
     top: 33px !important;
   }
