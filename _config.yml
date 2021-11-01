@@ -165,3 +165,12 @@ plugins:
   - jekyll-paginate
   - jekyll-spaceship
   - jemoji
+
+ tipue_search:
+     include:
+         pages: false
+         collections: []
+     exclude:
+         files: [search.html, index.html, tags.html]
+         categories: []
+         tags: []
