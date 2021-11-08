@@ -52,6 +52,22 @@ http://www.tipue.com/search
 	outline: 0;
 	margin: 0;
 }
+#tipue_search_input2
+{
+     color: #333;
+     max-width: 210px;
+     width: 600px;
+     height: 40px;
+     font-size: 1.2rem;
+     padding: 0 10px;
+	border: 1px solid #e3e3e3;
+	border-radius: 0;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+     box-shadow: none; 
+	outline: 0;
+	margin: 0;
+}
 .tipue_search_icon
 {
      width: 24px;
