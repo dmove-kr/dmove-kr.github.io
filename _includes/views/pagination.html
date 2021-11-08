@@ -37,7 +37,7 @@
         <a class="post-tag" href="{{ '/tags.html ' | relative_url }}#{{tag}}">#{{tag}}</a>
         {%- endfor -%} -->
         {%- for category in post.categories -%}
-          <h2 id="{{ category }}" class="segment-name">
+          <h2 id="{{ category }}" class="segment-name" style="font-size: 21px;">
             <a class="" style="color: #454545;" href="{{ '/categories.html ' | relative_url }}#{{category}}"># {{ category }}</a>
           </h2>
         {%- endfor -%}
