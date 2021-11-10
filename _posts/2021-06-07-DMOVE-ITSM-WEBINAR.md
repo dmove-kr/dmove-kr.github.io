@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Atlassian Webinar - 디지털 트랜스포매이션을 위한 아틀라시안의 IT 서비스 관리
+title: 2021년 6월 아틀라시안 웨비나  - 디지털 트랜스포매이션을 위한 아틀라시안의 IT 서비스 관리
 subtitle: Dmove ITSM 웨비나
 date: 2021-06-07
 categories: [News and Events]
