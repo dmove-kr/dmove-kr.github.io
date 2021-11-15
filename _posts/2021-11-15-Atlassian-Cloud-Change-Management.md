@@ -103,7 +103,44 @@ Atlassian 클라우드 변경 사항에 대한 업데이트를 더 자주 받고
 
 샌드박스 환경을 현재 사용하고 있는 제품 환경과 동일하게 구성하려면 Jira Software, Jira Service Management 또는 Confluence 의 데이터를 [샌드 박스로 복사하면 됩니다.](https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/#Managesandboxes-Copydatatoasandbox "https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/#Managesandboxes-Copydatatoasandbox")
 
+![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/b6c8f672-d111-406a-9644-dd17613e8139.png?resize=768,217&ssl=1)
 
+기존 제품 환경과 동일한 구성의 샌드박스가 준비가 되었으면 샌드박스 내에서 제품 변경 사항을 테스트할 수 있습니다.
+
+관리 개요 내에서 제품 업데이트가 샌드박스에 릴리스되는 시기와 방법을 제어하는 ​​[릴리즈 트랙 미리보기](https://support.atlassian.com/organization-administration/docs/manage-product-release-tracks/#Managereleasetracks-Usesandboxesandreleasetrackstogether "https://support.atlassian.com/organization-administration/docs/manage-product-release-tracks/#Managereleasetracks-Usesandboxesandreleasetrackstogether")에 샌드박스를 배치하여 업데이트 기능을 확인할 수 있습니다.
+
+시작하려면 **제품 > 릴리즈 트랙 > 트랙 변경**으로 이동합니다. 여기서 샌드박스에 대한 **미리보기** 트랙을 선택합니다 .
+
+미리 보기 트랙을 활성화하면 변경 예정인 사항들이 릴리즈 2주 전에 샌드박스에 릴리즈 되고 업데이트 내용을 체험하고 테스트 해볼 수 있습니다.
+
+이렇게 하면 새로운 변경 사항을 확인하고, 필요에 따라 조정하고, 변경 사항이 워크플로에 어떤 영향을 미칠 수 있는 지를 사용자에게 알리고 교육할 수 있습니다.
+
+사용자를 위한 교육용 비디오를 만들거나 튜토리얼을 작성해야 하는 경우 동일한 변경 사항이 사용자에게 공개되기까지 한 달이 걸립니다.
+
+
+### **4. 번들 트랙에 제품 사이트 배치**
+
+관리자는 제품 환경의 릴리스 트랙을 설정하여 조직의 변화 속도를 제어할 수도 있습니다.
+
+샌드박스와 동일하게 실제 제품 환경에서도 릴리스 트랙을 설정하여 업데이트 시기를 관리할 수 있습니다.
+
+제품 환경에 대한 릴리스 트랙을 선택할 때 **연속 릴리스 트랙** (제품 변경 사항이 제공되는 즉시 제품 환경에 릴리스됨) 또는 **번들 트랙** (월 단위로 제품 변경 사항이 함께 번들로 제공되고 릴리스됨) 중에서 선택할 수 있습니다.
+
+제품 릴리스에 번들 트랙을 채택하면 변경 사항을 관리하는 데 도움이 됩니다.
+
+이를 통해 사용자가 새로운 기능을 사용할 시기를 제어할 수 있으므로 변경 사항으로 인해 워크플로 또는 프로젝트가 중단될 가능성을 줄일 수 있습니다.
+
+제품 샌드박스의 미리 보기 트랙과 함께 사용하면 제품 변경 사항에 대해 미리 팀을 교육할 수 있으며 언제 어떤 업데이트가 출시될 것인지 팀과 사용자에게 정확히 알릴 수 있습니다.
+
+----------
+
+이처럼 Atlassian은 플랫폼과 제품을 지속적으로 개선하는 데 투자하고 있으며 고객과 협력하기 위해 최선을 다하고 있습니다.
+
+Atlassian이 지원하는 변경 관리를 통해 Atlassian 클라우드 플랫폼을 보다 효과적으로 활용하시기 바랍니다.
+
+추가적으로 아틀라시안 클라우드 제품에 대해 자세히 알고 싶으시다면 저희 디무브를 찾아주세요!
+
+감사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDIzMTgzMjIsODgxNzEyMTA0XX0=
+eyJoaXN0b3J5IjpbMzY1MDUxNDAsODgxNzEyMTA0XX0=
 -->
