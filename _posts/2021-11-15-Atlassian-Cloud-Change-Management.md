@@ -59,6 +59,32 @@ Atlassian은 제품 변경 사항을 고객에게 공개하고 있으며 변경 
 -   연도 및 분기 별로 출시될 변경 사항
     
 -   구성 및 기능 동작 방식에 대한 간략한 설명
+
+![enter image description here](https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/2atlcloud.png?resize=768,391&ssl=1)
+
+Atlassian 클라우드 플랫폼 전반에 걸쳐 어떤 변화가 올지 궁금하다면 **클라우드 플랫폼(Cloud Platform)**을 클릭하여 확인할 수 있습니다.
+
+클라우드 플랫폼에 제공되는 업데이트는 사용하고 있는 하나 이상의 제품에 영향을 줄 수 있습니다.
+
+근시일 내 또는 앞으로 다가올 변화에 대해 자세히 알고 싶으시다면 페이지 상단의 상태 필터를 전환하여 현재 분기("Coming soon") 내에, 다음 연도("In the works") 내에 또는 이후("Future")를 선택하여 어떤 기능이 출시될 지 확인할 수 있습니다.
+
+### **2. Atlassian 주간 릴리즈 정보 구독**
+
+Atlassian 클라우드 변경 사항에 대한 업데이트를 더 자주 받고 싶은 분들은 [**클라우드 릴리즈 블로그**](https://confluence.atlassian.com/cloud/blog# "https://confluence.atlassian.com/cloud/blog#") 를 구독하시길 추천합니다.
+
+매주 Atlassian팀은 Atlassian 클라우드 플랫폼, Jira Software, Jira Service Management, Jira Work Management, Confluence 및 Bitbucket에 대한 변경 사항을 블로그에 업데이트합니다.
+
+각 블로그 게시물에서는 아래의 내용이 포함되어 있으며 최근 및 향후 변경 사항에 대한 정보를 제품 별로 찾을 수 있습니다.
+
+-   변경 사항에 대한 간략한 설명
+    
+-   변경 사항이 영향을 미칠 제품 목록
+    
+-   제품 내에서 변경 사항을 확인할 수 있는 위치
+    
+![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/4e3a9066-6858-4d48-9b33-c3f177a1c2f6.png?resize=768,557&ssl=1)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxODI2MDU4XX0=
+eyJoaXN0b3J5IjpbODgxNzEyMTA0XX0=
 -->
