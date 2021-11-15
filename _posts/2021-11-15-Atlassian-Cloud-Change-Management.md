@@ -84,7 +84,26 @@ Atlassian 클라우드 변경 사항에 대한 업데이트를 더 자주 받고
     
 ![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/4e3a9066-6858-4d48-9b33-c3f177a1c2f6.png?resize=768,557&ssl=1)
 
+[**클라우드 릴리스 블로그**](https://confluence.atlassian.com/cloud/blog# "https://confluence.atlassian.com/cloud/blog#") 의 오른쪽 상단 모서리에 있는 "**보기(Watch)**"를 클릭하면 블로그를 구독하실 수 있습니다.
+
+
+### **3. 샌드박스를 활용한 사전 테스트**
+
+앞의 두 가지 방법을 통해 Atlassian 클라우드 제품의 변경 사항을 확인하였다면, 변경 사항에 대한 대비를 미리 준비해야 합니다.
+
+클라우드 프리미엄 및 클라우드 엔터프라이즈 플랜을 이용 중인 고객은 샌드박스 및 릴리스 트랙 기능을 이용하여 예정된 변경 사항을 준비할 수 있습니다.
+
+[**Atlassian의 샌드박스**](https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/ "https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/")는 클라우드에 변경될 사항이 제품에 출시되기 전 테스트할 수 있도록 지원합니다.
+
+샌드박스는 제품과 동일한 환경과 기능을 제공하며, 보유하고 있는 프리미엄 또는 엔터프라이즈 제품 환경(Jira Software, Jira Service Management 및 Confluence 포함) 당 하나의 샌드박스를 생성할 수 있습니다.
+
+샌드박스를 생성하기 위해서는 조직의 **관리** 개요로 이동하여 **제품 > 샌드박스로** 이동한  다음 **샌드박스 만들기를** 선택 합니다.
+
+여기에서 샌드박스를 만들 제품을 선택하면 준비가 완료되었을때 알림이 오고, 샌드박스 내에서 제품 환경과 동일한 방식으로 변경할 수 있습니다.
+
+샌드박스 환경을 현재 사용하고 있는 제품 환경과 동일하게 구성하려면 Jira Software, Jira Service Management 또는 Confluence 의 데이터를 [샌드 박스로 복사하면 됩니다.](https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/#Managesandboxes-Copydatatoasandbox "https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/#Managesandboxes-Copydatatoasandbox")
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxNzEyMTA0XX0=
+eyJoaXN0b3J5IjpbLTE3NDIzMTgzMjIsODgxNzEyMTA0XX0=
 -->
