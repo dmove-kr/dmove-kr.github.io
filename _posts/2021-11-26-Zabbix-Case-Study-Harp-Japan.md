@@ -43,7 +43,7 @@ Harp 회사는 이미 2010년 부터 Zabbix 2.0 버전을 도입하여 사용해
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | Zabbix 서버 갯수 : 2대 <br/> Zabbix 프록시 갯수 : 10개 <br/>모니터링 되는 장치 수 : 1,000개 <br />사이트 갯수 : 1개<br />트리거 수 : 7,000개 <br/>이중화 구성 : 액티브 - 액티브 구성<br /> | VM 머신 (4Core CPU, 16GB 메모리, 3.5TB 디스크) <br/>NVPS : 240 |
 
-![](https://blog.dmove.co.kr/assets/images/banners/Zabbix/Case%20Study/Harp/Infrastructure.png)
+![](https://blog.dmove.kr/assets/images/banners/Zabbix/Case%20Study/Harp/Infrastructure.png)
 
 
 
