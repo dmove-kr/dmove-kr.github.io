@@ -20,12 +20,12 @@ tags: [Atlassian, 아틀라시안, Okta, 옥타, 토크아이티, 아틀라시�
       <a href="https://talkit.tv/Event/2730" style="background-color: #0711A1; color:white;">사전등록 하러가기</a>
 		    </div>
        
-       
+<br>       
 ---
 
 ## 디무브 웨비나 안내
 
-**주제: [Atlassian+Okta] 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제**
+**주제: 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제**
 
 **날짜: 2021년 12월 14일**
 
