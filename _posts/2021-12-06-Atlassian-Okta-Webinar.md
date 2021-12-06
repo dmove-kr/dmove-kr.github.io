@@ -33,7 +33,7 @@
 ![Speaker](/assets/images/blog/Speaker.png)
 
 ## 참여 이벤트
-
+![enter image description here](https://talkit.tv/userfiles/images/file1637936180908.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDg4NjU1MywxNTUzNTY4MTc5XX0=
+eyJoaXN0b3J5IjpbLTExMDgyMDUxNDEsMTU1MzU2ODE3OV19
 -->
