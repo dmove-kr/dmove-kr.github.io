@@ -19,7 +19,7 @@ tags: [Atlassian, 아틀라시안, Okta, 옥타, 토크아이티, 아틀라시�
 <div class="btn_main_more mt40 mb_t_c" style="margin-left: 45px;">
       <a href="https://talkit.tv/Event/2730" style="background-color: #0711A1; color:white;">사전등록 하러가기</a>
 		    </div>
-       
+
 <br>       
 
 ---
@@ -45,19 +45,19 @@ tags: [Atlassian, 아틀라시안, Okta, 옥타, 토크아이티, 아틀라시�
 
 회사 데이터의 안전과 보안을 유지하면서, Atlassian 뿐만 아니라 모든 클라우드 앱의 잠재력을 최대한 활용하는 방법을 얻어가세요!
 
+## 아젠다  
 
-## 아젠다
 | 시간 | 주제 |
 |---|---|
-| 16:00 ~ 16:15 | **Cloud 환경에서의 Identity & Access 관리** <br> - 조직의 보안을 위해 ID 및 액세스 관리가 중요한 이유 <br> - Zero Trust 보안 모델 |
-| 16:15 ~ 16:35 | **보안 강화를 위한 클라우드 ID 공급자의 역할** <br> - 아이덴티티의 역할과 중요성 <br> - Okta 솔루션 데모 |
-| 16:35 ~ 16:55 | **Atlassian 클라우드 제품의 연결과 확장** <br> - Atlassian Access를 통한 ID 관리 <br> - Access+Okta Integration 데모 | 
-| 16:55 ~ 17:00 | **Q&A** <br> - 질의응답 |
- 
- 
- 
- 
+| 16:00 ~ 16:15 | **Cloud 환경에서의 Identity & Access 관리** <br/> - 조직의 보안을 위해 ID 및 액세스 관리가 중요한 이유 <br/> - Zero Trust 보안 모델 |
+| 16:15 ~ 16:35 | **보안 강화를 위한 클라우드 ID 공급자의 역할** <br/> - 아이덴티티의 역할과 중요성 <br/> - Okta 솔루션 데모 |
+| 16:35 ~ 16:55 | **Atlassian 클라우드 제품의 연결과 확장** <br/> - Atlassian Access를 통한 ID 관리 <br/> - Access+Okta Integration 데모 |
+| 16:55 ~ 17:00 | **Q&A** <br/> - 질의응답 |
+
+
+
 ## 발표자  
+
 ![Speaker](/assets/images/blog/Speaker.png)
 
 ## 참여 이벤트
@@ -67,4 +67,4 @@ tags: [Atlassian, 아틀라시안, Okta, 옥타, 토크아이티, 아틀라시�
 <div class="btn_main_more mt40 mb_t_c" style="margin-left: 45px;">
       <a href="https://talkit.tv/Event/2730" style="background-color: #0711A1; color:white;">사전등록 하러가기</a>
 		    </div>
-        
+​        
