@@ -48,7 +48,7 @@ tags: [Atlassian, 아틀라시안, Okta, 옥타, 토크아이티, 아틀라시�
 
 ## 아젠다
 | 시간 | 주제 |
-|--|--|
+|---|---|
 | 16:00 ~ 16:15 | **Cloud 환경에서의 Identity & Access 관리** <br> - 조직의 보안을 위해 ID 및 액세스 관리가 중요한 이유 <br> - Zero Trust 보안 모델 |
 | 16:15 ~ 16:35 | **보안 강화를 위한 클라우드 ID 공급자의 역할** <br> - 아이덴티티의 역할과 중요성 <br> - Okta 솔루션 데모 |
 | 16:35 ~ 16:55 | **Atlassian 클라우드 제품의 연결과 확장** <br> - Atlassian Access를 통한 ID 관리 <br> - Access+Okta Integration 데모 | 
