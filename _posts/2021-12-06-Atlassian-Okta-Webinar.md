@@ -1,5 +1,6 @@
 ## 디무브 웨비나 안내
 
+
 **주제: [Atlassian+Okta] 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제**
 **날짜: 2021년 12월 14일**
 **시간: 오후4시 ~ 오후5시** 
@@ -35,5 +36,6 @@
 ## 참여 이벤트
 ![enter image description here](https://talkit.tv/userfiles/images/file1637936180908.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDgyMDUxNDEsMTU1MzU2ODE3OV19
+eyJoaXN0b3J5IjpbLTEzMjA5NTU3MTUsLTExMDgyMDUxNDEsMT
+U1MzU2ODE3OV19
 -->
