@@ -21,10 +21,10 @@
 ## 아젠다
 | 시간 | 주제 |
 |--|--|
-| 16:00 ~ 16:15 | **Cloud 환경에서의 Identity & Access 관리** <br> - 조직의 보안을 위해 ID 및 액세스 관리가 중요한 이유 <br> - Atlassian의 Open DevOps 솔루션 <br> - Jira Cloud 중심의 DevOps 업무 방식 |
- | 16:15 ~ 16:30 | **Atlassian의 DevOps 라이프사이클** <br> - Atlassian Cloud를 기반으로 한 DevOps 라이프사이클 <br> - 타 도구와의 통합을 통한 확장 및 효율적인 업무 자동화 |
- | 16:30 ~ 16:50 | **DevOps Demo** <br> - Atlassian Cloud 툴체인을 활용한 AWS DevOps 데모 시연 | 
- | 16:50 ~ 17:00 | **Q&A** <br> - 질의응답|
+| 16:00 ~ 16:15 | **Cloud 환경에서의 Identity & Access 관리** <br> - 조직의 보안을 위해 ID 및 액세스 관리가 중요한 이유 <br> - Zero Trust 보안 모델 |
+ | 16:15 ~ 16:35 | **보안 강화를 위한 클라우드 ID 공급자의 역할** <br> - 아이덴티티의 역할과 중요성 <br> - Okta 솔루션 데모 |
+ | 16:35 ~ 16:55 | **Atlassian 클라우드 제품의 연결과 확장** <br> - Atlassian Access를 통한 ID 관리 | 
+ | 16:55 ~ 17:00 | **Q&A** <br> - 질의응답|
  
  
  
@@ -35,5 +35,5 @@
 ## 참여 이벤트
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzU2ODE3OV19
+eyJoaXN0b3J5IjpbMTAxNzc2OTAzOCwxNTUzNTY4MTc5XX0=
 -->
