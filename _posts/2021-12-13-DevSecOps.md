@@ -74,7 +74,18 @@ DevSecOps를 구현하는 모범 사례 중 하나는 모든 구성원이 수행
 
 Atlassian의 Data Center에는 고가용성 및 확장성 외에도 클러스터링, [**제로 다운타임 업그레이드, 롤링 업그레이드**](https://www.atlassian.com/enterprise/data-center/data-center-video-library "https://www.atlassian.com/enterprise/data-center/data-center-video-library") 등 DevSecOps를 시작하고 개선하는 데 도움이 되는 다양한 기능이 내장되어 있습니다.
 
+사일로를 해체하고 팀을 통합하여 최종 목표를 보다 효과적으로 달성하는 데 도움이 되는 DevSecOps와 같은 최신 프레임워크를 구현하는 방법에 대해 아래의 문서에서 보다 자세히 확인하실 수 있습니다.
 
+
+### [**Data Center 백서 다운로드**](https://www.atlassian.com/enterprise/data-center/bridging-the-gap "https://www.atlassian.com/enterprise/data-center/bridging-the-gap")
+
+---
+
+지금까지 DevSecOps란 무엇이며 왜 주목해야 하는지, 그리고 아틀라시안의 Data Center가 DevSecOps 구현에 왜 필요한지 알아보았습니다.
+
+DevSecOps를 구현하기 위한 Jira, Confluence, Bitbucket, Bamboo와 같은 Atlassian Data Center 및 Cloud 제품들에 관해 보다 자세한 내용이 궁금하시다면 디무브에게 문의해주세요!
+
+감사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDUyMTA2NF19
+eyJoaXN0b3J5IjpbNTE2MTg1OTA3XX0=
 -->
