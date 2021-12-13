@@ -60,6 +60,8 @@ DevSecOps는 단순한 프로세스가 아니라 사고 방식의 변화가 필�
 ### **DevSecOps 보안 테스트**
 ![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/10/image-20211001-180328.png?resize=768,167&ssl=1)
 
+---
+
 ## **DevSecOps 구현의 이점**
 
 DevSecOps를 구현하는 모범 사례 중 하나는 모든 구성원이 수행하는 것입니다. 소규모 팀의 레벨에서 구현하는 것이 일반적이지만, 모든 구성원이 DevSecOps를 수행하면 다음과 같은 이점을 얻을 수 있습니다.
@@ -86,7 +88,7 @@ Atlassian의 Data Center에는 고가용성 및 확장성 외에도 클러스터
 사일로를 해체하고 팀을 통합하여 최종 목표를 보다 효과적으로 달성하는 데 도움이 되는 DevSecOps와 같은 최신 프레임워크를 구현하는 방법에 대해 아래의 문서에서 보다 자세히 확인하실 수 있습니다.
 
 
-### [**Data Center 백서 다운로드**](https://www.atlassian.com/enterprise/data-center/bridging-the-gap "https://www.atlassian.com/enterprise/data-center/bridging-the-gap")
+[**Data Center 백서 다운로드**](https://www.atlassian.com/enterprise/data-center/bridging-the-gap "https://www.atlassian.com/enterprise/data-center/bridging-the-gap")
 
 ---
 
