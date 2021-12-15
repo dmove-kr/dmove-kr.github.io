@@ -1,0 +1,135 @@
+I"<p><img src="/assets/images/blog/notice_1.png" alt="Banner" /></p>
+
+<p>안녕하세요, 디무브입니다! 🎈</p>
+
+<p>현재 Log4j 라이브러리에서 중요한 보안 취약점이 발견되어 안내드립니다.</p>
+
+<p>해당 취약점은 로그 메시지, 구성, 매게 변수에 사용되는 2.14.1 버전 이하의 자바 Log4j 라이브러리에서 공격이 들어왔을 때  LDAP 및 기타 JNDI 관련 엔드포인트로부터 보호되지 않는 취약점입니다.</p>
+
+<p>이 취약점은 로그 메시지 또는 로그 메시지 매개 변수를 제어할 수 있는 해커가 LDAP 서버에서 로드된 임의 코드를 실행하여 데이터 불법 취득이나, 삭제 악성 프로그램 실행 등이 가능할 것이라 전망하고 있습니다.</p>
+
+<hr />
+
+<h2 id="취약점에-대한-아틀라시안-클라우드-제품의-영향">취약점에 대한 아틀라시안 클라우드 제품의 영향</h2>
+
+<p>아틀라시안 클라우드를 사용하는 고객분들은 해당 보안 취약점에 영향을 받지 않습니다.</p>
+
+<p>현재까지의 분석 결과 Log4j를 사용하는 시스템을 패치하기 전에 아틀라시안 시스템 또는 고객의 데이터가 손상된 내용은 없었습니다. 때문에 따로 수정해야 하는 작업은 없습니다.</p>
+
+<h2 id="취약점에-대한-아틀라시안-온프레미스-제품의-영향">취약점에 대한 아틀라시안 온프레미스 제품의 영향</h2>
+
+<p>CVE-2021-44228에 취약한 Atlassian 온프레미스 제품은 없습니다.</p>
+
+<p>다만 아틀라시안 제품 중 일부는 1.2.17 버전의 Log4j를 사용하고 있습니다. 아틀라시안 측에서 추가적인 분석을 수행한 결과 취약점 대상의 라이브러리는 아님을 확인하였습니다.</p>
+
+<p>하지만 만약 Log4j에서 JMS Appender 관련 내용을 작성하였을 경우 취약점의 문제가 발생할 수 있으므로 다음과 같은 설정을 확인하여 주석 처리 혹은 삭제를 권고 드립니다.</p>
+
+<h3 id="취약성-점검-방법">취약성 점검 방법</h3>
+
+<ul>
+  <li>
+    <p>제품 별 아래의 경로에서 <strong>org.apache.log4j.JMSAppender</strong> 사용 여부 확인</p>
+  </li>
+  <li>
+    <p>응용프로그램의 CLASSPATH에 javax.jms API가 포함되어 있는지 확인</p>
+  </li>
+  <li>
+    <p>JMS Appender의 서드파티에 대한 JNDI의 조회 대상으로 되어있는지 확인</p>
+
+    <p>■ 해당 취약성 부분은 신뢰할 수 있는 사용자가 응용 프로그램의 구성을 수정하거나 런타임에 속성을 설정하는 경우에만 사용됩니다.</p>
+  </li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**제품**</th>
+      <th style="text-align: left">**경로**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Jira Server &amp; Data Center</td>
+      <td style="text-align: left">"Install Directory"/atlassian-jira/WEB-INF/classes/log4j.properties</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Confluence Server &amp; Data Center</td>
+      <td style="text-align: left">"Install Directory"/confluence/WEB-INF/classes/log4j.properties</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Bamboo Server &amp; Data Center</td>
+      <td style="text-align: left">"Install Directory"/atlassian-bamboo/WEB-INF/classes/log4j.properties</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Fisheye / Crucible</td>
+      <td style="text-align: left">"Install Directory"/log4j.xml</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Crowd</td>
+      <td style="text-align: left">"Install Directory"/crowd-webapp/WEB-INF/classes/log4j.properties<br />"Install Directory"/crowd-openidclient-webapp/WEB-INF/classes/log4j.properties<br />"Install Directory"/crowd-openidserver-webapp/WEB-INF/classes/log4j.properties</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>log4j 1.2.17 버전을 사용하는 아틀라시안의 제품은 다음과 같습니다:</p>
+
+<ul>
+  <li>Bamboo Server and Data Center</li>
+  <li>Confluence Server and Data Center</li>
+  <li>Crowd Server and Data Center</li>
+  <li>Fisheye / Crucible</li>
+  <li>Jira Service Management Server and Data Center</li>
+  <li>Jira Software Server and Data Center (including Jira Core)</li>
+</ul>
+
+<hr />
+
+<h2 id="아틀라시안-마켓플레이스-애드온의-영향">아틀라시안 마켓플레이스 애드온의 영향</h2>
+
+<p><strong>클라우드 애드온</strong></p>
+
+<p>“Connect“ 및 “Forge“와 같은 어플리케이션을 개발하기 위해 아틀라시안이 파트너와 공유하는 툴은 CVE-2021-44228 보안 취약점에 영향을 받지 않습니다.</p>
+
+<p>또한 아틀라시안 자체에서 개발한 클라우드 애드온 중 취약점이 있는 애드온은 보안 취약점에 영향을 받지 않습니다.</p>
+
+<p>다만 타 애드온 개발사가 만든 애드온의 경우 보안취약점에 안전한지 전체적으로 확인되지 않아 추가적으로 확인 및 검토를 진행중입니다.</p>
+
+<p><strong>서버 및 데이터 센터 애드온</strong></p>
+
+<p>클라우드 앱과 마찬가지로 아틀라시안 자체에서 개발한 애드온의 경우 보안 취약점의 영향을 받지 않지만 타 개발사의 애드온은 식별됨을 확인하였습니다. 
+현재 아틀라시안 측에서는 추가적인 확인 및 검토를 진행중이며 애드온 개발사 측에 보안 취약점을 해결하도록 일정 기간동안의 권고 뒤 마켓플레이스에서 삭제되도록 하고 있습니다.</p>
+
+<ul>
+  <li>만약 애드온 중 보안 취약점에 영향을 받는 애드온을 확인할 경우 즉시 해당 애드온을 일시 중지하고 고객에게 사실을 전달해야 합니다.</li>
+</ul>
+
+<hr />
+
+<h2 id="보안-취약점에-노출-여부-확인">보안 취약점에 노출 여부 확인</h2>
+
+<p>유감스럽게도, 아틀라시안 측에서는 사용자마다 모든 보안 문제가 서로 다르기 때문에 사용자의 인스턴스가 보안취약점에 당했거나 노출되어 있는지 구체적인 확인이 어려운 상황입니다.</p>
+
+<p>추가적인 확인 및 조사를 해야 할 경우 사내 보안 팀이나 전문 보안 포렌식 업체에 문의를 통해 확인하는 것을 권고드립니다.</p>
+
+<hr />
+
+<p>아틀라시안은 log4j core 모듈을 활용하여 로깅을 하고 있으나 log4j-.1.2 기반의 라이브러리를 활용하여 log4j 를 사용하고 있어서, 이번 취약점을 활용한 공격의 대상은 아닙니다.</p>
+
+<p>다만, 영향을 받을 수 있는 경우에는 확인 후 조치를 취하시는 것을 권장 드립니다.</p>
+
+<p>아래는 아틀라시안에서 최근 발표한 log4j 취약점에 대한 내용이며, 해당 취약점에 대한 아틀라시안의 영향도를 low 등급으로 책정하여 관리하고 있다는 내용을 확인하실 수 있습니다.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>[![img](https://confluence.atlassian.com/staticassets/4.0.51/dist/common/images/favicon.png)Multiple Products Security Advisory - Log4j Vulnerable To Remote Code Execution - CVE-2021-44228</td>
+      <td>Atlassian Support</td>
+      <td>Atlassian Documentation](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>관련하여 도움이 필요하실 경우 디무브로 언제든지 문의해주시기 바랍니다.</p>
+
+<p>감사합니다.</p>
+:ET
