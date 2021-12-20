@@ -1,10 +1,10 @@
-I"�<p><img src="/assets/images/blog/notice_1.png" alt="Banner" /></p>
+I"�(<p><img src="/assets/images/blog/notice_1.png" alt="Banner" /></p>
 
 <p>안녕하세요, 디무브입니다! 🎈</p>
 
 <p>현재 Log4j 라이브러리에서 중요한 보안 취약점이 발견되어 안내드립니다.</p>
 
-<p>해당 취약점은 로그 메시지, 구성, 매게 변수에 사용되는 2.14.1 버전 이하의 자바 Log4j 라이브러리에서 공격이 들어왔을 때  LDAP 및 기타 JNDI 관련 엔드포인트로부터 보호되지 않는 취약점입니다.</p>
+<p>해당 취약점은 log4j 2.14.1 이하 버전의 jndi 를 사용하여 LDAP 이나 jndi 기반 엔드 포인트의 컨피그레이션이나 로깅, 파라미터 전달 했을 시에 영향을 받는 취약점입니다.</p>
 
 <p>이 취약점은 로그 메시지 또는 로그 메시지 매개 변수를 제어할 수 있는 해커가 LDAP 서버에서 로드된 임의 코드를 실행하여 데이터 불법 취득이나, 삭제 악성 프로그램 실행 등이 가능할 것이라 전망하고 있습니다.</p>
 
@@ -18,9 +18,7 @@
 
 <h2 id="취약점에-대한-아틀라시안-온프레미스-제품의-영향">취약점에 대한 아틀라시안 온프레미스 제품의 영향</h2>
 
-<p>CVE-2021-44228에 취약한 Atlassian 온프레미스 제품은 없습니다.</p>
-
-<p>다만 아틀라시안 제품 중 일부는 1.2.17 버전의 Log4j를 사용하고 있습니다. 아틀라시안 측에서 추가적인 분석을 수행한 결과 취약점 대상의 라이브러리는 아님을 확인하였습니다.</p>
+<p>아틀라시안 제품 중 일부는 1.2.17 버전의 Log4j를 사용하고 있습니다. 아틀라시안 측에서 추가적인 분석을 수행한 결과 취약점 대상의 라이브러리는 아님을 확인하였습니다.</p>
 
 <p>하지만 만약 Log4j에서 JMS Appender 관련 내용을 작성하였을 경우 취약점의 문제가 발생할 수 있으므로 다음과 같은 설정을 확인하여 주석 처리 혹은 삭제를 권고 드립니다.</p>
 
@@ -82,6 +80,51 @@
   <li>Jira Software Server and Data Center (including Jira Core)</li>
 </ul>
 
+<p><br /></p>
+
+<h3 id="추가-사항-안내">추가 사항 안내</h3>
+
+<p>추가적인 확인 결과 Bitbucket 서버와 데이터 센터의 버전의 경우 ElasticSearch 검색 엔진을 사용하는데 이 Elasticsearch의 경우 2.14 버전 아래의 라이브러리를 사용중인 것으로 확인이 되었습니다.</p>
+
+<p>영향을 받는 Bitbucket 서버 및 데이터센터 버전은 다음과 같습니다: <br /></p>
+
+<ul>
+  <li>6.10.16 버전 미만의 모든 버전</li>
+  <li>7.X ~ 7.6.12</li>
+  <li>7.7.0 버전 이상 7.14.2 버전 아래의 모든 버전</li>
+  <li>7.15.3 버전 미만의 모든 7.15 버전</li>
+  <li>7.16.3 버전 미만의 모든 7.16 버전</li>
+  <li>7.17.4 버전 미만의 모든 7.17 버전</li>
+  <li>7.18.3 버전 미만의 모든 7.18 버전</li>
+  <li>
+    <p>7.19 버전</p>
+
+    <p><br /></p>
+  </li>
+</ul>
+
+<p><strong>조치 사항</strong></p>
+
+<p>아틀라시안의 경우 보안 Log4j 라이브러리 보안 취약점을 개선한 다음과 같은 버전으로 Bitbucket 버전으로 업그레이드를 진행할 것을 권고 하고 있습니다:</p>
+
+<ul>
+  <li>6.10.16 버전</li>
+  <li>7.6.12 버전</li>
+  <li>7.14.2 버전</li>
+  <li>7.15.3 버전</li>
+  <li>7.16.3 버전</li>
+  <li>7.17.4 버전</li>
+  <li>7.18.3 버전</li>
+  <li>7.19.1 버전</li>
+</ul>
+
+<p>만약 현재 Bitbucket 업그레이드를 하기 어려울 경우 Bitbucket 홈 디렉토리의 jvm 옵션 파일을 수정 후 Bitbucket의 재시작하여 보안 취약 문제를 보완할 수 있습니다.</p>
+
+<p>($BITBUCKET_HOME/shared/search/jvm.options)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-Dlog4j2.formatMsgNoLookups=true
+</code></pre></div></div>
+
 <hr />
 
 <h2 id="아틀라시안-마켓플레이스-애드온의-영향">아틀라시안 마켓플레이스 애드온의 영향</h2>
@@ -110,6 +153,31 @@
 <p>유감스럽게도, 아틀라시안 측에서는 사용자마다 모든 보안 문제가 서로 다르기 때문에 사용자의 인스턴스가 보안취약점에 당했거나 노출되어 있는지 구체적인 확인이 어려운 상황입니다.</p>
 
 <p>추가적인 확인 및 조사를 해야 할 경우 사내 보안 팀이나 전문 보안 포렌식 업체에 문의를 통해 확인하는 것을 권고드립니다.</p>
+
+<hr />
+
+<h2 id="보안-취약점-해결-방안">보안 취약점 해결 방안</h2>
+
+<p>보안 취약점을 해결 하는 가장 효율적인 방법은 Log4j 버전을 2.15.0 버전으로 업그레이드 하는 것입니다.  다음 링크를 통해 제조사 홈페이지에서 2.15.0 버전의 Log4j 버전을 업그레이드 하실 수 있습니다. <br /></p>
+
+<center><a href="https://logging.apache.org/" target="_blank">Log4j 버전 업그레이드</a></center>
+<p><br /></p>
+
+<p>하지만 만약 구조상 업그레이드를 진행하기 어려운 경우 다음과 같은 조치를 통해 보안 취약점을 보완하실 수 있습니다.</p>
+
+<p><strong>2.0-beta9 ~ 2.10.0 버전</strong></p>
+
+<p>log4j-core-*.jar 파일에서 org/apache/logging/log4j/core/lookup/JndiLookup.class 삭제</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
+</code></pre></div></div>
+
+<p><strong>Log4j 2.10 ~ 2.14.1 버전</strong></p>
+
+<p>log4j2.formatMsgNoLookups 또는 LOG4J_FORMAT_MSG_NO_LOOKUPS 환경변수를 <strong>true</strong>로 설정</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-Dlog4j2.formatMsgNoLookups=true
+</code></pre></div></div>
 
 <hr />
 
