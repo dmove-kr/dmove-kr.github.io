@@ -8,9 +8,9 @@ tags: [Atlassian, 아틀라시안, 옥타, Okta, IAM, SSO, IDaaS, 클라우드�
 ---
 
 
-안녕하세요. 디무브 입니다.  🎈
+![enter image description here](https://blog.dmove.kr/assets/images/blog/Webinar%20Title%20Banner.png)
 
-[enter link description here](https://blog.dmove.kr/assets/images/blog/Webinar%20Title%20Banner.png)
+안녕하세요. 디무브 입니다.  🎈
 
 지난 12월14일 화요일 오후4시 진행된 디무브의 “[제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제](https://talkit.tv/Event/2730)” 웨비나가 종료되었습니다.
 
