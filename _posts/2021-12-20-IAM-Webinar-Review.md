@@ -26,7 +26,8 @@
 
 ## Session 1. Cloud 환경에서의 Identity & Access 관리
 
-[https://youtu.be/7bB0bYglI0w](https://youtu.be/7bB0bYglI0w)
+<iframe width="600" height="400" src="[https://www.youtube.com/embed/7bB0bYglI0w](https://www.youtube.com/embed/7bB0bYglI0w)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 이제는 많은 기업들이 클라우드로 인프라를 전환하게 되면서 기존의 네트워크 경계를 기반으로 설계된 전통적인 보안 인프라는 더이상 안전하지 않게 되었습니다.
 
@@ -42,7 +43,8 @@
 
 ## Session 2. **보안 강화를 위한 클라우드 ID 공급자의 역할**
 
-[https://youtu.be/fsQHhy_5vK8](https://youtu.be/fsQHhy_5vK8)
+<iframe width="600" height="400" src="[https://www.youtube.com/embed/fsQHhy_5vK8](https://www.youtube.com/embed/fsQHhy_5vK8)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 Okta 자체 발간 보고서에 따르면 기업이 평균적으로 사용하는 앱 숫자는 88개에 이르고 이 숫자는 지속적으로 늘어나고 있는 추세라고 합니다.
 
@@ -56,7 +58,7 @@ IDaaS 영역의 선두주자인 Okta는 아이덴티티 및 액세스 통합, MF
 
 ## Session 3. Atlassian 클라우드 제품의 연결과 확장
 
-[https://youtu.be/Zh_6xwdfocQ](https://youtu.be/Zh_6xwdfocQ)
+<iframe width="600" height="400" src="[https://www.youtube.com/embed/Zh_6xwdfocQ](https://www.youtube.com/embed/Zh_6xwdfocQ)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 앞 세션에서 제로 트러스트 보안 모델을 기반으로 하는 Okta 솔루션에 대해 알아보았다면, 세션3에서는 아틀라시안클 라우드의 보안을 강화하는 방안을 이야기했는데요.
 
@@ -98,5 +100,5 @@ Atlassian Access 제품에 대한 기능 소개 및 Okta와의 연동법이 궁�
 
 감사합니다. 🙂
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODkxNjddfQ==
+eyJoaXN0b3J5IjpbMTg5MzkwODgwNF19
 -->
