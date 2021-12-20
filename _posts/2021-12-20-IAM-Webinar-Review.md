@@ -92,7 +92,9 @@ Atlassian Access 제품에 대한 기능 소개 및 Okta와의 연동법이 궁�
 
 웨비나에 대한 전체 내용이 궁금하신 분들께서는, 아래 영상을 통해 확인하실 수 있습니다.
 
-[https://youtu.be/N43fNu1QwXY](https://youtu.be/N43fNu1QwXY)
+
+<iframe width="600" height="400" src="[https://www.youtube.com/embed/N43fNu1QwXY](https://www.youtube.com/embed/N43fNu1QwXY)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 추후에도 웨비나에서 다룬 내용에 대해 궁금하신 점이 있으시면 저희에게 언제든지 알려주세요.
 
@@ -100,5 +102,5 @@ Atlassian Access 제품에 대한 기능 소개 및 Okta와의 연동법이 궁�
 
 감사합니다. 🙂
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzkwODgwNF19
+eyJoaXN0b3J5IjpbLTgwMTUwMDQzXX0=
 -->
