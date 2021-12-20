@@ -33,6 +33,8 @@ tags: [Atlassian, 아틀라시안, 옥타, Okta, IAM, SSO, IDaaS, 클라우드�
 | 16:35 ~ 16:55 | **Atlassian 클라우드 제품의 연결과 확장** <br/> - Atlassian Access를 통한 ID 관리 <br/> - Access+Okta Integration 데모 |
 | 16:55 ~ 17:00 | **Q&A** <br/> - 질의응답 |
 
+---
+
 ## Session 1. Cloud 환경에서의 Identity & Access 관리
 
 <iframe width="600" height="400" src="[https://www.youtube.com/embed/7bB0bYglI0w](https://www.youtube.com/embed/7bB0bYglI0w)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -50,6 +52,7 @@ tags: [Atlassian, 아틀라시안, 옥타, Okta, IAM, SSO, IDaaS, 클라우드�
 
 아이덴티티를 기반으로 하는 제로 트러스트 보안 모델의 3가지 원칙과 특징이 궁금하시다면 세션1의 영상을 확인해주세요!
 
+
 ## Session 2. **보안 강화를 위한 클라우드 ID 공급자의 역할**
 
 <iframe width="600" height="400" src="[https://www.youtube.com/embed/fsQHhy_5vK8](https://www.youtube.com/embed/fsQHhy_5vK8)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -64,6 +67,7 @@ Okta 자체 발간 보고서에 따르면 기업이 평균적으로 사용하는
 IDaaS 영역의 선두주자인 Okta는 아이덴티티 및 액세스 통합, MFA등을 통한 인증 방법 강화, 컨텍스트 기반의 액세스 관리와 같은 강력한 기능과 7000개이상의 SaaS앱과의 연동을 지원하며 클라우드 환경은 물론 온프레미스까지 아우르는 ID 관리 솔루션을 제공하고 있습니다.
 
 세션2에서는 Okta 솔루션을 통해 사용하는 SaaS앱을 연동하고 인증 절차를 설정하는 방법을 데모를 통해 소개해 드립니다.
+
 
 ## Session 3. Atlassian 클라우드 제품의 연결과 확장
 
@@ -85,6 +89,7 @@ Atlassian Access 제품에 대한 기능 소개 및 Okta와의 연동법이 궁�
 
 오히려 웨비나 시간을 더 늘려달라는 분들도 꽤 계셔서 저희가 준비한 시간이 많은 분들께 도움이 된 것 같아 저희에게도 매우 유의미하고 감사했던 시간이었습니다. 🙂
 
+
 > “흠결 전무한 최고 웨비나 체제,진행으로 평가되어,더할 평론 없음”
 > 
 > “데모 중심으로 진행된 방식이다 보니.. 실무적으로 많은 도움이 되었습니다.”
@@ -99,10 +104,12 @@ Atlassian Access 제품에 대한 기능 소개 및 Okta와의 연동법이 궁�
 > 
 > “웨비나를 통해서 클라우드와 관련해서 검토해보고 더나은 방향으로 선택할 수 있는 좋은 시간이 되었습니다.”
 
+
+
 웨비나에 대한 전체 내용이 궁금하신 분들께서는, 아래 영상을 통해 확인하실 수 있습니다.
 
-
 <iframe width="600" height="400" src="[https://www.youtube.com/embed/N43fNu1QwXY](https://www.youtube.com/embed/N43fNu1QwXY)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 추후에도 웨비나에서 다룬 내용에 대해 궁금하신 점이 있으시면 저희에게 언제든지 알려주세요.
