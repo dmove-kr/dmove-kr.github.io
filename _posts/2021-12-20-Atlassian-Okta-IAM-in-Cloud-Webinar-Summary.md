@@ -37,7 +37,9 @@ tags: [Atlassian, 아틀라시안, 옥타, Okta, IAM, SSO, IDaaS, 클라우드�
 
 ## Session 1. Cloud 환경에서의 Identity & Access 관리
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/7bB0bYglI0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<center><iframe width="600" height="400" src="https://www.youtube.com/embed/7bB0bYglI0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
 
 
 이제는 많은 기업들이 클라우드로 인프라를 전환하게 되면서 기존의 네트워크 경계를 기반으로 설계된 전통적인 보안 인프라는 더이상 안전하지 않게 되었습니다.
