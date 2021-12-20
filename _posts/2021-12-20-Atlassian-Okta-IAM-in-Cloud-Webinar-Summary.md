@@ -57,7 +57,7 @@ tags: [Atlassian, 아틀라시안, 옥타, Okta, IAM, SSO, IDaaS, 클라우드�
 
 ## Session 2. **보안 강화를 위한 클라우드 ID 공급자의 역할**
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/fsQHhy_5vK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="600" height="400" src="https://www.youtube.com/embed/fsQHhy_5vK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 
 
@@ -74,7 +74,7 @@ IDaaS 영역의 선두주자인 Okta는 아이덴티티 및 액세스 통합, MF
 
 ## Session 3. Atlassian 클라우드 제품의 연결과 확장
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/Zh_6xwdfocQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="600" height="400" src="https://www.youtube.com/embed/Zh_6xwdfocQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 앞 세션에서 제로 트러스트 보안 모델을 기반으로 하는 Okta 솔루션에 대해 알아보았다면, 세션3에서는 아틀라시안클 라우드의 보안을 강화하는 방안을 이야기했는데요.
 
