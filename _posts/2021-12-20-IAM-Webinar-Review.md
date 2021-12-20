@@ -1,7 +1,7 @@
 
 안녕하세요. 디무브 입니다.  🎈
 
-[enter link description here](https://blog.dmove.kr/assets/images/blog/Webinar%20Title%20Banner.png)
+![enter image description here](https://blog.dmove.kr/assets/images/blog/Webinar%20Title%20Banner.png)
 
 지난 12월14일 화요일 오후4시 진행된 디무브의 “[제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제](https://talkit.tv/Event/2730)” 웨비나가 종료되었습니다.
 
@@ -102,5 +102,5 @@ Atlassian Access 제품에 대한 기능 소개 및 Okta와의 연동법이 궁�
 
 감사합니다. 🙂
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTUwMDQzXX0=
+eyJoaXN0b3J5IjpbMTExODI3MTIzMywtODAxNTAwNDNdfQ==
 -->
