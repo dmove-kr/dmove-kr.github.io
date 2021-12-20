@@ -77,6 +77,8 @@ IDaaS 영역의 선두주자인 Okta는 아이덴티티 및 액세스 통합, MF
 
 <center><iframe width="600" height="400" src="https://www.youtube.com/embed/Zh_6xwdfocQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
+<br> 
+
 앞 세션에서 제로 트러스트 보안 모델을 기반으로 하는 Okta 솔루션에 대해 알아보았다면, 세션3에서는 아틀라시안클 라우드의 보안을 강화하는 방안을 이야기했는데요.
 
 아틀라시안의 Single Account 정책과 아틀라시안이 Organization(조직)과 Site(사이트)라는 접근 방식으로 사용자 개인은 물론 조직 모두에게 제공하는 이점 또한 소개해 드렸습니다.
