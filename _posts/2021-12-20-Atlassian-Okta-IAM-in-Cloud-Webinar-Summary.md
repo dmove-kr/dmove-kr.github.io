@@ -58,6 +58,7 @@ tags: [Atlassian, 아틀라시안, 옥타, Okta, IAM, SSO, IDaaS, 클라우드�
 <iframe width="600" height="400" src="https://www.youtube.com/embed/fsQHhy_5vK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+
 Okta 자체 발간 보고서에 따르면 기업이 평균적으로 사용하는 앱 숫자는 88개에 이르고 이 숫자는 지속적으로 늘어나고 있는 추세라고 합니다.
 
 이번 웨비나를 준비하면서 진행한 사전 설문조사 결과에서도 60%에 가까운 국내 기업들이 이미 1개 이상의 SaaS앱을 사용하고 있다는 것을 알 수 있었습니다.
@@ -89,6 +90,7 @@ Atlassian Access 제품에 대한 기능 소개 및 Okta와의 연동법이 궁�
 
 오히려 웨비나 시간을 더 늘려달라는 분들도 꽤 계셔서 저희가 준비한 시간이 많은 분들께 도움이 된 것 같아 저희에게도 매우 유의미하고 감사했던 시간이었습니다. 🙂
 
+<br>
 
 > “흠결 전무한 최고 웨비나 체제,진행으로 평가되어,더할 평론 없음”
 > 
@@ -104,7 +106,7 @@ Atlassian Access 제품에 대한 기능 소개 및 Okta와의 연동법이 궁�
 > 
 > “웨비나를 통해서 클라우드와 관련해서 검토해보고 더나은 방향으로 선택할 수 있는 좋은 시간이 되었습니다.”
 
-
+<br>
 
 웨비나에 대한 전체 내용이 궁금하신 분들께서는, 디무브 [유튜브 채널](https://www.youtube.com/watch?v=N43fNu1QwXY)에서 확인하실 수 있습니다.
 
