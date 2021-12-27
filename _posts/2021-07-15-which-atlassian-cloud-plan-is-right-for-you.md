@@ -191,16 +191,16 @@ Atlassian Access의 주요 기능은 아래와 같습니다.
     id="interactApp5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be"
     name="5ff60e94ca405200169f63fcf31adb0ab57d0271dcaa8e9f523155be"
     class="interact-app-container"
-    height="545"
+    height="800"
     allowtransparency="true"
     frameborder="0"
     style="
-      width: 800px;
+      width: 1000px;
       border: none;
       max-width: 100%;
       margin: 0px;
       transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
-      height: 545px;
+      height: 800px;
     "
     src="https://sites.ziftsolutions.com/atlassian.ziftsolutions.com/8a99837c7c93dc41017c95fb11c71fb6"
     ><a
