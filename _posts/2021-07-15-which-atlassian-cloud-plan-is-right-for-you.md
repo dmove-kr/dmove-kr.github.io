@@ -202,9 +202,9 @@ Atlassian Access의 주요 기능은 아래와 같습니다.
       transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
       height: 800px;
     "
-    src="https://sites.ziftsolutions.com/atlassian.ziftsolutions.com/8a99837c7c93dc41017c95fb11c71fb6"
+    src="https://sites.ziftsolutions.com/atlassian.ziftsolutions.com/8a99822f7de38af5017dfb0f15754a4b"
     ><a
-      href="https://sites.ziftsolutions.com/atlassian.ziftsolutions.com/8a99837c7c93dc41017c95fb11c71fb6"
+      href="https://sites.ziftsolutions.com/atlassian.ziftsolutions.com/8a99822f7de38af5017dfb0f15754a4b"
       title="Interact Quiz"
       >Take my quiz!</a
     ></iframe
