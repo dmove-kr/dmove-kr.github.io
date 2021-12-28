@@ -90,7 +90,7 @@ Jira Data Center에서 이용할 수 있는 Advanced Roadmaps에서 이제 아�
 
 #### 4. Jira 보안 강화
 
-![](https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_3.png)
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_3.png"></center>
 
 
 #### 컴포넌트 및 라이브러리 업그레이드
@@ -247,7 +247,7 @@ iCalendar(.ics) 파일을 기존 팀 캘린더로 가져와 캘린더에 이벤�
 
 #### 5. Confluence 보안 개선 사항 [DATA CENTER, SERVER]
 
-![](https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_3.png)
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_3.png"></center>
 
 Atlassian의 취약성 관리 프로그램은 보안 문제를 찾고 수정하기 위해 다양한 전략을 사용합니다. 한 가지 접근 방식은 핵심 구성 요소와 타사 라이브러리를 가장 안전한 최신 버전으로 정기적으로 업데이트하는 것입니다. 이것은 지속적인 확인이 필요하며 Confluence를 지속적으로 개선하기 위해 노력하는 방법 중 하나입니다. 또한 이번 릴리스에서 업그레이드 한 라이브러리의 일부에 대해 더 알아 보려면 [Confluence 7.14를 준비하는 방법](https://confluence.atlassian.com/doc/preparing-for-confluence-7-14-1063176415.html "https://confluence.atlassian.com/doc/preparing-for-confluence-7-14-1063176415.html")에서 확인하실 수 있습니다. 이러한 업그레이드의 대부분은 Confluence 7.4 LTS 및 7.13 LTS 릴리스 에도 백포트 됩니다 .
 
