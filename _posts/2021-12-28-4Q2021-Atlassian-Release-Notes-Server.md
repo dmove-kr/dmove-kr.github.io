@@ -268,4 +268,3 @@ Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum S
 
 감사합니다.
 
-[**문의하기**](http://dmove.co.kr/contact-us/quote-service-inquiry "http://dmove.co.kr/contact-us/quote-service-inquiry")
