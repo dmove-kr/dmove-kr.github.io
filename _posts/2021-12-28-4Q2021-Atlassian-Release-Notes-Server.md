@@ -176,7 +176,7 @@ Insight와 관련하여 Jira Service Management Data Center 및 Server 4.19에 �
 
 ![](https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_5.png)
 
-### 3. 모바일 앱에서 대기열 사용**
+### 3. 모바일 앱에서 대기열 사용
 
 어디서나 상담 서비스를 편리하게 사용할 수 있도록 대기열에 대한 지원을 추가했습니다. 요청 목록이 길어지면 대기열을 통해 팀이 문제를 해결하는 시기와 방법을 제어할 수 있습니다.
     
