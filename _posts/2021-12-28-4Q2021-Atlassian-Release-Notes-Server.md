@@ -100,8 +100,8 @@ Jira Data Center에서 이용할 수 있는 Advanced Roadmaps에서 이제 아�
 
 | **해결된 사항** |
 |:---------------------------------------|
-| Jira 플랫폼의 취약점 33이슈 해결|    
-|Jira 서비스 관리의 취약점 44이슈 해결|    
+| Jira 플랫폼의 취약점 32이슈 해결|    
+|Jira 서비스 관리의 취약점 53이슈 해결|    
 |내부 라이브러리를 쉽게 사용할 수 있도록 해결|
     
 
@@ -162,16 +162,16 @@ Insight와 관련하여 Jira Service Management Data Center 및 Server 4.19에 �
 
 ### 1. 요청 목록 사용자 지정
 
--   너무 많은 정보는 정보의 명확성을 해칠 수 있습니다. 이러한 이유로 Jira Service Management에서는 이제 요청 목록에서 고객이 볼 수 있는 열을 사용자 별로 지정할 수 있습니다.
+너무 많은 정보는 정보의 명확성을 해칠 수 있습니다. 이러한 이유로 Jira Service Management에서는 이제 요청 목록에서 고객이 볼 수 있는 열을 사용자 별로 지정할 수 있습니다.
     
--   요청 목록을 구성하는 방법은 [**요청 목록 구성 방법**](https://confluence.atlassian.com/servicemanagementserver/configuring-request-view-1095250690.html "https://confluence.atlassian.com/servicemanagementserver/configuring-request-view-1095250690.html")  에서 확인하실 수 있습니다.
+요청 목록을 구성하는 방법은 [**요청 목록 구성 방법**](https://confluence.atlassian.com/servicemanagementserver/configuring-request-view-1095250690.html "https://confluence.atlassian.com/servicemanagementserver/configuring-request-view-1095250690.html")  에서 확인하실 수 있습니다.
     
 
 ![](https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_4.png)
 
 ### 2. 코멘트 공감 및 반응을 통한 의사 표현**
 
--   상담원과 고객 간의 커뮤니케이션 속도를 높이기 위해 Comment reaction을 도입했습니다. 댓글로 표현이 충분하지 않다면 이모티콘으로 요점을 전달할 수 있습니다. Comment reaction에 대해 자세히 알아보려면 [**코멘트 공감 및 반응 살펴보기**](https://confluence.atlassian.com/servicemanagementserver/getting-started-for-service-project-agents-939926229.html "https://confluence.atlassian.com/servicemanagementserver/getting-started-for-service-project-agents-939926229.html")에서 확인하실 수 있습니다.
+상담원과 고객 간의 커뮤니케이션 속도를 높이기 위해 Comment reaction을 도입했습니다. 댓글로 표현이 충분하지 않다면 이모티콘으로 요점을 전달할 수 있습니다. Comment reaction에 대해 자세히 알아보려면 [**코멘트 공감 및 반응 살펴보기**](https://confluence.atlassian.com/servicemanagementserver/getting-started-for-service-project-agents-939926229.html "https://confluence.atlassian.com/servicemanagementserver/getting-started-for-service-project-agents-939926229.html")에서 확인하실 수 있습니다.
     
 
 ![](https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_5.png)
@@ -235,13 +235,13 @@ Kubernetes 클러스터는 Amazon EKS , Azure Kubernetes Service , Google Kubern
 
 **내보내기 위치 변경**
 
-이제 REST API를 사용하여 파일을 내보낼 때 데이터 파이프라인에서 사용자 지정 위치로 내보낼 수 있습니다. 이는 Amazon S3 또는 Azure Blob Storage와 같은 데이터 레이크의 관련 스토리지로 직접 파일을 보내려는 경우에 유용하게 사용할 수 있습니다.
+REST API를 사용하여 파일을 내보낼 때 데이터 파이프라인에서 사용자 지정 위치로 내보낼 수 있습니다. 이는 Amazon S3 또는 Azure Blob Storage와 같은 데이터 레이크의 관련 스토리지로 직접 파일을 보내려는 경우에 유용하게 사용할 수 있습니다.
 
 데이터 파이프라인에 대해서는 [**데이터 파이프라인에 대해 알아보기**](https://confluence.atlassian.com/doc/data-pipeline-1056670238.html "https://confluence.atlassian.com/doc/data-pipeline-1056670238.html")  문서에서 확인할 수 있습니다.
 
 #### 4. 기존 캘린더로 이벤트 가져오기 [DATA CENTER]
 
-이제 iCalendar(.ics) 파일을 기존 팀 캘린더로 가져와 캘린더에 이벤트를 추가할 수 있습니다. 이는 외부 캘린더의 이벤트를 추가하거나 기존 팀 캘린더를 병합하려는 경우에 유용하게 사용할 수 있습니다. 캘린더를 가져오는 방법에 대해 더 자세히 알아보시려면 [**캘린더 가져오기**](https://confluence.atlassian.com/doc/create-add-and-edit-calendars-1044780370.html "https://confluence.atlassian.com/doc/create-add-and-edit-calendars-1044780370.html")에서 확인하실 수 있습니다.
+iCalendar(.ics) 파일을 기존 팀 캘린더로 가져와 캘린더에 이벤트를 추가할 수 있습니다. 이는 외부 캘린더의 이벤트를 추가하거나 기존 팀 캘린더를 병합하려는 경우에 유용하게 사용할 수 있습니다. 캘린더를 가져오는 방법에 대해 더 자세히 알아보시려면 [**캘린더 가져오기**](https://confluence.atlassian.com/doc/create-add-and-edit-calendars-1044780370.html "https://confluence.atlassian.com/doc/create-add-and-edit-calendars-1044780370.html")에서 확인하실 수 있습니다.
 
 ![](https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_9.png)
 
@@ -267,8 +267,5 @@ Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하�
 Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!
 
 감사합니다.
-
-문의 사항이 있으시면  
-언제든 문의 부탁드립니다.
 
 [**문의하기**](http://dmove.co.kr/contact-us/quote-service-inquiry "http://dmove.co.kr/contact-us/quote-service-inquiry")
