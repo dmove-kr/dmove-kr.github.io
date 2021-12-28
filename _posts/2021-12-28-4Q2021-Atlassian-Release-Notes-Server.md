@@ -32,7 +32,7 @@ Advanced Roadmap 기능은 지난 Jira Software 8.15.x release에서 추가되�
 Data Center 라이센스를 가진 모든 고객은 Atlassian Marketplace에서 Advanced Roadmap App을 설치하여 해당 기능을 이용할 수 있습니다. 또한 Advanced Roadmap이 자동으로 Data Center의 라이센스를 인식하므로 별도의 앱 라이센스를 필요로 하지 않습니다.
 
 
--   참고 : [**Marketplace를 통한 앱 설치 방법**](https://confluence.atlassian.com/upm/installing-marketplace-apps-273875715.html "https://confluence.atlassian.com/upm/installing-marketplace-apps-273875715.html")
+참고 : [**Marketplace를 통한 앱 설치 방법**](https://confluence.atlassian.com/upm/installing-marketplace-apps-273875715.html "https://confluence.atlassian.com/upm/installing-marketplace-apps-273875715.html")
 
 기존의 서버 고객이 이미 Advanced Roadmap(Jira Portfolio)을 사용하고 있는 경우 계속해서 라이센스를 갱신하여 이용하실 수 있으며 라이센스가 없는 경우에는 Data Center로 업그레이드 해야만 Advanced Roadmap을 이용하실 수 있습니다.  
 
