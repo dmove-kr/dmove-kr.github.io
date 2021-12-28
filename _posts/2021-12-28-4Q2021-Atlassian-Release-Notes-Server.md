@@ -169,7 +169,7 @@ Insight와 관련하여 Jira Service Management Data Center 및 Server 4.19에 �
 
 ![](https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_4.png)
 
-### 2. 코멘트 공감 및 반응을 통한 의사 표현**
+### 2. 코멘트 공감 및 반응을 통한 의사 표현
 
 상담원과 고객 간의 커뮤니케이션 속도를 높이기 위해 Comment reaction을 도입했습니다. 댓글로 표현이 충분하지 않다면 이모티콘으로 요점을 전달할 수 있습니다. Comment reaction에 대해 자세히 알아보려면 [**코멘트 공감 및 반응 살펴보기**](https://confluence.atlassian.com/servicemanagementserver/getting-started-for-service-project-agents-939926229.html "https://confluence.atlassian.com/servicemanagementserver/getting-started-for-service-project-agents-939926229.html")에서 확인하실 수 있습니다.
     
