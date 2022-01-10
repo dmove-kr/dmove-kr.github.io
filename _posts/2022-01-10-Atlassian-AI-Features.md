@@ -69,6 +69,18 @@ IT 부서에서 일하는 경우 겹치거나 비슷한 요청사항에 대한 �
 
 ![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/image-43-2048x860.png)
 
+아틀라시안은 과거 데이터에서 학습하여 Jira Software 및 Jira Service Management의 많은 분야를 지능적으로 만들었습니다. 이슈의 구성 요소, 레이블 및 버전을 채우는 동안 **예측 필드**에 가장 관련성이 높은 제안이 표시됩니다.
+
+다음을 포함하여 주로 사용하는 이슈 필드에 대한 상위 5개 제안을 정확하게 예측할 수 있습니다.
+
+**예측 구성 요소:** 79% 정확도
+
+**예측 레이블:** 75% 정확도
+
+**예측 버전:** 75% 정확도
+
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/3.-predictive-fields-v3-1-scaled.gif)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4MzEyNTc0XX0=
+eyJoaXN0b3J5IjpbMjA5MTk2NjE4Ml19
 -->
