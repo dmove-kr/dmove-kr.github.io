@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 아틀라시안 클라우드 제품에 적용된 머신러닝 기반의 "Smart" 기능 소개
+title: 아틀라시안 클라우드 제품에 적용된 머신러닝 기반의 Smart 기능 소개
 Subtitle: Introducing machine learning-powered “smarts” to Atlassian cloud products
 date: 2022-01-10
 categories: [Atlassian Solutions]
