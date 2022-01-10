@@ -33,6 +33,17 @@
 
 ![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/image-20200915-060139.png)
 
+### 2. 적합한 인력을 투입하여 협업 가속화
+
+협업은 프로젝트를 완료하거나 앞으로 나아가기 위해 적시에 적절한 사람을 끌어들이는 것입니다. 10명의 소규모 스타트업에서는 어렵지 않게 느껴질 수 있지만 조직이 성장함에 따라 이 단순해 보이는 경험이 큰 챌린지가 되기도 합니다.
+
+적합한 사람을 찾기가 갑자기 더 어려워지고 개인을 추적하는 데 소요되는 시간은 계속해서 누적될 수 있습니다.
+
+Jira 및 Confluence의 **예측 사용자 멘션**을 통해 스마트는 정기적으로 함께 작업하는 사람과 작업 중인 내용을 파악하여 프로젝트에 가져올 사람 목록을 추천합니다.
+
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/v3.gif)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzU4OTk4Nl19
+eyJoaXN0b3J5IjpbNDg3NjMzMTg1XX0=
 -->
