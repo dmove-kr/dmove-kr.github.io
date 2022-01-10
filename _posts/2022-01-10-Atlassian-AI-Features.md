@@ -43,7 +43,32 @@ Jira 및 Confluence의 **예측 사용자 멘션**을 통해 스마트는 정기
 
 ![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/v3.gif)
 
+  
+아틀라시안은 보다 스마트한 협업을 위해 **예측 사용자 선택** 기능을 개발했습니다. 그들은 단일 문자를 입력할 필요 없이 제품 전반에 걸친 다양한 시나리오에서 협업할 관련 팀원을 제안합니다.
+
+다음은 제품 전반에 걸쳐 상황에 맞는 제안을 하는 방법에 대한 몇 가지 예입니다.
+
+-   **Jira의 이슈 할당** : 누가 프로젝트에 참여하고 있는지, 누가 유사한 이슈에 대해 작업하는지 알고 있습니다. 과거 행동에서 학습하여 가장 가능성이 높은 상위 5명의 담당자를 86%의 정확도로 예측할 수 있습니다.
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/jira-v3.png)
+
+-   **Confluence의 페이지 제한** : Smarts는 공동 작업을 하는 사람과 일반적으로 작업하는 작업을 식별할 수 있으므로 페이지 보기를 제한해야하는 사람을 예측할 수 있습니다.
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/confluence-v3.png)
+
+-   **Bitbucket의 풀 리퀘스트 검토자** : 아틀라시안은 특정 리포지토리에서 누가 작업하고 과거에 유사한 풀 리퀘스트에 참여했는지 알고 있으므로 풀 리퀘스트에 대한 최고의 검토자를 예측할 수 있습니다.
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/bitbucket-v3-600x358.png)
+
+### 3. 더욱 빠른 이슈 해결을 위한 분류 속도 향상
+
+IT 부서에서 일하는 경우 겹치거나 비슷한 요청사항에 대한 서비스 데스크 티켓을 합치기 위해 많은 시간을 할애하는 경험을 하게 됩니다.
+
+이러한 문제를 해결하기 위해 Jira Service Management Cloud에서 유사한 티켓을 클러스터링 할 수 있는 새로운 기능이 추가되었습니다. 이제 스마트가 적용된 Jira에서 이슈를 분류하고 정리하는 시간을 줄이고 이슈를 해결하는데 더 많은 시간을 집중할 수 있게 되었습니다.
+
+자연어 기술을 Jira Software에 적용하여 유사한 버그 보고서나 기능 요청을 그룹화하고, Jira Service Management의 티켓에 이슈를 연결하며 Confluence의 관련 기술 자료 문서를 표시할 수 있습니다.
+
+> "매일 수백 개의 서비스 데스크 티켓을 처리해야 하므로 유사한 티켓을 한 번에 분류하면 IT 팀의 시간을 크게 절약할 수 있습니다. 또한 특정 구성 요소, 레이블 및 제품 버전을 작성할 때 예측 필드는 가장 관련성이 높은 항목을 즉시 표시합니다." - Shahib Hamid, Atlassian Head of Product
+
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/image-43-2048x860.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3NjMzMTg1XX0=
+eyJoaXN0b3J5IjpbODE4MzEyNTc0XX0=
 -->
