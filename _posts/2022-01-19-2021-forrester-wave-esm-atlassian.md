@@ -29,6 +29,9 @@ tags: [Atlassian, 아틀라시안, Forrester, Enterpriseservicemanagement, ESM, 
 
 ![enter image description here](https://wac-cdn.atlassian.com/dam/jcr:169b8f8c-d5d1-423f-b661-4c696d8490b3/The%20Forrester%20Wave%20Enterprise%20Service%20Management,%20Q4%202021%20Wave%20Image.png?cdnVersion=167)
 
+<br>
+<br>
+
 이 보고서에서 포레스트는 아틀라시안의 전략이 전반적인 디지털 제품 포트폴리오를 중심으로, 지역에 상관없는 전세계적인 고객 확보 모델과 결합하여 가장 높은 평가를 받았다고 말합니다.
 
 아틀라시안은 또한 22개의 평가 기준 중에서 18개에서 가장 높은 점수를 받았습니다.
