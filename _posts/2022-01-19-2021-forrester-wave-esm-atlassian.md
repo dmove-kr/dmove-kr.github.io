@@ -52,7 +52,7 @@ tags: [Atlassian, 아틀라시안, Forrester, Enterpriseservicemanagement, ESM, 
 포레스터에서 말하는 엔터프라이즈 서비스 관리 환경, 시장 동향 및 제품 정보에 대한 자세한 내용이 궁금하시다면, 아래 버튼을 클릭해서 전체 보고서를 확인해보세요.
 
 
-<a class="btn d-inline-block" zsubmit="false" href="?zPage=Popup-Asset-Form-a92f31ef" title="Popup Asset Form" zstepid="Popup-Asset-Form-a92f31ef" onclick="zPanel52948.gotoPage('zPage','Popup-Asset-Form-a92f31ef',this, false,false,700,750); return false;"> <span name="Section 1 Block 1 CTA Text 1">전체 보고서 다운로드</span> </a>
+<a class="btn d-inline-block" zsubmit="false" href="https://sites.ziftsolutions.com/atlassian.ziftsolutions.com/8a9982c17e6dc036017e70ddc6677c26?zPage=Popup-Asset-Form-a92f31ef" title="Popup Asset Form" zstepid="Popup-Asset-Form-a92f31ef" onclick="zPanel52948.gotoPage('zPage','Popup-Asset-Form-a92f31ef',this, false,false,700,750); return false;"> <span name="Section 1 Block 1 CTA Text 1">전체 보고서 다운로드</span> </a>
 
 
 감사합니다. 😃
