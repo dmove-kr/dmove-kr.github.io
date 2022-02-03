@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8DXEPMWW70"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8DXEPMWW70');
+</script>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K4FFWWN');</script>
+<!-- End Google Tag Manager -->
+  <meta name="google-site-verification" content="BDJmAIlOaY_Y8tIVIuF2EpupYw40LrWw9C1ijOMTmU4">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Case Study - 아틀라시안 Jira와 사내 메신저 연동 | Dmove Blog</title>
+<meta name="generator" content="Jekyll v4.2.1">
+<meta property="og:title" content="Case Study - 아틀라시안 Jira와 사내 메신저 연동">
+<meta name="author" content="Dmove">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다.">
+<meta property="og:description" content="디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다.">
+<link rel="canonical" href="http://localhost:4000/atlassian%20solutions/2021/08/05/Case-study-Messenger-integration-with-Jira.html">
+<meta property="og:url" content="http://localhost:4000/atlassian%20solutions/2021/08/05/Case-study-Messenger-integration-with-Jira.html">
+<meta property="og:site_name" content="Dmove Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2021-08-05T00:00:00+09:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Case Study - 아틀라시안 Jira와 사내 메신저 연동">
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/atlassian%20solutions/2021/08/05/Case-study-Messenger-integration-with-Jira.html"},"datePublished":"2021-08-05T00:00:00+09:00","author":{"@type":"Person","name":"Dmove"},"url":"http://localhost:4000/atlassian%20solutions/2021/08/05/Case-study-Messenger-integration-with-Jira.html","@type":"BlogPosting","description":"디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다.","headline":"Case Study - 아틀라시안 Jira와 사내 메신저 연동","dateModified":"2021-08-05T00:00:00+09:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="/assets/images/banners/favicon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dmove Blog">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<!-- tipuesearch -->
+  <link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/assets/tipuesearch/tipuesearch_content.js"></script>
+  <script src="/assets/tipuesearch/tipuesearch_set.js"></script>
+  <script src="/assets/tipuesearch/tipuesearch.min.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header id="header" class="fixed">
+  <div class="wrapper">
+    <div class="site-header-inner"><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/about.html">디무브 소개</a><a class="page-link" href="/categories.html">카테고리</a><a class="page-link" href="/">블로그</a><a class="page-link" href="/question.html">문의 하기</a>
+
+
+
+
+</div>
+        </nav></div>
+  </div>
+
+
+  <div class="header-bottom">
+    <h1 class="logo">
+      <a href="http://dmove.co.kr/main">
+        <img class="logo_fix_none" src="http://dmove.co.kr/html/_skin/img/common/logo.png" alt="dmove">
+        <img class="logo_fix_only" src="http://dmove.co.kr/html/_skin/img/common/logo_color.png" alt="dmove">
+      </a>
+    </h1>
+  </div>
+</header>
+
+
+
+
+
+<!-- <header class="site-header " role="banner">
+  <div class="wrapper">
+    <div class="site-header-inner"><span class="site-brand"> <a class="site-brand-inner"  href="/">
+  <img class="site-favicon" src="/assets/images/banners/Dmove.png" onerror="this.style.display='none'">
+  
+</a>
+  
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger"><a class="page-link" href="/about.html">디무브 소개</a><a class="page-link" href="/categories.html">카테고리</a><a class="page-link" href="/">블로그</a><a class="page-link" href="/question.html">문의 하기</a>
+
+
+
+
+</div>
+        </nav></div>
+  </div>
+</header> -->
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+      // document.getElementById("header").style.backGround = "rgba(255, 255, 255, 0.9) !important;";
+      header.classList.add("headerScroll");
+      document.getElementsByClassName("logo_fix_only").classList.add("logoEnable");
+    } else {
+      if (location.href.substring() == "https://blog.dmove.kr/" && (document.body.scrollTop < 30 || document.documentElement.scrollTop < 30)) {
+        // document.getElementById("header").style.fontSize = "90px";
+        header.classList.remove("headerScroll");
+      } else if (location.href.substring() == "https://blog.dmove.kr/index.html" && (document.body.scrollTop < 30 || document.documentElement.scrollTop < 30)) {
+        header.classList.remove("headerScroll");
+      }
+    }
+  }
+  window.onload = function() {contextPathCheck()};
+  function contextPathCheck() {
+    if (location.href.substring() != "https://blog.dmove.kr/") {
+      header.classList.add("headerScroll");
+      if (location.href.substring() == "https://blog.dmove.kr/index.html") {
+        header.classList.remove("headerScroll");
+      }
+      document.getElementsByClassName("logo_fix_only").classList.add("logoEnable");
+    } else {
+      header.classList.remove("headerScroll");
+    }
+  }
+
+  // (function() {
+  //   var lastScrollY = getScrollPos().y;
+  //   var documentElement = document.documentElement;
+
+  //   function storeScrollData() {
+  //     var y = getScrollPos().y;
+
+  ////     var scrollStatus = "";
+
+  //     if (y <= 0) {
+  //       scrollStatus = "top";
+  //     } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+  //       scrollStatus = "bottom";
+  //     } else {
+  //       var isScrollDown = (y - lastScrollY > 0) ? true : false;
+  //       scrollStatus = isScrollDown ? "down" : "up";
+  //     }
+
+  //     lastScrollY = y;
+  //     documentElement.setAttribute("data-scroll-status", scrollStatus);
+  //   }
+
+  //   window.addEventListener('scroll', function(e) {
+  //     storeScrollData();
+  //   });
+
+  //   storeScrollData();
+  // })();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<!-- <div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div> -->
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Case Study - 아틀라시안 Jira와 사내 메신저 연동</h1>
+  <h3 class="post-subtitle"></h3>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="2021-08-05T00:00:00+09:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Aug 05, 2021
+    </time>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+  </p>
+
+  <!--<div class="post-tags"><a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#지라">#지라</a><a class="post-tag" href="/tags.html#슬랙">#슬랙</a><a class="post-tag" href="/tags.html#팀즈">#팀즈</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Slack">#Slack</a><a class="post-tag" href="/tags.html#Teams">#Teams</a><a class="post-tag" href="/tags.html#메신저연동">#메신저연동</a><a class="post-tag" href="/tags.html#지라연동">#지라연동</a></div>-->
+
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p><img src="/assets/images/blog/Case%20Study_1.png" alt="Banner"></p>
+
+<p>안녕하세요, 디무브입니다! 🎈</p>
+
+<p>메신저는 즉각적인 피드백을 주고 받을 수 있다는 장점 때문에 기업의 중요한 커뮤니케이션 채널로 자리 잡았습니다.</p>
+
+<p>그리고 메신저 솔루션을 도입해 사용 중인 대부분의 기업은 중요한 Notification 을 E-Mail 보다는 메신저를 통해 받는 것을 선호하고 계십니다.</p>
+
+<p>메신저 솔루션은 SaaS 형태의 Slack 이나 Teams 부터, 오픈소스 기반의 설치형 솔루션인 <a href="http://dmove.co.kr/products/mattermost">Mattermost</a> 나 Rocket Chat, 그리고 그 밖에 다양한 벤더사들의 제품이 존재합니다.</p>
+
+<p>이러한 다양한 종류의 메신저와의 Notification 연동은 대부분의 기업형 솔루션들이 가지고 있는 숙제가 되고 있습니다.</p>
+
+<p>Atlassian의 Jira는 프로젝트 관리와 소프트웨어 개발에 있어 가장 주목받고 있는 솔루션이며, 많은 개발 조직에서 Jira 를 활용하여 과업 관리와 이슈 트래킹, CI/CD 연계를 위해 사용하고 계십니다.</p>
+
+<p>때문에 Jira 역시 다른 기업형 솔루션들처럼 메신저와의 연동에 대한 요구를 상시 받고 있습니다.</p>
+
+<p>실제로 디무브에서도 Atlassian 관련 프로젝트를 진행하며 메신저 연동과 관련된 요구사항과 이에 대한 구현 작업을 여러 차례 경험하였고, 이를 Case Study로 정리해서 공유해 드리고자 합니다.</p>
+
+<hr>
+
+<h2 id="case1-add-on을-통한-연동">Case#1. Add-on을 통한 연동</h2>
+
+<blockquote>
+  <p><strong>메신저와 이슈 트래커, 이 둘을 연동하여 함께 사용한다면 훨씬 유용하고 시너지는 배가 되지 않을까?</strong></p>
+</blockquote>
+
+<p>기본적으로 Atlassian 에서는 자체적인 Marketplace에서 다양한 Add-on 을 제공하고 있으며, Slack이나 MS Team와 같은 자주 사용되는 메신저 솔루션과의 연동은 유료나 무료로 판매되는 Add-on 을 통해 쉽게 구현 가능합니다.</p>
+
+<p><img src="/assets/images/blog/Case%20Study_2.png" alt="Jira Issue"></p>
+
+<p>Add-on을 통해 연동을 하고나면 위 사진과 같이 메신저 채널 별로 Jira 이슈의 생성 또는 업데이트 시 알림을 받게 됩니다.</p>
+
+<p>메신저를 통해 Jira 이슈의 업데이트 내역을 확인할 뿐만 아니라 상태 등을 바로 변경할 수도 있기 때문에, 보다 효율적이고 편리하게 업무에 활용하실 수 있게 됩니다.</p>
+
+<p>하지만 이렇게 연동 및 구성했을 경우에 <strong>“</strong><em><strong>채널 별로 알림을 받아야 한다”</strong></em> 는 제약 사항이 발생합니다. 
+채널 별로 팀과 같은 특정 구성원들이 함께 알림을 받는다면 전혀 문제 될게 없지만 그렇지 않은 경우는 어떻게 해야 할까요?</p>
+
+<h2 id="case2-개인별-알림-설정">Case#2. 개인별 알림 설정</h2>
+
+<blockquote>
+  <p><strong>채널 별로 알림을 받는것이 아닌 개인별로 알림을 받고싶다.</strong></p>
+</blockquote>
+
+<p>최근 디무브를 통해 Jira를 신규로 도입한 금융권 고객사 한 곳은 사내 메신저로 Teams를 사용하고 있었습니다.</p>
+
+<p>이 곳의 요청 사항은 채널별이 아닌 개인별로 Notification 을 받아 보고 싶다는 것이었습니다.</p>
+
+<p><em>“이렇게 채널 별로 알림을 받으면 불필요한 인원들도 불필요한 알림을 받게된다. 우리는 개인별로 관련된 알림만 받고싶다.”</em></p>
+
+<p>기존의 방법처럼 Add-on을 사용하여 연동을 할 경우 해당 인원을 채널 별로 구성 하는 수작업을 진행했었어야 했고, 그렇지 않으면 단순히 설정만으로는 불가능한 요구사항 이었습니다.</p>
+
+<p><strong>그래서 저희는 Add-on을 사용하지 않고 자체적으로 연동 모듈을 만들어 알림을 커스텀이 가능하도록 했습니다.</strong></p>
+
+<p><img src="/assets/images/blog/Case%20Study_3.png" alt="Module"></p>
+
+<p>Jira에는 웹 리퀘스트를 보낼 수 있는 기능이 자체적으로 내장되어 있습니다. 그래서 Jira의 중요 이벤트 발생 시 주요 데이터를 지정한 URL 로 보낼 수 있습니다.</p>
+
+<p>이를 활용하여 Jira에서 웹 리퀘스트를 보내주면 이를 파싱하여 필요한 데이터만 Teams(또는 타 메신저)의 RestAPI 를 활용해 DM 을 보내는 형태로 동작되게 됩니다.</p>
+
+<p>Jira처럼 웹 리퀘스트를 발생시킬 수 있는 솔루션들이 있다면 저희가 사용한 방법을 모두 활용하실 수 있을것입니다.</p>
+
+<h2 id="case3-자체-연동-모듈-개발">Case#3. 자체 연동 모듈 개발</h2>
+
+<blockquote>
+  <p><strong>연동 Add-on이 없는 기존의 상용 메신저를 Jira와 연동하고싶다.</strong></p>
+</blockquote>
+
+<p>이번 케이스는 위 케이스와는 다른 금융권 고객사 입니다.</p>
+
+<p>여느 조직이나 마찬가지겠지만, 금융권은 특히 새로운 툴을 도입하거나 변화를 주는게 쉽지는 않습니다.</p>
+
+<p>고객사의 요구사항 중 하나는 바로 “<em>Jira Cloud 버전을 구성 하면서 메신저는 기존에 쓰던 다우 메신저와 연동하여 개개인 별로 Slack과 동일한 화면으로 알림을 받을 수 있으면 좋겠다 “</em> 는 점이었습니다.</p>
+
+<p>하지만 다우 메신저는 Jira와 연동할수 있는 Add-on이 없는 상태 입니다.</p>
+
+<p><strong>그래서 이번에도 자체적으로 연동 모듈을 만들어 알림을 커스텀이 가능하도록 했습니다.</strong></p>
+
+<p><img src="/assets/images/blog/Case%20Study_4.png" alt="Module"></p>
+
+<p>모듈의 원리는 동일하며 2번째 사례의 코드를 활용하여 간단히 메신저 연동을 구현했습니다.</p>
+
+<hr>
+
+<p>Jira 뿐만 아니라 Atlassian의 모든 제품의 가장 큰 특징 중 하나가 바로 타 도구들과의 통합이기 때문에, 여러 메신저와의 연동 자체에는 큰 어려움이 없습니다.</p>
+
+<p>하지만 위 케이스들 처럼, 업무와 무관하거나 불필요한 알림이 무분별하게 메신저로 날라와 방해받고 싶지 않은 마음은 모두 똑같기 때문에, <strong>Jira 이슈의 내용을 관련된 사람 개개인에게 메신저를 통해 알림을 오도록 설정</strong>하고 싶다는 요구사항은 많은 고객 분들께서 갖고 계신 부분이었습니다.</p>
+
+<p><strong>우리 조직도 Jira와 사내 메신저를 효과적으로 연동해서 사용하고 싶으신가요?</strong><br>
+<strong>또는 메신저 연동과 관련된 또 다른 고민을 하고 계신가요?</strong></p>
+
+<p>언제든지 아틀라시안 전문 파트너인 디무브에게 문의해주세요.</p>
+
+<p>감사합니다. 😃</p>
+
+
+    </div>
+
+</article>
+<div class="inner">
+
+	    <ul style="margin-right: -1.25rem; margin-left: -1.25rem; align-items:center; -webkit-box-align:center;">
+	    <li>
+		    <h4 class="fw_25 fw_400">문의 사항이 있으시면 <br style="display: none! important!;">언제든 문의 부탁드립니다.</h4>
+		    <div class="btn_main_more mt40 mb_t_c">
+		   <a href="http://dmove.co.kr/contact-us/quote-service-inquiry">문의하기</a>
+		    </div>
+	  </li>
+
+	  
+	    </ul>
+</div>
+<div class="post-tags">
+<!-- <a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a> -->
+      <a class="post-tag" href="/categories.html">#Atlassian</a><!-- <a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a> -->
+      <a class="post-tag" href="/categories.html">#아틀라시안</a><!-- <a class="post-tag" href="/tags.html#지라">#지라</a> -->
+      <a class="post-tag" href="/categories.html">#지라</a><!-- <a class="post-tag" href="/tags.html#슬랙">#슬랙</a> -->
+      <a class="post-tag" href="/categories.html">#슬랙</a><!-- <a class="post-tag" href="/tags.html#팀즈">#팀즈</a> -->
+      <a class="post-tag" href="/categories.html">#팀즈</a><!-- <a class="post-tag" href="/tags.html#Jira">#Jira</a> -->
+      <a class="post-tag" href="/categories.html">#Jira</a><!-- <a class="post-tag" href="/tags.html#Slack">#Slack</a> -->
+      <a class="post-tag" href="/categories.html">#Slack</a><!-- <a class="post-tag" href="/tags.html#Teams">#Teams</a> -->
+      <a class="post-tag" href="/categories.html">#Teams</a><!-- <a class="post-tag" href="/tags.html#메신저연동">#메신저연동</a> -->
+      <a class="post-tag" href="/categories.html">#메신저연동</a><!-- <a class="post-tag" href="/tags.html#지라연동">#지라연동</a> -->
+      <a class="post-tag" href="/categories.html">#지라연동</a>
+</div>
+<div class="post-nav">
+<a class="previous" href="/atlassian%20solutions/2021/08/02/Bamboo-Datacenter-is-Available.html" title="Bamboo Data Center 라이선스 정식 출시 안내">Bamboo Data Center 라이선스 정식 출시...</a><a class="next" href="/it%20trend/2021/08/13/How-to-create-inclusive-communities-at-work.html" title="Atlassian Team21 - 직장 내 포괄 공동체 구성 단계 및 운영 방법 가이드">Atlassian Team21 - 직장 내 포괄...</a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li><a class="post-link" href="/news%20and%20events/2021/07/09/Atlassian-ITSM-Webinar-Summary.html" title="Atlassian Team21 - 직장 내 포괄 공동체 구성 단계 및 운영 방법 가이드">웨비나 생생 후기 - 디지털 트랜스포메이션을 위한 아틀라시안의 IT 서비스 관리 (ITSM)...</a></li>
+<li><a class="post-link" href="/atlassian%20release%20note/2021/07/23/2Q2021-Atlassian-Release-Notes-DataCenter.html" title="Atlassian Team21 - 직장 내 포괄 공동체 구성 단계 및 운영 방법 가이드">2021 Atlassian 주요 제품 릴리즈 노트 (May ~ Jul) - Server,DC</a></li>
+<li><a class="post-link" href="/it%20trend/2021/05/03/Atlassian-Team-21-The-Evolution-of-Modern-Work.html" title="Atlassian Team21 - 직장 내 포괄 공동체 구성 단계 및 운영 방법 가이드">Atlassian Team '21 - The Evolution of Modern Work 키노트 with Zoom...</a></li>
+<li><a class="post-link" href="/atlassian%20solutions/2021/09/23/step-up-your-devops-game.html" title="Atlassian Team21 - 직장 내 포괄 공동체 구성 단계 및 운영 방법 가이드">DevOps로 나아가기 위한 4가지 주요 방법</a></li>
+</ul>
+    </div>
+<div class="post-comments"></div></section>
+</div>
+
+
+  </section>
+  <!-- <section>
+    <form action="/search">
+      <div class="tipue_search_left">
+        <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+      </div>
+      <div class="tipue_search_right">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
+      <div style="clear: both;"></div>
+    </form>
+  </section> -->
+  <!-- Search bar -->
+  <section class="sidebar" style="margin-left: 15px;">
+    <form action="/search">
+      <div class="tipue_search_left">
+        <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+      </div>
+      <div class="tipue_search_right">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required>
+</div>
+      <div style="clear: both;"></div>
+    </form>
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">Table of Contents</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h1, h2, h3, h4, h5, h6");
+    var thisfilefullname = document.URL.substring(document.URL.lastIndexOf("/") + 1, document.URL.length);
+
+    console.log(thisfilefullname);
+    
+    // Hide menu when no headings
+    if (headings.length === 0 || thisfilefullname=="about.html") {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        // + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+        + '<a href="#' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+	    <div>Copyright © 2020-2021 @Dmove</div>  <div>TEL: 02-6405-0800 | email : sales@dmove.kr</div>
+    </div>
+     
+  </div>
+</footer>
+</body>
+</html>

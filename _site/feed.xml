@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-03T12:44:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Cloud</title><link href="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Cloud" /><published>2021-12-28T00:00:00+09:00</published><updated>2021-12-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요. 디무브 입니다! :balloon:&lt;/p&gt;
+
+&lt;p&gt;이번 시간에는 4분기인 10~12월 동안 아틀라시안의 주요 제품인 Jira, Jira Service Management, Confluence Cloud 버전에 어떠한 변화가 있었는지 정리해 보았습니다.&lt;/p&gt;
+
+&lt;p&gt;많은 기능들이 개선되었으니 꼭 확인해보세요!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;jira-software&quot;&gt;Jira Software&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-cloud-to-cloud-migration-지원&quot;&gt;1. Cloud to Cloud Migration 지원&lt;/h3&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2021_4Q/1.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;기존에는 클라우드 사이트 간 마이그레이션 진행 시 백업 후 서버로 데이터를 이동 한 뒤에 서버에서 &lt;strong&gt;Migration Assistant Tool&lt;/strong&gt;을 사용하여 마이그레이션을 진행하거나 백업 파일을 바로 새로운 클라우드 사이트에 복원 하여 진행해야만 했습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 이러한 기존 방법들은 시간이 너무 많이 소요되거나 불완전한 이슈가 많이 생성되는 문제가 있었습니다.이제 Cloud에서도 Migration Assistant Tool을 사용할 수 있어 Cloud to Cloud로 바로 마이그레이션이 가능합니다&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;해당 기능은 관리자 권한을 가진 사람만이 수행이 가능하며 &lt;strong&gt;시스템 → 가져오기 및 내보내기 → Cloud 사이트 마이그레이션&lt;/strong&gt;에서 수행이 가능합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2021_4Q/2.png&quot; /&gt;&lt;/center&gt;
+
+&lt;h3 id=&quot;2-cycle-time-보고서-기능-추가&quot;&gt;2&lt;strong&gt;. Cycle Time 보고서 기능 추가&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2021_4Q/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cycle Time 보고서는 Jira에서 Bitbucket의 파이프라인을 통해 배포할 때 전체적으로 배포가 진행되는 주기와 전체적인 데이터의 이상값을 확인하기 위해 시각적으로 볼 수 있는 보고서 입니다. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;해당 보고서는 최대 12주 이전 까지의 프로젝트의 주기를 비교하여 1주일 동안의 평균 주기를 보고서에 표시합니다. 
+여기서 사용되는 주기는 첫 번째 커밋부터 코드가 배포되는 것 까지의 시간을 의미합니다. 만약 같은 내용이 두 번 이상 배포된 경우 Cycle Time 보고서에는 가장 최근에 배포된 것을 확인합니다.&lt;/p&gt;
+
+&lt;p&gt;Cycle Time 보고서에 대해 자세히 확인하고 싶으실 경우 &lt;a href=&quot;https://support.atlassian.com/jira-software-cloud/docs/view-and-understand-your-cycle-time-report/&quot;&gt;여기&lt;/a&gt;를 클릭하여 확인해보세요!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;jira-service-management&quot;&gt;Jira Service Management&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-인사이트--객체에-첨부-파일-삽입-기능-추가&quot;&gt;1. 인사이트:  객체에 첨부 파일 삽입 기능 추가&lt;/h3&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_4Q/1.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;이제 Insight에서 객체에 접근할 때 필요한 모든 정보를 얻을 수 있도록 자산과 관련된 파일, 사진, 기타 정보에 대한 첨부파일을 객체에 추가할 수 있습니다. 첨부파일을 삽입 하려면 파일을 &lt;strong&gt;드래그 앤 드롭&lt;/strong&gt;하여 첨부하거나 &lt;strong&gt;파일 첨부&lt;/strong&gt;를 클릭하여 파일을 첨부 할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;lt;주의!&amp;gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1.자산 관리에 필요한 Insight는 Jira Service Management의 프리미엄 플랜 이상의 플랜에서 지원됩니다.&lt;/p&gt;
+
+&lt;p&gt;2.첨부 파일을 추가하기 위해서는 객체에 대한 편집 권한이 있어야 합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-인사이트-객체-스키마-가져오기-기능-추가&quot;&gt;2. 인사이트: 객체 스키마 가져오기 기능 추가&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_4Q/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이제 인사이트에서 하나 이상의 객체 스키마를 가져올 수 있습니다. 가져오기 형식은 CSV, DSC, EXT, JSON 형식의 파일을 지원합니다. &lt;a href=&quot;https://support.atlassian.com/organization-administration/docs/update-a-product-url/&quot;&gt;여기&lt;/a&gt;를 클릭하여 객체 스키마를 가져오는 방법에 대해 자세히 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;confluence&quot;&gt;Confluence&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-템플릿에-첨부파일-삽입-기능-추가&quot;&gt;1. 템플릿에 첨부파일 삽입 기능 추가&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_4Q/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이제 새 템플릿을 만들거나 기존 템플릿을 편집할 때 이미지 및 첨부 파일을 추가하여 템플릿을 더 실용적이고 유용하게 생성할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;/image&lt;/strong&gt; 또는 &lt;strong&gt;/file&lt;/strong&gt; 의 단축키를 입력하여 첨부파일을 삽입하거나 &lt;strong&gt;드래그 앤 드롭&lt;/strong&gt;을 통해 첨부파일을 삽입 할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-confluence-안드로이드-앱-개선-사항---댓글-ui-개선&quot;&gt;2. Confluence 안드로이드 앱 개선 사항 - 댓글 UI 개선&lt;/h3&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_4Q/2.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;기존 Confluence 앱 버전의 경우 댓글을 확인하기 위해 페이지 전체를 스크롤로 끝까지 내린 후 확인해야 하는 불편함이 있었습니다. 이번 업데이트 된 2.13 버전 이상의 버전 부터는 페이지 우측 하단에 댓글 아이콘을 클릭하여 댓글로 바로 이동이 가능합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;예시의 이미지는 안드로이드 2.13.1 버전입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-보관된-컨텐츠-검색-기능-추가&quot;&gt;3. 보관된 컨텐츠 검색 기능 추가&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_4Q/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;기존 Confluence의 검색 기능은 숨겨진 컨텐츠를 찾는 기능이 없어 파일이나 페이지를 찾을 때 찾고자 하는 페이지가 보관되어 있는지, 아니면 특정 스페이스에 있는지 찾기 어려웠습니다. 이번 업데이트에서는 Confluence의 페이지 또는 컨텐츠를 찾을 때 보관된 페이지, 파일 등을 포함한 컨텐츠까지 찾을 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Confluence의 고급 검색 기능에서 &lt;strong&gt;보관된 컨텐츠(Archived content)&lt;/strong&gt;에서 &lt;strong&gt;검색에 포함(Include in Search)&lt;/strong&gt;을 체크하여 보관되어 있는 모든 페이지나 첨부파일 등 컨텐츠를 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Release Note" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안클라우드" /><category term="Jira" /><category term="jira" /><category term="Jira Cloud" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"></summary></entry><entry><title type="html">2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Server,DC</title><link href="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Server.html" rel="alternate" type="text/html" title="2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Server,DC" /><published>2021-12-28T00:00:00+09:00</published><updated>2021-12-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Server</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Server.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요. 디무브입니다! :balloon:&lt;/p&gt;
+
+&lt;p&gt;이번 시간에는 4분기인 10~12월 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence 서버 및 데이터 센터 버전에 어떠한 변화가 있었는지 정리해 보았습니다.&lt;/p&gt;
+
+&lt;p&gt;많은 기능들이 개선되었으니 꼭 확인해보세요!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-jira-software&quot;&gt;1. Jira Software&lt;/h2&gt;
+
+&lt;h3 id=&quot;-version-820x&quot;&gt;■ Version 8.20.x&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-jira-data-center-8200-ltslong-term-support-버전의-advanced-roadmap-기능-지원&quot;&gt;1. Jira Data Center 8.20.0 LTS(Long Term Support) 버전의 Advanced Roadmap 기능 지원&lt;/h4&gt;
+
+&lt;p&gt;Advanced Roadmap 기능은 지난 Jira Software 8.15.x release에서 추가되었습니다. 하지만 대다수의 고객들이 LTS(Long Term Support)버전에서 이용하기를 바랐기에 이번 8.20.x 버전을 LTS버전으로 출시하여 고객들이 이용할 수 있도록 했습니다.&lt;/p&gt;
+
+&lt;p&gt;Data Center 라이센스를 가진 모든 고객은 Atlassian Marketplace에서 Advanced Roadmap App을 설치하여 해당 기능을 이용할 수 있습니다. 또한 Advanced Roadmap이 자동으로 Data Center의 라이센스를 인식하므로 별도의 앱 라이센스를 필요로 하지 않습니다.&lt;/p&gt;
+
+&lt;p&gt;참고 : &lt;a href=&quot;https://confluence.atlassian.com/upm/installing-marketplace-apps-273875715.html&quot; title=&quot;https://confluence.atlassian.com/upm/installing-marketplace-apps-273875715.html&quot;&gt;&lt;strong&gt;Marketplace를 통한 앱 설치 방법&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;기존의 서버 고객이 이미 Advanced Roadmap(Jira Portfolio)을 사용하고 있는 경우 계속해서 라이센스를 갱신하여 이용하실 수 있으며 라이센스가 없는 경우에는 Data Center로 업그레이드 해야만 Advanced Roadmap을 이용하실 수 있습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;2-api-변경-로그&quot;&gt;2. API 변경 로그&lt;/h4&gt;
+
+&lt;p&gt;Jira Software 8.13 LTS 버전 출시 이후의 모든 변경 사항을 확인할 수 있도록 변경 로그에 관한 REST API를 제공합니다. 이에 관해 더 자세한 내용을 확인하고 싶으시면 &lt;a href=&quot;https://confluence.atlassian.com/jiracore/jira-8-13-rest-api-change-log-1019408011.html&quot;&gt;&lt;strong&gt;8.13 API 변경 로그&lt;/strong&gt;&lt;/a&gt; 에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;-version-8210&quot;&gt;■ Version 8.21.0&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-advanced-roadmaps에-대한-추가-언어-지원-데이터센터&quot;&gt;1. Advanced Roadmaps에 대한 추가 언어 지원 [데이터센터]&lt;/h4&gt;
+
+&lt;p&gt;Jira Data Center에서 이용할 수 있는 Advanced Roadmaps에서 이제 아래의 언어를 지원합니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**옵션**&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;**언어**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;zh_CN&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;中文 (中国)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cs_CZ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;čeština (Česko)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;da_DK&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;dansk (Danmark)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;nl_NL&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Nederlands (Nederland)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;en_UK&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;English (UK)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;et_EE&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;eesti (Eesti)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;fi_FI&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;suomi (Suomi)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;fr_FR&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;français (France)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;de_DE&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Deutsch (Deutschland)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;hu_HU&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;magyar (Magyarország)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;is_IS&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;íslenska (Ísland)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;it_IT&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;italiano (Italia)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;no_NO&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;norsk (Norge)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ja_JP&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;日本語 (日本)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;**ko_KR**&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;**한국어 (대한민국)**&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;pl_PL&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;polski (Polska)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;pt_BR&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;português (Brasil)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ro_RO&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;română (România)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ru_RU&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;русский (Россия)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;sk_SK&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;slovenčina (Slovensko)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;es_ES&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;español (España)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;sv_SE&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;svenska (Sverige)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;2-프로젝트-선택기-검색-개선-사항&quot;&gt;2. 프로젝트 선택기 검색 개선 사항&lt;/h4&gt;
+
+&lt;p&gt;8.21 버전에서 프로젝트 선택기에서 검색 성능을 개선했습니다.
+이제 프로젝트 선택기에서 사용자가 검색 키워드를 입력할 때 공백을 무시하고 백엔드 쿼리와 일치하는 결과만 반환합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3-향상된-가젯-구성-환경&quot;&gt;3. 향상된 가젯 구성 환경&lt;/h4&gt;
+
+&lt;p&gt;이제 2차원 필터 통계, 파이 차트 및 이슈 통계 가젯의 구성에 있는 Statistic type, X축 및 Y축 필드는 자동 완성을 지원하며 선택 항목이 알파벳 순으로 정렬됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;4-jira-보안-강화&quot;&gt;4. Jira 보안 강화&lt;/h4&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_3.png&quot; /&gt;&lt;/center&gt;
+
+&lt;h4 id=&quot;컴포넌트-및-라이브러리-업그레이드&quot;&gt;컴포넌트 및 라이브러리 업그레이드&lt;/h4&gt;
+
+&lt;p&gt;아틀라시안은 항상 최신의 보안 상태를 유지해야 하는 핵심 컴포넌트 요소와 서드 파티(3rd Party) 라이브러리를 선별하여, 이 전 보다 더 많은 취약점과 이슈를 해결하고 Jira를 안전하게 보호할 수 있도록 하였습니다.이번 릴리스에서는 다음 보안 사항을 해결했습니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**해결된 사항**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Jira 플랫폼의 취약점 32이슈 해결&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Jira 서비스 관리의 취약점 53이슈 해결&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;내부 라이브러리를 쉽게 사용할 수 있도록 해결&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;업그레이드 된 라이브러리에 대한 자세한 내용은 &lt;a href=&quot;https://confluence.atlassian.com/jiracore/preparing-for-jira-8-21-1097175398.html&quot; title=&quot;https://confluence.atlassian.com/jiracore/preparing-for-jira-8-21-1097175398.html&quot;&gt;&lt;strong&gt;Jira 8.21 준비 문서&lt;/strong&gt;&lt;/a&gt;를 참고하실 수 있습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;lts-릴리즈로-백포팅&quot;&gt;&lt;strong&gt;LTS 릴리즈로 백포팅&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;LTS 릴리즈는 안정성이 최우선이기 때문에 이슈를 신속하게 복구하기 어려울 때가 있습니다. 하지만 아틀라시안에서는 중요한 수정 사항을 완료할 때 이를 백포팅하는 데 주력하고 있으므로 Jira 8.5 및 Jira 8.13 LTS 버전에 대한 버그 해결 또한 이번 릴리즈에 반영되었습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;5-해결된-이슈-사항&quot;&gt;5. 해결된 이슈 사항&lt;/h4&gt;
+
+&lt;h4 id=&quot;jira-8200에서-해결된-이슈&quot;&gt;&lt;strong&gt;Jira 8.20.0에서 해결된 이슈&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Summary**&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;**Key**&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;**Status**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2개 이상의 노드에서 Jira Data Center를 사용할 때 Jira 차트 매크로가 Confluence에서 표시되지 않음&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JRASERVER-72881&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;익명 사용자로 첨부 파일을 추가하면 화면 페이지가 비어있게 됩니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JRASERVER-72788&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;일부 JIRA ‘@mentions’는 설명 필드에 모든 사용자를 표시하지 않습니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JRASERVER-61939&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;유니코드 문자가 악성 코드를 검토자(Jira Server)로부터 숨길 수 있도록 합니다. - CVE-2021-42574&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JRASERVER-72978&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Published&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;GitLab과의 DVCS 동기화는 전체 이름이 동일한 사용자를 잘못 매핑합니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JSWSERVER-21108&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;설명이 NULL인 경우 보기 화면 페이지에서 검색에 오류가 표시됩니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JRASERVER-72924&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;jira-8210에서-해결된-이슈&quot;&gt;&lt;strong&gt;Jira 8.21.0에서 해결된 이슈&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Summary**&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;**Key**&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;**Status**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;관리자가 아닌 사용자가 파일 복제 설정을 편집할 수 있음 - CVE-2021-41308&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JRASERVER-72940&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Jira는 Tomcat CVE-2021-42340의 영향을 받습니다. OutOfMemoryError를 통한 서비스 거부&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JRASERVER-72914&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;권한 에스컬레이션으로 인해 권한이 없는 사용자가 이메일 배치 구성을 편집할 수 있음 - CVE-2021-41313&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JRASERVER-72898&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Published&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;‘last_name’ 형식이 ‘표시 이름’과 일치하지 않으면 성을 사용하는 담당자 및 @mention 사용자 검색이 작동하지 않습니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JRASERVER-72874&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-jira-service-management&quot;&gt;2. Jira Service Management&lt;/h2&gt;
+
+&lt;h3 id=&quot;-version-420x&quot;&gt;&lt;strong&gt;■ Version 4.20.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-jira-service-management의-insight-비활성화-불가능&quot;&gt;1. Jira Service Management의 Insight 비활성화 불가능&lt;/h4&gt;
+
+&lt;p&gt;Insight와 관련하여 Jira Service Management Data Center 및 Server 4.19에 도입된 종속성 때문에 Insight 또는 관련 테이블을 더 이상 제거할 수 없습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;jira-service-management-4200에서-해결된-이슈&quot;&gt;Jira Service Management 4.20.0에서 해결된 이슈&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Summary**&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;**Key**&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;**Status**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;objectSchema에 대한 검색이 계속 로드됩니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JSDSERVER-8709&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;언급하는 사용자는 Jira와 JSM 간에 다르게 동작합니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JSDSERVER-8681&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Oracle Jira DB에서 대량 인쇄 Insight 레이블 작업 충돌&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JSDSERVER-7375&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;-version-421x&quot;&gt;&lt;strong&gt;■ Version 4.21.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-요청-목록-사용자-지정&quot;&gt;1. 요청 목록 사용자 지정&lt;/h3&gt;
+
+&lt;p&gt;너무 많은 정보는 정보의 명확성을 해칠 수 있습니다. 이러한 이유로 Jira Service Management에서는 이제 요청 목록에서 고객이 볼 수 있는 열을 사용자 별로 지정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;요청 목록을 구성하는 방법은 &lt;a href=&quot;https://confluence.atlassian.com/servicemanagementserver/configuring-request-view-1095250690.html&quot; title=&quot;https://confluence.atlassian.com/servicemanagementserver/configuring-request-view-1095250690.html&quot;&gt;&lt;strong&gt;요청 목록 구성 방법&lt;/strong&gt;&lt;/a&gt;  에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-코멘트-공감-및-반응을-통한-의사-표현&quot;&gt;2. 코멘트 공감 및 반응을 통한 의사 표현&lt;/h3&gt;
+
+&lt;p&gt;상담원과 고객 간의 커뮤니케이션 속도를 높이기 위해 Comment reaction을 도입했습니다. 댓글로 표현이 충분하지 않다면 이모티콘으로 요점을 전달할 수 있습니다. Comment reaction에 대해 자세히 알아보려면 &lt;a href=&quot;https://confluence.atlassian.com/servicemanagementserver/getting-started-for-service-project-agents-939926229.html&quot; title=&quot;https://confluence.atlassian.com/servicemanagementserver/getting-started-for-service-project-agents-939926229.html&quot;&gt;&lt;strong&gt;코멘트 공감 및 반응 살펴보기&lt;/strong&gt;&lt;/a&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-모바일-앱에서-대기열-사용&quot;&gt;3. 모바일 앱에서 대기열 사용&lt;/h3&gt;
+
+&lt;p&gt;어디서나 상담 서비스를 편리하게 사용할 수 있도록 대기열에 대한 지원을 추가했습니다. 요청 목록이 길어지면 대기열을 통해 팀이 문제를 해결하는 시기와 방법을 제어할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-더-빠른-백그라운드-처리&quot;&gt;4. 더 빠른 백그라운드 처리&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;새로운 기본 프로세서&lt;/strong&gt;&lt;br /&gt;
+    보다 탄력적이고 클러스터 효율성이 향상된 프로세서를 지원합니다. 테스트 기능으로는 4.9.0 버전부터 Jira Service Management에서 사용 가능하며 테스트와 안정화 과정을 거쳐 현재 기본 프로세서로 출시하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;더 나은 이벤트 처리&lt;/strong&gt;&lt;br /&gt;
+    이번 릴리스부터 Jira Service Management의 비동기 프로세서는 이 JSM과 연관이 없는 이슈 이벤트를 더 이상 대기열에 넣지 않습니다. 이를 통해 Jira Service Management/Jira Software/Jira Core 프로젝트가 혼합된 인스턴스에서 이벤트 처리에 대한 부담을 줄여 SLA, 자동화 및 알림 처리 속도를 높일 수 있습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;jira-service-management-4210에서-해결된-이슈&quot;&gt;Jira Service Management 4.21.0에서 해결된 이슈&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Summary**&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;**Key**&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;**Status**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Jira Service Management Server 4.19+에서 Insight를 비활성화하면 모든 JSM 종속성이 중단되고 비활성화됩니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JSDSERVER-10845&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;고객 포털 요청 보기에 열을 추가하는 방법은 무엇입니까?&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JSDSERVER-5065&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;3-confluence&quot;&gt;&lt;strong&gt;3. Confluence&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;-version-714x&quot;&gt;&lt;strong&gt;■ Version 7.14.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-다운-타임-없는-confluence-버전-업그레이드-data-center&quot;&gt;1. 다운 타임 없는 Confluence 버전 업그레이드 [DATA CENTER]&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;어떻게 동작하나요?&lt;/strong&gt;&lt;br /&gt;
+    롤링 업그레이드 프로세스는 기본적으로 Confluence 7.9의 버그 수정 업그레이드와 동일하지만 데이터를 변환하거나 이동하기 위해 일부 업그레이드 작업을 수행해야 할 수도 있습니다.
+    부분 업그레이드 작업은 각 노드에서 애플리케이션이 시작되기 직전에 실행되고, 클러스터 전체 업그레이드 작업은 모든 노드에서 새 버전을 실행한 후 업그레이드를 완료를 선택할 수 있습니다. 클러스터 개요에서 클러스터의 전반적인 상태를 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;호환 가능한 버전&lt;/strong&gt;&lt;br /&gt;
+    이 단계에서는 현재 사용하고 있는 Confluence 릴리스에서 업그레이드 하고자 하는 릴리스와의 호환성을 확인할 수 있습니다. 예를 들어 버전 7.14.2를 실행 중인 경우 다운 타임 없이 7.15.1로 업그레이드할 수 있습니다. 어떤 버전이 호환되는지 확인하기 위해 &lt;strong&gt;설정&lt;/strong&gt; &amp;gt; &lt;strong&gt;일반 환경 설정&lt;/strong&gt; &amp;gt; &lt;strong&gt;업그레이드 계획&lt;/strong&gt;으로 이동하십시오.&lt;/p&gt;
+
+&lt;h4 id=&quot;2-kubernetes-환경에서-confluence-data-center를-사용할-수-있습니다-data-center&quot;&gt;2. Kubernetes 환경에서 Confluence Data Center를 사용할 수 있습니다. [DATA CENTER]&lt;/h4&gt;
+
+&lt;p&gt;자체 관리 환경에서 인스턴스를 실행 중이고 최신 인프라를 도입하려는 경우 이제 Jira, Confluence 및 Bitbucket Data Center 를 Kubernetes 클러스터에 배포할 수 있습니다. 
+Kubernetes를 활용하면 조직의 인프라를 효율적으로 활용할 수 있습니다. 제품을 쉽게 확장하거나 축소하고 워크로드를 관리하고 예약할 수 있습니다. 이를 통해 조직의 규정에 영향을 주지 않으면서 규모에 맞는 간소화된 관리 환경을 경험할 수 있으며 팀 간의 민첩성을 높일 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian은 여러분이 선택한 Kubernetes 클러스터에 Atlassian 제품을 설치하고 운영할 수 있도록 &lt;a href=&quot;https://github.com/atlassian/data-center-helm-charts&quot; title=&quot;https://github.com/atlassian/data-center-helm-charts&quot;&gt;&lt;strong&gt;GitHub에 Helm chart를 제공&lt;/strong&gt;&lt;/a&gt;합니다.
+Helm은 애플리케이션과 서비스를 Kubernetes 클러스터에서 패키징, 구성 및 배포할 수 있는 Kubernetes 용 패키지 관리자입니다. Helm은 관련 Kubernetes 리소스 집합을 설명하는 파일 모음인 Chart라는 패키지 형식을 사용합니다.
+Kubernetes 클러스터는 Amazon EKS , Azure Kubernetes Service , Google Kubernetes Engine 환경이거나 사용자가 직접 설치한 환경일 수 있습니다.
+여기 Kubernetes의 아키텍처에 관한 개요가 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3-데이터-파이프라인-개선-data-center&quot;&gt;3. 데이터 파이프라인 개선 [DATA CENTER]&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;정기 내보내기 예약&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;데이터 파이프라인 화면에서 정기적인 데이터 파이프라인 내보내기를 예약할 수 있습니다. 사용자가 필요한 만큼 일정을 조절하여 내보내도록 선택할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;내보내기 위치 변경&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;REST API를 사용하여 파일을 내보낼 때 데이터 파이프라인에서 사용자 지정 위치로 내보낼 수 있습니다. 이는 Amazon S3 또는 Azure Blob Storage와 같은 데이터 레이크의 관련 스토리지로 직접 파일을 보내려는 경우에 유용하게 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;데이터 파이프라인에 대해서는 &lt;a href=&quot;https://confluence.atlassian.com/doc/data-pipeline-1056670238.html&quot; title=&quot;https://confluence.atlassian.com/doc/data-pipeline-1056670238.html&quot;&gt;&lt;strong&gt;데이터 파이프라인에 대해 알아보기&lt;/strong&gt;&lt;/a&gt;  문서에서 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;4-기존-캘린더로-이벤트-가져오기-data-center&quot;&gt;4. 기존 캘린더로 이벤트 가져오기 [DATA CENTER]&lt;/h4&gt;
+
+&lt;p&gt;iCalendar(.ics) 파일을 기존 팀 캘린더로 가져와 캘린더에 이벤트를 추가할 수 있습니다. 이는 외부 캘린더의 이벤트를 추가하거나 기존 팀 캘린더를 병합하려는 경우에 유용하게 사용할 수 있습니다. 캘린더를 가져오는 방법에 대해 더 자세히 알아보시려면 &lt;a href=&quot;https://confluence.atlassian.com/doc/create-add-and-edit-calendars-1044780370.html&quot; title=&quot;https://confluence.atlassian.com/doc/create-add-and-edit-calendars-1044780370.html&quot;&gt;&lt;strong&gt;캘린더 가져오기&lt;/strong&gt;&lt;/a&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;5-confluence-보안-개선-사항-data-center-server&quot;&gt;5. Confluence 보안 개선 사항 [DATA CENTER, SERVER]&lt;/h4&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2021_4Q/1228_3.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;Atlassian의 취약성 관리 프로그램은 보안 문제를 찾고 수정하기 위해 다양한 전략을 사용합니다. 한 가지 접근 방식은 핵심 구성 요소와 타사 라이브러리를 가장 안전한 최신 버전으로 정기적으로 업데이트하는 것입니다. 이것은 지속적인 확인이 필요하며 Confluence를 지속적으로 개선하기 위해 노력하는 방법 중 하나입니다. 또한 이번 릴리스에서 업그레이드 한 라이브러리의 일부에 대해 더 알아 보려면 &lt;a href=&quot;https://confluence.atlassian.com/doc/preparing-for-confluence-7-14-1063176415.html&quot; title=&quot;https://confluence.atlassian.com/doc/preparing-for-confluence-7-14-1063176415.html&quot;&gt;Confluence 7.14를 준비하는 방법&lt;/a&gt;에서 확인하실 수 있습니다. 이러한 업그레이드의 대부분은 Confluence 7.4 LTS 및 7.13 LTS 릴리스 에도 백포트 됩니다 .&lt;/p&gt;
+
+&lt;h4 id=&quot;해결된-이슈-사항&quot;&gt;&lt;strong&gt;해결된 이슈 사항&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Summary**&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;**Key**&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;**Status**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;CCMA를 통한 공간 마이그레이션은 Confluence Server 7.14.0 이상에서 NPE로 실패함&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;CONSERVER-74537&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Confluence 목차 매크로는 Refined for Confluence 테마와 호환되지 않습니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;CONSERVER-74563&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;편집기 테이블 크기 조정이 다중 열 페이지 레이아웃에서 작동하지 않음&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;CONSERVER-73963&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Release Note" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안 클라우드" /><category term="Jira" /><category term="jira" /><category term="Jira Cloud" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"></summary></entry><entry><title type="html">웨비나 생생후기 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제</title><link href="http://localhost:4000/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary.html" rel="alternate" type="text/html" title="웨비나 생생후기 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제" /><published>2021-12-20T00:00:00+09:00</published><updated>2021-12-20T00:00:00+09:00</updated><id>http://localhost:4000/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary</id><content type="html" xml:base="http://localhost:4000/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary.html">&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar%20Title%20Banner.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요. 디무브 입니다.  🎈&lt;/p&gt;
+
+&lt;p&gt;지난 12월14일 화요일 오후4시 진행된 디무브의 “&lt;a href=&quot;https://talkit.tv/Event/2730&quot;&gt;제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제&lt;/a&gt;” 웨비나가 종료되었습니다.&lt;/p&gt;
+
+&lt;p&gt;지난 10월 디무브에서는 IAM 업계의 글로벌 리더인 Okta와 파트너쉽을 체결하며, 클라우드 환경에서의 계정 관리와 보안강화는 물론 아틀라시안 솔루션과의 연동을 통한 확장을 제공하게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;이에 따라 이번 웨비나에서는 아틀라시안의 클라우드 ID 및 보안 환경을 명확하게 이해하고 보안을 강화할 수 있는 방법과 Okta의 IAM 솔루션을 통해 사용자 관리를 위한 프로세스를 개선할 수 있는 핵심 전략을 소개해드렸는데요.&lt;/p&gt;
+
+&lt;p&gt;많은 기업들이 클라우드로의 여정을 시작하고 새로운 기술과 플랫폼이 지속적으로 확산됨에 따라, SaaS와 온프레미스 앱 모두에 대한 ID 및 액세스 관리에 대한 관심이 높아진 만큼 정말 많은 분들께서 등록해주시고 라이브 세션에 참석해 주셨습니다.&lt;/p&gt;
+
+&lt;p&gt;다시 한번, 참여해주신 모든 분들께 감사의 말씀을 드리며, 진행했던 웨비나에 대해 리뷰하는 시간을 가져보려 합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;본 웨비나는 아래 아젠다와 같이 크게 3가지 파트로 구성하여 진행하였습니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;시간&lt;/th&gt;
+      &lt;th&gt;주제&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16:00 ~ 16:15&lt;/td&gt;
+      &lt;td&gt;**Cloud 환경에서의 Identity &amp;amp; Access 관리** &lt;br /&gt; - 조직의 보안을 위해 ID 및 액세스 관리가 중요한 이유 &lt;br /&gt; - Zero Trust 보안 모델&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16:15 ~ 16:35&lt;/td&gt;
+      &lt;td&gt;**보안 강화를 위한 클라우드 ID 공급자의 역할** &lt;br /&gt; - 아이덴티티의 역할과 중요성 &lt;br /&gt; - Okta 솔루션 데모&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16:35 ~ 16:55&lt;/td&gt;
+      &lt;td&gt;**Atlassian 클라우드 제품의 연결과 확장** &lt;br /&gt; - Atlassian Access를 통한 ID 관리 &lt;br /&gt; - Access+Okta Integration 데모&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16:55 ~ 17:00&lt;/td&gt;
+      &lt;td&gt;**Q&amp;amp;A** &lt;br /&gt; - 질의응답&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;session-1-cloud-환경에서의-identity--access-관리&quot;&gt;Session 1. Cloud 환경에서의 Identity &amp;amp; Access 관리&lt;/h2&gt;
+
+&lt;center&gt;&lt;iframe width=&quot;600&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/7bB0bYglI0w&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;이제는 많은 기업들이 클라우드로 인프라를 전환하게 되면서 기존의 네트워크 경계를 기반으로 설계된 전통적인 보안 인프라는 더이상 안전하지 않게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;그 배경은 바로 SaaS 기반의 기업용 애플리케이션이 증가하면서 SaaS 앱을 사용하는 사용자도 증가하게 되었고, 원격 근무나 재택 근무와 같은 근무환경은 빠르게 변화였기 때문인데요.&lt;/p&gt;
+
+&lt;p&gt;또한 사용자들이 회사 내의 인증된 PC만이 아닌 개인 노트북, 모바일, 태블릿 등 다양한 기기를 통해 서비스에 접근하게 되면서 클라우드 보안에 대한 위험은 증가하게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;더이상 모든 IP 주소와 기기를 파악하고 추적하는 것은 현실적으로 불가능해졌고 신뢰할 수 있는 네트워크를 정의할 수 없기 때문에 우리는 모든 접근을 신뢰하지 않고 항상 검증해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;이것이 바로 ‘제로 트러스트 보안 모델’의 핵심 개념입니다.&lt;/p&gt;
+
+&lt;p&gt;아이덴티티를 기반으로 하는 제로 트러스트 보안 모델의 3가지 원칙과 특징이 궁금하시다면 세션1의 영상을 확인해주세요!&lt;/p&gt;
+
+&lt;h2 id=&quot;session-2-보안-강화를-위한-클라우드-id-공급자의-역할&quot;&gt;Session 2. &lt;strong&gt;보안 강화를 위한 클라우드 ID 공급자의 역할&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;center&gt;&lt;iframe width=&quot;600&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/fsQHhy_5vK8&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Okta 자체 발간 보고서에 따르면 기업이 평균적으로 사용하는 앱 숫자는 88개에 이르고 이 숫자는 지속적으로 늘어나고 있는 추세라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;이번 웨비나를 준비하면서 진행한 사전 설문조사 결과에서도 60%에 가까운 국내 기업들이 이미 1개 이상의 SaaS앱을 사용하고 있다는 것을 알 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;그리고 이러한 트렌드는 더욱 빠르게 가속화 될 것으로 전망하고 있는데요.&lt;/p&gt;
+
+&lt;p&gt;IDaaS 영역의 선두주자인 Okta는 아이덴티티 및 액세스 통합, MFA등을 통한 인증 방법 강화, 컨텍스트 기반의 액세스 관리와 같은 강력한 기능과 7000개이상의 SaaS앱과의 연동을 지원하며 클라우드 환경은 물론 온프레미스까지 아우르는 ID 관리 솔루션을 제공하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;세션2에서는 Okta 솔루션을 통해 사용하는 SaaS앱을 연동하고 인증 절차를 설정하는 방법을 데모를 통해 소개해 드립니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;session-3-atlassian-클라우드-제품의-연결과-확장&quot;&gt;Session 3. Atlassian 클라우드 제품의 연결과 확장&lt;/h2&gt;
+
+&lt;center&gt;&lt;iframe width=&quot;600&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/Zh_6xwdfocQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;앞 세션에서 제로 트러스트 보안 모델을 기반으로 하는 Okta 솔루션에 대해 알아보았다면, 세션3에서는 아틀라시안클 라우드의 보안을 강화하는 방안을 이야기했는데요.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안의 Single Account 정책과 아틀라시안이 Organization(조직)과 Site(사이트)라는 접근 방식으로 사용자 개인은 물론 조직 모두에게 제공하는 이점 또한 소개해 드렸습니다.&lt;/p&gt;
+
+&lt;p&gt;또한 아틀라시안 클라우드는 “&lt;a href=&quot;http://dmove.co.kr/products/atlassian/atlassian-access&quot;&gt;Atlassian Access&lt;/a&gt;” 제품을 통해 Okta와의 자체 연동을 지원하며 유저 프로비저닝, 관리자 권한 감사, 활동 내역 감사, SSO 등의 기능을 제공하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian Access 제품에 대한 기능 소개 및 Okta와의 연동법이 궁금하시다면 세션3의 데모영상을 놓치지 마세요!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;1시간동안 제로 트러스트 보안 모델을 기반으로 아틀라시안과 옥타의 클라우드 ID 및 접근관리에 대한 핵심 내용으로 알차게 구성해 보았는데요!&lt;/p&gt;
+
+&lt;p&gt;참석해 주신 분들께서 너무 좋은 평가를 많이 남겨주셨답니다.&lt;/p&gt;
+
+&lt;p&gt;오히려 웨비나 시간을 더 늘려달라는 분들도 꽤 계셔서 저희가 준비한 시간이 많은 분들께 도움이 된 것 같아 저희에게도 매우 유의미하고 감사했던 시간이었습니다. 🙂&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“흠결 전무한 최고 웨비나 체제,진행으로 평가되어,더할 평론 없음”&lt;/p&gt;
+
+  &lt;p&gt;“데모 중심으로 진행된 방식이다 보니.. 실무적으로 많은 도움이 되었습니다.”&lt;/p&gt;
+
+  &lt;p&gt;“Atlassian의 클라우드 ID와 보안 환경을 명확하게 이해하고 보안을 강화할 수 있는 방법에 대한 개념을 파악할 수 있어서 매우 유익하였습니다”&lt;/p&gt;
+
+  &lt;p&gt;“다양한 세션에서 실무에 도움이 되는 정보 많이 주시어 감사드립니다.”&lt;/p&gt;
+
+  &lt;p&gt;“어려울 수 있는 내용을 이해하기 쉽게 잘 설명해주신것 같습니다.”&lt;/p&gt;
+
+  &lt;p&gt;“혼자서 진행하셨는데도 매끄럽게 잘 진행이 된 것 같습니다. 설명 및 데모도 충실하여, 이해에 많은 도움이 되었습니다. ”&lt;/p&gt;
+
+  &lt;p&gt;“웨비나를 통해서 클라우드와 관련해서 검토해보고 더나은 방향으로 선택할 수 있는 좋은 시간이 되었습니다.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;웨비나에 대한 전체 내용이 궁금하신 분들께서는, 디무브 &lt;a href=&quot;https://www.youtube.com/watch?v=N43fNu1QwXY&quot;&gt;유튜브 채널&lt;/a&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;추후에도 웨비나에서 다룬 내용에 대해 궁금하신 점이 있으시면 저희에게 언제든지 알려주세요.&lt;/p&gt;
+
+&lt;p&gt;디무브에서는 앞으로도 다양한 주제로 찾아뵐 것을 약속 드리며, 본 포스팅을 마무리하도록 하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;감사합니다. 🙂&lt;/p&gt;</content><author><name>Dmove</name></author><category term="News and Events" /><category term="Atlassian" /><category term="아틀라시안" /><category term="옥타" /><category term="Okta" /><category term="IAM" /><category term="SSO" /><category term="IDaaS" /><category term="클라우드계정관리" /><category term="제로트러스트" /><category term="Zerotrust" /><category term="클라우드보안" /><category term="Cloud" /><category term="ID Management" /><category term="TalkIT" /><category term="토크아이티" /><summary type="html"></summary></entry><entry><title type="html">CVE-2021-44228 보안 취약점 안내</title><link href="http://localhost:4000/atlassian%20solutions/2021/12/15/CVE-2021-44228-Atlassian-Products.html" rel="alternate" type="text/html" title="CVE-2021-44228 보안 취약점 안내" /><published>2021-12-15T00:00:00+09:00</published><updated>2021-12-15T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2021/12/15/CVE-2021-44228-Atlassian-Products</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2021/12/15/CVE-2021-44228-Atlassian-Products.html">&lt;p&gt;&lt;img src=&quot;/assets/images/blog/notice_1.png&quot; alt=&quot;Banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
+
+&lt;p&gt;현재 Log4j 라이브러리에서 중요한 보안 취약점이 발견되어 안내드립니다.&lt;/p&gt;
+
+&lt;p&gt;해당 취약점은 log4j 2.14.1 이하 버전의 jndi 를 사용하여 LDAP 이나 jndi 기반 엔드 포인트의 컨피그레이션이나 로깅, 파라미터 전달 했을 시에 영향을 받는 취약점입니다.&lt;/p&gt;
+
+&lt;p&gt;이 취약점은 로그 메시지 또는 로그 메시지 매개 변수를 제어할 수 있는 해커가 LDAP 서버에서 로드된 임의 코드를 실행하여 데이터 불법 취득이나, 삭제 악성 프로그램 실행 등이 가능할 것이라 전망하고 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;취약점에-대한-아틀라시안-클라우드-제품의-영향&quot;&gt;취약점에 대한 아틀라시안 클라우드 제품의 영향&lt;/h2&gt;
+
+&lt;p&gt;아틀라시안 클라우드를 사용하는 고객분들은 해당 보안 취약점에 영향을 받지 않습니다.&lt;/p&gt;
+
+&lt;p&gt;현재까지의 분석 결과 Log4j를 사용하는 시스템을 패치하기 전에 아틀라시안 시스템 또는 고객의 데이터가 손상된 내용은 없었습니다. 때문에 따로 수정해야 하는 작업은 없습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;취약점에-대한-아틀라시안-온프레미스-제품의-영향&quot;&gt;취약점에 대한 아틀라시안 온프레미스 제품의 영향&lt;/h2&gt;
+
+&lt;p&gt;아틀라시안 제품 중 일부는 1.2.17 버전의 Log4j를 사용하고 있습니다. 아틀라시안 측에서 추가적인 분석을 수행한 결과 취약점 대상의 라이브러리는 아님을 확인하였습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 만약 Log4j에서 JMS Appender 관련 내용을 작성하였을 경우 취약점의 문제가 발생할 수 있으므로 다음과 같은 설정을 확인하여 주석 처리 혹은 삭제를 권고 드립니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;취약성-점검-방법&quot;&gt;취약성 점검 방법&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;제품 별 아래의 경로에서 &lt;strong&gt;org.apache.log4j.JMSAppender&lt;/strong&gt; 사용 여부 확인&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;응용프로그램의 CLASSPATH에 javax.jms API가 포함되어 있는지 확인&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;JMS Appender의 서드파티에 대한 JNDI의 조회 대상으로 되어있는지 확인&lt;/p&gt;
+
+    &lt;p&gt;■ 해당 취약성 부분은 신뢰할 수 있는 사용자가 응용 프로그램의 구성을 수정하거나 런타임에 속성을 설정하는 경우에만 사용됩니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**제품**&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**경로**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Jira Server &amp;amp; Data Center&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&quot;Install Directory&quot;/atlassian-jira/WEB-INF/classes/log4j.properties&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Confluence Server &amp;amp; Data Center&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&quot;Install Directory&quot;/confluence/WEB-INF/classes/log4j.properties&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Bamboo Server &amp;amp; Data Center&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&quot;Install Directory&quot;/atlassian-bamboo/WEB-INF/classes/log4j.properties&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Fisheye / Crucible&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&quot;Install Directory&quot;/log4j.xml&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Crowd&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&quot;Install Directory&quot;/crowd-webapp/WEB-INF/classes/log4j.properties&lt;br /&gt;&quot;Install Directory&quot;/crowd-openidclient-webapp/WEB-INF/classes/log4j.properties&lt;br /&gt;&quot;Install Directory&quot;/crowd-openidserver-webapp/WEB-INF/classes/log4j.properties&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;log4j 1.2.17 버전을 사용하는 아틀라시안의 제품은 다음과 같습니다:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bamboo Server and Data Center&lt;/li&gt;
+  &lt;li&gt;Confluence Server and Data Center&lt;/li&gt;
+  &lt;li&gt;Crowd Server and Data Center&lt;/li&gt;
+  &lt;li&gt;Fisheye / Crucible&lt;/li&gt;
+  &lt;li&gt;Jira Service Management Server and Data Center&lt;/li&gt;
+  &lt;li&gt;Jira Software Server and Data Center (including Jira Core)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;추가-사항-안내&quot;&gt;추가 사항 안내&lt;/h3&gt;
+
+&lt;p&gt;추가적인 확인 결과 Bitbucket 서버와 데이터 센터의 버전의 경우 ElasticSearch 검색 엔진을 사용하는데 이 Elasticsearch의 경우 2.14 버전 아래의 라이브러리를 사용중인 것으로 확인이 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;영향을 받는 Bitbucket 서버 및 데이터센터 버전은 다음과 같습니다: &lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;6.10.16 버전 미만의 모든 버전&lt;/li&gt;
+  &lt;li&gt;7.X ~ 7.6.12&lt;/li&gt;
+  &lt;li&gt;7.7.0 버전 이상 7.14.2 버전 아래의 모든 버전&lt;/li&gt;
+  &lt;li&gt;7.15.3 버전 미만의 모든 7.15 버전&lt;/li&gt;
+  &lt;li&gt;7.16.3 버전 미만의 모든 7.16 버전&lt;/li&gt;
+  &lt;li&gt;7.17.4 버전 미만의 모든 7.17 버전&lt;/li&gt;
+  &lt;li&gt;7.18.3 버전 미만의 모든 7.18 버전&lt;/li&gt;
+  &lt;li&gt;7.19 버전&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;조치-사항&quot;&gt;조치 사항&lt;/h4&gt;
+
+&lt;p&gt;아틀라시안의 경우 보안 Log4j 라이브러리 보안 취약점을 개선한 다음과 같은 버전으로 Bitbucket 버전으로 업그레이드를 진행할 것을 권고 하고 있습니다:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;6.10.16 버전&lt;/li&gt;
+  &lt;li&gt;7.6.12 버전&lt;/li&gt;
+  &lt;li&gt;7.14.2 버전&lt;/li&gt;
+  &lt;li&gt;7.15.3 버전&lt;/li&gt;
+  &lt;li&gt;7.16.3 버전&lt;/li&gt;
+  &lt;li&gt;7.17.4 버전&lt;/li&gt;
+  &lt;li&gt;7.18.3 버전&lt;/li&gt;
+  &lt;li&gt;7.19.1 버전&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;만약 현재 Bitbucket 업그레이드를 하기 어려울 경우 Bitbucket 홈 디렉토리의 jvm 옵션 파일을 수정 후 Bitbucket의 재시작하여 보안 취약점을 보완할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;($BITBUCKET_HOME/shared/search/jvm.options)&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-Dlog4j2.formatMsgNoLookups=true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;아틀라시안-마켓플레이스-애드온의-영향&quot;&gt;아틀라시안 마켓플레이스 애드온의 영향&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;클라우드 애드온&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“Connect“ 및 “Forge“와 같은 어플리케이션을 개발하기 위해 아틀라시안이 파트너와 공유하는 툴은 CVE-2021-44228 보안 취약점에 영향을 받지 않습니다.&lt;/p&gt;
+
+&lt;p&gt;또한 아틀라시안 자체에서 개발한 클라우드 애드온 중 취약점이 있는 애드온은 보안 취약점에 영향을 받지 않습니다.&lt;/p&gt;
+
+&lt;p&gt;다만 타 애드온 개발사가 만든 애드온의 경우 보안취약점에 안전한지 전체적으로 확인되지 않아 추가적으로 확인 및 검토를 진행중입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;서버 및 데이터 센터 애드온&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;클라우드 앱과 마찬가지로 아틀라시안 자체에서 개발한 애드온의 경우 보안 취약점의 영향을 받지 않지만 타 개발사의 애드온은 식별됨을 확인하였습니다. 
+현재 아틀라시안 측에서는 추가적인 확인 및 검토를 진행중이며 애드온 개발사 측에 보안 취약점을 해결하도록 일정 기간동안의 권고 뒤 마켓플레이스에서 삭제되도록 하고 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;만약 애드온 중 보안 취약점에 영향을 받는 애드온을 확인할 경우 즉시 해당 애드온을 일시 중지하고 고객에게 사실을 전달해야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;보안-취약점에-노출-여부-확인&quot;&gt;보안 취약점에 노출 여부 확인&lt;/h2&gt;
+
+&lt;p&gt;유감스럽게도, 아틀라시안 측에서는 사용자마다 모든 보안 문제가 서로 다르기 때문에 사용자의 인스턴스가 보안취약점에 당했거나 노출되어 있는지 구체적인 확인이 어려운 상황입니다.&lt;/p&gt;
+
+&lt;p&gt;추가적인 확인 및 조사를 해야 할 경우 사내 보안 팀이나 전문 보안 포렌식 업체에 문의를 통해 확인하는 것을 권고드립니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;보안-취약점-해결-방안&quot;&gt;보안 취약점 해결 방안&lt;/h2&gt;
+
+&lt;p&gt;보안 취약점을 해결 하는 가장 효율적인 방법은 Log4j 버전을 2.15.0 버전으로 업그레이드 하는 것입니다.  다음 링크를 통해 제조사 홈페이지에서 2.15.0 버전의 Log4j 버전을 업그레이드 하실 수 있습니다. &lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://logging.apache.org/&quot; target=&quot;_blank&quot;&gt;Log4j 버전 업그레이드&lt;/a&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;하지만 만약 구조상 업그레이드를 진행하기 어려운 경우 다음과 같은 조치를 통해 보안 취약점을 보완하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.0-beta9 ~ 2.10.0 버전&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;log4j-core-*.jar 파일에서 org/apache/logging/log4j/core/lookup/JndiLookup.class 삭제&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Log4j 2.10 ~ 2.14.1 버전&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;log4j2.formatMsgNoLookups 또는 LOG4J_FORMAT_MSG_NO_LOOKUPS 환경변수를 &lt;strong&gt;true&lt;/strong&gt;로 설정&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-Dlog4j2.formatMsgNoLookups=true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;아틀라시안은 log4j core 모듈을 활용하여 로깅을 하고 있으나 log4j-.1.2 기반의 라이브러리를 활용하여 log4j 를 사용하고 있어서, 이번 취약점을 활용한 공격의 대상은 아닙니다.&lt;/p&gt;
+
+&lt;p&gt;다만, 영향을 받을 수 있는 경우에는 확인 후 조치를 취하시는 것을 권장 드립니다.&lt;/p&gt;
+
+&lt;p&gt;아래는 아틀라시안에서 최근 발표한 log4j 취약점에 대한 내용이며, 해당 취약점에 대한 아틀라시안의 영향도를 low 등급으로 책정하여 관리하고 있다는 내용을 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;(원문 : &lt;a href=&quot;https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html&quot;&gt;&lt;img src=&quot;https://confluence.atlassian.com/staticassets/4.0.51/dist/common/images/favicon.png&quot; style=&quot;width: 18px; height: 18px;&quot; /&gt;CVE-2021-44228 취약점&lt;/a&gt; )&lt;/p&gt;
+
+&lt;p&gt;관련하여 도움이 필요하실 경우 디무브로 언제든지 문의해주시기 바랍니다.&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="아틀라시안" /><category term="CVE-2021-44228" /><category term="보안취약점" /><category term="Log4j" /><category term="Log" /><category term="log" /><category term="log4j" /><category term="JNDI" /><category term="jndi" /><category term="LDAP" /><category term="ldap" /><category term="JMS" /><summary type="html"></summary></entry><entry><title type="html">보안 담당자가 DevSecOps에 주목해야 하는 이유</title><link href="http://localhost:4000/it%20trend/2021/12/13/Dev-Sec-Ops-with-Atlassian-Data-Center.html" rel="alternate" type="text/html" title="보안 담당자가 DevSecOps에 주목해야 하는 이유" /><published>2021-12-13T00:00:00+09:00</published><updated>2021-12-13T00:00:00+09:00</updated><id>http://localhost:4000/it%20trend/2021/12/13/Dev-Sec-Ops-with-Atlassian-Data-Center</id><content type="html" xml:base="http://localhost:4000/it%20trend/2021/12/13/Dev-Sec-Ops-with-Atlassian-Data-Center.html">&lt;p&gt;&lt;img src=&quot;https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/10/image-20211001-175838.png?w=2240&amp;amp;ssl=1&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요, 디무브입니다!🎈&lt;/p&gt;
+
+&lt;p&gt;사이버 보안은 현대의 정부 기관이 직면한 가장 중요한 문제 중 하나입니다.&lt;/p&gt;
+
+&lt;p&gt;이는 미국 바이든 대통령의 행정 명령에서도 잘 알 수 있는데요.&lt;/p&gt;
+
+&lt;p&gt;Solarwinds, Microsoft, Colonial Pipeline에 대한 사이버 공격으로 등장한 이 행정 명령은 정부 기관과 국가 전체의 보안을 강화하기 위해 설계되었지만 효율성과 보안 사이의 복잡성을 높이는 결과를 가져왔습니다.&lt;/p&gt;
+
+&lt;p&gt;그래서 이번 포스팅에서는 이러한 복잡성을 해결하고 효율성과 보안성을 보다 강화할 수 있는 DevSecOps에 대해 다루고자 합니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;DevSecOps&lt;/strong&gt;란?&lt;/p&gt;
+
+  &lt;p&gt;개발(Development), 보안(Security), 운영(Operation)이 합쳐진 말로 기존의 DevOps에서 보안 프로세스가 결합된 개념입니다. 개발, 보안 및 운영 조직 간 협업을 수행하여 보안 프로세스를 준수하며 소프트웨어 제품을 주기적으로 빠르게 제공하는데 초점을 맞춘 문화이자 엔지니어링 기술을 뜻합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;devsecops로-보안-강화&quot;&gt;&lt;strong&gt;DevSecOps로 보안 강화&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;devops---코드-품질을-높이고-코드를-빠르게-제공합니다&quot;&gt;&lt;strong&gt;DevOps&lt;/strong&gt; - 코드 품질을 높이고 코드를 빠르게 제공합니다.&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.atlassian.com/devops&quot; title=&quot;https://www.atlassian.com/devops&quot;&gt;&lt;strong&gt;DevOps&lt;/strong&gt;&lt;/a&gt;는 소프트웨어 개발팀과 IT 운영팀간의 프로세스를 자동화하고 통합하여 소프트웨어를 빠르고 안정적으로 빌드하고 테스트하여 실제 제품의 릴리즈로 이어지는 방법을 의미합니다. 전세계적으로 많은 기업과 기관은 효율성을 높이기 위해 DevOps 프레임워크를 사용하고 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;secops---보안을-팀의-문화로-만듭니다&quot;&gt;&lt;strong&gt;SecOps - 보안을 팀의 문화로 만듭니다.&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;SecOps는 IT 보안과 운영팀간의 협업을 통해 소프트웨어 수명주기 전반에 걸쳐 보안 요소를 접목하고 강화하는 방법을 말합니다. 일반적으로 보안을 강화하기 위해 정부기관에서 채택하여 사용하고 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;devsecops---효율적이고-안전하게-코드를-제공합니다&quot;&gt;&lt;strong&gt;DevSecOps - 효율적이고 안전하게 코드를 제공합니다.&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;기업은 더이상 사이버 보안에 있어서 개발이나 보안 중 어느 한 가지만 선택해서는 안되며, 두 가지 모두를 다루어야 합니다.&lt;/p&gt;
+
+&lt;p&gt;DevSecOps는 개발과 운영이 합쳐진 DevOps와 보안과 운영이 합쳐진 SecOps의 장점을 통합한 개념입니다. 협업에 중점을 두고 있는 DevSecOps는 코드를 효율적이고 안전하게 전달하는 것을 목표로 하며 보안을 최우선으로 고려합니다.&lt;/p&gt;
+
+&lt;p&gt;좀 더 구체적으로 말하면 DevSecOps는 보안성 검사 및 테스트 과정을 애자일 방법론을 통한 개발 과정 전반에 걸쳐 수행합니다.&lt;/p&gt;
+
+&lt;p&gt;즉 제품의 마지막 단계에서 적용하는 것이 아닌 제품이 만들어지는 과정 전체에 적용하여 제품에 영향을 줄 수 있는 취약점을 조기에 발견하여 시간과 비용을 절약하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;또한 이를 통해 목표를 효율적으로 달성할 수 있는 능력을 향상시킬 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;DevSecOps는 단순한 프로세스가 아니라 사고 방식의 변화가 필요한 문화적 변화이기도 하다는 점을 꼭 명심해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;제품 과정 전반에서 보안성을 확인하는 것은 번거로운 일이 아니라 개발 수명 주기의 일부로 생각해야 하는 사고적 변화가 DevSecOps를 구현하는데 반드시 필요합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;기존의-보안-테스트&quot;&gt;&lt;strong&gt;기존의 보안 테스트&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/10/image-20211001-180308.png?resize=768,167&amp;amp;ssl=1&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;devsecops-보안-테스트&quot;&gt;&lt;strong&gt;DevSecOps 보안 테스트&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/10/image-20211001-180328.png?resize=768,167&amp;amp;ssl=1&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;devsecops-구현의-이점&quot;&gt;&lt;strong&gt;DevSecOps 구현의 이점&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;DevSecOps를 구현하는 모범 사례 중 하나는 모든 구성원이 수행하는 것입니다. 소규모 팀의 레벨에서 구현하는 것이 일반적이지만, 모든 구성원이 DevSecOps를 수행하면 다음과 같은 이점을 얻을 수 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;업무 달성률 향상&lt;/strong&gt; : &lt;a href=&quot;https://www.atlassian.com/blog/enterprise/build-a-strategy-for-scale-in-a-high-security-environment&quot; title=&quot;https://www.atlassian.com/blog/enterprise/build-a-strategy-for-scale-in-a-high-security-environment&quot;&gt;&lt;strong&gt;대규모 DevSecOps&lt;/strong&gt;&lt;/a&gt;를 사용하면 기존의 폭포수 방식과 달리 가치를 신속하게 제공하는 데 집중함으로써 팀이 업무 변화에 빠르게 대처할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;규모에 맞는 효율성 향상&lt;/strong&gt; : DevSecOps를 통해 소프트웨어를 빠르고 더 좋게 만들 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;보안성 개선&lt;/strong&gt; : DevSecOps는 조직 전반에 걸쳐 지속적인 보안을 제공하여 품질을 높이고 리더십 평가를 위한 기준을 제공할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;사일로를 방지&lt;/strong&gt; :  조직 전반에 걸쳐 DevOps를 사용하면 숨겨진 보안 위험성 및 사일로를 없앨 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;atlassian-data-center가-필요한-이유&quot;&gt;&lt;strong&gt;Atlassian Data Center가 필요한 이유&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;이러한 DevSecOps를 규모에 맞게 구현하려면 보안을 유지하면서 혁신을 가속화할 수 있는 도구가 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;일반적으로 DevSecOps를 도입하면 사용량 및 트래픽이 증가합니다.&lt;/p&gt;
+
+&lt;p&gt;이는 성능 저하 또는 운영 중단의 사태를 겪을 수 있다는 것을 의미하며 Atlassian의 Data Center와 같은 고가용성 도구가 필요하다는 것을 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian의 Data Center에는 고가용성 및 확장성 외에도 클러스터링, &lt;a href=&quot;https://www.atlassian.com/enterprise/data-center/data-center-video-library&quot; title=&quot;https://www.atlassian.com/enterprise/data-center/data-center-video-library&quot;&gt;&lt;strong&gt;제로 다운타임 업그레이드, 롤링 업그레이드&lt;/strong&gt;&lt;/a&gt; 등 DevSecOps를 시작하고 개선하는 데 도움이 되는 다양한 기능이 내장되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;사일로를 해체하고 팀을 통합하여 최종 목표를 보다 효과적으로 달성하는 데 도움이 되는 DevSecOps와 같은 최신 프레임워크를 구현하는 방법에 대해 아래의 문서에서 보다 자세히 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.atlassian.com/enterprise/data-center/bridging-the-gap&quot; title=&quot;https://www.atlassian.com/enterprise/data-center/bridging-the-gap&quot;&gt;&lt;strong&gt;Data Center 백서 다운로드&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;지금까지 DevSecOps란 무엇이며 왜 주목해야 하는지, 그리고 아틀라시안의 Data Center가 DevSecOps 구현에 왜 필요한지 알아보았습니다.&lt;/p&gt;
+
+&lt;p&gt;DevSecOps를 구현하기 위한 Jira, Confluence, Bitbucket, Bamboo와 같은 Atlassian Data Center 및 Cloud 제품들에 관해 보다 자세한 내용이 궁금하시다면 디무브에게 문의해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="IT Trend" /><category term="Atlassian" /><category term="아틀라시안" /><category term="DevOos" /><category term="DevSecOps" /><category term="아틀라시안 데이터센터" /><category term="Data Center" /><category term="데브옵스" /><category term="데브섹옵스" /><category term="SecOps" /><category term="디무브" /><category term="Dmove" /><summary type="html"></summary></entry><entry><title type="html">2021년 12월 디무브 웨비나 안내 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제</title><link href="http://localhost:4000/news%20and%20events/2021/12/06/Atlassian-Okta-ID-and-Access-Management-Webinar.html" rel="alternate" type="text/html" title="2021년 12월 디무브 웨비나 안내 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제" /><published>2021-12-06T00:00:00+09:00</published><updated>2021-12-06T00:00:00+09:00</updated><id>http://localhost:4000/news%20and%20events/2021/12/06/Atlassian-Okta-ID-and-Access-Management-Webinar</id><content type="html" xml:base="http://localhost:4000/news%20and%20events/2021/12/06/Atlassian-Okta-ID-and-Access-Management-Webinar.html">&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar Title Banner.png&quot; alt=&quot;Banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요. 디무브 입니다. 🎈&lt;/p&gt;
+
+&lt;p&gt;디무브에서 Atlassian 및 Okta 솔루션을 통한 클라우드 ID 관리를 주제로 웨비나를 진행합니다.&lt;/p&gt;
+
+&lt;p&gt;많은 참여 부탁 드립니다!&lt;/p&gt;
+
+&lt;div class=&quot;btn_main_more mt40 mb_t_c&quot; style=&quot;margin-left: 45px;&quot;&gt;
+      &lt;a href=&quot;https://talkit.tv/Event/2730&quot; style=&quot;background-color: #0711A1; color:white;&quot;&gt;사전등록 하러가기&lt;/a&gt;
+		    &lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;디무브-웨비나-안내&quot;&gt;디무브 웨비나 안내&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;주제: 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;날짜: 2021년 12월 14일&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;시간: 오후4시 ~ 오후5시&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;장소: 온라인세미나&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;많은 기업들이 클라우드로의 여정을 시작하고 새로운 기술과 플랫폼이 지속적으로 확산됨에 따라, SaaS와 온프레미스 앱 모두에 대한 ID 및 액세스 관리는 보안의 핵심 요소가 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;따라서 IT관리자는 적합한 사람들이 적절한 리소스에 대해 알맞은 권한을 갖고 접근할 수 있도록하기 위해서 모든 정보를 파악하기 위한 방법이 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;그리고 조직의 디지털 혁신을 효과적으로 추진하기 위해서는 안전하고 유연한 ID 관리 솔루션이 필수적 입니다.&lt;/p&gt;
+
+&lt;p&gt;본 웨비나에서는 Atlassian의 클라우드 ID 및 보안 환경을 명확하게 이해하고 보안을 강화할 수 있는 방법과 Okta의 IAM 솔루션을 통해 사용자 관리를 위한 프로세스를 강화할 수 있는 핵심 전략을 소개합니다.&lt;/p&gt;
+
+&lt;p&gt;회사 데이터의 안전과 보안을 유지하면서, Atlassian 뿐만 아니라 모든 클라우드 앱의 잠재력을 최대한 활용하는 방법을 얻어가세요!&lt;/p&gt;
+
+&lt;h2 id=&quot;아젠다&quot;&gt;아젠다&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;시간&lt;/th&gt;
+      &lt;th&gt;주제&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16:00 ~ 16:15&lt;/td&gt;
+      &lt;td&gt;**Cloud 환경에서의 Identity &amp;amp; Access 관리** &lt;br /&gt; - 조직의 보안을 위해 ID 및 액세스 관리가 중요한 이유 &lt;br /&gt; - Zero Trust 보안 모델&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16:15 ~ 16:35&lt;/td&gt;
+      &lt;td&gt;**보안 강화를 위한 클라우드 ID 공급자의 역할** &lt;br /&gt; - 아이덴티티의 역할과 중요성 &lt;br /&gt; - Okta 솔루션 데모&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16:35 ~ 16:55&lt;/td&gt;
+      &lt;td&gt;**Atlassian 클라우드 제품의 연결과 확장** &lt;br /&gt; - Atlassian Access를 통한 ID 관리 &lt;br /&gt; - Access+Okta Integration 데모&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16:55 ~ 17:00&lt;/td&gt;
+      &lt;td&gt;**Q&amp;amp;A** &lt;br /&gt; - 질의응답&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;발표자&quot;&gt;발표자&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/Speaker.png&quot; alt=&quot;Speaker&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;참여-이벤트&quot;&gt;참여 이벤트&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://talkit.tv/userfiles/images/file1637936180908.jpg&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;btn_main_more mt40 mb_t_c&quot; style=&quot;margin-left: 45px;&quot;&gt;
+      &lt;a href=&quot;https://talkit.tv/Event/2730&quot; style=&quot;background-color: #0711A1; color:white;&quot;&gt;사전등록 하러가기&lt;/a&gt;
+		    &lt;/div&gt;
+&lt;p&gt;​&lt;/p&gt;</content><author><name>Dmove</name></author><category term="News and Events" /><category term="Atlassian" /><category term="아틀라시안" /><category term="Okta" /><category term="옥타" /><category term="토크아이티" /><category term="아틀라시안웨비나" /><category term="옥타웨비나" /><category term="IAM" /><category term="Identity Management" /><category term="Access Management" /><category term="Cloud" /><category term="Zero Trust" /><category term="제로트러스트" /><category term="계정관리" /><category term="클라우드 연동" /><summary type="html"></summary></entry><entry><title type="html">Zabbix Case Study - Harp 구축 사례</title><link href="http://localhost:4000/zabbix/2021/11/26/Zabbix-Case-Study-Harp-Japan.html" rel="alternate" type="text/html" title="Zabbix Case Study - Harp 구축 사례" /><published>2021-11-26T00:00:00+09:00</published><updated>2021-11-26T00:00:00+09:00</updated><id>http://localhost:4000/zabbix/2021/11/26/Zabbix-Case-Study-Harp-Japan</id><content type="html" xml:base="http://localhost:4000/zabbix/2021/11/26/Zabbix-Case-Study-Harp-Japan.html">&lt;style type=&quot;text/css&quot;&gt;
+    th, td {
+  vertical-align : top;
+}
+&lt;/style&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.zabbix.com/wp-content/uploads/2020/03/featured_image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
+
+&lt;p&gt;이번 시간에는 일본의 대표적인 클라우드 서비스 전문 기관인 Harp사의 Zabbix 도입에 대한 Case Study를 설명해드리려고 합니다. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Harp 회사는 이미 2010년 부터 Zabbix 2.0 버전을 도입하여 사용해왔고, 최근 최신 버전의 Zabbix 버전으로 업그레이드 하였습니다. 어떻게 그들이 Zabbix를 도입하여 발전하게 되었고, 오랜 기간동안 Zabbix를 사용할 수 있었던 핵심 적인 이유는 무엇이 있는지 확인해 보겠습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-서버-구성&quot;&gt;1. 서버 구성&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;시스템 구성&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Zabbix 서버 하드웨어**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Zabbix 서버 갯수 : 2대 &lt;br /&gt; Zabbix 프록시 갯수 : 10개 &lt;br /&gt;모니터링 되는 장치 수 : 1,000개 &lt;br /&gt;사이트 갯수 : 1개&lt;br /&gt;트리거 수 : 7,000개 &lt;br /&gt;이중화 구성 : 액티브 - 액티브 구성&lt;br /&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;VM 머신 (4Core CPU, 16GB 메모리, 3.5TB 디스크) &lt;br /&gt;NVPS : 240&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/Case%20Study/Harp/Infrastructure.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-도입-simulation&quot;&gt;2. 도입 Simulation&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Before&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Approach&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Outcome&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;＊ 서비스와 모니터링 인프라를 통합하여 운영적인 부하의 감소와  통합 모니터링 실현&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;＊ 비용 축소 &lt;br /&gt;＊ 넓은 범위의 운영 시스템과 네트워크 장치 모니터링 &lt;br /&gt;* 고객의 요구, 모니터링 타겟 및 리소스 확장을 충족할 수 잇는 모니터링 솔루션&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;＊ 다양한 플랫폼들이 모니터링이 되어야함. &lt;br /&gt;＊ 모든 기능들은 자유롭고 활용이 가능하여 사용자의 요구를 쉽게 반영할 수 있어야함.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;＊ 각 서비스를 위한 단계별 모니터링 구현 &lt;br /&gt;＊ 모니터링 시스템을 선정해 설치작업 생략&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;구축-사례&quot;&gt;구축 사례&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-광범위한-모니터링과-인프라-통합을-위한-오픈소스-솔루션인-zabbix-도입&quot;&gt;1. 광범위한 모니터링과 인프라 통합을 위한 오픈소스 솔루션인 Zabbix 도입&lt;/h3&gt;
+
+&lt;p&gt;초창기의 Harp사는 서비스에 대한 기반을 각각 구축하였고, 이에 따른 모니터링 시스템의 운영 책임자도 매번 달랐습니다. 제공하는 서비스가 적었기 때문에, 직원들은 매일 아침 모니터링 화면을 육안으로 확인했으며, 문제 발생 시 그들 스스로 대응하는 방식으로 모니터링을 진행했습니다. 하지만 점차 제공하는 서비스가 늘어났고, 이에 따른 인프라를 하나로 통합한 중앙 집중식 모니터링을 구현하여 운영 부하를 줄여야 할 필요성을 느꼈습니다.
+ &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;또한 담당자의 필요에 따라 MRTG, Cacti 등 오픈소스 소프트웨어 도구를 설치하였기 때문에, IaaS에서 SaaS까지, 서비스 프로비전의 여러 계층을 포함한 것과 동시에 여러 확장 서비스에 대한 교차 기능적이고 포괄적인 모니터링 솔루션을 고려해야 했습니다. 이에 그들은 오픈 소스 솔루션으로서, 비용을 절감할 수 있을 뿐만 아니라 여러 장치들을 모니터링할 수 있는 Zabbix를 도입하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Zabbix는 에이전트를 설치하지 않고도 리눅스, 윈도우, 유닉스 등 광범위한 운영체제에서 서버를 모니터링할 수 있었으며, 쉽게 사용할 수 있었기 때문에, 인터넷과 커뮤니티만 이용하여 모니터링을 수행할 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-끊임없이-확장되는-서비스의-미래에-초점을-맞춘-최신화된-zabbix로-마이그레이션&quot;&gt;2. 끊임없이 확장되는 서비스의 미래에 초점을 맞춘 최신화된 Zabbix로 마이그레이션&lt;/h3&gt;
+
+&lt;p&gt;2010년에 Harp사는 여러 서비스의 인프라를 하나로 통합하고 Zabbix 2.0을 도입하여 서비스 모니터링을 중앙 집중화 하였습니다. 오픈소스 솔루션을 도입함으로서, Harp 사는 라이센스와 같은 비용을 줄이고 특정 벤더에 묶이지 않는 메커니즘을 만들 수 있었으며 지자체 시스템에 요구되는 공공성을 확보할 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;그 외에 과거 Harp사는 모니터링 서비스 수준에 따라 일부 서비스를 사내 자체적인 도구로 보는 편차도 있었고, 상업용 모니터링 툴을 한꺼번에 세트로 서비스를 설치하여 여러 문제가 있었으나 Zabbix를 도입하면서 한 개의 단순한 도구로 모든 것을 쉽게 관리할 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;하지만 시간에 지남에 따라 가상화 기술이 확산되기 시작하고, 고객의 요구에 따른 서비스가 더욱 확장되었습니다. 관리해야할 서비스와 가상 머신의 수가 증가함에 따라  Harp사는 초기 리소스 설계에서 용량 한계에 도달할 것이라 판단하였습니다.  서비스별 장애현황을 시각화하고 퍼블릭 클라우드 모니터링 서비스의 구현 등 운영적인 설계에 문제를 해결하기 위해 모니터링 서비스인 Zabbix를 새로운 버전으로 재구축하기로 결정했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Harp사는 PostgreSQL의 TimeScale DB 기능이 이전 Zabbix에서 사용해왔던 MySQL보다 더 효과적일 것이라 생각했기 때문에, 2020년 12월에 PostgreSQL의 TimeScale DB와 함께 새로운 Zabbix로 마이그레이션을 진행하여 새로운 모니터링 시스템 운영을 시작했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;새롭게 구성된 모니터링 시스템은 2개의 Zabbix 서버와 10개의 Zabbix 프록시로 구성되며 약 1,000개의 장치를 모니터링 합니다. 모니터링에 구성된 트리거는 7,000개 이며, 구성된 아이템 수는 약 3만개로 구성되었습니다. 이로 인해 모니터링 규모가 이전보다 약 2/3정도로 축소되었다고 Harp사는 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;또한 적절한 필터를 충분히 적용하지 못하고 원하지 않는 아이템도 자동으로 수집되는 문제 역시 Zabbix를 업데이트 하면서 해결하여 현재 가동하고 있는 성능의 10배의 규모로 서비스를 확장해도 모니터링 성능을 유지할 수 있을 것이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-장기적인-사용의-핵심-포인트--작은-디테일-영역을-안정적으로-고정&quot;&gt;3. 장기적인 사용의 핵심 포인트 : 작은 디테일 영역을 안정적으로 고정&lt;/h3&gt;
+
+&lt;p&gt;최신화된 Zabbix 버전으로 마이그레이션 하면서, Harp사는 또한 Zabbix 엔터프라이즈의 지원을 도입하였습니다. 10년동안 Zabbix를 사용했던 Harp사의 IT 인프라 담당자인 Sotozaki씨는 Zabbix에 대해 다음과 같이 언급하였습니다.  &lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;작은 규모로 서비스를 시작하는 동안에는 커뮤니티 정보를 참고하면서 앞으로 나아갈 수 있지만, 규모가 커질수록 세심하게 운영에 집중해도 파악하지 못하는 부분이 있을 것입니다. Zabbix의 장점은 오퍼레이터가 세밀하게 골치 아픈 부분을 안정적으로 고치게 할 수 있었습니다.&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;업그레이드 된 Zabbix는 태그 기능이 상당히 좋아졌을 뿐만아니라 버전이 업그레이드 될 때마다 더 많은 기능이 추가되고 디테일하게 개선되고 있다고 느끼고 있습니다. 처음에는 사용하기 어려워 보여도 조금만 감수하면 금방 적응할 수 있습니다. 그것이 저희가 Zabbix를 오랫동안 계속 사용하게 된 이유입니다.“&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Harp사는 자체 플랫폼에서 제공되는 서비스를 모니터링하는데 Zabbix를 활용하는 것 이외에도 지방 정부에 운영 모니터링 서비스를 제공하는 것을 고려하고 있다고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;또한 사이버 공격의 심각성에 비춰 총무성(일본의 행정기관)과 지자체에서 요구되는 보안 수준이 높아졌기 때문에 Zabbix를 활용하여 의심되는 서비스가 있는지, 사이버 공격의 심각성 등을 확인할 수 있었다고 덭붙여 설명했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;앞으로 Harp사는 신종 코로나 바이러스의 영향과 지자체 운영이 전자화 되는 등 디지털화가 가속되고 있는 만큼, 지속적으로 Zabbix를 최대한 활용하여 안정적인 서비스를 제공할 계획입니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;위 케이스 스터디와 같이, Zabbix는 여러 복잡한 모니터링을 사용할 필요 없이 인프라에 최적화 되어 하나의 툴로 인프라를 통합 관리할 수 있으며 타 솔루션에 비해 구성이 쉽고 빠르게 구축할 수 있다는 장점을 갖고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;오픈 소스 솔루션이라는 이유로 많은 고객 분들이 일체의 비용 없이 사용할 수 있기를 바라지만, 효과적인 구축과 활용을 위해서는 전문가의 도움을 통한 진단과 기술 지원이 필수적입니다.&lt;/p&gt;
+
+&lt;p&gt;디무브는 Zabbix의 공식 한국 파트너사로, Zabbix 모니터링 솔루션 구축과 관련된 모든 전문 기술 서비스를 제공해 드립니다.&lt;/p&gt;
+
+&lt;p&gt;Zabbix 모니터링 솔루션에 대해 궁금하신 사항이 있으시다면, 디무브에게 연락해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Zabbix" /><category term="Dmove" /><category term="Zabbix" /><category term="자빅스" /><category term="모니터링솔루션" /><category term="모니터링툴" /><category term="자빅스 구축" /><category term="Case Study" /><category term="Harp" /><category term="Zabbix" /><summary type="html"></summary></entry><entry><title type="html">아틀라시안 클라우드 제품의 변경 관리를 위한 4가지 방법</title><link href="http://localhost:4000/atlassian%20solutions/2021/11/15/Manage-Change-in-Atlassian-Cloud.html" rel="alternate" type="text/html" title="아틀라시안 클라우드 제품의 변경 관리를 위한 4가지 방법" /><published>2021-11-15T00:00:00+09:00</published><updated>2021-11-15T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2021/11/15/Manage-Change-in-Atlassian-Cloud</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2021/11/15/Manage-Change-in-Atlassian-Cloud.html">&lt;p&gt;&lt;img src=&quot;https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/download.png?resize=1560,760&amp;amp;ssl=1&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
+
+&lt;p&gt;IT 인프라는 빠르게 변화하고 있으며, 제품 출시 기간은 점점 짧아지고 있습니다. 이러한 상황에서 모든 변화를 통제하는 것은 불가능 하지만, 잘 대비할 수 있도록 준비하고 계획하는 것이 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;이번 포스팅에서는 제품의 업데이트 및 출시로 인한 워크플로우 중단을 방지하는데 도움이 되는 4가지 변경 관리 방법에 대해 다뤄보고자 합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;조직의 관리자는 여러 면에서 선박의 조타수와 같은 역할을 합니다. 조직은 관리자가 가지고 있는 기술적 능력을 기반으로 새로운 기술과 개선 사항들을 제공해 주기를 바랍니다.&lt;/p&gt;
+
+&lt;p&gt;성장하는 조직에서는 제품의 작은 변화로도 조직과 사용자에게 큰 영향을 줄 수 있습니다. 만약 사용하고 있는 제품의 업데이트 내용에 대해 준비되지 않은 상태에서 이용할 경우 조직은 운영 지연 또는 중단을 경험할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian은 Atlassian 플랫폼 전반에 걸쳐 제품 경험을 개선하고 제품의 기능을 확장하기 위해 클라우드 기능을 지속적으로 변경하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian의 관리자는 여러 대륙에 퍼져있는 수백 개의 팀들과 협업하고 있기 때문에 조직 내에서 변경된 제품을 사용하기 위해 변경 관리를 위한 계획을 준비하는 것이 필요하다는 것을 잘 알고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 이유로 Atlassian은 관리자가 클라우드 플랫폼의 변경 사항을 쉽게 관리하는 것을 돕기 위해 노력하고 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;대규모-변경-관리를-위한-atlassian의-철학&quot;&gt;&lt;strong&gt;대규모 변경 관리를 위한 Atlassian의 철학&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Atlassian은 관리자의 요구에 따라 제품 변경 사항을 배포하기 위한 프레임워크를 만들었습니다.&lt;/p&gt;
+
+&lt;p&gt;이 프레임워크는 변경 사항을 파악하고, 준비하는 데 필요한 도구와 시간을 제공하여 이를 통해 제품의 변경된 내용을 적용하는 방법과 시기를 조절할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;변경 사항을 관리하는 첫 번째 단계는 다가올 변경 사항을 미리 파악하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;즉 프로젝트, 워크플로우 및 팀에게 영향을 줄 수 있는 잠재적 요소들을 미리 파악하여 변경하는 이유와 , 변경 사항이 영향을 미칠 제품 및 기능, 그리고 변경 예상 시간에 대해서도 자세히 설명하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;두 번째 단계는 다가올 변화에 대비하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;변경 사항을 사전에 테스트하고, 변경 사항이 제품에 어떤 영향을 미치는지 파악하여 새로운 기능과 변경된 내용이 팀의 기존 워크플로우와 어떻게 상호작용하는 지 파악할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;마지막으로 Atlassian은 제품의 변경이 필요한 경우에도 일정 수준의 제어가 필요한 것을 이해하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 이유로 Atlassian은 제품에 대한 변경 사항의 릴리즈 빈도를 제어할 수 있는 옵션을 제공하여 사용자가 앞으로의 변화에 대비하고 사용자를 교육하는데 필요한 유연성을 제공합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;atlassian-cloud의-변경-사항을-관리하는-데-도움이-되는-4가지-팁&quot;&gt;&lt;strong&gt;Atlassian Cloud의 변경 사항을 관리하는 데 도움이 되는 4가지 팁&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;효과적인 변경 관리를 위한 4가지 핵심 팁을 통해 관리자는 변경 내용에 대해 쉽게 알림을 받고 준비할 수 있으며 Atlassian의 클라우드 제품에 대한 변경 사항들을 지속적으로 제어할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-atlassian의-공식-클라우드-로드맵을-확인하기&quot;&gt;&lt;strong&gt;1. Atlassian의 공식 클라우드 로드맵을 확인하기&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Atlassian은 제품 변경 사항을 고객에게 공개하고 있으며 변경 사항을 사전에 공지하기 위해 노력하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이와 같이 &lt;a href=&quot;https://www.atlassian.com/roadmap/cloud&quot; title=&quot;https://www.atlassian.com/roadmap/cloud&quot;&gt;&lt;strong&gt;클라우드 로드맵&lt;/strong&gt;&lt;/a&gt;  에는 Atlassian 클라우드 플랫폼과 해당 제품의 계획된 모든 변경 사항이 자세히 나와 있습니다.&lt;/p&gt;
+
+&lt;p&gt;분기 별로 업데이트되는 Atlassian 클라우드 로드맵에는 현재 및 미래의 클라우드 기능 및 업데이트에 대해 자세히 설명되어 있으므로 관리자는 다음에 어떠한 기능이 출시될 지 미리 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;클라우드 로드맵을 탐색하려면 위 링크에 접속하신 후 좌측 필터 메뉴에서 제품, 로드맵 업데이트 또는 카테고리를 클릭하여 필터를 적용하고 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;각 업데이트 정보에는 아래의 내용을 비롯한 간단한 설명이 포함되어 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;변경 사항의 영향을 받는 Atlassian Cloud 제품&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;연도 및 분기 별로 출시될 변경 사항&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;구성 및 기능 동작 방식에 대한 간략한 설명&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/2atlcloud.png?resize=768,391&amp;amp;ssl=1&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Atlassian 클라우드 플랫폼 전반에 걸쳐 어떤 변화가 올지 궁금하다면 &lt;strong&gt;클라우드 플랫폼(Cloud Platform)&lt;/strong&gt;을 클릭하여 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;클라우드 플랫폼에 제공되는 업데이트는 사용하고 있는 하나 이상의 제품에 영향을 줄 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;근시일 내 또는 앞으로 다가올 변화에 대해 자세히 알고 싶으시다면 페이지 상단의 상태 필터를 전환하여 현재 분기(“Coming soon”) 내에, 다음 연도(“In the works”) 내에 또는 이후(“Future”)를 선택하여 어떤 기능이 출시될 지 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-atlassian-주간-릴리즈-정보-구독&quot;&gt;&lt;strong&gt;2. Atlassian 주간 릴리즈 정보 구독&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Atlassian 클라우드 변경 사항에 대한 업데이트를 더 자주 받고 싶은 분들은 &lt;a href=&quot;https://confluence.atlassian.com/cloud/blog#&quot; title=&quot;https://confluence.atlassian.com/cloud/blog#&quot;&gt;&lt;strong&gt;클라우드 릴리즈 블로그&lt;/strong&gt;&lt;/a&gt; 를 구독하시길 추천합니다.&lt;/p&gt;
+
+&lt;p&gt;매주 Atlassian팀은 Atlassian 클라우드 플랫폼, Jira Software, Jira Service Management, Jira Work Management, Confluence 및 Bitbucket에 대한 변경 사항을 블로그에 업데이트합니다.&lt;/p&gt;
+
+&lt;p&gt;각 블로그 게시물에서는 아래의 내용이 포함되어 있으며 최근 및 향후 변경 사항에 대한 정보를 제품 별로 찾을 수 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;변경 사항에 대한 간략한 설명&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;변경 사항이 영향을 미칠 제품 목록&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;제품 내에서 변경 사항을 확인할 수 있는 위치&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/4e3a9066-6858-4d48-9b33-c3f177a1c2f6.png?resize=768,557&amp;amp;ssl=1&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://confluence.atlassian.com/cloud/blog#&quot; title=&quot;https://confluence.atlassian.com/cloud/blog#&quot;&gt;&lt;strong&gt;클라우드 릴리스 블로그&lt;/strong&gt;&lt;/a&gt; 의 오른쪽 상단 모서리에 있는 “&lt;strong&gt;보기(Watch)&lt;/strong&gt;“를 클릭하면 블로그를 구독하실 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-샌드박스를-활용한-사전-테스트&quot;&gt;&lt;strong&gt;3. 샌드박스를 활용한 사전 테스트&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;앞의 두 가지 방법을 통해 Atlassian 클라우드 제품의 변경 사항을 확인하였다면, 변경 사항에 대한 대비를 미리 준비해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;클라우드 프리미엄 및 클라우드 엔터프라이즈 플랜을 이용 중인 고객은 샌드박스 및 릴리스 트랙 기능을 이용하여 예정된 변경 사항을 준비할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/&quot; title=&quot;https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/&quot;&gt;&lt;strong&gt;Atlassian의 샌드박스&lt;/strong&gt;&lt;/a&gt;는 클라우드에 변경될 사항이 제품에 출시되기 전 테스트할 수 있도록 지원합니다.&lt;/p&gt;
+
+&lt;p&gt;샌드박스는 제품과 동일한 환경과 기능을 제공하며, 보유하고 있는 프리미엄 또는 엔터프라이즈 제품 환경(Jira Software, Jira Service Management 및 Confluence 포함) 당 하나의 샌드박스를 생성할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;샌드박스를 생성하기 위해서는 조직의 &lt;strong&gt;관리&lt;/strong&gt; 개요로 이동하여 &lt;strong&gt;제품 &amp;gt; 샌드박스로&lt;/strong&gt; 이동한  다음 &lt;strong&gt;샌드박스 만들기를&lt;/strong&gt; 선택 합니다.&lt;/p&gt;
+
+&lt;p&gt;여기에서 샌드박스를 만들 제품을 선택하면 준비가 완료되었을때 알림이 오고, 샌드박스 내에서 제품 환경과 동일한 방식으로 변경할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;샌드박스 환경을 현재 사용하고 있는 제품 환경과 동일하게 구성하려면 Jira Software, Jira Service Management 또는 Confluence 의 데이터를 &lt;a href=&quot;https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/#Managesandboxes-Copydatatoasandbox&quot; title=&quot;https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/#Managesandboxes-Copydatatoasandbox&quot;&gt;샌드 박스로 복사하면 됩니다.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/b6c8f672-d111-406a-9644-dd17613e8139.png?resize=768,217&amp;amp;ssl=1&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;기존 제품 환경과 동일한 구성의 샌드박스가 준비가 되었으면 샌드박스 내에서 제품 변경 사항을 테스트할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;관리 개요 내에서 제품 업데이트가 샌드박스에 릴리스되는 시기와 방법을 제어하는 ​​&lt;a href=&quot;https://support.atlassian.com/organization-administration/docs/manage-product-release-tracks/#Managereleasetracks-Usesandboxesandreleasetrackstogether&quot; title=&quot;https://support.atlassian.com/organization-administration/docs/manage-product-release-tracks/#Managereleasetracks-Usesandboxesandreleasetrackstogether&quot;&gt;릴리즈 트랙 미리보기&lt;/a&gt;에 샌드박스를 배치하여 업데이트 기능을 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;시작하려면 &lt;strong&gt;제품 &amp;gt; 릴리즈 트랙 &amp;gt; 트랙 변경&lt;/strong&gt;으로 이동합니다. 여기서 샌드박스에 대한 &lt;strong&gt;미리보기&lt;/strong&gt; 트랙을 선택합니다 .&lt;/p&gt;
+
+&lt;p&gt;미리 보기 트랙을 활성화하면 변경 예정인 사항들이 릴리즈 2주 전에 샌드박스에 릴리즈 되고 업데이트 내용을 체험하고 테스트 해볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이렇게 하면 새로운 변경 사항을 확인하고, 필요에 따라 조정하고, 변경 사항이 워크플로에 어떤 영향을 미칠 수 있는 지를 사용자에게 알리고 교육할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;사용자를 위한 교육용 비디오를 만들거나 튜토리얼을 작성해야 하는 경우 동일한 변경 사항이 사용자에게 공개되기까지 한 달이 걸립니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-번들-트랙에-제품-사이트-배치&quot;&gt;&lt;strong&gt;4. 번들 트랙에 제품 사이트 배치&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;관리자는 제품 환경의 릴리스 트랙을 설정하여 조직의 변화 속도를 제어할 수도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;샌드박스와 동일하게 실제 제품 환경에서도 릴리스 트랙을 설정하여 업데이트 시기를 관리할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;제품 환경에 대한 릴리스 트랙을 선택할 때 &lt;strong&gt;연속 릴리스 트랙&lt;/strong&gt; (제품 변경 사항이 제공되는 즉시 제품 환경에 릴리스됨) 또는 &lt;strong&gt;번들 트랙&lt;/strong&gt; (월 단위로 제품 변경 사항이 함께 번들로 제공되고 릴리스됨) 중에서 선택할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;제품 릴리스에 번들 트랙을 채택하면 변경 사항을 관리하는 데 도움이 됩니다.&lt;/p&gt;
+
+&lt;p&gt;이를 통해 사용자가 새로운 기능을 사용할 시기를 제어할 수 있으므로 변경 사항으로 인해 워크플로 또는 프로젝트가 중단될 가능성을 줄일 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;제품 샌드박스의 미리 보기 트랙과 함께 사용하면 제품 변경 사항에 대해 미리 팀을 교육할 수 있으며 언제 어떤 업데이트가 출시될 것인지 팀과 사용자에게 정확히 알릴 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;이처럼 Atlassian은 플랫폼과 제품을 지속적으로 개선하는 데 투자하고 있으며 고객과 협력하기 위해 최선을 다하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian이 지원하는 변경 관리를 통해 Atlassian 클라우드 플랫폼을 보다 효과적으로 활용하시기 바랍니다.&lt;/p&gt;
+
+&lt;p&gt;추가적으로 아틀라시안 클라우드 제품에 대해 자세히 알고 싶으시다면 저희 디무브를 찾아주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="아틀라시안" /><category term="Jira" /><category term="Confluence" /><category term="변경관리" /><category term="Change Management" /><category term="Atlassian Cloud" /><category term="디무브" /><category term="아틀라시안 릴리즈 노트" /><summary type="html"></summary></entry><entry><title type="html">CVE-2021-42574 보안 취약점 관련 Atlassian 제품 업그레이드 권장 안내</title><link href="http://localhost:4000/atlassian%20solutions/2021/11/09/CVE-2021-42574-Atlassian-Products.html" rel="alternate" type="text/html" title="CVE-2021-42574 보안 취약점 관련 Atlassian 제품 업그레이드 권장 안내" /><published>2021-11-09T00:00:00+09:00</published><updated>2021-11-09T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2021/11/09/CVE-2021-42574-Atlassian-Products</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2021/11/09/CVE-2021-42574-Atlassian-Products.html">&lt;p&gt;&lt;img src=&quot;/assets/images/blog/notice_1.png&quot; alt=&quot;Banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
+
+&lt;p&gt;유니코드(Unicode) 시스템과 관련하여 악의적인 목적인 소스코드를 주입할 수 있는 취약점인 CVE-2021-42574이 아틀라시안의 여러 제품에 영향을 줄 수 있음이 확인되었습니다.&lt;/p&gt;
+
+&lt;p&gt;해당 취약점은 유니코드의 자체 제어 장치에 악성 코드를 심는 트로얀 소스를 삽입하는 공격 기법으로 적용 시 사람의 눈과 코드 편집기, 컴파일러를 모두 피해 악성 코드를 적용할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;유니코드는 거의 모든 시스템에서 ‘복사 및 붙여넣기’ 기능을 통해서도 간편하게 옮겨집니다.&lt;/p&gt;
+
+&lt;p&gt;특히 깃허브 등을 통해 공유되는 코드들은 ‘복사 및 붙여넣기’를 통해 코드의 정상적인 부분을 실행했을 뿐인데 자기도 모르게 악성 코드까지 심을 수 있는 위험이 있습니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;트로얀 소스 공격은 C, C++, C#, JavaScript, Java, Rust, Go, Python 언어 등 많은 프로그래밍 언어에서 코멘트와 문자열 안에 악의적 목적을 가진 유니코드 소스코드를 삽입함으로써 실제 소스코드의 로직을 변경하지 않으면서도 독자적인 멀웨어를 설치할 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;즉, 사람들의 눈에도 띄지 않고 컴파일러도 속일 수 있으며, 심지어 보안 솔루션들의 방어 기법도 높은 확률로 방어를 피해 갈 수 있는 공격 기법입니다.&lt;/p&gt;
+
+&lt;p&gt;다행히 아직까지 트로얀 소스를 삽입하여 공격하는 시도는 발견되지 않았으며 아틀라시안에서는 이 문제를 해결하기 위해 코드 편집기와 컴파일러를 패치하여 문제가 발생하지 않도록 조취를 취하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;따라서 아직 보안 패치가 완료되지 않은 제품에 대해 해당 제품을 사용하시는 고객 분들께서는 긴급 패치 작업이 필요합니다. 
+아틀라시안 관리자 및 보안 담당자께서는 사용 중이신 아틀라시안 제품의 서버 및 데이터센터의 버전을 확인 하신 후 업그레이드 작업을 통해 해당 취약점으로부터의 공격에 대응하시길 권장 드립니다.&lt;/p&gt;
+
+&lt;p&gt;취약점의 영향을 받는 제품과 문제를 수정한 버전은 하단의 표를 참고해주세요.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;cve-2021-42574-취약점의-영향을-받는-제품-및-버전&quot;&gt;CVE-2021-42574 취약점의 영향을 받는 제품 및 버전&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;**제품**&lt;/th&gt;
+      &lt;th&gt;**버전**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Confluence Server 및 Data Center&lt;/td&gt;
+      &lt;td&gt;7.4.13 미만의 전체 버전 &lt;br /&gt; 7.5.0 ~ 7.12.5 까지의 버전 &lt;br /&gt; 7.13.2 미만의 전체 LTS 버전 &lt;br /&gt; 7.14.0 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Jira Software Server 및 Data Center&lt;/td&gt;
+      &lt;td&gt;8.13.13 미만의 전체 버전 &lt;br /&gt; 8.14.0 ~ 8.19.1 까지의 버전 &lt;br /&gt; 8.20.1 미만의 전체 LTS 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Jira Service Management Server and Data Center&lt;/td&gt;
+      &lt;td&gt;4.13.13 아래의 전체 버전 &lt;br /&gt; 4.14.0 ~ 4.19.1 까지의 버전 &lt;br /&gt;  4.20.0 아래의 전체 LTS 버전 &lt;br /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Insight Asset Management &lt;br /&gt; (Jira Service Management의 애드온)&lt;/td&gt;
+      &lt;td&gt;8.9.4 미만의 전체 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bitbucket Server 및 Data Center 버전&lt;/td&gt;
+      &lt;td&gt;6.10.14 미만의 전체 버전 &lt;br /&gt; 7.0.0 ~ 7.5.2 까지의 버전 &lt;br /&gt; 7.6.10 미만의 7.6.대의 전체 LTS 버전 &lt;br /&gt; 7.7.0 ~ 7.16.1 까지의 버전 &lt;br /&gt; 7.17.1 아래의 전체 LTS 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bamboo Server 및 Data Center&lt;/td&gt;
+      &lt;td&gt;8.0.4 미만의 전체 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Crucible Server&lt;/td&gt;
+      &lt;td&gt;4.8.8 미만의 전체 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fisheye Server&lt;/td&gt;
+      &lt;td&gt;4.8.8 미만의 전체 버전&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;cve-2021-42574-취약점에-대한-패치가-완료된-제품-및-버전&quot;&gt;CVE-2021-42574 취약점에 대한 패치가 완료된 제품 및 버전&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;**제품**&lt;/th&gt;
+      &lt;th&gt;**버전**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Confluence Server 및 Data Center&lt;/td&gt;
+      &lt;td&gt;7.4.13 버전 &lt;br /&gt; 7.13.2 버전 &lt;br /&gt; 7.14.1 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Jira Software Server 및 Data Center&lt;/td&gt;
+      &lt;td&gt;8.13.13 버전 &lt;br /&gt; 8.20.1 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Jira Service Management Server and Data Center&lt;/td&gt;
+      &lt;td&gt;4.13.13 버전 &lt;br /&gt; 4.20.1 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Insight Asset Management &lt;br /&gt; (Jira Service Management의 애드온)&lt;/td&gt;
+      &lt;td&gt;8.9.4 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bitbucket Server 및 Data Center&lt;/td&gt;
+      &lt;td&gt;6.10.14 버전 &lt;br /&gt; 7.6.10 버전 &lt;br /&gt; 7.17.1 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bamboo Server 및 Data Center&lt;/td&gt;
+      &lt;td&gt;8.0.4 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Crucible Server&lt;/td&gt;
+      &lt;td&gt;4.8.8 버전&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fisheye Server&lt;/td&gt;
+      &lt;td&gt;4.8.8 버전&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;버전 업그레이드는 라이선스에 대한 유지 관리를 진행 중이신 고객만 가능하며, 버전 업그레이드 및 취약점 대응과 관련하여 기술지원이 필요하시다면 언제든지 디무브에게 연락 주시기 바랍니다.&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;resource&quot;&gt;Resource&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://confluence.atlassian.com/security/multiple-products-security-advisory-unrendered-unicode-bidirectional-override-characters-cve-2021-42574-1086419475.html&quot;&gt;CVE-2021-42574-Unrendered unicode bidirectional override characters&lt;/a&gt;&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="아틀라시안" /><category term="CVE-2021-42574" /><category term="보안취약점" /><category term="컨플루언스" /><category term="Confluence" /><category term="보안패치" /><category term="트로얀소스" /><category term="유니코드취약점" /><summary type="html"></summary></entry><entry><title type="html">2021 ITSM 가트너 매직쿼드런트 - Atlassian, 유일한 “Visionary”로 선정</title><link href="http://localhost:4000/atlassian%20solutions/2021/10/27/Gartner-Magic-Quadrant-for-ITSM-Atlassian.html" rel="alternate" type="text/html" title="2021 ITSM 가트너 매직쿼드런트 - Atlassian, 유일한 “Visionary”로 선정" /><published>2021-10-27T00:00:00+09:00</published><updated>2021-10-27T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2021/10/27/Gartner-Magic-Quadrant-for-ITSM-Atlassian</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2021/10/27/Gartner-Magic-Quadrant-for-ITSM-Atlassian.html">&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
+
+&lt;p&gt;IT리서치 전문 가트너(Gartner)에서 매년 발행하는 보고서 중 하나인 매직 쿼드런트는 ‘실행 능력(Ability to Execute)’과 ‘비전 완성도(Completeness of Vision)에 따라 해당 기술 분야의 기업을 4사분면(Niche Players, Visionaries, Challengers, Leaders) 형태로 선정하여 공시하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이를 통해 해당 기술 분야의 기업들이 비전을 얼마나 잘 수행하고 있는지, 가트너 시장 전망에 얼마나 잘 부합하는지 파악할 수 있으며, 전세계의 기업 담당자는 해당 분야의 솔루션이나 서비스 도입을 검토할 때 이 보고서를 적극 참고합니다.&lt;/p&gt;
+
+&lt;p&gt;그리고, 올해 발행된 가트너의 2021 ITSM 매직쿼드런트에서 아틀라시안이 유일한 “Visionary” 로 선정되었습니다!&lt;/p&gt;
+
+&lt;p&gt;이는 아틀라시안 Jira Service Management의 접근방식과 가치를 객관적인 조사를 통해 인정받은 것인데요.&lt;/p&gt;
+
+&lt;p&gt;가트너에서는 인프라 및 운영(I&amp;amp;O) 조직의 리더가 현재 및 미래의 IT 로드맵에 맞게 ITSM 도구를 선택할 수 있도록 분석한 2021 매직 쿼드런트 보고서에 대한 하이라이트를 정리하여 공유합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;itsm-시장-정의&quot;&gt;ITSM 시장 정의&lt;/h2&gt;
+
+&lt;p&gt;ITSM 도구는 인프라 및 운영 조직이 IT 서비스 인력, 인프라, 서비스 제공을 통한 비즈니스 가치 전달을 관리하는 것을 지원합니다.&lt;/p&gt;
+
+&lt;p&gt;주로 IT 서비스 데스크 및 IT 서비스 제공과 관련하여 사용되며, 인시던트, 요청, 문제, 변경, 지식 및 구성 관리를 포함한 전반적인 IT 서비스 작업 및 워크플로우 프로세스가 포함됩니다.&lt;/p&gt;
+
+&lt;p&gt;디지털 혁신에 대응하기 위하여 ITSM 도구는 DevOps 툴체인과 통합하여 요구사항을 해결하며 ITSM 프로세스 전반에 대해 Agile 방식을 적용하기 시작하였습니다.&lt;/p&gt;
+
+&lt;p&gt;이미 시장에는 수 많은 ITSM 도구가 존재하며, 공급업체는 경쟁력을 확보하기 위하여 비 IT 직무와 관련된 사용 사례를 확대하기 위하여 집중하고 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;magic-quadrant&quot;&gt;Magic Quadrant&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 1: Magic Quadrant for IT Service Management Tools&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://static.ziftsolutions.com/files/8a9982117bb7901b017bc4167537191b/thamb.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;공급업체-분석&quot;&gt;공급업체 분석&lt;/h3&gt;
+
+&lt;p&gt;Visionary로 선정된 Atlassian 및 리더 영역의 공급 업체에 대해 분석한 내용을 공유해 드립니다.&lt;/p&gt;
+
+&lt;p&gt;전체 공급업체에 대한 분석 내용은 원문 보고서에서 확인이 가능합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;atlassian&quot;&gt;Atlassian&lt;/h4&gt;
+
+&lt;p&gt;Atlassian은 2021년 ITSM 매직 쿼드런트에서 유일하게 “Visionary” 영역에 선정되었습니다.&lt;/p&gt;
+
+&lt;p&gt;Visionary는 아직 리더 만큼의 시장 장악력은 부족할 수 있으나, 차별화된 메시지와 제품 전략으로 ITSM 프로세스와 운영에 대한 효율성과 민첩함을 제공하는 혁신적인 접근 방식을 지닌 업체를 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian의 ITSM 도구인 Jira Service Management의 제품 전략은 개발, 운영 및 비즈니스 팀을 위한 디지털 경험을 통합하는데에 중점을 두고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Jira Service Management의 고객은 전 세계적으로 다양하며, 소규모 조직부터 대규모 엔터프라이즈 기업까지 아우릅니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian의 ITSM 로드맵에는 ITOM 기능 및 로우 코드(Low-code) 워크플로우에 대한 투자가 포함되어 있습니다. 최근에는 Halp(챗봇), Chartio(데이터분석 및 보고서), ThinkTilt(양식 디자인) 및 및 Mindville(자산 및 구성관리를 위한 Insight)등을 인수하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;강점&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Agile ITSM:&lt;/strong&gt; Atlassian은 Jira의 이슈 트래킹 기능을 활용한 DevOps 및 Agile 방법론 지원을 중심으로 ITSM에 대한 차별화된 접근 방식을 제공합니다. ITSM을 위한 DevOps 자동화에 대한 Atlassian의 투자는 복잡한 프로세스를 간소화하고 워크플로우별 격차를 해결하였습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;투명한 가격 정책:&lt;/strong&gt; 고객은 복잡한 확인 과정 없이 Atlassian의 홈페이지 및 포털을 통해 Jira Service Management의 가격을 확인하고 책정할 수 있습니다. 3명 이하의 에이전트를 위한 무료 라이선스를 통해 구매 전 제품을 테스트해볼 수 있으며, 공개된 가격으로 제품 규모와 예산을 쉽게 구성할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;신규 고객 증가:&lt;/strong&gt; Jira Service Management는 2021년 가트너 매직쿼드런트 평가에 포함된 공급 업체 중에서 2020년 신규 고객 수 기준 가장 빠르게 성장한 제품입니다. 고객은 소규모 조직에서 1,000명이상의 엔터프라이즈 기업까지 다양합니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;bmc&quot;&gt;BMC&lt;/h4&gt;
+
+&lt;p&gt;BMC는 2021 ITSM 매직 쿼드런트에서 리더로 선정되었습니다.&lt;/p&gt;
+
+&lt;p&gt;BMC는 네가지 ITSM 제품(BMC Helix ITSM, BMC Helix Remedyforce, FootPrints, Track-It!)을 제공하고 있으며, BMC Helix ITSM 제품의 전략은 다른 BMC ITOM 및 AITSM 솔루션과의 통합으로 핵심 ITSM 기능을 강화하는 것에 중점을 둡니다.&lt;/p&gt;
+
+&lt;p&gt;BMC의 고객은 전 세계적으로 다양하며, 대부분의 고객은 엔터프라이즈급의 대규모 기업입니다.&lt;/p&gt;
+
+&lt;p&gt;BMC는 컨테이너 기반의 인프라를 제공하고 제품에 대한 강력한 로드맵을 보유하고 있으나, 제품 구현이 매우 복잡하고 구축 기간이 오래 걸린다는 단점을 갖고 있습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;servicenow&quot;&gt;ServiceNow&lt;/h4&gt;
+
+&lt;p&gt;ServiceNow는 2021 ITSM 매직 쿼드런트에서 리더로 선정되었으며 ITSM과 기본 ITOM 및 AI 기능이 지원하는 비IT 디지털 워크플로를 연결하는 단일 플랫폼을 제공하는 데 중점을 두고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;ServiceNow의 고객은 전 세계적으로 다양하며, 대부분의 고객은 중견 기업 및 엔터프라이즈급의 대규모 기업입니다.&lt;/p&gt;
+
+&lt;p&gt;ServiceNow는 최근 AI 및 ML 기술력을 보유한 회사를 인수하여 플랫폼에 새로운 기능을 추가하고 보다 광범위하게 플랫폼을 확장하고 있으나, 경쟁업체와 비교 하였을 때 제품 패키징에 대한 유연성이 부족하고, I&amp;amp;O 성숙도가 낮은 기업들은 ServiceNow의 가치와 필요성을 입증하기 어렵습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;신규-선정-및-제외된-공급-업체&quot;&gt;신규 선정 및 제외된 공급 업체&lt;/h2&gt;
+
+&lt;p&gt;가트너는 시장이 변화함에 따라 매직 쿼드런트 선정을 위한 기준을 검토하고 조정하여 평가 기준이 변경될 경우 이를 반영하여 선정합니다. 작년에 선정된 공급 업체가 올해에는 포함되어 있지 않다는 점이 해당 업체에 대한 가트너의 관점과 의견이 바뀌었다는 것을 의미하지는 않습니다. 이는 시장의 변화와 그에 따른 평가 기준의 변화를 반영한 것변화를 반영한 ​​것일 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;신규-선정-업체&quot;&gt;신규 선정 업체&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Atlassian은 올해의 매직 쿼드런트 평가 기준을 충족하였습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;SysAid은 올해의 매직 쿼드런트 평가 기준을 충족하였습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;USU은 올해의 매직 쿼드런트 평가 기준을 충족하였습니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;제외된-업체&quot;&gt;제외된 업체&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Broadcom은 올해의 매직 쿼드런트 평가 기준을 충족하지 못하였습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;IBM은 올해의 매직 쿼드런트 평가 기준을 충족하지 못하였습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cherwell은 Ivanti에 인수되었습니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;선정-기준&quot;&gt;선정 기준&lt;/h2&gt;
+
+&lt;p&gt;올해의 매직 쿼드런트 업체에 포함되기 위해 충족해야 하는 주요 기준은 아래와 같습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;인시던트 관리, 변경 관리, 구성 관리, 셀프 서비스, 서비스 요청에 대한 SLA 관리 등 ITSM의 기본 관행이 포함된 제품을 적극적으로 판매하여야 합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;제품에 대한 마케팅 캠페인을 실행하고, 지난 12개월 동안 제품에 대한 주요 업데이트 및 릴리스를 진행하여 지속적인 개발과 투자를 입증해야 합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;2020년 한해 동안 ITSM 제품에서 발생한 연간 수익이 3천만 달러 이상이고, 2019년에 비해 20% 이상의 성장률을 보여야 합니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;평가-기준&quot;&gt;평가 기준&lt;/h2&gt;
+
+&lt;h3 id=&quot;실행-능력ability-to-execute&quot;&gt;실행 능력(Ability to Execute)&lt;/h3&gt;
+
+&lt;p&gt;ITSM 시장에 대해 공급업체가 제공하는 핵심 상품 및 서비스가 실행 가능하며 지속적인 투자를 통해 발전시킬 수 있는지를 평가합니다.&lt;/p&gt;
+
+&lt;p&gt;또한 역동적으로 변화하는 시장의 요구사항에 유연하고 경쟁력 있게 대응할 수 있으며 판매를 위한 모든 활동과 채널의 효율성 여부가 포함됩니다.&lt;/p&gt;
+
+&lt;p&gt;브랜드와 사업을 홍보하고 제품의 이미지를 각인시킬 수 있는 메시지 전달을 위한 마케팅 프로그램 또한 중요합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;비전-완성도completeness-of-vision&quot;&gt;비전 완성도(Completeness of Vision)&lt;/h3&gt;
+
+&lt;p&gt;비전 완성도는 시장의 요구사항을 이해하고 이를 제품 및 서비스로 구현하는 공급업체의 능력과 명확하고 차별화된 마케팅 및 영업 전략을 보유하고 있는가에 대한 능력을 말합니다.&lt;/p&gt;
+
+&lt;p&gt;또한 ITSM에 대한 접근 방식이 증명 가능해야 하며, 전문지식을 보유하고 지속적인 투자를 진행하여 혁신을 이룰 수 있어야 합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;전세계적으로 ITSM 시장은 이미 성숙해 있으며 매년 빠르게 진화하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;시장에는 수백개의 ITSM 도구가 있지만, 우리 조직의 규모와 요구사항에 맞는 도구를 선택하는 것이 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;비즈니스 변화에 빠르게 대응하고 뛰어난 고객 서비스 경험을 제공하길 원하신다면, 아틀라시안의 Jira Service Management를 통해 팀의 협업 문화를 개선할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;보다 자세한 내용이 궁금하시다면 디무브에게 문의해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안클라우드" /><category term="Jira Service MAnagement" /><category term="Gartner" /><category term="ITSM" /><category term="IT서비스관리" /><category term="Magic Quadrant" /><category term="매직쿼드런트" /><summary type="html">안녕하세요, 디무브입니다! 🎈</summary></entry></feed>

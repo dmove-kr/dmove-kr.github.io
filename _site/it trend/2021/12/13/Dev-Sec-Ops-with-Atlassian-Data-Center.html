@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8DXEPMWW70"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8DXEPMWW70');
+</script>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K4FFWWN');</script>
+<!-- End Google Tag Manager -->
+  <meta name="google-site-verification" content="BDJmAIlOaY_Y8tIVIuF2EpupYw40LrWw9C1ijOMTmU4">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>보안 담당자가 DevSecOps에 주목해야 하는 이유 | Dmove Blog</title>
+<meta name="generator" content="Jekyll v4.2.1">
+<meta property="og:title" content="보안 담당자가 DevSecOps에 주목해야 하는 이유">
+<meta name="author" content="Dmove">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다.">
+<meta property="og:description" content="디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다.">
+<link rel="canonical" href="http://localhost:4000/it%20trend/2021/12/13/Dev-Sec-Ops-with-Atlassian-Data-Center.html">
+<meta property="og:url" content="http://localhost:4000/it%20trend/2021/12/13/Dev-Sec-Ops-with-Atlassian-Data-Center.html">
+<meta property="og:site_name" content="Dmove Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2021-12-13T00:00:00+09:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="보안 담당자가 DevSecOps에 주목해야 하는 이유">
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/it%20trend/2021/12/13/Dev-Sec-Ops-with-Atlassian-Data-Center.html"},"datePublished":"2021-12-13T00:00:00+09:00","author":{"@type":"Person","name":"Dmove"},"url":"http://localhost:4000/it%20trend/2021/12/13/Dev-Sec-Ops-with-Atlassian-Data-Center.html","@type":"BlogPosting","description":"디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다.","headline":"보안 담당자가 DevSecOps에 주목해야 하는 이유","dateModified":"2021-12-13T00:00:00+09:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="/assets/images/banners/favicon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dmove Blog">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<!-- tipuesearch -->
+  <link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/assets/tipuesearch/tipuesearch_content.js"></script>
+  <script src="/assets/tipuesearch/tipuesearch_set.js"></script>
+  <script src="/assets/tipuesearch/tipuesearch.min.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header id="header" class="fixed">
+  <div class="wrapper">
+    <div class="site-header-inner"><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/about.html">디무브 소개</a><a class="page-link" href="/categories.html">카테고리</a><a class="page-link" href="/">블로그</a><a class="page-link" href="/question.html">문의 하기</a>
+
+
+
+
+</div>
+        </nav></div>
+  </div>
+
+
+  <div class="header-bottom">
+    <h1 class="logo">
+      <a href="http://dmove.co.kr/main">
+        <img class="logo_fix_none" src="http://dmove.co.kr/html/_skin/img/common/logo.png" alt="dmove">
+        <img class="logo_fix_only" src="http://dmove.co.kr/html/_skin/img/common/logo_color.png" alt="dmove">
+      </a>
+    </h1>
+  </div>
+</header>
+
+
+
+
+
+<!-- <header class="site-header " role="banner">
+  <div class="wrapper">
+    <div class="site-header-inner"><span class="site-brand"> <a class="site-brand-inner"  href="/">
+  <img class="site-favicon" src="/assets/images/banners/Dmove.png" onerror="this.style.display='none'">
+  
+</a>
+  
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger"><a class="page-link" href="/about.html">디무브 소개</a><a class="page-link" href="/categories.html">카테고리</a><a class="page-link" href="/">블로그</a><a class="page-link" href="/question.html">문의 하기</a>
+
+
+
+
+</div>
+        </nav></div>
+  </div>
+</header> -->
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+      // document.getElementById("header").style.backGround = "rgba(255, 255, 255, 0.9) !important;";
+      header.classList.add("headerScroll");
+      document.getElementsByClassName("logo_fix_only").classList.add("logoEnable");
+    } else {
+      if (location.href.substring() == "https://blog.dmove.kr/" && (document.body.scrollTop < 30 || document.documentElement.scrollTop < 30)) {
+        // document.getElementById("header").style.fontSize = "90px";
+        header.classList.remove("headerScroll");
+      } else if (location.href.substring() == "https://blog.dmove.kr/index.html" && (document.body.scrollTop < 30 || document.documentElement.scrollTop < 30)) {
+        header.classList.remove("headerScroll");
+      }
+    }
+  }
+  window.onload = function() {contextPathCheck()};
+  function contextPathCheck() {
+    if (location.href.substring() != "https://blog.dmove.kr/") {
+      header.classList.add("headerScroll");
+      if (location.href.substring() == "https://blog.dmove.kr/index.html") {
+        header.classList.remove("headerScroll");
+      }
+      document.getElementsByClassName("logo_fix_only").classList.add("logoEnable");
+    } else {
+      header.classList.remove("headerScroll");
+    }
+  }
+
+  // (function() {
+  //   var lastScrollY = getScrollPos().y;
+  //   var documentElement = document.documentElement;
+
+  //   function storeScrollData() {
+  //     var y = getScrollPos().y;
+
+  ////     var scrollStatus = "";
+
+  //     if (y <= 0) {
+  //       scrollStatus = "top";
+  //     } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+  //       scrollStatus = "bottom";
+  //     } else {
+  //       var isScrollDown = (y - lastScrollY > 0) ? true : false;
+  //       scrollStatus = isScrollDown ? "down" : "up";
+  //     }
+
+  //     lastScrollY = y;
+  //     documentElement.setAttribute("data-scroll-status", scrollStatus);
+  //   }
+
+  //   window.addEventListener('scroll', function(e) {
+  //     storeScrollData();
+  //   });
+
+  //   storeScrollData();
+  // })();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<!-- <div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div> -->
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">보안 담당자가 DevSecOps에 주목해야 하는 이유</h1>
+  <h3 class="post-subtitle"></h3>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="2021-12-13T00:00:00+09:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Dec 13, 2021
+    </time>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+  </p>
+
+  <!--<div class="post-tags"><a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#DevOos">#DevOos</a><a class="post-tag" href="/tags.html#DevSecOps">#DevSecOps</a><a class="post-tag" href="/tags.html#아틀라시안 데이터센터">#아틀라시안 데이터센터</a><a class="post-tag" href="/tags.html#Data Center">#Data Center</a><a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a><a class="post-tag" href="/tags.html#데브섹옵스">#데브섹옵스</a><a class="post-tag" href="/tags.html#SecOps">#SecOps</a><a class="post-tag" href="/tags.html#디무브">#디무브</a><a class="post-tag" href="/tags.html#Dmove">#Dmove</a></div>-->
+
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p><img src="https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/10/image-20211001-175838.png?w=2240&ssl=1" alt="enter image description here"></p>
+
+<p>안녕하세요, 디무브입니다!🎈</p>
+
+<p>사이버 보안은 현대의 정부 기관이 직면한 가장 중요한 문제 중 하나입니다.</p>
+
+<p>이는 미국 바이든 대통령의 행정 명령에서도 잘 알 수 있는데요.</p>
+
+<p>Solarwinds, Microsoft, Colonial Pipeline에 대한 사이버 공격으로 등장한 이 행정 명령은 정부 기관과 국가 전체의 보안을 강화하기 위해 설계되었지만 효율성과 보안 사이의 복잡성을 높이는 결과를 가져왔습니다.</p>
+
+<p>그래서 이번 포스팅에서는 이러한 복잡성을 해결하고 효율성과 보안성을 보다 강화할 수 있는 DevSecOps에 대해 다루고자 합니다.</p>
+
+<blockquote>
+  <p><strong>DevSecOps</strong>란?</p>
+
+  <p>개발(Development), 보안(Security), 운영(Operation)이 합쳐진 말로 기존의 DevOps에서 보안 프로세스가 결합된 개념입니다. 개발, 보안 및 운영 조직 간 협업을 수행하여 보안 프로세스를 준수하며 소프트웨어 제품을 주기적으로 빠르게 제공하는데 초점을 맞춘 문화이자 엔지니어링 기술을 뜻합니다.</p>
+</blockquote>
+
+<hr>
+
+<h2 id="devsecops로-보안-강화"><strong>DevSecOps로 보안 강화</strong></h2>
+
+<h3 id="devops---코드-품질을-높이고-코드를-빠르게-제공합니다">
+<strong>DevOps</strong> - 코드 품질을 높이고 코드를 빠르게 제공합니다.</h3>
+
+<p><a href="https://www.atlassian.com/devops" title="https://www.atlassian.com/devops"><strong>DevOps</strong></a>는 소프트웨어 개발팀과 IT 운영팀간의 프로세스를 자동화하고 통합하여 소프트웨어를 빠르고 안정적으로 빌드하고 테스트하여 실제 제품의 릴리즈로 이어지는 방법을 의미합니다. 전세계적으로 많은 기업과 기관은 효율성을 높이기 위해 DevOps 프레임워크를 사용하고 있습니다.</p>
+
+<h3 id="secops---보안을-팀의-문화로-만듭니다"><strong>SecOps - 보안을 팀의 문화로 만듭니다.</strong></h3>
+
+<p>SecOps는 IT 보안과 운영팀간의 협업을 통해 소프트웨어 수명주기 전반에 걸쳐 보안 요소를 접목하고 강화하는 방법을 말합니다. 일반적으로 보안을 강화하기 위해 정부기관에서 채택하여 사용하고 있습니다.</p>
+
+<h3 id="devsecops---효율적이고-안전하게-코드를-제공합니다"><strong>DevSecOps - 효율적이고 안전하게 코드를 제공합니다.</strong></h3>
+
+<p>기업은 더이상 사이버 보안에 있어서 개발이나 보안 중 어느 한 가지만 선택해서는 안되며, 두 가지 모두를 다루어야 합니다.</p>
+
+<p>DevSecOps는 개발과 운영이 합쳐진 DevOps와 보안과 운영이 합쳐진 SecOps의 장점을 통합한 개념입니다. 협업에 중점을 두고 있는 DevSecOps는 코드를 효율적이고 안전하게 전달하는 것을 목표로 하며 보안을 최우선으로 고려합니다.</p>
+
+<p>좀 더 구체적으로 말하면 DevSecOps는 보안성 검사 및 테스트 과정을 애자일 방법론을 통한 개발 과정 전반에 걸쳐 수행합니다.</p>
+
+<p>즉 제품의 마지막 단계에서 적용하는 것이 아닌 제품이 만들어지는 과정 전체에 적용하여 제품에 영향을 줄 수 있는 취약점을 조기에 발견하여 시간과 비용을 절약하는 것입니다.</p>
+
+<p>또한 이를 통해 목표를 효율적으로 달성할 수 있는 능력을 향상시킬 수 있습니다.</p>
+
+<p>DevSecOps는 단순한 프로세스가 아니라 사고 방식의 변화가 필요한 문화적 변화이기도 하다는 점을 꼭 명심해야 합니다.</p>
+
+<p>제품 과정 전반에서 보안성을 확인하는 것은 번거로운 일이 아니라 개발 수명 주기의 일부로 생각해야 하는 사고적 변화가 DevSecOps를 구현하는데 반드시 필요합니다.</p>
+
+<h3 id="기존의-보안-테스트"><strong>기존의 보안 테스트</strong></h3>
+<p><img src="https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/10/image-20211001-180308.png?resize=768,167&amp;ssl=1" alt="enter image description here"></p>
+
+<h3 id="devsecops-보안-테스트"><strong>DevSecOps 보안 테스트</strong></h3>
+<p><img src="https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/10/image-20211001-180328.png?resize=768,167&amp;ssl=1" alt="enter image description here"></p>
+
+<hr>
+
+<h2 id="devsecops-구현의-이점"><strong>DevSecOps 구현의 이점</strong></h2>
+
+<p>DevSecOps를 구현하는 모범 사례 중 하나는 모든 구성원이 수행하는 것입니다. 소규모 팀의 레벨에서 구현하는 것이 일반적이지만, 모든 구성원이 DevSecOps를 수행하면 다음과 같은 이점을 얻을 수 있습니다.</p>
+
+<ul>
+  <li>
+    <p><strong>업무 달성률 향상</strong> : <a href="https://www.atlassian.com/blog/enterprise/build-a-strategy-for-scale-in-a-high-security-environment" title="https://www.atlassian.com/blog/enterprise/build-a-strategy-for-scale-in-a-high-security-environment"><strong>대규모 DevSecOps</strong></a>를 사용하면 기존의 폭포수 방식과 달리 가치를 신속하게 제공하는 데 집중함으로써 팀이 업무 변화에 빠르게 대처할 수 있습니다.</p>
+  </li>
+  <li>
+    <p><strong>규모에 맞는 효율성 향상</strong> : DevSecOps를 통해 소프트웨어를 빠르고 더 좋게 만들 수 있습니다.</p>
+  </li>
+  <li>
+    <p><strong>보안성 개선</strong> : DevSecOps는 조직 전반에 걸쳐 지속적인 보안을 제공하여 품질을 높이고 리더십 평가를 위한 기준을 제공할 수 있습니다.</p>
+  </li>
+  <li>
+    <p><strong>사일로를 방지</strong> :  조직 전반에 걸쳐 DevOps를 사용하면 숨겨진 보안 위험성 및 사일로를 없앨 수 있습니다.</p>
+  </li>
+</ul>
+
+<h2 id="atlassian-data-center가-필요한-이유"><strong>Atlassian Data Center가 필요한 이유</strong></h2>
+
+<p>이러한 DevSecOps를 규모에 맞게 구현하려면 보안을 유지하면서 혁신을 가속화할 수 있는 도구가 필요합니다.</p>
+
+<p>일반적으로 DevSecOps를 도입하면 사용량 및 트래픽이 증가합니다.</p>
+
+<p>이는 성능 저하 또는 운영 중단의 사태를 겪을 수 있다는 것을 의미하며 Atlassian의 Data Center와 같은 고가용성 도구가 필요하다는 것을 의미합니다.</p>
+
+<p>Atlassian의 Data Center에는 고가용성 및 확장성 외에도 클러스터링, <a href="https://www.atlassian.com/enterprise/data-center/data-center-video-library" title="https://www.atlassian.com/enterprise/data-center/data-center-video-library"><strong>제로 다운타임 업그레이드, 롤링 업그레이드</strong></a> 등 DevSecOps를 시작하고 개선하는 데 도움이 되는 다양한 기능이 내장되어 있습니다.</p>
+
+<p>사일로를 해체하고 팀을 통합하여 최종 목표를 보다 효과적으로 달성하는 데 도움이 되는 DevSecOps와 같은 최신 프레임워크를 구현하는 방법에 대해 아래의 문서에서 보다 자세히 확인하실 수 있습니다.</p>
+
+<p><a href="https://www.atlassian.com/enterprise/data-center/bridging-the-gap" title="https://www.atlassian.com/enterprise/data-center/bridging-the-gap"><strong>Data Center 백서 다운로드</strong></a></p>
+
+<hr>
+
+<p>지금까지 DevSecOps란 무엇이며 왜 주목해야 하는지, 그리고 아틀라시안의 Data Center가 DevSecOps 구현에 왜 필요한지 알아보았습니다.</p>
+
+<p>DevSecOps를 구현하기 위한 Jira, Confluence, Bitbucket, Bamboo와 같은 Atlassian Data Center 및 Cloud 제품들에 관해 보다 자세한 내용이 궁금하시다면 디무브에게 문의해주세요!</p>
+
+<p>감사합니다. 😃</p>
+
+
+    </div>
+
+</article>
+<div class="inner">
+
+	    <ul style="margin-right: -1.25rem; margin-left: -1.25rem; align-items:center; -webkit-box-align:center;">
+	    <li>
+		    <h4 class="fw_25 fw_400">문의 사항이 있으시면 <br style="display: none! important!;">언제든 문의 부탁드립니다.</h4>
+		    <div class="btn_main_more mt40 mb_t_c">
+		   <a href="http://dmove.co.kr/contact-us/quote-service-inquiry">문의하기</a>
+		    </div>
+	  </li>
+
+	  
+	    </ul>
+</div>
+<div class="post-tags">
+<!-- <a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a> -->
+      <a class="post-tag" href="/categories.html">#Atlassian</a><!-- <a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a> -->
+      <a class="post-tag" href="/categories.html">#아틀라시안</a><!-- <a class="post-tag" href="/tags.html#DevOos">#DevOos</a> -->
+      <a class="post-tag" href="/categories.html">#DevOos</a><!-- <a class="post-tag" href="/tags.html#DevSecOps">#DevSecOps</a> -->
+      <a class="post-tag" href="/categories.html">#DevSecOps</a><!-- <a class="post-tag" href="/tags.html#아틀라시안 데이터센터">#아틀라시안 데이터센터</a> -->
+      <a class="post-tag" href="/categories.html">#아틀라시안 데이터센터</a><!-- <a class="post-tag" href="/tags.html#Data Center">#Data Center</a> -->
+      <a class="post-tag" href="/categories.html">#Data Center</a><!-- <a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a> -->
+      <a class="post-tag" href="/categories.html">#데브옵스</a><!-- <a class="post-tag" href="/tags.html#데브섹옵스">#데브섹옵스</a> -->
+      <a class="post-tag" href="/categories.html">#데브섹옵스</a><!-- <a class="post-tag" href="/tags.html#SecOps">#SecOps</a> -->
+      <a class="post-tag" href="/categories.html">#SecOps</a><!-- <a class="post-tag" href="/tags.html#디무브">#디무브</a> -->
+      <a class="post-tag" href="/categories.html">#디무브</a><!-- <a class="post-tag" href="/tags.html#Dmove">#Dmove</a> -->
+      <a class="post-tag" href="/categories.html">#Dmove</a>
+</div>
+<div class="post-nav">
+<a class="previous" href="/news%20and%20events/2021/12/06/Atlassian-Okta-ID-and-Access-Management-Webinar.html" title="2021년 12월 디무브 웨비나 안내 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제">2021년 12월 디무브 웨비나 안내 -...</a><a class="next" href="/atlassian%20solutions/2021/12/15/CVE-2021-44228-Atlassian-Products.html" title="CVE-2021-44228 보안 취약점 안내">CVE-2021-44228 보안 취약점 안내</a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li><a class="post-link" href="/news%20and%20events/2021/07/09/Atlassian-ITSM-Webinar-Summary.html" title="CVE-2021-44228 보안 취약점 안내">웨비나 생생 후기 - 디지털 트랜스포메이션을 위한 아틀라시안의 IT 서비스 관리 (ITSM)...</a></li>
+<li><a class="post-link" href="/atlassian%20solutions/2021/03/23/Atlassian-Cloud-8Myths-1.html" title="CVE-2021-44228 보안 취약점 안내">아틀라시안 클라우드에 대한 8가지 오해 Part.1</a></li>
+<li><a class="post-link" href="/atlassian%20release%20note/2021/05/07/1Q2021-Atlassian-Release-Notes-Server.html" title="CVE-2021-44228 보안 취약점 안내">2021 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Apr) -Server, DC</a></li>
+<li><a class="post-link" href="/atlassian%20solutions/2021/07/15/which-atlassian-cloud-plan-is-right-for-you.html" title="CVE-2021-44228 보안 취약점 안내">우리 조직에게 가장 적합한 Atlassian 클라우드 플랜은 무엇일까?</a></li>
+</ul>
+    </div>
+<div class="post-comments"></div></section>
+</div>
+
+
+  </section>
+  <!-- <section>
+    <form action="/search">
+      <div class="tipue_search_left">
+        <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+      </div>
+      <div class="tipue_search_right">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
+      <div style="clear: both;"></div>
+    </form>
+  </section> -->
+  <!-- Search bar -->
+  <section class="sidebar" style="margin-left: 15px;">
+    <form action="/search">
+      <div class="tipue_search_left">
+        <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+      </div>
+      <div class="tipue_search_right">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required>
+</div>
+      <div style="clear: both;"></div>
+    </form>
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">Table of Contents</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h1, h2, h3, h4, h5, h6");
+    var thisfilefullname = document.URL.substring(document.URL.lastIndexOf("/") + 1, document.URL.length);
+
+    console.log(thisfilefullname);
+    
+    // Hide menu when no headings
+    if (headings.length === 0 || thisfilefullname=="about.html") {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        // + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+        + '<a href="#' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+	    <div>Copyright © 2020-2021 @Dmove</div>  <div>TEL: 02-6405-0800 | email : sales@dmove.kr</div>
+    </div>
+     
+  </div>
+</footer>
+</body>
+</html>

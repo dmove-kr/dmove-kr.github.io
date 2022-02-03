@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8DXEPMWW70"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8DXEPMWW70');
+</script>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K4FFWWN');</script>
+<!-- End Google Tag Manager -->
+  <meta name="google-site-verification" content="BDJmAIlOaY_Y8tIVIuF2EpupYw40LrWw9C1ijOMTmU4">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>웨비나 생생후기 - 클라우드 환경에서의 성공적인 DevOps 도입 | Dmove Blog</title>
+<meta name="generator" content="Jekyll v4.2.1">
+<meta property="og:title" content="웨비나 생생후기 - 클라우드 환경에서의 성공적인 DevOps 도입">
+<meta name="author" content="Dmove">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다.">
+<meta property="og:description" content="디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다.">
+<link rel="canonical" href="http://localhost:4000/news%20and%20events/2021/10/14/Atlassian-DevOps-in-Cloud-Webinar-Summary.html">
+<meta property="og:url" content="http://localhost:4000/news%20and%20events/2021/10/14/Atlassian-DevOps-in-Cloud-Webinar-Summary.html">
+<meta property="og:site_name" content="Dmove Blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2021-10-14T00:00:00+09:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="웨비나 생생후기 - 클라우드 환경에서의 성공적인 DevOps 도입">
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/news%20and%20events/2021/10/14/Atlassian-DevOps-in-Cloud-Webinar-Summary.html"},"datePublished":"2021-10-14T00:00:00+09:00","author":{"@type":"Person","name":"Dmove"},"url":"http://localhost:4000/news%20and%20events/2021/10/14/Atlassian-DevOps-in-Cloud-Webinar-Summary.html","@type":"BlogPosting","description":"디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다.","headline":"웨비나 생생후기 - 클라우드 환경에서의 성공적인 DevOps 도입","dateModified":"2021-10-14T00:00:00+09:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="/assets/images/banners/favicon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dmove Blog">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<!-- tipuesearch -->
+  <link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/assets/tipuesearch/tipuesearch_content.js"></script>
+  <script src="/assets/tipuesearch/tipuesearch_set.js"></script>
+  <script src="/assets/tipuesearch/tipuesearch.min.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header id="header" class="fixed">
+  <div class="wrapper">
+    <div class="site-header-inner"><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/about.html">디무브 소개</a><a class="page-link" href="/categories.html">카테고리</a><a class="page-link" href="/">블로그</a><a class="page-link" href="/question.html">문의 하기</a>
+
+
+
+
+</div>
+        </nav></div>
+  </div>
+
+
+  <div class="header-bottom">
+    <h1 class="logo">
+      <a href="http://dmove.co.kr/main">
+        <img class="logo_fix_none" src="http://dmove.co.kr/html/_skin/img/common/logo.png" alt="dmove">
+        <img class="logo_fix_only" src="http://dmove.co.kr/html/_skin/img/common/logo_color.png" alt="dmove">
+      </a>
+    </h1>
+  </div>
+</header>
+
+
+
+
+
+<!-- <header class="site-header " role="banner">
+  <div class="wrapper">
+    <div class="site-header-inner"><span class="site-brand"> <a class="site-brand-inner"  href="/">
+  <img class="site-favicon" src="/assets/images/banners/Dmove.png" onerror="this.style.display='none'">
+  
+</a>
+  
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger"><a class="page-link" href="/about.html">디무브 소개</a><a class="page-link" href="/categories.html">카테고리</a><a class="page-link" href="/">블로그</a><a class="page-link" href="/question.html">문의 하기</a>
+
+
+
+
+</div>
+        </nav></div>
+  </div>
+</header> -->
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+      // document.getElementById("header").style.backGround = "rgba(255, 255, 255, 0.9) !important;";
+      header.classList.add("headerScroll");
+      document.getElementsByClassName("logo_fix_only").classList.add("logoEnable");
+    } else {
+      if (location.href.substring() == "https://blog.dmove.kr/" && (document.body.scrollTop < 30 || document.documentElement.scrollTop < 30)) {
+        // document.getElementById("header").style.fontSize = "90px";
+        header.classList.remove("headerScroll");
+      } else if (location.href.substring() == "https://blog.dmove.kr/index.html" && (document.body.scrollTop < 30 || document.documentElement.scrollTop < 30)) {
+        header.classList.remove("headerScroll");
+      }
+    }
+  }
+  window.onload = function() {contextPathCheck()};
+  function contextPathCheck() {
+    if (location.href.substring() != "https://blog.dmove.kr/") {
+      header.classList.add("headerScroll");
+      if (location.href.substring() == "https://blog.dmove.kr/index.html") {
+        header.classList.remove("headerScroll");
+      }
+      document.getElementsByClassName("logo_fix_only").classList.add("logoEnable");
+    } else {
+      header.classList.remove("headerScroll");
+    }
+  }
+
+  // (function() {
+  //   var lastScrollY = getScrollPos().y;
+  //   var documentElement = document.documentElement;
+
+  //   function storeScrollData() {
+  //     var y = getScrollPos().y;
+
+  ////     var scrollStatus = "";
+
+  //     if (y <= 0) {
+  //       scrollStatus = "top";
+  //     } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+  //       scrollStatus = "bottom";
+  //     } else {
+  //       var isScrollDown = (y - lastScrollY > 0) ? true : false;
+  //       scrollStatus = isScrollDown ? "down" : "up";
+  //     }
+
+  //     lastScrollY = y;
+  //     documentElement.setAttribute("data-scroll-status", scrollStatus);
+  //   }
+
+  //   window.addEventListener('scroll', function(e) {
+  //     storeScrollData();
+  //   });
+
+  //   storeScrollData();
+  // })();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<!-- <div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div> -->
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">웨비나 생생후기 - 클라우드 환경에서의 성공적인 DevOps 도입</h1>
+  <h3 class="post-subtitle"></h3>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="2021-10-14T00:00:00+09:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Oct 14, 2021
+    </time>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+  </p>
+
+  <!--<div class="post-tags"><a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#OpenDevOps">#OpenDevOps</a><a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a><a class="post-tag" href="/tags.html#Bitbucket">#Bitbucket</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#Opsgenie">#Opsgenie</a><a class="post-tag" href="/tags.html#CICD">#CICD</a><a class="post-tag" href="/tags.html#빌드배포">#빌드배포</a><a class="post-tag" href="/tags.html#애자일">#애자일</a><a class="post-tag" href="/tags.html#Agile">#Agile</a><a class="post-tag" href="/tags.html#토크아이티">#토크아이티</a></div>-->
+
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p><img src="https://blog.dmove.kr/assets/images/blog/Title%20Banner_DevOps.png" alt="Banner"></p>
+
+<p>안녕하세요. 디무브 입니다.  🎈</p>
+
+<p>지난 10월7일 목요일 오후4시 진행된 디무브의 “<a href="https://talkit.tv/Event/2657">클라우드 환경에서의 성공적인 Atlassian DevOps 도입</a>” 웨비나가 종료되었습니다.</p>
+
+<p>1시간이라는 짧은 시간이었지만, 디무브에서는 DevOps를 성공적으로 안착시키기 위해 조직이 변화해야 하는 이유가 무엇인지, 아틀라시안 솔루션을 통해 어떻게 DevOps를 효과적으로 구성할 수 있는지를 소개해드리고 성공적인 전략 수립과 수행 방법을 제시하고자 하였습니다.</p>
+
+<p>예상했던 것보다 훨씬 많은 분들께서 관심을 가져주시고 적극적으로 참여해주신 덕분에 준비한 웨비나를 잘 진행할 수 있었고, DevOps에 대한 업계의 관심과 중요성을 한번 더 느끼는 시간이 되었습니다.</p>
+
+<p>다시 한번, 참여해주신 모든 분들께 감사의 말씀을 드리며, 진행했던 웨비나에 대해 리뷰하는 시간을 가져보려 합니다.</p>
+
+<hr>
+
+<p>본 웨비나는 아래 아젠다와 같이 크게 4가지 파트로 구성하여 진행하였습니다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">주제</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">
+<strong>Atlassian의 DevOps</strong> <br> - DevOps의 필요성 및 당면 과제 <br> - Atlassian의 Open DevOps 솔루션 <br> - Jira Cloud 중심의 DevOps 업무 방식</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">
+<strong>Atlassian의 DevOps 라이프사이클</strong> <br> - Atlassian Cloud를 기반으로 한 DevOps 라이프사이클 <br> - 타 도구와의 통합을 통한 확장 및 효율적인 업무 자동화</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">
+<strong>DevOps Demo</strong> <br> - Atlassian Cloud 툴체인을 활용한 AWS DevOps 데모 시연</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">
+<strong>Q&amp;A</strong> <br> - 질의응답</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="session-1-devops의-필요성-및-당면-과제">Session 1. DevOps의 필요성 및 당면 과제</h2>
+
+<p><img src="https://blog.dmove.kr/assets/images/blog/session1.png" alt="session1"></p>
+
+<p>오늘날의 급변하는 시장에서 성공하기 위해 많은 기업은 가치를 높이기 위한 하나의 도구와 문화로 DevOps를 채택하고 있습니다.</p>
+
+<p>실제로, 아틀라시안에서 조사한 <a href="https://blog.dmove.kr/homepage_use/devops.html">DevOps Survey</a>에 따르면 응답자의 약 90%가 DevOps가 기업의 성과와 조직 구조에 긍정적인 영향을 주었다고 말합니다.</p>
+
+<p>하지만 DevOps를 도입하고 활용하는데 많은 조직이 어려움을 겪고 있는 것 또한 우리가 직면한 현실입니다.</p>
+
+<p>위 조사에 따르면 DevOps 환경을 만들기 위해 조직은 너무 많은 종류의 도구를 사용하고 있으며 이를 통합하는 작업으로 인해 정작 중요한 개발 작업에는 하루에 1-4시간 정도밖에 투자하지 못하는 비효율적인 업무 생산성이 DevOps 진입 장벽의 가장 큰 이유였습니다.</p>
+
+<p>결국 우리는 DevOps의 가치를 실현하기 위하여 적절한 도구를 선택해야 하며, 근본적인 조직 문화와 업무 프로세스를 개선해야만 한다는 메세지를 전달하였습니다.</p>
+
+<h2 id="session-2-atlassian-의-open-devops-솔루션">Session 2. Atlassian 의 Open DevOps 솔루션</h2>
+
+<p><img src="https://blog.dmove.kr/assets/images/blog/session2.png" alt="session2"></p>
+
+<p>DevOps 를 구현하기 위해서는 빌드/배포/테스트를 위한 도구가 필수적으로 필요합니다.</p>
+
+<p>하나의 솔루션에서 필요한 모든 기능과 니즈를 만족시킬 수 있다면 좋겠지만, 그러한 솔루션은 존재하지 않습니다.</p>
+
+<p>아틀라시안은 DevOps 를 정착시키기 위해 필요한 무수한 도구의 사용으로 발생하는 복잡성을 해결하기 위해<br>
+Jira Cloud를 기반으로 DevOps를 위해 필요한 도구들을 연결하여 사용할 수 있도록 하는 생태계를 준비했습니다.</p>
+
+<p>그리고 아틀라시안의 이러한 생태계는 개방되어 있기 때문에 자주 사용되는 다른 도구와도 이미 연계할 수 있는 기능이 있거나, 1,400개 이상의 클라우드 앱이 등록되어있는 아틀라시안의 자체적인 마켓플레이스를 통해 연계가 가능합니다.</p>
+
+<p>물론 오픈된 API 를 활용해 직접 개발도 가능합니다.</p>
+
+<h2 id="session-3-jira-cloud-중심의-devops-업무-방식">Session 3. Jira Cloud 중심의 DevOps 업무 방식</h2>
+
+<p><img src="https://blog.dmove.kr/assets/images/blog/session3.png" alt="session3"></p>
+
+<p>앞서 말했듯, 아틀라시안은 Jira Cloud를 기반으로 모든 조직을 연결하여 업무를 기록하고 공유하는 것은 물론, 작업에 대한 가시성을 지원하고 있습니다.</p>
+
+<p>조직은 아래와 같은 Jira Cloud만의 특화된 기능을 통해 DevOps Practice 전반에 걸쳐 일어나는 업무를 추적할 수 있습니다.</p>
+
+<ul>
+  <li>
+    <p><strong>Code In Jira</strong>: Jira Cloud에서는 생성된 개별 작업 단위나 코드와 직접 연계가 가능하여 코드 커밋 시 이슈 키를 포함하면 팀의 모든 사용자는 자신이 작업 중인 모든 저장소를 확인하고, 팀이 작업중인 코드를 한 곳에서 볼 수 있습니다. 도 지라를 통해 확인 가능합니다</p>
+  </li>
+  <li>
+    <p><strong>Deployment In Jira</strong>: Jira Cloud에서는 코드의 빌드, 배포 및 파이프라인에 걸쳐 일어나는 진행 상황을 확인할 수 있습니다. 코드 커밋 시에 포함된 이슈 키를 기반으로 이러한 추적성이 제공되며 별도의 설정 과정을 거치지 않아도 Jira 내에서 모니터링이 가능합니다.</p>
+  </li>
+  <li>
+    <p><strong>Release in Jira</strong>: DevOps의 가장 중요한 목표인 가치 전달의 속도를 최대화하기 위해서는 제품이나코드 출시의 시간을 단축시키는 것이 중요합니다. Jira Cloud가 제공하는 메트릭을 통해 배포 속도를 저해하는 요소를 파악하고 배포 주기를 관리할 수 있습니다.</p>
+  </li>
+</ul>
+
+<p>이처럼 아틀라시안을 활용한 DevOps 전환을 수행할 결우 워크플로우의 가속화나 팀 역량 강화, 툴 체인의 사용자화, 업무 효율성 증가를 기대하실 수 있습니다.</p>
+
+<h2 id="session-4-atlassian-cloud를-기반으로-한-devops-라이프사이클">Session 4. Atlassian Cloud를 기반으로 한 DevOps 라이프사이클</h2>
+
+<p><img src="https://blog.dmove.kr/assets/images/blog/session4.png" alt="session4"></p>
+
+<p>Atlassian의 툴체인은 전반적인 DevOps 라이프사이클을 자동화하고 통합할 수 있는 환경을 제공합니다.</p>
+
+<ol>
+  <li><strong>Plan</strong></li>
+</ol>
+
+<p>개발 도구를 사용하지 않는 IT 운영 및 비즈니스 팀에서도 언제 어떤 일이 발생하고 있는지 알아야 하며 그러기 위해서는 팀과 도구간의 업무를 자동으로 통합해주는 Jira Cloud와 같은 플랫폼이 필요합니다.</p>
+
+<p>Jira Cloud와 Bitbucket Cloud, GitHub과 GitLab 등을 통합하면 개발자는 코드를 작성하는 곳에서 바로 이슈를 추적할 수 있고 프로젝트 업데이트가 가능합니다.</p>
+
+<ol>
+  <li><strong>Build</strong></li>
+</ol>
+
+<p>Bitbucket Cloud는 git 기반으로 코드 작성과 검토를 위한 최적의 환경을 제공하며, 개발자가 소스 저장소나 이슈 관리 시스템에 접근하지 않더라도 작업 목록을 쉽게 조회해볼 수 있는 환경을 제공하고 있습니다.</p>
+
+<ol>
+  <li><strong>CI/CD</strong></li>
+</ol>
+
+<p>DevOps 팀은 CI/CD 프로세스를 자동화 하거나 더 자주 확인하여 파이프라인을 가속화해야 합니다.</p>
+
+<p>Bitbucket Cloud를 통해 정적 분석 툴이나 취약점 점검 툴과 연계하여 우리 코드가 가지고 있는 잠재적인 문제점들을 코드가 배포되기 전에 미리 알 수 있도록 구성할 수 있습니다.</p>
+
+<p>또한 Jira Service Management와의 통합을 통해 배포 이력에 대한 변경 관리가 가능하며 이에 대한 승인 절차도 만들어 낼 수 있습니다.</p>
+
+<ol>
+  <li><strong>Operate &amp; Monitor</strong></li>
+</ol>
+
+<p>DevOps를 채택하고 배포 프로세스를 자동화함에 따라 코드 변경과 관련된 인시던트가 증가 하게 되므로, 인시던트가 발생했을 문제의 원인을 신속하게 판단하는 것이 더욱 중요합니다.</p>
+
+<p>이를 위해 Jira Cloud와 Git 기반의 코드 커밋 내역이 연계되어 있으며, 이를 OpsGenie와 연계하면 손쉽게 최근의 배포 사항에 대한 추적이 가능합니다.</p>
+
+<ol>
+  <li><strong>Communication &amp; Collaboration</strong></li>
+</ol>
+
+<p>성공적인 DevOps구현은 도구를 연결하는 것에서 끝나지 않습니다. 대부분의 DevOps 실무자는 이에 동의하며, 성공적인 구현에는 사람과 문화가 가장 중요한 요인이라고 말합니다.</p>
+
+<p>이를 위해 Atlassian에서는 DevOps 모범 사례를 알아보고 공유할 수 있는 새로운 리소스 허브를 공유하고 있습니다.</p>
+
+<h2 id="demo">Demo</h2>
+
+<p>앞서 설명드렸던 내용을 직접 보여드리기 위하여 Atlassian Cloud 툴체인을 활용한 AWS DevOps 데모를 시연하였습니다.</p>
+
+<p>웨비나 다시보기를 통해 꼭 확인해 보시길 추천드립니다.</p>
+
+<hr>
+
+<p>1시간이라는 짧은 시간 내에서 아틀라시안의 Open DevOps에 대한 핵심 내용으로 알차게 구성해 보았는데요!</p>
+
+<p>웨비나를 통해 DevOps에 대해 더 잘 이해하고 인사이트를 얻으실 수 있는 기회가 되셨기를 바랍니다.</p>
+
+<p>웨비나에 대한 전체 내용이 궁금하신 분들께서는, 아래 영상을 통해 확인하실 수 있습니다.</p>
+
+<iframe width="600" height="400" src="https://www.youtube.com/embed/QdjEMouytIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>추후에도 웨비나에서 다룬 내용에 대해 궁금하신 점이 있으시면 저희에게 언제든지 알려주세요.</p>
+
+<p>디무브에서는 앞으로도 다양한 주제로 찾아뵐 것을 약속 드리며, 본 포스팅을 마무리하도록 하겠습니다.</p>
+
+<p>감사합니다. 🙂</p>
+
+
+    </div>
+
+</article>
+<div class="inner">
+
+	    <ul style="margin-right: -1.25rem; margin-left: -1.25rem; align-items:center; -webkit-box-align:center;">
+	    <li>
+		    <h4 class="fw_25 fw_400">문의 사항이 있으시면 <br style="display: none! important!;">언제든 문의 부탁드립니다.</h4>
+		    <div class="btn_main_more mt40 mb_t_c">
+		   <a href="http://dmove.co.kr/contact-us/quote-service-inquiry">문의하기</a>
+		    </div>
+	  </li>
+
+	  
+	    </ul>
+</div>
+<div class="post-tags">
+<!-- <a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a> -->
+      <a class="post-tag" href="/categories.html">#Atlassian</a><!-- <a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a> -->
+      <a class="post-tag" href="/categories.html">#아틀라시안</a><!-- <a class="post-tag" href="/tags.html#DevOps">#DevOps</a> -->
+      <a class="post-tag" href="/categories.html">#DevOps</a><!-- <a class="post-tag" href="/tags.html#OpenDevOps">#OpenDevOps</a> -->
+      <a class="post-tag" href="/categories.html">#OpenDevOps</a><!-- <a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a> -->
+      <a class="post-tag" href="/categories.html">#데브옵스</a><!-- <a class="post-tag" href="/tags.html#Bitbucket">#Bitbucket</a> -->
+      <a class="post-tag" href="/categories.html">#Bitbucket</a><!-- <a class="post-tag" href="/tags.html#Jira">#Jira</a> -->
+      <a class="post-tag" href="/categories.html">#Jira</a><!-- <a class="post-tag" href="/tags.html#Confluence">#Confluence</a> -->
+      <a class="post-tag" href="/categories.html">#Confluence</a><!-- <a class="post-tag" href="/tags.html#Opsgenie">#Opsgenie</a> -->
+      <a class="post-tag" href="/categories.html">#Opsgenie</a><!-- <a class="post-tag" href="/tags.html#CICD">#CICD</a> -->
+      <a class="post-tag" href="/categories.html">#CICD</a><!-- <a class="post-tag" href="/tags.html#빌드배포">#빌드배포</a> -->
+      <a class="post-tag" href="/categories.html">#빌드배포</a><!-- <a class="post-tag" href="/tags.html#애자일">#애자일</a> -->
+      <a class="post-tag" href="/categories.html">#애자일</a><!-- <a class="post-tag" href="/tags.html#Agile">#Agile</a> -->
+      <a class="post-tag" href="/categories.html">#Agile</a><!-- <a class="post-tag" href="/tags.html#토크아이티">#토크아이티</a> -->
+      <a class="post-tag" href="/categories.html">#토크아이티</a>
+</div>
+<div class="post-nav">
+<a class="previous" href="/atlassian%20solutions/2021/10/08/Confluence-Tip.3-Link-Jira-To-Confluence.html" title="Confluence 활용 Tip.3 - Jira 이슈와 Confluence 페이지 연결">Confluence 활용 Tip.3 - Jira 이슈와...</a><a class="next" href="/atlassian%20solutions/2021/10/15/Forge-powers-next-generation-app-development-for-Atlassian-cloud.html" title="Atlassian 클라우드 차세대 앱 개발 플랫폼 Forge를 소개합니다.">Atlassian 클라우드 차세대 앱 개발 플랫폼...</a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li><a class="post-link" href="/it%20trend/2021/08/27/benefits-of-remote-work-in-the-cloud.html" title="Atlassian 클라우드 차세대 앱 개발 플랫폼 Forge를 소개합니다.">Atlassian's Tip - 클라우드 시대에 특화된 원격 근무의 장점과 효과</a></li>
+<li><a class="post-link" href="/atlassian%20solutions/2021/08/05/Case-study-Messenger-integration-with-Jira.html" title="Atlassian 클라우드 차세대 앱 개발 플랫폼 Forge를 소개합니다.">Case Study - 아틀라시안 Jira와 사내 메신저 연동</a></li>
+<li><a class="post-link" href="/it%20trend/2021/08/13/How-to-create-inclusive-communities-at-work.html" title="Atlassian 클라우드 차세대 앱 개발 플랫폼 Forge를 소개합니다.">Atlassian Team21 - 직장 내 포괄 공동체 구성 단계 및 운영 방법...</a></li>
+<li><a class="post-link" href="/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud.html" title="Atlassian 클라우드 차세대 앱 개발 플랫폼 Forge를 소개합니다.">2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Cloud</a></li>
+</ul>
+    </div>
+<div class="post-comments"></div></section>
+</div>
+
+
+  </section>
+  <!-- <section>
+    <form action="/search">
+      <div class="tipue_search_left">
+        <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+      </div>
+      <div class="tipue_search_right">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
+      <div style="clear: both;"></div>
+    </form>
+  </section> -->
+  <!-- Search bar -->
+  <section class="sidebar" style="margin-left: 15px;">
+    <form action="/search">
+      <div class="tipue_search_left">
+        <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+      </div>
+      <div class="tipue_search_right">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required>
+</div>
+      <div style="clear: both;"></div>
+    </form>
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">Table of Contents</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h1, h2, h3, h4, h5, h6");
+    var thisfilefullname = document.URL.substring(document.URL.lastIndexOf("/") + 1, document.URL.length);
+
+    console.log(thisfilefullname);
+    
+    // Hide menu when no headings
+    if (headings.length === 0 || thisfilefullname=="about.html") {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        // + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+        + '<a href="#' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+	    <div>Copyright © 2020-2021 @Dmove</div>  <div>TEL: 02-6405-0800 | email : sales@dmove.kr</div>
+    </div>
+     
+  </div>
+</footer>
+</body>
+</html>

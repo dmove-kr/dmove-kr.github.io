@@ -1,0 +1,5518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8DXEPMWW70"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8DXEPMWW70');
+</script>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K4FFWWN');</script>
+<!-- End Google Tag Manager -->
+  <meta name="google-site-verification" content="BDJmAIlOaY_Y8tIVIuF2EpupYw40LrWw9C1ijOMTmU4">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Dmove Blog</title>
+<meta name="generator" content="Jekyll v4.2.1">
+<meta property="og:title" content="블로그">
+<meta name="author" content="Dmove">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다.">
+<meta property="og:description" content="디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다.">
+<link rel="canonical" href="http://localhost:4000/">
+<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:site_name" content="Dmove Blog">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="블로그">
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Dmove"},"url":"http://localhost:4000/","@type":"WebSite","description":"디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다.","headline":"블로그","name":"Dmove Blog","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="/assets/images/banners/favicon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dmove Blog">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<!-- tipuesearch -->
+  <link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/assets/tipuesearch/tipuesearch_content.js"></script>
+  <script src="/assets/tipuesearch/tipuesearch_set.js"></script>
+  <script src="/assets/tipuesearch/tipuesearch.min.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header id="header" class="fixed">
+  <div class="wrapper">
+    <div class="site-header-inner"><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/about.html">디무브 소개</a><a class="page-link" href="/categories.html">카테고리</a><a class="page-link" href="/">블로그</a><a class="page-link" href="/question.html">문의 하기</a>
+
+
+
+
+</div>
+        </nav></div>
+  </div>
+
+
+  <div class="header-bottom">
+    <h1 class="logo">
+      <a href="http://dmove.co.kr/main">
+        <img class="logo_fix_none" src="http://dmove.co.kr/html/_skin/img/common/logo.png" alt="dmove">
+        <img class="logo_fix_only" src="http://dmove.co.kr/html/_skin/img/common/logo_color.png" alt="dmove">
+      </a>
+    </h1>
+  </div>
+</header>
+
+
+
+
+
+<!-- <header class="site-header site-header-transparent" role="banner">
+  <div class="wrapper">
+    <div class="site-header-inner"><span class="site-brand"> <a class="site-brand-inner"  href="/">
+  <img class="site-favicon" src="/assets/images/banners/Dmove.png" onerror="this.style.display='none'">
+
+</a>
+
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger"><a class="page-link" href="/about.html">디무브 소개</a><a class="page-link" href="/categories.html">카테고리</a><a class="page-link" href="/">블로그</a><a class="page-link" href="/question.html">문의 하기</a>
+
+
+
+
+</div>
+        </nav></div>
+  </div>
+</header> -->
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+      // document.getElementById("header").style.backGround = "rgba(255, 255, 255, 0.9) !important;";
+      header.classList.add("headerScroll");
+      document.getElementsByClassName("logo_fix_only").classList.add("logoEnable");
+    } else {
+      if (location.href.substring() == "https://blog.dmove.kr/" && (document.body.scrollTop < 30 || document.documentElement.scrollTop < 30)) {
+        // document.getElementById("header").style.fontSize = "90px";
+        header.classList.remove("headerScroll");
+      } else if (location.href.substring() == "https://blog.dmove.kr/index.html" && (document.body.scrollTop < 30 || document.documentElement.scrollTop < 30)) {
+        header.classList.remove("headerScroll");
+      }
+    }
+  }
+  window.onload = function() {contextPathCheck()};
+  function contextPathCheck() {
+    if (location.href.substring() != "https://blog.dmove.kr/") {
+      header.classList.add("headerScroll");
+      if (location.href.substring() == "https://blog.dmove.kr/index.html") {
+        header.classList.remove("headerScroll");
+      }
+      document.getElementsByClassName("logo_fix_only").classList.add("logoEnable");
+    } else {
+      header.classList.remove("headerScroll");
+    }
+  }
+
+  // (function() {
+  //   var lastScrollY = getScrollPos().y;
+  //   var documentElement = document.documentElement;
+
+  //   function storeScrollData() {
+  //     var y = getScrollPos().y;
+
+  ////     documentElement.setAttribute("data-header-transparent", "");
+  ////     var scrollStatus = "";
+
+  //     if (y <= 0) {
+  //       scrollStatus = "top";
+  //     } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+  //       scrollStatus = "bottom";
+  //     } else {
+  //       var isScrollDown = (y - lastScrollY > 0) ? true : false;
+  //       scrollStatus = isScrollDown ? "down" : "up";
+  //     }
+
+  //     lastScrollY = y;
+  //     documentElement.setAttribute("data-scroll-status", scrollStatus);
+  //   }
+
+  //   window.addEventListener('scroll', function(e) {
+  //     storeScrollData();
+  //   });
+
+  //   storeScrollData();
+  // })();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="page-banner">
+    <div class="page-banner-img">
+      <div style="background-image: url(/assets/images/banners/bg_sub_visual_01.jpg)"></div>
+    </div>
+    <div class="wrapper">
+      <div class="page-banner-inner"><div class="page-banner-default">
+            <h1 class="page-banner-heading">
+              Welcome! Dmove Blog
+            </h1>
+            <h2 class="page-banner-subheading">
+              기술과 문화 그리고 다양한 소식들을 공유합니다.
+            </h2>
+          </div></div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<!-- <div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div> -->
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="articles">
+
+
+
+
+
+  <div class="pagination">
+  <!-- Post list links -->
+  <ul class="post-list">
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Server.html">
+          2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Server,DC
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Dec 28, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 11 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요. 디무브입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">이번 시간에는 4분기인 10~12월 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence 서버 및 데이터 센터 버전에 어떠한 변화가 있었는지 정리해 보았습니다.
+
+많은 기능들이 개선되었으니 꼭 확인해보세요!
+
+
+
+1. Jira Software
+
+■ Version 8.20.x
+
+1. Jira Data Center 8.20.0 LTS(Long Term Support) 버전의 Advanced Roadmap 기능 지원
+
+Advanced Roadmap 기능은 지난 Jira Software 8.15.x rel...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안 클라우드">#아틀라시안 클라우드</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#jira">#jira</a><a class="post-tag" href="/tags.html#Jira Cloud">#Jira Cloud</a><a class="post-tag" href="/tags.html#Release">#Release</a><a class="post-tag" href="/tags.html#Release Note">#Release Note</a><a class="post-tag" href="/tags.html#Jira Sofrware">#Jira Sofrware</a><a class="post-tag" href="/tags.html#Jira Service Management">#Jira Service Management</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#컨플">#컨플</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a><a class="post-tag" href="/tags.html#dev">#dev</a><a class="post-tag" href="/tags.html#Dev">#Dev</a><a class="post-tag" href="/tags.html#에자일">#에자일</a><a class="post-tag" href="/tags.html#Agile">#Agile</a><a class="post-tag" href="/tags.html#Wiki">#Wiki</a>--><h2 id="Atlassian Release Note" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Release%20Note"># Atlassian Release Note</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud.html">
+          2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Cloud
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Dec 28, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요. 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">이번 시간에는 4분기인 10~12월 동안 아틀라시안의 주요 제품인 Jira, Jira Service Management, Confluence Cloud 버전에 어떠한 변화가 있었는지 정리해 보았습니다.
+
+많은 기능들이 개선되었으니 꼭 확인해보세요!
+
+
+
+Jira Software
+
+1. Cloud to Cloud Migration 지원
+
+
+
+기존에는 클라우드 사이트 간 마이그레이션 진행 시 백업 후 서버로 데이터를 이동 한 뒤에 서버에서 Migration Assistant Tool을 사용하여 마이그레이션을 진행하거나 백업 파일을 바로 새로운 클라우드 사이트에 복원 ...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안클라우드">#아틀라시안클라우드</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#jira">#jira</a><a class="post-tag" href="/tags.html#Jira Cloud">#Jira Cloud</a><a class="post-tag" href="/tags.html#Release">#Release</a><a class="post-tag" href="/tags.html#Release Note">#Release Note</a><a class="post-tag" href="/tags.html#Jira Sofrware">#Jira Sofrware</a><a class="post-tag" href="/tags.html#Jira Service Management">#Jira Service Management</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#컨플">#컨플</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a><a class="post-tag" href="/tags.html#dev">#dev</a><a class="post-tag" href="/tags.html#Dev">#Dev</a><a class="post-tag" href="/tags.html#에자일">#에자일</a><a class="post-tag" href="/tags.html#Agile">#Agile</a><a class="post-tag" href="/tags.html#Wiki">#Wiki</a>--><h2 id="Atlassian Release Note" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Release%20Note"># Atlassian Release Note</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary.html">
+          웨비나 생생후기 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Dec 20, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요. 디무브 입니다.  🎈
+
+지난 12월14일 화요일 오후4시 진행된 디무브의 “제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제” 웨비나가 종료되었습니다.
+
+지난 10월 디무브에서는 IAM 업계의 글로벌 리더인 Okta와 파트너쉽을 체결하며, 클라우드 환경에서의 계정 관리와 보안강화는 물론 아틀라시안 솔루션과의 연동을 통한 확장을 제공하게 되었습니다.
+
+이에 따라 이번 웨비나에서는 아틀라시안의 클라우드 ID 및 보안 환경을 명확하게 이해하고 보안을 강화할 수 있는 방법과 Okta의 IAM 솔루션을 통해 사용자 관리를 위한 프로세스를 개선할 수 있는 핵심 전략을 소개해드렸는데요.
+
+많은 기업들...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#옥타">#옥타</a><a class="post-tag" href="/tags.html#Okta">#Okta</a><a class="post-tag" href="/tags.html#IAM">#IAM</a><a class="post-tag" href="/tags.html#SSO">#SSO</a><a class="post-tag" href="/tags.html#IDaaS">#IDaaS</a><a class="post-tag" href="/tags.html#클라우드계정관리">#클라우드계정관리</a><a class="post-tag" href="/tags.html#제로트러스트">#제로트러스트</a><a class="post-tag" href="/tags.html#Zerotrust">#Zerotrust</a><a class="post-tag" href="/tags.html#클라우드보안">#클라우드보안</a><a class="post-tag" href="/tags.html#Cloud">#Cloud</a><a class="post-tag" href="/tags.html#ID Management">#ID Management</a><a class="post-tag" href="/tags.html#TalkIT">#TalkIT</a><a class="post-tag" href="/tags.html#토크아이티">#토크아이티</a>--><h2 id="News and Events" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#News%20and%20Events"># News and Events</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/12/15/CVE-2021-44228-Atlassian-Products.html">
+          CVE-2021-44228 보안 취약점 안내
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Dec 15, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 5 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다! 🎈
+
+현재 Log4j 라이브러리에서 중요한 보안 취약점이 발견되어 안내드립니다.
+
+해당 취약점은 log4j 2.14.1 이하 버전의 jndi 를 사용하여 LDAP 이나 jndi 기반 엔드 포인트의 컨피그레이션이나 로깅, 파라미터 전달 했을 시에 영향을 받는 취약점입니다.
+
+이 취약점은 로그 메시지 또는 로그 메시지 매개 변수를 제어할 수 있는 해커가 LDAP 서버에서 로드된 임의 코드를 실행하여 데이터 불법 취득이나, 삭제 악성 프로그램 실행 등이 가능할 것이라 전망하고 있습니다.
+
+
+
+취약점에 대한 아틀라시안 클라우드 제품의 영향
+
+아틀라시안 클라우드를 사용하는 고객분들은 해당 보안...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#CVE-2021-44228">#CVE-2021-44228</a><a class="post-tag" href="/tags.html#보안취약점">#보안취약점</a><a class="post-tag" href="/tags.html#Log4j">#Log4j</a><a class="post-tag" href="/tags.html#Log">#Log</a><a class="post-tag" href="/tags.html#log">#log</a><a class="post-tag" href="/tags.html#log4j">#log4j</a><a class="post-tag" href="/tags.html#JNDI">#JNDI</a><a class="post-tag" href="/tags.html#jndi">#jndi</a><a class="post-tag" href="/tags.html#LDAP">#LDAP</a><a class="post-tag" href="/tags.html#ldap">#ldap</a><a class="post-tag" href="/tags.html#JMS">#JMS</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/it%20trend/2021/12/13/Dev-Sec-Ops-with-Atlassian-Data-Center.html">
+          보안 담당자가 DevSecOps에 주목해야 하는 이유
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Dec 13, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다!🎈
+
+사이버 보안은 현대의 정부 기관이 직면한 가장 중요한 문제 중 하나입니다.
+
+이는 미국 바이든 대통령의 행정 명령에서도 잘 알 수 있는데요.
+
+Solarwinds, Microsoft, Colonial Pipeline에 대한 사이버 공격으로 등장한 이 행정 명령은 정부 기관과 국가 전체의 보안을 강화하기 위해 설계되었지만 효율성과 보안 사이의 복잡성을 높이는 결과를 가져왔습니다.
+
+그래서 이번 포스팅에서는 이러한 복잡성을 해결하고 효율성과 보안성을 보다 강화할 수 있는 DevSecOps에 대해 다루고자 합니다.
+
+
+  DevSecOps란?
+
+  개발(Development), 보안(S...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#DevOos">#DevOos</a><a class="post-tag" href="/tags.html#DevSecOps">#DevSecOps</a><a class="post-tag" href="/tags.html#아틀라시안 데이터센터">#아틀라시안 데이터센터</a><a class="post-tag" href="/tags.html#Data Center">#Data Center</a><a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a><a class="post-tag" href="/tags.html#데브섹옵스">#데브섹옵스</a><a class="post-tag" href="/tags.html#SecOps">#SecOps</a><a class="post-tag" href="/tags.html#디무브">#디무브</a><a class="post-tag" href="/tags.html#Dmove">#Dmove</a>--><h2 id="IT Trend" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#IT%20Trend"># IT Trend</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/news%20and%20events/2021/12/06/Atlassian-Okta-ID-and-Access-Management-Webinar.html">
+          2021년 12월 디무브 웨비나 안내 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Dec 06, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요. 디무브 입니다. 🎈
+
+디무브에서 Atlassian 및 Okta 솔루션을 통한 클라우드 ID 관리를 주제로 웨비나를 진행합니다.
+
+많은 참여 부탁 드립니다!
+
+
+      사전등록 하러가기
+
+
+
+
+
+
+디무브 웨비나 안내
+
+주제: 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제
+
+날짜: 2021년 12월 14일
+
+시간: 오후4시 ~ 오후5시
+
+장소: 온라인세미나
+
+많은 기업들이 클라우드로의 여정을 시작하고 새로운 기술과 플랫폼이 지속적으로 확산됨에 따라, SaaS와 온프레미스 앱 모두에 대한 ID 및 액세스 관리는 보안의 핵심 요소가 되었습니다.
+
+따라서 IT관리자는 적합한 사람...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#Okta">#Okta</a><a class="post-tag" href="/tags.html#옥타">#옥타</a><a class="post-tag" href="/tags.html#토크아이티">#토크아이티</a><a class="post-tag" href="/tags.html#아틀라시안웨비나">#아틀라시안웨비나</a><a class="post-tag" href="/tags.html#옥타웨비나">#옥타웨비나</a><a class="post-tag" href="/tags.html#IAM">#IAM</a><a class="post-tag" href="/tags.html#Identity Management">#Identity Management</a><a class="post-tag" href="/tags.html#Access Management">#Access Management</a><a class="post-tag" href="/tags.html#Cloud">#Cloud</a><a class="post-tag" href="/tags.html#Zero Trust">#Zero Trust</a><a class="post-tag" href="/tags.html#제로트러스트">#제로트러스트</a><a class="post-tag" href="/tags.html#계정관리">#계정관리</a><a class="post-tag" href="/tags.html#클라우드 연동">#클라우드 연동</a>--><h2 id="News and Events" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#News%20and%20Events"># News and Events</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/zabbix/2021/11/26/Zabbix-Case-Study-Harp-Japan.html">
+          Zabbix Case Study - Harp 구축 사례
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Nov 26, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 5 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+
+
+안녕하세요, 디무브입니다! 🎈
+
+이번 시간에는 일본의 대표적인 클라우드 서비스 전문 기관인 Harp사의 Zabbix 도입에 대한 Case Study를 설명해드리려고 합니다.
+
+Harp 회사는 이미 2010년 부터 Zabbix 2.0 버전을 도입하여 사용해왔고, 최근 최신 버전의 Zabbix 버전으로 업그레이드 하였습니다. 어떻게 그들이 Zabbix를 도입하여 발전하게 되었고, 오랜 기간동안 Zabbix를 사용할 수 있었던 핵심 적인 이유는 무엇이 있는지 확인해 보겠습니다.
+
+
+
+Preview
+
+1. 서버 구성
+
+
+
+
+      시스템 구성
+      **Zabbix 서버 하드웨어**
+
+ ...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Dmove">#Dmove</a><a class="post-tag" href="/tags.html#Zabbix">#Zabbix</a><a class="post-tag" href="/tags.html#자빅스">#자빅스</a><a class="post-tag" href="/tags.html#모니터링솔루션">#모니터링솔루션</a><a class="post-tag" href="/tags.html#모니터링툴">#모니터링툴</a><a class="post-tag" href="/tags.html#자빅스 구축">#자빅스 구축</a><a class="post-tag" href="/tags.html#Case Study">#Case Study</a><a class="post-tag" href="/tags.html#Harp">#Harp</a><a class="post-tag" href="/tags.html#Zabbix">#Zabbix</a>--><h2 id="Zabbix" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Zabbix"># Zabbix</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/11/15/Manage-Change-in-Atlassian-Cloud.html">
+          아틀라시안 클라우드 제품의 변경 관리를 위한 4가지 방법
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Nov 15, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다! 🎈
+
+IT 인프라는 빠르게 변화하고 있으며, 제품 출시 기간은 점점 짧아지고 있습니다. 이러한 상황에서 모든 변화를 통제하는 것은 불가능 하지만, 잘 대비할 수 있도록 준비하고 계획하는 것이 중요합니다.
+
+이번 포스팅에서는 제품의 업데이트 및 출시로 인한 워크플로우 중단을 방지하는데 도움이 되는 4가지 변경 관리 방법에 대해 다뤄보고자 합니다.
+
+
+
+조직의 관리자는 여러 면에서 선박의 조타수와 같은 역할을 합니다. 조직은 관리자가 가지고 있는 기술적 능력을 기반으로 새로운 기술과 개선 사항들을 제공해 주기를 바랍니다.
+
+성장하는 조직에서는 제품의 작은 변화로도 조직과 사용자에게 큰 영...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#변경관리">#변경관리</a><a class="post-tag" href="/tags.html#Change Management">#Change Management</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#디무브">#디무브</a><a class="post-tag" href="/tags.html#아틀라시안 릴리즈 노트">#아틀라시안 릴리즈 노트</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/11/09/CVE-2021-42574-Atlassian-Products.html">
+          CVE-2021-42574 보안 취약점 관련 Atlassian 제품 업그레이드 권장 안내
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Nov 09, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다! 🎈
+
+유니코드(Unicode) 시스템과 관련하여 악의적인 목적인 소스코드를 주입할 수 있는 취약점인 CVE-2021-42574이 아틀라시안의 여러 제품에 영향을 줄 수 있음이 확인되었습니다.
+
+해당 취약점은 유니코드의 자체 제어 장치에 악성 코드를 심는 트로얀 소스를 삽입하는 공격 기법으로 적용 시 사람의 눈과 코드 편집기, 컴파일러를 모두 피해 악성 코드를 적용할 수 있습니다.
+
+유니코드는 거의 모든 시스템에서 ‘복사 및 붙여넣기’ 기능을 통해서도 간편하게 옮겨집니다.
+
+특히 깃허브 등을 통해 공유되는 코드들은 ‘복사 및 붙여넣기’를 통해 코드의 정상적인 부분을 실행했을 뿐인데 자기...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#CVE-2021-42574">#CVE-2021-42574</a><a class="post-tag" href="/tags.html#보안취약점">#보안취약점</a><a class="post-tag" href="/tags.html#컨플루언스">#컨플루언스</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#보안패치">#보안패치</a><a class="post-tag" href="/tags.html#트로얀소스">#트로얀소스</a><a class="post-tag" href="/tags.html#유니코드취약점">#유니코드취약점</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/10/27/Gartner-Magic-Quadrant-for-ITSM-Atlassian.html">
+          2021 ITSM 가트너 매직쿼드런트 - Atlassian, 유일한 "Visionary"로 선정
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Oct 27, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+      </div>
+      <p class="post-excerpt">
+        안녕하세요, 디무브입니다! 🎈
+
+IT리서치 전문 가트너(Gartner)에서 매년 발행하는 보고서 중 하나인 매직 쿼드런트는 ‘실행 능력(Ability to Execute)’과 ‘비전 완성도(Completeness of Vision)에 따라 해당 기술 분야의 기업을 4사분면(Niche Players, Visionaries, Challengers, Leaders) 형태로 선정하여 공시하고 있습니다.
+
+이를 통해 해당 기술 분야의 기업들이 비전을 얼마나 잘 수행하고 있는지, 가트너 시장 전망에 얼마나 잘 부합하는지 파악할 수 있으며, 전세계의 기업 담당자는 해당 분야의 솔루션이나 서비스 도입을 검토할 때 이 보고서를 적...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안클라우드">#아틀라시안클라우드</a><a class="post-tag" href="/tags.html#Jira Service MAnagement">#Jira Service MAnagement</a><a class="post-tag" href="/tags.html#Gartner">#Gartner</a><a class="post-tag" href="/tags.html#ITSM">#ITSM</a><a class="post-tag" href="/tags.html#IT서비스관리">#IT서비스관리</a><a class="post-tag" href="/tags.html#Magic Quadrant">#Magic Quadrant</a><a class="post-tag" href="/tags.html#매직쿼드런트">#매직쿼드런트</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/news%20and%20events/2021/10/19/Adaptavist-Partnership-Announcement.html">
+          Adaptavist 파트너쉽 및 ScriptRunner(Atlassian Add-on)소개
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Oct 19, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다! 🎈
+
+디무브가 한국 파트너사로는 최초로 아틀라시안의 마켓플레이스 탑 애플리케이션 벤더사인 “Adaptavist”와 파트너쉽을 맺게 되었습니다.
+
+Adaptavist는 “ScriptRunner for Jira”라는 제품을 중심으로 아틀라시안 제품의 기능 확장을 위한 애플리케이션을 개발하고 제공하는 소프트웨어 회사입니다.
+
+전 세계 약 3만 고객이 선택한 Scriptrunner for Jira는 자동화와 커스터마이징을 위한 지라의 필수 애드온이며, Content Formatting Macros for Confluence 및 Forms for Confluence와 같은 Confluence ...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안클라우드">#아틀라시안클라우드</a><a class="post-tag" href="/tags.html#Jira Cloud">#Jira Cloud</a><a class="post-tag" href="/tags.html#Adaptavist">#Adaptavist</a><a class="post-tag" href="/tags.html#Jira Sofrware">#Jira Sofrware</a><a class="post-tag" href="/tags.html#Atlassian Marketplace">#Atlassian Marketplace</a><a class="post-tag" href="/tags.html#scriptrunner">#scriptrunner</a>--><h2 id="News and Events" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#News%20and%20Events"># News and Events</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/10/15/Forge-powers-next-generation-app-development-for-Atlassian-cloud.html">
+          Atlassian 클라우드 차세대 앱 개발 플랫폼 Forge를 소개합니다.
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Oct 15, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 7 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!🎈
+
+Atlasian에서는 마켓플레이스를 통해 제품의 기능 확장, 통합 등을 지원하고 있습니다.
+
+현재 Atlassian 마켓플레이스에는 약 14,000개의 클라우드용 앱이 올라와 있는데요.
+
+최근 Atlasian에서는 차세대 클라우드 앱 개발 플랫폼인 Forge 를 정식으로 출시하였습니다.
+
+이번 포스팅에서는 Atlassian이 발표한 클라우드 용 차세대 앱 개발 지원 플랫폼인 Forge에 대해 살펴보겠습니다.
+
+Atlassian 클라우드 용 차세대 앱 개발 지원 플랫폼 Forge
+
+Atlassian 제품을 사용하는 200,000명 이상의 개별 고객들은 각자가 해결해야 할 문제를 가...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#Cloud">#Cloud</a><a class="post-tag" href="/tags.html#클라우드">#클라우드</a><a class="post-tag" href="/tags.html#Forge">#Forge</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#Altassian Cloud">#Altassian Cloud</a><a class="post-tag" href="/tags.html#Atlassian Marketplace">#Atlassian Marketplace</a><a class="post-tag" href="/tags.html#아틀라시안마켓플레이스">#아틀라시안마켓플레이스</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/news%20and%20events/2021/10/14/Atlassian-DevOps-in-Cloud-Webinar-Summary.html">
+          웨비나 생생후기 - 클라우드 환경에서의 성공적인 DevOps 도입
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Oct 14, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요. 디무브 입니다.  🎈
+
+지난 10월7일 목요일 오후4시 진행된 디무브의 “클라우드 환경에서의 성공적인 Atlassian DevOps 도입” 웨비나가 종료되었습니다.
+
+1시간이라는 짧은 시간이었지만, 디무브에서는 DevOps를 성공적으로 안착시키기 위해 조직이 변화해야 하는 이유가 무엇인지, 아틀라시안 솔루션을 통해 어떻게 DevOps를 효과적으로 구성할 수 있는지를 소개해드리고 성공적인 전략 수립과 수행 방법을 제시하고자 하였습니다.
+
+예상했던 것보다 훨씬 많은 분들께서 관심을 가져주시고 적극적으로 참여해주신 덕분에 준비한 웨비나를 잘 진행할 수 있었고, DevOps에 대한 업계의 관심과 중요성을 ...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#OpenDevOps">#OpenDevOps</a><a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a><a class="post-tag" href="/tags.html#Bitbucket">#Bitbucket</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#Opsgenie">#Opsgenie</a><a class="post-tag" href="/tags.html#CICD">#CICD</a><a class="post-tag" href="/tags.html#빌드배포">#빌드배포</a><a class="post-tag" href="/tags.html#애자일">#애자일</a><a class="post-tag" href="/tags.html#Agile">#Agile</a><a class="post-tag" href="/tags.html#토크아이티">#토크아이티</a>--><h2 id="News and Events" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#News%20and%20Events"># News and Events</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/10/08/Confluence-Tip.3-Link-Jira-To-Confluence.html">
+          Confluence 활용 Tip.3 - Jira 이슈와 Confluence 페이지 연결
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Oct 08, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!
+
+Jira는  버그 추적, 이슈 추적 등 전체적인 프로젝트 관리를 수행할 수 있는 아틀라시안의 대표적인 솔루션 입니다.
+
+Jira에서 생성한 이슈를 기반으로 수많은 계획과 논의 사항이 발생하지만 모든 내용을 jira에 정리하기는 쉽지 않습니다.
+
+Confluence는 아틀라시안의 문서 관리 솔루션으로 논의 사항, 세부 수정 사항 등 Jira에서 발생한 많은 사항들을 쉽게 정리할 수 있어 Jira와 Confluence를 같이 사용하게 되면 프로젝트의 완성도를 더욱 높일 수 있습니다.
+
+이번 시간에는 업무를 편하게 진행할 수 있도록 Confluence의 페이지와 Jira의 이슈를 연결하...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#컨플루언스">#컨플루언스</a><a class="post-tag" href="/tags.html#프로젝트관리">#프로젝트관리</a><a class="post-tag" href="/tags.html#Confluence 활용">#Confluence 활용</a><a class="post-tag" href="/tags.html#KMS">#KMS</a><a class="post-tag" href="/tags.html#문서관리">#문서관리</a><a class="post-tag" href="/tags.html#협업솔루션">#협업솔루션</a><a class="post-tag" href="/tags.html#협업도구">#협업도구</a><a class="post-tag" href="/tags.html#지라">#지라</a><a class="post-tag" href="/tags.html#Jira">#Jira</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/news%20and%20events/2021/10/01/Atlassian-Webinar-OpenDevOps-in-Cloud.html">
+          2021년 10월 아틀라시안 웨비나 안내 - 클라우드 환경에서의 성공적인 DevOps 도입
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Oct 01, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 2 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요. 디무브 입니다. 🎈
+
+디무브에서 Atlassian Cloud 기반의 DevOps를 주제로 웨비나를 진행합니다.
+
+많은 참여 부탁 드립니다!
+
+
+      사전등록 하러가기
+
+
+
+
+웨비나 소개
+
+주제: 클라우드 환경에서의 성공적인 Atlassian DevOps 도입
+
+날짜: 2021년 10월 7일
+
+시간: 오후4시 ~ 오후5시
+
+장소: 온라인세미나
+
+
+
+“DevOps”란 전체적인 개발 프로세스에서 개발과 운영 사이의 장벽을 허무는 사고 방식과 문화적 변화를 의미합니다.
+
+DevOps의 궁극적인 목표는 개발 팀과 운영 팀 간의 업무 프로세스를 자동화하고 통합하여 제품을 더 빠르고 안정적으로 ...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#OpenDevOps">#OpenDevOps</a><a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a><a class="post-tag" href="/tags.html#Bitbucket">#Bitbucket</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#Opsgenie">#Opsgenie</a><a class="post-tag" href="/tags.html#CICD">#CICD</a><a class="post-tag" href="/tags.html#빌드배포">#빌드배포</a><a class="post-tag" href="/tags.html#애자일">#애자일</a><a class="post-tag" href="/tags.html#Agile">#Agile</a>--><h2 id="News and Events" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#News%20and%20Events"># News and Events</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20release%20note/2021/09/28/3Q2021-Atlassian-Release-Notes-Server.html">
+          2021 Atlassian 주요 제품 릴리즈 노트 (Jul ~ Sep) - Server,DC
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Sep 28, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 14 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">이번 시간에는 3분기인 7~9월 동안 아틀라시안의 주요 제품인 Jira, Jira Service Management, Confluence 서버 및 데이터 센터 버전에 어떠한 변화가 있었는지 정리해 보았습니다.
+
+많은 기능들이 개선되었으니 꼭 확인해보세요!
+
+
+
+1. Jira Software
+
+■ Version 8.19.x
+
+1. 더 쉬워진 중복된 사용자 계정 찾기
+
+이번 릴리즈에서 Atlassian은 관리자가 Jira 서버 플랫폼의 REST API 기능을 활용하여 어떤 계정이 중복되고 어디에 저장되어 있는지 보다 쉽게 파악할 수 있도록 했습니다. 이에 관한 더 자...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안 클라우드">#아틀라시안 클라우드</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#jira">#jira</a><a class="post-tag" href="/tags.html#Jira Cloud">#Jira Cloud</a><a class="post-tag" href="/tags.html#Release">#Release</a><a class="post-tag" href="/tags.html#Release Note">#Release Note</a><a class="post-tag" href="/tags.html#Jira Sofrware">#Jira Sofrware</a><a class="post-tag" href="/tags.html#Jira Service Management">#Jira Service Management</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#컨플">#컨플</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a><a class="post-tag" href="/tags.html#dev">#dev</a><a class="post-tag" href="/tags.html#Dev">#Dev</a><a class="post-tag" href="/tags.html#에자일">#에자일</a><a class="post-tag" href="/tags.html#Agile">#Agile</a><a class="post-tag" href="/tags.html#Wiki">#Wiki</a>--><h2 id="Atlassian Release Note" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Release%20Note"># Atlassian Release Note</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20release%20note/2021/09/28/3Q2021-Atlassian-Release-Notes-Cloud.html">
+          2021 Atlassian 주요 제품 릴리즈 노트 (Jul ~ Sep) - Cloud
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Sep 28, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 7 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요. 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">이번 시간에는 3분기인 7~9월 동안 아틀라시안의 주요 제품인 Jira, Jira Service Management, Confluence Cloud 버전에 어떠한 변화가 있었는지 정리해 보았습니다.
+
+많은 기능들이 개선되었으니 꼭 확인해보세요!
+
+
+
+Jira Software
+
+7월
+
+1. 자동으로 담당자 설정(Jira Service Management도 동일)
+
+
+
+기존에는 프로젝트 이슈에 대한 담당자를 자동으로 설정하기 위해서는 Automation에서 규칙을 만들어 담당자를 설정해야 했습니다. 이번 릴리즈 업데이트에서는  컴포넌트 또는 세부 사항에서 담당자를 설...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안클라우드">#아틀라시안클라우드</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#jira">#jira</a><a class="post-tag" href="/tags.html#Jira Cloud">#Jira Cloud</a><a class="post-tag" href="/tags.html#Release">#Release</a><a class="post-tag" href="/tags.html#Release Note">#Release Note</a><a class="post-tag" href="/tags.html#Jira Sofrware">#Jira Sofrware</a><a class="post-tag" href="/tags.html#Jira Service Management">#Jira Service Management</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#컨플">#컨플</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a><a class="post-tag" href="/tags.html#dev">#dev</a><a class="post-tag" href="/tags.html#Dev">#Dev</a><a class="post-tag" href="/tags.html#에자일">#에자일</a><a class="post-tag" href="/tags.html#Agile">#Agile</a><a class="post-tag" href="/tags.html#Wiki">#Wiki</a>--><h2 id="Atlassian Release Note" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Release%20Note"># Atlassian Release Note</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/09/24/October-2021-Atlassian-Cloud-Pricing-Changes.html">
+          2021년 10월 아틀라시안 클라우드 가격 인상 안내
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Sep 24, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 2 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다! 🎈
+
+Atlassian에서 2021년 10월 12일부터 클라우드 구독에 대한 새로운 가격 정책이 반영될 예정임을 밝혔습니다.
+
+이는 보다 생산적인 플랫폼을 구축하기 위한 지속적인 투자를 반영한 것이며 변경 사항은 월간 및 연간 구독 모두 포함됩니다.
+
+가격 인상이 적용되는 제품은 아래와 같습니다.
+
+
+
+    Jira Software: Standard, Premium, Enterprise (up to 5%)
+
+
+    Jira Service Management: Premium, Enterprise (up to 5%)
+
+
+    Confluence: Standard, ...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#클라우드">#클라우드</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#Jira Service Management">#Jira Service Management</a><a class="post-tag" href="/tags.html#Atlassian Access">#Atlassian Access</a><a class="post-tag" href="/tags.html#협업툴">#협업툴</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/09/23/step-up-your-devops-game.html">
+          DevOps로 나아가기 위한 4가지 주요 방법
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Sep 23, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다! 🎈
+
+현재 업무를 수행하고 있는 대부분의 팀은 목표를 달성하는 데 필요한 여러 업체의 다양한 도구를 사용하고 있습니다.
+
+그러나 Atlassian에서 조사한 2020 DevOps Trends Survey에서 알 수 있듯이 많은 팀들이 DevOps 구현에 어려움을 겪고 있습니다.
+
+DevOps로의 전환에는 문화적, 기술적 변화가 모두 필요하기 때문입니다.
+
+작년 10월, Atlassian의 Ian Buchanan(주요 솔루션 설계자이자 DevOps 전문가)은 “DevOps 통합을 위한 4가지 중요 요소“라는 주제로 웨비나를 주최했습니다.
+
+이 웨비나에서 Ian은 어떻게 파트너 에코 시스...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#DevSecOps">#DevSecOps</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Bitbucket">#Bitbucket</a><a class="post-tag" href="/tags.html#개발자">#개발자</a><a class="post-tag" href="/tags.html#Agile">#Agile</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/09/17/Confluence-Tip.2-Write-Documentation-with-Template.html">
+          Confluence 활용 Tip.2 - 페이지 템플릿을 통한 효과적인 문서 작성
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Sep 17, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 8 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다! 🎈
+
+Atlassian의 Confluence는 소프트웨어 개발부터 대규모 마케팅 캠페인에 이르기까지 업무 전반에 걸쳐 사용되고 있습니다.
+
+특히  Confluence의 템플릿은 빈 페이지에서 양식을 만드는 번거로움을 줄이기 위해 각 업무 용도에 맞는 양식을 제공하여 사용자가 쉽게 페이지를 작성할 수 있도록 해왔습니다.
+이에 몇 년동안 Confluence를 사용하는 팀은 폭발적으로 증가했습니다.
+Confluence 사용자들은 전형적인 미팅 노트나 프로젝트 요구 사항 페이지가 아닌 창의적인 방법으로 페이지를 만들어 사용하고 있습니다.
+
+오늘 저희는 Confluence를 사용하는 아틀라...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#컨플루언스">#컨플루언스</a><a class="post-tag" href="/tags.html#프로젝트관리">#프로젝트관리</a><a class="post-tag" href="/tags.html#Confluence 활용">#Confluence 활용</a><a class="post-tag" href="/tags.html#KMS">#KMS</a><a class="post-tag" href="/tags.html#문서관리">#문서관리</a><a class="post-tag" href="/tags.html#협업솔루션">#협업솔루션</a><a class="post-tag" href="/tags.html#협업도구">#협업도구</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/09/10/3Ways-Confluence-Makes-Project-Management-Easy.html">
+          Confluence 활용 Tip.1 - 프로젝트를 효과적으로 관리하는 3가지 방법
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Sep 10, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다! 🎈
+
+Atlassian의 Confluence는 소프트웨어 개발부터 대규모 마케팅 캠페인에 이르기까지 업무 전반에 걸쳐 사용되고 있습니다.
+
+Confluence는 언제 어디서나 업무를 진행할 수 있고 부서 또는 프로젝트에 맞는 템플릿 기본적으로 제공됩니다.
+
+성공적인 프로젝트 결과를 보장하기 위해서는 모두가 협동해야하며, Confluence를 사용하는 팀은 한 곳에서 지속적으로 피드백을 주고 받으며 동일한 방향으로 나아갈 수 있습니다.
+
+오늘은 Confluence를 활용하여 프로젝트 진행 시 업무 부담을 줄일 수 있는 세 가지 방법에 대해 이야기 하고자 합니다.
+
+1.한 곳에 프로젝트 ...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#컨플루언스">#컨플루언스</a><a class="post-tag" href="/tags.html#프로젝트관리">#프로젝트관리</a><a class="post-tag" href="/tags.html#Confluence 활용">#Confluence 활용</a><a class="post-tag" href="/tags.html#KMS">#KMS</a><a class="post-tag" href="/tags.html#문서관리">#문서관리</a><a class="post-tag" href="/tags.html#협업솔루션">#협업솔루션</a><a class="post-tag" href="/tags.html#협업도구">#협업도구</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/09/08/CVE-2021-26084-Confluence-Server.html">
+          CVE-2021-26084 보안 취약점 관련 Confluence 업그레이드 권장 안내
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Sep 08, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다! 🎈
+
+지난 8월 25일, Atlasssian은 원격코드 실행 취약점(CVE-2021-26084)을 악용한 랜섬웨어를 비롯해 다양한 사이버공격으로부터 대응하기 위하여 Confluence RCE(원격 코드 실행) 취약점 해결을 위한 보안 업데이트를 발표하였습니다.
+
+Atlassian에 따르면 OGNL 인젝션(원격코드 주입)을 통해 인증되지 않은 사용자 역시 컨플루언스 서버 및 데이터센터에서 임의 코드를 실행할 수 있는 상황입니다.
+
+따라서 아직 보안 패치가 완료되지 않은 Confluence 서버에 대한 공격이 진행 중이므로, 해당 제품을 사용하시는 고객 분들께서는 긴급 패치 작업이 필요합...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#CVE-2021-26084">#CVE-2021-26084</a><a class="post-tag" href="/tags.html#보안취약점">#보안취약점</a><a class="post-tag" href="/tags.html#컨플루언스">#컨플루언스</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#보안패치">#보안패치</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/09/03/Zero-Trust-Security.html">
+          제로 트러스트(Zero Trust) - Atlassian Cloud의 보안 모델
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Sep 03, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다! 🎈
+
+지금까지 우리는 수십 년 동안 온프레미스 환경 전체를 하나의 큰 경계로 보호하는 “성과 성벽” 보안 모델에 의존해왔습니다.
+
+대부분의 기업은 사이버 보안에 있어서 획일적이며 강력한 경계로 조직을 보호하기 위해 구성하여 네트워크 내의 모든 것을 보호하도록 설계하였는데요.
+
+이는 곧 방화벽을 통과한 네트워크 내의 모든 사용자와 장치, 앱을 신뢰할 수 있다는 원칙을 기반으로 합니다.
+
+사무실 외부에 있는 직원은 VPN을 통해 접근할 수 있도록 하여 회사 네트워크에 대한 보안을 보다 안전하게 구축할 수 있었습니다.
+
+그러나, 오늘날의 클라우드 환경에서는 더이상 기존의 “성과 성벽” 보...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#Cloud 보안">#Cloud 보안</a><a class="post-tag" href="/tags.html#제로트러스트">#제로트러스트</a><a class="post-tag" href="/tags.html#Zero trust">#Zero trust</a><a class="post-tag" href="/tags.html#Atlassian Access">#Atlassian Access</a><a class="post-tag" href="/tags.html#Access Management">#Access Management</a><a class="post-tag" href="/tags.html#클라우드계정관리">#클라우드계정관리</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/it%20trend/2021/08/27/benefits-of-remote-work-in-the-cloud.html">
+          Atlassian's Tip - 클라우드 시대에 특화된 원격 근무의 장점과 효과
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Aug 27, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+안녕하세요, 디무브 입니다! 🎈
+
+코로나로 인한 팬데믹 현상이 전 세계적으로 장기화 되고 있는 지금, 원격 근무는 선택이 아닌 필수가 되었는데요.
+
+다행인 점은, 클라우드 환경에서는 보다 쉽게 원격 근무의 이점을 누릴 수 있다는 것입니다.
+
+사실, 코로나 시대 이전인 2019년 말 까지도 미국에서는 이미 470만명이 원격으로 근무를 하고 있었습니다.
+
+한 설문조사에 따르면 사무직 근로자의 95%는 “원격으로 일하기를 원한다” 고 밝혔고, 74%는 “원격으로 근무 환경을 전환하기 위하여 직장을 옮길 의향이 있다”고 답했습니다.
+
+이 수치는 2020년 코로나로 인해 원격 근무가 크게 증가 하기 전의 결과이므로, 이미...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#협업솔루션">#협업솔루션</a><a class="post-tag" href="/tags.html#협업툴">#협업툴</a><a class="post-tag" href="/tags.html#아틀라시안클라우드">#아틀라시안클라우드</a><a class="post-tag" href="/tags.html#원격근무">#원격근무</a><a class="post-tag" href="/tags.html#재택근무">#재택근무</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#Remote Work">#Remote Work</a><a class="post-tag" href="/tags.html#Working Culture">#Working Culture</a><a class="post-tag" href="/tags.html#New Normal">#New Normal</a>--><h2 id="IT Trend" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#IT%20Trend"># IT Trend</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/zabbix/2021/08/17/Zabbix-Case-Study-Nexon-Japan.html">
+          Zabbix Case Study - 넥슨 재팬 구축 사례
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Aug 17, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다! 🎈
+
+본 포스팅에서는 오픈소스 모니터링 솔루션인 Zabbix의 실제 고객 구축 사례에 대해 소개해 드리고자 합니다.
+
+바로 우리 나라 게임 회사의 3N이라고 잘 알려져 있는 넥슨의 일본 지사인 넥슨 재팬 케이스인데요.
+
+넥슨 재팬에서 존 모니터링 툴의 불편한 점을 해결하기 위해 Zabbix으로 변경하여 많은 이점을 보고 있다고 합니다.
+
+왜 넥슨 재팬이 Zabbix를 도입하였고, Zabbix를 사용하여 조직에게 어떤 이점과 영향을 주었는지 알아보는 시간을 가져보도록 하겠습니다.
+
+Preview
+
+1. 서버 구성
+
+
+
+
+      **시스템 개요**
+      **Zab...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Dmove">#Dmove</a><a class="post-tag" href="/tags.html#Zabbix">#Zabbix</a><a class="post-tag" href="/tags.html#자빅스">#자빅스</a><a class="post-tag" href="/tags.html#모니터링솔루션">#모니터링솔루션</a><a class="post-tag" href="/tags.html#모니터링툴">#모니터링툴</a><a class="post-tag" href="/tags.html#자빅스 구축">#자빅스 구축</a><a class="post-tag" href="/tags.html#Case Study">#Case Study</a><a class="post-tag" href="/tags.html#Nexon Zapan">#Nexon Zapan</a>--><h2 id="Zabbix" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Zabbix"># Zabbix</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/it%20trend/2021/08/13/How-to-create-inclusive-communities-at-work.html">
+          Atlassian Team21 - 직장 내 포괄 공동체 구성 단계 및 운영 방법 가이드
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Aug 13, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+      </div>
+      <p class="post-excerpt">
+        안녕하세요, 디무브입니다! 🎈
+
+지난 4월 말 진행한 아틀라시안의 디지털 컨퍼런스 ‘Atlassian Team21’에서 직장 내 다양한 구성원 모두를 공정하게 아우를 수 있는 포괄 공동체에 대해 매우 유용한 세션이 있었는데요.
+
+공동체(Community)라 함은 특정한 사회적 공간에서 공통의 가치와 유사한 정체성을 가진 집단을 말합니다.
+
+아틀라시안이 공유한 포괄 공동체 구성 단계에 맞춰 저희 디무브는 어떻게 팀을 운영되고, 아틀라시안 솔루션을 활용하고 있는지 전해 드리려고 합니다.
+
+
+
+STEP 1: 팀 구성 및 계획 (TEAM UP&amp;DESIGN)
+
+
+
+공동 리더(지도자) 찾기 (Find co-leader...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#AtlassianTeam21">#AtlassianTeam21</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#협업솔루션">#협업솔루션</a><a class="post-tag" href="/tags.html#협업툴">#협업툴</a><a class="post-tag" href="/tags.html#teamwork">#teamwork</a><a class="post-tag" href="/tags.html#community">#community</a><a class="post-tag" href="/tags.html#Working Culture">#Working Culture</a><a class="post-tag" href="/tags.html#New Normal">#New Normal</a>--><h2 id="IT Trend" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#IT%20Trend"># IT Trend</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/08/05/Case-study-Messenger-integration-with-Jira.html">
+          Case Study - 아틀라시안 Jira와 사내 메신저 연동
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Aug 05, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다! 🎈
+
+메신저는 즉각적인 피드백을 주고 받을 수 있다는 장점 때문에 기업의 중요한 커뮤니케이션 채널로 자리 잡았습니다.
+
+그리고 메신저 솔루션을 도입해 사용 중인 대부분의 기업은 중요한 Notification 을 E-Mail 보다는 메신저를 통해 받는 것을 선호하고 계십니다.
+
+메신저 솔루션은 SaaS 형태의 Slack 이나 Teams 부터, 오픈소스 기반의 설치형 솔루션인 Mattermost 나 Rocket Chat, 그리고 그 밖에 다양한 벤더사들의 제품이 존재합니다.
+
+이러한 다양한 종류의 메신저와의 Notification 연동은 대부분의 기업형 솔루션들이 가지고 있는 숙제가 되고...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#지라">#지라</a><a class="post-tag" href="/tags.html#슬랙">#슬랙</a><a class="post-tag" href="/tags.html#팀즈">#팀즈</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Slack">#Slack</a><a class="post-tag" href="/tags.html#Teams">#Teams</a><a class="post-tag" href="/tags.html#메신저연동">#메신저연동</a><a class="post-tag" href="/tags.html#지라연동">#지라연동</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/08/02/Bamboo-Datacenter-is-Available.html">
+          Bamboo Data Center 라이선스 정식 출시 안내
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Aug 02, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다! 🎈
+
+Atlassian의 CI/CD 도구인 Bamboo의 Data Center 라이선스가 출시 되었습니다!
+
+그동안 Server 라이선스로만 사용이 가능 했던 Bamboo가 Data Center 라이선스로 출시 되면서, 몇가지 중요한 변경 사항이 있어 여러분들께 전달 드리고자 합니다.
+
+
+
+Bamboo Data Center 출시
+
+2021년 8월 2일 부터, Bamboo의 Data Center 라이선스 구매가 가능합니다.
+
+Bamboo Data Center는 기존의 Server 라이선스 기능을 기반으로 애플리케이션에 대한 탄력성과 안정성을 추가하여 엔터프라이즈 기능까지 확장되었습니다...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#Bamboo">#Bamboo</a><a class="post-tag" href="/tags.html#뱀부">#뱀부</a><a class="post-tag" href="/tags.html#배포빌드">#배포빌드</a><a class="post-tag" href="/tags.html#지속적통합">#지속적통합</a><a class="post-tag" href="/tags.html#CICD">#CICD</a><a class="post-tag" href="/tags.html#개발협업툴">#개발협업툴</a><a class="post-tag" href="/tags.html#Atlassian Bamboo">#Atlassian Bamboo</a><a class="post-tag" href="/tags.html#아틀라시안 데이터센터">#아틀라시안 데이터센터</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20release%20note/2021/07/23/2Q2021-Atlassian-Release-Notes-DataCenter.html">
+          2021 Atlassian 주요 제품 릴리즈 노트 (May ~ Jul) - Server,DC
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Jul 23, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 10 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">5월부터 7월까지 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence의 서버와 데이터 센터 버전에 어떠한 변화가 있었는지 정리해 보았습니다.
+
+많은 기능들이 개선되었으니 꼭 확인해보세요!
+
+
+
+1. Jira Software
+
+■ Version 8.17
+
+1. Jira를 위한 용어를 조금 더 매끄럽게 정리했습니다 [Data Center]
+
+이번 8.17 버전에서는 관리자가 일반적인 Jira 용어를 변경할 수 있도록 지원합니다. 이 기능을 통해 SAFe 및 LeSS를 포함하여 Jira와 Agile at...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안클라우드">#아틀라시안클라우드</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#jira">#jira</a><a class="post-tag" href="/tags.html#Jira Cloud">#Jira Cloud</a><a class="post-tag" href="/tags.html#Release">#Release</a><a class="post-tag" href="/tags.html#Release Note">#Release Note</a><a class="post-tag" href="/tags.html#Jira Sofrware">#Jira Sofrware</a><a class="post-tag" href="/tags.html#Jira Service Management">#Jira Service Management</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#컨플">#컨플</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a><a class="post-tag" href="/tags.html#dev">#dev</a><a class="post-tag" href="/tags.html#Dev">#Dev</a><a class="post-tag" href="/tags.html#에자일">#에자일</a><a class="post-tag" href="/tags.html#Agile">#Agile</a><a class="post-tag" href="/tags.html#Wiki">#Wiki</a>--><h2 id="Atlassian Release Note" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Release%20Note"># Atlassian Release Note</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20release%20note/2021/07/23/2Q2021-Atlassian-Release-Notes-Cloud.html">
+          2021 Atlassian 주요 제품 릴리즈 노트 (May ~ Jul) - Cloud
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Jul 23, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 10 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">5월부터 7월까지 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence의 Cloud 버전에 어떠한 변화가 있었는지 정리해 보았습니다.
+
+많은 기능들이 개선되었으니 꼭 확인해보세요!
+
+
+
+1. Jira Software
+
+5월
+
+
+
+1. 차세대 보드 및 백로그에 직접적으로 인사이트(Insight) 기능 추가
+
+
+
+프리미엄 플랜 고객은 보드와 백로그에서 인사이트 항목을 확인해 보세요. 인사이트는 데이터를 토대로 프로세스를 조정하거나 더 나은 결과를 도출 할 수있도록 도와주며, 데이터 기반의 계획을 수립할 ...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안클라우드">#아틀라시안클라우드</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#jira">#jira</a><a class="post-tag" href="/tags.html#Jira Cloud">#Jira Cloud</a><a class="post-tag" href="/tags.html#Release">#Release</a><a class="post-tag" href="/tags.html#Release Note">#Release Note</a><a class="post-tag" href="/tags.html#Jira Sofrware">#Jira Sofrware</a><a class="post-tag" href="/tags.html#Jira Service Management">#Jira Service Management</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#컨플">#컨플</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a><a class="post-tag" href="/tags.html#dev">#dev</a><a class="post-tag" href="/tags.html#Dev">#Dev</a><a class="post-tag" href="/tags.html#에자일">#에자일</a><a class="post-tag" href="/tags.html#Agile">#Agile</a><a class="post-tag" href="/tags.html#Wiki">#Wiki</a>--><h2 id="Atlassian Release Note" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Release%20Note"># Atlassian Release Note</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/news%20and%20events/2021/07/21/ALM-Works-Certified-Partner-Announcement.html">
+          ALM Works 파트너쉽 및 Structure(Atlassian Add-on)소개
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Jul 21, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브입니다! 🎈
+
+디무브가 한국 파트너사로는 최초로 아틀라시안의 마켓플레이스 탑 애플리케이션 벤더사인 “ALM Works”와 파트너쉽을 맺게 되었습니다.
+
+ALM Works는 “Structure - Project Management at Scale”라는 제품을 중심으로 애플리케이션을 개발하고 제공하는 소프트웨어 회사이며, 이 애플리케이션은 이미 전세계의 많은 아틀라시안 고객이 사용하고 있는 지라의 필수 애드온 중 하나입니다.
+
+이로써, 저희가 Structure 또는 ALM Works의 다른 애플리케이션을 사용 중이시거나 사용을 고민하시는 고객분들에게 더 많은 도움을 드릴 수 있게 되어 매우 기쁘게...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안클라우드">#아틀라시안클라우드</a><a class="post-tag" href="/tags.html#Jira Cloud">#Jira Cloud</a><a class="post-tag" href="/tags.html#ALMworks">#ALMworks</a><a class="post-tag" href="/tags.html#Jira Sofrware">#Jira Sofrware</a><a class="post-tag" href="/tags.html#Atlassian Marketplace">#Atlassian Marketplace</a><a class="post-tag" href="/tags.html#Structure for Jira">#Structure for Jira</a>--><h2 id="News and Events" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#News%20and%20Events"># News and Events</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/07/15/which-atlassian-cloud-plan-is-right-for-you.html">
+          우리 조직에게 가장 적합한 Atlassian 클라우드 플랜은 무엇일까?
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Jul 15, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 7 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+안녕하세요, 디무브입니다! 🎈
+
+Atlassian 클라우드는 뛰어난 확장성과 뉴노멀 시대에 맞는 원격 근무에 친화적인 환경 등의 장점을 토대로 소규모 팀부터 엔터프라이즈 조직까지, 모든 규모의 조직을 아우르는 플랜을 제공하고 있습니다.
+
+그렇다면, 우리 조직에게 가장 알맞은 플랜은 무엇일까요?
+
+합리적인 의사 결정을 돕기 위하여 플랜 간의 주요 차이점은 무엇 이며 각 플랜이 어떤 조직과 비즈니스에 가장 적합한지를 설명하는 가이드를 준비해 보았습니다.
+
+아틀라시안 클라우드 플랜 비교 장표
+
+
+
+클라우드 플랜 살펴보기
+
+무료 플랜 : 10명 이하의 소규모 팀
+
+10명 이하의 소규모 팀 이지만, 좀 더 가시적으로 목표...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#Cloud Migration">#Cloud Migration</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안클라우드">#아틀라시안클라우드</a><a class="post-tag" href="/tags.html#Jira Cloud">#Jira Cloud</a><a class="post-tag" href="/tags.html#Confluence Cloud">#Confluence Cloud</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/news%20and%20events/2021/07/09/Atlassian-ITSM-Webinar-Summary.html">
+          웨비나 생생 후기 - 디지털 트랜스포메이션을 위한 아틀라시안의 IT 서비스 관리 (ITSM)
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Jul 09, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다! 🎈
+
+지난 6월29일 화요일 오후4시 진행된 디무브의 “디지털 트랜스포메이션을 위한 아틀라시안의 IT 서비스 관리 (ITSM)” 웨비나가 종료되었습니다.
+
+1시간이라는 짧은 시간이었지만, 디무브에서는 애자일 방법론과 아틀라시안 솔루션을 기반으로 IT 서비스 운영과 관리에 대한 보다 현대적이고 효율적인 디지털 협업 방식을 소개해드리고 성공적인 전략 수립과 수행 방법을 제시하고자 하였습니다.
+
+예상했던 것보다 훨씬 많은 분들께서 관심을 가져주시고 적극적으로 참여해주신 덕분에 준비한 웨비나를 잘 진행할 수 있었고, ITSM에 대한 업계의 관심과 중요성을 한번 더 느끼는 시간이 되었습니다....
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#ITSM">#ITSM</a><a class="post-tag" href="/tags.html#Digital Transformation">#Digital Transformation</a><a class="post-tag" href="/tags.html#Jira Service Management">#Jira Service Management</a><a class="post-tag" href="/tags.html#Agile">#Agile</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#Atlassian ITSM">#Atlassian ITSM</a><a class="post-tag" href="/tags.html#IT">#IT</a>--><h2 id="News and Events" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#News%20and%20Events"># News and Events</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/news%20and%20events/2021/07/01/Dmove-Atlassian-Platinum-Solution-Partner.html">
+          디무브가 아틀라시안 파트너 최고 등급인 ‘플래티넘 솔루션 파트너’가 되었습니다!
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Jul 01, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">디무브가 6월28일자로 Atlassian의 ‘플래티넘 솔루션 파트너’를 획득하게 되었습니다!
+
+Atlassian 솔루션 파트너는 고객이 Atlassian 의 제품 도입 및 활용을 극대화 할 수 있도록 전문적인 솔루션 구현과 컨설팅 및 기술지원을 제공합니다.
+
+플래티넘은 솔루션 파트너가 달성할 수 있는 가장 높은 수준의 파트너쉽이며, 디무브가 Atlassian에 대한 깊이 있는 기술력과 경험을 보유하고 있는 전문가로 인정받았음을 의미합니다.
+
+지난 2020년 9월 말 Atlassian 파트너 프로그램에 합류한 이후 10개월이라는 짧은 기간 안에 플래티넘 솔루션 파트...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Atlassian Partner">#Atlassian Partner</a><a class="post-tag" href="/tags.html#Platinum Solution Partner">#Platinum Solution Partner</a><a class="post-tag" href="/tags.html#아틀라시안파트너">#아틀라시안파트너</a><a class="post-tag" href="/tags.html#플래티넘솔루션파트너">#플래티넘솔루션파트너</a><a class="post-tag" href="/tags.html#아틀라시안플래티넘파트너">#아틀라시안플래티넘파트너</a><a class="post-tag" href="/tags.html#디무브">#디무브</a>--><h2 id="News and Events" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#News%20and%20Events"># News and Events</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/zabbix/2021/06/29/What's-new-Zabbix-5.4.html">
+          새로운 Zabbix 5.4 버전을 만나보세요!
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Jun 29, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 18 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+
+
+안녕하세요. 디무브 입니다. 🎈
+
+기존에 비LTS버전으로 사용자들의 많은 관심을 받았던 Zabbix 5.4버전이 2021년 5월 17일 드디어 LTS 버전으로 출시가 되었습니다.
+
+이번 포스팅에서는 Zabbix 5.4버전에서 새롭게 추가된 PDF보고서 생성 및 더 강력해진 문제 감지, 데이터 통계 등 새로 추가되고 개선된 기능들에 대하여 여러분과 함께 살펴보겠습니다.
+
+
+
+1. Reporting and Visualization
+
+1-1. Unification of Screens
+
+
+
+    기존의 Zabbix 5.2 에서는 문제에 대한 “사전-정의” 보기를 도입했었습니다. Monitoring  →  Pr...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Dmove">#Dmove</a><a class="post-tag" href="/tags.html#Zabbix">#Zabbix</a><a class="post-tag" href="/tags.html#zabbix5.4">#zabbix5.4</a><a class="post-tag" href="/tags.html#자빅스">#자빅스</a>--><h2 id="Zabbix" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Zabbix"># Zabbix</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/06/23/Atlassian-Team21-JSM-With-Opsgenie-New-Change.html">
+          Atlassian Team21 - JSM 과 Opsgenie의 새로운 변화
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Jun 23, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 11 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요! 디무브 입니다. 🎈
+
+최근에 아틀라시안에서 Team21을 통해 아틀라시안의 현황과 미래의 비전에 대해 발표했었는데요.
+
+특히 ITSM의 변화와 개발과 운영 사이의 관계를 많이 언급했습니다.
+
+아틀라시안의  ITSM 솔루션인 Jira Service Management와 인시던트 모니터링 툴인 Opsgenie에 대해 알아보겠습니다.
+
+
+
+Opsgenie
+
+
+
+
+
+    Opsgenie는 알림과 경고를 관리하는 소프트웨어입니다.  Opsgeine는 사용하는 팀원들에게 모든 인시던트에 대응하고 해결하며,  학습할 수 있는 환경을 제공합니다. Opsgenie는 독립적으로 Standalone 타입을 제공하...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Jira Service Management">#Jira Service Management</a><a class="post-tag" href="/tags.html#JSM">#JSM</a><a class="post-tag" href="/tags.html#Opsgenie">#Opsgenie</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#옵스지니">#옵스지니</a><a class="post-tag" href="/tags.html#ITSM">#ITSM</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/it%20trend/2021/06/21/Gartner-Magic-Quadrant-EAP-Leader-Atlassian.html">
+          아틀라시안, 2021 가트너 Magic Quadrant에서 애자일 계획 도구 리더로 선정
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Jun 21, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+      </div>
+      <p class="post-excerpt">
+        안녕하세요, 디무브 입니다! 🎈
+
+아틀라시안이 엔터프라이즈 애자일 계획 도구(EAP, Enterprise Agile Planning Tools)에 대한 가트너의 2021년 Magic Quadrant 에서 리더로 선정되었습니다.<img class="emoji" title=":clap:" alt=":clap:" raw="👏" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44f.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))"><img class="emoji" title=":clap:" alt=":clap:" raw="👏" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44f.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))"><img class="emoji" title=":clap:" alt=":clap:" raw="👏" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44f.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">엔터프라이즈 기업을 위한 애자일 솔루션 시장을 선도하는 아틀라시안이 엔터프라이즈 애자일 계획 도구의 Magic Quadrant에서 리더로 선정된 것은 2017년, 2018년, 2020년을 포함하여 올해로 4번째 입니다.
+
+Atlassian은 팀 을 위한 애자일 도구인 Jira Software를 기반으로 엔터프라이즈 기업의 애자일 업무 문화를 전략적으로 ...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#EAP">#EAP</a><a class="post-tag" href="/tags.html#Agile Planning Tool">#Agile Planning Tool</a><a class="post-tag" href="/tags.html#Gartner">#Gartner</a><a class="post-tag" href="/tags.html#Magic Quadrant">#Magic Quadrant</a><a class="post-tag" href="/tags.html#Jira Align">#Jira Align</a><a class="post-tag" href="/tags.html#매직쿼드런트">#매직쿼드런트</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#애자일계획도구">#애자일계획도구</a>--><h2 id="IT Trend" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#IT%20Trend"># IT Trend</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/06/15/Atlassian-Open-DevOps.html">
+          Atlassian Open DevOps 를 소개합니다.
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Jun 15, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">다양한 툴 체인을 올인원으로 활용할 수 있는 Jira 기반 개발 환경인 아틀라시안의 Open DevOps가 지난 4월 말 진행된 Team 21에서 정식으로 소개되었습니다.
+
+Open Devops를 통해 소프트웨어팀이 원하는 도구와 방식으로 효율적으로 작업할 수 있도록 지원하는 방법을 살펴 보겠습니다.
+
+
+
+Open DevOps 소개
+
+
+
+2020년 04월28일에 발표한 아틀라시안의 Open DevOps는 Jira Software를 중심으로 Confluence, Bitbucket 및 Opsgenie의 무료 버전의 제품을 기본적으로 제공하여 소프트웨어의 제공 및 운영...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#Bitbucket">#Bitbucket</a><a class="post-tag" href="/tags.html#Opsgenie">#Opsgenie</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#OpenDevOps">#OpenDevOps</a><a class="post-tag" href="/tags.html#DevOps">#DevOps</a><a class="post-tag" href="/tags.html#오픈데브옵스">#오픈데브옵스</a><a class="post-tag" href="/tags.html#데브옵스">#데브옵스</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안클라우드">#아틀라시안클라우드</a><a class="post-tag" href="/tags.html#지라">#지라</a><a class="post-tag" href="/tags.html#컨플루언스">#컨플루언스</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/news%20and%20events/2021/06/07/DMOVE-ITSM-WEBINAR.html">
+          2021년 6월 아틀라시안 웨비나  - 디지털 트랜스포매이션을 위한 아틀라시안의 IT 서비스 관리
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Jun 07, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+      </div>
+      <p class="post-excerpt"><img class="emoji" title=":calendar:" alt=":calendar:" raw="📆" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c6.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">일자 : 2021년 6월 29일 (화)<img class="emoji" title=":alarm_clock:" alt=":alarm_clock:" raw="⏰" src="https://github.githubassets.com/images/icons/emoji/unicode/23f0.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">시간 : 오후 4시 ~ 오후 5시
+
+🏢 위치 : 온라인 세미나 <img class="emoji" title=":date:" alt=":date:" raw="📅" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c5.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">달력에 추가 : Outlook Google
+
+
+
+
+            이분들은 꼭 참여하세요!
+            - O2O 기업, IT 서비스 기업, 제조, 금융 등 ITSM 도입을 고려하는 모든 엔터프라이즈 기업 - IT운영 및 기획팀 /  전략기획팀 / 경영정보팀 / 보안팀 - IT 매니저 / 엔지니어 / 개발자 / IT 기획자 / 보안담당자 / 인프라 관리자 / CISO / CIO / CTO
+
+   ...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#ITSM">#ITSM</a><a class="post-tag" href="/tags.html#IT서비스">#IT서비스</a><a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#JiraServiceManagement">#JiraServiceManagement</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#지라">#지라</a><a class="post-tag" href="/tags.html#협업솔루션">#협업솔루션</a><a class="post-tag" href="/tags.html#ITIL">#ITIL</a><a class="post-tag" href="/tags.html#디지털트랜스포케이션">#디지털트랜스포케이션</a>--><h2 id="News and Events" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#News%20and%20Events"># News and Events</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/05/27/Speicify-IP-Address-for-product-access.html">
+          Atlassian Cloud Tip - 제품 액세스를 위한 IP 주소 허용 및 지정
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> May 27, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 2 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">이번에는 기술적인 내용을 가지고 왔습니다.
+바로 제품 액세스를 위한 IP 주소 허용 및 지정 방법인데요!
+
+IP 주소 허용 기능은 현재  Jira와  Confluence Cloud의 Premium 플랜에서 사용하실 수 있습니다.
+
+IP 주소 허용(White List)이란?
+
+IP 허용 목록 통해 사용자가 Jira Software, Jira Service Management, Confluence 용 콘텐츠에 액세스 할 때 허용할 수 있는 IP를 지정하여 특정 IP만 접근이 가능하도록 허용하는 것입니다.
+
+Jira Software Cloud Premium에 대한 허용...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Product Access">#Product Access</a><a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#IP">#IP</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a><a class="post-tag" href="/tags.html#Whitelist">#Whitelist</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안클라우드">#아틀라시안클라우드</a><a class="post-tag" href="/tags.html#지라">#지라</a><a class="post-tag" href="/tags.html#컨플루언스">#컨플루언스</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/mattermost/2021/05/20/Mattermost-release-v5-35.html">
+          Mattermost v5.35 릴리즈 안내
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> May 20, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
+      </div>
+      <p class="post-excerpt">
+        안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">5월 17일에 Mattermost의 5.35버전이 배포 되었습니다. 이번 배포에서는 어떠한 기능들이 포함되어 있는 지 한 번 살펴 보겠습니다.
+
+
+
+1.  인시던트 협업(Incident Collaboration)
+
+
+  애드혹 업무 (Ad-hoc Tasks)
+
+
+인시던트 관리에 참여하는 사람들은 플레이 북에 사전 정의된 작업 템플릿을 사용하여 즉시 작업을 추가, 편집 및 제거하여 새로운 시나리오에 빠르게 적응할 수 있습니다.
+
+
+
+
+  인시던트 개요 (Stakeholder Overview)
+
+
+각각의 인시던트에는 설명, 참가자 및 상태 업데이트와 같은 주요 정보를 한 ...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Mattermost">#Mattermost</a><a class="post-tag" href="/tags.html#Release note">#Release note</a><a class="post-tag" href="/tags.html#Messenger">#Messenger</a><a class="post-tag" href="/tags.html#Slack-alternative">#Slack-alternative</a><a class="post-tag" href="/tags.html#Opensource">#Opensource</a><a class="post-tag" href="/tags.html#매터모스트">#매터모스트</a><a class="post-tag" href="/tags.html#사내메신저">#사내메신저</a><a class="post-tag" href="/tags.html#기업용메신저">#기업용메신저</a>--><h2 id="Mattermost" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Mattermost"># Mattermost</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/05/17/Top-15-Cloud-Questions.html">
+          Atlassian Cloud 에 대한 15가지 질문
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> May 17, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 5 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">지난 4월 말 진행했던 Atlassian Team 21에서는 Atlassian Cloud 에 대해 고객들이 가장 많이 궁금해하는 질문과 그에 대한 답변을 공유했습니다.
+
+본 포스팅에서는 Cloud 제품 및 Cloud Migration 에 대한 FAQ Session을 아주 쉽고 간단하게 정리해 보았습니다.
+
+
+
+1. 클라우드 데이터도 암호화가 되나요?
+네, 데이터를 전송중이거나 저장중일 때 암호화 됩니다.
+
+2. 아틀라시안 클라우드는 데이터 레지던시(Data Residency)를 제공하나요?
+현재는 Enterprise Plan의 경우 Standard 및 Premiu...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian Team 21">#Atlassian Team 21</a><a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#Cloud Migration">#Cloud Migration</a><a class="post-tag" href="/tags.html#Atlassian Cloud">#Atlassian Cloud</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/05/10/Introducing-Jira-Work-Management.html">
+          비즈니스 팀을 위한 Jira Work Management를 소개합니다.
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> May 10, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 2 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">지난 4월 말 진행된 Atlassian Team’21에서 Jira Core Cloud의 향상된 버전인 “Jira Work Management” 공개되었습니다.
+
+새롭게 재탄생한 Jira Work Management를 통해 조직은 한 곳에서 작업의 모든 측면을 추적하고 관리할 수 있습니다.
+
+
+비즈니스 팀을 위한 새로운 Jira
+
+Jira Software는 애자일 팀에서 사용하는 최고의 소프트웨어 개발 도구이지만, Jira를 사용하는 대부분의 사용자는 마케팅, 재무 및 HR과 같은 비 기술팀에 속합니다.
+따라서 Atlassian은 보다 친숙하고 직관적인 경험을 제...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian Team 21">#Atlassian Team 21</a><a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Jira Work Management">#Jira Work Management</a><a class="post-tag" href="/tags.html#Project Management">#Project Management</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20release%20note/2021/05/07/1Q2021-Atlassian-Release-Notes-Cloud.html">
+          2021 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Apr) - Cloud
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> May 07, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 13 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">지난 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었는데요.
+각 제품의 Cloud 버전에는 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다.
+
+
+
+1. Jira Software
+
+1월
+
+1. 로드맵(Roadmap)
+
+
+
+1-1. 새롭게 생성된 이슈에 담당자와 레이블 필터에 매칭
+
+로드맵에서 생성된 새로운 이슈가 자동으로 할당되고 레이블이 지정되며, 마지막으로 선택한 담당자 및 현재 로드맵의 레이블 필터와 매칭됩니다. → 자세히보기
+
+1-2. 가장...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Conlfuence">#Conlfuence</a><a class="post-tag" href="/tags.html#Jira Service Management">#Jira Service Management</a><a class="post-tag" href="/tags.html#Releases">#Releases</a><a class="post-tag" href="/tags.html#Release Notes">#Release Notes</a><a class="post-tag" href="/tags.html#Cloud">#Cloud</a><a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안클라우드">#아틀라시안클라우드</a>--><h2 id="Atlassian Release Note" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Release%20Note"># Atlassian Release Note</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20release%20note/2021/05/07/1Q2021-Atlassian-Release-Notes-Server.html">
+          2021 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Apr) -Server, DC
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> May 07, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 24 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">지난 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었는데요.
+
+각 제품의 Server 및 Data Center 버전에는 어떠한 변화가 있었는지 확인해보는 시간을 가지겠습니다.
+
+
+
+1. Jira Software
+
+■ Version 8.15
+
+1. Advanced RoadMap 기능 추가[Data Center]
+
+
+
+8.15 DataCenter 버전부터 Advanced RoadMap 기능이 Jira Software 에 번들로 포함되어 사용할 수 있게 되었습니다...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Jira">#Jira</a><a class="post-tag" href="/tags.html#Conlfuence">#Conlfuence</a><a class="post-tag" href="/tags.html#Jira Service Management">#Jira Service Management</a><a class="post-tag" href="/tags.html#Releases">#Releases</a><a class="post-tag" href="/tags.html#Release Notes">#Release Notes</a><a class="post-tag" href="/tags.html#Server">#Server</a><a class="post-tag" href="/tags.html#Data Center">#Data Center</a><a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#아틀라시안">#아틀라시안</a><a class="post-tag" href="/tags.html#아틀라시안데이터센터">#아틀라시안데이터센터</a>--><h2 id="Atlassian Release Note" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Release%20Note"># Atlassian Release Note</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/it%20trend/2021/05/03/Atlassian-Team-21-The-Evolution-of-Modern-Work.html">
+          Atlassian Team '21 - The Evolution of Modern Work 키노트 with Zoom &amp; Slack CEO
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> May 03, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">지난 4월 말 진행한 아틀라시안의 디지털 컨퍼런스 Atlassian Team ‘21 에서 Atlassian의 공동 창립자이자 공동 CEO인 Mike Cannon-Brookes은 Slack의 공동 창립자 겸 CEO인 Stewart Butterfield, Zoom의 창립자 겸 CEO인 Eric Yuan 과 “The Evolution of Modern Work” 라는 주제로 키노트를 진행하였습니다.
+
+
+(왼쪽부터 Zoom의 Eric Yuan, Atlassian의 Mice Cannon-Brookes, Slack의 Stewart Butterfield )
+
+아시다시피 Sla...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian Team 21">#Atlassian Team 21</a><a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Slack">#Slack</a><a class="post-tag" href="/tags.html#Zoom">#Zoom</a><a class="post-tag" href="/tags.html#Remotework">#Remotework</a>--><h2 id="IT Trend" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#IT%20Trend"># IT Trend</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/it%20trend/2021/04/30/communication-channels-workplace.html">
+          협업의 기본 - 업무용 커뮤니케이션 채널 가이드
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Apr 30, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 5 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+업무용 커뮤니케이션 채널 가이드
+
+안녕하세요, 디무브입니다!
+
+COVID-19로 인한 비대면 근무가 장기화되고 유연한 근무 정책을 시행하는 곳들이 많아지면서, 직장 내 커뮤니케이션은 몇년새 큰 화두로 떠올랐습니다.
+
+디무브에서는 업무용 메신저로 Mattermost 를 사용하여 각 채널 별로 중요한 사항을 공유하고, 업무와 관련된 문서 작업은 Confluence 공간과 페이지를 활용합니다.
+
+물론 외부 커뮤니케이션을 위해서는 이메일 소통도 필수적입니다.
+
+이처럼, 우리가 매일 직장에서 사용하는 커뮤니케이션 채널은 이메일, 인스턴트 메시지, 공유 문서 등 매우 다양하고 그렇다 보니 소통 수단에 따른 중요한 뉘앙스를...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Communication">#Communication</a><a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Confluence">#Confluence</a><a class="post-tag" href="/tags.html#Collaboration">#Collaboration</a>--><h2 id="IT Trend" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#IT%20Trend"># IT Trend</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/jscrambler/2021/04/15/Jscrambler-for-Memory-Protect.html">
+          스펙터 취약점에 대응하기 위한 메모리 보호 솔루션
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Apr 15, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+      </div>
+      <p class="post-excerpt">
+
+
+메모리 보호 - 스펙터 취약점 대응
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">“스펙터(Spectre)” 는 발견 된 지 3년이 지난 취약점이지만 여전히 악용할 수 있는 여지가 남아있어 보안 전문가들에게 많은 우려 사항을 안겨주고 있습니다.
+
+Google은 최근 스펙터 취약점에 대한 PoC 익스플로잇(Exploit)을 보안 블로그에 게시했습니다.
+
+이 포스팅에서는 개발 팀이 애플리케이션 수준의 완화 조치를 배포해야하는 이유와 메모리 보호가 Spectre 공격에 대해 어떻게 추가적으로 방어하는지 설명해 줍니다.
+
+이를 기반으로 스펙터 취약점에 대응하기 위하여 왜 Jscrambler가 필요한지 소개해 드리겠...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Jscrambler">#Jscrambler</a><a class="post-tag" href="/tags.html#Spector">#Spector</a><a class="post-tag" href="/tags.html#Memory Protect">#Memory Protect</a><a class="post-tag" href="/tags.html#Security">#Security</a><a class="post-tag" href="/tags.html#스펙터공격">#스펙터공격</a>--><h2 id="Jscrambler" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Jscrambler"># Jscrambler</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/mattermost/2021/04/08/Mattermost-vs-Slack.html">
+          기업용 메신저 비교 분석 - Mattermost vs Slack
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Apr 08, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+      </div>
+      <p class="post-excerpt">
+        Mattermost vs Slack
+
+안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">클라우드로의 전환과 비대면 업무 중심으로 기업의 업무 문화가 빠르게 변화하면서 기업용 메신저의 필요성이 강조되고 있습니다.
+
+업무용 메신저가 아닌 일반 상용 메신저나 카카오톡 등은 내부 기밀 정보가 유출될 수 있는 보안의 취약점을 갖고 있고, 업무와 메신저가 분리되어 데이터 사일로로 인한 불편함을 초래하는 경우가 많습니다.
+
+또한 코로나로 인해 비대면 업무, 재택 근무 등으로 급격하게 변화한 업무 환경을 따라가기 위해서는 원활한 의사소통을 위한 기업용 메신저가 필수품이 되었습니다.
+
+이미 많은 기업들은 업무에 특화된 협업 솔루션으...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Messenger">#Messenger</a><a class="post-tag" href="/tags.html#Mattermost">#Mattermost</a><a class="post-tag" href="/tags.html#Slack">#Slack</a><a class="post-tag" href="/tags.html#업무용메신저">#업무용메신저</a>--><h2 id="Mattermost" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Mattermost"># Mattermost</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/03/30/Atlassian-Cloud-8myths-2.html">
+          아틀라시안 클라우드에 대한 8가지 오해 Part.2
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Mar 30, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+      </div>
+      <p class="post-excerpt">
+        안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">아틀라시안  클라우드에  대한  8가지  오해  - Part 1  포스팅에  이어서  비즈니스를  위한  최선의  결정을  내리실  수  있도록  클라우드와  관련된  보안부터  성능에  이르는  가장  일반적인  오해에  대한  진실을  알려드리려고  합니다.
+
+
+5. 데이터 관리
+
+
+데이터는 오늘날 비즈니스 세상의 보물창고입니다.
+
+우리는 데이터를 통해 고객에게 더 나은 서비스를 제공할 수 있으며, 데이터를 다루는 것에 대한 책임을 져야 합니다.
+
+이런 이유에서 데이터의 안전한 보관과 관리는 매우 중요하며 Atlassian은 데이터의 안전과 관리의 용이성에 높은 ...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Cloud">#Cloud</a><a class="post-tag" href="/tags.html#Cloud Migration">#Cloud Migration</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h2 class="post-title">
+<a class="post-link" href="/atlassian%20solutions/2021/03/23/Atlassian-Cloud-8Myths-1.html">
+          아틀라시안 클라우드에 대한 8가지 오해 Part.1
+        </a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date"><i class="fa fa-calendar"></i> Mar 23, 2021</span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 7 mins</span>
+      </div>
+      <p class="post-excerpt">
+        안녕하세요, 디무브 입니다!<img class="emoji" title=":balloon:" alt=":balloon:" raw="🎈" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">클라우드 마이그레이션을 전문으로 하는 Atlassian의 솔루션 파트너인 저희는 클라우드로의 마이그레이션을 주저하는 대부분의 고객들이 잘못되었거나 오래 된 정보로 인해 많은 오해를 하고 있다는 것을 알게되었습니다.
+
+비즈니스를 위한 최선의 결정을 내리실 수 있도록 클라우드와 관련된 보안부터 성능에 이르는 가장 일반적인 오해에 대한 진실을 알려드리려고 합니다.
+
+
+1. 보안 및 규정 준수
+
+
+클라우드 마이그레이션에 대해 가장 큰 우려 사항은 아마 “보안” 일 것입니다. 실제로 IT 관리자 중 40%는 온프레미스에서 클라우드로 마이그레이션하는 것에서 가장 큰 어려움은 보...
+      </p>
+      <div class="post-tags">
+        <!--<a class="post-tag" href="/tags.html#Atlassian">#Atlassian</a><a class="post-tag" href="/tags.html#Cloud">#Cloud</a><a class="post-tag" href="/tags.html#Cloud Migration">#Cloud Migration</a>--><h2 id="Atlassian Solutions" class="segment-name" style="font-size: 21px;">
+            <a class="" style="color: #454545;" href="/categories.html#Atlassian%20Solutions"># Atlassian Solutions</a>
+          </h2>
+</div>
+    </li>
+</ul>
+
+  <!-- Pagination links -->
+</div>
+</div>
+
+
+  </section>
+  <!-- <section>
+    <form action="/search">
+      <div class="tipue_search_left">
+        <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+      </div>
+      <div class="tipue_search_right">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
+      <div style="clear: both;"></div>
+    </form>
+  </section> -->
+  <!-- Search bar -->
+  <section class="sidebar" style="margin-left: 15px;">
+    <form action="/search">
+      <div class="tipue_search_left">
+        <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+      </div>
+      <div class="tipue_search_right">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required>
+</div>
+      <div style="clear: both;"></div>
+    </form>
+    <!-- Get sidebar items -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="common-list">
+  <ul>
+    <li>
+      <a href="/index.html">
+        All<span>51</span>
+      </a>
+    </li>
+
+
+      <li>
+        <a href="/categories.html#Atlassian%20Release%20Note">
+          Atlassian Release Note <span>8</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/categories.html#Atlassian%20Solutions">
+          Atlassian Solutions <span>22</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/categories.html#IT%20Trend">
+          IT Trend <span>6</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/categories.html#Jscrambler">
+          Jscrambler <span>1</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/categories.html#Mattermost">
+          Mattermost <span>2</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/categories.html#News%20and%20Events">
+          News and Events <span>9</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/categories.html#Zabbix">
+          Zabbix <span>3</span>
+        </a>
+      </li>
+
+  </ul>
+</div>
+
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+	    <div>Copyright © 2020-2021 @Dmove</div>  <div>TEL: 02-6405-0800 | email : sales@dmove.kr</div>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>
