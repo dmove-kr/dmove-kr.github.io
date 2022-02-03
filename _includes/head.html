@@ -21,7 +21,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c"></meta>
 
-{% if page.title == "블로그" %} <title>{{ site.title }}</title>
+{% if page.title == "블로그" | page.path == "/" %} <title>{{ site.title }}</title>
 {% else %} <title>{{ page.title }}</title>
 {% endif %}
   <link rel="shortcut icon" href="{{ "/assets/images/banners/favicon" }}">
