@@ -5,8 +5,6 @@ Subtitle: Release Note
 date: 2021-12-28
 categories: [Atlassian Release Note]
 tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드, Jira, jira, Jira Cloud, Release, Release Note, Jira Sofrware, Jira Service Management, Confluence,컨플,DevOps, 데브옵스, dev, Dev, 에자일, Agile, Wiki]
-
-
 ---
 
 
