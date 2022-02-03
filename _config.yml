@@ -34,7 +34,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   디무브의 블로그에 오신 걸 환영합니다.
   제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. 
 
-baseurl: "/index.html" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.dmove.kr" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 
