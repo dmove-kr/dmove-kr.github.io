@@ -1,4 +1,191 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-03T12:44:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Cloud</title><link href="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Cloud" /><published>2021-12-28T00:00:00+09:00</published><updated>2021-12-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-03T15:54:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">아틀라시안, 포레스터 웨이브 “엔터프라이즈 서비스 분야” 리더로 선정</title><link href="http://localhost:4000/it%20trend/2022/01/19/2021-forrester-wave-esm-atlassian.html" rel="alternate" type="text/html" title="아틀라시안, 포레스터 웨이브 “엔터프라이즈 서비스 분야” 리더로 선정" /><published>2022-01-19T00:00:00+09:00</published><updated>2022-01-19T00:00:00+09:00</updated><id>http://localhost:4000/it%20trend/2022/01/19/2021-forrester-wave-esm-atlassian</id><content type="html" xml:base="http://localhost:4000/it%20trend/2022/01/19/2021-forrester-wave-esm-atlassian.html">&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;아틀라시안이 글로벌 리서치 기관인 포레스터(Forrester)의 2021년 4분기 엔터프라이즈 서비스 매니지먼트(The Forrester Wave™: Enterprise Service Management) 보고서에서 리더로 선정되었습니다.&lt;/p&gt;
+
+&lt;p&gt;이 보고서에서는 서비스 관리에 대한 현대적인 접근 방식을 원하는 팀을 위해 서비스 관리 시장에서 가장 중요한 15개의 공급업체에 대한 포괄적인 개요를 제공하고 있는데요.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안은 이번 보고서에서 리더로 인정받았을 뿐만 아니라 전략 부문에서 가장 높은 점수를 받았습니다.&lt;/p&gt;
+
+&lt;p&gt;이는 엔터프라이즈 서비스 제공에 대한 아틀라시안의 혁신적인 접근 방식이 검증되었음을 강력하게 보여주고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wac-cdn.atlassian.com/dam/jcr:169b8f8c-d5d1-423f-b661-4c696d8490b3/The%20Forrester%20Wave%20Enterprise%20Service%20Management,%20Q4%202021%20Wave%20Image.png?cdnVersion=167&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;이 보고서에서 포레스트는 아틀라시안의 전략이 전반적인 디지털 제품 포트폴리오를 중심으로, 지역에 상관없는 전세계적인 고객 확보 모델과 결합하여 가장 높은 평가를 받았다고 말합니다.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안은 또한 22개의 평가 기준 중에서 18개에서 가장 높은 점수를 받았습니다.&lt;/p&gt;
+
+&lt;p&gt;포레스터는 사용성, 에코시스템, 통합을 아틀라시안의 가장 큰 장점으로 나열하며 “아틀라시안은 개발, 운영 및 비즈니스 팀을 통합하는 종합적인 서비스 관리 플랫폼을 찾는 조직에 적합하다”고 언급합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“오늘날의 디지털 혁신 이니셔티브는 IT 부서의 경계를 훨씬 뛰어넘습니다. 운영팀에서 법무팀, 인사팀에 이르기까지 팀은 서비스 관리 프로세스를 재창조하고 있으며 이 새로운 접근 방식을 지원하기 위해 유연하고 직관적인 솔루션이 필요하다는 사실을 깨닫고 있습니다.” - Cameron Deatsch / Chief Revenue Officer, Atlassian&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;이번 보고서를 통해 포레스터는 지난 한 해 동안 아틀라시안이 고객 기반의 급속한 성장을 이루었고, 모든 팀을 위한 서비스 관리 시장을 주도하고 있다는 것을 보여주었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;아틀라시안-고객이-말하는-장점&quot;&gt;아틀라시안 고객이 말하는 장점&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;포레스터에서는 사용성, 빠른 가치 실현, 요구 사항 충족에 대한 유연성의 장점이 아틀라시안의 고객이 말하는 가장 큰 장점이라고 이야기 합니다.&lt;/p&gt;
+
+&lt;p&gt;지난 11월, 아틀라시안에서 진행한 서비스 관리 중심의 고객 이벤트인 “&lt;a href=&quot;https://events.atlassian.com/itsm-events-hub&quot;&gt;High-Velocity: ITSM World Tour&lt;/a&gt;”에서도 이와 상통하는 고객의 성공 사례를 공유 했었는데요.&lt;/p&gt;
+
+&lt;p&gt;위 행사에서 엔터프라이즈 IT 리더가 공유한 Jira Service Management를 통한 서비스 관리 성공 요인을 간략하게 소개해 드리고자 합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;가치 실현 시간 단축&lt;/strong&gt; – 사전 구축된 템플릿과 투명한 가격 책정 모델이 포함된 직관적인 솔루션 덕분에 고객은 제품을 쉽고 빠르게 시작할 수 있으며 사용하지 않을 기능에 대해 과도한 비용을 지불하지 않고도 우수한 서비스 경험을 빠르게 구성하고 배포할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;향상된 가시성 및 정보 흐름&lt;/strong&gt; - 엔터프라이스 서비스 관리 솔루션은 올바른 의사 결정을 위해 팀 간의 정보 흐름을 보장하여 팀이 최고의 서비스 경험을 제공할 수 있도록 해야 합니다. Jira Service Management는 Jira Software를 사용하는 개발 및 운영 팀과의 연결을 제공할 뿐만 아니라 아틀라시안 마켓플레이스를 통한 1,000개 이상의 강력한 통합을 가능하게 합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;팀 간의 더 나은 협업&lt;/strong&gt; - 훌륭한 서비스를 제공하기 위해서는 하나 이상의 팀이 함께 해야 하는 경우가 많습니다. Jira Service Management는 단일 플랫폼을 통해 조직을 통합하여 HR에서 법무팀, 재무팀에 이르기까지 표준화되고 확장 가능한 서비스 제공 프로세스를 만들 수 있도록 지원합니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;포레스터에서 말하는 엔터프라이즈 서비스 관리 환경, 시장 동향 및 제품 정보에 대한 자세한 내용이 궁금하시다면, 아래 버튼을 클릭해서 전체 보고서를 확인해보세요.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn d-inline-block&quot; zsubmit=&quot;false&quot; href=&quot;https://sites.ziftsolutions.com/atlassian.ziftsolutions.com/8a9982c17e6dc036017e70ddc6677c26?zPage=Popup-Asset-Form-a92f31ef&quot; title=&quot;Popup Asset Form&quot; zstepid=&quot;Popup-Asset-Form-a92f31ef&quot; onclick=&quot;zPanel52948.gotoPage(&apos;zPage&apos;,&apos;Popup-Asset-Form-a92f31ef&apos;,this, false,false,700,750); return false;&quot;&gt; &lt;span name=&quot;Section 1 Block 1 CTA Text 1&quot;&gt;전체 보고서 다운로드&lt;/span&gt; &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="IT Trend" /><category term="Atlassian" /><category term="아틀라시안" /><category term="Forrester" /><category term="Enterpriseservicemanagement" /><category term="ESM" /><category term="포레스터" /><category term="Jiraservicemanagement" /><category term="JSM" /><category term="ITSM" /><category term="디무브" /><category term="Dmove" /><summary type="html">안녕하세요, 디무브입니다! 🎈</summary></entry><entry><title type="html">아틀라시안 클라우드 제품에 적용된 머신러닝 기반의 “Smart” 기능 소개</title><link href="http://localhost:4000/atlassian%20solutions/2022/01/10/Atlassian-Cloud-Machine-Learning-Features.html" rel="alternate" type="text/html" title="아틀라시안 클라우드 제품에 적용된 머신러닝 기반의 “Smart” 기능 소개" /><published>2022-01-10T00:00:00+09:00</published><updated>2022-01-10T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2022/01/10/Atlassian-Cloud-Machine-Learning-Features</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2022/01/10/Atlassian-Cloud-Machine-Learning-Features.html">&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
+
+&lt;p&gt;아틀라시안의 미션은 바로 &lt;strong&gt;팀이 협업을 통해 모든 잠재력을 최대한 발휘할 수 있도록 지원하는 것&lt;/strong&gt;인데요.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안은 이러한 미션에 따라 클라우드 인프라를 제공하는 플랫폼을 구축하여 제품 전반에 걸친 강력한 통합 기능으로 협업을 보다 빠르고 안전하게 만들었습니다.&lt;/p&gt;
+
+&lt;p&gt;더 나아가 아틀라시안은 1년 넘게 포트폴리오 전반에 걸쳐 AI 및 머신 러닝 기반 도구에 막대한 투자를 해왔습니다. 
+전 세계 20만명이 넘는 사용자의 패턴을 집계하여 협업이 어떻게 완료되고 팀이 대규모로 상호 작용하는지 분석한 것을 토대로 &lt;strong&gt;머신 러닝을 활용하여 예측 가능한 스마트 경험&lt;/strong&gt;을 구축하였는데요.&lt;/p&gt;
+
+&lt;p&gt;2020년 10월에 발표한 “스마트”는 팀이 작업을 완료하고 협업 속도를 높이는데 도움이 되는 데이터 기반 알고리즘과 머신 러닝 기술이 결합된 응용 프로그램입니다.&lt;/p&gt;
+
+&lt;p&gt;이미 아틀라시안 클라우드를 사용하고 계신 고객 분들은 Confluence Cloud, Jira Software Cloud 및 Jira Service Management Cloud의 스마트 검색과 Bitbucket Cloud의 풀 리퀘스트 예측을 통해 보다 강력하고 원활한 협업 경험을 가능하게 하는 “스마트”를 경험하고 계실 텐데요.&lt;/p&gt;
+
+&lt;p&gt;지금부터 이 “스마트”가 어떤 경험을 제공하는지 자세하게 소개해 드리고자 합니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“아틀라시안 플랫폼은 스마트와 머신 러닝을 통해 매일 1,700만 개 이상의 예측을 하고 있습니다. 이러한 통찰력을 사용하여 우리는 고객이 하루 종일 사용하는 제품 내에서 권장 사항을 제공할 수 있습니다. 최근에는 팀의 생산성을 높이는 데 도움이 되도록 제품에서 예측 가능하고 스마트한 경험을 개발하기 시작했습니다.” - Shahib Hamid, Atlassian Head of Product&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;1-교차-제품-검색으로-관련-정보-빠르게-찾기&quot;&gt;1. 교차 제품 검색으로 관련 정보 빠르게 찾기&lt;/h3&gt;
+
+&lt;p&gt;아틀라시안에서는 머신러닝을 활용하여 관심 있고 관련 있는 정보를 빠르게 찾을 수 있도록 Jira와 Confluence 전반에 걸친 검색 기능을 개선하였습니다.&lt;/p&gt;
+
+&lt;p&gt;나와 다른 팀의 동료가 “로드맵”이라는 같은 단어를 입력했다 하더라도 서로 다른 것을 찾고 있을 가능성이 큽니다. &lt;strong&gt;스마트 검색&lt;/strong&gt;은 최근에 작업한 내용을 식별하여 가장 관련성이 높은 문서를 불러오는 &lt;strong&gt;개인화된 검색 경험&lt;/strong&gt;을 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;또한 사용자가 문자를 모두 입력하기 전에 예측된 검색 결과를 표시하는 모듈을 보완하면서 쿼리와 관련된 파일을 찾을 확률이 높아졌습니다. 이러한 스마트 검색은 찾고자 하는 내용을 기반으로 즉각적인 검색 결과를 표시하도록 검색을 최적화합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/searching-v3.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;아틀라시안은 Jira 및 Confluence의 검색 환경에 &lt;strong&gt;지능형 필터 컨트롤&lt;/strong&gt;을 추가했습니다. 이 필터 컨트롤은 기여자 및 작업 공간별로 검색 범위를 좁히기 위해 선택할 가능성이 있는 필터를 예측합니다. 아틀라시안에서는 필터를 사용할 때 사용자가 89%의 비율로 지능형 제안을 선택한다는 것을 발견했습니다.&lt;/p&gt;
+
+&lt;p&gt;그러나 정보를 찾는 것은 단순히 검색을 실행하는 것이 아닙니다. &lt;a href=&quot;http://start.atlassian.com/&quot; title=&quot;http://start.atlassian.com&quot;&gt;http://start.atlassian.com&lt;/a&gt; 페이지는 사용자가 작업한 Confluence 문서 및 작업한 기타 Atlassian 제품에 대한 개인화된 개요를 표시하여 빠르게 시작할 수 있도록 스마트한 기능을 사용 했습니다. 고객의 25%는 지능적으로 제안된 권장 사항을 기반한 Start 페이지에서 작업을 시작합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/image-20200915-060139.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-적합한-인력을-투입하여-협업-가속화&quot;&gt;2. 적합한 인력을 투입하여 협업 가속화&lt;/h3&gt;
+
+&lt;p&gt;협업은 프로젝트를 완료하거나 앞으로 나아가기 위해 적시에 적절한 사람을 끌어들이는 것입니다. 10명의 소규모 스타트업에서는 어렵지 않게 느껴질 수 있지만 조직이 성장함에 따라 이 단순해 보이는 경험이 큰 챌린지가 되기도 합니다.&lt;/p&gt;
+
+&lt;p&gt;적합한 사람을 찾기가 갑자기 더 어려워지고 개인을 추적하는 데 소요되는 시간은 계속해서 누적될 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Jira 및 Confluence의 &lt;strong&gt;예측 사용자 멘션&lt;/strong&gt;을 통해 스마트는 정기적으로 함께 작업하는 사람과 작업 중인 내용을 파악하여 프로젝트에 가져올 사람 목록을 추천합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/v3.gif&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;아틀라시안은 보다 스마트한 협업을 위해 &lt;strong&gt;예측 사용자 선택&lt;/strong&gt; 기능을 개발했습니다. 그들은 단일 문자를 입력할 필요 없이 제품 전반에 걸친 다양한 시나리오에서 협업할 관련 팀원을 제안합니다.&lt;/p&gt;
+
+&lt;p&gt;다음은 제품 전반에 걸쳐 상황에 맞는 제안을 하는 방법에 대한 몇 가지 예입니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Jira의 이슈 할당&lt;/strong&gt; : 누가 프로젝트에 참여하고 있는지, 누가 유사한 이슈에 대해 작업하는지 알고 있습니다. 과거 행동에서 학습하여 가장 가능성이 높은 상위 5명의 담당자를 86%의 정확도로 예측할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/jira-v3.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Confluence의 페이지 제한&lt;/strong&gt; : Smarts는 공동 작업을 하는 사람과 일반적으로 작업하는 작업을 식별할 수 있으므로 페이지 보기를 제한해야하는 사람을 예측할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/confluence-v3.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Bitbucket의 풀 리퀘스트 검토자&lt;/strong&gt; : 아틀라시안은 특정 리포지토리에서 누가 작업하고 과거에 유사한 풀 리퀘스트에 참여했는지 알고 있으므로 풀 리퀘스트에 대한 최고의 검토자를 예측할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/bitbucket-v3-600x358.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-더욱-빠른-이슈-해결을-위한-분류-속도-향상&quot;&gt;3. 더욱 빠른 이슈 해결을 위한 분류 속도 향상&lt;/h3&gt;
+
+&lt;p&gt;IT 부서에서 일하는 경우 겹치거나 비슷한 요청사항에 대한 서비스 데스크 티켓을 합치기 위해 많은 시간을 할애하는 경험을 하게 됩니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 문제를 해결하기 위해 Jira Service Management Cloud에서 유사한 티켓을 클러스터링 할 수 있는 새로운 기능이 추가되었습니다. 
+이제 스마트가 적용된 Jira에서 이슈를 분류하고 정리하는 시간을 줄이고 이슈를 해결하는데 더 많은 시간을 집중할 수 있게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;자연어 기술을 Jira Software에 적용하여 유사한 버그 보고서나 기능 요청을 그룹화하고, Jira Service Management의 티켓에 이슈를 연결하며 Confluence의 관련 기술 자료 문서를 표시할 수 있습니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“매일 수백 개의 서비스 데스크 티켓을 처리해야 하므로 유사한 티켓을 한 번에 분류하면 IT 팀의 시간을 크게 절약할 수 있습니다. 
+또한 특정 구성 요소, 레이블 및 제품 버전을 작성할 때 예측 필드는 가장 관련성이 높은 항목을 즉시 표시합니다.” - Shahib Hamid, Atlassian Head of Product&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/image-43-2048x860.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;아틀라시안은 과거 데이터에서 학습하여 Jira Software 및 Jira Service Management의 많은 분야를 지능적으로 만들었습니다. 
+이슈의 구성 요소, 레이블 및 버전을 채우는 동안 &lt;strong&gt;예측 필드&lt;/strong&gt;에 가장 관련성이 높은 제안이 표시됩니다.&lt;/p&gt;
+
+&lt;p&gt;다음을 포함하여 주로 사용하는 이슈 필드에 대한 상위 5개 제안을 정확하게 예측할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;예측 구성 요소:&lt;/strong&gt; 79% 정확도&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;예측 레이블:&lt;/strong&gt; 75% 정확도&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;예측 버전:&lt;/strong&gt; 75% 정확도&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/3.-predictive-fields-v3-1-scaled.gif&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;‘스마트’ 와 아틀라시안 플랫폼과의 통합은 아틀라시안의 AI 기술에 대한 투자에 있어서 시작 단계에 불과합니다.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안은 팀이 핵심 업무에 집중할 수 있도록 반복적인 작업을 줄일 수 있는 더 많은 방법을 항상 연구하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안이 제공하는 “가장 스마트한 협업 플랫폼”과 함께 조직의 업무 방식을 개선하고 협업 문화 혁신을 이끌어세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="아틀라시안" /><category term="AI" /><category term="Machinelearning" /><category term="Atlassian Cloud" /><category term="아틀라시안클라우드" /><category term="Jira Cloud" /><category term="Confluence Cloud" /><category term="디무브" /><category term="Dmove" /><summary type="html">안녕하세요, 디무브입니다! 🎈</summary></entry><entry><title type="html">2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Cloud</title><link href="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Cloud" /><published>2021-12-28T00:00:00+09:00</published><updated>2021-12-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;안녕하세요. 디무브 입니다! :balloon:&lt;/p&gt;
 
@@ -952,7 +1139,7 @@ Kubernetes 클러스터는 Amazon EKS , Azure Kubernetes Service , Google Kubern
 
 &lt;p&gt;DevSecOps를 구현하기 위한 Jira, Confluence, Bitbucket, Bamboo와 같은 Atlassian Data Center 및 Cloud 제품들에 관해 보다 자세한 내용이 궁금하시다면 디무브에게 문의해주세요!&lt;/p&gt;
 
-&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="IT Trend" /><category term="Atlassian" /><category term="아틀라시안" /><category term="DevOos" /><category term="DevSecOps" /><category term="아틀라시안 데이터센터" /><category term="Data Center" /><category term="데브옵스" /><category term="데브섹옵스" /><category term="SecOps" /><category term="디무브" /><category term="Dmove" /><summary type="html"></summary></entry><entry><title type="html">2021년 12월 디무브 웨비나 안내 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제</title><link href="http://localhost:4000/news%20and%20events/2021/12/06/Atlassian-Okta-ID-and-Access-Management-Webinar.html" rel="alternate" type="text/html" title="2021년 12월 디무브 웨비나 안내 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제" /><published>2021-12-06T00:00:00+09:00</published><updated>2021-12-06T00:00:00+09:00</updated><id>http://localhost:4000/news%20and%20events/2021/12/06/Atlassian-Okta-ID-and-Access-Management-Webinar</id><content type="html" xml:base="http://localhost:4000/news%20and%20events/2021/12/06/Atlassian-Okta-ID-and-Access-Management-Webinar.html">&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar Title Banner.png&quot; alt=&quot;Banner&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="IT Trend" /><category term="Atlassian" /><category term="아틀라시안" /><category term="DevOps" /><category term="DevSecOps" /><category term="아틀라시안 데이터센터" /><category term="Data Center" /><category term="데브옵스" /><category term="데브섹옵스" /><category term="SecOps" /><category term="디무브" /><category term="Dmove" /><summary type="html"></summary></entry><entry><title type="html">2021년 12월 디무브 웨비나 안내 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제</title><link href="http://localhost:4000/news%20and%20events/2021/12/06/Atlassian-Okta-ID-and-Access-Management-Webinar.html" rel="alternate" type="text/html" title="2021년 12월 디무브 웨비나 안내 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제" /><published>2021-12-06T00:00:00+09:00</published><updated>2021-12-06T00:00:00+09:00</updated><id>http://localhost:4000/news%20and%20events/2021/12/06/Atlassian-Okta-ID-and-Access-Management-Webinar</id><content type="html" xml:base="http://localhost:4000/news%20and%20events/2021/12/06/Atlassian-Okta-ID-and-Access-Management-Webinar.html">&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar Title Banner.png&quot; alt=&quot;Banner&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;안녕하세요. 디무브 입니다. 🎈&lt;/p&gt;
 
@@ -1310,290 +1497,4 @@ Kubernetes 클러스터는 Amazon EKS , Azure Kubernetes Service , Google Kubern
 
 &lt;p&gt;추가적으로 아틀라시안 클라우드 제품에 대해 자세히 알고 싶으시다면 저희 디무브를 찾아주세요!&lt;/p&gt;
 
-&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="아틀라시안" /><category term="Jira" /><category term="Confluence" /><category term="변경관리" /><category term="Change Management" /><category term="Atlassian Cloud" /><category term="디무브" /><category term="아틀라시안 릴리즈 노트" /><summary type="html"></summary></entry><entry><title type="html">CVE-2021-42574 보안 취약점 관련 Atlassian 제품 업그레이드 권장 안내</title><link href="http://localhost:4000/atlassian%20solutions/2021/11/09/CVE-2021-42574-Atlassian-Products.html" rel="alternate" type="text/html" title="CVE-2021-42574 보안 취약점 관련 Atlassian 제품 업그레이드 권장 안내" /><published>2021-11-09T00:00:00+09:00</published><updated>2021-11-09T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2021/11/09/CVE-2021-42574-Atlassian-Products</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2021/11/09/CVE-2021-42574-Atlassian-Products.html">&lt;p&gt;&lt;img src=&quot;/assets/images/blog/notice_1.png&quot; alt=&quot;Banner&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
-
-&lt;p&gt;유니코드(Unicode) 시스템과 관련하여 악의적인 목적인 소스코드를 주입할 수 있는 취약점인 CVE-2021-42574이 아틀라시안의 여러 제품에 영향을 줄 수 있음이 확인되었습니다.&lt;/p&gt;
-
-&lt;p&gt;해당 취약점은 유니코드의 자체 제어 장치에 악성 코드를 심는 트로얀 소스를 삽입하는 공격 기법으로 적용 시 사람의 눈과 코드 편집기, 컴파일러를 모두 피해 악성 코드를 적용할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;유니코드는 거의 모든 시스템에서 ‘복사 및 붙여넣기’ 기능을 통해서도 간편하게 옮겨집니다.&lt;/p&gt;
-
-&lt;p&gt;특히 깃허브 등을 통해 공유되는 코드들은 ‘복사 및 붙여넣기’를 통해 코드의 정상적인 부분을 실행했을 뿐인데 자기도 모르게 악성 코드까지 심을 수 있는 위험이 있습니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;트로얀 소스 공격은 C, C++, C#, JavaScript, Java, Rust, Go, Python 언어 등 많은 프로그래밍 언어에서 코멘트와 문자열 안에 악의적 목적을 가진 유니코드 소스코드를 삽입함으로써 실제 소스코드의 로직을 변경하지 않으면서도 독자적인 멀웨어를 설치할 수 있습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;즉, 사람들의 눈에도 띄지 않고 컴파일러도 속일 수 있으며, 심지어 보안 솔루션들의 방어 기법도 높은 확률로 방어를 피해 갈 수 있는 공격 기법입니다.&lt;/p&gt;
-
-&lt;p&gt;다행히 아직까지 트로얀 소스를 삽입하여 공격하는 시도는 발견되지 않았으며 아틀라시안에서는 이 문제를 해결하기 위해 코드 편집기와 컴파일러를 패치하여 문제가 발생하지 않도록 조취를 취하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;따라서 아직 보안 패치가 완료되지 않은 제품에 대해 해당 제품을 사용하시는 고객 분들께서는 긴급 패치 작업이 필요합니다. 
-아틀라시안 관리자 및 보안 담당자께서는 사용 중이신 아틀라시안 제품의 서버 및 데이터센터의 버전을 확인 하신 후 업그레이드 작업을 통해 해당 취약점으로부터의 공격에 대응하시길 권장 드립니다.&lt;/p&gt;
-
-&lt;p&gt;취약점의 영향을 받는 제품과 문제를 수정한 버전은 하단의 표를 참고해주세요.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;cve-2021-42574-취약점의-영향을-받는-제품-및-버전&quot;&gt;CVE-2021-42574 취약점의 영향을 받는 제품 및 버전&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;**제품**&lt;/th&gt;
-      &lt;th&gt;**버전**&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Confluence Server 및 Data Center&lt;/td&gt;
-      &lt;td&gt;7.4.13 미만의 전체 버전 &lt;br /&gt; 7.5.0 ~ 7.12.5 까지의 버전 &lt;br /&gt; 7.13.2 미만의 전체 LTS 버전 &lt;br /&gt; 7.14.0 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Jira Software Server 및 Data Center&lt;/td&gt;
-      &lt;td&gt;8.13.13 미만의 전체 버전 &lt;br /&gt; 8.14.0 ~ 8.19.1 까지의 버전 &lt;br /&gt; 8.20.1 미만의 전체 LTS 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Jira Service Management Server and Data Center&lt;/td&gt;
-      &lt;td&gt;4.13.13 아래의 전체 버전 &lt;br /&gt; 4.14.0 ~ 4.19.1 까지의 버전 &lt;br /&gt;  4.20.0 아래의 전체 LTS 버전 &lt;br /&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Insight Asset Management &lt;br /&gt; (Jira Service Management의 애드온)&lt;/td&gt;
-      &lt;td&gt;8.9.4 미만의 전체 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bitbucket Server 및 Data Center 버전&lt;/td&gt;
-      &lt;td&gt;6.10.14 미만의 전체 버전 &lt;br /&gt; 7.0.0 ~ 7.5.2 까지의 버전 &lt;br /&gt; 7.6.10 미만의 7.6.대의 전체 LTS 버전 &lt;br /&gt; 7.7.0 ~ 7.16.1 까지의 버전 &lt;br /&gt; 7.17.1 아래의 전체 LTS 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bamboo Server 및 Data Center&lt;/td&gt;
-      &lt;td&gt;8.0.4 미만의 전체 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Crucible Server&lt;/td&gt;
-      &lt;td&gt;4.8.8 미만의 전체 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Fisheye Server&lt;/td&gt;
-      &lt;td&gt;4.8.8 미만의 전체 버전&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;cve-2021-42574-취약점에-대한-패치가-완료된-제품-및-버전&quot;&gt;CVE-2021-42574 취약점에 대한 패치가 완료된 제품 및 버전&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;**제품**&lt;/th&gt;
-      &lt;th&gt;**버전**&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Confluence Server 및 Data Center&lt;/td&gt;
-      &lt;td&gt;7.4.13 버전 &lt;br /&gt; 7.13.2 버전 &lt;br /&gt; 7.14.1 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Jira Software Server 및 Data Center&lt;/td&gt;
-      &lt;td&gt;8.13.13 버전 &lt;br /&gt; 8.20.1 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Jira Service Management Server and Data Center&lt;/td&gt;
-      &lt;td&gt;4.13.13 버전 &lt;br /&gt; 4.20.1 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Insight Asset Management &lt;br /&gt; (Jira Service Management의 애드온)&lt;/td&gt;
-      &lt;td&gt;8.9.4 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bitbucket Server 및 Data Center&lt;/td&gt;
-      &lt;td&gt;6.10.14 버전 &lt;br /&gt; 7.6.10 버전 &lt;br /&gt; 7.17.1 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bamboo Server 및 Data Center&lt;/td&gt;
-      &lt;td&gt;8.0.4 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Crucible Server&lt;/td&gt;
-      &lt;td&gt;4.8.8 버전&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Fisheye Server&lt;/td&gt;
-      &lt;td&gt;4.8.8 버전&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;버전 업그레이드는 라이선스에 대한 유지 관리를 진행 중이신 고객만 가능하며, 버전 업그레이드 및 취약점 대응과 관련하여 기술지원이 필요하시다면 언제든지 디무브에게 연락 주시기 바랍니다.&lt;/p&gt;
-
-&lt;p&gt;감사합니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;resource&quot;&gt;Resource&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://confluence.atlassian.com/security/multiple-products-security-advisory-unrendered-unicode-bidirectional-override-characters-cve-2021-42574-1086419475.html&quot;&gt;CVE-2021-42574-Unrendered unicode bidirectional override characters&lt;/a&gt;&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="아틀라시안" /><category term="CVE-2021-42574" /><category term="보안취약점" /><category term="컨플루언스" /><category term="Confluence" /><category term="보안패치" /><category term="트로얀소스" /><category term="유니코드취약점" /><summary type="html"></summary></entry><entry><title type="html">2021 ITSM 가트너 매직쿼드런트 - Atlassian, 유일한 “Visionary”로 선정</title><link href="http://localhost:4000/atlassian%20solutions/2021/10/27/Gartner-Magic-Quadrant-for-ITSM-Atlassian.html" rel="alternate" type="text/html" title="2021 ITSM 가트너 매직쿼드런트 - Atlassian, 유일한 “Visionary”로 선정" /><published>2021-10-27T00:00:00+09:00</published><updated>2021-10-27T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2021/10/27/Gartner-Magic-Quadrant-for-ITSM-Atlassian</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2021/10/27/Gartner-Magic-Quadrant-for-ITSM-Atlassian.html">&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
-
-&lt;p&gt;IT리서치 전문 가트너(Gartner)에서 매년 발행하는 보고서 중 하나인 매직 쿼드런트는 ‘실행 능력(Ability to Execute)’과 ‘비전 완성도(Completeness of Vision)에 따라 해당 기술 분야의 기업을 4사분면(Niche Players, Visionaries, Challengers, Leaders) 형태로 선정하여 공시하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이를 통해 해당 기술 분야의 기업들이 비전을 얼마나 잘 수행하고 있는지, 가트너 시장 전망에 얼마나 잘 부합하는지 파악할 수 있으며, 전세계의 기업 담당자는 해당 분야의 솔루션이나 서비스 도입을 검토할 때 이 보고서를 적극 참고합니다.&lt;/p&gt;
-
-&lt;p&gt;그리고, 올해 발행된 가트너의 2021 ITSM 매직쿼드런트에서 아틀라시안이 유일한 “Visionary” 로 선정되었습니다!&lt;/p&gt;
-
-&lt;p&gt;이는 아틀라시안 Jira Service Management의 접근방식과 가치를 객관적인 조사를 통해 인정받은 것인데요.&lt;/p&gt;
-
-&lt;p&gt;가트너에서는 인프라 및 운영(I&amp;amp;O) 조직의 리더가 현재 및 미래의 IT 로드맵에 맞게 ITSM 도구를 선택할 수 있도록 분석한 2021 매직 쿼드런트 보고서에 대한 하이라이트를 정리하여 공유합니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;itsm-시장-정의&quot;&gt;ITSM 시장 정의&lt;/h2&gt;
-
-&lt;p&gt;ITSM 도구는 인프라 및 운영 조직이 IT 서비스 인력, 인프라, 서비스 제공을 통한 비즈니스 가치 전달을 관리하는 것을 지원합니다.&lt;/p&gt;
-
-&lt;p&gt;주로 IT 서비스 데스크 및 IT 서비스 제공과 관련하여 사용되며, 인시던트, 요청, 문제, 변경, 지식 및 구성 관리를 포함한 전반적인 IT 서비스 작업 및 워크플로우 프로세스가 포함됩니다.&lt;/p&gt;
-
-&lt;p&gt;디지털 혁신에 대응하기 위하여 ITSM 도구는 DevOps 툴체인과 통합하여 요구사항을 해결하며 ITSM 프로세스 전반에 대해 Agile 방식을 적용하기 시작하였습니다.&lt;/p&gt;
-
-&lt;p&gt;이미 시장에는 수 많은 ITSM 도구가 존재하며, 공급업체는 경쟁력을 확보하기 위하여 비 IT 직무와 관련된 사용 사례를 확대하기 위하여 집중하고 있습니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;magic-quadrant&quot;&gt;Magic Quadrant&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Figure 1: Magic Quadrant for IT Service Management Tools&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://static.ziftsolutions.com/files/8a9982117bb7901b017bc4167537191b/thamb.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;공급업체-분석&quot;&gt;공급업체 분석&lt;/h3&gt;
-
-&lt;p&gt;Visionary로 선정된 Atlassian 및 리더 영역의 공급 업체에 대해 분석한 내용을 공유해 드립니다.&lt;/p&gt;
-
-&lt;p&gt;전체 공급업체에 대한 분석 내용은 원문 보고서에서 확인이 가능합니다.&lt;/p&gt;
-
-&lt;h4 id=&quot;atlassian&quot;&gt;Atlassian&lt;/h4&gt;
-
-&lt;p&gt;Atlassian은 2021년 ITSM 매직 쿼드런트에서 유일하게 “Visionary” 영역에 선정되었습니다.&lt;/p&gt;
-
-&lt;p&gt;Visionary는 아직 리더 만큼의 시장 장악력은 부족할 수 있으나, 차별화된 메시지와 제품 전략으로 ITSM 프로세스와 운영에 대한 효율성과 민첩함을 제공하는 혁신적인 접근 방식을 지닌 업체를 의미합니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian의 ITSM 도구인 Jira Service Management의 제품 전략은 개발, 운영 및 비즈니스 팀을 위한 디지털 경험을 통합하는데에 중점을 두고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Jira Service Management의 고객은 전 세계적으로 다양하며, 소규모 조직부터 대규모 엔터프라이즈 기업까지 아우릅니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian의 ITSM 로드맵에는 ITOM 기능 및 로우 코드(Low-code) 워크플로우에 대한 투자가 포함되어 있습니다. 최근에는 Halp(챗봇), Chartio(데이터분석 및 보고서), ThinkTilt(양식 디자인) 및 및 Mindville(자산 및 구성관리를 위한 Insight)등을 인수하였습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;강점&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Agile ITSM:&lt;/strong&gt; Atlassian은 Jira의 이슈 트래킹 기능을 활용한 DevOps 및 Agile 방법론 지원을 중심으로 ITSM에 대한 차별화된 접근 방식을 제공합니다. ITSM을 위한 DevOps 자동화에 대한 Atlassian의 투자는 복잡한 프로세스를 간소화하고 워크플로우별 격차를 해결하였습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;투명한 가격 정책:&lt;/strong&gt; 고객은 복잡한 확인 과정 없이 Atlassian의 홈페이지 및 포털을 통해 Jira Service Management의 가격을 확인하고 책정할 수 있습니다. 3명 이하의 에이전트를 위한 무료 라이선스를 통해 구매 전 제품을 테스트해볼 수 있으며, 공개된 가격으로 제품 규모와 예산을 쉽게 구성할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;신규 고객 증가:&lt;/strong&gt; Jira Service Management는 2021년 가트너 매직쿼드런트 평가에 포함된 공급 업체 중에서 2020년 신규 고객 수 기준 가장 빠르게 성장한 제품입니다. 고객은 소규모 조직에서 1,000명이상의 엔터프라이즈 기업까지 다양합니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;bmc&quot;&gt;BMC&lt;/h4&gt;
-
-&lt;p&gt;BMC는 2021 ITSM 매직 쿼드런트에서 리더로 선정되었습니다.&lt;/p&gt;
-
-&lt;p&gt;BMC는 네가지 ITSM 제품(BMC Helix ITSM, BMC Helix Remedyforce, FootPrints, Track-It!)을 제공하고 있으며, BMC Helix ITSM 제품의 전략은 다른 BMC ITOM 및 AITSM 솔루션과의 통합으로 핵심 ITSM 기능을 강화하는 것에 중점을 둡니다.&lt;/p&gt;
-
-&lt;p&gt;BMC의 고객은 전 세계적으로 다양하며, 대부분의 고객은 엔터프라이즈급의 대규모 기업입니다.&lt;/p&gt;
-
-&lt;p&gt;BMC는 컨테이너 기반의 인프라를 제공하고 제품에 대한 강력한 로드맵을 보유하고 있으나, 제품 구현이 매우 복잡하고 구축 기간이 오래 걸린다는 단점을 갖고 있습니다.&lt;/p&gt;
-
-&lt;h4 id=&quot;servicenow&quot;&gt;ServiceNow&lt;/h4&gt;
-
-&lt;p&gt;ServiceNow는 2021 ITSM 매직 쿼드런트에서 리더로 선정되었으며 ITSM과 기본 ITOM 및 AI 기능이 지원하는 비IT 디지털 워크플로를 연결하는 단일 플랫폼을 제공하는 데 중점을 두고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;ServiceNow의 고객은 전 세계적으로 다양하며, 대부분의 고객은 중견 기업 및 엔터프라이즈급의 대규모 기업입니다.&lt;/p&gt;
-
-&lt;p&gt;ServiceNow는 최근 AI 및 ML 기술력을 보유한 회사를 인수하여 플랫폼에 새로운 기능을 추가하고 보다 광범위하게 플랫폼을 확장하고 있으나, 경쟁업체와 비교 하였을 때 제품 패키징에 대한 유연성이 부족하고, I&amp;amp;O 성숙도가 낮은 기업들은 ServiceNow의 가치와 필요성을 입증하기 어렵습니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;신규-선정-및-제외된-공급-업체&quot;&gt;신규 선정 및 제외된 공급 업체&lt;/h2&gt;
-
-&lt;p&gt;가트너는 시장이 변화함에 따라 매직 쿼드런트 선정을 위한 기준을 검토하고 조정하여 평가 기준이 변경될 경우 이를 반영하여 선정합니다. 작년에 선정된 공급 업체가 올해에는 포함되어 있지 않다는 점이 해당 업체에 대한 가트너의 관점과 의견이 바뀌었다는 것을 의미하지는 않습니다. 이는 시장의 변화와 그에 따른 평가 기준의 변화를 반영한 것변화를 반영한 ​​것일 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;신규-선정-업체&quot;&gt;신규 선정 업체&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Atlassian은 올해의 매직 쿼드런트 평가 기준을 충족하였습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;SysAid은 올해의 매직 쿼드런트 평가 기준을 충족하였습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;USU은 올해의 매직 쿼드런트 평가 기준을 충족하였습니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;제외된-업체&quot;&gt;제외된 업체&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Broadcom은 올해의 매직 쿼드런트 평가 기준을 충족하지 못하였습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;IBM은 올해의 매직 쿼드런트 평가 기준을 충족하지 못하였습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Cherwell은 Ivanti에 인수되었습니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;선정-기준&quot;&gt;선정 기준&lt;/h2&gt;
-
-&lt;p&gt;올해의 매직 쿼드런트 업체에 포함되기 위해 충족해야 하는 주요 기준은 아래와 같습니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;인시던트 관리, 변경 관리, 구성 관리, 셀프 서비스, 서비스 요청에 대한 SLA 관리 등 ITSM의 기본 관행이 포함된 제품을 적극적으로 판매하여야 합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;제품에 대한 마케팅 캠페인을 실행하고, 지난 12개월 동안 제품에 대한 주요 업데이트 및 릴리스를 진행하여 지속적인 개발과 투자를 입증해야 합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;2020년 한해 동안 ITSM 제품에서 발생한 연간 수익이 3천만 달러 이상이고, 2019년에 비해 20% 이상의 성장률을 보여야 합니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;평가-기준&quot;&gt;평가 기준&lt;/h2&gt;
-
-&lt;h3 id=&quot;실행-능력ability-to-execute&quot;&gt;실행 능력(Ability to Execute)&lt;/h3&gt;
-
-&lt;p&gt;ITSM 시장에 대해 공급업체가 제공하는 핵심 상품 및 서비스가 실행 가능하며 지속적인 투자를 통해 발전시킬 수 있는지를 평가합니다.&lt;/p&gt;
-
-&lt;p&gt;또한 역동적으로 변화하는 시장의 요구사항에 유연하고 경쟁력 있게 대응할 수 있으며 판매를 위한 모든 활동과 채널의 효율성 여부가 포함됩니다.&lt;/p&gt;
-
-&lt;p&gt;브랜드와 사업을 홍보하고 제품의 이미지를 각인시킬 수 있는 메시지 전달을 위한 마케팅 프로그램 또한 중요합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;비전-완성도completeness-of-vision&quot;&gt;비전 완성도(Completeness of Vision)&lt;/h3&gt;
-
-&lt;p&gt;비전 완성도는 시장의 요구사항을 이해하고 이를 제품 및 서비스로 구현하는 공급업체의 능력과 명확하고 차별화된 마케팅 및 영업 전략을 보유하고 있는가에 대한 능력을 말합니다.&lt;/p&gt;
-
-&lt;p&gt;또한 ITSM에 대한 접근 방식이 증명 가능해야 하며, 전문지식을 보유하고 지속적인 투자를 진행하여 혁신을 이룰 수 있어야 합니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;전세계적으로 ITSM 시장은 이미 성숙해 있으며 매년 빠르게 진화하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;시장에는 수백개의 ITSM 도구가 있지만, 우리 조직의 규모와 요구사항에 맞는 도구를 선택하는 것이 중요합니다.&lt;/p&gt;
-
-&lt;p&gt;비즈니스 변화에 빠르게 대응하고 뛰어난 고객 서비스 경험을 제공하길 원하신다면, 아틀라시안의 Jira Service Management를 통해 팀의 협업 문화를 개선할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;보다 자세한 내용이 궁금하시다면 디무브에게 문의해주세요!&lt;/p&gt;
-
-&lt;p&gt;감사합니다.😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안클라우드" /><category term="Jira Service MAnagement" /><category term="Gartner" /><category term="ITSM" /><category term="IT서비스관리" /><category term="Magic Quadrant" /><category term="매직쿼드런트" /><summary type="html">안녕하세요, 디무브입니다! 🎈</summary></entry></feed>
+&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="아틀라시안" /><category term="Jira" /><category term="Confluence" /><category term="변경관리" /><category term="Change Management" /><category term="Atlassian Cloud" /><category term="디무브" /><category term="아틀라시안 릴리즈 노트" /><summary type="html"></summary></entry></feed>
