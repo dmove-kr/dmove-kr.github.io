@@ -9,10 +9,9 @@ tags: [Atlassian, Cloud, Server/Data Center, VSCODE, IDE]
 
 <img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/1.png">
 
-<br>
 <p>
 
-안녕하세요, 디무브 입니다! :balloon:
+안녕하세요, 디무브 입니다! :balloon: <br/>
 
 Atlassian 제품을 사용 중인 전 세계의 고객들은 Jira, Confluence, Bitbucket 등 Atlassian 제품을 이용한  Agile 기반의 협업을 통해 업무를 수행하고 업무 생산성을 높이고 있습니다. 이를 통한 업무 프로세스 개선 및 생산성 증대 효과는 Atlassian 각 제품간의 손 쉬운 연동과 Atlassian 제품의 높은 범용성에 기반을 두고 있습니다. 또한 이러한 범용성은 Atlassian 제품 뿐만이 아니라 기존에 고객들이 사용하던 타사 업무 애플리케이션과 연동을 지원하여 고객이 처한 상황에 맞게 사용할 수 있도록 지원합니다. 그리고 Atlassian은 시장에서 주로 사용되는 애플리케이션들의 Plug-in을 제작하여 배포함으로써 고객들이 타사 도구들을 사용하여 Atlassian 제품의 기능을 사용할 수 있도록 지원하고 있습니다.  
 
