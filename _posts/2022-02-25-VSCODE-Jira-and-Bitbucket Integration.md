@@ -29,9 +29,9 @@ Atlassian 제품을 사용 중인 전 세계의 고객들은 Jira, Confluence, B
 이러한 개발 환경(IDE)의 Marketplace(앱 스토어)에는 다양한 plug-in들이 존재하며 Atlassian에서 공식적으로 제작하여 배포하는 plug-in  또한 존재하고 있습니다. 하지만 IntelliJ와 Eclipse의 경우에는 공식 제작된 Plug-in의 업데이트 이력이 오래되었으므로 이번 포스팅에서는 일반적으로 많이 사용하는 위의 3가지 IDE 중 VSCODE에서 Jira와 Bitbucket의 연계를 통해 업무를 분담하고 처리하는 방법에 대해 살펴보겠습니다.
 
 </p>
- <img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/2.png" width="33%"/>
- <img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/3.png" width="33%"/>
- <img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/4.png" width="33%"/>
+ <img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/2.png" width="30%"/>
+ <img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/3.png" width="30%"/>
+ <img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/4.png" width="30%"/>
     
 <br>
 <br>
@@ -107,15 +107,15 @@ VSCODE의 왼쪽 메뉴에서 확장 탭을 선택한 후 Jira 또는 Atlassian�
 
 그 후 상단의 **V 버튼**을 클릭하여 수행한 작업 내역에 대한 commit message를 작성합니다. 코드의 Commit message에 Jira Issue key를 포함하여 작성하면 Commit message와 Jira Issue간의 연결이 맺어져 Jira의 development panel에에서 작성한 commit 내역활용할 수 있습니다.
 
-<img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/16.png" width = "49%">
-<img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/17.png" width = " 49%">
+<img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/16.png" width = "45%">
+<img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/17.png" width = " 45%">
 
 <br>
 
 아래 두 사진은 작성한 commit message가 앞에서 설명한 바와 같이 Bitbucket의 repository와 Jira issue에 반영이 된 결과 화면입니다. 
 
-<img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/18.png" width = "49%">
-<img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/19.png" width = "49%">
+<img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/18.png" width = "45%">
+<img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/19.png" width = "45%">
 
 <br>
 
