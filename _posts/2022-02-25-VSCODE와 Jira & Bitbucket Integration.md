@@ -2,7 +2,7 @@
 layout: post
 title:  VSCODE와 Jira & Bitbucket Integration
 subtitle:  VSCODE와 Jira & Bitbucket Integration
-date:   2022-02-25 12:00:00
+date:   2022-02-26 
 categories: [Atlassian Solutions]
 tags: [Atlassian, Cloud, Server/Data Center, VSCODE, IDE]
 ---
