@@ -1,10 +1,10 @@
 ---
 layout: post
-title: VSCODE와 Jira & Bitbucket Integration
+title: Case Study - VSCODE와 Jira & Bitbucket Integration
 Subtitle: VSCODE와 Jira & Bitbucket Integration
 date: 2022-02-25
 categories: [Atlassian Solutions]
-tags: [Atlassian, Cloud, Server/Data Center, VSCODE, IDE]
+tags: [Atlassian, Cloud, Server/Data Center, VSCODE, IDE, Jira integration, Bitbucket integration, 아틀라시안, 개발IDE, ]
 ---
 
 <img src = "https://blog.dmove.kr/assets/images/banners/VScode%20Integration/1.png">
