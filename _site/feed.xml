@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-14T10:43:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">Case Study - Zabbix와 Opsgenie를 활용한 장애 처리</title><link href="http://localhost:4000/atlassian%20solutions/2022/03/14/Case-Study-Zabbix-Opsgenie-Problem-Management-Process.html" rel="alternate" type="text/html" title="Case Study - Zabbix와 Opsgenie를 활용한 장애 처리" /><published>2022-03-14T00:00:00+09:00</published><updated>2022-03-14T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2022/03/14/Case-Study-Zabbix-Opsgenie-Problem-Management-Process</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2022/03/14/Case-Study-Zabbix-Opsgenie-Problem-Management-Process.html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/thumbnail.png&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-14T12:36:46+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">Case Study - Zabbix와 Opsgenie를 활용한 장애 처리</title><link href="http://localhost:4000/atlassian%20solutions/zabbix/2022/03/14/Case-Study-Zabbix-Opsgenie-Problem-Management-Process.html" rel="alternate" type="text/html" title="Case Study - Zabbix와 Opsgenie를 활용한 장애 처리" /><published>2022-03-14T00:00:00+09:00</published><updated>2022-03-14T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/zabbix/2022/03/14/Case-Study-Zabbix-Opsgenie-Problem-Management-Process</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/zabbix/2022/03/14/Case-Study-Zabbix-Opsgenie-Problem-Management-Process.html">&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/thumbnail.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;안녕하세요, 디무브 입니다! :balloon: &lt;br /&gt;&lt;/p&gt;
 
@@ -14,7 +14,7 @@
 
 &lt;h2 id=&quot;zabbix---opsgenie-장애-처리-프로세스&quot;&gt;&lt;strong&gt;Zabbix - Opsgenie 장애 처리 프로세스&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/1.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/1.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Zabbix 와 Opsgenie 를 연동하게 될 경우 Zabbix내의 Alert 상태 정보와 Opsgenie의 Alert 상태 정보를 서로 동기화할 수 있습니다. 예를 들어 장애를 인지하거나 종료 시 Zabbix의 Alert 정보와 Opsgenie의 Alert 정보는 서로 동기화 하여 자동적으로 인지(ACK) 상태 또는 종료(Closed) 상태로 변경됩니다.&lt;/p&gt;
 
@@ -22,17 +22,17 @@
 
 &lt;p&gt;1.서버 또는 장비에서 장애 발생 시 Zabbix에서는 모니터링된 데이터를 통해 트리거된 데이터를 기반으로 Alert 이벤트를 생성합니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/2.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;2.Alert이 생성되면 Zabbix에서 구성한 &lt;strong&gt;Opsgenie 웹훅&lt;/strong&gt;과 Zabbix 서버의 &lt;strong&gt;OEC(Opsgenie Edge Connector)&lt;/strong&gt; 플러그인을 통해 Opsgenie에 Alert 정보가 전달됩니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/3.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/3.png&quot; /&gt;&lt;/p&gt;
 
 &lt;center&gt;Zabbix에서 트리거된 액션을 통해 서버단으로 Opsgenie 웹훅 전송&lt;/center&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/4.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/4.png&quot; /&gt;&lt;/p&gt;
 
 &lt;center&gt;Opsgenie Edge Connector Log&lt;/center&gt;
 
@@ -40,7 +40,7 @@
   &lt;li&gt;Alert 정보를 받은 Opsgenie는 장애에 대한 Alert을 생성합니다.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/5.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/5.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;생성된 Alert 정보는 다음과 같습니다: &lt;br /&gt;
 - 제목 : 장애 내용 &lt;br /&gt;
@@ -51,8 +51,8 @@
 
 &lt;p&gt;4.담당자가 Alert을 확인한 뒤, “&lt;strong&gt;ACK&lt;/strong&gt;”를 누르게 될 경우 Zabbix와 Opsgenie는 서로 자동 동기화 되어 Zabbix에서도 동일하게 Alert 정보가 업데이트 됩니다.&lt;/p&gt;
 
-&lt;div style=&quot;width:45%; float:left; margin-right : 10%;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/6.png&quot; /&gt;&lt;p&gt; 활동 로그(Activity Log)에서 Ack 신호를 Zabbix로 전달하는 것을 확인할 수 있습니다.&lt;/p&gt;&lt;/div&gt;
-&lt;div style=&quot;width:45%;float:right;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/7.png&quot; /&gt;&lt;/div&gt;
+&lt;div style=&quot;width:45%; float:left; margin-right : 10%;&quot;&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/6.png&quot; /&gt;&lt;p&gt; 활동 로그(Activity Log)에서 Ack 신호를 Zabbix로 전달하는 것을 확인할 수 있습니다.&lt;/p&gt;&lt;/div&gt;
+&lt;div style=&quot;width:45%;float:right;&quot;&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/7.png&quot; /&gt;&lt;/div&gt;
 &lt;p&gt;Ack 신호를 전달받은 Zabbix에서는 Alert의 인지 상태를 자동으로 변경합니다.&lt;/p&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 
@@ -64,7 +64,7 @@
 
 &lt;p&gt;1.담당자가 Alert 정보를 확인하여 장애의 정도에 따라 인시던트를 생성합니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/8.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/8.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;인시던트의 세부사항은 다음과 같습니다:&lt;/p&gt;
 
@@ -72,45 +72,45 @@
   &lt;li&gt;Description : 인시던트로 연계된 장애에 대한 정보를 보여줍니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/9.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/9.png&quot; /&gt;&lt;/center&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Impacted Serviced : 장애가 발생한 서비스의 종류를 보여줍니다. 서비스는 Opsgenie의 서비스 항목에 등록하여 사용할 수 있습니다. Opsgenie에서의 Impacted Service 는 Jira Service Management 와 Statuspage 에서의 Service 개념과 상호 연계 됩니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/10.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/10.png&quot; /&gt;&lt;/center&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Associated Alerts : 해당 인시던트와 연관된 Alert 정보들을 보여줍니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/11.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/11.png&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Time Line : 인시던트 및 Alert의 업데이트 사항 등을 시간 별로 표시합니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/12.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/12.png&quot; /&gt;&lt;/center&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;팀 또는 부서 별 회의를 통해 인시던트를 처리합니다 : 인시던트를 Slack이나 Mattermost와 같은 채팅 툴과 연동하여 회의 환경을 구성하거나 Opsgenie 자체 커뮤니케이션 기능인 &lt;strong&gt;웹 컨퍼런스 브릿지&lt;/strong&gt; 또는 &lt;strong&gt;ICC(Incident Command Center)&lt;/strong&gt; 기능을 사용하여 채팅 또는 회의 환경을 구성할 수 있습니다.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;2.팀 또는 부서 별 회의를 통해 인시던트를 처리합니다 : 인시던트를 Slack이나 Mattermost와 같은 채팅 툴과 연동하여 회의 환경을 구성하거나 Opsgenie 자체 커뮤니케이션 기능인 &lt;strong&gt;웹 컨퍼런스 브릿지&lt;/strong&gt; 또는 &lt;strong&gt;ICC(Incident Command Center)&lt;/strong&gt; 기능을 사용하여 채팅 또는 회의 환경을 구성할 수 있습니다.&lt;/p&gt;
 
 &lt;p&gt;* 웹 컨퍼런스 브릿지와 ICC 기능은 엔터프라이즈 플랜에서 사용이 가능합니다.&lt;/p&gt;
 
-&lt;div style=&quot;width:45%; float:left; margin-right : 10%;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/13.png&quot; /&gt;&lt;center&gt;&lt;p&gt;웹 컨퍼런스 브릿지&lt;/p&gt;&lt;/center&gt;&lt;/div&gt;
-&lt;div style=&quot;width:45%;float:right;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/14.png&quot; /&gt;&lt;center&gt;&lt;p&gt;Incident Command Center&lt;/p&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;div style=&quot;width:45%; float:left; margin-right : 10%;&quot;&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/13.png&quot; /&gt;&lt;center&gt;&lt;p&gt;웹 컨퍼런스 브릿지&lt;/p&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;div style=&quot;width:45%;float:right;&quot;&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/14.png&quot; /&gt;&lt;center&gt;&lt;p&gt;Incident Command Center&lt;/p&gt;&lt;/center&gt;&lt;/div&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 
-&lt;p&gt;⁣3. 인시던트 처리가 완료되면 Zabbix의 Alert 상태는 &lt;strong&gt;Closed&lt;/strong&gt;로 해결되고 Opsgenie의 Alert 정보 역시 &lt;strong&gt;Closed&lt;/strong&gt;상태로 동일하게 변경됩니다.  모든 인시던트 처리가 끝나면 인시던트를 &lt;strong&gt;해결&lt;/strong&gt;(&lt;strong&gt;Resolved)&lt;/strong&gt; 상태로 변경합니다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;인시던트 처리가 완료되면 Zabbix의 Alert 상태는 &lt;strong&gt;Closed&lt;/strong&gt;로 해결되고 Opsgenie의 Alert 정보 역시 &lt;strong&gt;Closed&lt;/strong&gt;상태로 동일하게 변경됩니다.  모든 인시던트 처리가 끝나면 인시던트를 &lt;strong&gt;해결&lt;/strong&gt;(&lt;strong&gt;Resolved)&lt;/strong&gt; 상태로 변경합니다.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;div style=&quot;width:45%; float:left; margin-right : 10%;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/15.png&quot; /&gt;&lt;/div&gt;
-&lt;div style=&quot;width:45%;float:right;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/16.png&quot; /&gt;&lt;/div&gt;
+&lt;div style=&quot;width:45%; float:left; margin-right : 10%;&quot;&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/15.png&quot; /&gt;&lt;/div&gt;
+&lt;div style=&quot;width:45%;float:right;&quot;&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/16.png&quot; /&gt;&lt;/div&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 
-&lt;p&gt;⁣4. 인시던트 처리 후 Opsgenie는 인시던트의 사후 조치 보고서인 &lt;strong&gt;포스트모템(Postmortems)&lt;/strong&gt;를 제공합니다. 완성한 &lt;strong&gt;포스트모템(Postmortems)&lt;/strong&gt;은 Confluence와 연동하여 페이지로 Export가 가능합니다.&lt;/p&gt;
+&lt;p&gt;4.인시던트 처리 후 Opsgenie는 인시던트의 사후 조치 보고서인 &lt;strong&gt;포스트모템(Postmortems)&lt;/strong&gt;를 제공합니다. 완성한 &lt;strong&gt;포스트모템(Postmortems)&lt;/strong&gt;은 Confluence와 연동하여 페이지로 Export가 가능합니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/17.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/17.png&quot; /&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
@@ -130,29 +130,35 @@
 
 &lt;p&gt;&lt;strong&gt;Opsgenie Integration 설정&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;⁣1. Opsgenie에서 타사 제품과 Integration을 구성하기 위해서는 팀을 생성합니다. 팀을 생성하셨다면 상단의 &lt;strong&gt;Teams → Integrations → Add Integration&lt;/strong&gt;을 클릭하여 Zabbix를 선택합니다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Opsgenie에서 타사 제품과 Integration을 구성하기 위해서는 팀을 생성합니다. 팀을 생성하셨다면 상단의 &lt;strong&gt;Teams → Integrations → Add Integration&lt;/strong&gt;을 클릭하여 Zabbix를 선택합니다.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/18.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/18.png&quot; /&gt;&lt;/center&gt;
 
-&lt;p&gt;⁣2. Integration 이름을 선택한 다음, API Key를 복사하고, 연동 시 실행할 액션을 선택하여 저장합니다.&lt;/p&gt;
+&lt;p&gt;2.Integration 이름을 선택한 다음, API Key를 복사하고, 연동 시 실행할 액션을 선택하여 저장합니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/19.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/19.png&quot; /&gt;&lt;/center&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Opsgenie Webhook 설정 (Zabbix)&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;⁣1. Zabbix 관리자 계정으로 로그인 후, 관리 → 미디어 타입 → Opsgenie를 클릭합니다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Zabbix 관리자 계정으로 로그인 후, 관리 → 미디어 타입 → Opsgenie를 클릭합니다.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/20.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/20.png&quot; /&gt;&lt;/center&gt;
 
-&lt;p&gt;⁣2.  Opsgenie와 연동에 필요한 api, team, token, web 주소와 Zabbix의 URL을 입력합니다.&lt;/p&gt;
+&lt;p&gt;2.Opsgenie와 연동에 필요한 api, team, token, web 주소와 Zabbix의 URL을 입력합니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/21.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/21.png&quot; /&gt;&lt;/center&gt;
 
-&lt;p&gt;⁣3. &lt;strong&gt;User settings → Profile → 연락 방법&lt;/strong&gt;으로 접근하여 &lt;strong&gt;추가&lt;/strong&gt;를 클릭하여 Opsgenie 웹훅을 추가합니다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;User settings → Profile → 연락 방법&lt;/strong&gt;으로 접근하여 &lt;strong&gt;추가&lt;/strong&gt;를 클릭하여 Opsgenie 웹훅을 추가합니다.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/22.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/22.png&quot; /&gt;&lt;/center&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -160,29 +166,29 @@
 
 &lt;p&gt;액션은 Zabbix에서 장애 발생 시 트리거 되어 Opsgenie 웹훅을 통해 Opsgenie의 Alert 생성 정보를 전달합니다.&lt;/p&gt;
 
-&lt;p&gt;⁣1. &lt;strong&gt;설정 → 액션 → Trigger actions&lt;/strong&gt;로 이동합니다.&lt;/p&gt;
+&lt;p&gt;1.&lt;strong&gt;설정 → 액션 → Trigger actions&lt;/strong&gt;로 이동합니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/23.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/23.png&quot; /&gt;&lt;/center&gt;
 
-&lt;p&gt;&lt;br /&gt;  ⁣2. 우측 상단의 액션 작성을 클릭합니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;   2. 우측 상단의 액션 작성을 클릭합니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/24.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/24.png&quot; /&gt;&lt;/center&gt;
 
-&lt;p&gt;&lt;br /&gt;⁣3. 오퍼레이션에서 스텝을 추가합니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;  3. 오퍼레이션에서 스텝을 추가합니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/25.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/25.png&quot; /&gt;&lt;/center&gt;
 
-&lt;p&gt;&lt;br /&gt;⁣4. 전달 대상과 미디어에서 Opsgenie를 추가합니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;  4. 전달 대상과 미디어에서 Opsgenie를 추가합니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/26.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/26.png&quot; /&gt;&lt;/center&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;⁣5. 갱신과 복구에 대한 트리거를 4번과 동일하게 추가합니다.&lt;/p&gt;
+&lt;p&gt;5.갱신과 복구에 대한 트리거를 4번과 동일하게 추가합니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/27.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/27.png&quot; /&gt;&lt;/center&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/28.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/28.png&quot; /&gt;&lt;/center&gt;
 
 &lt;center&gt;완성된 트리거 액션&lt;/center&gt;
 
@@ -190,28 +196,28 @@
 
 &lt;p&gt;&lt;strong&gt;OEC Connector 설치 (Zabbix - Server)&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;⁣1. 해당 링크에서 서버 OS에 맞는 OEC Connector를 다운로드 받은 후 rpm 또는 dpkg 명령어를 통해 패키지를 설치합니다.&lt;/p&gt;
+&lt;p&gt;1.해당 링크에서 서버 OS에 맞는 OEC Connector를 다운로드 받은 후 rpm 또는 dpkg 명령어를 통해 패키지를 설치합니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/opsgenie/oec-scripts/releases/tag/Zabbix-1.1.6_oec-1.1.3&quot;&gt;Release Zabbix-1.1.6_oec-1.1.3 Opsgenie/oec-scripts&lt;/a&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/29.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/29.png&quot; /&gt;&lt;/center&gt;
 
-&lt;p&gt;⁣2. OEC 서비스를 시작합니다.&lt;/p&gt;
+&lt;p&gt;​    2. OEC 서비스를 시작합니다.&lt;/p&gt;
 
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;root@jira-crowd:/home/gongdol# service oec start 
 root@jira-crowd:/home/gongdol# service oec status
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/30.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/30.png&quot; /&gt;&lt;/center&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;⁣3. OEC config.json 파일을 수정합니다. 기본적으로 config 파일은 /home/opsgenie/oec/conf 폴더에 있습니다. 수정해야 하는 항목은 다음과 같습니다:
+&lt;p&gt;3.OEC config.json 파일을 수정합니다. 기본적으로 config 파일은 /home/opsgenie/oec/conf 폴더에 있습니다. 수정해야 하는 항목은 다음과 같습니다:
 apiKey : Opsgenie에서 Integration을 생성하였을 때 발급받은 키
 command_url : zabbix url로 수정
 user &amp;amp; password : zabbix 계정&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/31.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/31.png&quot; /&gt;&lt;/center&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -219,8 +225,8 @@ user &amp;amp; password : zabbix 계정&lt;/p&gt;
 
 &lt;p&gt;인시던트 룰은 생성된 경고가 특정 조건을 만족할 때 장애와 관련된 인시던트를 생성할 수 있도록 규칙을 생성합니다. 인시던트 룰은 팀 설정에서 생성이 가능합니다. 제가 설정한 인시던트 룰은 설명 내용에 “&lt;strong&gt;Server&lt;/strong&gt;“라는 내용이 포함될 시 인시던트를 생성하도록 규칙을 설정하였습니다.&lt;/p&gt;
 
-&lt;div style=&quot;width:45%; float:left; margin-right : 10%;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/32.png&quot; /&gt;&lt;center&gt;&lt;p&gt;인시던트 룰&lt;/p&gt;&lt;/center&gt;&lt;/div&gt;
-&lt;div style=&quot;width:45%;float:right;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/33.png&quot; /&gt;&lt;center&gt;인시던트 룰로 생성된 인시던트&lt;/center&gt;&lt;/div&gt;
+&lt;div style=&quot;width:45%; float:left; margin-right : 10%;&quot;&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/32.png&quot; /&gt;&lt;center&gt;&lt;p&gt;인시던트 룰&lt;/p&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;div style=&quot;width:45%;float:right;&quot;&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/33.png&quot; /&gt;&lt;center&gt;인시던트 룰로 생성된 인시던트&lt;/center&gt;&lt;/div&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
@@ -229,7 +235,7 @@ user &amp;amp; password : zabbix 계정&lt;/p&gt;
 
 &lt;p&gt;Zabbix나 Opsgenie에 대해 자세한 내용이 궁금하시다면 저희 &lt;a href=&quot;http://dmove.co.kr/contact-us/quote-service-inquiry&quot;&gt;디무브에게 문의&lt;/a&gt;해 주시면 감사하겠습니다.&lt;/p&gt;
 
-&lt;p&gt;감사합니다!&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="Cloud" /><category term="Zabbix" /><category term="zabbix" /><category term="자빅스" /><category term="Opsgenie" /><category term="opsgenie" /><category term="옵스지니" /><category term="장애" /><category term="장애관리" /><category term="인시던트" /><summary type="html"></summary></entry><entry><title type="html">Case Study - VSCODE와 Jira &amp;amp; Bitbucket Integration</title><link href="http://localhost:4000/atlassian%20solutions/2022/02/25/VSCODE-Jira-and-Bitbucket-Integration.html" rel="alternate" type="text/html" title="Case Study - VSCODE와 Jira &amp;amp; Bitbucket Integration" /><published>2022-02-25T00:00:00+09:00</published><updated>2022-02-25T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2022/02/25/VSCODE-Jira-and-Bitbucket%20Integration</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2022/02/25/VSCODE-Jira-and-Bitbucket-Integration.html">&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/1.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;감사합니다!&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Zabbix" /><category term="Atlassian" /><category term="Cloud" /><category term="Zabbix" /><category term="zabbix" /><category term="자빅스" /><category term="Opsgenie" /><category term="opsgenie" /><category term="옵스지니" /><category term="장애" /><category term="장애관리" /><category term="인시던트" /><summary type="html"></summary></entry><entry><title type="html">Case Study - VSCODE와 Jira &amp;amp; Bitbucket Integration</title><link href="http://localhost:4000/atlassian%20solutions/2022/02/25/VSCODE-Jira-and-Bitbucket-Integration.html" rel="alternate" type="text/html" title="Case Study - VSCODE와 Jira &amp;amp; Bitbucket Integration" /><published>2022-02-25T00:00:00+09:00</published><updated>2022-02-25T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2022/02/25/VSCODE-Jira-and-Bitbucket%20Integration</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2022/02/25/VSCODE-Jira-and-Bitbucket-Integration.html">&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/1.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;
 

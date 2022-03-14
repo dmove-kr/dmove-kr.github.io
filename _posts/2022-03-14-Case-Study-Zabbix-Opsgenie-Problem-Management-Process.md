@@ -3,7 +3,7 @@ layout: post
 title: Case Study - Zabbix와 Opsgenie를 활용한 장애 처리
 Subtitle: Zabbix와 Opsgenie를 활용한 장애 처리
 date: 2022-03-14
-categories: [Atlassian Solutions]
+categories: [Atlassian Solutions,Zabbix]
 tags: [Atlassian, Cloud, Zabbix, zabbix, 자빅스, Opsgenie, opsgenie, 옵스지니, 장애, 장애관리, 인시던트 ]
 
 ---
