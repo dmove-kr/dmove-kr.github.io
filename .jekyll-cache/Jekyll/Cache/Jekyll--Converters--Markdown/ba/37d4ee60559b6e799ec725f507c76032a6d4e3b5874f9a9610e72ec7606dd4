@@ -1,0 +1,112 @@
+I"n!<p><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/thumbnail.png" /></p>
+
+<p>안녕하세요, 디무브 입니다! :balloon: <br /></p>
+
+<p>이번 시간에는 오픈소스 모니터링 툴인 Zabbix와 경고 및 인시던트 관리 툴인 Opsgenie를 활용한 장애 인지 및 알림, 처리 프로세스에 대해 소개해 드리려고 합니다.</p>
+
+<p>Zabbix는 엔터프라이즈를 위한 오픈소스 기반의 모니터링 솔루션입니다. 현재 많은 기업들이 IT 서비스를 위한 인프라를 운영 중이며 이러한 인프라를 새로 추가하거나, 변경하는 일들은 빈번하게 발생합니다. 이러한 상황에서 인프라와 애플리케이션들의 Up/Down 유무나 어플리케이션의 성능 지표를 측정하는 도구로 Zabbix가 많이 사용되고 있습니다.</p>
+
+<p>Opsgenie 는 IT 서비스 및 인프라에서 발생하는 Incident를 관리하는 툴로써, 모니터링 시스템들에서 발생하는 Alert 데이터를 통합하여 관리하는 솔루션입니다. Opsgenie 는 200개가 넘는 도구와의 통합 기능이 제공되며, 강력한 API 와 웹훅, 메일 통합 기능을 제공하고 있습니다. 이를 활용해 Opsgenie는 다양한 시스템에서 발생한 Alert 데이터를 중앙 집중화하고, 한곳에서 장애를 빠르게 처리할 수 있도록 도와줄 수 있습니다.</p>
+
+<p>이제 장애가 발생하였을 때 어떻게 Zabbix와 Opsgenie를 사용하여 효율적으로 장애를 처리할 수 있는지 같이 확인해보도록 하겠습니다.</p>
+
+<hr />
+
+<h2 id="zabbix---opsgenie-장애-처리-프로세스"><strong>Zabbix - Opsgenie 장애 처리 프로세스</strong></h2>
+
+<p><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/1.png" /></p>
+
+<p>Zabbix 와 Opsgenie 를 연동하게 될 경우 Zabbix내의 Alert 상태 정보와 Opsgenie의 Alert 상태 정보를 서로 동기화할 수 있습니다. 예를 들어 장애를 인지하거나 종료 시 Zabbix의 Alert 정보와 Opsgenie의 Alert 정보는 서로 동기화 하여 자동적으로 인지(ACK) 상태 또는 종료(Closed) 상태로 변경됩니다.</p>
+
+<p>Zabbix 와 Opsgenie의 연계 및 동기화 구성 방법은 아래 그림을 통해 자세히 설명 드리겠습니다.</p>
+
+<p>1.서버 또는 장비에서 장애 발생 시 Zabbix에서는 모니터링된 데이터를 통해 트리거된 데이터를 기반으로 Alert 이벤트를 생성합니다.</p>
+
+<p><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/2.png" /></p>
+
+<p>2.Alert이 생성되면 Zabbix에서 구성한 <strong>Opsgenie 웹훅</strong>과 Zabbix 서버의 <strong>OEC(Opsgenie Edge Connector)</strong> 플러그인을 통해 Opsgenie에 Alert 정보가 전달됩니다.</p>
+
+<p><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/3.png" /></p>
+
+<center>Zabbix에서 트리거된 액션을 통해 서버단으로 Opsgenie 웹훅 전송</center>
+
+<p><br /></p>
+
+<p><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/4.png" /></p>
+
+<center>Opsgenie Edge Connector Log</center>
+
+<ol>
+  <li>Alert 정보를 받은 Opsgenie는 장애에 대한 Alert을 생성합니다.</li>
+</ol>
+
+<p><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/5.png" /></p>
+
+<p>생성된 Alert 정보는 다음과 같습니다:
+- 제목 : 장애 내용
+- 담당 팀(Owner Team) : Zabbix와 연동한 팀
+- Last Updated, Duplicated : Alert의 업데이트 또는 복제된 시간
+- 설명(Dscription) : 장애가 발생한 시간, 장애 이름, 장애가 발생한 호스트에 대한 내용
+- 우선순위(Priority) : 장애의 수준</p>
+
+<p>4.담당자가 Alert을 확인한 뒤, “<strong>ACK</strong>”를 누르게 될 경우 Zabbix와 Opsgenie는 서로 자동 동기화 되어 Zabbix에서도 동일하게 Alert 정보가 업데이트 됩니다.</p>
+
+<div style="width:45%; float:left; margin-right : 10%;"><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/6.png" /><p> 활동 로그(Activity Log)에서 Ack 신호를 Zabbix로 전달하는 것을 확인할 수 있습니다.</p></div>
+<div style="width:45%;float:right;"><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/7.png" /></div>
+<p>Ack 신호를 전달받은 Zabbix에서는 Alert의 인지 상태를 자동으로 변경합니다.</p>
+<div style="clear:both;"></div>
+
+<h3 id="2-인시던트를-활용한-장애-처리">2. 인시던트를 활용한 장애 처리</h3>
+
+<p>Zabbix 에서 발생한 Alert이 웹훅을 통해 Opsgenie로 전달되게 되면 Opsgenie에 연동된 팀에 Alert이 할당됩니다. 그 다음 장애를 담당하는 팀 또는 책임자가 해당 Alert을 통해 장애를 분석하고 인시던트로 판단할 경우, Alert을 인시던트로 연계할 수 있습니다. Zabbix에서 발생한 Alert이 웹훅을 통해 Opsgenie로 전달되게 되면 Opsgenie에 연동된 팀에 Alert 이 할당됩니다.</p>
+
+<p>인시던트를 생성하는 방법은 Alert 분석 후 자체적으로 인시던트를 만들거나 <strong>인시던트 룰(Incident rule)</strong>을 사용하여 인시던트를 생성할 수 있습니다. 인시던트를 통해 장애를 관리하고 관리하는 프로세스를 설명드린 뒤, 인시던트 룰에 대해 추가적으로 설명하겠습니다.</p>
+
+<p>1.담당자가 Alert 정보를 확인하여 장애의 정도에 따라 인시던트를 생성합니다.</p>
+
+<p><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/8.png" /></p>
+
+<p>인시던트의 세부사항은 다음과 같습니다:</p>
+
+<ul>
+  <li>Description : 인시던트로 연계된 장애에 대한 정보를 보여줍니다.</li>
+</ul>
+
+<center><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/9.png" /></center>
+
+<ul>
+  <li>Impacted Serviced : 장애가 발생한 서비스의 종류를 보여줍니다. 서비스는 Opsgenie의 서비스 항목에 등록하여 사용할 수 있습니다. Opsgenie에서의 Impacted Service 는 Jira Service Management 와 Statuspage 에서의 Service 개념과 상호 연계 됩니다.</li>
+</ul>
+
+<center><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/10.png" /></center>
+
+<ul>
+  <li>Associated Alerts : 해당 인시던트와 연관된 Alert 정보들을 보여줍니다.</li>
+</ul>
+
+<p><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/11.png" /></p>
+
+<ul>
+  <li>Time Line : 인시던트 및 Alert의 업데이트 사항 등을 시간 별로 표시합니다.</li>
+</ul>
+
+<center><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/12.png" /></center>
+
+<ol>
+  <li>팀 또는 부서 별 회의를 통해 인시던트를 처리합니다 : 인시던트를 Slack이나 Mattermost와 같은 채팅 툴과 연동하여 회의 환경을 구성하거나 Opsgenie 자체 커뮤니케이션 기능인 <strong>웹 컨퍼런스 브릿지</strong> 또는 <strong>ICC(Incident Command Center)</strong> 기능을 사용하여 채팅 또는 회의 환경을 구성할 수 있습니다.</li>
+</ol>
+
+<p>* 웹 컨퍼런스 브릿지와 ICC 기능은 엔터프라이즈 플랜에서 사용이 가능합니다.</p>
+
+<div style="width:45%; float:left; margin-right : 10%;"><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/13.png" /><center><p> 웹 컨퍼런스 브릿지</p></center></div>
+<div style="width:45%;float:right;"><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/14.png" /><center><p>Incident Command Center</p></center></div>
+<div style="clear:both;"></div>
+
+<p>⁣3.인시던트 처리가 완료되면 Zabbix의 Alert 상태는 <strong>Closed</strong>로 해결되고 Opsgenie의 Alert 정보 역시 <strong>Closed</strong>상태로 동일하게 변경됩니다.  모든 인시던트 처리가 끝나면 인시던트를 <strong>해결</strong>(<strong>Resolved)</strong> 상태로 변경합니다.</p>
+
+<div style="width:45%; float:left; margin-right : 10%;"><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/15.png" /></div>
+<div style="width:45%;float:right;"><img src="http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/16.png" /></div>
+<div style="clear:both;"></div>
+
+<p>⁣4. 인시던트 처리 후 Opsgenie는 인시던트의 사후 조치 보고서인 <strong>포스트모템(Postmortems)</strong>를 제공합니다. 완성한 <strong>포스트모템(Postmortems)</strong>은 Confluence와 연동하여 페이지로 Export가 가능합니다.</p>
+:ET

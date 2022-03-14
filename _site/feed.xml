@@ -1,4 +1,372 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-03T16:50:14+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">아틀라시안, 포레스터 웨이브 “엔터프라이즈 서비스 분야” 리더로 선정</title><link href="http://localhost:4000/it%20trend/2022/01/19/2021-forrester-wave-esm-atlassian.html" rel="alternate" type="text/html" title="아틀라시안, 포레스터 웨이브 “엔터프라이즈 서비스 분야” 리더로 선정" /><published>2022-01-19T00:00:00+09:00</published><updated>2022-01-19T00:00:00+09:00</updated><id>http://localhost:4000/it%20trend/2022/01/19/2021-forrester-wave-esm-atlassian</id><content type="html" xml:base="http://localhost:4000/it%20trend/2022/01/19/2021-forrester-wave-esm-atlassian.html">&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-14T10:43:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">Case Study - Zabbix와 Opsgenie를 활용한 장애 처리</title><link href="http://localhost:4000/atlassian%20solutions/2022/03/14/Case-Study-Zabbix-Opsgenie-Problem-Management-Process.html" rel="alternate" type="text/html" title="Case Study - Zabbix와 Opsgenie를 활용한 장애 처리" /><published>2022-03-14T00:00:00+09:00</published><updated>2022-03-14T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2022/03/14/Case-Study-Zabbix-Opsgenie-Problem-Management-Process</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2022/03/14/Case-Study-Zabbix-Opsgenie-Problem-Management-Process.html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/thumbnail.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요, 디무브 입니다! :balloon: &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;이번 시간에는 오픈소스 모니터링 툴인 Zabbix와 경고 및 인시던트 관리 툴인 Opsgenie를 활용한 장애 인지 및 알림, 처리 프로세스에 대해 소개해 드리려고 합니다.&lt;/p&gt;
+
+&lt;p&gt;Zabbix는 엔터프라이즈를 위한 오픈소스 기반의 모니터링 솔루션입니다. 현재 많은 기업들이 IT 서비스를 위한 인프라를 운영 중이며 이러한 인프라를 새로 추가하거나, 변경하는 일들은 빈번하게 발생합니다. 이러한 상황에서 인프라와 애플리케이션들의 Up/Down 유무나 어플리케이션의 성능 지표를 측정하는 도구로 Zabbix가 많이 사용되고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Opsgenie 는 IT 서비스 및 인프라에서 발생하는 Incident를 관리하는 툴로써, 모니터링 시스템들에서 발생하는 Alert 데이터를 통합하여 관리하는 솔루션입니다. Opsgenie 는 200개가 넘는 도구와의 통합 기능이 제공되며, 강력한 API 와 웹훅, 메일 통합 기능을 제공하고 있습니다. 이를 활용해 Opsgenie는 다양한 시스템에서 발생한 Alert 데이터를 중앙 집중화하고, 한곳에서 장애를 빠르게 처리할 수 있도록 도와줄 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이제 장애가 발생하였을 때 어떻게 Zabbix와 Opsgenie를 사용하여 효율적으로 장애를 처리할 수 있는지 같이 확인해보도록 하겠습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;zabbix---opsgenie-장애-처리-프로세스&quot;&gt;&lt;strong&gt;Zabbix - Opsgenie 장애 처리 프로세스&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Zabbix 와 Opsgenie 를 연동하게 될 경우 Zabbix내의 Alert 상태 정보와 Opsgenie의 Alert 상태 정보를 서로 동기화할 수 있습니다. 예를 들어 장애를 인지하거나 종료 시 Zabbix의 Alert 정보와 Opsgenie의 Alert 정보는 서로 동기화 하여 자동적으로 인지(ACK) 상태 또는 종료(Closed) 상태로 변경됩니다.&lt;/p&gt;
+
+&lt;p&gt;Zabbix 와 Opsgenie의 연계 및 동기화 구성 방법은 아래 그림을 통해 자세히 설명 드리겠습니다.&lt;/p&gt;
+
+&lt;p&gt;1.서버 또는 장비에서 장애 발생 시 Zabbix에서는 모니터링된 데이터를 통해 트리거된 데이터를 기반으로 Alert 이벤트를 생성합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2.Alert이 생성되면 Zabbix에서 구성한 &lt;strong&gt;Opsgenie 웹훅&lt;/strong&gt;과 Zabbix 서버의 &lt;strong&gt;OEC(Opsgenie Edge Connector)&lt;/strong&gt; 플러그인을 통해 Opsgenie에 Alert 정보가 전달됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;center&gt;Zabbix에서 트리거된 액션을 통해 서버단으로 Opsgenie 웹훅 전송&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/4.png&quot; /&gt;&lt;/p&gt;
+
+&lt;center&gt;Opsgenie Edge Connector Log&lt;/center&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Alert 정보를 받은 Opsgenie는 장애에 대한 Alert을 생성합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/5.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;생성된 Alert 정보는 다음과 같습니다: &lt;br /&gt;
+- 제목 : 장애 내용 &lt;br /&gt;
+- 담당 팀(Owner Team) : Zabbix와 연동한 팀 &lt;br /&gt;
+- Last Updated, Duplicated : Alert의 업데이트 또는 복제된 시간 &lt;br /&gt;
+- 설명(Dscription) : 장애가 발생한 시간, 장애 이름, 장애가 발생한 호스트에 대한 내용 &lt;br /&gt;
+- 우선순위(Priority) : 장애의 수준 &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;4.담당자가 Alert을 확인한 뒤, “&lt;strong&gt;ACK&lt;/strong&gt;”를 누르게 될 경우 Zabbix와 Opsgenie는 서로 자동 동기화 되어 Zabbix에서도 동일하게 Alert 정보가 업데이트 됩니다.&lt;/p&gt;
+
+&lt;div style=&quot;width:45%; float:left; margin-right : 10%;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/6.png&quot; /&gt;&lt;p&gt; 활동 로그(Activity Log)에서 Ack 신호를 Zabbix로 전달하는 것을 확인할 수 있습니다.&lt;/p&gt;&lt;/div&gt;
+&lt;div style=&quot;width:45%;float:right;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/7.png&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;Ack 신호를 전달받은 Zabbix에서는 Alert의 인지 상태를 자동으로 변경합니다.&lt;/p&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;인시던트를-활용한-장애-처리&quot;&gt;인시던트를 활용한 장애 처리&lt;/h3&gt;
+
+&lt;p&gt;Zabbix 에서 발생한 Alert이 웹훅을 통해 Opsgenie로 전달되게 되면 Opsgenie에 연동된 팀에 Alert이 할당됩니다. 그 다음 장애를 담당하는 팀 또는 책임자가 해당 Alert을 통해 장애를 분석하고 인시던트로 판단할 경우, Alert을 인시던트로 연계할 수 있습니다. Zabbix에서 발생한 Alert이 웹훅을 통해 Opsgenie로 전달되게 되면 Opsgenie에 연동된 팀에 Alert 이 할당됩니다.&lt;/p&gt;
+
+&lt;p&gt;인시던트를 생성하는 방법은 Alert 분석 후 자체적으로 인시던트를 만들거나 &lt;strong&gt;인시던트 룰(Incident rule)&lt;/strong&gt;을 사용하여 인시던트를 생성할 수 있습니다. 인시던트를 통해 장애를 관리하고 관리하는 프로세스를 설명드린 뒤, 인시던트 룰에 대해 추가적으로 설명하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;1.담당자가 Alert 정보를 확인하여 장애의 정도에 따라 인시던트를 생성합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/8.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;인시던트의 세부사항은 다음과 같습니다:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Description : 인시던트로 연계된 장애에 대한 정보를 보여줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/9.png&quot; /&gt;&lt;/center&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Impacted Serviced : 장애가 발생한 서비스의 종류를 보여줍니다. 서비스는 Opsgenie의 서비스 항목에 등록하여 사용할 수 있습니다. Opsgenie에서의 Impacted Service 는 Jira Service Management 와 Statuspage 에서의 Service 개념과 상호 연계 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/10.png&quot; /&gt;&lt;/center&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Associated Alerts : 해당 인시던트와 연관된 Alert 정보들을 보여줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/11.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Time Line : 인시던트 및 Alert의 업데이트 사항 등을 시간 별로 표시합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/12.png&quot; /&gt;&lt;/center&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;팀 또는 부서 별 회의를 통해 인시던트를 처리합니다 : 인시던트를 Slack이나 Mattermost와 같은 채팅 툴과 연동하여 회의 환경을 구성하거나 Opsgenie 자체 커뮤니케이션 기능인 &lt;strong&gt;웹 컨퍼런스 브릿지&lt;/strong&gt; 또는 &lt;strong&gt;ICC(Incident Command Center)&lt;/strong&gt; 기능을 사용하여 채팅 또는 회의 환경을 구성할 수 있습니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;* 웹 컨퍼런스 브릿지와 ICC 기능은 엔터프라이즈 플랜에서 사용이 가능합니다.&lt;/p&gt;
+
+&lt;div style=&quot;width:45%; float:left; margin-right : 10%;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/13.png&quot; /&gt;&lt;center&gt;&lt;p&gt;웹 컨퍼런스 브릿지&lt;/p&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;div style=&quot;width:45%;float:right;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/14.png&quot; /&gt;&lt;center&gt;&lt;p&gt;Incident Command Center&lt;/p&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;⁣3. 인시던트 처리가 완료되면 Zabbix의 Alert 상태는 &lt;strong&gt;Closed&lt;/strong&gt;로 해결되고 Opsgenie의 Alert 정보 역시 &lt;strong&gt;Closed&lt;/strong&gt;상태로 동일하게 변경됩니다.  모든 인시던트 처리가 끝나면 인시던트를 &lt;strong&gt;해결&lt;/strong&gt;(&lt;strong&gt;Resolved)&lt;/strong&gt; 상태로 변경합니다.&lt;/p&gt;
+
+&lt;div style=&quot;width:45%; float:left; margin-right : 10%;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/15.png&quot; /&gt;&lt;/div&gt;
+&lt;div style=&quot;width:45%;float:right;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/16.png&quot; /&gt;&lt;/div&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;⁣4. 인시던트 처리 후 Opsgenie는 인시던트의 사후 조치 보고서인 &lt;strong&gt;포스트모템(Postmortems)&lt;/strong&gt;를 제공합니다. 완성한 &lt;strong&gt;포스트모템(Postmortems)&lt;/strong&gt;은 Confluence와 연동하여 페이지로 Export가 가능합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/17.png&quot; /&gt;&lt;/center&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;tip--인시던트-관리를-위한-환경-구성&quot;&gt;&lt;strong&gt;Tip : 인시던트 관리를 위한 환경 구성&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;지금까지 Zabbix와 Opsgenie를 활용한 인시던트 및 장애 관리에 대해 알아보았습니다. 인시던트 관리 환경을 구성하기 위해서는 많은 작업이 필요한데요. 크게 3개로 나누어 설명을 드리면 Zabbix의 웹훅, 액션 설정, 서버의 Oec 설정, Opsgenie의 연동 설정이 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;우선 Zabbix의 웹훅 설정에서 Opsgenie를 추가합니다. 그 다음 장애가 발생하여 Alert 생성되었을 때 트리거를 작동시켜 Alert 정보를 Opsgenie Edge Connector를 통해 Opsgenie로 전달합니다. 이를 위해서는 Zabbix 웹 상에서 트리거 설정과 Zabbix 서버에서 Opsgenie Edge Connector 서비스를 적용해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;마지막으로 Opsgenie에서는 Zabbix의 Alert 정보를 받기 위해 연동 설정이 필요합니다. 그러기 위해서는 우선 팀을 생성해야 하는데요. 이유는 Opsgenie는 팀을 기반으로 인시던트를 관리하고 처리하기 때문입니다. 팀을 구성한 다음, Zabbix와 연동을 구성하여 Alert 정보를 받을 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;추가적으로 Opsgenie의 인시던트 룰을 사용하여 Alert 생성 시 특정 조건을 만족하도록 설정하여 자동으로 인시던트를 생성하고 팀에 할당할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이제 아래 예시를 통해 환경 구성에 대해 자세히 확인해보도록 하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Opsgenie Integration 설정&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;⁣1. Opsgenie에서 타사 제품과 Integration을 구성하기 위해서는 팀을 생성합니다. 팀을 생성하셨다면 상단의 &lt;strong&gt;Teams → Integrations → Add Integration&lt;/strong&gt;을 클릭하여 Zabbix를 선택합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/18.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;⁣2. Integration 이름을 선택한 다음, API Key를 복사하고, 연동 시 실행할 액션을 선택하여 저장합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/19.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Opsgenie Webhook 설정 (Zabbix)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;⁣1. Zabbix 관리자 계정으로 로그인 후, 관리 → 미디어 타입 → Opsgenie를 클릭합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/20.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;⁣2.  Opsgenie와 연동에 필요한 api, team, token, web 주소와 Zabbix의 URL을 입력합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/21.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;⁣3. &lt;strong&gt;User settings → Profile → 연락 방법&lt;/strong&gt;으로 접근하여 &lt;strong&gt;추가&lt;/strong&gt;를 클릭하여 Opsgenie 웹훅을 추가합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/22.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Opsgenie Action 설정 (Zabbix)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;액션은 Zabbix에서 장애 발생 시 트리거 되어 Opsgenie 웹훅을 통해 Opsgenie의 Alert 생성 정보를 전달합니다.&lt;/p&gt;
+
+&lt;p&gt;⁣1. &lt;strong&gt;설정 → 액션 → Trigger actions&lt;/strong&gt;로 이동합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/23.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;  ⁣2. 우측 상단의 액션 작성을 클릭합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/24.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;⁣3. 오퍼레이션에서 스텝을 추가합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/25.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;⁣4. 전달 대상과 미디어에서 Opsgenie를 추가합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/26.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;⁣5. 갱신과 복구에 대한 트리거를 4번과 동일하게 추가합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/27.png&quot; /&gt;&lt;/center&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/28.png&quot; /&gt;&lt;/center&gt;
+
+&lt;center&gt;완성된 트리거 액션&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OEC Connector 설치 (Zabbix - Server)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;⁣1. 해당 링크에서 서버 OS에 맞는 OEC Connector를 다운로드 받은 후 rpm 또는 dpkg 명령어를 통해 패키지를 설치합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/opsgenie/oec-scripts/releases/tag/Zabbix-1.1.6_oec-1.1.3&quot;&gt;Release Zabbix-1.1.6_oec-1.1.3 Opsgenie/oec-scripts&lt;/a&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/29.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;⁣2. OEC 서비스를 시작합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;root@jira-crowd:/home/gongdol# service oec start 
+root@jira-crowd:/home/gongdol# service oec status
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/30.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;⁣3. OEC config.json 파일을 수정합니다. 기본적으로 config 파일은 /home/opsgenie/oec/conf 폴더에 있습니다. 수정해야 하는 항목은 다음과 같습니다:
+apiKey : Opsgenie에서 Integration을 생성하였을 때 발급받은 키
+command_url : zabbix url로 수정
+user &amp;amp; password : zabbix 계정&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/31.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;인시던트 룰(Incident Rule) 설정&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;인시던트 룰은 생성된 경고가 특정 조건을 만족할 때 장애와 관련된 인시던트를 생성할 수 있도록 규칙을 생성합니다. 인시던트 룰은 팀 설정에서 생성이 가능합니다. 제가 설정한 인시던트 룰은 설명 내용에 “&lt;strong&gt;Server&lt;/strong&gt;“라는 내용이 포함될 시 인시던트를 생성하도록 규칙을 설정하였습니다.&lt;/p&gt;
+
+&lt;div style=&quot;width:45%; float:left; margin-right : 10%;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/32.png&quot; /&gt;&lt;center&gt;&lt;p&gt;인시던트 룰&lt;/p&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;div style=&quot;width:45%;float:right;&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Zabbix-Opsgenie/33.png&quot; /&gt;&lt;center&gt;인시던트 룰로 생성된 인시던트&lt;/center&gt;&lt;/div&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;지금 까지 Zabbix와 Opsgenie를 연동하여 장애 발생 시 어떻게 Alert과 인시던트를 생성하고 효과적으로 처리 하는지 알아보았습니다.&lt;/p&gt;
+
+&lt;p&gt;Zabbix나 Opsgenie에 대해 자세한 내용이 궁금하시다면 저희 &lt;a href=&quot;http://dmove.co.kr/contact-us/quote-service-inquiry&quot;&gt;디무브에게 문의&lt;/a&gt;해 주시면 감사하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;감사합니다!&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="Cloud" /><category term="Zabbix" /><category term="zabbix" /><category term="자빅스" /><category term="Opsgenie" /><category term="opsgenie" /><category term="옵스지니" /><category term="장애" /><category term="장애관리" /><category term="인시던트" /><summary type="html"></summary></entry><entry><title type="html">Case Study - VSCODE와 Jira &amp;amp; Bitbucket Integration</title><link href="http://localhost:4000/atlassian%20solutions/2022/02/25/VSCODE-Jira-and-Bitbucket-Integration.html" rel="alternate" type="text/html" title="Case Study - VSCODE와 Jira &amp;amp; Bitbucket Integration" /><published>2022-02-25T00:00:00+09:00</published><updated>2022-02-25T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2022/02/25/VSCODE-Jira-and-Bitbucket%20Integration</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2022/02/25/VSCODE-Jira-and-Bitbucket-Integration.html">&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+
+안녕하세요, 디무브 입니다! :balloon: &lt;br /&gt;
+
+Atlassian 제품을 사용 중인 전 세계의 고객들은 Jira, Confluence, Bitbucket 등 Atlassian 제품을 이용한  Agile 기반의 협업을 통해 업무를 수행하고 업무 생산성을 높이고 있습니다. 이를 통한 업무 프로세스 개선 및 생산성 증대 효과는 Atlassian 각 제품간의 손 쉬운 연동과 Atlassian 제품의 높은 범용성에 기반을 두고 있습니다. 또한 이러한 범용성은 Atlassian 제품 뿐만이 아니라 기존에 고객들이 사용하던 타사 업무 애플리케이션과 연동을 지원하여 고객이 처한 상황에 맞게 사용할 수 있도록 지원합니다. 그리고 Atlassian은 시장에서 주로 사용되는 애플리케이션들의 Plug-in을 제작하여 배포함으로써 고객들이 타사 도구들을 사용하여 Atlassian 제품의 기능을 사용할 수 있도록 지원하고 있습니다.  
+
+이번 시간에는 여러분과 함께 앞의 내용에 대한 예로 소프트웨어 개발팀에서 사용하는 개발환경(IDE)과 Atlassian Jira와 Bitbucket 제품간 연계를 통해 협업을 수행하고 업무(개발) 프로세스를 개선할 수 있는 방법에 대해 알아보겠습니다. 
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;세계에서-가장-인기-있는-개발-ide-3가지&quot;&gt;&lt;strong&gt;세계에서 가장 인기 있는 개발 IDE 3가지&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;
+일반적으로 개발 시장에서 전 세계의 많은 개발팀들은 그들의 주요 개발환경(IDE)으로 Microsoft사의 VSCODE, JetBrains사의 IntelliJ, Eclipse 재단의 Ecplipse를 주로 사용하고 있습니다. 이 세 가지 개발환경(IDE)의 공통점은 여러 개발 언어를 지원하며 다양한 추가 기능들을 활용할 수 있는 Marketplace(앱 스토어)를 가지고 있다는 점입니다. 
+이러한 개발 환경(IDE)의 Marketplace(앱 스토어)에는 다양한 plug-in들이 존재하며 Atlassian에서 공식적으로 제작하여 배포하는 plug-in  또한 존재하고 있습니다. 하지만 IntelliJ와 Eclipse의 경우에는 공식 제작된 Plug-in의 업데이트 이력이 오래되었으므로 이번 포스팅에서는 일반적으로 많이 사용하는 위의 3가지 IDE 중 VSCODE에서 Jira와 Bitbucket의 연계를 통해 업무를 분담하고 처리하는 방법에 대해 살펴보겠습니다.
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/2.png&quot; width=&quot;30%&quot; /&gt;
+ &lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/3.png&quot; width=&quot;30%&quot; /&gt;
+ &lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/4.png&quot; width=&quot;30%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;vscode&quot;&gt;&lt;strong&gt;VSCODE&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;VSCODE는 Microsoft 사에서 제작하여 배포하는 개발환경(IDE)으로 Windows, Mac 등 다양한 운영체제를 지원하면서 Marketplace를 통해 다양한 확장 도구들을 지원하는 전 세계에서 가장 인기있는 개발환경(IDE) 중 하나입니다. 이러한 인기 만큼 VSCODE의 Marketplace에서는 Atlassian이 공식적으로 Jira와 Bitbucket의 기능을 연계하여 활용할 수 있도록 &lt;strong&gt;Jira and Bitbucket(Atlassian Labs)&lt;/strong&gt; plug-in을 제작하여 배포하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;VSCODE에서 &lt;strong&gt;Jira and Bitbucket(Atlassian Labs)&lt;/strong&gt; plug-in을 사용하기 위해서는 Microsoft 사의 Marketplace나VSCDOE의 확장 탭에서 검색을 통해 설치하실 수 있으며 설치 방법은 아래의 사진 처럼 매우 간단합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vscode의-jira-and-bitbucket-atlassian-labs&quot;&gt;&lt;strong&gt;VSCODE의 Jira and Bitbucket (Atlassian Labs)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;VSCODE의 왼쪽 메뉴에서 확장 탭을 선택한 후 Jira 또는 Atlassian을 검색하면 검색 결과 최 상단에 Jira and Bitbucket이란 Plug-in을 확인할 수 있습니다. 해당 Plug-in을 선택한 후 &lt;strong&gt;Install&lt;/strong&gt; 버튼을 클릭하여 설치할 수 있습니다. 해당 Plug-in의 내용을 확인해 보면 Atlassian에서 제작하여 배포한 것으로 VSCODE에서 사용할 수 있는 Jira와 Bitbucket의 기능에 대한 설명을 제공하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/5.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jira and Bitbucket(Atlassian Labs)&lt;/strong&gt; 은 Jira와 Bitbucket Server/Data Center와 같은 On-premise 환경과 Cloud 환경 모두를 지원하고 있으므로 사용하시는 Atlassian 제품 환경에 맞게 구성하여 사용할 수 있습니다.
+&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/6.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;각 제품의 설정이 완료되면 Jira와 Bitbucket의 정보를 VSCODE에서 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/7.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vscode의-jira-and-bitbucket-atlassian-labs---jira-issue-확인&quot;&gt;&lt;strong&gt;VSCODE의 Jira and Bitbucket (Atlassian Labs) - Jira Issue 확인&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;이제 기본적인 구성이 끝나셨으면 VSCODE에서 사용할 수 있는 Jira의 기능에 대해 살펴보겠습니다. 여러분과 함께 가장 먼저 살펴볼 기능은 사용자에게 할당된 Issue를 확인하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jira and Bitbucket (Atlassian Labs)&lt;/strong&gt;의 좌측 탭에서 기본으로 적용된 Jira JQL필터에 의해 사용자에게 할당된 Issue 목록을 확인할 수 있습니다. 해당 Issue를 선택하면 VSCODE의 편집기가 열리며 해당 Issue의 정보를 확인할 수 있습니다. 그리고 사용자가 JQL을 사용하여 필터를 구성할 시 사용자가 찾고자 하는 이슈를 검색하여 업무에 활용할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/9.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vscode의-jira-and-bitbucket-atlassian-labs---jira-issue-생성&quot;&gt;&lt;strong&gt;VSCODE의 Jira and Bitbucket (Atlassian Labs) - Jira Issue 생성&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;두 번째로 살펴볼 기능은 Jira Issue를 작업 환경에서 바로 생성하는 것입니다. VSCODE에서는 Jira and Bitbucket plug-in의 좌측에 있는 &lt;strong&gt;Create issue&lt;/strong&gt;를 클릭하여 Jira Issue를 생성할 수 있습니다. Issue에 수행해야할 업무 내용 또는 요청 사항을 입력하여 생성할 수 있고 Jira and Bitbucket 구성 시 설정한 JQL 필터의 결과 값에 따라 표시가 됩니다. 아래 왼쪽의 사진은 VSCODE에서 Issue 정보를 입력하여 생성한 것이며 오른쪽은 VSCODE에서 생성한 Jira Issue가 Jira의 Web에서 생성된 사진입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/10.png&quot; width=&quot;49%&quot; /&gt; &lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/11.png&quot; width=&quot;49%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;또는 작업 중인 Code 내에서 마우스 우클릭을 통하여 하위 업무 또는 추가적인 업무를 Jira Issue로 생성할 수 있습니다. 이처럼 개발 업무를 진행하면서 바로바로 본인에게 할당된 Issue를 확인하고 업무 목표와 업무 이력을 팀과 공유함으로써 생산성을 높이고 기존보다 더 나은 협업을 수행할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/5-create-issue.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vscode의-jira-and-bitbucket-atlassian-labs---bitbucket-branch-생성&quot;&gt;&lt;strong&gt;VSCODE의 Jira and Bitbucket (Atlassian Labs) - Bitbucket branch 생성&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;이번에는 Jira와 Bitbucket을 연동하여 사용하는 방법에 대해 살펴보겠습니다. Jira 이슈로 개발 요청 또는 수정 요청을 받은 사용자는 VSCODE의 Jira의 Issue 보기 화면에서 &lt;strong&gt;Start work&lt;/strong&gt;를 클릭하여 Source branch로부터 간편하게 작업 branch를 생성할 수 있습니다. 이 기능을 활용하여 Jira Issue의 상태를 변경할 수 있으며 별도의 git 명령어를 사용하지 않고 자동으로 생성된 branch를 사용자의 로컬 환경으로 가져올 수 있습니다. 추후 개발 또는 수정 요청 사항에 대한 작업을 운영환경에 영향을 주지 않고 진행할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/13.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/14.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vscode의-jira-and-bitbucket-atlassian-labs---bitbucket-commit-message&quot;&gt;&lt;strong&gt;VSCODE의 Jira and Bitbucket (Atlassian Labs) - Bitbucket commit message&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;이번에는 수행한 작업 내역을 git 명령어를 사용하지 않고 VSCODE에서 수행한 작업 내역에 대한 commit message를 작성해 보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;먼저 VSCODE의 편집기에서 Jira Issue에 등록된 요청대로 출력 문구를 “Helloworld”에서 “VSCODE 테스트”로 수정한 후 저장합니다. 파일이 수정되면 왼쪽의 가지 모양의 소스제어 아이콘에 변경된 파일의 수가 표시됩니다. 그 다음 왼쪽의 Branch 모양의 소스 제어 아이콘을 클릭하여 소스 제어화면으로 이동합니다. 이 화면에서는 작업 전 내용과 작업 후 내용을 비교하여 변경된 부분을 사용자가 확인할 수 있습니다. 수행한 작업에 이상이 없으면 변경된 내용을 파일의 이름에 표시되는 &lt;strong&gt;+ 버튼&lt;/strong&gt;을 클릭하여 스테이징 환경에 추가합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/15.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;그 후 상단의 &lt;strong&gt;V 버튼&lt;/strong&gt;을 클릭하여 수행한 작업 내역에 대한 commit message를 작성합니다. 코드의 Commit message에 Jira Issue key를 포함하여 작성하면 Commit message와 Jira Issue간의 연결이 맺어져 Jira의 development panel에에서 작성한 commit 내역활용할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/16.png&quot; width=&quot;45%&quot; /&gt;
+&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/17.png&quot; width=&quot; 45%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;아래 두 사진은 작성한 commit message가 앞에서 설명한 바와 같이 Bitbucket의 repository와 Jira issue에 반영이 된 결과 화면입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/18.png&quot; width=&quot;45%&quot; /&gt;
+&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/19.png&quot; width=&quot;45%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vscode의-jira-and-bitbucket-atlassian-labs---bitbucket-pull-request&quot;&gt;&lt;strong&gt;VSCODE의 Jira and Bitbucket (Atlassian Labs) - Bitbucket Pull request&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;마지막으로 살펴볼 기능은 develop branch로부터 생성한 작업 branch의 내용을 다시 develop brach에 반영하는 &lt;strong&gt;Pull request&lt;/strong&gt; 입니다. VSCODE에서 Pull request를 생성하는 방법은 좌측 Bitbucket의 메뉴에서 Create pull request 버튼을 클릭하여 merge하고자 하는 branch의 정보를 입력합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/20.png&quot; /&gt;
+&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/21.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;VSCODE에서 Pull request를 생성할 시 Jira의 Issue 상태 또한 Workflow에 맞게 변경할 수 있고 Pull request에 대한 Reviewer를 등록할 수 있습니다. 그리고 Reviewer로부터 Pull request에 승인이 나면 사용자는 아래 사진의 &lt;strong&gt;Merge&lt;/strong&gt; 버튼을 클릭하여 Merge를 수행합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/22.png&quot; /&gt;
+&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/23.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;실제로 Merge가 제대로 수행되었는 지 Bitbucket에 접속하여 Pull request를 살펴보겠습니다. 아래 사진을 보면 Reviewer로부터 승인을 받은 Pull request 내역이 develop branch로 성공적으로 Merge된 것을 확인할 수있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/VScode%20Integration/24.png&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;이처럼 Atlassian은 개발 환경(IDE)을 비롯하여 다양한 타사 도구들과 호환성을 지원하고 많은 고객들이 그들의 환경에 맞게 Agile 기반의 협업을 수행하기를 바랍니다.&lt;/p&gt;
+
+&lt;p&gt;지금까지 여러분과 함께 Atlassian 제품과 개발 IDE와의 통합에 대해 알아보았습니다.
+Jira, Confluence, Bitbucket, Bamboo와 같은 Atlassian 제품들에 관해 보다 자세한 내용이 궁금하시다면 Atlassian 파트너사인 &lt;a href=&quot;http://dmove.co.kr/contact-us/quote-service-inquiry&quot;&gt;디무브에게 문의&lt;/a&gt;해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다. :smiley:&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="Cloud" /><category term="Server/Data Center" /><category term="VSCODE" /><category term="IDE" /><category term="Jira integration" /><category term="Bitbucket integration" /><category term="아틀라시안" /><category term="개발IDE" /><summary type="html"></summary></entry><entry><title type="html">아틀라시안, 포레스터 웨이브 “엔터프라이즈 서비스 분야” 리더로 선정</title><link href="http://localhost:4000/it%20trend/2022/01/19/2021-forrester-wave-esm-atlassian.html" rel="alternate" type="text/html" title="아틀라시안, 포레스터 웨이브 “엔터프라이즈 서비스 분야” 리더로 선정" /><published>2022-01-19T00:00:00+09:00</published><updated>2022-01-19T00:00:00+09:00</updated><id>http://localhost:4000/it%20trend/2022/01/19/2021-forrester-wave-esm-atlassian</id><content type="html" xml:base="http://localhost:4000/it%20trend/2022/01/19/2021-forrester-wave-esm-atlassian.html">&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -1214,287 +1582,4 @@ Kubernetes 클러스터는 Amazon EKS , Azure Kubernetes Service , Google Kubern
 &lt;div class=&quot;btn_main_more mt40 mb_t_c&quot; style=&quot;margin-left: 45px;&quot;&gt;
       &lt;a href=&quot;https://talkit.tv/Event/2730&quot; style=&quot;background-color: #0711A1; color:white;&quot;&gt;사전등록 하러가기&lt;/a&gt;
 		    &lt;/div&gt;
-&lt;p&gt;​&lt;/p&gt;</content><author><name>Dmove</name></author><category term="News and Events" /><category term="Atlassian" /><category term="아틀라시안" /><category term="Okta" /><category term="옥타" /><category term="토크아이티" /><category term="아틀라시안웨비나" /><category term="옥타웨비나" /><category term="IAM" /><category term="Identity Management" /><category term="Access Management" /><category term="Cloud" /><category term="Zero Trust" /><category term="제로트러스트" /><category term="계정관리" /><category term="클라우드 연동" /><summary type="html"></summary></entry><entry><title type="html">Zabbix Case Study - Harp 구축 사례</title><link href="http://localhost:4000/zabbix/2021/11/26/Zabbix-Case-Study-Harp-Japan.html" rel="alternate" type="text/html" title="Zabbix Case Study - Harp 구축 사례" /><published>2021-11-26T00:00:00+09:00</published><updated>2021-11-26T00:00:00+09:00</updated><id>http://localhost:4000/zabbix/2021/11/26/Zabbix-Case-Study-Harp-Japan</id><content type="html" xml:base="http://localhost:4000/zabbix/2021/11/26/Zabbix-Case-Study-Harp-Japan.html">&lt;style type=&quot;text/css&quot;&gt;
-    th, td {
-  vertical-align : top;
-}
-&lt;/style&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.zabbix.com/wp-content/uploads/2020/03/featured_image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
-
-&lt;p&gt;이번 시간에는 일본의 대표적인 클라우드 서비스 전문 기관인 Harp사의 Zabbix 도입에 대한 Case Study를 설명해드리려고 합니다. &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Harp 회사는 이미 2010년 부터 Zabbix 2.0 버전을 도입하여 사용해왔고, 최근 최신 버전의 Zabbix 버전으로 업그레이드 하였습니다. 어떻게 그들이 Zabbix를 도입하여 발전하게 되었고, 오랜 기간동안 Zabbix를 사용할 수 있었던 핵심 적인 이유는 무엇이 있는지 확인해 보겠습니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-서버-구성&quot;&gt;1. 서버 구성&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;시스템 구성&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;**Zabbix 서버 하드웨어**&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Zabbix 서버 갯수 : 2대 &lt;br /&gt; Zabbix 프록시 갯수 : 10개 &lt;br /&gt;모니터링 되는 장치 수 : 1,000개 &lt;br /&gt;사이트 갯수 : 1개&lt;br /&gt;트리거 수 : 7,000개 &lt;br /&gt;이중화 구성 : 액티브 - 액티브 구성&lt;br /&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;VM 머신 (4Core CPU, 16GB 메모리, 3.5TB 디스크) &lt;br /&gt;NVPS : 240&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/Case%20Study/Harp/Infrastructure.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-도입-simulation&quot;&gt;2. 도입 Simulation&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Before&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Approach&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Outcome&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;＊ 서비스와 모니터링 인프라를 통합하여 운영적인 부하의 감소와  통합 모니터링 실현&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;＊ 비용 축소 &lt;br /&gt;＊ 넓은 범위의 운영 시스템과 네트워크 장치 모니터링 &lt;br /&gt;* 고객의 요구, 모니터링 타겟 및 리소스 확장을 충족할 수 잇는 모니터링 솔루션&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;＊ 다양한 플랫폼들이 모니터링이 되어야함. &lt;br /&gt;＊ 모든 기능들은 자유롭고 활용이 가능하여 사용자의 요구를 쉽게 반영할 수 있어야함.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;＊ 각 서비스를 위한 단계별 모니터링 구현 &lt;br /&gt;＊ 모니터링 시스템을 선정해 설치작업 생략&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;구축-사례&quot;&gt;구축 사례&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-광범위한-모니터링과-인프라-통합을-위한-오픈소스-솔루션인-zabbix-도입&quot;&gt;1. 광범위한 모니터링과 인프라 통합을 위한 오픈소스 솔루션인 Zabbix 도입&lt;/h3&gt;
-
-&lt;p&gt;초창기의 Harp사는 서비스에 대한 기반을 각각 구축하였고, 이에 따른 모니터링 시스템의 운영 책임자도 매번 달랐습니다. 제공하는 서비스가 적었기 때문에, 직원들은 매일 아침 모니터링 화면을 육안으로 확인했으며, 문제 발생 시 그들 스스로 대응하는 방식으로 모니터링을 진행했습니다. 하지만 점차 제공하는 서비스가 늘어났고, 이에 따른 인프라를 하나로 통합한 중앙 집중식 모니터링을 구현하여 운영 부하를 줄여야 할 필요성을 느꼈습니다.
- &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;또한 담당자의 필요에 따라 MRTG, Cacti 등 오픈소스 소프트웨어 도구를 설치하였기 때문에, IaaS에서 SaaS까지, 서비스 프로비전의 여러 계층을 포함한 것과 동시에 여러 확장 서비스에 대한 교차 기능적이고 포괄적인 모니터링 솔루션을 고려해야 했습니다. 이에 그들은 오픈 소스 솔루션으로서, 비용을 절감할 수 있을 뿐만 아니라 여러 장치들을 모니터링할 수 있는 Zabbix를 도입하였습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Zabbix는 에이전트를 설치하지 않고도 리눅스, 윈도우, 유닉스 등 광범위한 운영체제에서 서버를 모니터링할 수 있었으며, 쉽게 사용할 수 있었기 때문에, 인터넷과 커뮤니티만 이용하여 모니터링을 수행할 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-끊임없이-확장되는-서비스의-미래에-초점을-맞춘-최신화된-zabbix로-마이그레이션&quot;&gt;2. 끊임없이 확장되는 서비스의 미래에 초점을 맞춘 최신화된 Zabbix로 마이그레이션&lt;/h3&gt;
-
-&lt;p&gt;2010년에 Harp사는 여러 서비스의 인프라를 하나로 통합하고 Zabbix 2.0을 도입하여 서비스 모니터링을 중앙 집중화 하였습니다. 오픈소스 솔루션을 도입함으로서, Harp 사는 라이센스와 같은 비용을 줄이고 특정 벤더에 묶이지 않는 메커니즘을 만들 수 있었으며 지자체 시스템에 요구되는 공공성을 확보할 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;그 외에 과거 Harp사는 모니터링 서비스 수준에 따라 일부 서비스를 사내 자체적인 도구로 보는 편차도 있었고, 상업용 모니터링 툴을 한꺼번에 세트로 서비스를 설치하여 여러 문제가 있었으나 Zabbix를 도입하면서 한 개의 단순한 도구로 모든 것을 쉽게 관리할 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;하지만 시간에 지남에 따라 가상화 기술이 확산되기 시작하고, 고객의 요구에 따른 서비스가 더욱 확장되었습니다. 관리해야할 서비스와 가상 머신의 수가 증가함에 따라  Harp사는 초기 리소스 설계에서 용량 한계에 도달할 것이라 판단하였습니다.  서비스별 장애현황을 시각화하고 퍼블릭 클라우드 모니터링 서비스의 구현 등 운영적인 설계에 문제를 해결하기 위해 모니터링 서비스인 Zabbix를 새로운 버전으로 재구축하기로 결정했습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Harp사는 PostgreSQL의 TimeScale DB 기능이 이전 Zabbix에서 사용해왔던 MySQL보다 더 효과적일 것이라 생각했기 때문에, 2020년 12월에 PostgreSQL의 TimeScale DB와 함께 새로운 Zabbix로 마이그레이션을 진행하여 새로운 모니터링 시스템 운영을 시작했습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;새롭게 구성된 모니터링 시스템은 2개의 Zabbix 서버와 10개의 Zabbix 프록시로 구성되며 약 1,000개의 장치를 모니터링 합니다. 모니터링에 구성된 트리거는 7,000개 이며, 구성된 아이템 수는 약 3만개로 구성되었습니다. 이로 인해 모니터링 규모가 이전보다 약 2/3정도로 축소되었다고 Harp사는 밝혔습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;또한 적절한 필터를 충분히 적용하지 못하고 원하지 않는 아이템도 자동으로 수집되는 문제 역시 Zabbix를 업데이트 하면서 해결하여 현재 가동하고 있는 성능의 10배의 규모로 서비스를 확장해도 모니터링 성능을 유지할 수 있을 것이라고 밝혔습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;3-장기적인-사용의-핵심-포인트--작은-디테일-영역을-안정적으로-고정&quot;&gt;3. 장기적인 사용의 핵심 포인트 : 작은 디테일 영역을 안정적으로 고정&lt;/h3&gt;
-
-&lt;p&gt;최신화된 Zabbix 버전으로 마이그레이션 하면서, Harp사는 또한 Zabbix 엔터프라이즈의 지원을 도입하였습니다. 10년동안 Zabbix를 사용했던 Harp사의 IT 인프라 담당자인 Sotozaki씨는 Zabbix에 대해 다음과 같이 언급하였습니다.  &lt;br /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;작은 규모로 서비스를 시작하는 동안에는 커뮤니티 정보를 참고하면서 앞으로 나아갈 수 있지만, 규모가 커질수록 세심하게 운영에 집중해도 파악하지 못하는 부분이 있을 것입니다. Zabbix의 장점은 오퍼레이터가 세밀하게 골치 아픈 부분을 안정적으로 고치게 할 수 있었습니다.&lt;/em&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;em&gt;업그레이드 된 Zabbix는 태그 기능이 상당히 좋아졌을 뿐만아니라 버전이 업그레이드 될 때마다 더 많은 기능이 추가되고 디테일하게 개선되고 있다고 느끼고 있습니다. 처음에는 사용하기 어려워 보여도 조금만 감수하면 금방 적응할 수 있습니다. 그것이 저희가 Zabbix를 오랫동안 계속 사용하게 된 이유입니다.“&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Harp사는 자체 플랫폼에서 제공되는 서비스를 모니터링하는데 Zabbix를 활용하는 것 이외에도 지방 정부에 운영 모니터링 서비스를 제공하는 것을 고려하고 있다고 밝혔습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;또한 사이버 공격의 심각성에 비춰 총무성(일본의 행정기관)과 지자체에서 요구되는 보안 수준이 높아졌기 때문에 Zabbix를 활용하여 의심되는 서비스가 있는지, 사이버 공격의 심각성 등을 확인할 수 있었다고 덭붙여 설명했습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;앞으로 Harp사는 신종 코로나 바이러스의 영향과 지자체 운영이 전자화 되는 등 디지털화가 가속되고 있는 만큼, 지속적으로 Zabbix를 최대한 활용하여 안정적인 서비스를 제공할 계획입니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;위 케이스 스터디와 같이, Zabbix는 여러 복잡한 모니터링을 사용할 필요 없이 인프라에 최적화 되어 하나의 툴로 인프라를 통합 관리할 수 있으며 타 솔루션에 비해 구성이 쉽고 빠르게 구축할 수 있다는 장점을 갖고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;오픈 소스 솔루션이라는 이유로 많은 고객 분들이 일체의 비용 없이 사용할 수 있기를 바라지만, 효과적인 구축과 활용을 위해서는 전문가의 도움을 통한 진단과 기술 지원이 필수적입니다.&lt;/p&gt;
-
-&lt;p&gt;디무브는 Zabbix의 공식 한국 파트너사로, Zabbix 모니터링 솔루션 구축과 관련된 모든 전문 기술 서비스를 제공해 드립니다.&lt;/p&gt;
-
-&lt;p&gt;Zabbix 모니터링 솔루션에 대해 궁금하신 사항이 있으시다면, 디무브에게 연락해주세요!&lt;/p&gt;
-
-&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Zabbix" /><category term="Dmove" /><category term="Zabbix" /><category term="자빅스" /><category term="모니터링솔루션" /><category term="모니터링툴" /><category term="자빅스 구축" /><category term="Case Study" /><category term="Harp" /><category term="Zabbix" /><summary type="html"></summary></entry><entry><title type="html">아틀라시안 클라우드 제품의 변경 관리를 위한 4가지 방법</title><link href="http://localhost:4000/atlassian%20solutions/2021/11/15/Manage-Change-in-Atlassian-Cloud.html" rel="alternate" type="text/html" title="아틀라시안 클라우드 제품의 변경 관리를 위한 4가지 방법" /><published>2021-11-15T00:00:00+09:00</published><updated>2021-11-15T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2021/11/15/Manage-Change-in-Atlassian-Cloud</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2021/11/15/Manage-Change-in-Atlassian-Cloud.html">&lt;p&gt;&lt;img src=&quot;https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/download.png?resize=1560,760&amp;amp;ssl=1&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
-
-&lt;p&gt;IT 인프라는 빠르게 변화하고 있으며, 제품 출시 기간은 점점 짧아지고 있습니다. 이러한 상황에서 모든 변화를 통제하는 것은 불가능 하지만, 잘 대비할 수 있도록 준비하고 계획하는 것이 중요합니다.&lt;/p&gt;
-
-&lt;p&gt;이번 포스팅에서는 제품의 업데이트 및 출시로 인한 워크플로우 중단을 방지하는데 도움이 되는 4가지 변경 관리 방법에 대해 다뤄보고자 합니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;조직의 관리자는 여러 면에서 선박의 조타수와 같은 역할을 합니다. 조직은 관리자가 가지고 있는 기술적 능력을 기반으로 새로운 기술과 개선 사항들을 제공해 주기를 바랍니다.&lt;/p&gt;
-
-&lt;p&gt;성장하는 조직에서는 제품의 작은 변화로도 조직과 사용자에게 큰 영향을 줄 수 있습니다. 만약 사용하고 있는 제품의 업데이트 내용에 대해 준비되지 않은 상태에서 이용할 경우 조직은 운영 지연 또는 중단을 경험할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian은 Atlassian 플랫폼 전반에 걸쳐 제품 경험을 개선하고 제품의 기능을 확장하기 위해 클라우드 기능을 지속적으로 변경하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian의 관리자는 여러 대륙에 퍼져있는 수백 개의 팀들과 협업하고 있기 때문에 조직 내에서 변경된 제품을 사용하기 위해 변경 관리를 위한 계획을 준비하는 것이 필요하다는 것을 잘 알고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이러한 이유로 Atlassian은 관리자가 클라우드 플랫폼의 변경 사항을 쉽게 관리하는 것을 돕기 위해 노력하고 있습니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;대규모-변경-관리를-위한-atlassian의-철학&quot;&gt;&lt;strong&gt;대규모 변경 관리를 위한 Atlassian의 철학&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Atlassian은 관리자의 요구에 따라 제품 변경 사항을 배포하기 위한 프레임워크를 만들었습니다.&lt;/p&gt;
-
-&lt;p&gt;이 프레임워크는 변경 사항을 파악하고, 준비하는 데 필요한 도구와 시간을 제공하여 이를 통해 제품의 변경된 내용을 적용하는 방법과 시기를 조절할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;변경 사항을 관리하는 첫 번째 단계는 다가올 변경 사항을 미리 파악하는 것입니다.&lt;/p&gt;
-
-&lt;p&gt;즉 프로젝트, 워크플로우 및 팀에게 영향을 줄 수 있는 잠재적 요소들을 미리 파악하여 변경하는 이유와 , 변경 사항이 영향을 미칠 제품 및 기능, 그리고 변경 예상 시간에 대해서도 자세히 설명하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;두 번째 단계는 다가올 변화에 대비하는 것입니다.&lt;/p&gt;
-
-&lt;p&gt;변경 사항을 사전에 테스트하고, 변경 사항이 제품에 어떤 영향을 미치는지 파악하여 새로운 기능과 변경된 내용이 팀의 기존 워크플로우와 어떻게 상호작용하는 지 파악할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;마지막으로 Atlassian은 제품의 변경이 필요한 경우에도 일정 수준의 제어가 필요한 것을 이해하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이러한 이유로 Atlassian은 제품에 대한 변경 사항의 릴리즈 빈도를 제어할 수 있는 옵션을 제공하여 사용자가 앞으로의 변화에 대비하고 사용자를 교육하는데 필요한 유연성을 제공합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;atlassian-cloud의-변경-사항을-관리하는-데-도움이-되는-4가지-팁&quot;&gt;&lt;strong&gt;Atlassian Cloud의 변경 사항을 관리하는 데 도움이 되는 4가지 팁&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;효과적인 변경 관리를 위한 4가지 핵심 팁을 통해 관리자는 변경 내용에 대해 쉽게 알림을 받고 준비할 수 있으며 Atlassian의 클라우드 제품에 대한 변경 사항들을 지속적으로 제어할 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-atlassian의-공식-클라우드-로드맵을-확인하기&quot;&gt;&lt;strong&gt;1. Atlassian의 공식 클라우드 로드맵을 확인하기&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;Atlassian은 제품 변경 사항을 고객에게 공개하고 있으며 변경 사항을 사전에 공지하기 위해 노력하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이와 같이 &lt;a href=&quot;https://www.atlassian.com/roadmap/cloud&quot; title=&quot;https://www.atlassian.com/roadmap/cloud&quot;&gt;&lt;strong&gt;클라우드 로드맵&lt;/strong&gt;&lt;/a&gt;  에는 Atlassian 클라우드 플랫폼과 해당 제품의 계획된 모든 변경 사항이 자세히 나와 있습니다.&lt;/p&gt;
-
-&lt;p&gt;분기 별로 업데이트되는 Atlassian 클라우드 로드맵에는 현재 및 미래의 클라우드 기능 및 업데이트에 대해 자세히 설명되어 있으므로 관리자는 다음에 어떠한 기능이 출시될 지 미리 확인할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;클라우드 로드맵을 탐색하려면 위 링크에 접속하신 후 좌측 필터 메뉴에서 제품, 로드맵 업데이트 또는 카테고리를 클릭하여 필터를 적용하고 확인하실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;각 업데이트 정보에는 아래의 내용을 비롯한 간단한 설명이 포함되어 있습니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;변경 사항의 영향을 받는 Atlassian Cloud 제품&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;연도 및 분기 별로 출시될 변경 사항&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;구성 및 기능 동작 방식에 대한 간략한 설명&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/2atlcloud.png?resize=768,391&amp;amp;ssl=1&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Atlassian 클라우드 플랫폼 전반에 걸쳐 어떤 변화가 올지 궁금하다면 &lt;strong&gt;클라우드 플랫폼(Cloud Platform)&lt;/strong&gt;을 클릭하여 확인할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;클라우드 플랫폼에 제공되는 업데이트는 사용하고 있는 하나 이상의 제품에 영향을 줄 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;근시일 내 또는 앞으로 다가올 변화에 대해 자세히 알고 싶으시다면 페이지 상단의 상태 필터를 전환하여 현재 분기(“Coming soon”) 내에, 다음 연도(“In the works”) 내에 또는 이후(“Future”)를 선택하여 어떤 기능이 출시될 지 확인할 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-atlassian-주간-릴리즈-정보-구독&quot;&gt;&lt;strong&gt;2. Atlassian 주간 릴리즈 정보 구독&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;Atlassian 클라우드 변경 사항에 대한 업데이트를 더 자주 받고 싶은 분들은 &lt;a href=&quot;https://confluence.atlassian.com/cloud/blog#&quot; title=&quot;https://confluence.atlassian.com/cloud/blog#&quot;&gt;&lt;strong&gt;클라우드 릴리즈 블로그&lt;/strong&gt;&lt;/a&gt; 를 구독하시길 추천합니다.&lt;/p&gt;
-
-&lt;p&gt;매주 Atlassian팀은 Atlassian 클라우드 플랫폼, Jira Software, Jira Service Management, Jira Work Management, Confluence 및 Bitbucket에 대한 변경 사항을 블로그에 업데이트합니다.&lt;/p&gt;
-
-&lt;p&gt;각 블로그 게시물에서는 아래의 내용이 포함되어 있으며 최근 및 향후 변경 사항에 대한 정보를 제품 별로 찾을 수 있습니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;변경 사항에 대한 간략한 설명&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;변경 사항이 영향을 미칠 제품 목록&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;제품 내에서 변경 사항을 확인할 수 있는 위치&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/4e3a9066-6858-4d48-9b33-c3f177a1c2f6.png?resize=768,557&amp;amp;ssl=1&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://confluence.atlassian.com/cloud/blog#&quot; title=&quot;https://confluence.atlassian.com/cloud/blog#&quot;&gt;&lt;strong&gt;클라우드 릴리스 블로그&lt;/strong&gt;&lt;/a&gt; 의 오른쪽 상단 모서리에 있는 “&lt;strong&gt;보기(Watch)&lt;/strong&gt;“를 클릭하면 블로그를 구독하실 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-샌드박스를-활용한-사전-테스트&quot;&gt;&lt;strong&gt;3. 샌드박스를 활용한 사전 테스트&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;앞의 두 가지 방법을 통해 Atlassian 클라우드 제품의 변경 사항을 확인하였다면, 변경 사항에 대한 대비를 미리 준비해야 합니다.&lt;/p&gt;
-
-&lt;p&gt;클라우드 프리미엄 및 클라우드 엔터프라이즈 플랜을 이용 중인 고객은 샌드박스 및 릴리스 트랙 기능을 이용하여 예정된 변경 사항을 준비할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/&quot; title=&quot;https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/&quot;&gt;&lt;strong&gt;Atlassian의 샌드박스&lt;/strong&gt;&lt;/a&gt;는 클라우드에 변경될 사항이 제품에 출시되기 전 테스트할 수 있도록 지원합니다.&lt;/p&gt;
-
-&lt;p&gt;샌드박스는 제품과 동일한 환경과 기능을 제공하며, 보유하고 있는 프리미엄 또는 엔터프라이즈 제품 환경(Jira Software, Jira Service Management 및 Confluence 포함) 당 하나의 샌드박스를 생성할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;샌드박스를 생성하기 위해서는 조직의 &lt;strong&gt;관리&lt;/strong&gt; 개요로 이동하여 &lt;strong&gt;제품 &amp;gt; 샌드박스로&lt;/strong&gt; 이동한  다음 &lt;strong&gt;샌드박스 만들기를&lt;/strong&gt; 선택 합니다.&lt;/p&gt;
-
-&lt;p&gt;여기에서 샌드박스를 만들 제품을 선택하면 준비가 완료되었을때 알림이 오고, 샌드박스 내에서 제품 환경과 동일한 방식으로 변경할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;샌드박스 환경을 현재 사용하고 있는 제품 환경과 동일하게 구성하려면 Jira Software, Jira Service Management 또는 Confluence 의 데이터를 &lt;a href=&quot;https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/#Managesandboxes-Copydatatoasandbox&quot; title=&quot;https://support.atlassian.com/organization-administration/docs/manage-product-sandboxes/#Managesandboxes-Copydatatoasandbox&quot;&gt;샌드 박스로 복사하면 됩니다.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/b6c8f672-d111-406a-9644-dd17613e8139.png?resize=768,217&amp;amp;ssl=1&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;기존 제품 환경과 동일한 구성의 샌드박스가 준비가 되었으면 샌드박스 내에서 제품 변경 사항을 테스트할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;관리 개요 내에서 제품 업데이트가 샌드박스에 릴리스되는 시기와 방법을 제어하는 ​​&lt;a href=&quot;https://support.atlassian.com/organization-administration/docs/manage-product-release-tracks/#Managereleasetracks-Usesandboxesandreleasetrackstogether&quot; title=&quot;https://support.atlassian.com/organization-administration/docs/manage-product-release-tracks/#Managereleasetracks-Usesandboxesandreleasetrackstogether&quot;&gt;릴리즈 트랙 미리보기&lt;/a&gt;에 샌드박스를 배치하여 업데이트 기능을 확인할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;시작하려면 &lt;strong&gt;제품 &amp;gt; 릴리즈 트랙 &amp;gt; 트랙 변경&lt;/strong&gt;으로 이동합니다. 여기서 샌드박스에 대한 &lt;strong&gt;미리보기&lt;/strong&gt; 트랙을 선택합니다 .&lt;/p&gt;
-
-&lt;p&gt;미리 보기 트랙을 활성화하면 변경 예정인 사항들이 릴리즈 2주 전에 샌드박스에 릴리즈 되고 업데이트 내용을 체험하고 테스트 해볼 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이렇게 하면 새로운 변경 사항을 확인하고, 필요에 따라 조정하고, 변경 사항이 워크플로에 어떤 영향을 미칠 수 있는 지를 사용자에게 알리고 교육할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;사용자를 위한 교육용 비디오를 만들거나 튜토리얼을 작성해야 하는 경우 동일한 변경 사항이 사용자에게 공개되기까지 한 달이 걸립니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-번들-트랙에-제품-사이트-배치&quot;&gt;&lt;strong&gt;4. 번들 트랙에 제품 사이트 배치&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;관리자는 제품 환경의 릴리스 트랙을 설정하여 조직의 변화 속도를 제어할 수도 있습니다.&lt;/p&gt;
-
-&lt;p&gt;샌드박스와 동일하게 실제 제품 환경에서도 릴리스 트랙을 설정하여 업데이트 시기를 관리할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;제품 환경에 대한 릴리스 트랙을 선택할 때 &lt;strong&gt;연속 릴리스 트랙&lt;/strong&gt; (제품 변경 사항이 제공되는 즉시 제품 환경에 릴리스됨) 또는 &lt;strong&gt;번들 트랙&lt;/strong&gt; (월 단위로 제품 변경 사항이 함께 번들로 제공되고 릴리스됨) 중에서 선택할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;제품 릴리스에 번들 트랙을 채택하면 변경 사항을 관리하는 데 도움이 됩니다.&lt;/p&gt;
-
-&lt;p&gt;이를 통해 사용자가 새로운 기능을 사용할 시기를 제어할 수 있으므로 변경 사항으로 인해 워크플로 또는 프로젝트가 중단될 가능성을 줄일 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;제품 샌드박스의 미리 보기 트랙과 함께 사용하면 제품 변경 사항에 대해 미리 팀을 교육할 수 있으며 언제 어떤 업데이트가 출시될 것인지 팀과 사용자에게 정확히 알릴 수 있습니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;이처럼 Atlassian은 플랫폼과 제품을 지속적으로 개선하는 데 투자하고 있으며 고객과 협력하기 위해 최선을 다하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian이 지원하는 변경 관리를 통해 Atlassian 클라우드 플랫폼을 보다 효과적으로 활용하시기 바랍니다.&lt;/p&gt;
-
-&lt;p&gt;추가적으로 아틀라시안 클라우드 제품에 대해 자세히 알고 싶으시다면 저희 디무브를 찾아주세요!&lt;/p&gt;
-
-&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="아틀라시안" /><category term="Jira" /><category term="Confluence" /><category term="변경관리" /><category term="Change Management" /><category term="Atlassian Cloud" /><category term="디무브" /><category term="아틀라시안 릴리즈 노트" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;​&lt;/p&gt;</content><author><name>Dmove</name></author><category term="News and Events" /><category term="Atlassian" /><category term="아틀라시안" /><category term="Okta" /><category term="옥타" /><category term="토크아이티" /><category term="아틀라시안웨비나" /><category term="옥타웨비나" /><category term="IAM" /><category term="Identity Management" /><category term="Access Management" /><category term="Cloud" /><category term="Zero Trust" /><category term="제로트러스트" /><category term="계정관리" /><category term="클라우드 연동" /><summary type="html"></summary></entry></feed>
