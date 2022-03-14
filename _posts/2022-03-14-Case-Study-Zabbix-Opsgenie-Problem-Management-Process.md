@@ -140,7 +140,7 @@ Zabbix 와 Opsgenie의 연계 및 동기화 구성 방법은 아래 그림을 �
 
 
 
-2. 팀 또는 부서 별 회의를 통해 인시던트를 처리합니다 : 인시던트를 Slack이나 Mattermost와 같은 채팅 툴과 연동하여 회의 환경을 구성하거나 Opsgenie 자체 커뮤니케이션 기능인 **웹 컨퍼런스 브릿지** 또는 **ICC(Incident Command Center)** 기능을 사용하여 채팅 또는 회의 환경을 구성할 수 있습니다.
+2.팀 또는 부서 별 회의를 통해 인시던트를 처리합니다 : 인시던트를 Slack이나 Mattermost와 같은 채팅 툴과 연동하여 회의 환경을 구성하거나 Opsgenie 자체 커뮤니케이션 기능인 **웹 컨퍼런스 브릿지** 또는 **ICC(Incident Command Center)** 기능을 사용하여 채팅 또는 회의 환경을 구성할 수 있습니다.
 
 \* 웹 컨퍼런스 브릿지와 ICC 기능은 엔터프라이즈 플랜에서 사용이 가능합니다.
 
@@ -148,13 +148,13 @@ Zabbix 와 Opsgenie의 연계 및 동기화 구성 방법은 아래 그림을 �
 
 <div style="width:45%; float:left; margin-right : 10%;"><img src = "https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/13.png"><center><p>웹 컨퍼런스 브릿지</p></center></div><div style="width:45%;float:right;"><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/14.png"><center><p>Incident Command Center</p></center></div><div style="clear:both;"></div>
 
-\3. 인시던트 처리가 완료되면 Zabbix의 Alert 상태는 **Closed**로 해결되고 Opsgenie의 Alert 정보 역시 **Closed**상태로 동일하게 변경됩니다.  모든 인시던트 처리가 끝나면 인시던트를 **해결**(**Resolved)** 상태로 변경합니다.
+  3. 인시던트 처리가 완료되면 Zabbix의 Alert 상태는 **Closed**로 해결되고 Opsgenie의 Alert 정보 역시 **Closed**상태로 동일하게 변경됩니다.  모든 인시던트 처리가 끝나면 인시던트를 **해결**(**Resolved)** 상태로 변경합니다.
 
 
 
 <div style="width:45%; float:left; margin-right : 10%;"><img src = "https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/15.png"></div><div style="width:45%;float:right;"><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/16.png"></div><div style="clear:both;"></div>
 
- \4. 인시던트 처리 후 Opsgenie는 인시던트의 사후 조치 보고서인 **포스트모템(Postmortems)**를 제공합니다. 완성한 **포스트모템(Postmortems)**은 Confluence와 연동하여 페이지로 Export가 가능합니다.
+  4.인시던트 처리 후 Opsgenie는 인시던트의 사후 조치 보고서인 **포스트모템(Postmortems)**를 제공합니다. 완성한 **포스트모템(Postmortems)**은 Confluence와 연동하여 페이지로 Export가 가능합니다.
 
 
 
@@ -187,11 +187,11 @@ Zabbix 와 Opsgenie의 연계 및 동기화 구성 방법은 아래 그림을 �
 
 
 
-\1. Opsgenie에서 타사 제품과 Integration을 구성하기 위해서는 팀을 생성합니다. 팀을 생성하셨다면 상단의 **Teams → Integrations → Add Integration**을 클릭하여 Zabbix를 선택합니다.
+  1. Opsgenie에서 타사 제품과 Integration을 구성하기 위해서는 팀을 생성합니다. 팀을 생성하셨다면 상단의 **Teams → Integrations → Add Integration**을 클릭하여 Zabbix를 선택합니다.
 
  <center><img src = "https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/18.png"></center>
 
-\2. Integration 이름을 선택한 다음, API Key를 복사하고, 연동 시 실행할 액션을 선택하여 저장합니다.
+  2.Integration 이름을 선택한 다음, API Key를 복사하고, 연동 시 실행할 액션을 선택하여 저장합니다.
 
 <center><img src = "https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/19.png"></center>
 
@@ -199,19 +199,19 @@ Zabbix 와 Opsgenie의 연계 및 동기화 구성 방법은 아래 그림을 �
 
 **Opsgenie Webhook 설정 (Zabbix)**
 
-\1. Zabbix 관리자 계정으로 로그인 후, 관리 → 미디어 타입 → Opsgenie를 클릭합니다.
+1. Zabbix 관리자 계정으로 로그인 후, 관리 → 미디어 타입 → Opsgenie를 클릭합니다.
 
 <center><img src = "https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/20.png"></center>
 
 
 
-\2.  Opsgenie와 연동에 필요한 api, team, token, web 주소와 Zabbix의 URL을 입력합니다.
+  2.Opsgenie와 연동에 필요한 api, team, token, web 주소와 Zabbix의 URL을 입력합니다.
 
 <center><img src = "https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/21.png"></center>
 
 
 
- \3. **User settings → Profile → 연락 방법**으로 접근하여 **추가**를 클릭하여 Opsgenie 웹훅을 추가합니다.
+3. **User settings → Profile → 연락 방법**으로 접근하여 **추가**를 클릭하여 Opsgenie 웹훅을 추가합니다.
 
 
 
@@ -225,17 +225,17 @@ Zabbix 와 Opsgenie의 연계 및 동기화 구성 방법은 아래 그림을 �
 
 액션은 Zabbix에서 장애 발생 시 트리거 되어 Opsgenie 웹훅을 통해 Opsgenie의 Alert 생성 정보를 전달합니다.
 
-\1. **설정 → 액션 → Trigger actions**로 이동합니다.
+  1.**설정 → 액션 → Trigger actions**로 이동합니다.
 
 <center><img src = "https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/23.png"></center>
 
-<br/>  \2. 우측 상단의 액션 작성을 클릭합니다.
+<br/>   2. 우측 상단의 액션 작성을 클릭합니다.
 
 <center><img src = "https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/24.png"></center>
 
 
 
-   <br/>\3. 오퍼레이션에서 스텝을 추가합니다.
+   <br/>  3. 오퍼레이션에서 스텝을 추가합니다.
 
 
 
@@ -243,7 +243,7 @@ Zabbix 와 Opsgenie의 연계 및 동기화 구성 방법은 아래 그림을 �
 
 
 
-   <br/>\4. 전달 대상과 미디어에서 Opsgenie를 추가합니다.
+   <br/>  4. 전달 대상과 미디어에서 Opsgenie를 추가합니다.
 
 
 
@@ -251,7 +251,7 @@ Zabbix 와 Opsgenie의 연계 및 동기화 구성 방법은 아래 그림을 �
 
 <br/>
 
-\5. 갱신과 복구에 대한 트리거를 4번과 동일하게 추가합니다.
+  5.갱신과 복구에 대한 트리거를 4번과 동일하게 추가합니다.
 
 
 
@@ -277,7 +277,7 @@ Zabbix 와 Opsgenie의 연계 및 동기화 구성 방법은 아래 그림을 �
 
 
 
-\1. 해당 링크에서 서버 OS에 맞는 OEC Connector를 다운로드 받은 후 rpm 또는 dpkg 명령어를 통해 패키지를 설치합니다.
+  1.해당 링크에서 서버 OS에 맞는 OEC Connector를 다운로드 받은 후 rpm 또는 dpkg 명령어를 통해 패키지를 설치합니다.
 
 
 [Release Zabbix-1.1.6_oec-1.1.3 Opsgenie/oec-scripts](https://github.com/opsgenie/oec-scripts/releases/tag/Zabbix-1.1.6_oec-1.1.3)
@@ -288,7 +288,7 @@ Zabbix 와 Opsgenie의 연계 및 동기화 구성 방법은 아래 그림을 �
 
 
 
-  \2. OEC 서비스를 시작합니다.
+​    2. OEC 서비스를 시작합니다.
 
 
 
@@ -307,7 +307,7 @@ root@jira-crowd:/home/gongdol# service oec status
 
 <br/>
 
-\3. OEC config.json 파일을 수정합니다. 기본적으로 config 파일은 /home/opsgenie/oec/conf 폴더에 있습니다. 수정해야 하는 항목은 다음과 같습니다:
+  3.OEC config.json 파일을 수정합니다. 기본적으로 config 파일은 /home/opsgenie/oec/conf 폴더에 있습니다. 수정해야 하는 항목은 다음과 같습니다:
 apiKey : Opsgenie에서 Integration을 생성하였을 때 발급받은 키
 command_url : zabbix url로 수정
 user & password : zabbix 계정
