@@ -7,11 +7,12 @@ categories: [News and Events]
 tags: [Atlassian, 아틀라시안, 아틀라시안웨비나, Atlassian Cloud, Opsgenie, Jiraservicemanagement, Jira, 옵스지니, 인시던트관리, ITSM, ITservicemanagement, Incidentmanagement, ITIL, DevOps, AllshowTV, 전자신문]
 ---
 
+
 안녕하세요. 디무브 입니다. 🎈 
 
 디무브에서 Atlassian 및 Okta 솔루션을 통한 클라우드 ID 관리를 주제로 웨비나를 진행합니다. 
 
-많은 참여 부탁 드립니다! 
+많은 관심과 참여 부탁 드립니다! 
 
 <div class="btn_main_more mt40 mb_t_c" style="margin-left: 10px;">
       <a href="https://www.allshowtv.com/detail.html?idx=969" style="background-color: #0711A1; color:white;">사전등록 하러가기</a>
@@ -45,12 +46,14 @@ Atlassian의 ITSM 솔루션은 처음부터 문화와 협업 그리고 워크 �
 
 
 ## 아젠다
+
 | 시간 | 주제 |
-|--|--|
-| 15:00 ~ 15:20 | **ITSM for the modern IT Team** <br> - ITSM의 개념과 프로세스 <br> - 아틀라시안 ITSM 솔루션의 특징 |
-| 15:20 ~ 15:55 | **Best Practice for Incident Management** <br> - 인시던트 관리의 필요성 <br> - IT 운영 팀의 인시던트 대응 방식 (Demo) <br>- DevOps 팀의 인시던트 대응 방식 (Demo) |
-| 15:55 ~ 16:00 | **Q&A** <br> - 질의응답 |
- 
+|---|---|
+| 15:00 ~ 15:20 | **ITSM for the modern IT Team** <br/> - ITSM의 개념과 프로세스 <br/> - 아틀라시안 ITSM 솔루션의 특징 |
+| 15:20 ~ 15:55 | **Best Practice for Incident Management** <br/> - 인시던트 관리의 필요성 <br/> - IT 운영 팀의 인시던트 대응 방식(Demo) <br/> - DevOps 팀의 인시던트 대응 방식(Demo) |
+| 15:55 ~ 16:00 | **Q&A** <br/> - 질의응답 |
+
+
  
 ## 발표자  
 ![Speaker](/assets/images/blog/Speaker.png)
