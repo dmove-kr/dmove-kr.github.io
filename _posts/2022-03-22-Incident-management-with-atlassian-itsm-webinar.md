@@ -8,7 +8,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안웨비나, Atlassian Cloud, Op
 ---
 
 
-![Title](/assets/images/blog/Title slide.png)
+![Title](/assets/images/blog/Title slide_2.png)
 
 안녕하세요. 디무브 입니다. 🎈 
 
