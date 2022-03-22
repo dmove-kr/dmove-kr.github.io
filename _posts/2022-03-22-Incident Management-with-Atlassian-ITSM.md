@@ -33,7 +33,7 @@ Atlassian의 ITSM 솔루션은 처음부터 문화와 협업 그리고 워크 �
 ![Speaker](/assets/images/blog/Speaker.png)
 
 ## 참여 이벤트
-![enter image description here](https://talkit.tv/userfiles/images/file1637936180908.jpg)
+![enter image description here](https://img.etnews.com/allshowtv/tmp_upload/2022/03/11/main_11131347291182.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyMTkwNzA0LC03OTAxODg0OTVdfQ==
+eyJoaXN0b3J5IjpbMTUxNDgyNjM3NywtNzkwMTg4NDk1XX0=
 -->
