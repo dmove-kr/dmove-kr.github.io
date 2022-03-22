@@ -2,7 +2,7 @@
 layout: post
 title: Atlassian Open DevOps 를 소개합니다. 
 date: 2021-06-15
-categories: [Atlassian Solutions]
+categories: [Atlassian Products]
 tags: [Atlassian, Jira, Confluence, Bitbucket, Opsgenie, Atlassian Cloud, OpenDevOps, DevOps, 오픈데브옵스, 데브옵스, 아틀라시안, 아틀라시안클라우드, 지라, 컨플루언스]
 ---
 
