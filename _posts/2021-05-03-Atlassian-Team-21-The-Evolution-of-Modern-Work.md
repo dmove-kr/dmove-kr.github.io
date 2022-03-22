@@ -3,7 +3,7 @@ layout: post
 title: Atlassian Team '21 - The Evolution of Modern Work 키노트 with Zoom & Slack CEO
 subtitle: COVID-19 팬데믹 이후의 업무 환경과 미래
 date: 2021-05-03
-categories: [IT Trend]
+categories: [Atlassian Insights]
 tags: [Atlassian Team 21, Atlassian, Slack, Zoom, Remotework]
 ---
 ![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/04/brand-4570-how-to-lead-remotely-when-you-dont-have-a-clue@2x.png?w=2240&ssl=1)
