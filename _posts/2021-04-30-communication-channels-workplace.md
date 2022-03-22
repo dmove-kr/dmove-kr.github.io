@@ -3,7 +3,7 @@ layout: post
 title: 협업의 기본 - 업무용 커뮤니케이션 채널 가이드
 subtitle: 당신이 일하는 책상이 어디에 있든, 효과적으로 커뮤니케이션 하는 방법 
 date: 2021-04-30 12:00:00
-categories: [Atlassian Insights]
+categories: [Atlassian Solutions]
 tags: [Communication, Atlassian, Confluence, Collaboration]
 ---
 
