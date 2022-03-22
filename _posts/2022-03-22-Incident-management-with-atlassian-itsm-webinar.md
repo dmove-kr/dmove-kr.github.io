@@ -8,9 +8,11 @@ tags: [Atlassian, 아틀라시안, 아틀라시안웨비나, Atlassian Cloud, Op
 ---
 
 
+![Title](/assets/images/blog/Title slide.png)
+
 안녕하세요. 디무브 입니다. 🎈 
 
-디무브에서 Atlassian 및 Okta 솔루션을 통한 클라우드 ID 관리를 주제로 웨비나를 진행합니다. 
+디무브에서 Atlassian의 ITSM과 인시던트 매니지먼트를 주제로 웨비나를 진행합니다. 
 
 많은 관심과 참여 부탁 드립니다! 
 
