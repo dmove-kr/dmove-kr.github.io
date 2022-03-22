@@ -4,7 +4,7 @@
 **주제: 효과적인 인시던트 관리를 위한 아틀라시안 ITSM 솔루션**
 **날짜: 2022년 3월 29일**
 **시간: 오후3시 ~ 오후4시** 
-**장소: 온라인세미나(올쇼**
+**장소: 온라인세미나(전자신문 올쇼TV)**
 
 ---
 
@@ -36,5 +36,5 @@
 ## 참여 이벤트
 ![enter image description here](https://talkit.tv/userfiles/images/file1637936180908.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTI0NzcyODRdfQ==
+eyJoaXN0b3J5IjpbLTc5MDE4ODQ5NV19
 -->
