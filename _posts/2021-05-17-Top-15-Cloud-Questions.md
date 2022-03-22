@@ -3,7 +3,7 @@ layout: post
 title: Atlassian Cloud 에 대한 15가지 질문
 subtitle: Atlassian Cloud FAQ
 date: 2021-05-17
-categories: [Atlassian Products]
+categories: [Atlassian Solutions]
 tags: [Atlassian Team 21, Atlassian, Jira, Confluence, Cloud Migration, Atlassian Cloud]
 ---
 
