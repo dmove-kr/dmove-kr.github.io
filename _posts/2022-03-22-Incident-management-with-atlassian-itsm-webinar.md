@@ -13,13 +13,14 @@ tags: [Atlassian, 아틀라시안, 아틀라시안웨비나, Atlassian Cloud, Op
 
 많은 참여 부탁 드립니다! 
 
-<div class="btn_main_more mt40 mb_t_c" style="margin-left: 45px;">
+<div class="btn_main_more mt40 mb_t_c" style="margin-left: 10px;">
       <a href="https://www.allshowtv.com/detail.html?idx=969" style="background-color: #0711A1; color:white;">사전등록 하러가기</a>
 		    </div>
 
 <br>       
 
 ---
+
 ## 디무브 웨비나 안내
 
 
@@ -28,7 +29,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안웨비나, Atlassian Cloud, Op
 **시간: 오후3시 ~ 오후4시** 
 **장소: 온라인세미나(전자신문 올쇼TV)**
 
----
+
 
 “ITSM(IT Service Management)” 은 IT 팀이 고객에게 IT 서비스를 제공하고 관리하기 위한 모든 프로세스와 활동을 뜻합니다.  
   
@@ -47,8 +48,8 @@ Atlassian의 ITSM 솔루션은 처음부터 문화와 협업 그리고 워크 �
 | 시간 | 주제 |
 |--|--|
 | 15:00 ~ 15:20 | **ITSM for the modern IT Team** <br> - ITSM의 개념과 프로세스 <br> - 아틀라시안 ITSM 솔루션의 특징 |
- | 15:20 ~ 15:55 | **Best Practice for Incident Management** <br> - 인시던트 관리의 필요성 <br> - IT 운영 팀의 인시던트 대응 방식 (Demo) <br>- DevOps 팀의 인시던트 대응 방식 (Demo)   |
- | 15:55 ~ 16:00 | **Q&A** <br> - 질의응답|
+| 15:20 ~ 15:55 | **Best Practice for Incident Management** <br> - 인시던트 관리의 필요성 <br> - IT 운영 팀의 인시던트 대응 방식 (Demo) <br>- DevOps 팀의 인시던트 대응 방식 (Demo) |
+| 15:55 ~ 16:00 | **Q&A** <br> - 질의응답 |
  
  
 ## 발표자  
