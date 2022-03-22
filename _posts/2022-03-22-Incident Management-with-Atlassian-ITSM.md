@@ -25,11 +25,8 @@ Atlassian의 ITSM 솔루션은 처음부터 문화와 협업 그리고 워크 �
 | 시간 | 주제 |
 |--|--|
 | 15:00 ~ 15:20 | **ITSM for the modern IT Team** <br> - ITSM의 개념과 프로세스 <br> - 아틀라시안 ITSM 솔루션의 특징 |
- | 15:15 ~ 15:35 | **보안 강화를 위한 클라우드 ID 공급자의 역할** <br> - 아이덴티티의 역할과 중요성 <br> - Okta 솔루션 데모 |
- | 15:35 ~ 15:55 | **Atlassian 클라우드 제품의 연결과 확장** <br> - Atlassian Access를 통한 ID 관리 <br> - Access+Okta Integration 데모 | 
+ | 15:20 ~ 15:55 | **Best Practice for Incident Management** <br> - 인시던트 관리의 필요성 <br> - IT 운영 팀의 인시던트 대응 방식 (Demo) <br>- DevOps 팀의 인시던트 대응 방식 (Demo)   |
  | 15:55 ~ 16:00 | **Q&A** <br> - 질의응답|
- 
- 
  
  
 ## 발표자  
@@ -38,5 +35,5 @@ Atlassian의 ITSM 솔루션은 처음부터 문화와 협업 그리고 워크 �
 ## 참여 이벤트
 ![enter image description here](https://talkit.tv/userfiles/images/file1637936180908.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY2MjM4MjEsLTc5MDE4ODQ5NV19
+eyJoaXN0b3J5IjpbOTIyMTkwNzA0LC03OTAxODg0OTVdfQ==
 -->
