@@ -80,7 +80,7 @@ DMARC을 활성화 하면 보낸 사람의 이메일 주소를 서버에 표시�
 
 <center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/4.png"/></center> <center>알림 배너 설정 시 상단 바에 공지 사항이 출력됩니다.</center> <br/>
 
-### 4.  단일 텍스트 및 장문 텍스트 커스텀 필드 명칭 변경 (JSM도 동일)
+### 4.  단일 텍스트 및 장문 텍스트 커스텀 필드 명칭 변경 (Jira Service Management도 동일)
 
 
 아틀라시안은 프로젝트 유형 간에 용어를 조정하기 위해 회사 관리 프로젝트의 커스텀 필드 이름을 팀 관리 프로젝트의 커스텀 필드 이름과 일치하도록 변경하고 있습니다.
