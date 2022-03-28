@@ -14,9 +14,9 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 안녕하세요. 디무브 입니다! :balloon:
 
-벌써 22년도 1분기가 거의 다 지나갔네요!~ 이번 시간에는 1분기인 1~3월 동안 아틀라시안의 주요 제품인 Jira, Jira Service Management, Confluence Cloud 버전에 어떠한 변화가 있었는지 정리해 보았습니다.
+2022년 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었습니다. 
 
-많은 기능들이 개선되었으니 꼭 확인해보세요!
+각 제품의 Cloud 버전에 어떠한 변화가 있었는지 여러분과 함께 확인해볼 수 있는 시간을 마련했으니 꼭 확인해보세요! 
 
 ---
 
