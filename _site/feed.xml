@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-28T13:44:29+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Cloud</title><link href="http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Cloud" /><published>2022-03-28T00:00:00+09:00</published><updated>2022-03-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-28T14:56:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Cloud</title><link href="http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Cloud" /><published>2022-03-28T00:00:00+09:00</published><updated>2022-03-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;안녕하세요. 디무브 입니다! :balloon:&lt;/p&gt;
 
@@ -21,7 +21,7 @@
 
 &lt;p&gt;이번 업데이트에서는 Jira에서 이메일 수신 시 DMARC(Domain-based Message Authentication, Reporting and Conformance) 이메일 인증 프로토콜 기능이 추가되었습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/1.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;DMARC을 활성화 하면 보낸 사람의 이메일 주소를 서버에 표시되는 이메일 주소와 일치하는 지 확인 후 통과시키며 불일치할 경우 해당 이메일을 차단할 수 있어 보안 위협을 감소시킬 수 있습니다.&lt;/p&gt;
@@ -36,7 +36,7 @@
 
 &lt;p&gt;&lt;strong&gt;이슈의 상태, 담당자, 우선순위&lt;/strong&gt;로 그룹화가 가능하며, 아래 이미지와 같이 이슈를 그룹화하여 한 눈에 확인할 수 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/2.png&quot; /&gt;&lt;/center&gt;
 
 &lt;center&gt;담당자로 그룹화한 이슈&lt;/center&gt;
 
@@ -48,12 +48,12 @@
 
 &lt;p&gt;추가적인 옵션으로 사용자가 해당 배너를 보고 싶지 않을 경우 자체적으로 닫을 수 있도록 수정할 수 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/3.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/3.png&quot; /&gt;&lt;/center&gt;
 
 &lt;center&gt;알림 배너 설정&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/4.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/4.png&quot; /&gt;&lt;/center&gt;
 &lt;center&gt;알림 배너 설정 시 상단 바에 공지 사항이 출력됩니다.&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -63,17 +63,17 @@
 
 &lt;p&gt;이에 커스텀 필드의 단일 텍스트(Singleline Text)필드는 짧은 텍스트(Short Text)로, 장문 텍스트(Multiline Text)필드는 문단(Paragraph)필드로 명칭이 변경 되었습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/5.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/5.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;5-로드맵-기능-추가&quot;&gt;5. 로드맵 기능 추가&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;5-1. 추가 완료된 에픽 이슈를 위한 새로운 설정 기능 제공&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;이번 분기 로드맵에서는 완료된 에픽 이슈를 확인하기 위핸 새로운 설정 기능이 추가 되었습니다. 
+&lt;p&gt;이번 분기 로드맵에서는 완료된 에픽 이슈를 확인하기 위핸 새로운 설정 기능이 추가 되었습니다.
 &lt;strong&gt;1,3,6,9,12개월&lt;/strong&gt; 단위로 완료된 이슈를 최신순으로  필터링 하여 확인할 수 있으며, 필요 시 “&lt;strong&gt;완료된 Epic 이슈 모두 숨기기&lt;/strong&gt;“ 라디오 버튼을 클릭하여 항목을 숨길 수도 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/6.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/6.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;5-2. 로드맵을 이미지로 내보내기&lt;/strong&gt;&lt;/p&gt;
@@ -112,7 +112,7 @@
 
 &lt;p&gt;서비스 데스크의 관리자일 경우 &lt;strong&gt;프로젝트 설정 → 양식&lt;/strong&gt;에서 새로운 양식을 만들어 해당 양식을 사용하고자 하는 요청을 추가하면 별도의 필드로 양식이 추가됩니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_1Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_1Q/2.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -127,7 +127,7 @@
 
 &lt;p&gt;아래 이미지의 예시와 같이 좌측 메뉴부터 가장 최근에 방문한 페이지, 사이트에서 업데이트 되고 있는 페이지, 가장 최근에 방문한 스페이스, 공지사항으로 구분되어 업데이트 되었습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/1.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -140,14 +140,14 @@
 
 &lt;p&gt;페이지를 생성한 후 &lt;strong&gt;“이 스페이스에서 템플릿 선택“&lt;/strong&gt; 란의 스페이스를 선택하여 다른 스페이스의 템플릿을 사용할 수 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/2.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;3-url을-사용한-빠른-페이지-작성&quot;&gt;3. URL을 사용한 빠른 페이지 작성&lt;/h3&gt;
 
 &lt;p&gt;URL에서 웹 브라우저에서 “&lt;strong&gt;make.page&lt;/strong&gt;“를 입력하면 Default로 설정된 사이트 내 개인 스페이스에 바로 페이지를 생성할 수 있습니다. 만약 사이트에 개인 스페이스가 없을 경우 가장 최근에 방문한 페이지의 스페이스에 페이지가 생성됩니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/3.gif&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/3.gif&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;웹 URL을 사용한 페이지를 생성하는 방법에 대해 자세히 확인하시려면 &lt;a href=&quot;https://community.atlassian.com/t5/Confluence-articles/Productivity-hack-A-new-Confluence-shortcut-to-create-a-page/ba-p/1923079#M3663&quot;&gt;여기&lt;/a&gt;를 클릭해주세요!&lt;/p&gt;
@@ -158,7 +158,7 @@
 
 &lt;p&gt;상단의 &lt;strong&gt;앱 → Analysis&lt;/strong&gt;를 클릭하면 페이지 뷰, 생성, 편집 등에 대한 그래프와 함께 어떤 스페이스를 많이 방문했는지, 누가 페이지를 확인했는지, 어떤 내용을 많이 검색했는지 자세히 확인할 수 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/4.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/4.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;5-메일-비활성화-기능-제공&quot;&gt;5. 메일 비활성화 기능 제공&lt;/h3&gt;
@@ -169,7 +169,7 @@
 
 &lt;p&gt;해당 기능은 &lt;strong&gt;설정 → 추가 환경 설정 → 이메일 알림&lt;/strong&gt; 체크 박스를 비활성화 하면 사용할 수 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/5.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/5.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -178,7 +178,345 @@
 
 &lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
 
-&lt;p&gt;감사합니다.😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Release Note" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안클라우드" /><category term="Jira" /><category term="jira" /><category term="Jira Cloud" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"></summary></entry><entry><title type="html">2022년 3월 디무브 웨비나 안내 - 효과적인 인시던트 관리를 위한 아틀라시안 ITSM 솔루션</title><link href="http://localhost:4000/news%20and%20events/2022/03/22/Incident-management-with-atlassian-itsm-webinar.html" rel="alternate" type="text/html" title="2022년 3월 디무브 웨비나 안내 - 효과적인 인시던트 관리를 위한 아틀라시안 ITSM 솔루션" /><published>2022-03-22T00:00:00+09:00</published><updated>2022-03-22T00:00:00+09:00</updated><id>http://localhost:4000/news%20and%20events/2022/03/22/Incident-management-with-atlassian-itsm-webinar</id><content type="html" xml:base="http://localhost:4000/news%20and%20events/2022/03/22/Incident-management-with-atlassian-itsm-webinar.html">&lt;p&gt;&lt;img src=&quot;/assets/images/blog/Title slide_2.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;감사합니다.😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Release Note" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안클라우드" /><category term="Jira" /><category term="jira" /><category term="Jira Cloud" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"></summary></entry><entry><title type="html">2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Server &amp;amp; Data Center</title><link href="http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Server.html" rel="alternate" type="text/html" title="2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Server &amp;amp; Data Center" /><published>2022-03-28T00:00:00+09:00</published><updated>2022-03-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Server</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Server.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요. 디무브 입니다! :balloon:&lt;/p&gt;
+
+&lt;p&gt;2022년 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;각 제품의 Server 및 Data Center 버전에 어떠한 변화가 있었는지 여러분과 함께 확인해볼 수 있는 시간을 마련했으니 꼭 확인해보세요!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;jira-software&quot;&gt;Jira Software&lt;/h2&gt;
+
+&lt;h3 id=&quot;-version-822x&quot;&gt;&lt;strong&gt;■ Version 8.22.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-1-oauth-20-지원을-통해-더욱-안전하게-통합할-수-있습니다&quot;&gt;&lt;strong&gt;1-1. OAuth 2.0 지원을 통해 더욱 안전하게 통합할 수 있습니다.&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Atlassian은 Jira를 OAuth 2.0 공급자로 설정하여 Jira에서 외부 애플리케이션으로 데이터 요청 또는 외부 애플리케이션이 Jira로 데이터를 요청하는 것과 같은 양방향 통신을 지원합니다.&lt;/p&gt;
+
+&lt;p&gt;또한 OAuth 2.0을 사용하여 인기 있는 타사 애플리케이션 개발사가 Jira에 사용할 수 있는 자체 커넥터를 만들 수 있습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_1Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;또한 간편하게 Integration(통합)을 유지할 수 있도록 OAuth 2.0의 전체 기능을 애플리케이션 링크로 통합했습니다.&lt;/p&gt;
+
+&lt;p&gt;이전에는 &lt;strong&gt;Administration&lt;/strong&gt; &amp;gt; &lt;strong&gt;OAuth 2.0&lt;/strong&gt;에서 확인할 수 있었던 OAuth 2.0 클라이언트 Integration(통합)을 이제 애플리케이션 링크에서 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이에 관한 자세한 내용은 &lt;a href=&quot;https://confluence.atlassian.com/adminjiraserver/link-to-other-applications-938846918.html&quot;&gt;&lt;strong&gt;다른 응용 프로그램에 대한 링크&lt;/strong&gt;&lt;/a&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;12-기본-인증을-위한-로그인-성능-개선&quot;&gt;&lt;strong&gt;1.2 기본 인증을 위한 로그인 성능 개선&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;또한 이번 Jira 8.22에서 기본 인증을 사용한 로그인 성능이 크게 향상되었습니다.&lt;/p&gt;
+
+&lt;p&gt;사용자 로그인 카운터와 타임 스탬프 저장을 지연시키고 캐시에 사용자 세션을 저장하는 시간을 15분으로 개선했습니다. 이러한 성능 향상은 외부 사용자 디렉토리에 대한 리소스 부담을 줄일 수 있는 추가적인 이점을 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;또한 사용자의 필요에 따라  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;com.atlassian.jira.user.crowd.service.authenticate.cache.minutes&lt;/code&gt; 속성 값을 변경하여 로그인 세션의 값을 더 빠르게 재 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이에 관한 자세한 내용은 &lt;a href=&quot;https://confluence.atlassian.com/adminjiraserver/setting-properties-and-options-on-startup-938847831.html&quot;&gt;&lt;strong&gt;시작 시 속성 및 옵션을 설정하는 방법&lt;/strong&gt;&lt;/a&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;13-데이터-파이프-라인에서-프로젝트-제외&quot;&gt;&lt;strong&gt;1.3 데이터 파이프 라인에서 프로젝트 제외&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;데이터 파이프라인을 사용하면 Jira 데이터를 내보내 다양한 비즈니스 도구로 분석할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;또한 Jira 8.22에서는 데이터 내보내기를 할 때 프로젝트 제외 목록을 추가할 수 있습니다. 이 기능은 보고할 필요가 없는 프로젝트나 중요하고 민감한 정보를 가지고 있는 프로젝트가 있는 경우에 유용하게 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이에 관한 더 자세한 내용은 &lt;a href=&quot;https://developer.atlassian.com/server/data-pipeline/rest/intro/&quot;&gt;&lt;strong&gt;데이터 파이프라인 REST API&lt;/strong&gt;&lt;/a&gt; 에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;14-해결된-이슈-사항&quot;&gt;&lt;strong&gt;1.4 해결된 이슈 사항&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Summary**&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Key**&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Status**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;대규모 인스턴스에서 에픽 링크 드롭다운 속도 지연&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;JSWSERVER-21026&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;소유자가 그룹에서 제거된 경우 대시보드 페이지에서 대시보드를 편집할 수 없음&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;JSWSERVER-20511&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;이슈를 할당하거나 댓글에서 언급된 검색을 수행하는 동안 서버 오류가 발생&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73023&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;postgresql 13에 대한 JIRA 지원&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-72749&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;OAuth 2.0 지원&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-43171&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;jira-service-management&quot;&gt;Jira Service Management&lt;/h2&gt;
+
+&lt;h3 id=&quot;-version-422x&quot;&gt;&lt;strong&gt;■ Version 4.22.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-멀티-이메일-채널을-통한-커뮤니케이션-개선-data-center&quot;&gt;&lt;strong&gt;1 멀티 이메일 채널을 통한 커뮤니케이션 개선&lt;/strong&gt; [&lt;strong&gt;DATA CENTER&lt;/strong&gt;]&lt;/h3&gt;
+
+&lt;p&gt;이전에는 Beta 버전으로 출시되었던 멀티 이메일 채널 기능이 이번 4.22 Jira Service Management 에서 완전히 구현되었습니다.&lt;/p&gt;
+
+&lt;p&gt;이제 Jira Service Management에서 필요한 수만큼 전용 이메일 채널을 구성하여 고객과의 원활한 커뮤니케이션을 수행할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이메일 내용은 요청 티켓이나 댓글로 전환되어 요청 프로세스를 개인화하고 처리 속도를 높일 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이에 관한 더 자세한 내용은 &lt;a href=&quot;https://confluence.atlassian.com/servicemanagementserver/receiving-requests-by-email-939926303.html&quot;&gt;&lt;strong&gt;이메일 채널에 대해 알아보기&lt;/strong&gt;&lt;/a&gt; 에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2022_1Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;22-새로운-sla-구성-인터페이스-data-center&quot;&gt;2.2 새로운 SLA 구성 인터페이스 [&lt;strong&gt;DATA CENTER&lt;/strong&gt;]&lt;/h3&gt;
+
+&lt;p&gt;Atlassian은 SLA와 관련된 모든 설정을 동일한 공간에서 관리 및 모니터링할 수 있도록 새로운 SLA 구성 인터페이스를 도입했습니다.&lt;/p&gt;
+
+&lt;p&gt;새로운 인터페이스를 사용하여 SLA 이름 권한, 디버깅 로그 세부 정보 및 정리 방법, SLA 시간 형식을 구성할 수 있으며 이에 관한 자세한 내용은 &lt;a href=&quot;https://confluence.atlassian.com/servicemanagementserver/setting-up-slas-939926373.html&quot;&gt;&lt;strong&gt;SLA 구성 방법 알아보기&lt;/strong&gt;&lt;/a&gt; 에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2022_1Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;23-자동-입력-필드를-사용하여-데이터-재사용-data-center&quot;&gt;&lt;strong&gt;2.3 자동 입력 필드를 사용하여 데이터 재사용&lt;/strong&gt; &lt;strong&gt;DATA CENTER&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;이제 Jira Service Management 4.22에서는 자동으로 채워진 요청필드로 URL을 생성할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;외부 컨텍스트 데이터를 사용하여 세부 정보를 Jira Service Management로 가져올 수 있으므로 고객은 각 요청 건에 대해 모든 필드를 입력 할 필요가 없습니다.&lt;/p&gt;
+
+&lt;p&gt;이에 관한 자세한 내용은 &lt;a href=&quot;https://confluence.atlassian.com/servicemanagementserver/setting-up-request-types-939926357.html&quot;&gt;&lt;strong&gt;자동으로 채워진 요청 필드로 URL을 설정하는 방법&lt;/strong&gt;&lt;/a&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;24-서비스-팀의-작업에-대한-스냅-샷을-얻을-수-있는-추가적인-데이터-포인트&quot;&gt;2.4 서비스 팀의 작업에 대한 스냅 샷을 얻을 수 있는 추가적인 데이터 포인트&lt;/h3&gt;
+
+&lt;p&gt;Jira Service Management를 통해 사용자는 유용한 데이터를 확인하고 보고할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이제 데이터 파이프 라인에서 아래의 세 가지를 내보낼 수 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;승인&lt;/strong&gt;- 승인은 많은 Service Management 워크플로우에서 중요한 부분을 차지하고 있습니다. 승인 파일에는 승인 워크플로우의 시기 및 결과에 대해 보고해야 하는 데이터가 포함됩니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;미리 준비된 답변&lt;/strong&gt; - 자주 올라오는 질문에 대해 미리 준비한 답변을 생성하여 사용할 수 있습니다. 미리 준비된 답변 파일에는 답변, 업데이트 및 사용자에게 전달해야 하는 데이터가 포함되어 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;지식 기반 문서&lt;/strong&gt; - Confluence에서 기술 자료를 검색할 수 있습니다. 지식 기반 문서에는 요청에 대해 공유해야할 내용 및 도움이 되는 내용 등을 포함하고 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&quot;border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);&quot;&gt;&lt;div style=&quot;flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); &quot;&gt;&lt;span role=&quot;img&quot; style=&quot;--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;&quot;&gt;&lt;svg style=&quot;width: 24; height: 24; role: presentation;&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z&quot; fill=&quot;currentColor&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/div&gt; 아래의 내용은 위 Jira 플랫폼을 사용하는 모든 제품과 공통된 내용이므로 본문의 Jira의 내용을 참고해 주시면 됩니다. &lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.5 OAuth 2.0 지원을 통해 더욱 안전하게 통합할 수 있습니다. (Jira 8.22의 내용과 동일)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.6 기본 인증을 위한 로그인 성능 개선 (Jira 8.22의 내용과 동일)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.7 데이터 파이프 라인에서 프로젝트 제외 (Jira 8.22의 내용과 동일)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;28-해결된-이슈-사항&quot;&gt;&lt;strong&gt;2.8 해결된 이슈 사항&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Summary**&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Key**&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Status**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;브라우저 탭 제목에 대기열 세부 정보 표시&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;JSDSERVER-11134&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;내 요청 페이지를 처음 방문하면 고객 포털 생성 요청 페이지에서 인사이트 참조 사용자 정의 필드 옵션 필드가 사라집니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;JSDSERVER-8675&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Insight 개체 유형에 상속이 사용되면 시스템이 IQL 검색을 실행하는 속도가 느려질 수 있습니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;JSDSERVER-11008&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;confluence&quot;&gt;Confluence&lt;/h2&gt;
+
+&lt;h3 id=&quot;-version-716x&quot;&gt;&lt;strong&gt;■ Version 7.16.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;31-자동으로-기록-데이터를-정리-data-center&quot;&gt;&lt;strong&gt;3.1 자동으로 기록 데이터를 정리&lt;/strong&gt; [&lt;strong&gt;DATA CENTER&lt;/strong&gt;]&lt;/h3&gt;
+
+&lt;p&gt;페이지나 파일을 편집할 때 Confluence는 이전 버전의 내용을 저장하여 필요한 경우 이를 활용하여 복원할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;시간이 지남에 따라 이러한 리비전이 추가되기 시작하면 데이터베이스 및 파일 시스템의 크기가 증가합니다. 일부 페이지에 수백 개의 리비전이 있는 것은 드문 일이 아닙니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 이번 Confluence 7.16에서는 리비전 데이터를 보관할 수 있는 기한을 설정하는 기능이 추가되었습니다.&lt;/p&gt;
+
+&lt;p&gt;Confluence에 저장하고자 하는 리비전의 수를 설정(버전 별 또는 기간 별)하여 설정된 값을 넘어설 시 예약된 작업이 초과된 분량을 삭제하여 Confluence의 성능에 영향을 미치지 않도록 합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;또한 예약된 작업은 기본적으로 10분마다 실행하도록 설정되어 있으며 정리 작업이 실행된 후에는 리비전과 휴지통에 있는 내용이 영구적으로 삭제되므로 규칙을 설정하기 전에 보관 규칙 전략을 세우는 것이 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;32-완벽한-유연성&quot;&gt;&lt;strong&gt;3.2 완벽한 유연성&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;규정 준수를 이유로 모든 이력을 유지해야 하는 조직도 있는 반면, 보다 적극적으로 삭제하여 설치 공간을 최소화해야 하는 조직도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Confluence는 기본적으로 모든 콘텐츠를 보관하도록 설정되어 있지만 앞의 두 가지 상황을 모두 충족하기 위해 Confluence 7.16에서는 특수 요구 사항이 있는 공간에 대한 예외를 정의한 다음 사이트의 나머지 컨텐츠에 적용되는 글로벌 규칙을 설정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;그 결과 조직이 처한 상황과 요구에 맞게 유연성을 가지고 문서들을 관리할 수 있습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;33-정리-권한을-위임&quot;&gt;3.3 정리 권한을 위임&lt;/h3&gt;
+
+&lt;p&gt;공간 관리자가 공간 도구에서 각 공간에 대해 규칙을 구성할 수 있도록 허용하거나 전역 관리를 통해 시스템 관리자에게만 이 역할을 부여할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이 설정은 Confluence 사이트 전체에 설정할 수 있으며 예외를 사용하여 공간 단위로 설정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이에 관한 자세한 내용은 &lt;a href=&quot;https://confluence.atlassian.com/doc/set-retention-rules-to-delete-unwanted-data-1108681072.html&quot;&gt;&lt;strong&gt;보관 규칙&lt;/strong&gt;&lt;/a&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/3.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;34-복잡한-사이트에-대한-더-빠른-권한-확인-serverdata-center&quot;&gt;3.4 &lt;strong&gt;복잡한 사이트에 대한 더 빠른 권한 확인&lt;/strong&gt; [&lt;strong&gt;SERVER&lt;/strong&gt;]&lt;strong&gt;[DATA CENTER&lt;/strong&gt;]&lt;/h3&gt;
+
+&lt;p&gt;Confluence가 사용자에게 보여주어야 할 내용을 결정하기 위해 현재 사용자의 권한을 확인해야 하는 많은 상황이 있습니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어 작업 보고서 매크로를 렌더링하려면 사용자에게 작업이 할당된 모든 페이지를 찾은 다음 작업이 나타나는 공간과 페이지를 볼 수 있는 권한이 있는지 확인해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 검사는 많은 메모리를 소모할 수 있고 특히 권한이 복잡한 경우 데이터 로드가 느릴 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;더 빠른 권한 서비스는 권한 정보가 저장되는 방식을 변경하여 많은 페이지에 대한 권한을 더 빠르게 확인할 수 있도록 합니다.&lt;/p&gt;
+
+&lt;p&gt;이는 콘텐츠가 많고 권한이 복잡한 사이트에서 상당한 성능 향상을 제공할 수 있습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/4.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;35-다양한-id-공급자idp-사용-data-center&quot;&gt;3.5 다양한 ID 공급자(IdP) 사용 [&lt;strong&gt;DATA CENTER&lt;/strong&gt;]&lt;/h3&gt;
+
+&lt;p&gt;이제 싱글 사인온(SSO)인증을 위해 다양한 SAML 또는 OpenID Connect ID 제공자를 구성할 수 있습니다.
+이동  &lt;strong&gt;우측 상단 톱니 바퀴 아이콘&lt;/strong&gt;&amp;gt; &lt;strong&gt;일반 구성&lt;/strong&gt; &amp;gt; &lt;strong&gt;인증 방법&lt;/strong&gt; (구 SSO 2.0) 에서 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/5.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;SSO 인증 방식이 1개만 설정되어 있는 경우, 사용자는 인증을 위해서 설정된 1개의 방식으로 리다이렉트 됩니다.&lt;/p&gt;
+
+&lt;p&gt;복수의 인증 방식을 사용할 경우, 이용 가능한 옵션이 있는 로그인 페이지가 나타나며 사용하려는 인증 방식 버튼의 텍스트를 팀에게 맞게 정의하여 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이에 관한 자세한 내용은 &lt;a href=&quot;https://confluence.atlassian.com/enterprise/using-multiple-identity-providers-1044779993.html&quot;&gt;&lt;strong&gt;여러 인증 방식을 구성하는 방법&lt;/strong&gt;&lt;/a&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;36-기본-인증-차단-data-center&quot;&gt;&lt;strong&gt;3.6 기본 인증 차단&lt;/strong&gt; [&lt;strong&gt;DATA CENTER&lt;/strong&gt;]&lt;/h3&gt;
+
+&lt;p&gt;SSO(Single Sign-On) 인증을 사용하도록 Confluence를 구성한 경우 사람들이 기본 인증을 사용하여 사용자 이름과 비밀번호로 인증하는 것을 차단할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;로그인 화면, API 또는 두가지 모두에 대해 기본 인증을 비활성화 할 수 있습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/6.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;기본 인증을 비활성화할 경우 기존에 기본 인증 방식으로 실행하던 스크립트들은 더 이상 사용할 수 없습니다.&lt;/p&gt;
+
+&lt;p&gt;그러므로 &lt;a href=&quot;https://confluence.atlassian.com/enterprise/using-personal-access-tokens-1026032365.html&quot;&gt;개인 액세스 토큰&lt;/a&gt;을 사용하도록 전환해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;이에관한 자세한 내용은 &lt;a href=&quot;https://confluence.atlassian.com/enterprise/disabling-basic-authentication-1044776464.html&quot;&gt;&lt;strong&gt;기본 인증을 비활성화 하는 방법&lt;/strong&gt;&lt;/a&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;37-데이터-파이프라인에서-공간-제외-data-center&quot;&gt;&lt;strong&gt;3.7 데이터 파이프라인에서 공간 제외&lt;/strong&gt; [&lt;strong&gt;DATA CENTER&lt;/strong&gt;]&lt;/h3&gt;
+
+&lt;p&gt;데이터 파이프라인을 사용하면 Confluence 데이터를 내보내 다양한 비즈니스 도구로 분석할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;또한 Confluence 7.16 에서는 데이터 내보내기를 할 때 공간 제외 목록을 추가할 수 있습니다. 이 기능은 보고할 필요가 없는 공간이나 중요하고 민감한 정보를 가지고 있는 공간이 있는 경우에 유용하게 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이에 관한 더 자세한 내용은 &lt;a href=&quot;https://developer.atlassian.com/server/data-pipeline/rest/intro/&quot;&gt;&lt;strong&gt;데이터 파이프라인 REST API&lt;/strong&gt;&lt;/a&gt; 에서 확인하실 수 있습니다&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;38-해결된-이슈-사항&quot;&gt;&lt;strong&gt;3.8 해결된 이슈 사항&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Summary**&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Key**&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;**Status**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;AD/LDAP에 중복 사용자가 있는 경우 디렉터리 동기화가 실패합니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-77932&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Confluence 온프레미스 환경에서 Jira Cloud에 문제를 생성할 수 없음&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-75951&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;대문자 PPTX 확장자가 있는 PowerPoint 파일을 미리 볼 수 없음&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-75954&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;SMTP 지원(465 포트)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-43330&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;다운로드 첨부 URL에 슬래시 ‘/’를 추가하면 스택 추적이 생성됩니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-63616&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Closed&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Release Note" /><category term="Atlassian" /><category term="Atlassian Data Center" /><category term="아틀라시안" /><category term="아틀라시안 서버" /><category term="데이터 센터" /><category term="Jira" /><category term="jira" /><category term="Jira Server" /><category term="Data Center" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"></summary></entry><entry><title type="html">2022년 3월 디무브 웨비나 안내 - 효과적인 인시던트 관리를 위한 아틀라시안 ITSM 솔루션</title><link href="http://localhost:4000/news%20and%20events/2022/03/22/Incident-management-with-atlassian-itsm-webinar.html" rel="alternate" type="text/html" title="2022년 3월 디무브 웨비나 안내 - 효과적인 인시던트 관리를 위한 아틀라시안 ITSM 솔루션" /><published>2022-03-22T00:00:00+09:00</published><updated>2022-03-22T00:00:00+09:00</updated><id>http://localhost:4000/news%20and%20events/2022/03/22/Incident-management-with-atlassian-itsm-webinar</id><content type="html" xml:base="http://localhost:4000/news%20and%20events/2022/03/22/Incident-management-with-atlassian-itsm-webinar.html">&lt;p&gt;&lt;img src=&quot;/assets/images/blog/Title slide_2.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;안녕하세요. 디무브 입니다. 🎈&lt;/p&gt;
 
@@ -811,7 +1149,112 @@ Jira, Confluence, Bitbucket, Bamboo와 같은 Atlassian 제품들에 관해 보�
 
 &lt;p&gt;아틀라시안이 제공하는 “가장 스마트한 협업 플랫폼”과 함께 조직의 업무 방식을 개선하고 협업 문화 혁신을 이끌어세요!&lt;/p&gt;
 
-&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="아틀라시안" /><category term="AI" /><category term="Machinelearning" /><category term="Atlassian Cloud" /><category term="아틀라시안클라우드" /><category term="Jira Cloud" /><category term="Confluence Cloud" /><category term="디무브" /><category term="Dmove" /><summary type="html">안녕하세요, 디무브입니다! 🎈</summary></entry><entry><title type="html">2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Server,DC</title><link href="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Server.html" rel="alternate" type="text/html" title="2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Server,DC" /><published>2021-12-28T00:00:00+09:00</published><updated>2021-12-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Server</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Server.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;감사합니다. 😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="아틀라시안" /><category term="AI" /><category term="Machinelearning" /><category term="Atlassian Cloud" /><category term="아틀라시안클라우드" /><category term="Jira Cloud" /><category term="Confluence Cloud" /><category term="디무브" /><category term="Dmove" /><summary type="html">안녕하세요, 디무브입니다! 🎈</summary></entry><entry><title type="html">2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Cloud</title><link href="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Cloud" /><published>2021-12-28T00:00:00+09:00</published><updated>2021-12-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요. 디무브 입니다! :balloon:&lt;/p&gt;
+
+&lt;p&gt;이번 시간에는 4분기인 10~12월 동안 아틀라시안의 주요 제품인 Jira, Jira Service Management, Confluence Cloud 버전에 어떠한 변화가 있었는지 정리해 보았습니다.&lt;/p&gt;
+
+&lt;p&gt;많은 기능들이 개선되었으니 꼭 확인해보세요!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;jira-software&quot;&gt;Jira Software&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-cloud-to-cloud-migration-지원&quot;&gt;1. Cloud to Cloud Migration 지원&lt;/h3&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2021_4Q/1.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;기존에는 클라우드 사이트 간 마이그레이션 진행 시 백업 후 서버로 데이터를 이동 한 뒤에 서버에서 &lt;strong&gt;Migration Assistant Tool&lt;/strong&gt;을 사용하여 마이그레이션을 진행하거나 백업 파일을 바로 새로운 클라우드 사이트에 복원 하여 진행해야만 했습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 이러한 기존 방법들은 시간이 너무 많이 소요되거나 불완전한 이슈가 많이 생성되는 문제가 있었습니다.이제 Cloud에서도 Migration Assistant Tool을 사용할 수 있어 Cloud to Cloud로 바로 마이그레이션이 가능합니다&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;해당 기능은 관리자 권한을 가진 사람만이 수행이 가능하며 &lt;strong&gt;시스템 → 가져오기 및 내보내기 → Cloud 사이트 마이그레이션&lt;/strong&gt;에서 수행이 가능합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2021_4Q/2.png&quot; /&gt;&lt;/center&gt;
+
+&lt;h3 id=&quot;2-cycle-time-보고서-기능-추가&quot;&gt;2&lt;strong&gt;. Cycle Time 보고서 기능 추가&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2021_4Q/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cycle Time 보고서는 Jira에서 Bitbucket의 파이프라인을 통해 배포할 때 전체적으로 배포가 진행되는 주기와 전체적인 데이터의 이상값을 확인하기 위해 시각적으로 볼 수 있는 보고서 입니다. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;해당 보고서는 최대 12주 이전 까지의 프로젝트의 주기를 비교하여 1주일 동안의 평균 주기를 보고서에 표시합니다. 
+여기서 사용되는 주기는 첫 번째 커밋부터 코드가 배포되는 것 까지의 시간을 의미합니다. 만약 같은 내용이 두 번 이상 배포된 경우 Cycle Time 보고서에는 가장 최근에 배포된 것을 확인합니다.&lt;/p&gt;
+
+&lt;p&gt;Cycle Time 보고서에 대해 자세히 확인하고 싶으실 경우 &lt;a href=&quot;https://support.atlassian.com/jira-software-cloud/docs/view-and-understand-your-cycle-time-report/&quot;&gt;여기&lt;/a&gt;를 클릭하여 확인해보세요!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;jira-service-management&quot;&gt;Jira Service Management&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-인사이트--객체에-첨부-파일-삽입-기능-추가&quot;&gt;1. 인사이트:  객체에 첨부 파일 삽입 기능 추가&lt;/h3&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_4Q/1.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;이제 Insight에서 객체에 접근할 때 필요한 모든 정보를 얻을 수 있도록 자산과 관련된 파일, 사진, 기타 정보에 대한 첨부파일을 객체에 추가할 수 있습니다. 첨부파일을 삽입 하려면 파일을 &lt;strong&gt;드래그 앤 드롭&lt;/strong&gt;하여 첨부하거나 &lt;strong&gt;파일 첨부&lt;/strong&gt;를 클릭하여 파일을 첨부 할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;lt;주의!&amp;gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1.자산 관리에 필요한 Insight는 Jira Service Management의 프리미엄 플랜 이상의 플랜에서 지원됩니다.&lt;/p&gt;
+
+&lt;p&gt;2.첨부 파일을 추가하기 위해서는 객체에 대한 편집 권한이 있어야 합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-인사이트-객체-스키마-가져오기-기능-추가&quot;&gt;2. 인사이트: 객체 스키마 가져오기 기능 추가&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_4Q/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이제 인사이트에서 하나 이상의 객체 스키마를 가져올 수 있습니다. 가져오기 형식은 CSV, DSC, EXT, JSON 형식의 파일을 지원합니다. &lt;a href=&quot;https://support.atlassian.com/organization-administration/docs/update-a-product-url/&quot;&gt;여기&lt;/a&gt;를 클릭하여 객체 스키마를 가져오는 방법에 대해 자세히 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;confluence&quot;&gt;Confluence&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-템플릿에-첨부파일-삽입-기능-추가&quot;&gt;1. 템플릿에 첨부파일 삽입 기능 추가&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_4Q/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이제 새 템플릿을 만들거나 기존 템플릿을 편집할 때 이미지 및 첨부 파일을 추가하여 템플릿을 더 실용적이고 유용하게 생성할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;/image&lt;/strong&gt; 또는 &lt;strong&gt;/file&lt;/strong&gt; 의 단축키를 입력하여 첨부파일을 삽입하거나 &lt;strong&gt;드래그 앤 드롭&lt;/strong&gt;을 통해 첨부파일을 삽입 할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-confluence-안드로이드-앱-개선-사항---댓글-ui-개선&quot;&gt;2. Confluence 안드로이드 앱 개선 사항 - 댓글 UI 개선&lt;/h3&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_4Q/2.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;기존 Confluence 앱 버전의 경우 댓글을 확인하기 위해 페이지 전체를 스크롤로 끝까지 내린 후 확인해야 하는 불편함이 있었습니다. 이번 업데이트 된 2.13 버전 이상의 버전 부터는 페이지 우측 하단에 댓글 아이콘을 클릭하여 댓글로 바로 이동이 가능합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;예시의 이미지는 안드로이드 2.13.1 버전입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-보관된-컨텐츠-검색-기능-추가&quot;&gt;3. 보관된 컨텐츠 검색 기능 추가&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_4Q/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;기존 Confluence의 검색 기능은 숨겨진 컨텐츠를 찾는 기능이 없어 파일이나 페이지를 찾을 때 찾고자 하는 페이지가 보관되어 있는지, 아니면 특정 스페이스에 있는지 찾기 어려웠습니다. 이번 업데이트에서는 Confluence의 페이지 또는 컨텐츠를 찾을 때 보관된 페이지, 파일 등을 포함한 컨텐츠까지 찾을 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Confluence의 고급 검색 기능에서 &lt;strong&gt;보관된 컨텐츠(Archived content)&lt;/strong&gt;에서 &lt;strong&gt;검색에 포함(Include in Search)&lt;/strong&gt;을 체크하여 보관되어 있는 모든 페이지나 첨부파일 등 컨텐츠를 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Release Note" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안클라우드" /><category term="Jira" /><category term="jira" /><category term="Jira Cloud" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"></summary></entry><entry><title type="html">2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Server,DC</title><link href="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Server.html" rel="alternate" type="text/html" title="2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Server,DC" /><published>2021-12-28T00:00:00+09:00</published><updated>2021-12-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Server</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Server.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;안녕하세요. 디무브입니다! :balloon:&lt;/p&gt;
 
@@ -1249,112 +1692,7 @@ Kubernetes 클러스터는 Amazon EKS , Azure Kubernetes Service , Google Kubern
 
 &lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
 
-&lt;p&gt;감사합니다.&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Release Note" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안 클라우드" /><category term="Jira" /><category term="jira" /><category term="Jira Cloud" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"></summary></entry><entry><title type="html">2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Cloud</title><link href="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Cloud" /><published>2021-12-28T00:00:00+09:00</published><updated>2021-12-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2021/12/28/4Q2021-Atlassian-Release-Notes-Cloud.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;안녕하세요. 디무브 입니다! :balloon:&lt;/p&gt;
-
-&lt;p&gt;이번 시간에는 4분기인 10~12월 동안 아틀라시안의 주요 제품인 Jira, Jira Service Management, Confluence Cloud 버전에 어떠한 변화가 있었는지 정리해 보았습니다.&lt;/p&gt;
-
-&lt;p&gt;많은 기능들이 개선되었으니 꼭 확인해보세요!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;jira-software&quot;&gt;Jira Software&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-cloud-to-cloud-migration-지원&quot;&gt;1. Cloud to Cloud Migration 지원&lt;/h3&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2021_4Q/1.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;기존에는 클라우드 사이트 간 마이그레이션 진행 시 백업 후 서버로 데이터를 이동 한 뒤에 서버에서 &lt;strong&gt;Migration Assistant Tool&lt;/strong&gt;을 사용하여 마이그레이션을 진행하거나 백업 파일을 바로 새로운 클라우드 사이트에 복원 하여 진행해야만 했습니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 이러한 기존 방법들은 시간이 너무 많이 소요되거나 불완전한 이슈가 많이 생성되는 문제가 있었습니다.이제 Cloud에서도 Migration Assistant Tool을 사용할 수 있어 Cloud to Cloud로 바로 마이그레이션이 가능합니다&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;해당 기능은 관리자 권한을 가진 사람만이 수행이 가능하며 &lt;strong&gt;시스템 → 가져오기 및 내보내기 → Cloud 사이트 마이그레이션&lt;/strong&gt;에서 수행이 가능합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2021_4Q/2.png&quot; /&gt;&lt;/center&gt;
-
-&lt;h3 id=&quot;2-cycle-time-보고서-기능-추가&quot;&gt;2&lt;strong&gt;. Cycle Time 보고서 기능 추가&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2021_4Q/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Cycle Time 보고서는 Jira에서 Bitbucket의 파이프라인을 통해 배포할 때 전체적으로 배포가 진행되는 주기와 전체적인 데이터의 이상값을 확인하기 위해 시각적으로 볼 수 있는 보고서 입니다. &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;해당 보고서는 최대 12주 이전 까지의 프로젝트의 주기를 비교하여 1주일 동안의 평균 주기를 보고서에 표시합니다. 
-여기서 사용되는 주기는 첫 번째 커밋부터 코드가 배포되는 것 까지의 시간을 의미합니다. 만약 같은 내용이 두 번 이상 배포된 경우 Cycle Time 보고서에는 가장 최근에 배포된 것을 확인합니다.&lt;/p&gt;
-
-&lt;p&gt;Cycle Time 보고서에 대해 자세히 확인하고 싶으실 경우 &lt;a href=&quot;https://support.atlassian.com/jira-software-cloud/docs/view-and-understand-your-cycle-time-report/&quot;&gt;여기&lt;/a&gt;를 클릭하여 확인해보세요!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;jira-service-management&quot;&gt;Jira Service Management&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-인사이트--객체에-첨부-파일-삽입-기능-추가&quot;&gt;1. 인사이트:  객체에 첨부 파일 삽입 기능 추가&lt;/h3&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_4Q/1.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;이제 Insight에서 객체에 접근할 때 필요한 모든 정보를 얻을 수 있도록 자산과 관련된 파일, 사진, 기타 정보에 대한 첨부파일을 객체에 추가할 수 있습니다. 첨부파일을 삽입 하려면 파일을 &lt;strong&gt;드래그 앤 드롭&lt;/strong&gt;하여 첨부하거나 &lt;strong&gt;파일 첨부&lt;/strong&gt;를 클릭하여 파일을 첨부 할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&amp;lt;주의!&amp;gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1.자산 관리에 필요한 Insight는 Jira Service Management의 프리미엄 플랜 이상의 플랜에서 지원됩니다.&lt;/p&gt;
-
-&lt;p&gt;2.첨부 파일을 추가하기 위해서는 객체에 대한 편집 권한이 있어야 합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-인사이트-객체-스키마-가져오기-기능-추가&quot;&gt;2. 인사이트: 객체 스키마 가져오기 기능 추가&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2021_4Q/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이제 인사이트에서 하나 이상의 객체 스키마를 가져올 수 있습니다. 가져오기 형식은 CSV, DSC, EXT, JSON 형식의 파일을 지원합니다. &lt;a href=&quot;https://support.atlassian.com/organization-administration/docs/update-a-product-url/&quot;&gt;여기&lt;/a&gt;를 클릭하여 객체 스키마를 가져오는 방법에 대해 자세히 확인할 수 있습니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;confluence&quot;&gt;Confluence&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-템플릿에-첨부파일-삽입-기능-추가&quot;&gt;1. 템플릿에 첨부파일 삽입 기능 추가&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_4Q/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이제 새 템플릿을 만들거나 기존 템플릿을 편집할 때 이미지 및 첨부 파일을 추가하여 템플릿을 더 실용적이고 유용하게 생성할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;/image&lt;/strong&gt; 또는 &lt;strong&gt;/file&lt;/strong&gt; 의 단축키를 입력하여 첨부파일을 삽입하거나 &lt;strong&gt;드래그 앤 드롭&lt;/strong&gt;을 통해 첨부파일을 삽입 할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-confluence-안드로이드-앱-개선-사항---댓글-ui-개선&quot;&gt;2. Confluence 안드로이드 앱 개선 사항 - 댓글 UI 개선&lt;/h3&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_4Q/2.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;기존 Confluence 앱 버전의 경우 댓글을 확인하기 위해 페이지 전체를 스크롤로 끝까지 내린 후 확인해야 하는 불편함이 있었습니다. 이번 업데이트 된 2.13 버전 이상의 버전 부터는 페이지 우측 하단에 댓글 아이콘을 클릭하여 댓글로 바로 이동이 가능합니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;예시의 이미지는 안드로이드 2.13.1 버전입니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;3-보관된-컨텐츠-검색-기능-추가&quot;&gt;3. 보관된 컨텐츠 검색 기능 추가&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2021_4Q/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;기존 Confluence의 검색 기능은 숨겨진 컨텐츠를 찾는 기능이 없어 파일이나 페이지를 찾을 때 찾고자 하는 페이지가 보관되어 있는지, 아니면 특정 스페이스에 있는지 찾기 어려웠습니다. 이번 업데이트에서는 Confluence의 페이지 또는 컨텐츠를 찾을 때 보관된 페이지, 파일 등을 포함한 컨텐츠까지 찾을 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Confluence의 고급 검색 기능에서 &lt;strong&gt;보관된 컨텐츠(Archived content)&lt;/strong&gt;에서 &lt;strong&gt;검색에 포함(Include in Search)&lt;/strong&gt;을 체크하여 보관되어 있는 모든 페이지나 첨부파일 등 컨텐츠를 확인할 수 있습니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
-
-&lt;p&gt;감사합니다.😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Release Note" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안클라우드" /><category term="Jira" /><category term="jira" /><category term="Jira Cloud" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"></summary></entry><entry><title type="html">웨비나 생생후기 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제</title><link href="http://localhost:4000/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary.html" rel="alternate" type="text/html" title="웨비나 생생후기 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제" /><published>2021-12-20T00:00:00+09:00</published><updated>2021-12-20T00:00:00+09:00</updated><id>http://localhost:4000/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary</id><content type="html" xml:base="http://localhost:4000/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary.html">&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar%20Title%20Banner.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;감사합니다.&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Release Note" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안 클라우드" /><category term="Jira" /><category term="jira" /><category term="Jira Cloud" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"></summary></entry><entry><title type="html">웨비나 생생후기 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제</title><link href="http://localhost:4000/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary.html" rel="alternate" type="text/html" title="웨비나 생생후기 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제" /><published>2021-12-20T00:00:00+09:00</published><updated>2021-12-20T00:00:00+09:00</updated><id>http://localhost:4000/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary</id><content type="html" xml:base="http://localhost:4000/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary.html">&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar%20Title%20Banner.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;안녕하세요. 디무브 입니다.  🎈&lt;/p&gt;
 
@@ -1483,193 +1821,4 @@ Kubernetes 클러스터는 Amazon EKS , Azure Kubernetes Service , Google Kubern
 
 &lt;p&gt;디무브에서는 앞으로도 다양한 주제로 찾아뵐 것을 약속 드리며, 본 포스팅을 마무리하도록 하겠습니다.&lt;/p&gt;
 
-&lt;p&gt;감사합니다. 🙂&lt;/p&gt;</content><author><name>Dmove</name></author><category term="News and Events" /><category term="Atlassian" /><category term="아틀라시안" /><category term="옥타" /><category term="Okta" /><category term="IAM" /><category term="SSO" /><category term="IDaaS" /><category term="클라우드계정관리" /><category term="제로트러스트" /><category term="Zerotrust" /><category term="클라우드보안" /><category term="Cloud" /><category term="ID Management" /><category term="TalkIT" /><category term="토크아이티" /><summary type="html"></summary></entry><entry><title type="html">CVE-2021-44228 보안 취약점 안내</title><link href="http://localhost:4000/atlassian%20solutions/2021/12/15/CVE-2021-44228-Atlassian-Products.html" rel="alternate" type="text/html" title="CVE-2021-44228 보안 취약점 안내" /><published>2021-12-15T00:00:00+09:00</published><updated>2021-12-15T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20solutions/2021/12/15/CVE-2021-44228-Atlassian-Products</id><content type="html" xml:base="http://localhost:4000/atlassian%20solutions/2021/12/15/CVE-2021-44228-Atlassian-Products.html">&lt;p&gt;&lt;img src=&quot;/assets/images/blog/notice_1.png&quot; alt=&quot;Banner&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;안녕하세요, 디무브입니다! 🎈&lt;/p&gt;
-
-&lt;p&gt;현재 Log4j 라이브러리에서 중요한 보안 취약점이 발견되어 안내드립니다.&lt;/p&gt;
-
-&lt;p&gt;해당 취약점은 log4j 2.14.1 이하 버전의 jndi 를 사용하여 LDAP 이나 jndi 기반 엔드 포인트의 컨피그레이션이나 로깅, 파라미터 전달 했을 시에 영향을 받는 취약점입니다.&lt;/p&gt;
-
-&lt;p&gt;이 취약점은 로그 메시지 또는 로그 메시지 매개 변수를 제어할 수 있는 해커가 LDAP 서버에서 로드된 임의 코드를 실행하여 데이터 불법 취득이나, 삭제 악성 프로그램 실행 등이 가능할 것이라 전망하고 있습니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;취약점에-대한-아틀라시안-클라우드-제품의-영향&quot;&gt;취약점에 대한 아틀라시안 클라우드 제품의 영향&lt;/h2&gt;
-
-&lt;p&gt;아틀라시안 클라우드를 사용하는 고객분들은 해당 보안 취약점에 영향을 받지 않습니다.&lt;/p&gt;
-
-&lt;p&gt;현재까지의 분석 결과 Log4j를 사용하는 시스템을 패치하기 전에 아틀라시안 시스템 또는 고객의 데이터가 손상된 내용은 없었습니다. 때문에 따로 수정해야 하는 작업은 없습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;취약점에-대한-아틀라시안-온프레미스-제품의-영향&quot;&gt;취약점에 대한 아틀라시안 온프레미스 제품의 영향&lt;/h2&gt;
-
-&lt;p&gt;아틀라시안 제품 중 일부는 1.2.17 버전의 Log4j를 사용하고 있습니다. 아틀라시안 측에서 추가적인 분석을 수행한 결과 취약점 대상의 라이브러리는 아님을 확인하였습니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 만약 Log4j에서 JMS Appender 관련 내용을 작성하였을 경우 취약점의 문제가 발생할 수 있으므로 다음과 같은 설정을 확인하여 주석 처리 혹은 삭제를 권고 드립니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;취약성-점검-방법&quot;&gt;취약성 점검 방법&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;제품 별 아래의 경로에서 &lt;strong&gt;org.apache.log4j.JMSAppender&lt;/strong&gt; 사용 여부 확인&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;응용프로그램의 CLASSPATH에 javax.jms API가 포함되어 있는지 확인&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;JMS Appender의 서드파티에 대한 JNDI의 조회 대상으로 되어있는지 확인&lt;/p&gt;
-
-    &lt;p&gt;■ 해당 취약성 부분은 신뢰할 수 있는 사용자가 응용 프로그램의 구성을 수정하거나 런타임에 속성을 설정하는 경우에만 사용됩니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;**제품**&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;**경로**&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Jira Server &amp;amp; Data Center&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&quot;Install Directory&quot;/atlassian-jira/WEB-INF/classes/log4j.properties&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Confluence Server &amp;amp; Data Center&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&quot;Install Directory&quot;/confluence/WEB-INF/classes/log4j.properties&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Bamboo Server &amp;amp; Data Center&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&quot;Install Directory&quot;/atlassian-bamboo/WEB-INF/classes/log4j.properties&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Fisheye / Crucible&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&quot;Install Directory&quot;/log4j.xml&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Crowd&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&quot;Install Directory&quot;/crowd-webapp/WEB-INF/classes/log4j.properties&lt;br /&gt;&quot;Install Directory&quot;/crowd-openidclient-webapp/WEB-INF/classes/log4j.properties&lt;br /&gt;&quot;Install Directory&quot;/crowd-openidserver-webapp/WEB-INF/classes/log4j.properties&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;log4j 1.2.17 버전을 사용하는 아틀라시안의 제품은 다음과 같습니다:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bamboo Server and Data Center&lt;/li&gt;
-  &lt;li&gt;Confluence Server and Data Center&lt;/li&gt;
-  &lt;li&gt;Crowd Server and Data Center&lt;/li&gt;
-  &lt;li&gt;Fisheye / Crucible&lt;/li&gt;
-  &lt;li&gt;Jira Service Management Server and Data Center&lt;/li&gt;
-  &lt;li&gt;Jira Software Server and Data Center (including Jira Core)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;추가-사항-안내&quot;&gt;추가 사항 안내&lt;/h3&gt;
-
-&lt;p&gt;추가적인 확인 결과 Bitbucket 서버와 데이터 센터의 버전의 경우 ElasticSearch 검색 엔진을 사용하는데 이 Elasticsearch의 경우 2.14 버전 아래의 라이브러리를 사용중인 것으로 확인이 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;영향을 받는 Bitbucket 서버 및 데이터센터 버전은 다음과 같습니다: &lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;6.10.16 버전 미만의 모든 버전&lt;/li&gt;
-  &lt;li&gt;7.X ~ 7.6.12&lt;/li&gt;
-  &lt;li&gt;7.7.0 버전 이상 7.14.2 버전 아래의 모든 버전&lt;/li&gt;
-  &lt;li&gt;7.15.3 버전 미만의 모든 7.15 버전&lt;/li&gt;
-  &lt;li&gt;7.16.3 버전 미만의 모든 7.16 버전&lt;/li&gt;
-  &lt;li&gt;7.17.4 버전 미만의 모든 7.17 버전&lt;/li&gt;
-  &lt;li&gt;7.18.3 버전 미만의 모든 7.18 버전&lt;/li&gt;
-  &lt;li&gt;7.19 버전&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;조치-사항&quot;&gt;조치 사항&lt;/h4&gt;
-
-&lt;p&gt;아틀라시안의 경우 보안 Log4j 라이브러리 보안 취약점을 개선한 다음과 같은 버전으로 Bitbucket 버전으로 업그레이드를 진행할 것을 권고 하고 있습니다:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;6.10.16 버전&lt;/li&gt;
-  &lt;li&gt;7.6.12 버전&lt;/li&gt;
-  &lt;li&gt;7.14.2 버전&lt;/li&gt;
-  &lt;li&gt;7.15.3 버전&lt;/li&gt;
-  &lt;li&gt;7.16.3 버전&lt;/li&gt;
-  &lt;li&gt;7.17.4 버전&lt;/li&gt;
-  &lt;li&gt;7.18.3 버전&lt;/li&gt;
-  &lt;li&gt;7.19.1 버전&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;만약 현재 Bitbucket 업그레이드를 하기 어려울 경우 Bitbucket 홈 디렉토리의 jvm 옵션 파일을 수정 후 Bitbucket의 재시작하여 보안 취약점을 보완할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;($BITBUCKET_HOME/shared/search/jvm.options)&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-Dlog4j2.formatMsgNoLookups=true
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;아틀라시안-마켓플레이스-애드온의-영향&quot;&gt;아틀라시안 마켓플레이스 애드온의 영향&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;클라우드 애드온&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;“Connect“ 및 “Forge“와 같은 어플리케이션을 개발하기 위해 아틀라시안이 파트너와 공유하는 툴은 CVE-2021-44228 보안 취약점에 영향을 받지 않습니다.&lt;/p&gt;
-
-&lt;p&gt;또한 아틀라시안 자체에서 개발한 클라우드 애드온 중 취약점이 있는 애드온은 보안 취약점에 영향을 받지 않습니다.&lt;/p&gt;
-
-&lt;p&gt;다만 타 애드온 개발사가 만든 애드온의 경우 보안취약점에 안전한지 전체적으로 확인되지 않아 추가적으로 확인 및 검토를 진행중입니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;서버 및 데이터 센터 애드온&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;클라우드 앱과 마찬가지로 아틀라시안 자체에서 개발한 애드온의 경우 보안 취약점의 영향을 받지 않지만 타 개발사의 애드온은 식별됨을 확인하였습니다. 
-현재 아틀라시안 측에서는 추가적인 확인 및 검토를 진행중이며 애드온 개발사 측에 보안 취약점을 해결하도록 일정 기간동안의 권고 뒤 마켓플레이스에서 삭제되도록 하고 있습니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;만약 애드온 중 보안 취약점에 영향을 받는 애드온을 확인할 경우 즉시 해당 애드온을 일시 중지하고 고객에게 사실을 전달해야 합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;보안-취약점에-노출-여부-확인&quot;&gt;보안 취약점에 노출 여부 확인&lt;/h2&gt;
-
-&lt;p&gt;유감스럽게도, 아틀라시안 측에서는 사용자마다 모든 보안 문제가 서로 다르기 때문에 사용자의 인스턴스가 보안취약점에 당했거나 노출되어 있는지 구체적인 확인이 어려운 상황입니다.&lt;/p&gt;
-
-&lt;p&gt;추가적인 확인 및 조사를 해야 할 경우 사내 보안 팀이나 전문 보안 포렌식 업체에 문의를 통해 확인하는 것을 권고드립니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;보안-취약점-해결-방안&quot;&gt;보안 취약점 해결 방안&lt;/h2&gt;
-
-&lt;p&gt;보안 취약점을 해결 하는 가장 효율적인 방법은 Log4j 버전을 2.15.0 버전으로 업그레이드 하는 것입니다.  다음 링크를 통해 제조사 홈페이지에서 2.15.0 버전의 Log4j 버전을 업그레이드 하실 수 있습니다. &lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;a href=&quot;https://logging.apache.org/&quot; target=&quot;_blank&quot;&gt;Log4j 버전 업그레이드&lt;/a&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;하지만 만약 구조상 업그레이드를 진행하기 어려운 경우 다음과 같은 조치를 통해 보안 취약점을 보완하실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2.0-beta9 ~ 2.10.0 버전&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;log4j-core-*.jar 파일에서 org/apache/logging/log4j/core/lookup/JndiLookup.class 삭제&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Log4j 2.10 ~ 2.14.1 버전&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;log4j2.formatMsgNoLookups 또는 LOG4J_FORMAT_MSG_NO_LOOKUPS 환경변수를 &lt;strong&gt;true&lt;/strong&gt;로 설정&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-Dlog4j2.formatMsgNoLookups=true
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;아틀라시안은 log4j core 모듈을 활용하여 로깅을 하고 있으나 log4j-.1.2 기반의 라이브러리를 활용하여 log4j 를 사용하고 있어서, 이번 취약점을 활용한 공격의 대상은 아닙니다.&lt;/p&gt;
-
-&lt;p&gt;다만, 영향을 받을 수 있는 경우에는 확인 후 조치를 취하시는 것을 권장 드립니다.&lt;/p&gt;
-
-&lt;p&gt;아래는 아틀라시안에서 최근 발표한 log4j 취약점에 대한 내용이며, 해당 취약점에 대한 아틀라시안의 영향도를 low 등급으로 책정하여 관리하고 있다는 내용을 확인하실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;(원문 : &lt;a href=&quot;https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html&quot;&gt;&lt;img src=&quot;https://confluence.atlassian.com/staticassets/4.0.51/dist/common/images/favicon.png&quot; style=&quot;width: 18px; height: 18px;&quot; /&gt;CVE-2021-44228 취약점&lt;/a&gt; )&lt;/p&gt;
-
-&lt;p&gt;관련하여 도움이 필요하실 경우 디무브로 언제든지 문의해주시기 바랍니다.&lt;/p&gt;
-
-&lt;p&gt;감사합니다.&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Solutions" /><category term="Atlassian" /><category term="아틀라시안" /><category term="CVE-2021-44228" /><category term="보안취약점" /><category term="Log4j" /><category term="Log" /><category term="log" /><category term="log4j" /><category term="JNDI" /><category term="jndi" /><category term="LDAP" /><category term="ldap" /><category term="JMS" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;감사합니다. 🙂&lt;/p&gt;</content><author><name>Dmove</name></author><category term="News and Events" /><category term="Atlassian" /><category term="아틀라시안" /><category term="옥타" /><category term="Okta" /><category term="IAM" /><category term="SSO" /><category term="IDaaS" /><category term="클라우드계정관리" /><category term="제로트러스트" /><category term="Zerotrust" /><category term="클라우드보안" /><category term="Cloud" /><category term="ID Management" /><category term="TalkIT" /><category term="토크아이티" /><summary type="html"></summary></entry></feed>

@@ -4,6 +4,7 @@ title: 2021 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Dec) - Server,DC
 Subtitle: Release Note
 date: 2021-12-28
 categories: [Atlassian Release Note]
+
 tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안 클라우드, Jira, jira, Jira Cloud, Release, Release Note, Jira Sofrware, Jira Service Management, Confluence,컨플,DevOps, 데브옵스, dev, Dev, 에자일, Agile, Wiki]
 ---
 
@@ -103,7 +104,7 @@ Jira Data Center에서 이용할 수 있는 Advanced Roadmaps에서 이제 아�
 | Jira 플랫폼의 취약점 32이슈 해결|    
 |Jira 서비스 관리의 취약점 53이슈 해결|    
 |내부 라이브러리를 쉽게 사용할 수 있도록 해결|
-    
+
 
 업그레이드 된 라이브러리에 대한 자세한 내용은 [**Jira 8.21 준비 문서**](https://confluence.atlassian.com/jiracore/preparing-for-jira-8-21-1097175398.html "https://confluence.atlassian.com/jiracore/preparing-for-jira-8-21-1097175398.html")를 참고하실 수 있습니다.
 

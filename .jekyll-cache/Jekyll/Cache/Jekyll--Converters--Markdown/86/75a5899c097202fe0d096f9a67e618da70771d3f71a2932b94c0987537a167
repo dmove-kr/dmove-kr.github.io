@@ -1,0 +1,253 @@
+I"BC<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+
+<p>안녕하세요. 디무브 입니다! :balloon:</p>
+
+<p>2022년 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었습니다.</p>
+
+<p>각 제품의 Server 및 Data Center 버전에 어떠한 변화가 있었는지 여러분과 함께 확인해볼 수 있는 시간을 마련했으니 꼭 확인해보세요!</p>
+
+<hr />
+
+<h2 id="jira-software">Jira Software</h2>
+
+<h3 id="-version-822x"><strong>■ Version 8.22.x</strong></h3>
+
+<h3 id="1-1-oauth-20-지원을-통해-더욱-안전하게-통합할-수-있습니다"><strong>1-1. OAuth 2.0 지원을 통해 더욱 안전하게 통합할 수 있습니다.</strong></h3>
+
+<p>Atlassian은 Jira를 OAuth 2.0 공급자로 설정하여 Jira에서 외부 애플리케이션으로 데이터 요청 또는 외부 애플리케이션이 Jira로 데이터를 요청하는 것과 같은 양방향 통신을 지원합니다.</p>
+
+<p>또한 OAuth 2.0을 사용하여 인기 있는 타사 애플리케이션 개발사가 Jira에 사용할 수 있는 자체 커넥터를 만들 수 있습니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira/2022_1Q/1.png" /></center>
+<p><br /></p>
+
+<p>또한 간편하게 Integration(통합)을 유지할 수 있도록 OAuth 2.0의 전체 기능을 애플리케이션 링크로 통합했습니다.</p>
+
+<p>이전에는 <strong>Administration</strong> &gt; <strong>OAuth 2.0</strong>에서 확인할 수 있었던 OAuth 2.0 클라이언트 Integration(통합)을 이제 애플리케이션 링크에서 확인할 수 있습니다.</p>
+
+<p>이에 관한 자세한 내용은 <a href="https://confluence.atlassian.com/adminjiraserver/link-to-other-applications-938846918.html"><strong>다른 응용 프로그램에 대한 링크</strong></a>에서 확인하실 수 있습니다.</p>
+
+<p><br /></p>
+
+<h3 id="12-기본-인증을-위한-로그인-성능-개선"><strong>1.2 기본 인증을 위한 로그인 성능 개선</strong></h3>
+
+<p>또한 이번 Jira 8.22에서 기본 인증을 사용한 로그인 성능이 크게 향상되었습니다.</p>
+
+<p>사용자 로그인 카운터와 타임 스탬프 저장을 지연시키고 캐시에 사용자 세션을 저장하는 시간을 15분으로 개선했습니다. 이러한 성능 향상은 외부 사용자 디렉토리에 대한 리소스 부담을 줄일 수 있는 추가적인 이점을 제공합니다.</p>
+
+<p>또한 사용자의 필요에 따라  <code class="language-plaintext highlighter-rouge">com.atlassian.jira.user.crowd.service.authenticate.cache.minutes</code> 속성 값을 변경하여 로그인 세션의 값을 더 빠르게 재 사용할 수 있습니다.</p>
+
+<p>이에 관한 자세한 내용은 <a href="https://confluence.atlassian.com/adminjiraserver/setting-properties-and-options-on-startup-938847831.html"><strong>시작 시 속성 및 옵션을 설정하는 방법</strong></a>에서 확인하실 수 있습니다.</p>
+
+<p><br /></p>
+
+<h3 id="13-데이터-파이프-라인에서-프로젝트-제외"><strong>1.3 데이터 파이프 라인에서 프로젝트 제외</strong></h3>
+
+<p>데이터 파이프라인을 사용하면 Jira 데이터를 내보내 다양한 비즈니스 도구로 분석할 수 있습니다.</p>
+
+<p>또한 Jira 8.22에서는 데이터 내보내기를 할 때 프로젝트 제외 목록을 추가할 수 있습니다. 이 기능은 보고할 필요가 없는 프로젝트나 중요하고 민감한 정보를 가지고 있는 프로젝트가 있는 경우에 유용하게 사용할 수 있습니다.</p>
+
+<p>이에 관한 더 자세한 내용은 <a href="https://developer.atlassian.com/server/data-pipeline/rest/intro/"><strong>데이터 파이프라인 REST API</strong></a> 에서 확인하실 수 있습니다.</p>
+
+<p><br /></p>
+
+<h3 id="14-해결된-이슈-사항"><strong>1.4 해결된 이슈 사항</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">대규모 인스턴스에서 에픽 링크 드롭다운 속도 지연</td>
+      <td style="text-align: left">JSWSERVER-21026</td>
+      <td style="text-align: left">Closed</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">소유자가 그룹에서 제거된 경우 대시보드 페이지에서 대시보드를 편집할 수 없음</td>
+      <td style="text-align: left">JSWSERVER-20511</td>
+      <td style="text-align: left">Closed</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">이슈를 할당하거나 댓글에서 언급된 검색을 수행하는 동안 서버 오류가 발생</td>
+      <td style="text-align: left">JRASERVER-73023</td>
+      <td style="text-align: left">Closed</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">postgresql 13에 대한 JIRA 지원</td>
+      <td style="text-align: left">JRASERVER-72749</td>
+      <td style="text-align: left">Closed</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">OAuth 2.0 지원</td>
+      <td style="text-align: left">JRASERVER-43171</td>
+      <td style="text-align: left">Closed</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<hr />
+
+<p><br /></p>
+
+<h2 id="jira-service-management">Jira Service Management</h2>
+
+<h3 id="-version-422x"><strong>■ Version 4.22.x</strong></h3>
+
+<h3 id="1-멀티-이메일-채널을-통한-커뮤니케이션-개선-data-center"><strong>1 멀티 이메일 채널을 통한 커뮤니케이션 개선</strong> [<strong>DATA CENTER</strong>]</h3>
+
+<p>이전에는 Beta 버전으로 출시되었던 멀티 이메일 채널 기능이 이번 4.22 Jira Service Management 에서 완전히 구현되었습니다.</p>
+
+<p>이제 Jira Service Management에서 필요한 수만큼 전용 이메일 채널을 구성하여 고객과의 원활한 커뮤니케이션을 수행할 수 있습니다.</p>
+
+<p>이메일 내용은 요청 티켓이나 댓글로 전환되어 요청 프로세스를 개인화하고 처리 속도를 높일 수 있습니다.</p>
+
+<p>이에 관한 더 자세한 내용은 <a href="https://confluence.atlassian.com/servicemanagementserver/receiving-requests-by-email-939926303.html"><strong>이메일 채널에 대해 알아보기</strong></a> 에서 확인하실 수 있습니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2022_1Q/1.png" /></center>
+<p><br /></p>
+
+<h3 id="22-새로운-sla-구성-인터페이스-data-center">2.2 새로운 SLA 구성 인터페이스 [<strong>DATA CENTER</strong>]</h3>
+
+<p>Atlassian은 SLA와 관련된 모든 설정을 동일한 공간에서 관리 및 모니터링할 수 있도록 새로운 SLA 구성 인터페이스를 도입했습니다.</p>
+
+<p>새로운 인터페이스를 사용하여 SLA 이름 권한, 디버깅 로그 세부 정보 및 정리 방법, SLA 시간 형식을 구성할 수 있으며 이에 관한 자세한 내용은 <a href="https://confluence.atlassian.com/servicemanagementserver/setting-up-slas-939926373.html"><strong>SLA 구성 방법 알아보기</strong></a> 에서 확인하실 수 있습니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2022_1Q/2.png" /></center>
+<p><br /></p>
+
+<h3 id="23-자동-입력-필드를-사용하여-데이터-재사용-data-center"><strong>2.3 자동 입력 필드를 사용하여 데이터 재사용</strong> <strong>DATA CENTER</strong></h3>
+
+<p>이제 Jira Service Management 4.22에서는 자동으로 채워진 요청필드로 URL을 생성할 수 있습니다.</p>
+
+<p>외부 컨텍스트 데이터를 사용하여 세부 정보를 Jira Service Management로 가져올 수 있으므로 고객은 각 요청 건에 대해 모든 필드를 입력 할 필요가 없습니다.</p>
+
+<p>이에 관한 자세한 내용은 <a href="https://confluence.atlassian.com/servicemanagementserver/setting-up-request-types-939926357.html"><strong>자동으로 채워진 요청 필드로 URL을 설정하는 방법</strong></a>에서 확인하실 수 있습니다.</p>
+
+<p><br /></p>
+
+<h3 id="24-서비스-팀의-작업에-대한-스냅-샷을-얻을-수-있는-추가적인-데이터-포인트">2.4 서비스 팀의 작업에 대한 스냅 샷을 얻을 수 있는 추가적인 데이터 포인트</h3>
+
+<p>Jira Service Management를 통해 사용자는 유용한 데이터를 확인하고 보고할 수 있습니다.</p>
+
+<p>이제 데이터 파이프 라인에서 아래의 세 가지를 내보낼 수 있습니다.</p>
+
+<ul>
+  <li><strong>승인</strong>- 승인은 많은 Service Management 워크플로우에서 중요한 부분을 차지하고 있습니다. 승인 파일에는 승인 워크플로우의 시기 및 결과에 대해 보고해야 하는 데이터가 포함됩니다.</li>
+  <li><strong>미리 준비된 답변</strong> - 자주 올라오는 질문에 대해 미리 준비한 답변을 생성하여 사용할 수 있습니다. 미리 준비된 답변 파일에는 답변, 업데이트 및 사용자에게 전달해야 하는 데이터가 포함되어 있습니다.</li>
+  <li><strong>지식 기반 문서</strong> - Confluence에서 기술 자료를 검색할 수 있습니다. 지식 기반 문서에는 요청에 대해 공유해야할 내용 및 도움이 되는 내용 등을 포함하고 있습니다.</li>
+</ul>
+
+<div style="border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);"><div style="flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); "><span role="img" style="--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;"><svg style="width: 24; height: 24; role: presentation;"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z" fill="currentColor"></path></svg></span></div> 아래의 내용은 위 Jira 플랫폼을 사용하는 모든 제품과 공통된 내용이므로 본문의 Jira의 내용을 참고해 주시면 됩니다. </div>
+<p><br /></p>
+
+<p><br /></p>
+
+<p><strong>2.5 OAuth 2.0 지원을 통해 더욱 안전하게 통합할 수 있습니다. (Jira 8.22의 내용과 동일)</strong></p>
+
+<p><strong>2.6 기본 인증을 위한 로그인 성능 개선 (Jira 8.22의 내용과 동일)</strong></p>
+
+<p><strong>2.7 데이터 파이프 라인에서 프로젝트 제외 (Jira 8.22의 내용과 동일)</strong></p>
+
+<p><br /></p>
+
+<h3 id="28-해결된-이슈-사항"><strong>2.8 해결된 이슈 사항</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">브라우저 탭 제목에 대기열 세부 정보 표시</td>
+      <td style="text-align: left">JSDSERVER-11134</td>
+      <td style="text-align: left">Closed</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">내 요청 페이지를 처음 방문하면 고객 포털 생성 요청 페이지에서 인사이트 참조 사용자 정의 필드 옵션 필드가 사라집니다.</td>
+      <td style="text-align: left">JSDSERVER-8675</td>
+      <td style="text-align: left">Closed</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Insight 개체 유형에 상속이 사용되면 시스템이 IQL 검색을 실행하는 속도가 느려질 수 있습니다.</td>
+      <td style="text-align: left">JSDSERVER-11008</td>
+      <td style="text-align: left">Closed</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><br /></p>
+
+<h2 id="confluence">Confluence</h2>
+
+<h3 id="1-main화면-ui-변경">1. Main화면 UI 변경</h3>
+
+<p>이번 1분기에는 Confluence 메인화면에 많은 변화가 있었습니다.</p>
+
+<p>아래 이미지의 예시와 같이 좌측 메뉴부터 가장 최근에 방문한 페이지, 사이트에서 업데이트 되고 있는 페이지, 가장 최근에 방문한 스페이스, 공지사항으로 구분되어 업데이트 되었습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/1.png" /></center>
+<p><br /></p>
+
+<p><br /></p>
+
+<h3 id="2-다른-스페이스의-템플릿-사용하기">2. 다른 스페이스의 템플릿 사용하기</h3>
+
+<p>기존 Confluence의 템플릿은 전체적으로 사용할 수 있는 템플릿이나 개인 스페이스에 작성한 템플릿만 사용이 가능하며, 다른 스페이스의 템플릿은 사용할 수 없어 템플릿 양식을 복사하여 개인 스페이스에 새로운 템플릿을 만들어 사용해야 하는 불편함이 있었습니다.</p>
+
+<p>이러한 단점을 보완하기 위해 이번 업데이트에는 모든 스페이스의 템플릿을 서로 공유하여 사용이 가능합니다.</p>
+
+<p>페이지를 생성한 후 <strong>“이 스페이스에서 템플릿 선택“</strong> 란의 스페이스를 선택하여 다른 스페이스의 템플릿을 사용할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/2.png" /></center>
+<p><br /></p>
+
+<h3 id="3-url을-사용한-빠른-페이지-작성">3. URL을 사용한 빠른 페이지 작성</h3>
+
+<p>URL에서 웹 브라우저에서 “<strong>make.page</strong>“를 입력하면 Default로 설정된 사이트 내 개인 스페이스에 바로 페이지를 생성할 수 있습니다. 만약 사이트에 개인 스페이스가 없을 경우 가장 최근에 방문한 페이지의 스페이스에 페이지가 생성됩니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/3.gif" /></center>
+<p><br /></p>
+
+<p>웹 URL을 사용한 페이지를 생성하는 방법에 대해 자세히 확인하시려면 <a href="https://community.atlassian.com/t5/Confluence-articles/Productivity-hack-A-new-Confluence-shortcut-to-create-a-page/ba-p/1923079#M3663">여기</a>를 클릭해주세요!</p>
+
+<p><br /></p>
+
+<h3 id="4--사이트-분석-기능-추가">4.  사이트 분석 기능 추가</h3>
+
+<p>상단의 <strong>앱 → Analysis</strong>를 클릭하면 페이지 뷰, 생성, 편집 등에 대한 그래프와 함께 어떤 스페이스를 많이 방문했는지, 누가 페이지를 확인했는지, 어떤 내용을 많이 검색했는지 자세히 확인할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/4.png" /></center>
+<p><br /></p>
+
+<h3 id="5-메일-비활성화-기능-제공">5. 메일 비활성화 기능 제공</h3>
+
+<p>기존에는 Confluence에서 발생하는 이메일을 비활성화 하기 위해서는 메일 핸들러를 비활성화 하거나 개인 설정에서 이메일을 받지 않도록 설정해야 했습니다.</p>
+
+<p>하지만 이제 메일 핸들러를 비활성화 하거나 자체적으로 비활성화 할 필요 없이 Confluence 관리자가 Confluence에서 발생하는 활동에 대한 메일 전송을 비활성화 할 수 있습니다.</p>
+
+<p>해당 기능은 <strong>설정 → 추가 환경 설정 → 이메일 알림</strong> 체크 박스를 비활성화 하면 사용할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/5.png" /></center>
+<p><br /></p>
+
+<hr />
+
+<p>Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.</p>
+
+<p>Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!</p>
+
+<p>감사합니다.😃</p>
+:ET
