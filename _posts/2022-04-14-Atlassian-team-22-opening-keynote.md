@@ -13,7 +13,7 @@ Atlassian Team '22의 시작이자 핵심 메시지와 새로운 소식이 담�
 ----------
 
 ## Opening Keynote: Culture eats strategy for breakfast
-![enter image description here](blob:https://dmove-temp.atlassian.net/3bf8c943-e47f-4b63-90a0-14fbc498143f#media-blob-url=true&id=6be717bc-f923-4dcf-9c98-70ed3fa5666f&collection=contentId-1835053&contextId=1835053&mimeType=image/heic&name=IMG_7983.HEIC&size=825021&height=960&width=1280&alt=)
+![Scott](/assets/images/blog/IMG_7983.HEIC)
 
 6일 아침, 아틀라시안 공동 설립자이자 CEO인 Scott Farquhar의 등장으로 라이브 세션이 시작되었을 때의 함성은 정말 그 어느때보다 특별했는데요.
 
@@ -40,8 +40,13 @@ Scott은 모든 기업은 각자의 고유한 문화와 업무 방식을 갖고 
 즉, 이러한 디지털 혁신과 문화적 혁신을 위해 아틀라시안의 플랫폼이 그 어느때보다 중요한 이유가 바로 이것임을 다시 한번 느낄 수 있는 이야기였습니다.
 
 ### 아틀라시안의 새로운 제품 #1 : Atlas
-![enter image description here](blob:https://dmove-temp.atlassian.net/fa04bfeb-90f9-44ee-9fff-c8b7b967b230#media-blob-url=true&id=19ac77a4-34bb-4454-8a29-b3f1b97ef223&collection=contentId-1835053&contextId=1835053&mimeType=image/png&name=image-20220413-061457.png&size=1427494&height=978&width=2022&alt=)
+![Atlas](/assets/images/blog/atlas.png)
+Scott은 팀이 다양한 도구를 사용하여 작업을 추적할 수 있도록 지원하는 아틀라시안의 새로운 제품인 “**Atlas”**를 소개하였습니다. ![:star_struck:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/1f929.png)
+
+Atlas는 팀, 부서 및 전체 회사를 연결하여 하나로 모아주는 최초의 팀 워크 디렉토리 입니다. Atlas는 작업 내에서 열린 공유 및 소통을 촉진하도록 설계되었으며 서로 다른 방식으로 함께 작업할 수 있도록 도와주는 새로운 서비스 입니다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDAwOTk2OCwtMzc4MzM4MDY4XX0=
+eyJoaXN0b3J5IjpbLTExNzExMjE4MDksMTQxMDAwOTk2OCwtMz
+c4MzM4MDY4XX0=
 -->
