@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zabbix Case Study - 넥슨 재팬 구축 사례
+title: Case Study - Zabbix 모니터링 솔루션의 넥슨 재팬 구축 사례
 Subtitle: Zabbix Case Study
 date: 2021-08-17
 categories: [Case Study]
