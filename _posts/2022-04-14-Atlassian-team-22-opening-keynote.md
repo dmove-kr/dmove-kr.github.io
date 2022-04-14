@@ -57,8 +57,52 @@ Compass는 소프트웨어 개발 팀의 작업을 용이하게 하는 배포 �
 
 ### Atlassian Platform
 
+![Anu](/assets/images/blog/anu.png)
 
+두번재 키노트 연설자는 아틀라시안의 COO인 Anu Bharadwaj 였습니다.
+
+Anu는 Agile/Devops, ITSM 및 Work Management로 구성된 아틀라시안의 솔루션과 사용자 경험, 데이터 관리 그리고 클라우드 인프라로 이루어진 아틀라시안의 전체 플랫폼을 이야기 하였습니다.
+
+아틀라시안의 컨플루언스는 업무를 공유하고 감정을 소통하는 팀의 업무를 위한 중요한 업무인데요.
+
+Anu는 이번에 컨플루언스 에디터에 테이블 및 차트 기능이 새롭게 추가 되었으며, 이미 지라에서는 한달에 3500억개가 이루어 지고 있는 자동화(Automation)기능이 곧 컨플루언스에도 추가 될 것임을 밝혔습니다.
+
+또한 Atlassian Data Lake 및 Atlassian Analytics라는 두가지의 새로운 데이터 시각화 기능을 제시하였습니다. 이는 고위 경영진에서 일반 사용자에 이르기까지 조직 전반이 아틀라시안 제품의 모든 데이터에 접근할 수 있는 기능입니다.
+
+### Atlassian Data Lake
+
+지금까지 아틀라시안은은 상황별 데이터와 제품 내 대시보드 기능으로 팀 속도, 리소스 할당 또는 투자 수익에 대한 데이터를 제공했습니다.
+
+그러나 API와 스크립트를 사용하여 데이터를 추출해야 했기 때문에 대부분의 팀에서 사용자 지정 보고서를 만드는 것은 쉽지도 빠르지도 않았습니다. 또한 제품 또는 인스턴스 전반에 걸쳐 데이터를 쉽게 분석할 수 있는 방법이 없었습니다.
+
+이제는 Atlassian Data Lake으로 데이터를 통한 통찰력을 빠르게 얻을 수 있습니다. Atlassian Data Lakes에는 사전 모델링된 다양한 필드로 쉽게 분석할 수 있는 교차 제품 및 교차 인스턴스 데이터가 포함되어 있습니다.
+
+Atlassian Data Lake에는 Jira Software 및 Jira Service Management의 데이터가 포함됩니다.
+
+추후 모든 Atlassian 제품의 데이터가 Atlassian Data Lake에 통합될 예정입니다.
+
+### Atlassian Analytics
+
+모든 팀에는 고유한 작업 방식이 있으며 아틀라시안의 제품은 충분한 유연성을 제공합니다. 아틀라시안은 이러한 철학을 바탕으로 데이터에도 같은 방식으로 접근하였습니다.
+
+아틀라시안이 작년에 인수한 클라우드 기반 시각화 및 분석 솔루션인 Chartio의 기술을 활용하여 Atlassian Analytics가 개발되었습니다.
+
+Atlassian Analytics는 Atlassian Data Lake와 원활하게 연결되고 사용자가 다양한 방식으로 데이터에 접근할 수 있도록 하는 쉽고 유연한 데이터 허브입니다.
+
+이는 코드 없이 또는 SQL을 통해 완전히 데이터에 접근하고 시각화하는 혁신적인 방법입니다.
+
+----------
+
+약 40분간의 오프닝 키노트만으로도, 아틀라시안의 철학과 혁신을 제대로 이해할 수 있는 시간이었는데요.
+
+효과적인 팀워크를 구현하고 디지털 혁신을 이루기 위해 아틀라시안 플랫폼이 어떻게 물리적 위치, 조직의 기능 및 기존 프로세스를 초월하는 동시에 조직 전체의 작업을 통합하는지 알 수 있었습니다.
+
+전체 키노트 영상이 궁금하신 분들은 아래 링크를 통해 확인하실 수 있습니다.
+
+[![](https://www.youtube.com/s/desktop/18984c26/img/favicon_32x32.png)Atlassian Team '22 Opening Keynote - Live from Las Vegas](https://www.youtube.com/watch?v=9Hu6mTb1XJo)
+
+감사합니다.😃 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDY1MDcyMywxNDEwMDA5OTY4LC0zNz
-gzMzgwNjhdfQ==
+eyJoaXN0b3J5IjpbMzI0MTk1NzgyLDE0MTAwMDk5NjgsLTM3OD
+MzODA2OF19
 -->
