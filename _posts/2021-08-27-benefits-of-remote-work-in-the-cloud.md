@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Atlassian's Tip - 클라우드 시대에 특화된 원격 근무의 장점과 효과
+title: 클라우드 시대에 특화된 원격 근무의 장점과 효과
 Subtitle: Benefits of remote work in the cloud
 date: 2021-08-27
 categories: [IT Trend]
