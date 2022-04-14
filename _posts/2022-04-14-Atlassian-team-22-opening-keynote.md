@@ -121,7 +121,8 @@ Atlassian Analytics는 Atlassian Data Lake와 원활하게 연결되고 사용�
 [![](https://www.youtube.com/s/desktop/18984c26/img/favicon_32x32.png)Atlassian Team '22 Opening Keynote - Live from Las Vegas](https://www.youtube.com/watch?v=9Hu6mTb1XJo)
 
 감사합니다.😃 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzIwMTI3MSwxNDEwMDA5OTY4LC0zNz
-gzMzgwNjhdfQ==
+eyJoaXN0b3J5IjpbLTE3ODEyNzYwNTksMjAwNzIwMTI3MSwxND
+EwMDA5OTY4LC0zNzgzMzgwNjhdfQ==
 -->
