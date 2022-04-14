@@ -1,4 +1,4 @@
-I"Y<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+I"hX<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
 
 <p>안녕하세요. 디무브 입니다! :balloon:</p>
 
@@ -18,7 +18,7 @@
 
 <p>또한 OAuth 2.0을 사용하여 인기 있는 타사 애플리케이션 개발사가 Jira에 사용할 수 있는 자체 커넥터를 만들 수 있습니다.</p>
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira/2022_1Q/1.png" /></center>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_1Q/1.png" /></center>
 <p><br /></p>
 
 <p>또한 간편하게 Integration(통합)을 유지할 수 있도록 OAuth 2.0의 전체 기능을 애플리케이션 링크로 통합했습니다.</p>
@@ -110,7 +110,7 @@
 
 <p>이에 관한 더 자세한 내용은 <a href="https://confluence.atlassian.com/servicemanagementserver/receiving-requests-by-email-939926303.html"><strong>이메일 채널에 대해 알아보기</strong></a> 에서 확인하실 수 있습니다.</p>
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2022_1Q/1.png" /></center>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2022_1Q/1.png" /></center>
 <p><br /></p>
 
 <h3 id="22-새로운-sla-구성-인터페이스-data-center">2.2 새로운 SLA 구성 인터페이스 [<strong>DATA CENTER</strong>]</h3>
@@ -119,10 +119,10 @@
 
 <p>새로운 인터페이스를 사용하여 SLA 이름 권한, 디버깅 로그 세부 정보 및 정리 방법, SLA 시간 형식을 구성할 수 있으며 이에 관한 자세한 내용은 <a href="https://confluence.atlassian.com/servicemanagementserver/setting-up-slas-939926373.html"><strong>SLA 구성 방법 알아보기</strong></a> 에서 확인하실 수 있습니다.</p>
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2022_1Q/2.png" /></center>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2022_1Q/2.png" /></center>
 <p><br /></p>
 
-<h3 id="23-자동-입력-필드를-사용하여-데이터-재사용-data-center"><strong>2.3 자동 입력 필드를 사용하여 데이터 재사용</strong> <strong>DATA CENTER</strong></h3>
+<h3 id="23-자동-입력-필드를-사용하여-데이터-재사용-data-center"><strong>2.3 자동 입력 필드를 사용하여 데이터 재사용</strong> [<strong>DATA CENTER</strong>]</h3>
 
 <p>이제 Jira Service Management 4.22에서는 자동으로 채워진 요청필드로 URL을 생성할 수 있습니다.</p>
 
@@ -145,8 +145,6 @@
 </ul>
 
 <div style="border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);"><div style="flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); "><span role="img" style="--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;"><svg style="width: 24; height: 24; role: presentation;"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z" fill="currentColor"></path></svg></span></div> 아래의 내용은 위 Jira 플랫폼을 사용하는 모든 제품과 공통된 내용이므로 본문의 Jira의 내용을 참고해 주시면 됩니다. </div>
-<p><br /></p>
-
 <p><br /></p>
 
 <p><strong>2.5 OAuth 2.0 지원을 통해 더욱 안전하게 통합할 수 있습니다. (Jira 8.22의 내용과 동일)</strong></p>
@@ -204,7 +202,7 @@
 
 <p>Confluence에 저장하고자 하는 리비전의 수를 설정(버전 별 또는 기간 별)하여 설정된 값을 넘어설 시 예약된 작업이 초과된 분량을 삭제하여 Confluence의 성능에 영향을 미치지 않도록 합니다.</p>
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/1.png" /></center>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/1.png" /></center>
 <p><br /></p>
 
 <p>또한 예약된 작업은 기본적으로 10분마다 실행하도록 설정되어 있으며 정리 작업이 실행된 후에는 리비전과 휴지통에 있는 내용이 영구적으로 삭제되므로 규칙을 설정하기 전에 보관 규칙 전략을 세우는 것이 필요합니다.</p>
@@ -219,7 +217,7 @@
 
 <p>그 결과 조직이 처한 상황과 요구에 맞게 유연성을 가지고 문서들을 관리할 수 있습니다.</p>
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/2.png" /></center>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/2.png" /></center>
 <p><br /></p>
 
 <h3 id="33-정리-권한을-위임">3.3 정리 권한을 위임</h3>
@@ -230,7 +228,7 @@
 
 <p>이에 관한 자세한 내용은 <a href="https://confluence.atlassian.com/doc/set-retention-rules-to-delete-unwanted-data-1108681072.html"><strong>보관 규칙</strong></a>에서 확인하실 수 있습니다.</p>
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/3.png" /></center>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/3.png" /></center>
 <p><br /></p>
 
 <h3 id="34-복잡한-사이트에-대한-더-빠른-권한-확인-serverdata-center">3.4 <strong>복잡한 사이트에 대한 더 빠른 권한 확인</strong> [<strong>SERVER</strong>]<strong>[DATA CENTER</strong>]</h3>
@@ -245,22 +243,24 @@
 
 <p>이는 콘텐츠가 많고 권한이 복잡한 사이트에서 상당한 성능 향상을 제공할 수 있습니다.</p>
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/4.png" /></center>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/4.png" /></center>
 <p><br /></p>
 
 <h3 id="35-다양한-id-공급자idp-사용-data-center">3.5 다양한 ID 공급자(IdP) 사용 [<strong>DATA CENTER</strong>]</h3>
 
-<p>이제 싱글 사인온(SSO)인증을 위해 다양한 SAML 또는 OpenID Connect ID 제공자를 구성할 수 있습니다. 
-이동 <img src="https://api.media.atlassian.com/file/2ac9294d-748f-4aac-b1bd-a80926785ea4/image?collection=emoji-site-22a56b07-96b6-4944-8fee-4d9bf68fa880&amp;width=64&amp;height=64&amp;max-age=31536000" alt=":Cog:" />  &gt; <strong>일반 구성</strong> &gt; <strong>인증 방법</strong> (구 SSO 2.0) 에서 확인할 수 있습니다.</p>
+<p>이제 싱글 사인온(SSO)인증을 위해 다양한 SAML 또는 OpenID Connect ID 제공자를 구성할 수 있습니다.
+이동  <strong>우측 상단 톱니 바퀴 아이콘</strong>&gt; <strong>일반 구성</strong> &gt; <strong>인증 방법</strong> (구 SSO 2.0) 에서 확인할 수 있습니다.</p>
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/5.png" /></center>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/5.png" /></center>
 <p><br /></p>
 
 <p>SSO 인증 방식이 1개만 설정되어 있는 경우, 사용자는 인증을 위해서 설정된 1개의 방식으로 리다이렉트 됩니다.</p>
 
 <p>복수의 인증 방식을 사용할 경우, 이용 가능한 옵션이 있는 로그인 페이지가 나타나며 사용하려는 인증 방식 버튼의 텍스트를 팀에게 맞게 정의하여 사용할 수 있습니다.</p>
 
-<p>이에 관한 자세한 내용은 <a href="https://confluence.atlassian.com/enterprise/using-multiple-identity-providers-1044779993.html"><strong>여러 인증 방식을 구성하는 방법</strong></a>에서 확인하실 수 있습니다.  <br /></p>
+<p>이에 관한 자세한 내용은 <a href="https://confluence.atlassian.com/enterprise/using-multiple-identity-providers-1044779993.html"><strong>여러 인증 방식을 구성하는 방법</strong></a>에서 확인하실 수 있습니다.</p>
+
+<p><br /></p>
 
 <h3 id="36-기본-인증-차단-data-center"><strong>3.6 기본 인증 차단</strong> [<strong>DATA CENTER</strong>]</h3>
 
@@ -268,7 +268,7 @@
 
 <p>로그인 화면, API 또는 두가지 모두에 대해 기본 인증을 비활성화 할 수 있습니다.</p>
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/6.png" /></center>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_1Q/6.png" /></center>
 <p><br /></p>
 
 <p>기본 인증을 비활성화할 경우 기존에 기본 인증 방식으로 실행하던 스크립트들은 더 이상 사용할 수 없습니다.</p>

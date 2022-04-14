@@ -1,10 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-28T14:56:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Cloud</title><link href="http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Cloud" /><published>2022-03-28T00:00:00+09:00</published><updated>2022-03-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-14T14:04:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">Atlassian Team ‘22 - 오프닝 키노트 “Culture eats strategy for breakfast”</title><link href="http://localhost:4000/inside%20atlassian/2022/04/14/Atlassian-Team22-Opening-Keynote.html" rel="alternate" type="text/html" title="Atlassian Team ‘22 - 오프닝 키노트 “Culture eats strategy for breakfast”" /><published>2022-04-14T00:00:00+09:00</published><updated>2022-04-14T00:00:00+09:00</updated><id>http://localhost:4000/inside%20atlassian/2022/04/14/Atlassian-Team22-Opening-Keynote</id><content type="html" xml:base="http://localhost:4000/inside%20atlassian/2022/04/14/Atlassian-Team22-Opening-Keynote.html">&lt;p&gt;&lt;img src=&quot;/assets/images/blog/Team22 banner.png&quot; alt=&quot;Team22 banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요, 디무브 입니다! 🎈&lt;/p&gt;
+
+&lt;p&gt;지난 4월5일부터 7일까지 아틀라시안의 가장 큰 대고객 컨퍼런스인 “Atlassian Team ‘22”가 지난 4월5일부터 7일까지 라스베가스에서 개최되었습니다.&lt;/p&gt;
+
+&lt;p&gt;길었던 팬데믹 기간 동안 디지털로 전환할 수 밖에 없었기에 무려 3년 만에 고객과 파트너들을 직접 만날 수 있는 기회를 얻게 되었는데요.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안의 플래티넘 솔루션 파트너사인 디무브에서도 직접 라스베가스로 날아가서 생생한 현장을 경험하고 돌아왔습니다.&lt;/p&gt;
+
+&lt;p&gt;물론 이번 이벤트는 직접 라스베가스에 올 수 없는 고객들을 위해 온라인으로도 동시에 진행되는 하이브리드 형태였기에 전세계 고객들은 아틀라시안의 매우 핫한 새로운 소식들을 바로 접할 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian Team ‘22의 시작이자 핵심 메시지와 새로운 소식이 담겨있는 오프닝 키노트의 하이라이트를 지금부터 공유드리니 놓치지 마세요!😆&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/br&amp;gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;opening-keynote-culture-eats-strategy-for-breakfast&quot;&gt;Opening Keynote: Culture eats strategy for breakfast&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/IMG_7983.png&quot; alt=&quot;Scott&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/br&amp;gt; 
+6일 아침, 아틀라시안 공동 설립자이자 CEO인 Scott Farquhar의 등장으로 라이브 세션이 시작되었을 때의 함성은 정말 그 어느때보다 특별했는데요.&lt;/p&gt;
+
+&lt;p&gt;Scott은 아무리 강력한 전략이 있다 하더라도 적절한 문화가 공유되지 않으면 의미 없다는 뜻의 “Culture eats strategy for breakfast”라는 타이틀로 Team ‘22의 문을 열었습니다.&lt;/p&gt;
+
+&lt;p&gt;코로나로 인해 우리가 일하는 방식은 이전과 다르게 바뀌었고, 아틀라시안은 이러한 혼란 속에서 효과적인 팀워크를 구현하는 것이 현 시대의 기업이 요구하는 가장 중요한 사항임을 강조해 왔습니다.&lt;/p&gt;
+
+&lt;p&gt;이제 우리는 #TeamAnywhere 라는 말과 같이 더이상 원격 근무가 낯설지 않고, 이를 통해 회사는 지리적 이유로 인해 고용할 수 없었던 인재를 고용할 수 있는 기회를 갖게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;전 세계적으로 약 3분의1은 사무실에서 2시간 이상 떨어져 일하고 있으며, 2021년 2월에서 2022년 2월 사이의 신규 고용의 경우 47%로 급증하였는데요.&lt;/p&gt;
+
+&lt;p&gt;Team Anywhere 덕분에 미래의 업무에 대한 아틀라시안의 비전은 그 어느때보다 더 명확해졌습니다.&lt;/p&gt;
+
+&lt;p&gt;Scott은 모든 기업은 각자의 고유한 문화와 업무 방식을 갖고 있지만, 높은 성과를 내는 조직의 공통점이 있다고 말했습니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/br&amp;gt; 
+첫번째는 바로 ‘&lt;strong&gt;자율성(Autonomy)’&lt;/strong&gt;입니다. 창의적이고 혁신적인 작업을 위해서 팀은 자율성이 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;두번째는 &lt;strong&gt;‘정합성(Alignment)’&lt;/strong&gt; 입니다. 각자 자율성을 갖고 일하는 동시에 모든 구성원은 같은 페이지 위에 있어야 합니다.&lt;/p&gt;
+
+&lt;p&gt;따라서 자율성과 정렬 사이에서 올바른 균형을 찾는 것이 훨씬 더 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;우리는 하나의 작업을 완료하기 위해서 여러 팀이 함께 모여한다는 것을 알고 있고, 팀은 “무엇을, 누가, 왜, 어떻게”에 대한 공유된 이해가 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;즉, 이러한 디지털 혁신과 문화적 혁신을 위해 아틀라시안의 플랫폼이 그 어느때보다 중요한 이유가 바로 이것임을 다시 한번 느낄 수 있는 이야기였습니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/br&amp;gt;
+&amp;lt;/br&amp;gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;아틀라시안의-새로운-제품-1--atlas&quot;&gt;아틀라시안의 새로운 제품 #1 : Atlas&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/atlas.png&quot; alt=&quot;Atlas&quot; /&gt;
+Scott은 팀이 다양한 도구를 사용하여 작업을 추적할 수 있도록 지원하는 아틀라시안의 새로운 제품인 &lt;strong&gt;“Atlas”&lt;/strong&gt;를 소개하였습니다. &lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/1f929.png&quot; alt=&quot;:star_struck:&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Atlas는 팀, 부서 및 전체 회사를 연결하여 하나로 모아주는 최초의 팀 워크 디렉토리 입니다. Atlas는 작업 내에서 열린 공유 및 소통을 촉진하도록 설계되었으며 서로 다른 방식으로 함께 작업할 수 있도록 도와주는 새로운 서비스 입니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/br&amp;gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;아틀라시안의-새로운-제품-2--compass&quot;&gt;아틀라시안의 새로운 제품 #2 : Compass&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/compass.png&quot; alt=&quot;Compass&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Scott이 소개한 두번째 새로운 제품은 바로 소프트 웨어 팀을 위한 &lt;strong&gt;“Compass”&lt;/strong&gt;입니다.&lt;/p&gt;
+
+&lt;p&gt;Compass는 소프트웨어 개발 팀의 작업을 용이하게 하는 배포 제어 시스템입니다. Compass는 개발 경험을 커스터마이징하여, 소프트웨어 팀이 타사 도구를 쉽게 통합하고 관련 데이터를 표시하며 API를 관리하는 등의 작업을 수행할 수 있도록 지원합니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/br&amp;gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;atlassian-platform&quot;&gt;Atlassian Platform&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/anu.png&quot; alt=&quot;Anu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/br&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;두번재 키노트 연설자는 아틀라시안의 COO인 Anu Bharadwaj 였습니다. 👏 👏&lt;/p&gt;
+
+&lt;p&gt;Anu는 Agile/Devops, ITSM 및 Work Management로 구성된 아틀라시안의 솔루션과 사용자 경험, 데이터 관리 그리고 클라우드 인프라로 이루어진 아틀라시안의 전체 플랫폼을 이야기 하였습니다.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안의 컨플루언스는 업무를 공유하고 감정을 소통하는 팀의 업무를 위한 중요한 업무인데요.&lt;/p&gt;
+
+&lt;p&gt;Anu는 이번에 컨플루언스 에디터에 테이블 및 차트 기능이 새롭게 추가 되었으며, 이미 지라에서는 한달에 3500억개가 이루어 지고 있는 자동화(Automation)기능이 곧 컨플루언스에도 추가 될 것임을 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;또한 Atlassian Data Lake 및 Atlassian Analytics라는 두가지의 새로운 데이터 시각화 기능을 제시하였습니다. 이는 고위 경영진에서 일반 사용자에 이르기까지 조직 전반이 아틀라시안 제품의 모든 데이터에 접근할 수 있는 기능입니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/br&amp;gt;
+&amp;lt;/br&amp;gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;atlassian-data-lake&quot;&gt;Atlassian Data Lake&lt;/h3&gt;
+
+&lt;p&gt;지금까지 아틀라시안은은 상황별 데이터와 제품 내 대시보드 기능으로 팀 속도, 리소스 할당 또는 투자 수익에 대한 데이터를 제공했습니다.&lt;/p&gt;
+
+&lt;p&gt;그러나 API와 스크립트를 사용하여 데이터를 추출해야 했기 때문에 대부분의 팀에서 사용자 지정 보고서를 만드는 것은 쉽지도 빠르지도 않았습니다. 또한 제품 또는 인스턴스 전반에 걸쳐 데이터를 쉽게 분석할 수 있는 방법이 없었습니다.&lt;/p&gt;
+
+&lt;p&gt;이제는 Atlassian Data Lake으로 데이터를 통한 통찰력을 빠르게 얻을 수 있습니다. Atlassian Data Lakes에는 사전 모델링된 다양한 필드로 쉽게 분석할 수 있는 교차 제품 및 교차 인스턴스 데이터가 포함되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian Data Lake에는 Jira Software 및 Jira Service Management의 데이터가 포함됩니다.&lt;/p&gt;
+
+&lt;p&gt;추후 모든 Atlassian 제품의 데이터가 Atlassian Data Lake에 통합될 예정입니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/br&amp;gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;atlassian-analytics&quot;&gt;Atlassian Analytics&lt;/h3&gt;
+
+&lt;p&gt;모든 팀에는 고유한 작업 방식이 있으며 아틀라시안의 제품은 충분한 유연성을 제공합니다. 아틀라시안은 이러한 철학을 바탕으로 데이터에도 같은 방식으로 접근하였습니다.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안이 작년에 인수한 클라우드 기반 시각화 및 분석 솔루션인 Chartio의 기술을 활용하여 Atlassian Analytics가 개발되었습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian Analytics는 Atlassian Data Lake와 원활하게 연결되고 사용자가 다양한 방식으로 데이터에 접근할 수 있도록 하는 쉽고 유연한 데이터 허브입니다.&lt;/p&gt;
+
+&lt;p&gt;이는 코드 없이 또는 SQL을 통해 완전히 데이터에 접근하고 시각화하는 혁신적인 방법입니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/br&amp;gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;약 40분간의 오프닝 키노트만으로도, 아틀라시안의 철학과 혁신을 제대로 이해할 수 있는 시간이었는데요.🌟&lt;/p&gt;
+
+&lt;p&gt;효과적인 팀워크를 구현하고 디지털 혁신을 이루기 위해 아틀라시안 플랫폼이 어떻게 물리적 위치, 조직의 기능 및 기존 프로세스를 초월하는 동시에 조직 전체의 작업을 통합하는지 알 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;전체 키노트 영상이 궁금하신 분들은 아래 링크를 통해 확인해보세요!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=9Hu6mTb1XJo&quot;&gt;&lt;img src=&quot;https://www.youtube.com/s/desktop/18984c26/img/favicon_32x32.png&quot; alt=&quot;&quot; /&gt;Atlassian Team ‘22 Opening Keynote - Live from Las Vegas&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;감사합니다.😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Inside Atlassian" /><category term="Atlassian" /><category term="Team22" /><category term="아틀라시안" /><category term="Atlassianteam22" /><category term="teamanywhere" /><category term="Scottfarquhar" /><category term="Lasvegas" /><category term="아틀라시안컨퍼런스" /><category term="cultureeatsstrategyforbreakfast" /><category term="postcovid" /><category term="atlas" /><category term="compass" /><category term="datalake" /><category term="atlassiananlytics" /><category term="team22keynote" /><category term="아틀라스" /><category term="컴파스" /><category term="chartio" /><summary type="html"></summary></entry><entry><title type="html">2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Cloud</title><link href="http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Cloud" /><published>2022-03-28T00:00:00+09:00</published><updated>2022-03-28T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/atlassian%20release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;안녕하세요. 디무브 입니다! :balloon:&lt;/p&gt;
 
-&lt;p&gt;벌써 22년도 1분기가 거의 다 지나갔네요!~ 이번 시간에는 1분기인 1~3월 동안 아틀라시안의 주요 제품인 Jira, Jira Service Management, Confluence Cloud 버전에 어떠한 변화가 있었는지 정리해 보았습니다.&lt;/p&gt;
+&lt;p&gt;2022년 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었습니다.&lt;/p&gt;
 
-&lt;p&gt;많은 기능들이 개선되었으니 꼭 확인해보세요!&lt;/p&gt;
+&lt;p&gt;각 제품의 Cloud 버전에 어떠한 변화가 있었는지 여러분과 함께 확인해볼 수 있는 시간을 마련했으니 꼭 확인해보세요!&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -57,7 +182,7 @@
 &lt;center&gt;알림 배너 설정 시 상단 바에 공지 사항이 출력됩니다.&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;4--단일-텍스트-및-장문-텍스트-커스텀-필드-명칭-변경-jsm도-동일&quot;&gt;4.  단일 텍스트 및 장문 텍스트 커스텀 필드 명칭 변경 (JSM도 동일)&lt;/h3&gt;
+&lt;h3 id=&quot;4--단일-텍스트-및-장문-텍스트-커스텀-필드-명칭-변경-jira-service-management도-동일&quot;&gt;4.  단일 텍스트 및 장문 텍스트 커스텀 필드 명칭 변경 (Jira Service Management도 동일)&lt;/h3&gt;
 
 &lt;p&gt;아틀라시안은 프로젝트 유형 간에 용어를 조정하기 위해 회사 관리 프로젝트의 커스텀 필드 이름을 팀 관리 프로젝트의 커스텀 필드 이름과 일치하도록 변경하고 있습니다.&lt;/p&gt;
 
@@ -70,7 +195,7 @@
 
 &lt;p&gt;&lt;strong&gt;5-1. 추가 완료된 에픽 이슈를 위한 새로운 설정 기능 제공&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;이번 분기 로드맵에서는 완료된 에픽 이슈를 확인하기 위핸 새로운 설정 기능이 추가 되었습니다.
+&lt;p&gt;이번 분기 로드맵에서는 완료된 에픽 이슈를 확인하기 위한 새로운 설정 기능이 추가 되었습니다.
 &lt;strong&gt;1,3,6,9,12개월&lt;/strong&gt; 단위로 완료된 이슈를 최신순으로  필터링 하여 확인할 수 있으며, 필요 시 “&lt;strong&gt;완료된 Epic 이슈 모두 숨기기&lt;/strong&gt;“ 라디오 버튼을 클릭하여 항목을 숨길 수도 있습니다.&lt;/p&gt;
 
 &lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/6.png&quot; /&gt;&lt;/center&gt;
@@ -302,7 +427,7 @@
 &lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira%20Service%20Management/2022_1Q/2.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;23-자동-입력-필드를-사용하여-데이터-재사용-data-center&quot;&gt;&lt;strong&gt;2.3 자동 입력 필드를 사용하여 데이터 재사용&lt;/strong&gt; &lt;strong&gt;DATA CENTER&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;23-자동-입력-필드를-사용하여-데이터-재사용-data-center&quot;&gt;&lt;strong&gt;2.3 자동 입력 필드를 사용하여 데이터 재사용&lt;/strong&gt; [&lt;strong&gt;DATA CENTER&lt;/strong&gt;]&lt;/h3&gt;
 
 &lt;p&gt;이제 Jira Service Management 4.22에서는 자동으로 채워진 요청필드로 URL을 생성할 수 있습니다.&lt;/p&gt;
 
@@ -325,8 +450,6 @@
 &lt;/ul&gt;
 
 &lt;div style=&quot;border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);&quot;&gt;&lt;div style=&quot;flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); &quot;&gt;&lt;span role=&quot;img&quot; style=&quot;--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;&quot;&gt;&lt;svg style=&quot;width: 24; height: 24; role: presentation;&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z&quot; fill=&quot;currentColor&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/div&gt; 아래의 내용은 위 Jira 플랫폼을 사용하는 모든 제품과 공통된 내용이므로 본문의 Jira의 내용을 참고해 주시면 됩니다. &lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;2.5 OAuth 2.0 지원을 통해 더욱 안전하게 통합할 수 있습니다. (Jira 8.22의 내용과 동일)&lt;/strong&gt;&lt;/p&gt;
@@ -1039,7 +1162,7 @@ Jira, Confluence, Bitbucket, Bamboo와 같은 Atlassian 제품들에 관해 보�
 
 &lt;p&gt;포레스터에서 말하는 엔터프라이즈 서비스 관리 환경, 시장 동향 및 제품 정보에 대한 자세한 내용이 궁금하시다면, 아래 버튼을 클릭해서 전체 보고서를 확인해보세요.&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn d-inline-block&quot; zsubmit=&quot;false&quot; href=&quot;https://sites.ziftsolutions.com/atlassian.ziftsolutions.com/8a9982c17e6dc036017e70ddc6677c26?zPage=Popup-Asset-Form-a92f31ef&quot; title=&quot;Popup Asset Form&quot; zstepid=&quot;Popup-Asset-Form-a92f31ef&quot; onclick=&quot;zPanel52948.gotoPage(&apos;zPage&apos;,&apos;Popup-Asset-Form-a92f31ef&apos;,this, false,false,700,750); return false;&quot;&gt; &lt;span name=&quot;Section 1 Block 1 CTA Text 1&quot;&gt;전체 보고서 다운로드&lt;/span&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn d-inline-block&quot; zsubmit=&quot;false&quot; href=&quot;https://sites.ziftsolutions.com/atlassian.ziftsolutions.com/8a9982c17e6dc036017e70ddc6677c26?zPage=Popup-Asset-Form-a92f31ef&quot; title=&quot;Popup Asset Form&quot; zstepid=&quot;Popup-Asset-Form-a92f31ef&quot; onclick=&quot;zPanel52948.gotoPage('zPage','Popup-Asset-Form-a92f31ef',this, false,false,700,750); return false;&quot;&gt; &lt;span name=&quot;Section 1 Block 1 CTA Text 1&quot;&gt;전체 보고서 다운로드&lt;/span&gt; &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -1692,133 +1815,4 @@ Kubernetes 클러스터는 Amazon EKS , Azure Kubernetes Service , Google Kubern
 
 &lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
 
-&lt;p&gt;감사합니다.&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Release Note" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안 클라우드" /><category term="Jira" /><category term="jira" /><category term="Jira Cloud" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"></summary></entry><entry><title type="html">웨비나 생생후기 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제</title><link href="http://localhost:4000/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary.html" rel="alternate" type="text/html" title="웨비나 생생후기 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제" /><published>2021-12-20T00:00:00+09:00</published><updated>2021-12-20T00:00:00+09:00</updated><id>http://localhost:4000/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary</id><content type="html" xml:base="http://localhost:4000/news%20and%20events/2021/12/20/Atlassian-Okta-IAM-in-Cloud-Webinar-Summary.html">&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar%20Title%20Banner.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;안녕하세요. 디무브 입니다.  🎈&lt;/p&gt;
-
-&lt;p&gt;지난 12월14일 화요일 오후4시 진행된 디무브의 “&lt;a href=&quot;https://talkit.tv/Event/2730&quot;&gt;제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제&lt;/a&gt;” 웨비나가 종료되었습니다.&lt;/p&gt;
-
-&lt;p&gt;지난 10월 디무브에서는 IAM 업계의 글로벌 리더인 Okta와 파트너쉽을 체결하며, 클라우드 환경에서의 계정 관리와 보안강화는 물론 아틀라시안 솔루션과의 연동을 통한 확장을 제공하게 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;이에 따라 이번 웨비나에서는 아틀라시안의 클라우드 ID 및 보안 환경을 명확하게 이해하고 보안을 강화할 수 있는 방법과 Okta의 IAM 솔루션을 통해 사용자 관리를 위한 프로세스를 개선할 수 있는 핵심 전략을 소개해드렸는데요.&lt;/p&gt;
-
-&lt;p&gt;많은 기업들이 클라우드로의 여정을 시작하고 새로운 기술과 플랫폼이 지속적으로 확산됨에 따라, SaaS와 온프레미스 앱 모두에 대한 ID 및 액세스 관리에 대한 관심이 높아진 만큼 정말 많은 분들께서 등록해주시고 라이브 세션에 참석해 주셨습니다.&lt;/p&gt;
-
-&lt;p&gt;다시 한번, 참여해주신 모든 분들께 감사의 말씀을 드리며, 진행했던 웨비나에 대해 리뷰하는 시간을 가져보려 합니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;본 웨비나는 아래 아젠다와 같이 크게 3가지 파트로 구성하여 진행하였습니다.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;시간&lt;/th&gt;
-      &lt;th&gt;주제&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;16:00 ~ 16:15&lt;/td&gt;
-      &lt;td&gt;**Cloud 환경에서의 Identity &amp;amp; Access 관리** &lt;br /&gt; - 조직의 보안을 위해 ID 및 액세스 관리가 중요한 이유 &lt;br /&gt; - Zero Trust 보안 모델&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;16:15 ~ 16:35&lt;/td&gt;
-      &lt;td&gt;**보안 강화를 위한 클라우드 ID 공급자의 역할** &lt;br /&gt; - 아이덴티티의 역할과 중요성 &lt;br /&gt; - Okta 솔루션 데모&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;16:35 ~ 16:55&lt;/td&gt;
-      &lt;td&gt;**Atlassian 클라우드 제품의 연결과 확장** &lt;br /&gt; - Atlassian Access를 통한 ID 관리 &lt;br /&gt; - Access+Okta Integration 데모&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;16:55 ~ 17:00&lt;/td&gt;
-      &lt;td&gt;**Q&amp;amp;A** &lt;br /&gt; - 질의응답&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;session-1-cloud-환경에서의-identity--access-관리&quot;&gt;Session 1. Cloud 환경에서의 Identity &amp;amp; Access 관리&lt;/h2&gt;
-
-&lt;center&gt;&lt;iframe width=&quot;600&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/7bB0bYglI0w&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;이제는 많은 기업들이 클라우드로 인프라를 전환하게 되면서 기존의 네트워크 경계를 기반으로 설계된 전통적인 보안 인프라는 더이상 안전하지 않게 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;그 배경은 바로 SaaS 기반의 기업용 애플리케이션이 증가하면서 SaaS 앱을 사용하는 사용자도 증가하게 되었고, 원격 근무나 재택 근무와 같은 근무환경은 빠르게 변화였기 때문인데요.&lt;/p&gt;
-
-&lt;p&gt;또한 사용자들이 회사 내의 인증된 PC만이 아닌 개인 노트북, 모바일, 태블릿 등 다양한 기기를 통해 서비스에 접근하게 되면서 클라우드 보안에 대한 위험은 증가하게 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;더이상 모든 IP 주소와 기기를 파악하고 추적하는 것은 현실적으로 불가능해졌고 신뢰할 수 있는 네트워크를 정의할 수 없기 때문에 우리는 모든 접근을 신뢰하지 않고 항상 검증해야 합니다.&lt;/p&gt;
-
-&lt;p&gt;이것이 바로 ‘제로 트러스트 보안 모델’의 핵심 개념입니다.&lt;/p&gt;
-
-&lt;p&gt;아이덴티티를 기반으로 하는 제로 트러스트 보안 모델의 3가지 원칙과 특징이 궁금하시다면 세션1의 영상을 확인해주세요!&lt;/p&gt;
-
-&lt;h2 id=&quot;session-2-보안-강화를-위한-클라우드-id-공급자의-역할&quot;&gt;Session 2. &lt;strong&gt;보안 강화를 위한 클라우드 ID 공급자의 역할&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;center&gt;&lt;iframe width=&quot;600&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/fsQHhy_5vK8&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Okta 자체 발간 보고서에 따르면 기업이 평균적으로 사용하는 앱 숫자는 88개에 이르고 이 숫자는 지속적으로 늘어나고 있는 추세라고 합니다.&lt;/p&gt;
-
-&lt;p&gt;이번 웨비나를 준비하면서 진행한 사전 설문조사 결과에서도 60%에 가까운 국내 기업들이 이미 1개 이상의 SaaS앱을 사용하고 있다는 것을 알 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;그리고 이러한 트렌드는 더욱 빠르게 가속화 될 것으로 전망하고 있는데요.&lt;/p&gt;
-
-&lt;p&gt;IDaaS 영역의 선두주자인 Okta는 아이덴티티 및 액세스 통합, MFA등을 통한 인증 방법 강화, 컨텍스트 기반의 액세스 관리와 같은 강력한 기능과 7000개이상의 SaaS앱과의 연동을 지원하며 클라우드 환경은 물론 온프레미스까지 아우르는 ID 관리 솔루션을 제공하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;세션2에서는 Okta 솔루션을 통해 사용하는 SaaS앱을 연동하고 인증 절차를 설정하는 방법을 데모를 통해 소개해 드립니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;session-3-atlassian-클라우드-제품의-연결과-확장&quot;&gt;Session 3. Atlassian 클라우드 제품의 연결과 확장&lt;/h2&gt;
-
-&lt;center&gt;&lt;iframe width=&quot;600&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/Zh_6xwdfocQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;앞 세션에서 제로 트러스트 보안 모델을 기반으로 하는 Okta 솔루션에 대해 알아보았다면, 세션3에서는 아틀라시안클 라우드의 보안을 강화하는 방안을 이야기했는데요.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안의 Single Account 정책과 아틀라시안이 Organization(조직)과 Site(사이트)라는 접근 방식으로 사용자 개인은 물론 조직 모두에게 제공하는 이점 또한 소개해 드렸습니다.&lt;/p&gt;
-
-&lt;p&gt;또한 아틀라시안 클라우드는 “&lt;a href=&quot;http://dmove.co.kr/products/atlassian/atlassian-access&quot;&gt;Atlassian Access&lt;/a&gt;” 제품을 통해 Okta와의 자체 연동을 지원하며 유저 프로비저닝, 관리자 권한 감사, 활동 내역 감사, SSO 등의 기능을 제공하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian Access 제품에 대한 기능 소개 및 Okta와의 연동법이 궁금하시다면 세션3의 데모영상을 놓치지 마세요!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;1시간동안 제로 트러스트 보안 모델을 기반으로 아틀라시안과 옥타의 클라우드 ID 및 접근관리에 대한 핵심 내용으로 알차게 구성해 보았는데요!&lt;/p&gt;
-
-&lt;p&gt;참석해 주신 분들께서 너무 좋은 평가를 많이 남겨주셨답니다.&lt;/p&gt;
-
-&lt;p&gt;오히려 웨비나 시간을 더 늘려달라는 분들도 꽤 계셔서 저희가 준비한 시간이 많은 분들께 도움이 된 것 같아 저희에게도 매우 유의미하고 감사했던 시간이었습니다. 🙂&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“흠결 전무한 최고 웨비나 체제,진행으로 평가되어,더할 평론 없음”&lt;/p&gt;
-
-  &lt;p&gt;“데모 중심으로 진행된 방식이다 보니.. 실무적으로 많은 도움이 되었습니다.”&lt;/p&gt;
-
-  &lt;p&gt;“Atlassian의 클라우드 ID와 보안 환경을 명확하게 이해하고 보안을 강화할 수 있는 방법에 대한 개념을 파악할 수 있어서 매우 유익하였습니다”&lt;/p&gt;
-
-  &lt;p&gt;“다양한 세션에서 실무에 도움이 되는 정보 많이 주시어 감사드립니다.”&lt;/p&gt;
-
-  &lt;p&gt;“어려울 수 있는 내용을 이해하기 쉽게 잘 설명해주신것 같습니다.”&lt;/p&gt;
-
-  &lt;p&gt;“혼자서 진행하셨는데도 매끄럽게 잘 진행이 된 것 같습니다. 설명 및 데모도 충실하여, 이해에 많은 도움이 되었습니다. ”&lt;/p&gt;
-
-  &lt;p&gt;“웨비나를 통해서 클라우드와 관련해서 검토해보고 더나은 방향으로 선택할 수 있는 좋은 시간이 되었습니다.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;웨비나에 대한 전체 내용이 궁금하신 분들께서는, 디무브 &lt;a href=&quot;https://www.youtube.com/watch?v=N43fNu1QwXY&quot;&gt;유튜브 채널&lt;/a&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;추후에도 웨비나에서 다룬 내용에 대해 궁금하신 점이 있으시면 저희에게 언제든지 알려주세요.&lt;/p&gt;
-
-&lt;p&gt;디무브에서는 앞으로도 다양한 주제로 찾아뵐 것을 약속 드리며, 본 포스팅을 마무리하도록 하겠습니다.&lt;/p&gt;
-
-&lt;p&gt;감사합니다. 🙂&lt;/p&gt;</content><author><name>Dmove</name></author><category term="News and Events" /><category term="Atlassian" /><category term="아틀라시안" /><category term="옥타" /><category term="Okta" /><category term="IAM" /><category term="SSO" /><category term="IDaaS" /><category term="클라우드계정관리" /><category term="제로트러스트" /><category term="Zerotrust" /><category term="클라우드보안" /><category term="Cloud" /><category term="ID Management" /><category term="TalkIT" /><category term="토크아이티" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;감사합니다.&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Release Note" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안 클라우드" /><category term="Jira" /><category term="jira" /><category term="Jira Cloud" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"></summary></entry></feed>

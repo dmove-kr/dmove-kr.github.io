@@ -3,7 +3,7 @@
 layout: post
 title: Atlassian Team '22 - 오프닝 키노트 "Culture eats strategy for breakfast"
 Subtitle: Culture eats strategy for breakfast
-date: 2022-04-22
+date: 2022-04-14
 categories: [Inside Atlassian]
 tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere, Scottfarquhar, Lasvegas, 아틀라시안컨퍼런스, cultureeatsstrategyforbreakfast, postcovid, atlas, compass, datalake, atlassiananlytics, team22keynote, 아틀라스, 컴파스, chartio]
 
