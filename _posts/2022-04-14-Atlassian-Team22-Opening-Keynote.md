@@ -24,14 +24,14 @@ tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere, Scottf
 
 Atlassian Team '22의 시작이자 핵심 메시지와 새로운 소식이 담겨있는 오프닝 키노트의 하이라이트를 지금부터 공유드리니 놓치지 마세요!😆 
 
-</br>
+<br>
 
 ----------
 
 ## Opening Keynote: Culture eats strategy for breakfast
 ![Scott](/assets/images/blog/IMG_7983.png)
 
-</br> 
+<br> 
 6일 아침, 아틀라시안 공동 설립자이자 CEO인 Scott Farquhar의 등장으로 라이브 세션이 시작되었을 때의 함성은 정말 그 어느때보다 특별했는데요.
 
 Scott은 아무리 강력한 전략이 있다 하더라도 적절한 문화가 공유되지 않으면 의미 없다는 뜻의 “Culture eats strategy for breakfast”라는 타이틀로 Team '22의 문을 열었습니다.
@@ -47,7 +47,7 @@ Team Anywhere 덕분에 미래의 업무에 대한 아틀라시안의 비전은 
 Scott은 모든 기업은 각자의 고유한 문화와 업무 방식을 갖고 있지만, 높은 성과를 내는 조직의 공통점이 있다고 말했습니다.
 
 
-</br> 
+<br> 
 첫번째는 바로 ‘**자율성(Autonomy)’**입니다. 창의적이고 혁신적인 작업을 위해서 팀은 자율성이 필요합니다.
 
 두번째는 **‘정합성(Alignment)’** 입니다. 각자 자율성을 갖고 일하는 동시에 모든 구성원은 같은 페이지 위에 있어야 합니다.
@@ -58,8 +58,8 @@ Scott은 모든 기업은 각자의 고유한 문화와 업무 방식을 갖고 
 
 즉, 이러한 디지털 혁신과 문화적 혁신을 위해 아틀라시안의 플랫폼이 그 어느때보다 중요한 이유가 바로 이것임을 다시 한번 느낄 수 있는 이야기였습니다.
 
-</br>
-</br>
+<br>
+<br>
 
 ### 아틀라시안의 새로운 제품 #1 : Atlas
 ![Atlas](/assets/images/blog/atlas.png)
@@ -67,7 +67,7 @@ Scott은 팀이 다양한 도구를 사용하여 작업을 추적할 수 있도�
 
 Atlas는 팀, 부서 및 전체 회사를 연결하여 하나로 모아주는 최초의 팀 워크 디렉토리 입니다. Atlas는 작업 내에서 열린 공유 및 소통을 촉진하도록 설계되었으며 서로 다른 방식으로 함께 작업할 수 있도록 도와주는 새로운 서비스 입니다.
 
-</br>
+<br>
 
 ### 아틀라시안의 새로운 제품 #2 : Compass
 
@@ -77,7 +77,7 @@ Scott이 소개한 두번째 새로운 제품은 바로 소프트 웨어 팀을 
 
 Compass는 소프트웨어 개발 팀의 작업을 용이하게 하는 배포 제어 시스템입니다. Compass는 개발 경험을 커스터마이징하여, 소프트웨어 팀이 타사 도구를 쉽게 통합하고 관련 데이터를 표시하며 API를 관리하는 등의 작업을 수행할 수 있도록 지원합니다.
 
-</br>
+<br>
 
 ---
 
@@ -85,7 +85,7 @@ Compass는 소프트웨어 개발 팀의 작업을 용이하게 하는 배포 �
 
 ![Anu](/assets/images/blog/anu.png)
 
-</br>
+<br>
 
 두번재 키노트 연설자는 아틀라시안의 COO인 Anu Bharadwaj 였습니다. 👏 👏
 
@@ -97,8 +97,8 @@ Anu는 이번에 컨플루언스 에디터에 테이블 및 차트 기능이 새
 
 또한 Atlassian Data Lake 및 Atlassian Analytics라는 두가지의 새로운 데이터 시각화 기능을 제시하였습니다. 이는 고위 경영진에서 일반 사용자에 이르기까지 조직 전반이 아틀라시안 제품의 모든 데이터에 접근할 수 있는 기능입니다.
 
-</br>
-</br>
+<br>
+<br>
 
 ### Atlassian Data Lake
 
@@ -112,7 +112,7 @@ Atlassian Data Lake에는 Jira Software 및 Jira Service Management의 데이터
 
 추후 모든 Atlassian 제품의 데이터가 Atlassian Data Lake에 통합될 예정입니다.
 
-</br>
+<br>
 
 ### Atlassian Analytics
 
@@ -124,7 +124,7 @@ Atlassian Analytics는 Atlassian Data Lake와 원활하게 연결되고 사용�
 
 이는 코드 없이 또는 SQL을 통해 완전히 데이터에 접근하고 시각화하는 혁신적인 방법입니다.
 
-</br>
+<br>
 
 ----------
 
