@@ -29,7 +29,7 @@ Atlassian Team '22의 시작이자 핵심 메시지와 새로운 소식이 담�
 ----------
 
 ## Opening Keynote: Culture eats strategy for breakfast
-![Scott](/assets/images/blog/IMG_7893.png)
+![Scott](/assets/images/blog/team22_scott.png)
 
 <br> 
 6일 아침, 아틀라시안 공동 설립자이자 CEO인 Scott Farquhar의 등장으로 라이브 세션이 시작되었을 때의 함성은 정말 그 어느때보다 특별했는데요.
