@@ -41,12 +41,24 @@ Scott은 모든 기업은 각자의 고유한 문화와 업무 방식을 갖고 
 
 ### 아틀라시안의 새로운 제품 #1 : Atlas
 ![Atlas](/assets/images/blog/atlas.png)
-Scott은 팀이 다양한 도구를 사용하여 작업을 추적할 수 있도록 지원하는 아틀라시안의 새로운 제품인 “**Atlas”**를 소개하였습니다. ![:star_struck:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/1f929.png)
+Scott은 팀이 다양한 도구를 사용하여 작업을 추적할 수 있도록 지원하는 아틀라시안의 새로운 제품인 **"Atlas”**를 소개하였습니다. ![:star_struck:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/1f929.png)
 
 Atlas는 팀, 부서 및 전체 회사를 연결하여 하나로 모아주는 최초의 팀 워크 디렉토리 입니다. Atlas는 작업 내에서 열린 공유 및 소통을 촉진하도록 설계되었으며 서로 다른 방식으로 함께 작업할 수 있도록 도와주는 새로운 서비스 입니다.
 
+### 아틀라시안의 새로운 제품 #2 : Compass
+
+![Compass](/assets/images/blog/compass.png)
+
+Scott이 소개한 두번째 새로운 제품은 바로 소프트 웨어 팀을 위한 **"Compass"**입니다.
+
+Compass는 소프트웨어 개발 팀의 작업을 용이하게 하는 배포 제어 시스템입니다. Compass는 개발 경험을 커스터마이징하여, 소프트웨어 팀이 타사 도구를 쉽게 통합하고 관련 데이터를 표시하며 API를 관리하는 등의 작업을 수행할 수 있도록 지원합니다.
+
+---
+
+### Atlassian Platform
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzExMjE4MDksMTQxMDAwOTk2OCwtMz
-c4MzM4MDY4XX0=
+eyJoaXN0b3J5IjpbMTUwNDY1MDcyMywxNDEwMDA5OTY4LC0zNz
+gzMzgwNjhdfQ==
 -->
