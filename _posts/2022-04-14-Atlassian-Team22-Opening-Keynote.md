@@ -10,7 +10,7 @@ tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere, Scottf
 ---
 
 
-![Team '22 banner](/assets/images/blog/Team '22 banner.png)
+![Team '22 banner](/assets/images/blog/Team22 banner.png)
 
 안녕하세요, 디무브 입니다! 🎈
 
@@ -29,7 +29,7 @@ Atlassian Team '22의 시작이자 핵심 메시지와 새로운 소식이 담�
 ----------
 
 ## Opening Keynote: Culture eats strategy for breakfast
-![Scott](/assets/images/blog/IMG_7983.HEIC)
+![Scott](/assets/images/blog/IMG_7983.png)
 
 </br> 
 6일 아침, 아틀라시안 공동 설립자이자 CEO인 Scott Farquhar의 등장으로 라이브 세션이 시작되었을 때의 함성은 정말 그 어느때보다 특별했는데요.
