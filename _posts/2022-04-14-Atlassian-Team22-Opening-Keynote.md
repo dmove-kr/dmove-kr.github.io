@@ -10,7 +10,7 @@ tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere, Scottf
 ---
 
 
-![Team '22 banner](/assets/images/blog/Team22 banner.png)
+![Team22 banner](/assets/images/blog/Team22 banner.png)
 
 안녕하세요, 디무브 입니다! 🎈
 
