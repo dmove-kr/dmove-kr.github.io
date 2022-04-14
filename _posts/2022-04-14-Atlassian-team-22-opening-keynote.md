@@ -9,6 +9,11 @@
 물론 이번 이벤트는 직접 라스베가스에 올 수 없는 고객들을 위해 온라인으로도 동시에 진행되는 하이브리드 형태였기에 전세계 고객들은 아틀라시안의 매우 핫한 새로운 소식들을 바로 접할 수 있었습니다.
 
 Atlassian Team '22의 시작이자 핵심 메시지와 새로운 소식이 담겨있는 오프닝 키노트의 하이라이트를 지금부터 공유드리니 놓치지 마세요! ![:laughing:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/1f606.png)
+
+----------
+
+## Opening Keynote: Culture eats strategy for breakfast
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ0MDY2MjFdfQ==
+eyJoaXN0b3J5IjpbLTM3ODMzODA2OF19
 -->
