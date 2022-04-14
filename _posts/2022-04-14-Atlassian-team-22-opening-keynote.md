@@ -13,7 +13,34 @@ Atlassian Team '22의 시작이자 핵심 메시지와 새로운 소식이 담�
 ----------
 
 ## Opening Keynote: Culture eats strategy for breakfast
+![enter image description here](blob:https://dmove-temp.atlassian.net/3bf8c943-e47f-4b63-90a0-14fbc498143f#media-blob-url=true&id=6be717bc-f923-4dcf-9c98-70ed3fa5666f&collection=contentId-1835053&contextId=1835053&mimeType=image/heic&name=IMG_7983.HEIC&size=825021&height=960&width=1280&alt=)
+
+6일 아침, 아틀라시안 공동 설립자이자 CEO인 Scott Farquhar의 등장으로 라이브 세션이 시작되었을 때의 함성은 정말 그 어느때보다 특별했는데요.
+
+Scott은 아무리 강력한 전략이 있다 하더라도 적절한 문화가 공유되지 않으면 의미 없다는 뜻의 “Culture eats strategy for breakfast”라는 타이틀로 Team '22의 문을 열었습니다.
+
+코로나로 인해 우리가 일하는 방식은 이전과 다르게 바뀌었고, 아틀라시안은 이러한 혼란 속에서 효과적인 팀워크를 구현하는 것이 현 시대의 기업이 요구하는 가장 중요한 사항임을 강조해 왔습니다.
+
+이제 우리는 #TeamAnywhere 라는 말과 같이 더이상 원격 근무가 낯설지 않고, 이를 통해 회사는 지리적 이유로 인해 고용할 수 없었던 인재를 고용할 수 있는 기회를 갖게 되었습니다.
+
+전 세계적으로 약 3분의1은 사무실에서 2시간 이상 떨어져 일하고 있으며, 2021년 2월에서 2022년 2월 사이의 신규 고용의 경우 47%로 급증하였는데요.
+
+Team Anywhere 덕분에 미래의 업무에 대한 아틀라시안의 비전은 그 어느때보다 더 명확해졌습니다.
+
+Scott은 모든 기업은 각자의 고유한 문화와 업무 방식을 갖고 있지만, 높은 성과를 내는 조직의 공통점이 있다고 말했습니다.
+
+첫번째는 바로 ‘**자율성(Autonomy)’**입니다. 창의적이고 혁신적인 작업을 위해서 팀은 자율성이 필요합니다.
+
+두번째는 **‘정합성(Alignment)’** 입니다. 각자 자율성을 갖고 일하는 동시에 모든 구성원은 같은 페이지 위에 있어야 합니다.
+
+따라서 자율성과 정렬 사이에서 올바른 균형을 찾는 것이 훨씬 더 중요합니다.
+
+우리는 하나의 작업을 완료하기 위해서 여러 팀이 함께 모여한다는 것을 알고 있고, 팀은 “무엇을, 누가, 왜, 어떻게”에 대한 공유된 이해가 필요합니다.
+
+즉, 이러한 디지털 혁신과 문화적 혁신을 위해 아틀라시안의 플랫폼이 그 어느때보다 중요한 이유가 바로 이것임을 다시 한번 느낄 수 있는 이야기였습니다.
+
+### 아틀라시안의 새로운 제품 #1 : Atlas
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODMzODA2OF19
+eyJoaXN0b3J5IjpbLTM2NDI4MTg3OCwtMzc4MzM4MDY4XX0=
 -->
