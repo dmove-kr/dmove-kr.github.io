@@ -40,7 +40,8 @@ Scott은 모든 기업은 각자의 고유한 문화와 업무 방식을 갖고 
 즉, 이러한 디지털 혁신과 문화적 혁신을 위해 아틀라시안의 플랫폼이 그 어느때보다 중요한 이유가 바로 이것임을 다시 한번 느낄 수 있는 이야기였습니다.
 
 ### 아틀라시안의 새로운 제품 #1 : Atlas
+![enter image description here](blob:https://dmove-temp.atlassian.net/fa04bfeb-90f9-44ee-9fff-c8b7b967b230#media-blob-url=true&id=19ac77a4-34bb-4454-8a29-b3f1b97ef223&collection=contentId-1835053&contextId=1835053&mimeType=image/png&name=image-20220413-061457.png&size=1427494&height=978&width=2022&alt=)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDI4MTg3OCwtMzc4MzM4MDY4XX0=
+eyJoaXN0b3J5IjpbMTQxMDAwOTk2OCwtMzc4MzM4MDY4XX0=
 -->
