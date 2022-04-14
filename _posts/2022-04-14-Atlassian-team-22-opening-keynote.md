@@ -1,3 +1,5 @@
+![Team '22 banner](/assets/images/blog/Team '22 banner.png)
+
 안녕하세요, 디무브 입니다! 🎈
 
 지난 4월5일부터 7일까지 아틀라시안의 가장 큰 대고객 컨퍼런스인 “Atlassian Team '22”가 지난 4월5일부터 7일까지 라스베가스에서 개최되었습니다.
@@ -123,6 +125,6 @@ Atlassian Analytics는 Atlassian Data Lake와 원활하게 연결되고 사용�
 감사합니다.😃 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQ1MTIxMDEsMjAwNzIwMTI3MSwxND
-EwMDA5OTY4LC0zNzgzMzgwNjhdfQ==
+eyJoaXN0b3J5IjpbMTcyMDQ0MTgyNSwtMTU1NDUxMjEwMSwyMD
+A3MjAxMjcxLDE0MTAwMDk5NjgsLTM3ODMzODA2OF19
 -->
