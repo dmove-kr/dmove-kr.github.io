@@ -3,7 +3,7 @@ layout: post
 title: 2021 ITSM 가트너 매직쿼드런트 - Atlassian, 유일한 "Visionary"로 선정
 Subtitle: 2021 Gartner Magic Quadrant for IT Service Management Tools
 date: 2021-10-27
-categories: [Atlassian Solutions]
+categories: [Inside Atlassian]
 tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드, Jira Service MAnagement, Gartner, ITSM, IT서비스관리, Magic Quadrant, 매직쿼드런트]
 ---
 

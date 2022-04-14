@@ -3,7 +3,7 @@ layout: post
 title: 새로운 Zabbix 5.4 버전을 만나보세요!
 subtitle: Zabbix5.4
 date: 2021-06-29
-categories: [Zabbix]
+categories: [Release Note]
 Author: Jackson
 tags: [Dmove, Zabbix,zabbix5.4,자빅스]
 ---

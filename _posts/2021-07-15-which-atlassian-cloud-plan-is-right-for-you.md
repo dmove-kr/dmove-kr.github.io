@@ -3,7 +3,7 @@ layout: post
 title: 우리 조직에게 가장 적합한 Atlassian 클라우드 플랜은 무엇일까?
 Subtitle: Atlassian Cloud Plan 
 date: 2021-07-15
-categories: [Atlassian Solutions]
+categories: [Atlassian Cloud]
 tags: [Atlassian, Atlassian Cloud, Cloud Migration, 아틀라시안, 아틀라시안클라우드, Jira Cloud, Confluence Cloud]
 ---
 

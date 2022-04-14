@@ -3,7 +3,7 @@ layout: post
 title: Atlassian Team '21 - 아틀라시안 클라우드에 대한 15가지 질문
 subtitle: Atlassian Cloud FAQ
 date: 2021-05-17
-categories: [Atlassian Solutions]
+categories: [Atlassian Cloud]
 tags: [Atlassian Team 21, Atlassian, Jira, Confluence, Cloud Migration, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드]
 ---
 

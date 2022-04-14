@@ -3,7 +3,7 @@ layout: post
 title:  Jscrambler, 스펙터 취약점에 대응하기 위한 메모리 보호 솔루션
 subtitle:  Jscreambler를 통한 메모리 보호
 date:   2021-04-15
-categories: [Jscrambler]
+categories: [Security]
 tags: [Jscrambler, Spector, Memory Protect, Security, 스펙터공격]
 ---
 

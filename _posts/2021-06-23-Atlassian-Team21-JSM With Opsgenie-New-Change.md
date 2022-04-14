@@ -3,7 +3,7 @@ layout: post
 title: Atlassian Team '21 - Jira Service Management와 Opsgenie의 새로운 변화 
 subtitle: Atlassian Team 21
 date: 2021-06-23
-categories: [Atlassian Solutions]
+categories: [Inside Atlassian]
 Author: Jackson
 tags: [Atlassian, Jira Service Management, JSM, Opsgenie, 아틀라시안, 옵스지니, ITSM]
 

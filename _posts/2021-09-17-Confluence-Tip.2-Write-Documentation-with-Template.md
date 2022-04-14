@@ -3,7 +3,7 @@ layout: post
 title: Confluence 활용 Tip.2 - 페이지 템플릿을 통한 효과적인 문서 작성
 Subtitle: Confluence의 프로젝트 관리 with 템플릿
 date: 2021-09-17
-categories: [Atlassian Solutions]
+categories: [How To]
 tags: [Atlassian, 아틀라시안, Confluence, 컨플루언스, 프로젝트관리, Confluence 활용, KMS, 문서관리, 협업솔루션, 협업도구]
 
 ---

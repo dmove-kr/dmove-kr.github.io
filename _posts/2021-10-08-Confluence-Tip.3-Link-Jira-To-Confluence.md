@@ -3,7 +3,7 @@ layout: post
 title: Confluence 활용 Tip.3 - Jira 이슈와 Confluence 페이지 연결
 Subtitle: Confluence 페이지와 Jira 이슈 페이지 연결
 date: 2021-10-08
-categories: [Atlassian Solutions]
+categories: [How To]
 tags: [Atlassian, 아틀라시안, Confluence, 컨플루언스, 프로젝트관리, Confluence 활용, KMS, 문서관리, 협업솔루션, 협업도구, 지라, Jira]
 
 ---

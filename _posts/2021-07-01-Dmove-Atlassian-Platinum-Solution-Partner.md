@@ -2,7 +2,7 @@
 layout: post
 title: 디무브가 아틀라시안 파트너 최고 등급인 ‘플래티넘 솔루션 파트너’가 되었습니다!
 date: 2021-07-01
-categories: [News and Events]
+categories: [Company News]
 tags: [Atlassian, Atlassian Partner, Platinum Solution Partner,아틀라시안파트너,플래티넘솔루션파트너,아틀라시안플래티넘파트너,디무브]
 ---
 

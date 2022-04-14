@@ -3,7 +3,7 @@ layout: post
 title: 2021년 10월 아틀라시안 클라우드 가격 인상 안내
 Subtitle: October 21' Cloud Pricing Changes
 date: 2021-09-24
-categories: [Atlassian Solutions]
+categories: [Company News]
 tags: [Atlassian, 아틀라시안, 클라우드, Atlassian Cloud, Jira, Confluence, Jira Service Management, Atlassian Access, 협업툴]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: DevOps로 나아가기 위한 4가지 주요 방법
 Subtitle: 4 key ways to step up your DevOps game 
 date: 2021-09-23
-categories: [Atlassian Solutions]
+categories: [How To]
 tags: [Atlassian, 아틀라시안, DevOps, DevSecOps, Jira, Bitbucket, 개발자, Agile]
 ---
 

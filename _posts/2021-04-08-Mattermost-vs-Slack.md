@@ -3,7 +3,7 @@ layout: post
 title:  기업용 메신저 비교 분석 - Mattermost vs Slack
 subtitle:  Mattermost vs Slack
 date:   2021-04-08 12:00:00
-categories: [Mattermost]
+categories: [Case Study]
 tags: [Atlassian, Messenger, Mattermost, Slack, 업무용메신저]
 ---
 

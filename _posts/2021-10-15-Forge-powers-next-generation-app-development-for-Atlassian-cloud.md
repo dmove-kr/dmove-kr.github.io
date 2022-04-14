@@ -3,7 +3,7 @@ layout: post
 title: Atlassian 클라우드 차세대 앱 개발 플랫폼 Forge를 소개합니다. 
 Subtitle: Forge for altassian cloud app development
 date: 2021-10-15
-categories: [Atlassian Solutions]
+categories: [Atlassian Cloud]
 tags: [Atlassian, 아틀라시안, Cloud, 클라우드, Forge, Jira, Confluence, DevOps, Altassian Cloud, Atlassian Marketplace, 아틀라시안마켓플레이스 ]
 ---
 

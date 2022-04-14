@@ -3,7 +3,7 @@ layout: post
 title: 보안 담당자가 DevSecOps에 주목해야 하는 이유
 Subtitle: Shift left on DevSecOps with Atlassian Data Center
 date: 2021-12-13
-categories: [IT Trend]
+categories: [Inside Atlassian]
 tags: [Atlassian, 아틀라시안, DevOps, DevSecOps, 아틀라시안 데이터센터, Data Center, 데브옵스, 데브섹옵스, SecOps, 디무브, Dmove]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: 2021 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Apr) - Cloud
 subtitle: Atlassian Release Note
 date: 2021-05-06 16:48:00
-categories: [Atlassian Release Note]
+categories: [Release Note]
 tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, Atlassian, 아틀라시안, 아틀라시안클라우드]
 ---
 

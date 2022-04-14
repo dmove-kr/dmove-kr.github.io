@@ -4,7 +4,7 @@ layout: post
 title: 2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Server & Data Center
 Subtitle: Release Note
 date: 2022-03-28
-categories: [Atlassian Release Note]
+categories: [Release Note]
 tags: [Atlassian, Atlassian Data Center, 아틀라시안, 아틀라시안 서버, 데이터 센터, Jira, jira, Jira Server, Data Center, Release, Release Note, Jira Sofrware, Jira Service Management, Confluence,컨플,DevOps, 데브옵스, dev, Dev, 에자일, Agile, Wiki]
 
 ---

@@ -3,7 +3,7 @@ layout: post
 title: 클라우드 시대에 특화된 원격 근무의 장점과 효과
 Subtitle: Benefits of remote work in the cloud
 date: 2021-08-27
-categories: [IT Trend]
+categories: [Inside Atlassian]
 tags: [Atlassian, 아틀라시안, 협업솔루션, 협업툴, 아틀라시안클라우드, 원격근무, 재택근무, Atlassian Cloud, Remote Work, Working Culture, New Normal]
 ---
 

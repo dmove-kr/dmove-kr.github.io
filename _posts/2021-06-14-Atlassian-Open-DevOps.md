@@ -2,7 +2,7 @@
 layout: post
 title: Atlassian의 DevOps 접근 방식, Open DevOps
 date: 2021-06-15
-categories: [Atlassian Solutions]
+categories: [Atlassian Cloud]
 tags: [Atlassian, Jira, Confluence, Bitbucket, Opsgenie, Atlassian Cloud, OpenDevOps, DevOps, 오픈데브옵스, 데브옵스, 아틀라시안, 아틀라시안클라우드, 지라, 컨플루언스]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: 웨비나 생생후기 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제
 Subtitle: Identity and Access Management in Cloud with Atlassian and Okta
 date: 2021-12-20
-categories: [News and Events]
+categories: [Webinars]
 tags: [Atlassian, 아틀라시안, 옥타, Okta, IAM, SSO, IDaaS, 클라우드계정관리, 제로트러스트, Zerotrust, 클라우드보안, Cloud, ID Management, TalkIT, 토크아이티]
 ---
 

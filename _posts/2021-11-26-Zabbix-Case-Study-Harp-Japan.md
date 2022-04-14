@@ -3,7 +3,7 @@ layout: post
 title: Zabbix Case Study - Harp 구축 사례
 Subtitle: Zabbix Case Study
 date: 2021-11-26
-categories: [Zabbix]
+categories: [Case Study]
 tags: [Dmove, Zabbix,자빅스, 모니터링솔루션, 모니터링툴, 자빅스 구축, Case Study, Harp, Zabbix]
 
 ---

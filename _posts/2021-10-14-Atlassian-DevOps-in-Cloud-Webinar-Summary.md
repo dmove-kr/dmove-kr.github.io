@@ -3,7 +3,7 @@ layout: post
 title: 웨비나 생생후기 - 클라우드 환경에서의 성공적인 DevOps 도입
 Subtitle: Atlassian Open DevOps in Cloud
 date: 2021-10-14
-categories: [News and Events]
+categories: [Webinars]
 tags: [Atlassian, 아틀라시안, DevOps, OpenDevOps, 데브옵스, Bitbucket, Jira, Confluence, Opsgenie, CICD, 빌드배포, 애자일, Agile, 토크아이티]
 ---
 

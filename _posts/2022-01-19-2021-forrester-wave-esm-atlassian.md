@@ -3,7 +3,7 @@ layout: post
 title: 아틀라시안, 포레스터 웨이브 "엔터프라이즈 서비스 분야" 리더로 선정
 Subtitle: Atlassian named a Leader in Enterprise Service Management
 date: 2022-01-19
-categories: [IT Trend]
+categories: [Inside Atlassian]
 tags: [Atlassian, 아틀라시안, Forrester, Enterpriseservicemanagement, ESM, 포레스터, Jiraservicemanagement,JSM, ITSM, 디무브, Dmove]
 ---
 

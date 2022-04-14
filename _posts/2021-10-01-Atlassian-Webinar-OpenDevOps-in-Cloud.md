@@ -3,7 +3,7 @@ layout: post
 title: 2021년 10월 아틀라시안 웨비나 안내 - 클라우드 환경에서의 성공적인 DevOps 도입
 Subtitle: Atlassian Open DevOps in Cloud
 date: 2021-10-01
-categories: [News and Events]
+categories: [Webinars]
 tags: [Atlassian, 아틀라시안, DevOps, OpenDevOps, 데브옵스, Bitbucket, Jira, Confluence, Opsgenie, CICD, 빌드배포, 애자일, Agile]
 ---
 
