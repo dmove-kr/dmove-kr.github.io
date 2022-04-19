@@ -128,6 +128,8 @@ Trello는 아시다시피 많은 사람들에게 사랑받는 무료 애플리�
 
 개인용으로도 매우 탁월하며 전 세계적으로 약 100만 명이 Trello를 사용하고 있습니다.
 
+<br/> 
+
 Trello는 엔터프라이즈급의 규모에서도 매우 강력하게 작용한다고 Erika는 말하였습니다.
 
 예로, 미국 특수부대에서도 Trello를 사용하고 있는데, Trello가 굉장히 간단하고 사용자 친화적이어서
@@ -137,7 +139,33 @@ Trello는 엔터프라이즈급의 규모에서도 매우 강력하게 작용한
 최근에는 Keynote Planning이라는 새로운 기능이 추가되어
 
 업무 작업과 일상 생활 작업을 모두 구성할 수 있는 달력 형식을 제공합니다.
+
+<br/> 
+
+### Jira Work Management for Everyone
+
+![keynote](/assets/images/blog/Erika_04.png)
+
+모두가 알다시피 Jira는 소프트웨어 개발팀을 위한 훌륭한 협업 도구이지만,
+
+개발이나 IT직군이 아닌 모든 유형의 팀에게 매우 유용합니다.
+
+디무브의 경영지원팀과 영업 및 마케팅팀도 지라를 사용하여 작업을 정리하고 진행 상황을 추적하며
+
+업무 관리에 매우 큰 효과를 톡톡히 느끼고 있는데요.
+
+이미 Jira를 사용하는 모든 사용자는 새로운 Jira Work Management를
+
+무료로 사용할 수 있다는 사실을 알고 계셨나요?
+
+Jira Work Management에는 모든 유형의 팀이 활용할 수 있는 훌륭한 기능들이 포함되어 있습니다.
+
+-   **리스트(List)**: 목록 형식으로 작업을 확인하고, 우선 순위별로 정렬할 수 있습니다. 작업에 할당된 사람과 진행 상황을 확인하고 모든 변경 사항을 실시간으로 추적할 수 있습니다.
+    
+-   **타임라인(Timeline):** 타임라인 형태로 프로젝트를 보면 진행 상황을 보다 쉽게 ​​추적하고 미래를 예측하는 데 도움이 됩니다. 타임라인에 맞게 작업을 시각화 하는 것은 팀의 작업을 한눈에 볼 수 있는 좋은 방법입니다.
+    
+-   **보드(Board):** 보드 보기는 현재 프로젝트의 모든 작업이 어떤 작업 단계에 있는지 명확하게 보는 데 도움이 되고 관리에 매우 용이합니다. 또한 칸반 보드 사용을 포함하기 때문에 Agile 및 Scrum 방법론과 작업을 연결할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE2MTU2OTksLTQzODI3NDc4MSwzMz
-M3NTcyNTUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNzQxNjM5NTc4LC00MzgyNzQ3ODEsMzMzNz
+U3MjU1LC0yMDg4NzQ2NjEyXX0=
 -->
