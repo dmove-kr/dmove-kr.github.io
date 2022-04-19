@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Atlassian Team '22 - "Work differently, together: A new vision for Work Management" 
-Subtitle: Culture eats strategy for breakfast
+Subtitle: Atlassian Open Work Management
 date: 2022-04-19
 categories: [Inside Atlassian]
 tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere, Scottfarquhar, Lasvegas, 아틀라시안컨퍼런스, Jiraworkmanagement, atlas, Trello, team22keynote, 아틀라스, 트렐로]
@@ -9,7 +9,7 @@ tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere, Scottf
 ---
 
 
-![Team '22 banner](/assets/images/blog/Joff_01r.png)
+![Team '22 banner](/assets/images/blog/Joff_01.png)
 
 안녕하세요, 디무브 입니다! 🎈
 
