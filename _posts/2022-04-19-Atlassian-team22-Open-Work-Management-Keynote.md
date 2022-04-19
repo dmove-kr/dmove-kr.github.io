@@ -86,7 +86,13 @@ Atlas는 모든 팀에 홈페이지를 제공하여 우리가 하는 일, 하는
 ### Atlassian’s Open Work Management
 
 ![keynote](/assets/images/blog/Erika_01.png)
+
+이어서 아틀라시안의 VP of Product인 Erika Trautman이 등장하였는데요.
+
+> “코로나 팬데믹으로 인해 업무의 디지털화는 최고 수준으로 가속되었고 사람들은 팬데믹 혼란 속에서 계속해서 일하기 위해 필요한 모든 도구를 채택하였습니다. 이러한 현상은 우리를, 그리고 조직을 지켜주었지만 업무적 혼란 또한 매우 빠르게 커져나갔습니다.” Erika Trautam (VP of Products, Atlassian)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTE5Mzk0OSwtNDM4Mjc0NzgxLDMzMz
-c1NzI1NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTY0NzQ1NzU3LC00MzgyNzQ3ODEsMzMzNz
+U3MjU1LC0yMDg4NzQ2NjEyXX0=
 -->
