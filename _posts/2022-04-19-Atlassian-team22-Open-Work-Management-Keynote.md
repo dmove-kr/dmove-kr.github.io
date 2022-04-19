@@ -89,10 +89,27 @@ Atlas는 모든 팀에 홈페이지를 제공하여 우리가 하는 일, 하는
 
 이어서 아틀라시안의 VP of Product인 Erika Trautman이 등장하였는데요.
 
-> “코로나 팬데믹으로 인해 업무의 디지털화는 최고 수준으로 가속되었고 사람들은 팬데믹 혼란 속에서 계속해서 일하기 위해 필요한 모든 도구를 채택하였습니다. 이러한 현상은 우리를, 그리고 조직을 지켜주었지만 업무적 혼란 또한 매우 빠르게 커져나갔습니다.” Erika Trautam (VP of Products, Atlassian)
+Erika는 다음과 같이 말하며 세션을 이어갔습니다. 
+
+> “코로나 팬데믹으로 인해 업무의 디지털화는 최고 수준으로 가속되었고 사람들은 팬데믹 혼란 속에서 계속해서 일하기 위해 필요한 모든 도구를 채택하였습니다. 이러한 현상은 우리를, 그리고 조직을 지켜주었지만 업무적 혼란 또한 매우 빠르게 커져나갔습니다.” - Erika Trautam (VP of Products, Atlassian)
+
+### Confluence Cloud : New Features
+
+![keynote](/assets/images/blog/Erika_02.png)
+
+Erika는 Confluence Cloud에 포함될 매우 매력적인 새로운 기능을 공유하며, 아틀라시안이 제공하는 업무 관리 및 협업 도구의 끊임없는 혁신을 증명하였습니다.
+
+-   테이블 데이터를 맞춤형 차트로 변환하는 데이터 시각화 기능
+    
+-   공유된 Confluence 페이지 내 인터렉티브 프레젠테이션 모드
+    
+-   Automation 기능: Automation은 Trigger, Condition 및 Action의 세가지 필수 요소를 기반으로 반복적인 작업을 자동화하여 작업 흐름을 촉진하고 Jira와 동기화 할 수 있도록 지원
+    
+-   Microsoft Teams와의 통합으로 Teams 내에서 페이지 생성
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzQ1NzU3LC00MzgyNzQ3ODEsMzMzNz
-U3MjU1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEyMzI2NzU0NjksLTQzODI3NDc4MSwzMz
+M3NTcyNTUsLTIwODg3NDY2MTJdfQ==
 -->
