@@ -203,8 +203,8 @@ Jira Work Management에는 모든 유형의 팀이 활용할 수 있는 훌륭�
 
 디무브 블로그에 올라올 새로운 이야기들을 기대해주세요!
 
-감사합니다. 
+감사합니다. .😃
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzY2NjI4MSwtNDM4Mjc0NzgxLDMzMz
-c1NzI1NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE3MzgzODg1MzUsLTY1NzY2NjI4MSwtND
+M4Mjc0NzgxLDMzMzc1NzI1NSwtMjA4ODc0NjYxMl19
 -->
