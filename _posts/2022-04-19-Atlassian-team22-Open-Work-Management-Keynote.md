@@ -47,7 +47,7 @@ Scott이 앞선 키노트에서 강조했듯이,
 
 ---
 
-### **Work Differently, Together with Atlas**
+### Work Differently, Together with Atlas
 
 ![keynote](/assets/images/blog/Joff_02.png)
 
@@ -57,7 +57,7 @@ Joff는 Atlas를 사용하면 팀이 무엇을 하고 있고 어떻게 진행되
 
 Atlas가 제공하는 4가지의 주요 이점과 특징은 다음과 같습니다.
 
-<ㅠㄱ
+<br/> 
 
 1.  **중복 작업 제거** : Asana, Trello 또는 Jira Work Management와 같은 작업 관리 도구와 연결합니다.
     
@@ -69,7 +69,24 @@ Atlas가 제공하는 4가지의 주요 이점과 특징은 다음과 같습니�
     
 5.  **팀 디렉터리** : Atlas는 단순한 조직도를 넘어서, 어떤 팀이 어떤 작업을 하고있는지에 대한 개요를 제공합니다. 모든 팀원은 자신이 하고있는 일, 달성한 성과, 업무 방식 등에 대한 실시간 정보와 함께 고유한 프로필을 보유하게 됩니다. 모든 프로필은 Confluence 및 Jira Cloud 와 동기화 됩니다.
 
+<br/> 
+
+![keynote](/assets/images/blog/Joff_03.png)
+
+마치 우리가 카약을 탈때 혼자서는 금새 노를 저어 방향을 잡을 수 있지만
+
+사람이 많으면 많아질 수록 동시에 패들을 움직이고 같은 방향으로 나아가기 더 어려운 것처럼,
+
+Atlas는 모든 팀에 홈페이지를 제공하여 우리가 하는 일, 하는 이유, 성공이 어떤 것인지 알 수 있도록하여,
+
+공유된 이해로부터 시작된 진정한 협업을 지원합니다.
+
+---
+
+### Atlassian’s Open Work Management
+
+![keynote](/assets/images/blog/Erika_01.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjUyMzE1NiwtNDM4Mjc0NzgxLDMzMz
+eyJoaXN0b3J5IjpbMjA4MTE5Mzk0OSwtNDM4Mjc0NzgxLDMzMz
 c1NzI1NSwtMjA4ODc0NjYxMl19
 -->
