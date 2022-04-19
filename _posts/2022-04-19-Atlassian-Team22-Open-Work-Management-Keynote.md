@@ -124,7 +124,9 @@ Erika는 다음과 같이 말하며 세션을 이어갔습니다.
 
 ![keynote](/assets/images/blog/Erika_02.png)
 
-Erika는 Confluence Cloud에 포함될 매우 매력적인 새로운 기능을 공유하며, 아틀라시안이 제공하는 업무 관리 및 협업 도구의 끊임없는 혁신을 증명하였습니다.
+Erika는 Confluence Cloud에 포함될 매우 매력적인 새로운 기능을 공유하며, 
+
+아틀라시안이 제공하는 업무 관리 및 협업 도구의 끊임없는 혁신을 증명하였습니다.
 
 <br/> 
 
