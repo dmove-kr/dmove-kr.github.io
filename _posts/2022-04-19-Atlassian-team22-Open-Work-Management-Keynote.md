@@ -90,14 +90,19 @@ Atlas는 모든 팀에 홈페이지를 제공하여 우리가 하는 일, 하는
 이어서 아틀라시안의 VP of Product인 Erika Trautman이 등장하였는데요.
 
 Erika는 다음과 같이 말하며 세션을 이어갔습니다. 
+<br/> 
 
 > “코로나 팬데믹으로 인해 업무의 디지털화는 최고 수준으로 가속되었고 사람들은 팬데믹 혼란 속에서 계속해서 일하기 위해 필요한 모든 도구를 채택하였습니다. 이러한 현상은 우리를, 그리고 조직을 지켜주었지만 업무적 혼란 또한 매우 빠르게 커져나갔습니다.” - Erika Trautam (VP of Products, Atlassian)
+
+<br/> 
 
 ### Confluence Cloud : New Features
 
 ![keynote](/assets/images/blog/Erika_02.png)
 
 Erika는 Confluence Cloud에 포함될 매우 매력적인 새로운 기능을 공유하며, 아틀라시안이 제공하는 업무 관리 및 협업 도구의 끊임없는 혁신을 증명하였습니다.
+
+<br/> 
 
 -   테이블 데이터를 맞춤형 차트로 변환하는 데이터 시각화 기능
     
@@ -107,9 +112,32 @@ Erika는 Confluence Cloud에 포함될 매우 매력적인 새로운 기능을 �
     
 -   Microsoft Teams와의 통합으로 Teams 내에서 페이지 생성
 
+<br/> 
 
+### Trello Enterprise
 
+![keynote](/assets/images/blog/Erika_03.png)
+
+Erika는 HR, 마케팅 또는 법무 부서와 같은 비즈니스 조직이 강력한 작업 관리 도구인 
+
+Trello를 사용하였을 때의 이점이 무엇인지에 대한 통찰력 또한 제공하였습니다.
+
+Trello는 아시다시피 많은 사람들에게 사랑받는 무료 애플리케이션인데요.
+
+팀워크를 위해 설계된 도구이지만 다양한 기능으로 인해
+
+개인용으로도 매우 탁월하며 전 세계적으로 약 100만 명이 Trello를 사용하고 있습니다.
+
+Trello는 엔터프라이즈급의 규모에서도 매우 강력하게 작용한다고 Erika는 말하였습니다.
+
+예로, 미국 특수부대에서도 Trello를 사용하고 있는데, Trello가 굉장히 간단하고 사용자 친화적이어서
+
+신입 대원에게 굳이 교육할 필요가 없기 때문입니다.
+
+최근에는 Keynote Planning이라는 새로운 기능이 추가되어
+
+업무 작업과 일상 생활 작업을 모두 구성할 수 있는 달력 형식을 제공합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzI2NzU0NjksLTQzODI3NDc4MSwzMz
+eyJoaXN0b3J5IjpbLTIwODE2MTU2OTksLTQzODI3NDc4MSwzMz
 M3NTcyNTUsLTIwODg3NDY2MTJdfQ==
 -->
