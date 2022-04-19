@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Atlassian Team '22 - "Work differently, together! A new vision for Work Management" 
+title: Atlassian Team '22 - Work Management 키노트 "Work differently, together" 
 Subtitle: Atlassian Open Work Management
 date: 2022-04-19
 categories: [Inside Atlassian]
