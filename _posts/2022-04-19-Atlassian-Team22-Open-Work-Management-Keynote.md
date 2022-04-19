@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Atlassian Team '22 - "Work differently, together: A new vision for Work Management" 
 Subtitle: Culture eats strategy for breakfast
