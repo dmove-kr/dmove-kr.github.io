@@ -12,7 +12,7 @@ tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere, Scottf
 
 ![Atlas banner](/assets/images/banners/Intro-Atlas/Main.png)
 
-안녕하세요, 디무브 입니다!
+안녕하세요, 디무브 입니다! 🎈
 
  이번 라스베가스에서 열린 Atalssian Team 22의 오프닝 키노트에서 
 
