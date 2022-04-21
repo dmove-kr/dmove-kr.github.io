@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 아틀라시안의 새로운 제품 Compass를 소개합니다!
+title: 소프트웨어팀을 위한 아틀라시안의 새로운 제품 'Compass'를 소개합니다!
 Subtitle: Introducing Compass - mission control for building software better
 date: 2022-04-21
 categories: [Atlassian Cloud]
@@ -12,7 +12,7 @@ tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere,  Lasve
 
 ![Atlas banner](/assets/images/banners/Intro-Compass/Main.png)
 
-안녕하세요, 디무브 입니다!
+안녕하세요, 디무브 입니다! 🎈
 
 이번 2022년 4월, 라스베이거스에서 개최된 Atalssian Team 22에서 Atlassian의 새로운 제품인 Compass가 공개되었습니다. 
 
