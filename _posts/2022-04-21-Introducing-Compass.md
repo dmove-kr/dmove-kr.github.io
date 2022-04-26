@@ -1,12 +1,10 @@
 ---
-
 layout: post
 title: 소프트웨어팀을 위한 아틀라시안의 새로운 제품 'Compass'를 소개합니다!
 Subtitle: Introducing Compass - mission control for building software better
 date: 2022-04-21
-categories: [Atlassian Cloud]
+categories: [Inside Atlassian]
 tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere,  Lasvegas, 아틀라시안컨퍼런스, postcovid, compass, atlassiananlytics, team22keynote, 컴파스]
-
 ---
 
 
