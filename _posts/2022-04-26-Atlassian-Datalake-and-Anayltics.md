@@ -72,7 +72,8 @@ Atlassian Data Lake는 통찰력 있는 의사 결정의 속도를 높이기 위
 예를 들어 Snowflake의 수익 증가를 Jira Software의 엔지니어링 배포물과 연계하여 새로운 기능이 수익 성장에 미치는 영향을 시각화하는 보고서를 생성할 수 있습니다.
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyOTUxNzkwLC04NzI2NDAyODQsLTEwND
-UzOTU5NzhdfQ==
+eyJoaXN0b3J5IjpbOTI0MTQzNjQsLTg3MjY0MDI4NCwtMTA0NT
+M5NTk3OF19
 -->
