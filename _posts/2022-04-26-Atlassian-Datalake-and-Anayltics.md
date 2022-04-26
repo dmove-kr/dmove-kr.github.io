@@ -51,7 +51,20 @@ Atlassian Data Lake는 통찰력 있는 의사 결정의 속도를 높이기 위
 
 다음은 Atlassian Analytics가 Data Lake를 활용하여 팀에게 통찰력을 제공하는 몇 가지 방법에 관해 알아보겠습니다.
 
+- **실시간 업데이트 대시보드**  
+프로젝트 또는 제품 간의 워크플로우 개요 및 메트릭 대시보드를 사용하여 조직의 리더는 제품 출시까지 걸리는 시간, 병목 현상, 차단 요소 등 다양한 흐름 전반에 걸쳐 팀 부하에 대한 가시성을 얻을 수 있고 더 깊은 통찰력을 얻기 위해 프로젝트 수준의 데이터를 찾아볼 수 있습니다.
+
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/320633b5-718c-4be2-b12a-65855309d2f6.png)
+
+-   **SQL 시각화**  
+    사용자는 Atlassian Data Lake에서 직접 SQL 쿼리를 실행시켜 대시보드와 차트를 커스터마이징 할 수 있습니다.
+    
+
+-   **Visual SQL을 사용한 코드 없는 시각화**
+    
+    이는 SQL을 사용하지 않고 보고서를 빠르게 작성하려는 팀과 코드 없이 데이터를 탐색하고 차트를 만드는 팀을 위한 방법으로 팀은 Jira Software에서 할당된 이슈와 버그에 대한 데이터를 가져와 Jira Service Management의 요청이나 인시던트를 시각화하여 업무의 중요도 및 우선 순위를 매길 수 있습니다.  
+    또한 원하는 유형의 차트로 이 데이터를 시각화 할 수 있으며, 차트에 직접 댓글을 달아 적절한 사람들을 대화에 참여시킬 수 있어 신속하게 의사결정을 내릴 수 있습니다. 또한 스냅샷 버튼을 사용하여 팀은 전 주의 차트와 현재 차트를 비교할 수 있습니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDUzOTU5NzhdfQ==
+eyJoaXN0b3J5IjpbLTMyNDkxMTgwOCwtMTA0NTM5NTk3OF19
 -->
