@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 데이터 중심의 통찰력을 높여주는 'Atlassian Data Lake & Atlassian Analytics'
+title: 데이터 중심의 통찰력을 높여주는 아틀라시안의 신규 기능 'Atlassian Data Lake & Atlassian Analytics'를 소개합니다.
 Subtitle: Help teams see the big picture in their work.
 date: 2022-04-26
 categories: [Inside Atlassian]
