@@ -34,7 +34,7 @@ Team' 22 행사에서 새롭게 제시한 데이터 시각화 기능에 대해�
 
 그 결과 Atlassian Data Lake가 도입되었습니다.
 
-Atlassian Data Lake는 통찰력 있는 의사 결정의 속도를 높이기 위해 사전 모델링을 통하여 교차 제품 및 교차 인스턴스 데이터를 손쉽게 분석할 수 있고 신뢰할 수 있는 엔터프라이즈급 아틀라시안 플랫폼 기반으로 구축되어 있기 때문에 개인 정보를 안전하게 보호함과 동시에 보안을 보장합니다.
+Atlassian Data Lake는 통찰력 있는 의사 결정의 속도를 높이기 위해 사전 모델링을 통하여 **교차 제품 및 교차 인스턴스 데이터**를 손쉽게 분석할 수 있고 신뢰할 수 있는 엔터프라이즈급 아틀라시안 플랫폼 기반으로 구축되어 있기 때문에 개인 정보를 안전하게 보호함과 동시에 보안을 보장합니다.
 
 서비스 도입 초기 Atlassian Data Lake는 Jira Software 및 Jira Service Management의 데이터만 포함되어 있었지만 현재는 모든 아틀라시안 제품의 데이터를 Data Lake에 포함시키기 위해 노력하고 있습니다.
 
@@ -50,5 +50,5 @@ Atlassian Analytics가 Data Lake를 활용하여 팀에게 통찰력을 제공�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjUwODM1OV19
+eyJoaXN0b3J5IjpbMTY1ODE4NjQ4OV19
 -->
