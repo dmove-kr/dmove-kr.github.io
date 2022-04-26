@@ -1,3 +1,5 @@
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/image-20220309-183113-1536x747.png)
+
 안녕하세요, 디무브 입니다! 🎈
 
 지난 4월 6일, 라스베가스에서 Atlassian Team '22가 약 3년만에 대면 이벤트로 전세계 고객들과 파트너들을 맞이하였습니다.
@@ -36,11 +38,17 @@ Atlassian Data Lake는 통찰력 있는 의사 결정의 속도를 높이기 위
 
 서비스 도입 초기 Atlassian Data Lake는 Jira Software 및 Jira Service Management의 데이터만 포함되어 있었지만 현재는 모든 아틀라시안 제품의 데이터를 Data Lake에 포함시키기 위해 노력하고 있습니다.
 
+
+
 ## **Atlassian Analytics: SQL 또는 코드 없이 데이터에 액세스하고 데이터를 시각화하는 손쉬운 방법**
 
 모든 팀은 고유한 작업 방식을 가지고 있으며 아틀라시안 제품은 이러한 팀의 특성을 증대시킬 수 있는 엄청난 유연성을 제공합니다.
 
 마찬가지로 Atlassian Data Lake의 데이터 액세스 접근 방법 또한 팀의 특성을 증대시킬 수 있도록 하기 위해 작년에 인수한 클라우드 기반 시각화 분석 솔루션인 Chartio의 기술을 사용하여 사용자가 다양한 방식으로 데이터에 액세스할 수 있도록 Atlassian Analytics를 구축했습니다.
+
+Atlassian Analytics가 Data Lake를 활용하여 팀에게 통찰력을 제공하는 몇 가지 방법에 관해 알아보겠습니다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjYxNzg5M119
+eyJoaXN0b3J5IjpbLTM2NjUwODM1OV19
 -->
