@@ -72,8 +72,32 @@ Atlassian Data Lake는 통찰력 있는 의사 결정의 속도를 높이기 위
 예를 들어 Snowflake의 수익 증가를 Jira Software의 엔지니어링 배포물과 연계하여 새로운 기능이 수익 성장에 미치는 영향을 시각화하는 보고서를 생성할 수 있습니다.
 
 
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/0119c93d-29dd-417e-85a4-1ea23945cb9f.png)
 
+-   **외부 BI(비즈니스 인텔리전스) 툴에 직접 연결되는 기능**  
+    많은 팀은 Tableau 또는 Microsoft Power BI와 같이 자신이 선호하는 BI 도구를 계속 사용하기를 원합니다.곧 Atlassian Data Lake를 통해 다른 BI 도구에 연결할 수 있는 기능을 제공할 예정입니다.
+    
+
+-   **사용방법**  
+    Atlassian Analytics 및 Data Lake는 현재 클라우드 엔터프라이즈 에디션의 Jira Software 또는 Jira Service Management를 사용하는 고객에 한정하여 Early Access 프로그램(EAP)을 통해 제공되고 있습니다.
+
+
+모든 팀이 속도 향상 방법에 대한 맞춤형 권장 사항을 얻고 모든 리더가 전반적인 팀 상태를 개선하는 방법에 대한 통찰력을 얻어 작업을 더 스마트하게 수행하고 팀이 잠재력을 최대한 발휘할 수 있다면 어떨까요?
+
+이것이 아틀라시안의 궁극적인 비전이며, Atlassian Analytics와 Data Lake를 통해 이를 달성할 수 있습니다.
+
+---
+
+이처럼 아틀라시안에 새롭게 도입된 Atlassian Data Lake 및 Atlassian Analytics의 기능에 대해 알아보았는데요.
+
+관련하여 추가적으로 궁금하신 내용이 있으시다면 언제든지 [디무브에 문의](http://dmove.co.kr/contact-us/quote-service-inquiry) 부탁드립니다.
+
+앞으로도 아틀라시안은 팀이 업무를 효율적으로 진행하고 더 나은 의사결정에 신속하게 다다를 수 있도록 계속해서 발전해나갈것임을 약속드립니다.
+
+본 포스팅은 그럼 이만 마치도록 하겠습니다.
+
+감사합니다😀
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0MTQzNjQsLTg3MjY0MDI4NCwtMTA0NT
-M5NTk3OF19
+eyJoaXN0b3J5IjpbLTE0ODYzNzE4MzUsLTg3MjY0MDI4NCwtMT
+A0NTM5NTk3OF19
 -->
