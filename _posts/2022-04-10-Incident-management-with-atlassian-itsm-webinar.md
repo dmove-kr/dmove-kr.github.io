@@ -65,7 +65,7 @@ ITSM(IT Service Management)이란 IT 서비스의 설계, 구축, 제공, 개선
 
 그렇다면 ITIL이란 무엇일까요?
 
-![](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/1-2.png)
+![](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/1-2.PNG)
 
 ITSM에 대해 이야기할 때 ITSM의 토대가 되는 ITIL 이야기도 빼놓을 수 없는데요.
 
@@ -259,7 +259,7 @@ Opsgenie에 장애가 보고되고 나면 IT팀의 인시던트 관리와 마찬
 
 
 
-![](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/7.png)
+![](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/7.PNG)
 
  
 
