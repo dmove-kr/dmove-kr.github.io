@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 웨비나 생생후기_효과적인 인시던트 관리를 위한 ITSM 솔루션_Blog
-Subtitle: Atlassian & Okta Webinar
+title: 웨비나 생생후기 - 효과적인 인시던트 관리를 위한 ITSM 솔루션
+Subtitle: Atlassian Incident Management Webinar
 date: 2022-04-10
 categories: [Webinars]
 tags: [Atlassian, 아틀라시안, 아틀라시안웨비나, Atlassian Cloud, Opsgenie, Jiraservicemanagement, Jira, 옵스지니, 인시던트관리, ITSM, ITservicemanagement, Incidentmanagement, ITIL, DevOps, AllshowTV, 전자신문]
