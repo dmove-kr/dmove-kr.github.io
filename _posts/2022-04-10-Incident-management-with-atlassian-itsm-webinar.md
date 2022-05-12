@@ -49,7 +49,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안웨비나, Atlassian Cloud, Op
 
 
 
-[](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/1-1.png)
+![](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/1-1.png)
 
 ### **ITSM 과 ITIL**
 
@@ -191,7 +191,7 @@ IT팀은 온프레미스, 클라우드, 타사 및 자체 개발을 포함한 �
 
 
 
-![](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/5.png)
+![](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/5.PNG)
 
 IT팀의 인시던트 관리 워크플로우를 살펴보자면 먼저 Jira Service Management를 통해 고객에게
 
@@ -225,7 +225,7 @@ DevOps팀은 그들이 개발한 서비스에 집중하는 팀이기 때문에 �
 
 
 
-![](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/6.png)
+![](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/6.PNG)
 
 이번에는 DevOps팀의 관점에서 인시던트 관리 워크플로우를 살펴보겠습니다.
 
