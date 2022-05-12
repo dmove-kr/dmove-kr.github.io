@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2022년 3월 디무브 웨비나 안내 - 효과적인 인시던트 관리를 위한 아틀라시안 ITSM 솔루션
-Subtitle: Atlassian & Okta Webinar
+Subtitle: Atlassian Incident Management Webinar
 date: 2022-03-22
 categories: [Webinars]
 tags: [Atlassian, 아틀라시안, 아틀라시안웨비나, Atlassian Cloud, Opsgenie, Jiraservicemanagement, Jira, 옵스지니, 인시던트관리, ITSM, ITservicemanagement, Incidentmanagement, ITIL, DevOps, AllshowTV, 전자신문]
