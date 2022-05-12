@@ -7,6 +7,8 @@ categories: [Webinars]
 tags: [Atlassian, 아틀라시안, 아틀라시안웨비나, Atlassian Cloud, Opsgenie, Jiraservicemanagement, Jira, 옵스지니, 인시던트관리, ITSM, ITservicemanagement, Incidentmanagement, ITIL, DevOps, AllshowTV, 전자신문]
 ---
 
+![Title](/assets/images/blog/Title slide_2.png)
+
 안녕하세요, 디무브입니다🎈
 
 지난 3월 29일에 진행된 효과적인 인시던트 관리를 위한 ITSM 솔루션 웨비나가 성황리에 종료되었습니다.
@@ -55,7 +57,7 @@ ITSM의 중요성은 더더욱 커지고 있습니다.
 
 
 
-![](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/1.png)
+[](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/1-1.png)
 
 ### **ITSM 과 ITIL**
 
@@ -65,7 +67,7 @@ ITSM(IT Service Management)이란 IT 서비스의 설계, 구축, 제공, 개선
 
 그렇다면 ITIL이란 무엇일까요?
 
-![](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/1-2.PNG)
+
 
 ITSM에 대해 이야기할 때 ITSM의 토대가 되는 ITIL 이야기도 빼놓을 수 없는데요.
 
@@ -85,7 +87,7 @@ ITIL 버전4 에서는 사일로(Silo) 감소, 조직 커뮤니케이션 증대,
 
 궁극적으로 지속적인 개발과 통합을 토대로 IT 서비스의 속도를 가속화하는데 초점을 맞추고 있는데요.
 
- 
+![Title](/assets/images/blog/incident_1.png) 
 
 오늘날 효율적인 서비스 제공이 IT팀의 핵심 역량으로 자리잡음에 따라 여러 기업들은 ITSM과 DevOps의
 
@@ -99,7 +101,7 @@ ITIL 버전4 에서는 사일로(Silo) 감소, 조직 커뮤니케이션 증대,
 
 
 
-![](https://blog.dmove.kr/assets/images/banners/Webinar/2022-1Q/1-1.png)
+![Title](/assets/images/blog/incident_4.png) 
 
 ### **아틀라시안의 ITSM**
 
@@ -152,8 +154,6 @@ JSM은 애자일 기반의 프로젝트 관리 및 인시던트 관리, 서비�
 기업이 모든 얼럿에 대해 대응해야 하는건 아니지만 이러한 얼럿들이 모여 인시던트로 이어질 수 있기 때문에 IT 팀은 면밀하게 서비스를 모니터링할 필요가 있고
 
 이를 통해 인시던트 수를 줄이거나 해결 시간을 단축 시킨다면 기업들은 막대한 손해로부터 벗어날 수 있게 됩니다.
-
- 
 
 
 
