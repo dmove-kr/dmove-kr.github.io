@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 팀워크를 활성화 함으로써 탄력 받고 있는 아틀라시안 마켓플레이스
+title: 아틀라시안 마켓플레이스를 활용한 팀워크 활성화
 Subtitle: 아틀라시안 마켓플레이스를 활용한 팀워크 활성화
 date: 2022-05-12
 categories: [Inside Atlassian]
-tags: [Atlassian, Marketplace, 아틀라시안, 마켓플레이스, 팀워크, teamwork. Teamwork]
+tags: [Atlassian, Marketplace, 아틀라시안, 마켓플레이스, 팀워크, teamwork. Teamwork, confluence, jira, ]
 ---
 
 
@@ -224,6 +224,8 @@ Forge를 통해 현재 아틀라시안은 개발자가 아틀라시안의 인프
 
  
 
-디무브는 아틀라시안 마켓플레이스의 대표 앱인 ScriptRunner, Structure 및 [Draw.io](http://draw.io/) 와 파트너쉽을 맺고 있습니다. 그외에도 마켓플레이스 앱 관련하여 문의 사항이 있으시면 언제든지 디무브에 문의 부탁드립니다.
+디무브는 아틀라시안 마켓플레이스의 대표 앱인 ScriptRunner, Structure 및 [Draw.io](http://draw.io/) 와 파트너쉽을 맺고 있습니다. 
+
+그외에도 마켓플레이스 앱 관련하여 문의 사항이 있으시면 언제든지 디무브에 문의 부탁드립니다.
 
 감사합니다. 
