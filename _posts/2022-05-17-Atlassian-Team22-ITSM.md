@@ -7,6 +7,7 @@ Atlassian Team '22는 아틀라시안의 최신 기술은 물론 최고의 팀�
 온라인으로도 동시에 진행했기 때문에 아마 한국의 많은 고객분들께서도 참여하셨을 것으로 예상되지만, 아틀라시안이 바라보는 ITSM에 대한 키노트 내용을 공유하고자 합니다.
 
 ---
+(/assets/images/blog/team22_ITSM_1.png)
 
 앞서 계속 강조하였던, 자율성과 정합성의 밸런스를 통해 서비스 관리팀은 마치 하나의 밴드와 같이 운영되어야 합니다.
 
@@ -101,6 +102,6 @@ Atlassian Analytics는 개발에서 운영까지 각기 다른 도구의 데이�
 
 감사합니다. 😃
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjcyODU1MSw1ODQ0NzA1NzcsLTE4Nz
+eyJoaXN0b3J5IjpbMTgwNDA5MzYyOSw1ODQ0NzA1NzcsLTE4Nz
 M1NTc2OF19
 -->
