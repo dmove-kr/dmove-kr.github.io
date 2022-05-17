@@ -20,6 +20,7 @@ Atlassian Team '22는 아틀라시안의 최신 기술은 물론 최고의 팀�
 그럼에도 불구하고 아틀라시안은 지속적인 혁신을 위한 노력을 멈추지 않습니다.
 
 ---
+(/assets/images/blog/team22_ITSM_2.png)
 
 그렇다면 아틀라시안이 보여주고 싶은 Jira Service Management의 새로운 비전은 무엇일까요?
 
@@ -46,6 +47,8 @@ Jira Service Management가 바로 IT팀이 직면한 오늘날의 문제들을 �
     
 -   자산과 구성관리에 있어서도 통찰력을 제공합니다.
 
+(/assets/images/blog/team22_ITSM_3.png)
+
 Jira Service Management Cloud Premium에는 **“Change Scheduling”** 이라는 새로운 기능이 추가되었는데요. 
 
 계획된 변경 일정을 캘린더 형식으로 한눈에 볼 수 있어 개발 프로젝트의 계획과 구성을 개선하기에 매우 용이해졌습니다.
@@ -61,6 +64,8 @@ Atlassian Analytics는 개발에서 운영까지 각기 다른 도구의 데이�
 이어서, Atlassian의 Distinguished Product Manager인 **Sherif Mansour**가 등장하였습니다.
 
 그는 어떻게 하면 IT 지원팀과 비즈니스팀이 협업하여 전 직원에게 더 나은 서비스와 경험을 제공해줄 수 있는지에 대한 통찰을 제공하였는데요.
+
+(/assets/images/blog/team22_ITSM_4.png)
 
 휴가 신청, 사무실 출입, 출장 신청 및 원격 근무 정책 등 최근 몇년동안 많은 변화가 일어났으며 조직은 빠르게 적응해야 했습니다.
 
@@ -102,6 +107,6 @@ Atlassian Analytics는 개발에서 운영까지 각기 다른 도구의 데이�
 
 감사합니다. 😃
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3OTkxNTUxLDU4NDQ3MDU3NywtMTg3Mz
-U1NzY4XX0=
+eyJoaXN0b3J5IjpbMTk4NjY1ODY4Myw1ODQ0NzA1NzcsLTE4Nz
+M1NTc2OF19
 -->
