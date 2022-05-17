@@ -24,7 +24,7 @@ Atlassian Team '22는 아틀라시안의 최신 기술은 물론 최고의 팀�
 
 ---
 
-(/assets/images/blog/team22_ITSM_1.png)
+![](/assets/images/blog/team22_ITSM_1.png)
 
 <br/>
 앞서 계속 강조하였던, 자율성과 정합성의 밸런스를 통해 서비스 관리팀은 마치 하나의 밴드와 같이 운영되어야 합니다.
@@ -40,7 +40,7 @@ Atlassian Team '22는 아틀라시안의 최신 기술은 물론 최고의 팀�
 
 ---
 
-(/assets/images/blog/team22_ITSM_2.png)
+![](/assets/images/blog/team22_ITSM_2.png)
 
 <br/>
 그렇다면 아틀라시안이 보여주고 싶은 Jira Service Management의 새로운 비전은 무엇일까요?
@@ -72,7 +72,7 @@ Jira Service Management가 바로 IT팀이 직면한 오늘날의 문제들을 �
 
 <br/>
 
-(/assets/images/blog/team22_ITSM_3.png)
+![](/assets/images/blog/team22_ITSM_3.png)
 
 Jira Service Management Cloud Premium에는 **“Change Scheduling”** 이라는 새로운 기능이 추가되었는데요. 
 
@@ -92,7 +92,7 @@ Atlassian Analytics는 개발에서 운영까지 각기 다른 도구의 데이�
 
 그는 어떻게 하면 IT 지원팀과 비즈니스팀이 협업하여 전 직원에게 더 나은 서비스와 경험을 제공해줄 수 있는지에 대한 통찰을 제공하였는데요.
 
-(/assets/images/blog/team22_ITSM_4.png)
+![](/assets/images/blog/team22_ITSM_4.png)
 
 <br/> 
 휴가 신청, 사무실 출입, 출장 신청 및 원격 근무 정책 등 최근 몇년동안 많은 변화가 일어났으며 조직은 빠르게 적응해야 했습니다.
@@ -115,7 +115,7 @@ Atlassian Analytics는 개발에서 운영까지 각기 다른 도구의 데이�
 
 <br/>
 
-(/assets/images/blog/team22_ITSM_5.png)
+![](/assets/images/blog/team22_ITSM_5.png)
 
 또한 Jira Service Management에 **대화형 티켓팅(Conversational Ticketing)기능**이 새롭게 추가되었는데요.
 
