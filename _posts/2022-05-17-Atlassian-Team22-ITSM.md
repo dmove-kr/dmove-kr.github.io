@@ -83,6 +83,8 @@ Atlassian Analytics는 개발에서 운영까지 각기 다른 도구의 데이�
 
 이제 사용자는 Jira Service Management 내에서 필요한 자료를 빠르게 찾아볼 수 있고, 에이전트는 동영상 및 사진, 테이블표나 플로우차트와 같은 40개가 넘는 기능을 활용하여 보다 효과적이고 풍부한 자료를 작성할 수 있게 되었습니다.
 
+(/assets/images/blog/team22_ITSM_5.png)
+
 또한 Jira Service Management에 **대화형 티켓팅(Conversational Ticketing)기능**이 새롭게 추가되었는데요.
 
 슬랙에서 채팅을 통해 나눈 대화 내용들은 동시에 바로 JSM의 티켓에 업데이트 되어 더이상 에이전트가 여러 제품을 왔다 갔다 하며 업데이트 하기 위해 시간을 낭비할 필요가 없어졌습니다!
@@ -107,6 +109,6 @@ Atlassian Analytics는 개발에서 운영까지 각기 다른 도구의 데이�
 
 감사합니다. 😃
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NjY1ODY4Myw1ODQ0NzA1NzcsLTE4Nz
+eyJoaXN0b3J5IjpbMTU3NjczMzI0OSw1ODQ0NzA1NzcsLTE4Nz
 M1NTc2OF19
 -->
