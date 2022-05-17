@@ -46,7 +46,7 @@ Jira Service Management가 바로 IT팀이 직면한 오늘날의 문제들을 �
     
 -   자산과 구성관리에 있어서도 통찰력을 제공합니다.
 
-Jira Service Management Cloud Premium에는 **“Change Scheduling”** 이라는 새로운 기능이 추가되었는데요.
+Jira Service Management Cloud Premium에는 **“Change Scheduling”** 이라는 새로운 기능이 추가되었는데요. 
 
 계획된 변경 일정을 캘린더 형식으로 한눈에 볼 수 있어 개발 프로젝트의 계획과 구성을 개선하기에 매우 용이해졌습니다.
 
@@ -102,6 +102,6 @@ Atlassian Analytics는 개발에서 운영까지 각기 다른 도구의 데이�
 
 감사합니다. 😃
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDA5MzYyOSw1ODQ0NzA1NzcsLTE4Nz
-M1NTc2OF19
+eyJoaXN0b3J5IjpbNzI3OTkxNTUxLDU4NDQ3MDU3NywtMTg3Mz
+U1NzY4XX0=
 -->
