@@ -1,4 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-18T09:34:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">2022년 5월 디무브 웨비나 안내 - IT혁신을 위한 아틀라시안 클라우드 마이그레이션 전략</title><link href="http://localhost:4000/webinars/2022/05/18/Atlassian-Cloud-Migration-Webinar.html" rel="alternate" type="text/html" title="2022년 5월 디무브 웨비나 안내 - IT혁신을 위한 아틀라시안 클라우드 마이그레이션 전략" /><published>2022-05-18T00:00:00+09:00</published><updated>2022-05-18T00:00:00+09:00</updated><id>http://localhost:4000/webinars/2022/05/18/Atlassian-Cloud-Migration-Webinar</id><content type="html" xml:base="http://localhost:4000/webinars/2022/05/18/Atlassian-Cloud-Migration-Webinar.html">&lt;p&gt;&lt;img src=&quot;https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/Cloud%20Migration%20Webinar%20Title_2_1.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-30T13:42:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">성공적인 클라우드 마이그레이션을 위한 6가지 핵심 요소</title><link href="http://localhost:4000/atlassian%20cloud/2022/05/30/6-pillars-of-a-succssful-cloud-migration.html" rel="alternate" type="text/html" title="성공적인 클라우드 마이그레이션을 위한 6가지 핵심 요소" /><published>2022-05-30T00:00:00+09:00</published><updated>2022-05-30T00:00:00+09:00</updated><id>http://localhost:4000/atlassian%20cloud/2022/05/30/6-pillars-of-a-succssful-cloud-migration</id><content type="html" xml:base="http://localhost:4000/atlassian%20cloud/2022/05/30/6-pillars-of-a-succssful-cloud-migration.html">&lt;center&gt;&lt;img src=&quot;https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/pasted-image-0-1-1200x760.png&quot; style=&quot;width: 70%&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;안녕하세요, 디무브 입니다! 🎈
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;지난 4월 6일, 라스베가스에서 Atlassian Team ‘22가 약 3년만에 대면 이벤트로 전세계 고객들과 파트너들을 맞이하였습니다.&lt;/p&gt;
+
+&lt;p&gt;오늘 저희는 Team 22의 세션 중 하나인 &lt;strong&gt;“성공적인 클라우드 마이그레이션을 위한 6가지 핵심 요소”&lt;/strong&gt;를 사례를 통해 설명하고자 합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://events.atlassian.com/team22/speaker/435979/caterina-notarbartolo-notarbartolo?i=Ks9OTgmhT8jSGUOo-h0PFAGgWruxMxbk&quot;&gt;Nationwide Building Society&lt;/a&gt; 사는 영국의 금융 기관 중 하나로 세계에서 7번째로 큰 협동 금융 기관인데요.&lt;/p&gt;
+
+&lt;p&gt;NationWide 사는 몇 년동안  Jira와 Confluence 데이터 센터 버전을 구축하여 사용하고 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 온프레미스 접근 방식에는 한계가 있었기 때문에 점진적으로 성장해 나가는 조직에 맞춰 2020년 말, 그들은 클라우드로 마이그레이션을 수행하였고 여러 개의 클라우드 인스턴스를 마련하였습니다.&lt;/p&gt;
+
+&lt;p&gt;NationWide 사는 어떻게 성공적으로 클라우드로 마이그레이션을 수행하였을까요?&lt;/p&gt;
+
+&lt;p&gt;클라우드 마이그레이션을 위한 성공적인 6가지 핵심요소와 함께 마이그레이션을 통해 어떻게 전략적인 이익을 취할 수 있었는지 이야기 해보겠습니다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;1-마이그레이션-사례-정리&quot;&gt;1. 마이그레이션 사례 정리&lt;/h3&gt;
+
+&lt;p&gt;첫번째 핵심 요소는 마이그레이션을 위한 사례를 이해하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;성공적인 마이그레이션을 위해서는 전체적인 기술 전략과 더불어 아틀라시안 외 타 제품과의 통합을 지원하고, 타사의 서비스나 장치들을 직접 사용할 수 있도록 해야합니다.&lt;/p&gt;
+
+&lt;p&gt;또한 안전한 접근을 통해 조직 전체가 단일 인스턴스로 이동하여 메타데이터 관리를 위한 의사 결정을 내릴 수 있도록 해야합니다.&lt;/p&gt;
+
+&lt;p&gt;전체 인스턴스 관리를 한 장소에서 할 수 있게 되어 지원 팀은 추가 인력 없이 운영을 효율적으로 이끌어 갈 수 있고, 이는 조직 전체의 TCO 감소와도 연결됩니다.&lt;/p&gt;
+
+&lt;p&gt;그 결과 Nationwide 사는 지원 팀 내 인력 추가의 필요성을 줄일 수 있게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;인스턴스의 사용량이 증가하게 되면, 지원 팀이 단일 관리 지점을 관리할 수 있어 효율적으로 마이그레이션을 수행하게 됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-적합한-파트너-선택&quot;&gt;2. 적합한 파트너 선택&lt;/h3&gt;
+
+&lt;p&gt;성공적인 마이그레이션을 위한 두 번째 핵심은 적합한 파트너를 선택하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;Nationwide사는 데이터 센터 인스턴스를 관리형 서비스로 제공했던 담당자였던 아틀라시안의 솔루션 파트너인 Adaptavist사와 협업하고 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;Nationwide 사는 Adaptavist 사가 여러 개의 크고 복잡한 클라우드 마이그레이션 프로젝트를 완수한 것을 알고 있었기 때문에 성공적으로 마이그레이션을 수행할 것을 알 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;그래서 그들은 클라우드 마이그레이션에 적합한 회사로 Adaptivist사와 함께하기로 결정했습니다.&lt;/p&gt;
+
+&lt;p&gt;Adaptavist 사는 여러 마이그레이션을 통해 얻은 인사이트와 정보를 제공하고, 마이그레이션 작업에 필요한 여러 템플릿을 제공하였습니다.&lt;/p&gt;
+
+&lt;p&gt;그 결과 NationWide사는 전체적으로 마이그레이션에 접근하는 방식에 대해 많은 것을 배웠고, 배운 내용을 바탕으로 마이그레이션에 접근하는 방식을 접목시킬 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-사용자에게-권한-부여&quot;&gt;3. 사용자에게 권한 부여&lt;/h3&gt;
+
+&lt;p&gt;세 번째 핵심은 사용자에게 권한을 부여하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;Nationwide 사는 마이그레이션의 툴셋 전체를 활용하고 있는 인원들로 구성된 포럼을 알고 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;포럼을 통해 조직 내의 최종 사용자들은 클라우드 마이그레이션의 다양한 사례를 참고하고 직접 클라우드 환경을 경험해 볼 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 경험은 사용자가 클라우드로의 전환을 두려워하지 않고 새로운 작업 방식에 빠르게 적응할 수 있도록 도와주는 중요한 부분이라고 할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4--커뮤니케이션-계획-수립&quot;&gt;4.  커뮤니케이션 계획 수립&lt;/h3&gt;
+
+&lt;p&gt;커뮤니케이션은 클라우드 마이그레이션과 같은 복잡한 프로세스에서 절대적으로 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;Nationwide사와 아틀라시안, Adaptavist사 간의 강력한 협업을 구축하는 것이 이번 클라우드 마이그레이션의 핵심이었습니다.&lt;/p&gt;
+
+&lt;p&gt;NationWide 사는 마이그레이션을 위한 통합 플레이북과 문서를 활용하여 협업 계획과 관련된 일정을 수립하여 모든 것을 한 눈에 확인 하였습니다.&lt;/p&gt;
+
+&lt;p&gt;또한 표준 애자일, 일일 스탠드업, 주간 계획 회의 및 이해관계자와의 회의와 같은 정기 회의를 통해 적극적인 마이그레이션을 지원했습니다.&lt;/p&gt;
+
+&lt;p&gt;그들은 Jira와 Confluence를 협업 및 작업 관리를 위한 주요 툴로 활용하여 마이그레이션 프로세스에서 진행 중인 모든 사항을 파악할 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5-애자일&quot;&gt;5. 애자일&lt;/h3&gt;
+
+&lt;p&gt;클라우드 마이그레이션과 같은 복잡한 프로젝트에서 주의해야 할 사항 중 하나는 계획의 변화를(피벗하는 것을) 두려워해선 안된다는 것입니다. NationWide 사는 프로젝트의 마지막을 앞두고 수용가능한 범위에서 벗어날 수있는 큰 장애물에 직면했습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 그들은 매우 신속하게 방향을 전환하여 “Adaptavist” 사와 “아틀라시안”, 그리고 이슈가 발생한 앱 제공업체인 “스마트베어” 사와 긴밀히 협력해 아틀라시안 클라우드의 일부 기능에 대한 대체 솔루션을 구축할 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;이는 모두가 함께 협업하여 해결책을 찾아 제품에 집중하도록 한 결과였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;6-프로젝트가-아닌-제품으로-지원&quot;&gt;6. 프로젝트가 아닌 제품으로 지원&lt;/h3&gt;
+
+&lt;p&gt;마지막 핵심요소는 프로젝트 활동이 아닌 제품 스트림으로 설정되도록 보장하여 사내 제품 팀을 두도록 하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;이렇게 하면 제품의 유지 보수를 수행하여 제품을 지속적으로 개선할 수 있게 됩니다.&lt;/p&gt;
+
+&lt;p&gt;그 결과 최종 사용자가 제공하는 정보를 수집하여 앞으로의 백로그를 관리하게 되고 앞으로 나아가고자 하는 방향성을 제시 할 수 있어 마이그레이션을 성공적으로 이끌 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;지금까지 Nationwide 사의 사례를 통해 클라우드로의 성공적인 마이그레이션을 위한 여섯 가지 주요 핵심요소를 살펴보았습니다.&lt;/p&gt;
+
+&lt;p&gt;Nationwide 사는 파트너와 긴밀하게 협업하여 Jira와 Confluence를 위한 클라우드 마이그레이션을 성공적으로 진행 하였는데요.&lt;/p&gt;
+
+&lt;p&gt;그들은 마이그레이션을 통해 원래 비즈니스 사례를 달성할 뿐만 아니라 사용자의 업무 중단을 최소화하여 매우 성공적인 마이그레이션 환경을 제공할 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;추가적인 아틀라시안 클라우드 제품이나 마이그레이션에 대해 알고 싶으시다면 저희 디무브에게 문의주시면 더 많은 내용을 확인할 수 있습니다!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Atlassian Cloud" /><category term="Atlassian" /><category term="Team22" /><category term="아틀라시안" /><category term="Atlassianteam22" /><category term="마이그레이션" /><category term="Migration" /><category term="migration" /><category term="pillar" /><category term="핵심" /><category term="클라우드" /><category term="클라우드 마이그레이션" /><summary type="html"></summary></entry><entry><title type="html">2022년 5월 디무브 웨비나 안내 - IT혁신을 위한 아틀라시안 클라우드 마이그레이션 전략</title><link href="http://localhost:4000/webinars/2022/05/18/Atlassian-Cloud-Migration-Webinar.html" rel="alternate" type="text/html" title="2022년 5월 디무브 웨비나 안내 - IT혁신을 위한 아틀라시안 클라우드 마이그레이션 전략" /><published>2022-05-18T00:00:00+09:00</published><updated>2022-05-18T00:00:00+09:00</updated><id>http://localhost:4000/webinars/2022/05/18/Atlassian-Cloud-Migration-Webinar</id><content type="html" xml:base="http://localhost:4000/webinars/2022/05/18/Atlassian-Cloud-Migration-Webinar.html">&lt;p&gt;&lt;img src=&quot;https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/Cloud%20Migration%20Webinar%20Title_2_1.png&quot; alt=&quot;Title&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;안녕하세요. 디무브 입니다. 🎈&lt;/p&gt;
 
@@ -14,12 +123,15 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;디무브-웨비나-안내&quot;&gt;디무브 웨비나 안내&lt;/h2&gt;
+&lt;h2 id=&quot;웨비나-소개&quot;&gt;웨비나 소개&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;주제: IT 혁신을 위한 아틀라시안 클라우드 마이그레이션 전략&lt;/strong&gt;
-&lt;strong&gt;날짜: 2022년 5월 26일&lt;/strong&gt;
-&lt;strong&gt;시간: 오후3시 ~ 오후4시&lt;/strong&gt; 
-&lt;strong&gt;장소: 온라인세미나&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;주제: IT 혁신을 위한 아틀라시안 클라우드 마이그레이션 전략&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;날짜: 2022년 5월 26일&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;시간: 오후3시 ~ 오후4시&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;장소: 온라인세미나&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -65,7 +177,7 @@
 
 &lt;h2 id=&quot;참여-이벤트&quot;&gt;참여 이벤트&lt;/h2&gt;
 
-&lt;center&gt;&lt;img src=&quot;https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/%E1%84%80%E1%85%A7%E1%86%BC%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC.PNG&quot; style=&quot;max-width:75%&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/%E1%84%80%E1%85%A7%E1%86%BC%E1%84%91%E1%85%AE%E1%86%B7%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC.PNG&quot; style=&quot;max-width:65%&quot; /&gt;&lt;/center&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -1390,213 +1502,4 @@ Atlassian Analytics 및 Data Lake는 현재 클라우드 엔터프라이즈 에�
 
 &lt;p&gt;감사합니다. 🙂&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Webinars" /><category term="Atlassian" /><category term="아틀라시안" /><category term="아틀라시안웨비나" /><category term="Atlassian Cloud" /><category term="Opsgenie" /><category term="Jiraservicemanagement" /><category term="Jira" /><category term="옵스지니" /><category term="인시던트관리" /><category term="ITSM" /><category term="ITservicemanagement" /><category term="Incidentmanagement" /><category term="ITIL" /><category term="DevOps" /><category term="AllshowTV" /><category term="전자신문" /><summary type="html"></summary></entry><entry><title type="html">2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Cloud</title><link href="http://localhost:4000/release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Cloud" /><published>2022-03-28T00:00:00+09:00</published><updated>2022-03-28T00:00:00+09:00</updated><id>http://localhost:4000/release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/release%20note/2022/03/28/1Q2022-Atlassian-Release-Notes-Cloud.html">&lt;p&gt;&lt;img src=&quot;https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png&quot; alt=&quot;릴리즈 노트 이미지&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;안녕하세요. 디무브 입니다! :balloon:&lt;/p&gt;
-
-&lt;p&gt;2022년 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;각 제품의 Cloud 버전에 어떠한 변화가 있었는지 여러분과 함께 확인해볼 수 있는 시간을 마련했으니 꼭 확인해보세요!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;jira-software&quot;&gt;Jira Software&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-jira-incoming-email---dmarc-프로토콜-지원jira-service-management도-동일&quot;&gt;1. Jira Incoming Email - DMARC 프로토콜 지원(Jira Service Management도 동일)&lt;/h3&gt;
-
-&lt;div style=&quot;border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);&quot;&gt;&lt;div style=&quot;flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); &quot;&gt;&lt;span role=&quot;img&quot; style=&quot;--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;&quot;&gt;&lt;svg style=&quot;width: 24; height: 24; role: presentation;&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z&quot; fill=&quot;currentColor&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/div&gt; DMARC 지원 기능은 스탠다드 플랜에서만 지원됩니다.&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Jira의 수신 이메일(Incoming Email)은 이메일을 통해 Jira의 기능을 사용하기 위해 사용됩니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 이메일을 통해 Jira의 기능을 사용할 경우 스푸핑 공격이나 피싱 메일 등의 보안 위협을 받을 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이번 업데이트에서는 Jira에서 이메일 수신 시&lt;/p&gt;
-
-&lt;p&gt;DMARC(Domain-based Message Authentication, Reporting and Conformance) 이메일 인증 프로토콜 기능이 추가되었습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;DMARC을 활성화 하면 보낸 사람의 이메일 주소를 서버에 표시되는 이메일 주소와 일치하는 지 확인 후 통과시키며&lt;/p&gt;
-
-&lt;p&gt;불일치할 경우 해당 이메일을 차단할 수 있어 보안 위협을 감소시킬 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://support.atlassian.com/jira-cloud-administration/docs/manage-dmarc-authentication-for-incoming-emails/&quot;&gt;여기&lt;/a&gt;를 클릭하여 DMARC 설정에 대해 자세히 알아볼 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-그룹화를-통한-이슈-정렬&quot;&gt;2. 그룹화를 통한 이슈 정렬&lt;/h3&gt;
-
-&lt;p&gt;이번 분기에는 그룹화 기능이 추가되어 다양한 형태의 이슈를 더 보기 좋게 정렬하는 것이 가능해 졌습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;이슈의 상태, 담당자, 우선순위&lt;/strong&gt;로 그룹화가 가능하며, 아래 이미지와 같이 이슈를 그룹화하여 한 눈에 확인할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/2.png&quot; /&gt;&lt;/center&gt;
-
-&lt;center&gt;담당자로 그룹화한 이슈&lt;/center&gt;
-
-&lt;h3 id=&quot;3--알림-배너-기능-추가&quot;&gt;3.  알림 배너 기능 추가&lt;/h3&gt;
-
-&lt;p&gt;기존 Jira의 서버 또는 데이터 센터 버전에서만 제공되었던 공지 배너 기능이 클라우드에서도 가능하게 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;우측 상단 &lt;strong&gt;톱니바퀴 아이콘 → 시스템 → 공지 배너&lt;/strong&gt;에 접근하여&lt;/p&gt;
-
-&lt;p&gt;회사 내 공지 사항 또는 긴급 사항 등을 작성하여 Jira를 사용하는 사용자에게 공지할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;추가적인 옵션으로 사용자가 해당 배너를 보고 싶지 않을 경우 자체적으로 닫을 수 있도록 수정할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/3.png&quot; /&gt;&lt;/center&gt;
-
-&lt;center&gt;알림 배너 설정&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/4.png&quot; /&gt;&lt;/center&gt;
-&lt;center&gt;알림 배너 설정 시 상단 바에 공지 사항이 출력됩니다.&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;4--단일-텍스트-및-장문-텍스트-커스텀-필드-명칭-변경-jira-service-management도-동일&quot;&gt;4.  단일 텍스트 및 장문 텍스트 커스텀 필드 명칭 변경 (Jira Service Management도 동일)&lt;/h3&gt;
-
-&lt;p&gt;아틀라시안은 프로젝트 유형 간에 용어를 조정하기 위해 회사 관리 프로젝트의 커스텀 필드 이름을&lt;/p&gt;
-
-&lt;p&gt;팀 관리 프로젝트의 커스텀 필드 이름과 일치하도록 변경하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이에 커스텀 필드의 단일 텍스트(Singleline Text)필드는 짧은 텍스트(Short Text)로,&lt;/p&gt;
-
-&lt;p&gt;장문 텍스트(Multiline Text)필드는 문단(Paragraph)필드로 명칭이 변경 되었습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/5.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;5-로드맵-기능-추가&quot;&gt;5. 로드맵 기능 추가&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;5-1. 추가 완료된 에픽 이슈를 위한 새로운 설정 기능 제공&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;이번 분기 로드맵에서는 완료된 에픽 이슈를 확인하기 위한 새로운 설정 기능이 추가 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1,3,6,9,12개월&lt;/strong&gt; 단위로 완료된 이슈를 최신순으로  필터링 하여 확인할 수 있으며,&lt;/p&gt;
-
-&lt;p&gt;필요 시 “&lt;strong&gt;완료된 Epic 이슈 모두 숨기기&lt;/strong&gt;“ 라디오 버튼을 클릭하여 항목을 숨길 수도 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/6.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5-2. 로드맵을 이미지로 내보내기&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;생성된 로드맵은 png 이미지 파일 형식으로 내보내기가 가능합니다.&lt;/p&gt;
-
-&lt;p&gt;로드맵 우측 상단의 내보내기를 클릭 후 &lt;strong&gt;주, 개월 ,분기&lt;/strong&gt; 별로 타임 라인을 설정한 다음,&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;시작일&lt;/strong&gt;과 &lt;strong&gt;종료일&lt;/strong&gt;을 설정하여 원하는 기간의 로드맵을 Export할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_1Q/7.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;jira-service-management&quot;&gt;Jira Service Management&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-인사이트---객체에-대한-댓글-기능-추가&quot;&gt;1. 인사이트 - 객체에 대한 댓글 기능 추가&lt;/h3&gt;
-
-&lt;div style=&quot;border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);&quot;&gt;&lt;div style=&quot;flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); &quot;&gt;&lt;span role=&quot;img&quot; style=&quot;--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;&quot;&gt;&lt;svg style=&quot;width: 24; height: 24; role: presentation;&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z&quot; fill=&quot;currentColor&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/div&gt; Jira Service Management의 인사이트 기능은 프리미엄 플랜 이상에서 지원합니다.&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;이번 1분기에는 객체의 댓글 기능이 추가되었습니다.&lt;/p&gt;
-
-&lt;p&gt;객체를 편집할 수 있는 권한이 있는 경우 댓글 기능을 통해 객체를 추가적으로 설명하거나 편집하고, 불필요할 경우 댓글을 삭제할 수 있습니다.
-&lt;a href=&quot;https://support.atlassian.com/jira-service-management-cloud/docs/add-edit-or-delete-comments/&quot;&gt;여기&lt;/a&gt;를 클릭하여 객체의 댓글 기능에 대해 자세히 알아보세요!&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_1Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-서비스-요청을-위한-양식-제공&quot;&gt;2. 서비스 요청을 위한 양식 제공&lt;/h3&gt;
-
-&lt;p&gt;기존 서비스 데스크에서 포털이나 이슈를 생성하기 위해서는 Jira의 필드를 추가하여&lt;/p&gt;
-
-&lt;p&gt;서비스 데스크를 구성하고 요청하는 필드를 작성하여 이슈를 작성해야 했습니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 이제 별도로 고객들에게 서비스 요청을 하기 위한 양식을 제공하여 별도의 필드를 설정하지 않고 요청을 생성할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;서비스 데스크의 관리자일 경우 &lt;strong&gt;프로젝트 설정 → 양식&lt;/strong&gt;에서 새로운 양식을 만들어&lt;/p&gt;
-
-&lt;p&gt;해당 양식을 사용하고자 하는 요청을 추가하면 별도의 필드로 양식이 추가됩니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_1Q/2.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;confluence&quot;&gt;Confluence&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-main화면-ui-변경&quot;&gt;1. Main화면 UI 변경&lt;/h3&gt;
-
-&lt;p&gt;이번 1분기에는 Confluence 메인화면에 많은 변화가 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;아래 이미지의 예시와 같이 좌측 메뉴부터 가장 최근에 방문한 페이지, 사이트에서 업데이트 되고 있는 페이지,&lt;/p&gt;
-
-&lt;p&gt;가장 최근에 방문한 스페이스, 공지사항으로 구분되어 업데이트 되었습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-다른-스페이스의-템플릿-사용하기&quot;&gt;2. 다른 스페이스의 템플릿 사용하기&lt;/h3&gt;
-
-&lt;p&gt;기존 Confluence의 템플릿은 전체적으로 사용할 수 있는 템플릿이나 개인 스페이스에 작성한 템플릿만 사용이 가능하며,&lt;/p&gt;
-
-&lt;p&gt;다른 스페이스의 템플릿은 사용할 수 없어 템플릿 양식을 복사하여 개인 스페이스에 새로운 템플릿을 만들어 사용해야 하는 불편함이 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;이러한 단점을 보완하기 위해 이번 업데이트에는 모든 스페이스의 템플릿을 서로 공유하여 사용이 가능합니다.&lt;/p&gt;
-
-&lt;p&gt;페이지를 생성한 후 &lt;strong&gt;“이 스페이스에서 템플릿 선택“&lt;/strong&gt; 란의 스페이스를 선택하여 다른 스페이스의 템플릿을 사용할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/2.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;3-url을-사용한-빠른-페이지-작성&quot;&gt;3. URL을 사용한 빠른 페이지 작성&lt;/h3&gt;
-
-&lt;p&gt;URL에서 웹 브라우저에서 “&lt;strong&gt;make.page&lt;/strong&gt;“를 입력하면 Default로 설정된 사이트 내 개인 스페이스에 바로 페이지를 생성할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;만약 사이트에 개인 스페이스가 없을 경우 가장 최근에 방문한 페이지의 스페이스에 페이지가 생성됩니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/3.gif&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;웹 URL을 사용한 페이지를 생성하는 방법에 대해 자세히 확인하시려면 &lt;a href=&quot;https://community.atlassian.com/t5/Confluence-articles/Productivity-hack-A-new-Confluence-shortcut-to-create-a-page/ba-p/1923079#M3663&quot;&gt;여기&lt;/a&gt;를 클릭해주세요!&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;4--사이트-분석-기능-추가&quot;&gt;4.  사이트 분석 기능 추가&lt;/h3&gt;
-
-&lt;p&gt;상단의 &lt;strong&gt;앱 → Analysis&lt;/strong&gt;를 클릭하면 페이지 뷰, 생성, 편집 등에 대한 그래프와 함께&lt;/p&gt;
-
-&lt;p&gt;어떤 스페이스를 많이 방문했는지, 누가 페이지를 확인했는지, 어떤 내용을 많이 검색했는지 자세히 확인할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/4.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;5-메일-비활성화-기능-제공&quot;&gt;5. 메일 비활성화 기능 제공&lt;/h3&gt;
-
-&lt;p&gt;기존에는 Confluence에서 발생하는 이메일을 비활성화 하기 위해서는 메일 핸들러를 비활성화 하거나 개인 설정에서 이메일을 받지 않도록 설정해야 했습니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 이제 메일 핸들러를 비활성화 하거나 자체적으로 비활성화 할 필요 없이&lt;/p&gt;
-
-&lt;p&gt;Confluence 관리자가 Confluence에서 발생하는 활동에 대한 메일 전송을 비활성화 할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;해당 기능은 &lt;strong&gt;설정 → 추가 환경 설정 → 이메일 알림&lt;/strong&gt; 체크 박스를 비활성화 하면 사용할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/5.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
-
-&lt;p&gt;감사합니다.😃&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Release Note" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안클라우드" /><category term="Jira" /><category term="jira" /><category term="Jira Cloud" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Dmove</name></author><category term="Webinars" /><category term="Atlassian" /><category term="아틀라시안" /><category term="아틀라시안웨비나" /><category term="Atlassian Cloud" /><category term="Opsgenie" /><category term="Jiraservicemanagement" /><category term="Jira" /><category term="옵스지니" /><category term="인시던트관리" /><category term="ITSM" /><category term="ITservicemanagement" /><category term="Incidentmanagement" /><category term="ITIL" /><category term="DevOps" /><category term="AllshowTV" /><category term="전자신문" /><summary type="html"></summary></entry></feed>
