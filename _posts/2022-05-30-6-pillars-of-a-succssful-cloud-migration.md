@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 성공적인 클라우드 마이그레이션을 위한 6가지 핵심 요소
+title: 성공적인 아틀라시안 클라우드 마이그레이션을 위한 6가지 핵심 요소
 Subtitle: 6 pillars of a successful cloud migration
 date: 2022-05-30
 categories: [Atlassian Cloud]
