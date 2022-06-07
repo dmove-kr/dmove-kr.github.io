@@ -10,7 +10,7 @@ tags: [Atlassian,아틀라시안클라우드마이그레이션, 아틀라시안�
 ---
 
 
-
+![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar0.png?raw=true)
 
 
 안녕하세요, 디무브입니다🎈
