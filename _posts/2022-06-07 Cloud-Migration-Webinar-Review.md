@@ -1,13 +1,11 @@
 ---
 
----
 layout: post
-title: 웨비나 생생후기 - IT 혁신을 위한 아틀라시안 클라우드 마이그레이션 전략
-Subtitle: Webinar-Successful Cloud Migration Strategies
+title: [웨비나 생생후기] IT 혁신을 위한 아틀라시안 클라우드 마이그레이션 전략
+Subtitle: [Webinar] Successful Atlassian Cloud Migration Strategies
 date: 2022-06-07
 categories: [Webinars]
-**tags: [Atlassian, 아틀라시안, 아틀라시안클라우드, 아틀라시안클라우드마이그레이션, Cl]
----**
+tags: [Atlassian,아틀라시안클라우드마이그레이션, 아틀라시안클라우드, 클라우드마이그레이션, Webinar, 웨비나,디무브웨비나]
 
 ---
 
