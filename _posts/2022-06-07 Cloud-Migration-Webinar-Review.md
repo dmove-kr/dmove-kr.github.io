@@ -1,12 +1,10 @@
 ---
-
 layout: post
 title: [웨비나 생생후기] IT 혁신을 위한 아틀라시안 클라우드 마이그레이션 전략
 Subtitle: [Webinar] Successful Atlassian Cloud Migration Strategies
 date: 2022-06-07
 categories: [Webinars]
 tags: [Atlassian,아틀라시안클라우드마이그레이션, 아틀라시안클라우드, 클라우드마이그레이션, Webinar, 웨비나,디무브웨비나]
-
 ---
 
 
@@ -207,5 +205,3 @@ IP 허용 목록 기능을 통해 사이트상의 액세스를 신뢰할 수 있
 
 감사합니다![:grinning:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/1f600.png)
 
-문의 사항이 있으시면  
-언제든지 문의 부탁드립니다 >>[문의하기](http://dmove.co.kr/contact-us/quote-service-inquiry "http://dmove.co.kr/contact-us/quote-service-inquiry")>>
