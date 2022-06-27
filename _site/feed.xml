@@ -1,4 +1,707 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-23T11:30:20+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">Case Study - Bitbucket을 활용하여 자신만의 블로그 포스팅하기</title><link href="http://localhost:4000/case%20study/2022/06/23/Case-Study-Bitbucket-Blog-Posting.html" rel="alternate" type="text/html" title="Case Study - Bitbucket을 활용하여 자신만의 블로그 포스팅하기" /><published>2022-06-23T00:00:00+09:00</published><updated>2022-06-23T00:00:00+09:00</updated><id>http://localhost:4000/case%20study/2022/06/23/Case-Study-Bitbucket-Blog-Posting</id><content type="html" xml:base="http://localhost:4000/case%20study/2022/06/23/Case-Study-Bitbucket-Blog-Posting.html"><![CDATA[<p>안녕하세요! 디무브입니다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-27T18:16:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">2022 Atlassian 주요 제품 릴리즈 노트 ( Apr ~ Jun) - Cloud</title><link href="http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2022 Atlassian 주요 제품 릴리즈 노트 ( Apr ~ Jun) - Cloud" /><published>2022-06-27T00:00:00+09:00</published><updated>2022-06-27T00:00:00+09:00</updated><id>http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud.html"><![CDATA[<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+
+<p>안녕하세요. 디무브 입니다! :balloon:</p>
+
+<p>이번 시간에는 2022년 2분기 기간 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence의 클라우드 제품 릴리즈 노트를 말씀드리려합니다.</p>
+
+<p>각 제품의 Cloud 버전에 어떠한 변화가 있었는지 여러분과 함께 확인해볼 수 있는 시간을 마련했으니 꼭 확인해보세요!</p>
+
+<hr />
+
+<h2 id="jira-software">Jira Software</h2>
+
+<h3 id="1-클라우드-간-마이그레이션-지원">1. 클라우드 간 마이그레이션 지원</h3>
+
+<p>기존 클라우드 간 마이그레이션 방법은 Zip파일로 클라우드 사이트를 백업 후 새로운 사이트에 복원하는 방법 밖에 없어 백업과 복원간 많은 시간이 소요되며 불완전한 복원으로 인해 Jira를 사용하기 어려웠습니다.</p>
+
+<p>하지만 이제 클라우드 환경에서도 Jira Cloud Migration Assistant 툴이 지원되어 둘 이상의 클라우드 사이트 간의 사용자 정보와 Jira 환경을 마이그레이션 할 수 있습니다. <br /></p>
+
+<center><img sytle="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/1.png" /></center>
+<p><br /></p>
+
+<p>DMARC을 활성화 하면 보낸 사람의 이메일 주소를 서버에 표시되는 이메일 주소와 일치하는 지 확인 후 통과시키며</p>
+
+<p>불일치할 경우 해당 이메일을 차단할 수 있어 보안 위협을 감소시킬 수 있습니다.</p>
+
+<p><a href="https://support.atlassian.com/jira-cloud-administration/docs/manage-dmarc-authentication-for-incoming-emails/">여기</a>를 클릭하여 DMARC 설정에 대해 자세히 알아볼 수 있습니다.</p>
+
+<p><br /></p>
+
+<h3 id="2-볼-수-있는-이슈의-갯수-개선">2. 볼 수 있는 이슈의 갯수 개선</h3>
+
+<p>Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최대 갯수는 100개 정도로 만약 100개 보다 더 많은 갯수의 이슈를 보려면 필터나 이슈 검색을 통해 찾아봐야 하는 불편함이 있었습니다. 하지만 이제 최대 500개 까지의 이슈를 한 이슈 내에서 확인이 가능합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/2.png" /></center>
+
+<center> <p style="color:rgba(0,0,0,.55);">이슈 보기 화면</p></center>
+<p><br /></p>
+
+<p>또한 로드맵에서 볼 수 있는 이슈의 갯수를 기존 최대 3,000개에서 5,000개 까지 확인할 수 있도록 개선되었습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/3.png" /></center>
+<p><br /></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">Jira 로드맵</p></center>
+<p><br /></p>
+
+<h3 id="3-보드에서-개발-현황-확인">3. 보드에서 개발 현황 확인</h3>
+
+<p>기존의 개발 현황을 확인하기 위해서는 이슈를 클릭한 다음, 이슈 필드의 “Development“ 패널을 통해 개발현황을 확인해야 하여 전체적인 이슈의 개발 현황을 확인할 때는 많은 어려움이 있었습니다.</p>
+
+<p>하지만 이제 Jira의 보드에서 개발 현황을 바로 확인할 수 있습니다. 카드의 브랜치 아이콘에 마우스를 대면 풀 리퀘스트나 브랜치, 커밋 등의 정보를 확인할 수 있어 하나하나 이슈를 접근할 필요 없이 개발 현황을 바로 확인이 가능합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/4.png" /></center>
+<p><br /></p>
+
+<h3 id="4-대시-보드-복원-jsm도-동일하게-적용">4. 대시 보드 복원 (JSM도 동일하게 적용)</h3>
+
+<p>기존 Jira는 대시보드 삭제 시 복구가 불가능하기 때문에 다시 일일이 만들어야 하는 번거로움이 있었습니다. 이제 프로젝트 처럼 휴지통에 최대 60일 동안 보관이 가능하기 때문에 삭제한 대시보드를 다시 복구할 수 있습니다.</p>
+
+<p>대시보드를 복구하기 위해서는 관리자 계정으로 로그인 후 <strong>시스템 → 좌측 메뉴의 대시보드(Dashboards) →</strong>
+<strong>Show dashboards moved to trash 란을 체크 → Restore</strong>를 클릭하여 복구할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/5.png" /></center>
+
+<center><img style="width:50%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/6.png" /></center>
+
+<h3 id="5-프로젝트-요약-페이지-추가">5. 프로젝트 요약 페이지 추가</h3>
+
+<p>이번에 새롭게 추가된 Jira의 기능 중 하나는 프로젝트 진행상황을 보기 쉽게 한 눈에 볼 수 있는 것입니다.</p>
+
+<p>아래 이미지와 같이 하나의 프로젝트 내 이슈 상태에 따른 프로젝트 진행 상황과 우선 순위, 프로젝트를 진행 중인 사람, 연관된 프로젝트 등을 정리하여 하나의 페이지에 표시됩니다.</p>
+
+<center><img style="width: 70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/7.png" /></center>
+
+<p><br /></p>
+
+<p><strong>버그 개선점</strong></p>
+
+<ul>
+  <li>JQL을 통해 스프린트 검색 시 하위 작업 이슈가 검색되지 않은 이슈를 해결하였습니다.</li>
+</ul>
+
+<hr />
+
+<h2 id="jira-service-management">Jira Service Management</h2>
+
+<h3 id="1-대기열-큐의-성능-및-확장성-향상">1. 대기열 큐의 성능 및 확장성 향상</h3>
+
+<p>1,000개 이상의 이슈가 있는 대기열의 경우 프로젝트 사이드 바에 이슈 수가 999+로 표시됩니다. 이에 큐를 선택하게 되면 정확한 이슈의 갯수가 대기열에 표시되어 모든 대기열에 있는 이슈를 새로 고침 빈도가 줄어들어 성능을 향상 시킬 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/1.png" /></center>
+<p><br /></p>
+
+<h3 id="2-변경-요청에-대한-리스크를-식별하는-새로운-방법-도입">2. 변경 요청에 대한 리스크를 식별하는 새로운 방법 도입</h3>
+
+<p>이제 변경 요청 사항에 대한 이슈를 볼 때 인사이트 패널을 사용하여 변경 사항을 승인하기 전 변경 사항에 대한 잠재적인 위험 요소를 스캔할 수 있습니다.</p>
+
+<p>스캔 실행 시 다음과 같은 항목이 표시됩니다:</p>
+
+<ul>
+  <li>
+    <p>Changes : 변경 사항으로 설정된 동일한 기간에 하나 이상의 변경 사항이 있는 경우 충돌사항으로 인식하여 표시합니다. 또한 변경 사항의 계획된 종료일로부터 최대 일주일 이내에 계획 되어 있는다른 변경 내용도 보여 줍니다.</p>
+
+    <center><img style="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/2.png" /></center>
+    <p><br /></p>
+  </li>
+  <li>
+    <p>Incidents : 변경 사항 적용 시 영향을 받는 서비스와 관련된 인시던트를 표시합니다.</p>
+  </li>
+</ul>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/3.png" /></center>
+<p><br /></p>
+
+<h3 id="3-이해관계자-필드-추가">3. 이해관계자 필드 추가</h3>
+
+<p>인시던트 관리에서 이해관계자는 인시던트 의사결정 등 인시던트 해결을 위해 필요한 존재이며 이해관계자 관리는 인시던트 대응에 있어 중요하면서 어려운 요소입니다. 이에 Jira 이슈에서 발생한 인시던트 내 이해관계자 필드를 추가하여 누가 해당 인시던트의 이해관계자인지 바로 확인할 수 있으며 필요 시 새로운 이해관계자를 추가할 수 있습니다.</p>
+
+<center><img style="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/4.png" /></center>
+<p><br /></p>
+
+<hr />
+
+<h2 id="confluence">Confluence</h2>
+
+<h3 id="1-패널의-커스터마이징">1. 패널의 커스터마이징</h3>
+
+<p>Confluence에서 이용 가능한 기존 패널의 경우 5가지 색상 패널만 제공하여 간단한 정보만 입력해야 했기 때문에 많은 사용자 분들의 아쉬움이 있었습니다. 이제 패널의 커스터마이징을 통해 다양한 색상과 이모지를 추가하여 패널을 구성할 수 있습니다.  커스터 마이징된 패널은 아래와 같이 구성이 가능합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/1.png" /></center>
+<p><br /></p>
+
+<p><br /></p>
+
+<h3 id="2-저장되지-않은-초안-찾기">2. 저장되지 않은 초안 찾기</h3>
+
+<p>이번 분기 업데이트 중 하나는 저장하지 않거나 작성 중 취소한 초안들을 찾을 수 있도록 하였습니다. Confluence 상단 메뉴의 <strong>Recent → Drafts</strong> 로 확인하거나 본인의 프로필로 이동한 후 <strong>Drafts</strong>를 클릭하여 본인이 작성한 초안들을 확인할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/2.png" /></center>
+<p><br /></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">상단 메뉴 바에서 초안 찾기</p></center>
+<p><br /></p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/3.png" /></center>
+<center> <p style="color:rgba(0,0,0,.55);">프로필에서 초안 찾기</p></center>
+<p><br /></p>
+
+<h3 id="3-보관할-페이지-추천-confluence-프리미엄-플랜에서만-지원합니다">3. 보관할 페이지 추천 (Confluence 프리미엄 플랜에서만 지원합니다)</h3>
+
+<div style="border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);"><div style="flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); "><span role="img" style="--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;"><svg style="width: 24; height: 24; role: presentation;"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z" fill="currentColor"></path></svg></span></div> <div class="notebox-text">해당 기능은 Confluence 프리미엄 플랜 기능 중 하나인 Bulk Archive 기능에서 발생하는 이벤트 입니다.</div></div>
+
+<p>Confluence 의 <strong>일괄 보관(Bulk Archive)</strong> 기능은 페이지를 일괄 보관할 때 사용하는 기능이며 스페이스 내 <strong>관리(admin)</strong> 권한이 있는 사용자만 사용이 가능합니다.</p>
+
+<p>만약 <strong>일괄 보관(Bulk Archive)</strong> 기능을 사용할 수 있는 사용자가 전체 페이지를 보관할 때 특정 페이지를 볼 수 없거나 보관할 수 있는 권한이 없는 페이지가 있을 경우, 권한이 없는 페이지는 생략하고 나머지 페이지는 보관됩니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/4.png" /></center>
+<p><br /></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">기본 페이지 구조</p></center>
+<p><br /></p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/5.png" /></center>
+<p><br /></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">사용자가 페이지를 볼 수 있는 권한이 없는 경우 보관 시 볼 수 없는 페이지는 생략되어 표시됩니다.</p></center>
+<p><br /></p>
+
+<p>페이지 일괄 보관 완료 후 메일이나 알림을 통해 보관이 생략된 페이지가 있음을 알림과 함께 보관할 수 있는 방법을 아래의 이미지와 안내합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/6.png" /></center>
+<p><br /></p>
+
+<hr />
+
+<p>Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.</p>
+
+<p>Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!</p>
+
+<p>감사합니다.😃</p>]]></content><author><name>Dmove</name></author><category term="Release Note" /><category term="Atlassian" /><category term="Atlassian Cloud" /><category term="아틀라시안" /><category term="아틀라시안클라우드" /><category term="Jira" /><category term="jira" /><category term="Jira Cloud" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">2022 Atlassian 주요 제품 릴리즈 노트 (Apr ~ Jun) - Server &amp;amp; Data Center</title><link href="http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Server.html" rel="alternate" type="text/html" title="2022 Atlassian 주요 제품 릴리즈 노트 (Apr ~ Jun) - Server &amp;amp; Data Center" /><published>2022-06-27T00:00:00+09:00</published><updated>2022-06-27T00:00:00+09:00</updated><id>http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Server</id><content type="html" xml:base="http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Server.html"><![CDATA[<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+
+<p>안녕하세요. 디무브 입니다! :balloon:</p>
+
+<p>2022년 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었습니다.</p>
+
+<p>각 제품의 Server 및 Data Center 버전에 어떠한 변화가 있었는지 여러분과 함께 확인해볼 수 있는 시간을 마련했으니 꼭 확인해보세요!</p>
+
+<hr />
+
+<h2 id="jira-software">Jira Software</h2>
+
+<h3 id="-version-90x"><strong>■ Version 9.0.x</strong></h3>
+
+<p>2022년 6월 21일 출시 - 전체 내용은 <a href="https://confluence.atlassian.com/jirasoftware/jira-software-8-22-x-release-notes-1115656979.html">해당문서</a>에서 확인하실 수 있습니다.</p>
+
+<h3 id="1-이제-automation-for-jira-가-jira-data-center에-포함-됩니다">1. 이제 Automation for Jira 가 Jira Data Center에 포함 됩니다.</h3>
+
+<p>기존에는 별도 애드온으로 구매가 필요했던 Automation for Jira 기능이 이제 Jira Data Center에 내장되어 제공 됩니다.</p>
+
+<p>9.0 버전의 경우 Automation for Jira 애드온이 자동적으로 포함되지만 이하 버전의 경우 별도로 마켓플레이스에서 다운로드 혹은 설치 해야 합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/1.png" /></center>
+<p><br /></p>
+
+<p>Automation for Jira의 강력함은 세 부분으로 구성 되게 됩니다.</p>
+
+<ul>
+  <li><strong>Triggers</strong>: 모든 규칙은 트리거의 조건에 의해 시작 됩니다.</li>
+  <li><strong>Conditions</strong>: 규칙을 구체화하고 범위를 좁힐 수 있습니다.</li>
+  <li><strong>Actions</strong>: 조건이 충족되고 발생하는 작업입니다.</li>
+</ul>
+
+<div style="border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(255, 250, 230); color:rgb(255, 153, 31);"><span role="img" aria-label="Panel warning" class="css-pxzk9z" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #FFFFFF);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.4897 4.34592L21.8561 18.8611C21.9525 19.0288 22.0021 19.2181 21.9999 19.4101C21.9977 19.6021 21.9438 19.7903 21.8435 19.9559C21.7432 20.1215 21.6001 20.2588 21.4282 20.3542C21.2563 20.4497 21.0616 20.4999 20.8636 20.5H3.13707C2.93882 20.5 2.74401 20.4498 2.57196 20.3543C2.39992 20.2588 2.25663 20.1213 2.15631 19.9556C2.05598 19.7898 2.00212 19.6015 2.00006 19.4093C1.998 19.2171 2.04782 19.0278 2.14456 18.86L10.5121 4.34592C10.6602 4.08939 10.8762 3.87577 11.1377 3.72708C11.3993 3.57838 11.6971 3.5 12.0003 3.5C12.3036 3.5 12.6013 3.57838 12.8629 3.72708C13.1245 3.87577 13.3404 4.08939 13.4885 4.34592H13.4897ZM12.0003 7.82538C11.8232 7.82537 11.6482 7.86212 11.4869 7.93317C11.3257 8.00423 11.182 8.10793 11.0656 8.2373C10.9492 8.36668 10.8627 8.51872 10.8119 8.68321C10.7611 8.8477 10.7473 9.02083 10.7713 9.19093L11.3546 13.3416C11.3754 13.4933 11.4523 13.6326 11.5711 13.7334C11.6899 13.8343 11.8424 13.8899 12.0003 13.8899C12.1582 13.8899 12.3107 13.8343 12.4295 13.7334C12.5483 13.6326 12.6253 13.4933 12.6461 13.3416L13.2293 9.19093C13.2533 9.02083 13.2395 8.8477 13.1887 8.68321C13.138 8.51872 13.0515 8.36668 12.935 8.2373C12.8186 8.10793 12.6749 8.00423 12.5137 7.93317C12.3525 7.86212 12.1774 7.82537 12.0003 7.82538V7.82538ZM12.0003 17.3369C12.3395 17.3369 12.6649 17.2062 12.9047 16.9737C13.1446 16.7412 13.2793 16.4258 13.2793 16.0969C13.2793 15.7681 13.1446 15.4527 12.9047 15.2202C12.6649 14.9877 12.3395 14.857 12.0003 14.857C11.6611 14.857 11.3358 14.9877 11.0959 15.2202C10.8561 15.4527 10.7213 15.7681 10.7213 16.0969C10.7213 16.4258 10.8561 16.7412 11.0959 16.9737C11.3358 17.2062 11.6611 17.3369 12.0003 17.3369V17.3369Z" fill="currentColor"></path></svg></span><div style="flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); "></div> 
+    <div class="notebox-text" style="color:black;">Automation for Jira 애드온은 데이터 센터 버전에서만 무료로 제공되며 서버 버전의 경우 라이센스를 구입하셔야합니다.</div></div>
+
+<h2 id="2-activity-탭-개선">2. Activity 탭 개선</h2>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/2.png" /></center>
+<p><br /></p>
+
+<ol>
+  <li>Activity 탭: 이슈에 대한 모든 이벤트가 표시됩니다.</li>
+  <li>Activity 탭 이벤트: 이슈에 대한 모든 탭 관련 활동이 목록으로 표시 됩니다.</li>
+  <li>이슈 활동 정렬 : 이슈에 대한 가장 오래된 이벤트와 최신 이벤트를 볼 수 있습니다.</li>
+</ol>
+
+<h3 id="3-jira-이슈-사항의-활동-로그-필터링">3. Jira 이슈 사항의 활동 로그 필터링</h3>
+
+<p>Jira 9.0 버전에서는 Jira 이슈에 대한 활동 로그 사항을 자세히 확인하기 위해 필터링을 걸어 로그를 파악 및 추적이 가능합니다. 해다 기능을 통해 최근에 추가된 주석을 확인하거나 이전 또는 최신의 이벤트를 확인할 수 있습니다.</p>
+
+<center><img style="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/3.png" /></center>
+<p><br /></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">10개의 이벤트를 로드 한 후 Shift + Select 를 사용하여 모든 이벤트를 한번에 로드 할 수 도 있습니다.</p></center>
+<p><br /></p>
+
+<h3 id="3-1-이슈-상태-및-전환-개선">3-1 이슈 상태 및 전환 개선</h3>
+
+<p>클릭 한번으로 상태 메뉴에서 모든 이슈와 상태 및 전환을 확인 할 수 있습니다.</p>
+
+<p>기존 나열된 상태에서 9.0 버전 에서는 현재 상태를 표시하는 드롭 다운이 추가되고 클릭 시 이슈의 상태와 전환을</p>
+
+<p>나타냅니다.</p>
+
+<center><img style="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/4.png" /></center>
+<p><br /></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">기존 Jira 이슈 상태창 (8.20.8 버전)</p></center>
+<p><br /></p>
+
+<center><img style="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/5.png" /></center>
+<p><br /></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">신규 Jira 이슈 상태창 (9.0 버전)</p></center>
+<p><br /></p>
+
+<h3 id="4-이슈-상태-및-전환-개선">4. 이슈 상태 및 전환 개선</h3>
+
+<p>기존 Confluence 에서는 Atlassian 클라우드와 DC/server 제품을 구분해서 들어오려면 개별적인 네트워크를 열어야 하기 때문에 번거로움을 가지고 있었습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/6.png" /></center>
+<p><br /></p>
+
+<p>하지만 어플리케이션 터널을 사용한다면 네트워크 터널링을 통해 Atlassian Cloud의 조직과 네트워크 제품 사이에 보안 경로를 생성합니다.</p>
+
+<p>이제 이 경로를 통해 안전하고 간편한 방식으로 제품을 통합 할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/7.png" /></center>
+<p><br /></p>
+
+<h3 id="5-속도에-대한-개선-사항">5. 속도에 대한 개선 사항</h3>
+
+<ul>
+  <li><strong>이슈 보기에서 로드 지연 개선</strong></li>
+</ul>
+
+<p>첨부 파일이 포함된 이슈의 지연 시간을 단축 하였습니다.</p>
+
+<ul>
+  <li><strong>대시보드 보기에서 로드 지연 개선</strong></li>
+</ul>
+
+<p>인라인 가젯에 대한 신규 지연 로드 메커니즘 도입에 따라 대시보드 보기가 더 빠르게 로드 됩니다.</p>
+
+<h3 id="해결된-이슈-사항">해결된 이슈 사항</h3>
+
+<p><strong>Version 9.0</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+      <th style="text-align: left"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">보고서에서 번업 차트가 사용 하지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21321</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">필터, 이슈 결과,통계가 외부 가젯으로 conflunce에 작동하지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21293</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Jira: log4j &lt; 1.2.7-atlassian-16의 여러 취약점</td>
+      <td style="text-align: left">JRASERVER-73885</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">컨텐츠 전송 네트워크 시스템 메뉴가 설정에 보이지 않습니다.</td>
+      <td style="text-align: left">JRASERVER-73655</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">데이터 베이스를 다시 시작하면 캐시 복제 이슈가 발생합니다.</td>
+      <td style="text-align: left">JRASERVER-73252</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">동일하지 않은 출처 사이트에서 이슈 수집기를 제출하면 HTTP 404가 발생합니다.</td>
+      <td style="text-align: left">JRASERVER-73212</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">PostgreSql 14에 대한 JIRA 지원이 불가능 합니다.</td>
+      <td style="text-align: left">JRASERVER-72910</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>###</p>
+
+<p><strong>Version 8.22.2</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+      <th style="text-align: left"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Quick Links 가젯이 Conflunece에서 가젯으로서 작동하지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21294</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">필터 결과가 Confluence에서 가젯으로서 작동하지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21293</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">이슈 통계가 Confluence에서 가젯으로서 작동하지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21292</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">대시보드의 프로젝트 가젯에 둘 이상의 프로젝트가 있는 경우 Jira v8.22에서 가젯 로드가 완료되지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21266</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">"이미 활성 ThreadEventsCapture가 있습니다" 오류와 함께 DVCS 웹훅 처리가 실패합니다.</td>
+      <td style="text-align: left">JSWSERVER-20965</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">REST API /rest/auth/1/session은 LDAPS 사용자에게 “클래스를 찾을 수 없음” 예외를 발생시킵니다.</td>
+      <td style="text-align: left">JRASERVER-73266</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">"I/O 리액터가 비정상적으로 종료됨" 오류 후 Jira 웹훅 작동이 중지 됩니다.</td>
+      <td style="text-align: left">JRASERVER-72995</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">@멘션 이메일 알림이 이름 대신 사용자 이름(UID)을 표시합니다.</td>
+      <td style="text-align: left">JRASERVER-72873</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Version 8.22.3</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">번업 차트는 번다운 차트로 리디렉션됩니다.</td>
+      <td style="text-align: left">JSWSERVER-21344</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">보고서에서 사용할 수 없는 번업 차트가 있습니다.</td>
+      <td style="text-align: left">JSWSERVER-21297</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">전환에 포스트 기능 추가 화면이 사용자 선택기 제안에 표시되지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21279</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Jira: log4j &lt; 1.2.7-atlassian-16의 여러 취약점이 개선되었습니다.</td>
+      <td style="text-align: left">JRASERVER-73885</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">페이지 스크롤 막대를 사용하여 대시보드 메뉴를 스크롤할 수 없습니다.</td>
+      <td style="text-align: left">JRASERVER-73831</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Windows 기본 추출기로 Jira 8.20.8 zip을 추출할 수 없습니다.</td>
+      <td style="text-align: left">JRASERVER-73749</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">NodeRemoved/"노드 비활성화됨" 이벤트만 감사 로그에 기록됩니다.</td>
+      <td style="text-align: left">JRASERVER-73690</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">표에 4번째 행을 추가할 때 표의 상위 2개 행과 겹치는 표 도구가 있습니다.</td>
+      <td style="text-align: left">JRASERVER-73327</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><br /></p>
+
+<h2 id="jira-service-management">Jira Service Management</h2>
+
+<p>이번 분기 내  Jira Service Management는 훨씬 더 나은 제품을 위해 업데이트를 진행중입니다. 버전 업그레이드를 통해 해결할 수 있는 버그 및 개선 사항은 다음과 같습니다 :</p>
+
+<h3 id="-version-422x"><strong>■ Version 4.22.x</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">숫자로 된 사용자 이름을 가진 상담원은 고객 포털에서 이슈를 생성할 때 "대신 이 요청 제기" 필드에 기본값으로 채워지지 않습니다.</td>
+      <td style="text-align: left">JSDSERVER-11256</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">새 이메일 채널을 생성할 때 이메일 서비스 제공업체에 대한 ‘기타’ 옵션이 누락됩니다.</td>
+      <td style="text-align: left">JSDSERVER-11219</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">고객 포털에 여러 단일 사용자 선택기 필드를 추가하면 일부 필드를 편집할 수 없습니다.</td>
+      <td style="text-align: left">JSDSERVER-11136</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">시스템 설정에 콘텐츠 전송 네트워크 시스템 메뉴가 없습니다.</td>
+      <td style="text-align: left">JRASERVER-73655</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">REST API /rest/auth/1/session은 LDAPS 사용자에게 클래스를 찾을 수 없음 예외를 발생시킵니다.</td>
+      <td style="text-align: left">JRASERVER-73266</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">"I/O 리액터가 비정상적으로 종료됨" 오류 후 Jira 웹훅 작동이 중지 됩니다.</td>
+      <td style="text-align: left">JRASERVER-72995</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">@멘션 이메일 알림이 이름 대신 사용자 이름(UID)을 표시합니다.</td>
+      <td style="text-align: left">JRASERVER-72873</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Jira Lucene Reindexing 메시지가 잘못되었습니다.</td>
+      <td style="text-align: left">JRASERVER-72235</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="confluence">Confluence</h2>
+
+<h3 id="-version-717x--718x"><strong>■ Version 7.17.x ~ 7.18.x</strong></h3>
+
+<h3 id="1-1-클러스터의-로깅-수준-변경이-더-쉬워졌습니다">1-1. 클러스터의 로깅 수준 변경이 더 쉬워졌습니다.</h3>
+
+<p>기존 Confluence 에서는 이슈가 발생하였을 때 어떤 노드에서 이슈가 발생했는지 확인하기 어려워 이슈에 대한 사항을 추적하기 어려웠습니다.</p>
+
+<p>이번 업데이트에서는 각 노드별 로그 및 프로파일 설정을 할 수 있기 때문에 각 노드별로 이슈 또는 업데이트 사항에 대한 로그를 확인할 수 있어 변경 사항 및 이슈 추적을 더 쉽게 수행할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_2Q/1.png" /></center>
+<p><br /></p>
+
+<h3 id="2-보안-어플리케이션-터널로-클라우드-제품에-연결이-가능합니다">2. 보안 어플리케이션 터널로 클라우드 제품에 연결이 가능합니다.</h3>
+
+<p>기존 Confluence 에서는 Atlassian 클라우드와 DC/server 제품을 구분해서 들어오려면 개별적인 네트워크를 열어야 하기 때문에 번거로움을 가지고 있었습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_2Q/2.png" /></center>
+<p><br /></p>
+
+<p>하지만 어플리케이션 터널을 사용한다면 네트워크 터널링을 통해 Atlassian Cloud의 조직과 네트워크 제품 사이에 보안 경로를 생성합니다.</p>
+
+<p>이제 이 경로를 통해 안전하고 간편한 방식으로 제품을 통합 할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_2Q/3.png" /></center>
+<p><br /></p>
+
+<h3 id="3-version-7171에서-해결된-버그">3. <strong>Version 7.17.1~에서 해결된 버그</strong></h3>
+
+<p>2022년 4월 6일 출시 ~ 전체 내용은 <a href="http://atlassian.com/">해결된 이슈</a> 문서에서 확인하실 수 있습니다.</p>
+
+<p><strong>Version 7.18.1에서 해결된 이슈</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">CVE-2022-22965에 대한 FAQ에 설명된 이슈 해결 추적</td>
+      <td style="text-align: left">CONSERVER-78586</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Confluence Data Center - Hazelcast의 Java 역직렬화 취약점(CVE-2016-10750)</td>
+      <td style="text-align: left">CONSERVER-78179</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">HazelCast(Confluence) 포트를 통한 Confluence DataCenter의 RCE</td>
+      <td style="text-align: left">CONSERVER-79017</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Confluence Server 및 Data Center에서 OGNL 주입을 통한 원격 코드 실행 - CVE-2022-26134</td>
+      <td style="text-align: left">CONSERVER-79016</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="version-7180에서-해결된-이슈"><strong>Version 7.18.0에서 해결된 이슈</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">데이터베이스 권한 검사는 Oracle의 역할을 지원하지 않습니다.</td>
+      <td style="text-align: left">CONSERVER-55446</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">기본 Content API 엔드포인트에 도달하면 대규모 인스턴스에서 성능 이슈가 발생할 수 있습니다.</td>
+      <td style="text-align: left">CONSERVER-57639</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">보기 파워포인트 매크로를 사용하거나 미리 보기 생성 시 간단한 PPTX 파일로 인해 OOME가 발생할 수 있습니다.</td>
+      <td style="text-align: left">CONSERVER-61143</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Excel의 표 또는 Word의 서식 있는 콘텐츠를 붙여넣으면 페이지에 추가 이미지 첨부 파일이 삽입됩니다.</td>
+      <td style="text-align: left">CONSERVER-78579</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Confluence: log4j &lt; 1.2.7-atlassian-16의 여러 취약점</td>
+      <td style="text-align: left">CONSERVER-78991</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="version-7174에서-해결된-이슈"><strong>Version 7.17.4에서 해결된 이슈</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">OGNL 템플릿 주입을 통한 인증되지 않은 원격 코드 실행 취약점 - 중복</td>
+      <td style="text-align: left">CONSERVER-79000</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">잘못된 i18n 로케일로 변환된 고급 감사 이벤트가 있습니다.</td>
+      <td style="text-align: left">CONSERVER-79023</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="version-7173에서-해결된-이슈"><strong>Version 7.17.3에서 해결된 이슈</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Excel의 표 또는 Word의 서식 있는 콘텐츠를 붙여넣으면 페이지에 추가 이미지 첨부 파일이 삽입됩니다.</td>
+      <td style="text-align: left">CONSERVER-78579</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="version-7172에서-해결된-이슈"><strong>Version 7.17.2에서 해결된 이슈</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Confluence 온프레미스 환경에서 Jira Cloud에 이슈를 생성할 수 없습니다.</td>
+      <td style="text-align: left">CONSERVER-75951</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">빠른 권한은 1000개 이상의 그룹이 있는 사용자를 지원하지 않습니다.</td>
+      <td style="text-align: left">CONSERVER-78296</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.</p>
+
+<p>Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!</p>
+
+<p>감사합니다.😃</p>]]></content><author><name>Dmove</name></author><category term="Release Note" /><category term="Atlassian" /><category term="Atlassian Data Center" /><category term="아틀라시안" /><category term="아틀라시안 서버" /><category term="데이터 센터" /><category term="Jira" /><category term="jira" /><category term="Jira Server" /><category term="Data Center" /><category term="Release" /><category term="Release Note" /><category term="Jira Sofrware" /><category term="Jira Service Management" /><category term="Confluence" /><category term="컨플" /><category term="DevOps" /><category term="데브옵스" /><category term="dev" /><category term="Dev" /><category term="에자일" /><category term="Agile" /><category term="Wiki" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Case Study - Bitbucket을 활용하여 자신만의 블로그 포스팅하기</title><link href="http://localhost:4000/case%20study/2022/06/23/Case-Study-Bitbucket-Blog-Posting.html" rel="alternate" type="text/html" title="Case Study - Bitbucket을 활용하여 자신만의 블로그 포스팅하기" /><published>2022-06-23T00:00:00+09:00</published><updated>2022-06-23T00:00:00+09:00</updated><id>http://localhost:4000/case%20study/2022/06/23/Case-Study-Bitbucket-Blog-Posting</id><content type="html" xml:base="http://localhost:4000/case%20study/2022/06/23/Case-Study-Bitbucket-Blog-Posting.html"><![CDATA[<p>안녕하세요! 디무브입니다.</p>
 
 <p>이번 시간에는 아틀라시안의 형상 관리 도구인 Bitbucket을 활용하여 자신만의 블로그 웹사이트를 만드는 방법을 공유하려고 합니다.  보통 블로그 웹사이트를 만드는 방법은 웹서버에 배포하거나 깃허브에서 제공하는 정적 웹사이트를 통해 블로그를 생성할 수 있는데요.</p>
 
@@ -16,38 +719,38 @@
 
 <p>아래 링크를 통해 Bitbucket 에 접속하여 <strong>Get it free</strong> 버튼을 클릭합니다.</p>
 
-<center><img style="max-width: 70%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/1.png" /></center>
+<center><img style="max-width: 70%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/1.png" /></center>
 
 <p><br /></p>
 
 <p>2.Jira Software를 같이 사용할지 선택한 후 <strong>Next</strong> 버튼을 클릭합니다.</p>
 
-<center><img style="max-width: 70%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2.png" /></center>
+<center><img style="max-width: 70%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2.png" /></center>
 
 <p><br /></p>
 
 <p>3.아틀라시안 계정이 있으신 경우 이메일 주소를 입력하여 로그인합니다. 저는 구글 계정을 아틀라시안과 연동하여 사용할 것이므로 <strong>Continue with Google</strong> 버튼을 클릭하여 진행하겠습니다.</p>
 
-<center><img style="max-width: 50%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/3.png" /></center>
+<center><img style="max-width: 50%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/3.png" /></center>
 
 <p><br /></p>
 
 <p>4.구글 계정으로 로그인 후 계정 만들기를 통해 아틀라시안과 연동을 진행합니다.</p>
 
-<center><img style="max-width: 50%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/4.png" /></center>
+<center><img style="max-width: 50%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/4.png" /></center>
 
 <p><br /></p>
 
 <p>5.Bitbucket 사용 경험을 물어보는 화면이 나올 경우 스킵 버튼을 클릭하여 생략할 수 있습니다.</p>
 
-<center><img style="max-width: 70%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/5.png" /></center>
+<center><img style="max-width: 70%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/5.png" /></center>
 <p><br /></p>
 
 <ul>
   <li>모든 과정을 완료하면 아래와 같이 Bitbucket을 사용할 수 있습니다. 이제 웹 사이트를 구축해 봅시다!</li>
 </ul>
 
-<center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/6.png" /></center>
+<center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/6.png" /></center>
 <p><br /></p>
 
 <hr />
@@ -66,14 +769,14 @@
   <li>워크스페이스 화면에서 우측 상단의 <strong>Create workspace</strong> 버튼을 클릭합니다.</li>
 </ul>
 
-<center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-1.png" /></center>
+<center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-1.png" /></center>
 <p><br /></p>
 
 <ul>
   <li>워크스페이스 이름과 워크스페이스 ID를 작성합니다. (워크스페이스 ID는 신중하게 작성해주세요.)</li>
 </ul>
 
-<center><img style="max-width: 70%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-2.png" /></center>
+<center><img style="max-width: 70%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-2.png" /></center>
 <p><br /></p>
 
 <p><strong>프로젝트 생성</strong></p>
@@ -84,14 +787,14 @@
   <li>워크스페이스 에서 <strong>프로젝트 생성</strong> 버튼을 클릭합니다.</li>
 </ul>
 
-<center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-3.png" /></center>
+<center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-3.png" /></center>
 <p><br /></p>
 
 <ul>
   <li>워크스페이스와 프로젝트 이름, 프로젝트 키를 입력 후 프로젝트를 생성합니다.</li>
 </ul>
 
-<center><img style="max-width: 50%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-4.png" /></center>
+<center><img style="max-width: 50%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-4.png" /></center>
 <p><br /></p>
 
 <p><strong>레포지토리 생성</strong></p>
@@ -100,16 +803,16 @@
   <li>
     <p>Bitbucket 상단의 <strong>create</strong> 버튼을 클릭 후 저장소를 선택합니다.</p>
 
-    <center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-5.png" /></center>
+    <center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-5.png" /></center>
     <p><br /></p>
   </li>
   <li>
     <p>아래 이미지와 같이 레포지토리를 생성합니다. 이 때 레포지토리 이름은 <strong>{Workspace id}.bitbucket.io</strong>로 생성해야 하며, 접근 레벨을 체크하지 않아야 블로그 화면이 정상적으로 보입니다.</p>
 
-    <center><img style="max-width: 70%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-6.png" /></center>
+    <center><img style="max-width: 70%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-6.png" /></center>
     <p><br /></p>
 
-    <center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-7.png" /></center>
+    <center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-7.png" /></center>
     <p><br /></p>
 
     <center>워크스페이스 ID 확인</center>
@@ -125,31 +828,31 @@
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone {레포지토리 주소}
 </code></pre></div></div>
 
-<center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-8.png" /></center>
+<center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-8.png" /></center>
 <p><br /></p>
 
-<center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-9.png" /></center>
+<center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-9.png" /></center>
 <p><br /></p>
 
 <ul>
   <li>레포지토리 우측 상단 ●●● → <strong>Download repository</strong>를 클릭하여 레포지토리를 바로 다운로드 할 수 있습니다.</li>
 </ul>
 
-<center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-10.png" /></center>
+<center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-10.png" /></center>
 <p><br /></p>
 
 <h3 id="블로그-내용-추가하기">블로그 내용 추가하기</h3>
 
 <p>레포지토리를 복사를 마쳤으면 블로그 생성을 위한 웹 설정 파일들을 레포지토리 안에 저장합니다. 이 때 웹 서버 인덱스 파일인 <strong>index.html</strong> 파일이 포함되어야 합니다.</p>
 
-<center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-11.png" /></center>
+<center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-11.png" /></center>
 <p><br /></p>
 
 <h3 id="bitbucket에-내용-업데이트">Bitbucket에 내용 업데이트</h3>
 
 <p>레포지토리에 내용을 추가했으면 로컬 레포지토리와 원격 레포지토리를 연결하여 원격 레포지토리에 웹사이트 파일을 업로드합니다.</p>
 
-<center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-12.png" /></center>
+<center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-12.png" /></center>
 <p><br /></p>
 
 <ul>
@@ -161,7 +864,7 @@
     <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote -v
 </code></pre></div>    </div>
 
-    <center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-13.png" /></center>
+    <center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-13.png" /></center>
     <p><br /></p>
 
     <p>​	연결된 브랜치 확인</p>
@@ -169,7 +872,7 @@
     <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch
 </code></pre></div>    </div>
 
-    <center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-14.png" /></center>
+    <center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-14.png" /></center>
     <p><br /></p>
   </li>
 </ul>
@@ -180,7 +883,7 @@
 
 <p>최종적으로 Master 브랜치를 통해 Bitbucket 레포지토리에 업로드를 마쳤으면 자동적으로 반영되어 아래 이미지 처럼 블로그가 정상적으로 포스팅됩니다.</p>
 
-<center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-15.png" /></center>
+<center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-15.png" /></center>
 <p><br /></p>
 
 <hr />
@@ -193,7 +896,7 @@
 
 <p><a href="https://support.atlassian.com/bitbucket-cloud/docs/configure-bitbucket-pipelinesyml/">파이프라인에 대해 좀 더 알아보기</a></p>
 
-<center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-16.png" /></center>
+<center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-16.png" /></center>
 <p><br /></p>
 
 <p>파이프라인 프로세스</p>
@@ -206,14 +909,14 @@
 
     <p>레포지토리 설정에서 <strong>Enable Pipelines</strong> 를 체크하여 파이프라인을 활성화합니다.</p>
 
-    <center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-17.png" /></center>
+    <center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-17.png" /></center>
     <p><br /></p>
 
     <ul>
       <li>파이프라인 활성화 시 레포지토리에 <strong>bitbucket-pipelines.yml</strong> 파일이 생성됩니다.</li>
     </ul>
 
-    <center><img style="max-width: 100%" src="http://localhost:4000/assets/images/banners/Bitbucket-Blog/2-18.png" /></center>
+    <center><img style="max-width: 100%" src="https://blog.dmove.kr/assets/images/banners/Bitbucket-Blog/2-18.png" /></center>
     <p><br /></p>
   </li>
   <li>
@@ -1217,248 +1920,4 @@ Atlassian Analytics 및 Data Lake는 현재 클라우드 엔터프라이즈 에�
 
 <p>본 포스팅은 그럼 이만 마치도록 하겠습니다.</p>
 
-<p>감사합니다😀</p>]]></content><author><name>Dmove</name></author><category term="Inside Atlassian" /><category term="Atlassian" /><category term="Team22" /><category term="아틀라시안" /><category term="Atlassianteam22" /><category term="teamanywhere" /><category term="Lasvegas" /><category term="아틀라시안컨퍼런스" /><category term="postcovid" /><category term="datalake" /><category term="atlassiananlytics" /><category term="team22keynote" /><category term="dataanalytics" /><category term="altassiancloud" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">소프트웨어팀을 위한 아틀라시안의 새로운 제품 ‘Compass’를 소개합니다!</title><link href="http://localhost:4000/inside%20atlassian/2022/04/21/Introducing-Compass.html" rel="alternate" type="text/html" title="소프트웨어팀을 위한 아틀라시안의 새로운 제품 ‘Compass’를 소개합니다!" /><published>2022-04-21T00:00:00+09:00</published><updated>2022-04-21T00:00:00+09:00</updated><id>http://localhost:4000/inside%20atlassian/2022/04/21/Introducing-Compass</id><content type="html" xml:base="http://localhost:4000/inside%20atlassian/2022/04/21/Introducing-Compass.html"><![CDATA[<p><img src="/assets/images/banners/Intro-Compass/Main.png" alt="Atlas banner" /></p>
-
-<p>안녕하세요, 디무브 입니다! 🎈</p>
-
-<p>이번 2022년 4월, 라스베이거스에서 개최된 Atalssian Team 22에서 Atlassian의 새로운 제품인 Compass가 공개되었습니다.</p>
-
-<p>Atlassian은 고객과 협력하여 제품을 만드는 프로그램인 <a href="https://www.atlassian.com/point-a"><strong>Point A</strong></a> 프로그램을 통해 여러 도구들을 한 곳에서 관리하고 업무의 복잡성을 낮춰 업무 효율성을 높이기 위한 Compass라는 제품을 만들었습니다.</p>
-
-<p>이번 시간에는 여러분과 함께 Atlassian이 새롭게 준비한 Compass에 대해 살펴보겠습니다.</p>
-
-<hr />
-
-<h2 id="compass를-사용하면-팀들이-분산-소프트웨어-아키텍처의-복잡성을-기존보다-쉽게-확인할-수-있습니다">Compass를 사용하면 팀들이 분산 소프트웨어 아키텍처의 복잡성을 기존보다 쉽게 확인할 수 있습니다.</h2>
-
-<p>현대의 소프트웨어 개발은 점점 더 복잡해 지고 다양한 도구와 프로세스를 포함한 협업을 통해 이루어지고 있습니다.</p>
-
-<p>이러한 복잡성을 확인하지 않고 내버려둘 경우 기업의 생산성을 저해하고 개발자들에게 불필요한 노고를 안겨줄 수 있습니다.</p>
-
-<p><br /></p>
-
-<p>오늘날의 애플리케이션 아키텍처는 기업이 성장하고 규모와 비용면에서 탄력적으로 빠르게 대응하기 위해 기존의 모노리스(단일) 아키텍처에서 마이크로서비스(세분화된) 아키텍처로 전환되었습니다.</p>
-
-<p>이러한 전환의 결과로 소프트웨어는 더 이상 모노리스(하나의 아키텍처)로 만들어지지 않고 마이크로 서비스(세분화된) 아키텍처의 조합으로 만들어집니다.</p>
-
-<p>또한 개발자들은 유지보수 및 가동 시간을 포함하여 소프트웨어를 빌드하고 운영해야 합니다.</p>
-
-<p><br /></p>
-
-<p>Atlassian의 State of Developer 조사에 의하면, 개발자의 69%가 업무의 역할에 따라 여러 도구들을 사용하고 있으며, 55%는 자신이 사용하고 있는 많은 도구들이 업무를 더 복잡하게 만든다고 답했습니다.</p>
-
-<p>그리고 담당하고 있는 업무에 점점 더 많은 도구들을 사용하지만 이를 한 곳에서 관리할 수 있는 방법이 없다고 답했습니다.</p>
-
-<p>개발자들은 바로 이러한 점이 기업의 혁신과 빠른 대응을 가로막는 장애물이라고 답했습니다.</p>
-
-<p>고객들의 이러한 요구를 만족시키기 위해 Atlassian은 고객과 협력하여 신제품을 만드는 <a href="https://www.atlassian.com/point-a"><strong>Point A</strong></a> 프로그램을 통하여 <strong>Compass</strong>를 출시 했습니다.</p>
-
-<p>Point A 제품은 다음의 3가지로 구성되어 있습니다.</p>
-
-<ul>
-  <li><strong>컴포넌트</strong> 카탈로그는 개발자에게 소프트웨어를 구성하는 데 필요한 컴포넌트와 협업에 필요한 맵을 제공합니다. 개발자들은 컴포넌트, 문서 및 다른 주요 정보들을 공유하여 소프트웨어를 한 곳에서 만들 수 있습니다.</li>
-  <li><strong>스코어 카드</strong>는 DevOps 지표 측정을 위한 도구로 개발자들이 충족해야 하는 기준선, 보안, , 규정 및 요구 사항을 기반으로 아키텍처를 측정하고 평가할 수 있습니다.</li>
-  <li><strong>앱</strong>은 앱을 설치할 수 있는 확장형 엔진으로 다양한 개발자의 SaaS 도구에 대한 정보를 제공하여 팀이 작업 전반에 걸쳐 가장 적합한 도구를 선택할 수 있는 유연성을 제공합니다.</li>
-</ul>
-
-<p>이제 아래의 내용에서 분산 소프트웨어 아키텍처의 복잡성을 완화하는데 Compass가 어떻게 사용되는 지 살펴보겠습니다.</p>
-
-<hr />
-
-<h2 id="소프트웨어-아키텍처-및-컴포넌트-팀-맵핑"><strong>소프트웨어 아키텍처 및 컴포넌트 팀 맵핑</strong></h2>
-
-<p>앞에서 설명한 바와 같이 ‘컴포넌트’는 기술 아키텍처와 관련 팀을 추적할 수 있는 통합 인터페이스를 제공합니다.</p>
-
-<p>개발자들은 공유된 컴포넌트와, 문서 및 다른 주요 정보들을 공유하여 소프트웨어를 한 곳에서 만들 수 있습니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Compass/1.png" alt="Atlas banner" /></p>
-
-<p>또한 이 카탈로그를 사용하면 컴포넌트와 소유자 간의 종속성을 이해하고 개발자가 필요로 하는 정보를 비롯하여 빠르게 협업할 수 있는 팀을 찾을 수 있습니다.</p>
-
-<p>예를 들어, 특정 컴포넌트로 변경된 내용과 관련 종속성에 대한 모든 최신 정보를 한 곳에 저장함으로써 문제 해결이 개선됩니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Compass/2.png" alt="Atlas banner" /></p>
-
-<h2 id="스코어카드를-통한-개발-및-운영-상태-정의-및-개선"><strong>스코어카드를 통한 개발 및 운영 상태 정의 및 개선</strong></h2>
-
-<p>일반적으로 소프트웨어 컴포넌트가 안전하고 신뢰할 수 있는지 확인하기 위해 일년에 두 번 감사를 실시합니다.</p>
-
-<p>이러한 경우 문제점이 너무 늦게 발견될 수도 있습니다.</p>
-
-<p>Compass를 사용하면 감시 활동을 1년에 한 두번이 아닌 컴포넌트에 표시되는 스코어카드를 통하여 <strong>실시간으로 확인</strong>할 수 있습니다.</p>
-
-<p>스코어카드는 팀에게 컴포넌트의 상태와 컴포넌트를 백업하기 위해 수행해야 하는 업무들을 화면에 표시하여 사용자가 수행해야할 정확한 업무를 알려줍니다.</p>
-
-<p>‘스코어카드’를 통해 조직은 운영, 보안 및 규정 준수 요구 사항을 기반으로 기준선을 설정할 수 있으며 언제든지 확인할 수 있습니다.</p>
-
-<p>스코어카드는 관심이 필요한 컴포넌트의 문제점과 시간이 지남에 따라 발생한 변화에 대한 통찰력을 제공합니다.</p>
-
-<p>이를 통해 팀은 아키텍처를 개선하고 인시던트의 영향(또는 인시던트의 발생 가능성)을 최소화할 수 있습니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Compass/3.png" alt="Atlas banner" /></p>
-
-<p>스코어카드는 또한 팀 운영 개선에 대한 모범 사례를 제공합니다.</p>
-
-<p>Compass에 내장된 정기 평가를 통해 팀은 운영 문제를 식별하고, 컴포넌트 성능과 상태를 반영하며, 알려진 문제를 해결하기 위한 작업 항목을 만들 수 있습니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Compass/4.png" alt="Atlas banner" /></p>
-
-<p><strong>확장성 엔진을 통한 세계적 수준의 개발자 경험 구축</strong></p>
-
-<p>Compass에는 각 팀이 고유한 요구 사항을 충족할 수 있도록 Compass 경험을 확장할 수 있고 커스터마이징이 가능한 “앱”이라는 강력한 확장성 엔진이 포함되어 있습니다.</p>
-
-<p>Atlassian의 개방형 툴 체인 접근 방식은 코드, CI/CD, 관찰 가능성, 인시던트 관리, APM 및 보안과 같은 서로 다른 SaaS 도구 전반에 걸친 정보를 Compass로 가져와 각 팀의 작업 방식과 사용하는 도구에 맞는 개발자 환경을 구축합니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Compass/5.png" alt="Atlas banner" /></p>
-
-<p>또한 Atlassian은 업계 최고의 SaaS 공급업체와 파트너 관계를 맺어 세계 최고 수준의 개발자 경험을 제공합니다.</p>
-
-<p>하지만 Atlassian은 팀마다 고유한 요구 사항과 선호하는 도구가 있다는 것을 알고 있기 때문에 확장형 엔진인 ‘앱’을 통해 새로운 앱을 매우 쉽게 작성할 수 있도록 만들었습니다.</p>
-
-<p>Forge의 통합 서비스로서의 기능(Functions-as-a-Service) 플랫폼으로 모든 팀은 Atlassian에서 운영하는 컴퓨팅 및 스토리지를 사용하여 최소한의 설정으로 Compass의 기능을 확장할 수 있습니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Compass/Main.png" alt="Atlas banner" /></p>
-
-<h2 id="compass-시작하기"><strong>Compass 시작하기</strong></h2>
-
-<p>Compass는 분산 아키텍처에 대한 미션 컨트롤로, 소프트웨어 개발 구성요소와 이를 기반으로 구축 및 협업하는 팀에 대한 전체적인 화면을 제공합니다.</p>
-
-<p>Compass의 컴포넌트 ,스코어 카드, 확장형 엔진인 앱을 통하여 팀의 작업 방식 개선할 수 있습니다.</p>
-
-<p>Compass는 현재 알파 버전으로 출시되었으며 베타 버전이 곧 출시될 예정입니다.</p>
-
-<p><a href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;url=https%3A%2F%2Fwww.atlassian.com%2Fpoint-a&amp;esheet=52419531&amp;newsitemid=20210428005737&amp;lan=en-US&amp;anchor=Point+A&amp;index=4&amp;md5=c1426a773a1b127c80e8b44579ec8c99">Point A</a> 프로그램의 일부인 Compass는 고객의 요구를 충족하도록 고객의 피드백을 받아 지속적으로 발전할 것입니다.</p>
-
-<center><a href="https://www.atlassian.com/software/compass">Compass 시작하기</a></center>
-
-<hr />
-
-<h1 id="맺음말">맺음말</h1>
-
-<p>Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.</p>
-
-<p>Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!</p>
-
-<p>감사합니다.😃</p>]]></content><author><name>Dmove</name></author><category term="Inside Atlassian" /><category term="Atlassian" /><category term="Team22" /><category term="아틀라시안" /><category term="Atlassianteam22" /><category term="teamanywhere" /><category term="Lasvegas" /><category term="아틀라시안컨퍼런스" /><category term="postcovid" /><category term="compass" /><category term="atlassiananlytics" /><category term="team22keynote" /><category term="컴파스" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">팀워크 향상을 위한 아틀라시안의 프로젝트 디렉토리 ‘Atlas’를 소개합니다.</title><link href="http://localhost:4000/inside%20atlassian/2022/04/20/Introducing-Atlas.html" rel="alternate" type="text/html" title="팀워크 향상을 위한 아틀라시안의 프로젝트 디렉토리 ‘Atlas’를 소개합니다." /><published>2022-04-20T00:00:00+09:00</published><updated>2022-04-20T00:00:00+09:00</updated><id>http://localhost:4000/inside%20atlassian/2022/04/20/Introducing-Atlas</id><content type="html" xml:base="http://localhost:4000/inside%20atlassian/2022/04/20/Introducing-Atlas.html"><![CDATA[<p><img src="/assets/images/banners/Intro-Atlas/Main.png" alt="Atlas banner" /></p>
-
-<p>안녕하세요, 디무브 입니다! 🎈</p>
-
-<p>이번 라스베가스에서 열린 Atalssian Team 22의 오프닝 키노트에서</p>
-
-<p>아틀라시안의 공동창업자이자 CEO인 Scott이 직접 Atlassian의 새로운 제품인 <strong>Atlas</strong>를 공개하였는데요.</p>
-
-<p>Atlas는 팀, 부서 및 전체 회사를 연결하여 하나로 모아주는 최초의 팀 워크 디렉토리로,  작업 내에서 열린 공유 및 소통을 촉진하고, 서로 다른 방식으로 함께 작업할 수 있도록 도와주는 서비스 입니다.</p>
-
-<p>이번 시간에는 여러분과 함께 Atlassian이 새롭게 준비한 Atlas 에 대해 좀 더 자세히 살펴보겠습니다.</p>
-
-<p><br /></p>
-
-<hr />
-
-<h2 id="atlas란">Atlas란?</h2>
-
-<p><img src="/assets/images/banners/Intro-Atlas/1.png" alt="Atlas banner" /></p>
-
-<p>Atlas는 모든 팀이 자신의 작업에 대해 공개적으로 소통하고 결과를 얻을 수 있도록 지원합니다.</p>
-
-<p>Atlas는 팀에게 자율성을 강화하여 팀이 큰 성과를 낼 수 있도록 하는 것에 핵심을 두고 있습니다.</p>
-
-<p>이를 달성하기 위해 먼저 무엇을 하고 왜 하는지 공유해야 합니다.</p>
-
-<p>Atlas는 모든 프로젝트에 “홈페이지”를 제공하여 필요한 모든 사람에게 즉각적인 컨텍스트를 제공합니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Atlas/2.png" alt="Atlas banner" /></p>
-
-<p>Atlas를 통해 조직의 모든 구성원은 그 프로젝트가 무엇을 수반하는지 그리고 성공이 어떤 것인지 깊이 이해할 수 있습니다.</p>
-
-<p>Atlas가 제공하는 프로젝트와 목표(Goal)에서 제공하는 <strong>Smart Link</strong>는 Loom, Google Docs, Figma, Confluence와 같은 인기 있는 작업 관리 도구의 문서와 연결할 수 있습니다.</p>
-
-<h2 id="팀에게-목표-제공-goal">팀에게 목표 제공 (Goal)</h2>
-
-<p>여러분께서 진행하고 있는 프로젝트의 연구가 더 큰 목표에 어떻게 기여하고 있는 지를 이해하는 것은 매우 큰 동기부여가 됩니다.</p>
-
-<p>Atlas에서 제공하는 목표(Goal) 기능은 다양한 프로젝트에 연결될 수 있으며, 팀들의 작업과 결과를 연결함으로써 목표를 달성할 수 있습니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Atlas/3.png" alt="Atlas banner" /></p>
-
-<p>목표(Goal)는 팀이 소유한 개별 프로젝트의 세부 사항을 파악하는 것 뿐만 아니라 팀이 결과에 대해 어떻게 추적하고 있는지 알 수 있습니다.</p>
-
-<p>모든 구성원은 작업을 중복하지 않고 자신에게 가장 적합한 목표를 연결하여 정보를 얻을 수 있습니다.</p>
-
-<h2 id="실제-작업이-진행되는-곳과-연결-smart-links">실제 작업이 진행되는 곳과 연결 (Smart Links)</h2>
-
-<p>Atlas는 업무에 대해 말하는 방법에 대한 내용을 팀별로 정렬하고 해당 작업이 팀에서 공유되는 결과에 어떻게 연결되는지에 대한 가시성을 제공합니다.</p>
-
-<p>Atlas에서 제공하는 Smart Link는 Trello, Jira Software, Google Workplace, Asana 등의 어플리케이션과 연결이 가능하며 팀에 가장 적합한 기능을 제공합니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Atlas/4.png" alt="Atlas banner" /></p>
-
-<p>또한 Smart Links를 통해 프로젝트 및 목표에 대한 실시간 미리 보기 및 업데이트를 Confluence 페이지, Jira 이슈 또는 Trello 게시판에 추가할 수 있습니다.</p>
-
-<p>Atlas에서 프로젝트, 목표 또는 #태그에 링크를 붙여넣기만 하면 아래의 이미지와 같이 표시됩니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Atlas/5.png" alt="Atlas banner" /></p>
-
-<center><p style="font-size: 15px;">Confluence 페이지에 프로젝트 및 목표에 대한 상태 및 최신 업데이트가 포함되어 표시됩니다.</p></center>
-
-<hr />
-
-<h2 id="atlas를-활용하는-방법">Atlas를 활용하는 방법</h2>
-
-<h3 id="1-간편한-진행상황-업데이트">1. 간편한 진행상황 업데이트</h3>
-
-<p>각 프로젝트에서 상태 업데이트시 내용을 280자로 제한하여 프로젝트 소유자가 유용한 컨텍스트를 제공하는 데 집중하도록 지원합니다.  또한 팀에서 상태 업데이트 시 영상, 이미지 및 gif를 내장하여 유용하고 매력적인 업데이트를 만들 수 있습니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Atlas/6.png" alt="Atlas banner" /></p>
-
-<p><br /></p>
-
-<h3 id="2-보다-효율적으로-정보-수집하기">2. 보다 효율적으로 정보 수집하기</h3>
-
-<p>Atlas 피드 기능은 매주가 시작 되면 이메일, Slack 또는 Microsoft Teams와 같은 채팅 도구에 Atlas에서 작업했던 정보가 요약 되어 전달됩니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Atlas/7.png" alt="Atlas banner" /></p>
-
-<p>또한 프로젝트와 목표를 Slack의 특정 채널에 연결하여 모든 이해 관계자가 업데이트 발생 시 이를 인지하도록 할 수도 있습니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Atlas/8.png" alt="Atlas banner" /></p>
-
-<p><br /></p>
-
-<h3 id="3-사용자의-작업-확인">3. 사용자의 작업 확인</h3>
-
-<p>부서 간 교차 업무 협업은 그 어느 때보다 보편화되었습니다. 그 결과, 새로운 자체 관리 팀이 항상 형성되어 프로젝트에 협력합니다.</p>
-
-<p>작업을 진행하기 위해서는 누가 누구에게 보고를 하는지 뿐만 아니라, 어떤 팀에 속해 있는지, 어떤 팀에서 일하고 있는지 이해하는 것이 중요합니다.</p>
-
-<p>Atlas에서는 프로젝트나 목표에서 작업 중인 팀을 볼 수 있으며, 아래 이미지와 같이 프로젝트에 포함된 팀원을 확인할 수 있습니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Atlas/9.png" alt="Atlas banner" /></p>
-
-<p>Atlas의 모든 사용자는 자신의 프로필을 가지고 있으며, 해당 사용자를 클릭할 시, 사용자에 대한 프로필을 볼 수 있습니다. 이 프로필에는 사용자가 누구인지, 어떤 작업을 하고 있는지 등  업무를 확실히 수행하고 있는지 확인할 수 있습니다.</p>
-
-<p><br /></p>
-
-<h3 id="4-팀의-협력하는-방식을-정확하게-파악하기">4. 팀의 협력하는 방식을 정확하게 파악하기</h3>
-
-<p>Atlas는 Atlassian 플랫폼을 기반으로 구축된 팀 프로필을 확인할 수 있어 누가 팀에 속해 있는지 뿐만 아니라 Atlas를 통해 팀원들이 어떤 작업을 하고 있는지, 어디에서 작업이 이루어지고 있는지 한눈에 파악할 수 있습니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Atlas/10.png" alt="Atlas banner" /></p>
-
-<center><p style="font-size: 15px;">이미지를 통해 각 팀이 무엇을 수행하고 있고 어떻게 업무를 수행하고 있는지 확인할 수 있습니다.</p></center>
-
-<p>Atlas의 기능 중 하나는 회사 내 팀이 이미 사용하고 있는 Atlassian 제품의 프로파일을 내장하고 있습니다.  Jira 및 Confluence Cloud 버전을 사용하고 있다면, Jira와 Confluence에서 사용자를 클릭 시 사용자의 이름과 사용자가 Atlas에서 설정한 목표와 프로젝트를 확인할 수 있습니다.</p>
-
-<p><img src="/assets/images/banners/Intro-Atlas/11.png" alt="Atlas banner" /></p>
-
-<hr />
-
-<p>지금까지 아틀라시안의 새로운 제품인 Atlas에 대해 알아보았습니다.</p>
-
-<p>내용을 정리하면 Atlas를 통해 팀을 정렬하고 프로젝트와 목표를 세워 더 큰 결과를 달성할 수 있으며, 팀과 각 사용자가 어떤 업무를 수행하고 있고, 어떤 방식으로 진행하는지 등을 파악할 수 있습니다.</p>
-
-<p>Atlas는 모든 팀의 잠재력을 발휘하기 위해 올해 하반기에 여러분에게 모습을 드러낼 예정입니다.</p>
-
-<p>Atlas와 관련하여 더욱 궁금하신 점이 있으시다면, 디무브에게 문의해주세요!</p>
-
-<p>감사합니다.😃</p>]]></content><author><name>Dmove</name></author><category term="Inside Atlassian" /><category term="Atlassian" /><category term="Team22" /><category term="아틀라시안" /><category term="Atlassianteam22" /><category term="teamanywhere" /><category term="Scottfarquhar" /><category term="Lasvegas" /><category term="아틀라시안컨퍼런스" /><category term="postcovid" /><category term="atlas" /><category term="atlassiananlytics" /><category term="team22keynote" /><category term="아틀라스" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>감사합니다😀</p>]]></content><author><name>Dmove</name></author><category term="Inside Atlassian" /><category term="Atlassian" /><category term="Team22" /><category term="아틀라시안" /><category term="Atlassianteam22" /><category term="teamanywhere" /><category term="Lasvegas" /><category term="아틀라시안컨퍼런스" /><category term="postcovid" /><category term="datalake" /><category term="atlassiananlytics" /><category term="team22keynote" /><category term="dataanalytics" /><category term="altassiancloud" /><summary type="html"><![CDATA[]]></summary></entry></feed>

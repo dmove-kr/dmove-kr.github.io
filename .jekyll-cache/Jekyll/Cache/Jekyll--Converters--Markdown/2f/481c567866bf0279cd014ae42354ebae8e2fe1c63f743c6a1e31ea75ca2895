@@ -1,0 +1,526 @@
+I"ge<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+
+<p>안녕하세요. 디무브 입니다! :balloon:</p>
+
+<p>2022년 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었습니다.</p>
+
+<p>각 제품의 Server 및 Data Center 버전에 어떠한 변화가 있었는지 여러분과 함께 확인해볼 수 있는 시간을 마련했으니 꼭 확인해보세요!</p>
+
+<hr />
+
+<h2 id="jira-software">Jira Software</h2>
+
+<h3 id="-version-90x"><strong>■ Version 9.0.x</strong></h3>
+
+<p>2022년 6월 21일 출시 - 전체 내용은 <a href="https://confluence.atlassian.com/jirasoftware/jira-software-8-22-x-release-notes-1115656979.html">해당문서</a>에서 확인하실 수 있습니다.</p>
+
+<h3 id="1-이제-automation-for-jira-가-jira-data-center에-포함-됩니다">1. 이제 Automation for Jira 가 Jira Data Center에 포함 됩니다.</h3>
+
+<p>기존에는 별도 애드온으로 구매가 필요했던 Automation for Jira 기능이 이제 Jira Data Center에 내장되어 제공 됩니다.</p>
+
+<p>9.0 버전의 경우 Automation for Jira 애드온이 자동적으로 포함되지만 이하 버전의 경우 별도로 마켓플레이스에서 다운로드 혹은 설치 해야 합니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/1.png" /></center>
+<p><br /></p>
+
+<p>Automation for Jira의 강력함은 세 부분으로 구성 되게 됩니다.</p>
+
+<ul>
+  <li><strong>Triggers</strong>: 모든 규칙은 트리거의 조건에 의해 시작 됩니다.</li>
+  <li><strong>Conditions</strong>: 규칙을 구체화하고 범위를 좁힐 수 있습니다.</li>
+  <li><strong>Actions</strong>: 조건이 충족되고 발생하는 작업입니다.</li>
+</ul>
+
+<div style="border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(255, 250, 230); color:rgb(255, 153, 31);"><span role="img" aria-label="Panel warning" class="css-pxzk9z" style="--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #FFFFFF);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.4897 4.34592L21.8561 18.8611C21.9525 19.0288 22.0021 19.2181 21.9999 19.4101C21.9977 19.6021 21.9438 19.7903 21.8435 19.9559C21.7432 20.1215 21.6001 20.2588 21.4282 20.3542C21.2563 20.4497 21.0616 20.4999 20.8636 20.5H3.13707C2.93882 20.5 2.74401 20.4498 2.57196 20.3543C2.39992 20.2588 2.25663 20.1213 2.15631 19.9556C2.05598 19.7898 2.00212 19.6015 2.00006 19.4093C1.998 19.2171 2.04782 19.0278 2.14456 18.86L10.5121 4.34592C10.6602 4.08939 10.8762 3.87577 11.1377 3.72708C11.3993 3.57838 11.6971 3.5 12.0003 3.5C12.3036 3.5 12.6013 3.57838 12.8629 3.72708C13.1245 3.87577 13.3404 4.08939 13.4885 4.34592H13.4897ZM12.0003 7.82538C11.8232 7.82537 11.6482 7.86212 11.4869 7.93317C11.3257 8.00423 11.182 8.10793 11.0656 8.2373C10.9492 8.36668 10.8627 8.51872 10.8119 8.68321C10.7611 8.8477 10.7473 9.02083 10.7713 9.19093L11.3546 13.3416C11.3754 13.4933 11.4523 13.6326 11.5711 13.7334C11.6899 13.8343 11.8424 13.8899 12.0003 13.8899C12.1582 13.8899 12.3107 13.8343 12.4295 13.7334C12.5483 13.6326 12.6253 13.4933 12.6461 13.3416L13.2293 9.19093C13.2533 9.02083 13.2395 8.8477 13.1887 8.68321C13.138 8.51872 13.0515 8.36668 12.935 8.2373C12.8186 8.10793 12.6749 8.00423 12.5137 7.93317C12.3525 7.86212 12.1774 7.82537 12.0003 7.82538V7.82538ZM12.0003 17.3369C12.3395 17.3369 12.6649 17.2062 12.9047 16.9737C13.1446 16.7412 13.2793 16.4258 13.2793 16.0969C13.2793 15.7681 13.1446 15.4527 12.9047 15.2202C12.6649 14.9877 12.3395 14.857 12.0003 14.857C11.6611 14.857 11.3358 14.9877 11.0959 15.2202C10.8561 15.4527 10.7213 15.7681 10.7213 16.0969C10.7213 16.4258 10.8561 16.7412 11.0959 16.9737C11.3358 17.2062 11.6611 17.3369 12.0003 17.3369V17.3369Z" fill="currentColor"></path></svg></span><div style="flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); "></div> 
+    <div class="notebox-text" style="color:black;">Automation for Jira 애드온은 데이터 센터 버전에서만 무료로 제공되며 서버 버전의 경우 라이센스를 구입하셔야합니다.</div></div>
+
+<h2 id="2-activity-탭-개선">2. Activity 탭 개선</h2>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/2.png" /></center>
+<p><br /></p>
+
+<ol>
+  <li>Activity 탭: 이슈에 대한 모든 이벤트가 표시됩니다.</li>
+  <li>Activity 탭 이벤트: 이슈에 대한 모든 탭 관련 활동이 목록으로 표시 됩니다.</li>
+  <li>이슈 활동 정렬 : 이슈에 대한 가장 오래된 이벤트와 최신 이벤트를 볼 수 있습니다.</li>
+</ol>
+
+<h3 id="3-jira-이슈-사항의-활동-로그-필터링">3. Jira 이슈 사항의 활동 로그 필터링</h3>
+
+<p>Jira 9.0 버전에서는 Jira 이슈에 대한 활동 로그 사항을 자세히 확인하기 위해 필터링을 걸어 로그를 파악 및 추적이 가능합니다. 해다 기능을 통해 최근에 추가된 주석을 확인하거나 이전 또는 최신의 이벤트를 확인할 수 있습니다.</p>
+
+<center><img style="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/3.png" /></center>
+<p><br /></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">10개의 이벤트를 로드 한 후 Shift + Select 를 사용하여 모든 이벤트를 한번에 로드 할 수 도 있습니다.</p></center>
+<p><br /></p>
+
+<h3 id="3-1-이슈-상태-및-전환-개선">3-1 이슈 상태 및 전환 개선</h3>
+
+<p>클릭 한번으로 상태 메뉴에서 모든 이슈와 상태 및 전환을 확인 할 수 있습니다.</p>
+
+<p>기존 나열된 상태에서 9.0 버전 에서는 현재 상태를 표시하는 드롭 다운이 추가되고 클릭 시 이슈의 상태와 전환을</p>
+
+<p>나타냅니다.</p>
+
+<center><img style="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/4.png" /></center>
+<p><br /></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">기존 Jira 이슈 상태창 (8.20.8 버전)</p></center>
+<p><br /></p>
+
+<center><img style="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/5.png" /></center>
+<p><br /></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">신규 Jira 이슈 상태창 (9.0 버전)</p></center>
+<p><br /></p>
+
+<h3 id="4-1-이슈-상태-및-전환-개선">4-1 이슈 상태 및 전환 개선</h3>
+
+<p>기존 Confluence 에서는 Atlassian 클라우드와 DC/server 제품을 구분해서 들어오려면 개별적인 네트워크를 열어야 하기 때문에 번거로움을 가지고 있었습니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/6.png" /></center>
+<p><br /></p>
+
+<p>하지만 어플리케이션 터널을 사용한다면 네트워크 터널링을 통해 Atlassian Cloud의 조직과 네트워크 제품 사이에 보안 경로를 생성합니다.</p>
+
+<p>이제 이 경로를 통해 안전하고 간편한 방식으로 제품을 통합 할 수 있습니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/7.png" /></center>
+<p><br /></p>
+
+<h3 id="5-속도에-대한-개선-사항">5. 속도에 대한 개선 사항</h3>
+
+<ul>
+  <li><strong>이슈 보기에서 로드 지연 개선</strong></li>
+</ul>
+
+<p>첨부 파일이 포함된 이슈의 지연 시간을 단축 하였습니다.</p>
+
+<ul>
+  <li><strong>대시보드 보기에서 로드 지연 개선</strong></li>
+</ul>
+
+<p>인라인 가젯에 대한 신규 지연 로드 메커니즘 도입에 따라 대시보드 보기가 더 빠르게 로드 됩니다.</p>
+
+<h3 id="해결된-이슈-사항">해결된 이슈 사항</h3>
+
+<p><strong>Version 9.0</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+      <th style="text-align: left"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">보고서에서 번업 차트가 사용 하지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21321</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">필터, 이슈 결과,통계가 외부 가젯으로 conflunce에 작동하지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21293</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Jira: log4j &lt; 1.2.7-atlassian-16의 여러 취약점</td>
+      <td style="text-align: left">JRASERVER-73885</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">컨텐츠 전송 네트워크 시스템 메뉴가 설정에 보이지 않습니다.</td>
+      <td style="text-align: left">JRASERVER-73655</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">데이터 베이스를 다시 시작하면 캐시 복제 이슈가 발생합니다.</td>
+      <td style="text-align: left">JRASERVER-73252</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">동일하지 않은 출처 사이트에서 이슈 수집기를 제출하면 HTTP 404가 발생합니다.</td>
+      <td style="text-align: left">JRASERVER-73212</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">PostgreSql 14에 대한 JIRA 지원이 불가능 합니다.</td>
+      <td style="text-align: left">JRASERVER-72910</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>###</p>
+
+<p><strong>Version 8.22.2</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+      <th style="text-align: left"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Quick Links 가젯이 Conflunece에서 가젯으로서 작동하지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21294</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">필터 결과가 Confluence에서 가젯으로서 작동하지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21293</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">이슈 통계가 Confluence에서 가젯으로서 작동하지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21292</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">대시보드의 프로젝트 가젯에 둘 이상의 프로젝트가 있는 경우 Jira v8.22에서 가젯 로드가 완료되지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21266</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">"이미 활성 ThreadEventsCapture가 있습니다" 오류와 함께 DVCS 웹훅 처리가 실패합니다.</td>
+      <td style="text-align: left">JSWSERVER-20965</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">REST API /rest/auth/1/session은 LDAPS 사용자에게 “클래스를 찾을 수 없음” 예외를 발생시킵니다.</td>
+      <td style="text-align: left">JRASERVER-73266</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">"I/O 리액터가 비정상적으로 종료됨" 오류 후 Jira 웹훅 작동이 중지 됩니다.</td>
+      <td style="text-align: left">JRASERVER-72995</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">@멘션 이메일 알림이 이름 대신 사용자 이름(UID)을 표시합니다.</td>
+      <td style="text-align: left">JRASERVER-72873</td>
+      <td style="text-align: left">**DONE**</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Version 8.22.3</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">번업 차트는 번다운 차트로 리디렉션됩니다.</td>
+      <td style="text-align: left">JSWSERVER-21344</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">보고서에서 사용할 수 없는 번업 차트가 있습니다.</td>
+      <td style="text-align: left">JSWSERVER-21297</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">전환에 포스트 기능 추가 화면이 사용자 선택기 제안에 표시되지 않습니다.</td>
+      <td style="text-align: left">JSWSERVER-21279</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Jira: log4j &lt; 1.2.7-atlassian-16의 여러 취약점이 개선되었습니다.</td>
+      <td style="text-align: left">JRASERVER-73885</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">페이지 스크롤 막대를 사용하여 대시보드 메뉴를 스크롤할 수 없습니다.</td>
+      <td style="text-align: left">JRASERVER-73831</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Windows 기본 추출기로 Jira 8.20.8 zip을 추출할 수 없습니다.</td>
+      <td style="text-align: left">JRASERVER-73749</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">NodeRemoved/"노드 비활성화됨" 이벤트만 감사 로그에 기록됩니다.</td>
+      <td style="text-align: left">JRASERVER-73690</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">표에 4번째 행을 추가할 때 표의 상위 2개 행과 겹치는 표 도구가 있습니다.</td>
+      <td style="text-align: left">JRASERVER-73327</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><br /></p>
+
+<h2 id="jira-service-management">Jira Service Management</h2>
+
+<p>이번 분기 내  Jira Service Management는 훨씬 더 나은 제품을 위해 업데이트를 진행중입니다. 버전 업그레이드를 통해 해결할 수 있는 버그 및 개선 사항은 다음과 같습니다 :</p>
+
+<h3 id="-version-422x"><strong>■ Version 4.22.x</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">숫자로 된 사용자 이름을 가진 상담원은 고객 포털에서 이슈를 생성할 때 "대신 이 요청 제기" 필드에 기본값으로 채워지지 않습니다.</td>
+      <td style="text-align: left">JSDSERVER-11256</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">새 이메일 채널을 생성할 때 이메일 서비스 제공업체에 대한 ‘기타’ 옵션이 누락됩니다.</td>
+      <td style="text-align: left">JSDSERVER-11219</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">고객 포털에 여러 단일 사용자 선택기 필드를 추가하면 일부 필드를 편집할 수 없습니다.</td>
+      <td style="text-align: left">JSDSERVER-11136</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">시스템 설정에 콘텐츠 전송 네트워크 시스템 메뉴가 없습니다.</td>
+      <td style="text-align: left">JRASERVER-73655</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">REST API /rest/auth/1/session은 LDAPS 사용자에게 클래스를 찾을 수 없음 예외를 발생시킵니다.</td>
+      <td style="text-align: left">JRASERVER-73266</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">"I/O 리액터가 비정상적으로 종료됨" 오류 후 Jira 웹훅 작동이 중지 됩니다.</td>
+      <td style="text-align: left">JRASERVER-72995</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">@멘션 이메일 알림이 이름 대신 사용자 이름(UID)을 표시합니다.</td>
+      <td style="text-align: left">JRASERVER-72873</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Jira Lucene Reindexing 메시지가 잘못되었습니다.</td>
+      <td style="text-align: left">JRASERVER-72235</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="confluence">Confluence</h2>
+
+<h3 id="-version-717x--718x"><strong>■ Version 7.17.x ~ 7.18.x</strong></h3>
+
+<h3 id="1-1-클러스터의-로깅-수준-변경이-더-쉬워졌습니다">1-1. 클러스터의 로깅 수준 변경이 더 쉬워졌습니다.</h3>
+
+<p>기존 Confluence 에서는 이슈가 발생하였을 때 어떤 노드에서 이슈가 발생했는지 확인하기 어려워 이슈에 대한 사항을 추적하기 어려웠습니다.</p>
+
+<p>이번 업데이트에서는 각 노드별 로그 및 프로파일 설정을 할 수 있기 때문에 각 노드별로 이슈 또는 업데이트 사항에 대한 로그를 확인할 수 있어 변경 사항 및 이슈 추적을 더 쉽게 수행할 수 있습니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Confluence/2022_2Q/1.png" /></center>
+<p><br /></p>
+
+<h3 id="2-보안-어플리케이션-터널로-클라우드-제품에-연결이-가능합니다">2. 보안 어플리케이션 터널로 클라우드 제품에 연결이 가능합니다.</h3>
+
+<p>기존 Confluence 에서는 Atlassian 클라우드와 DC/server 제품을 구분해서 들어오려면 개별적인 네트워크를 열어야 하기 때문에 번거로움을 가지고 있었습니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Confluence/2022_2Q/2.png" /></center>
+<p><br /></p>
+
+<p>하지만 어플리케이션 터널을 사용한다면 네트워크 터널링을 통해 Atlassian Cloud의 조직과 네트워크 제품 사이에 보안 경로를 생성합니다.</p>
+
+<p>이제 이 경로를 통해 안전하고 간편한 방식으로 제품을 통합 할 수 있습니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Confluence/2022_2Q/3.png" /></center>
+<p><br /></p>
+
+<h3 id="3-version-7171에서-해결된-버그">3. <strong>Version 7.17.1~에서 해결된 버그</strong></h3>
+
+<p>2022년 4월 6일 출시 ~ 전체 내용은 <a href="http://atlassian.com/">해결된 이슈</a> 문서에서 확인하실 수 있습니다.</p>
+
+<p><strong>Version 7.18.1에서 해결된 이슈</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">CVE-2022-22965에 대한 FAQ에 설명된 이슈 해결 추적</td>
+      <td style="text-align: left">CONSERVER-78586</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Confluence Data Center - Hazelcast의 Java 역직렬화 취약점(CVE-2016-10750)</td>
+      <td style="text-align: left">CONSERVER-78179</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">HazelCast(Confluence) 포트를 통한 Confluence DataCenter의 RCE</td>
+      <td style="text-align: left">CONSERVER-79017</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Confluence Server 및 Data Center에서 OGNL 주입을 통한 원격 코드 실행 - CVE-2022-26134</td>
+      <td style="text-align: left">CONSERVER-79016</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="version-7180에서-해결된-이슈"><strong>Version 7.18.0에서 해결된 이슈</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">데이터베이스 권한 검사는 Oracle의 역할을 지원하지 않습니다.</td>
+      <td style="text-align: left">CONSERVER-55446</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">기본 Content API 엔드포인트에 도달하면 대규모 인스턴스에서 성능 이슈가 발생할 수 있습니다.</td>
+      <td style="text-align: left">CONSERVER-57639</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">보기 파워포인트 매크로를 사용하거나 미리 보기 생성 시 간단한 PPTX 파일로 인해 OOME가 발생할 수 있습니다.</td>
+      <td style="text-align: left">CONSERVER-61143</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Excel의 표 또는 Word의 서식 있는 콘텐츠를 붙여넣으면 페이지에 추가 이미지 첨부 파일이 삽입됩니다.</td>
+      <td style="text-align: left">CONSERVER-78579</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Confluence: log4j &lt; 1.2.7-atlassian-16의 여러 취약점</td>
+      <td style="text-align: left">CONSERVER-78991</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="version-7174에서-해결된-이슈"><strong>Version 7.17.4에서 해결된 이슈</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">OGNL 템플릿 주입을 통한 인증되지 않은 원격 코드 실행 취약점 - 중복</td>
+      <td style="text-align: left">CONSERVER-79000</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">잘못된 i18n 로케일로 변환된 고급 감사 이벤트가 있습니다.</td>
+      <td style="text-align: left">CONSERVER-79023</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="version-7173에서-해결된-이슈"><strong>Version 7.17.3에서 해결된 이슈</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Excel의 표 또는 Word의 서식 있는 콘텐츠를 붙여넣으면 페이지에 추가 이미지 첨부 파일이 삽입됩니다.</td>
+      <td style="text-align: left">CONSERVER-78579</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="version-7172에서-해결된-이슈"><strong>Version 7.17.2에서 해결된 이슈</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">**Summary**</th>
+      <th style="text-align: left">**Key**</th>
+      <th style="text-align: left">**Status**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Confluence 온프레미스 환경에서 Jira Cloud에 이슈를 생성할 수 없습니다.</td>
+      <td style="text-align: left">CONSERVER-75951</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">빠른 권한은 1000개 이상의 그룹이 있는 사용자를 지원하지 않습니다.</td>
+      <td style="text-align: left">CONSERVER-78296</td>
+      <td style="text-align: left">**DONE**</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.</p>
+
+<p>Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!</p>
+
+<p>감사합니다.😃</p>
+:ET

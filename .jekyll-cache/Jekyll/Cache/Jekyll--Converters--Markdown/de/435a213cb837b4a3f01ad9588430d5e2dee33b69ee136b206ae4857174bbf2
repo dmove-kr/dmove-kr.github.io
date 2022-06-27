@@ -1,0 +1,204 @@
+I"@1<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+
+<p>안녕하세요. 디무브 입니다! :balloon:</p>
+
+<p>이번 시간에는 2022년 2분기 기간 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence의 클라우드 제품 릴리즈 노트를 말씀드리려합니다.</p>
+
+<p>각 제품의 Cloud 버전에 어떠한 변화가 있었는지 여러분과 함께 확인해볼 수 있는 시간을 마련했으니 꼭 확인해보세요!</p>
+
+<hr />
+
+<h2 id="jira-software">Jira Software</h2>
+
+<h3 id="1-클라우드-간-마이그레이션-지원">1. 클라우드 간 마이그레이션 지원</h3>
+
+<p>기존 클라우드 간 마이그레이션 방법은 Zip파일로 클라우드 사이트를 백업 후 새로운 사이트에 복원하는 방법 밖에 없어 백업과 복원간 많은 시간이 소요되며 불완전한 복원으로 인해 Jira를 사용하기 어려웠습니다.</p>
+
+<p>하지만 이제 클라우드 환경에서도 Jira Cloud Migration Assistant 툴이 지원되어 둘 이상의 클라우드 사이트 간의 사용자 정보와 Jira 환경을 마이그레이션 할 수 있습니다. <br /></p>
+
+<center><img sytle="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/1.png" /></center>
+<p><br /></p>
+
+<p>DMARC을 활성화 하면 보낸 사람의 이메일 주소를 서버에 표시되는 이메일 주소와 일치하는 지 확인 후 통과시키며</p>
+
+<p>불일치할 경우 해당 이메일을 차단할 수 있어 보안 위협을 감소시킬 수 있습니다.</p>
+
+<p><a href="https://support.atlassian.com/jira-cloud-administration/docs/manage-dmarc-authentication-for-incoming-emails/">여기</a>를 클릭하여 DMARC 설정에 대해 자세히 알아볼 수 있습니다.</p>
+
+<p><br /></p>
+
+<h3 id="2-볼-수-있는-이슈의-갯수-개선">2. 볼 수 있는 이슈의 갯수 개선</h3>
+
+<p>Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최대 갯수는 100개 정도로 만약 100개 보다 더 많은 갯수의 이슈를 보려면 필터나 이슈 검색을 통해 찾아봐야 하는 불편함이 있었습니다. 하지만 이제 최대 500개 까지의 이슈를 한 이슈 내에서 확인이 가능합니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/2.png" /></center>
+
+<p><br /><center>이슈 보기 화면</center> <br /></p>
+
+<p>또한 로드맵에서 볼 수 있는 이슈의 갯수를 기존 최대 3,000개에서 5,000개 까지 확인할 수 있도록 개선되었습니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/3.png" /></center>
+<p><br /></p>
+
+<center>Jira 로드맵</center>
+<p><br /></p>
+
+<h3 id="3-보드에서-개발-현황-확인">3. 보드에서 개발 현황 확인</h3>
+
+<p>기존의 개발 현황을 확인하기 위해서는 이슈를 클릭한 다음, 이슈 필드의 “Development“ 패널을 통해 개발현황을 확인해야 하여 전체적인 이슈의 개발 현황을 확인할 때는 많은 어려움이 있었습니다.</p>
+
+<p>하지만 이제 Jira의 보드에서 개발 현황을 바로 확인할 수 있습니다. 카드의 브랜치 아이콘에 마우스를 대면 풀 리퀘스트나 브랜치, 커밋 등의 정보를 확인할 수 있어 하나하나 이슈를 접근할 필요 없이 개발 현황을 바로 확인이 가능합니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/4.png" /></center>
+<p><br /></p>
+
+<h3 id="4-대시-보드-복원-jsm도-동일하게-적용">4. 대시 보드 복원 (JSM도 동일하게 적용)</h3>
+
+<p>기존 Jira는 대시보드 삭제 시 복구가 불가능하기 때문에 다시 일일이 만들어야 하는 번거로움이 있었습니다. 이제 프로젝트 처럼 휴지통에 최대 60일 동안 보관이 가능하기 때문에 삭제한 대시보드를 다시 복구할 수 있습니다.</p>
+
+<p>대시보드를 복구하기 위해서는 관리자 계정으로 로그인 후 <strong>시스템 → 좌측 메뉴의 대시보드(Dashboards) →</strong>
+<strong>Show dashboards moved to trash 란을 체크 → Restore</strong>를 클릭하여 복구할 수 있습니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/5.png" /></center>
+
+<center><img style="width: 70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/6.png" /></center>
+
+<h3 id="5-프로젝트-요약-페이지-추가">5. 프로젝트 요약 페이지 추가</h3>
+
+<p>이번에 새롭게 추가된 Jira의 기능 중 하나는 프로젝트 진행상황을 보기 쉽게 한 눈에 볼 수 있는 것입니다.</p>
+
+<p>아래 이미지와 같이 하나의 프로젝트 내 이슈 상태에 따른 프로젝트 진행 상황과 우선 순위, 프로젝트를 진행 중인 사람, 연관된 프로젝트 등을 정리하여 하나의 페이지에 표시됩니다.</p>
+
+<center><img style="width: 70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/7.png" /></center>
+
+<p><br /></p>
+
+<p><strong>버그 개선점</strong></p>
+
+<ul>
+  <li>JQL을 통해 스프린트 검색 시 하위 작업 이슈가 검색되지 않은 이슈를 해결하였습니다.</li>
+</ul>
+
+<hr />
+
+<h2 id="jira-service-management">Jira Service Management</h2>
+
+<h3 id="1-대기열-큐의-성능-및-확장성-향상">1. 대기열 큐의 성능 및 확장성 향상</h3>
+
+<p>1,000개 이상의 이슈가 있는 대기열의 경우 프로젝트 사이드 바에 이슈 수가 999+로 표시됩니다. 이에 큐를 선택하게 되면 정확한 이슈의 갯수가 대기열에 표시되어 모든 대기열에 있는 이슈를 새로 고침 빈도가 줄어들어 성능을 향상 시킬 수 있습니다.</p>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/1.png" /></center>
+<p><br /></p>
+
+<h3 id="2-변경-요청에-대한-리스크를-식별하는-새로운-방법-도입">2. 변경 요청에 대한 리스크를 식별하는 새로운 방법 도입</h3>
+
+<p>이제 변경 요청 사항에 대한 이슈를 볼 때 인사이트 패널을 사용하여 변경 사항을 승인하기 전 변경 사항에 대한 잠재적인 위험 요소를 스캔할 수 있습니다.</p>
+
+<p>스킨 실행 시 다음과 같은 항목이 표시됩니다:</p>
+
+<ul>
+  <li>
+    <p>Changes : 변경 사항으로 설정된 동일한 기간에 하나 이상의 변경 사항이 있는 경우 충돌사항으로 인식하여 표시합니다. 또한 변경 사항의 계획된 종료일로부터 최대 일주일 이내에 계획 되어 있는다른 변경 내용도 보여 줍니다.</p>
+
+    <center><img style="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/2.png" /></center>
+    <p><br /></p>
+  </li>
+  <li>
+    <p>Incidents : 변경 사항 적용 시 영향을 받는 서비스와 관련된 인시던트를 표시합니다.</p>
+  </li>
+</ul>
+
+<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/3.png" /></center>
+<p><br /></p>
+
+<h3 id="3-이해관계자-필드-추가">3. 이해관계자 필드 추가</h3>
+
+<p>인시던트 관리에서 이해관계자는 인시던트 의사결정 등 인시던트 해결을 위해 필요한 존재이며 이해관계자 관리는 인시던트 대응에 있어 중요하면서 어려운 요소입니다. 이에 Jira 이슈에서 발생한 인시던트 내 이해관계자 필드를 추가하여 누가 해당 인시던트의 이해관계자인지 바로 확인할 수 있으며 필요 시 새로운 이해관계자를 추가할 수 있습니다.</p>
+
+<center><img style="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/4.png" /></center>
+<p><br /></p>
+
+<h2 id="confluence">Confluence</h2>
+
+<ul>
+  <li>
+    <center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_1Q/2.png" /></center>
+    <p><br /></p>
+  </li>
+</ul>
+
+<hr />
+
+<p><br /></p>
+
+<h2 id="confluence-1">Confluence</h2>
+
+<h3 id="1-main화면-ui-변경">1. Main화면 UI 변경</h3>
+
+<p>이번 1분기에는 Confluence 메인화면에 많은 변화가 있었습니다.</p>
+
+<p>아래 이미지의 예시와 같이 좌측 메뉴부터 가장 최근에 방문한 페이지, 사이트에서 업데이트 되고 있는 페이지,</p>
+
+<p>가장 최근에 방문한 스페이스, 공지사항으로 구분되어 업데이트 되었습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/1.png" /></center>
+<p><br /></p>
+
+<p><br /></p>
+
+<h3 id="2-다른-스페이스의-템플릿-사용하기">2. 다른 스페이스의 템플릿 사용하기</h3>
+
+<p>기존 Confluence의 템플릿은 전체적으로 사용할 수 있는 템플릿이나 개인 스페이스에 작성한 템플릿만 사용이 가능하며,</p>
+
+<p>다른 스페이스의 템플릿은 사용할 수 없어 템플릿 양식을 복사하여 개인 스페이스에 새로운 템플릿을 만들어 사용해야 하는 불편함이 있었습니다.</p>
+
+<p>이러한 단점을 보완하기 위해 이번 업데이트에는 모든 스페이스의 템플릿을 서로 공유하여 사용이 가능합니다.</p>
+
+<p>페이지를 생성한 후 <strong>“이 스페이스에서 템플릿 선택“</strong> 란의 스페이스를 선택하여 다른 스페이스의 템플릿을 사용할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/2.png" /></center>
+<p><br /></p>
+
+<h3 id="3-url을-사용한-빠른-페이지-작성">3. URL을 사용한 빠른 페이지 작성</h3>
+
+<p>URL에서 웹 브라우저에서 “<strong>make.page</strong>“를 입력하면 Default로 설정된 사이트 내 개인 스페이스에 바로 페이지를 생성할 수 있습니다.</p>
+
+<p>만약 사이트에 개인 스페이스가 없을 경우 가장 최근에 방문한 페이지의 스페이스에 페이지가 생성됩니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/3.gif" /></center>
+<p><br /></p>
+
+<p>웹 URL을 사용한 페이지를 생성하는 방법에 대해 자세히 확인하시려면 <a href="https://community.atlassian.com/t5/Confluence-articles/Productivity-hack-A-new-Confluence-shortcut-to-create-a-page/ba-p/1923079#M3663">여기</a>를 클릭해주세요!</p>
+
+<p><br /></p>
+
+<h3 id="4--사이트-분석-기능-추가">4.  사이트 분석 기능 추가</h3>
+
+<p>상단의 <strong>앱 → Analysis</strong>를 클릭하면 페이지 뷰, 생성, 편집 등에 대한 그래프와 함께</p>
+
+<p>어떤 스페이스를 많이 방문했는지, 누가 페이지를 확인했는지, 어떤 내용을 많이 검색했는지 자세히 확인할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/4.png" /></center>
+<p><br /></p>
+
+<h3 id="5-메일-비활성화-기능-제공">5. 메일 비활성화 기능 제공</h3>
+
+<p>기존에는 Confluence에서 발생하는 이메일을 비활성화 하기 위해서는 메일 핸들러를 비활성화 하거나 개인 설정에서 이메일을 받지 않도록 설정해야 했습니다.</p>
+
+<p>하지만 이제 메일 핸들러를 비활성화 하거나 자체적으로 비활성화 할 필요 없이</p>
+
+<p>Confluence 관리자가 Confluence에서 발생하는 활동에 대한 메일 전송을 비활성화 할 수 있습니다.</p>
+
+<p>해당 기능은 <strong>설정 → 추가 환경 설정 → 이메일 알림</strong> 체크 박스를 비활성화 하면 사용할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_1Q/5.png" /></center>
+<p><br /></p>
+
+<hr />
+
+<p>Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.</p>
+
+<p>Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!</p>
+
+<p>감사합니다.😃</p>
+:ET
