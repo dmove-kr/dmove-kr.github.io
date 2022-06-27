@@ -54,7 +54,7 @@ tags: [Atlassian, Atlassian Data Center, 아틀라시안, 아틀라시안 서버
 
 
 
-## 2. Activity 탭 개선
+### 2. Activity 탭 개선
 
 <center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/2.png"></center> <br/>
 
