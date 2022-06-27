@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 2022 Atlassian 주요 제품 릴리즈 노트 (Apr ~ Jun) - Server & Data Center
+title: 2022 Atlassian 주요 제품 릴리즈 노트 (Apr ~ Jun) - Data Center
 Subtitle: Release Note
 date: 2022-06-27
 categories: [Release Note]
