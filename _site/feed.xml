@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-27T18:16:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">2022 Atlassian 주요 제품 릴리즈 노트 ( Apr ~ Jun) - Cloud</title><link href="http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2022 Atlassian 주요 제품 릴리즈 노트 ( Apr ~ Jun) - Cloud" /><published>2022-06-27T00:00:00+09:00</published><updated>2022-06-27T00:00:00+09:00</updated><id>http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud.html"><![CDATA[<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-27T18:27:48+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dmove Blog</title><subtitle>디무브의 블로그에 오신 걸 환영합니다. 제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. </subtitle><author><name>Dmove</name></author><entry><title type="html">2022 Atlassian 주요 제품 릴리즈 노트 ( Apr ~ Jun) - Cloud</title><link href="http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud.html" rel="alternate" type="text/html" title="2022 Atlassian 주요 제품 릴리즈 노트 ( Apr ~ Jun) - Cloud" /><published>2022-06-27T00:00:00+09:00</published><updated>2022-06-27T00:00:00+09:00</updated><id>http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud</id><content type="html" xml:base="http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud.html"><![CDATA[<p><img src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="릴리즈 노트 이미지" /></p>
 
 <p>안녕하세요. 디무브 입니다! :balloon:</p>
 
@@ -18,12 +18,6 @@
 
 <center><img sytle="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/1.png" /></center>
 <p><br /></p>
-
-<p>DMARC을 활성화 하면 보낸 사람의 이메일 주소를 서버에 표시되는 이메일 주소와 일치하는 지 확인 후 통과시키며</p>
-
-<p>불일치할 경우 해당 이메일을 차단할 수 있어 보안 위협을 감소시킬 수 있습니다.</p>
-
-<p><a href="https://support.atlassian.com/jira-cloud-administration/docs/manage-dmarc-authentication-for-incoming-emails/">여기</a>를 클릭하여 DMARC 설정에 대해 자세히 알아볼 수 있습니다.</p>
 
 <p><br /></p>
 

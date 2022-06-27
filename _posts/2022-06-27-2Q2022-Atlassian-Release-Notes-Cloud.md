@@ -32,7 +32,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 하지만 이제 클라우드 환경에서도 Jira Cloud Migration Assistant 툴이 지원되어 둘 이상의 클라우드 사이트 간의 사용자 정보와 Jira 환경을 마이그레이션 할 수 있습니다. <br/>
 
-<center><img sytle="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/1.png"></center> <br/>
+<center><img sytle="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/1.png"></center> <br/>
 
 
 
@@ -48,7 +48,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최대 갯수는 100개 정도로 만약 100개 보다 더 많은 갯수의 이슈를 보려면 필터나 이슈 검색을 통해 찾아봐야 하는 불편함이 있었습니다. 하지만 이제 최대 500개 까지의 이슈를 한 이슈 내에서 확인이 가능합니다.  
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/2.png"/></center>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/2.png"/></center>
 
 <center> <p style="color:rgba(0,0,0,.55);">이슈 보기 화면</p></center> <br/>
 
@@ -56,7 +56,7 @@ Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최
 
 
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/3.png"/></center> <br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/3.png"/></center> <br/>
 
 <center> <p style="color:rgba(0,0,0,.55);">Jira 로드맵</p></center> <br/>
 
@@ -70,7 +70,7 @@ Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최
 
 하지만 이제 Jira의 보드에서 개발 현황을 바로 확인할 수 있습니다. 카드의 브랜치 아이콘에 마우스를 대면 풀 리퀘스트나 브랜치, 커밋 등의 정보를 확인할 수 있어 하나하나 이슈를 접근할 필요 없이 개발 현황을 바로 확인이 가능합니다.
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/4.png"/></center> <br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/4.png"/></center> <br/>
 
 ### 4. 대시 보드 복원 (JSM도 동일하게 적용)
 
@@ -85,13 +85,13 @@ Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최
 
 
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/5.png"/></center> 
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/5.png"/></center> 
 
 
 
 
 
-<center><img style="width:50%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/6.png"/></center> 
+<center><img style="width:50%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/6.png"/></center> 
 
 
 
@@ -105,7 +105,7 @@ Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최
 
 
 
-<center><img style="width: 70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/7.png"/></center> 
+<center><img style="width: 70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/7.png"/></center> 
 
 <br/>
 
@@ -127,7 +127,7 @@ Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최
 
 
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/1.png"/></center> <br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/1.png"/></center> <br/>
 
 ### 2. 변경 요청에 대한 리스크를 식별하는 새로운 방법 도입
 
@@ -143,7 +143,7 @@ Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최
 
   
 
-  <center><img style="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/2.png"/></center> <br/>
+  <center><img style="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/2.png"/></center> <br/>
 
   
 
@@ -153,7 +153,7 @@ Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최
 
  
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/3.png"/></center> <br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/3.png"/></center> <br/>
 
  
 
@@ -163,7 +163,7 @@ Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최
 
 인시던트 관리에서 이해관계자는 인시던트 의사결정 등 인시던트 해결을 위해 필요한 존재이며 이해관계자 관리는 인시던트 대응에 있어 중요하면서 어려운 요소입니다. 이에 Jira 이슈에서 발생한 인시던트 내 이해관계자 필드를 추가하여 누가 해당 인시던트의 이해관계자인지 바로 확인할 수 있으며 필요 시 새로운 이해관계자를 추가할 수 있습니다.
 
-<center><img style="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/4.png"/></center> <br/>
+<center><img style="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/4.png"/></center> <br/>
 
 ---
 
@@ -179,7 +179,7 @@ Confluence에서 이용 가능한 기존 패널의 경우 5가지 색상 패널�
 
 
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/1.png"/></center> <br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/1.png"/></center> <br/>
 
  <br/>
 
@@ -191,13 +191,13 @@ Confluence에서 이용 가능한 기존 패널의 경우 5가지 색상 패널�
 
  
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/2.png"/></center> <br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/2.png"/></center> <br/>
 
 <center> <p style="color:rgba(0,0,0,.55);">상단 메뉴 바에서 초안 찾기</p></center> <br/>
 
  
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/3.png"/></center> <center> <p style="color:rgba(0,0,0,.55);">프로필에서 초안 찾기</p></center> <br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/3.png"/></center> <center> <p style="color:rgba(0,0,0,.55);">프로필에서 초안 찾기</p></center> <br/>
 
  
 
@@ -215,11 +215,11 @@ Confluence 의 **일괄 보관(Bulk Archive)** 기능은 페이지를 일괄 보
 
 만약 **일괄 보관(Bulk Archive)** 기능을 사용할 수 있는 사용자가 전체 페이지를 보관할 때 특정 페이지를 볼 수 없거나 보관할 수 있는 권한이 없는 페이지가 있을 경우, 권한이 없는 페이지는 생략하고 나머지 페이지는 보관됩니다.
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/4.png"/></center> <br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/4.png"/></center> <br/>
 
 <center> <p style="color:rgba(0,0,0,.55);">기본 페이지 구조</p></center> <br/>
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/5.png"/></center> <br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/5.png"/></center> <br/>
 
 <center> <p style="color:rgba(0,0,0,.55);">사용자가 페이지를 볼 수 있는 권한이 없는 경우 보관 시 볼 수 없는 페이지는 생략되어 표시됩니다.</p></center> <br/>
 
@@ -227,7 +227,7 @@ Confluence 의 **일괄 보관(Bulk Archive)** 기능은 페이지를 일괄 보
 
 페이지 일괄 보관 완료 후 메일이나 알림을 통해 보관이 생략된 페이지가 있음을 알림과 함께 보관할 수 있는 방법을 아래의 이미지와 안내합니다. 
 
-<center><img src="http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/6.png"/></center> <br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/6.png"/></center> <br/>
 
  
 
