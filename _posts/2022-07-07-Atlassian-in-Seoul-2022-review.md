@@ -66,9 +66,17 @@
 오전 10시부터 오후6시까지 궂은 날씨에도 긴 시간 동안 참석해주신 모든 아틀라시안 고객 분들께 다시 한번 감사의 말씀을 드리며, 이번 컨퍼런스를 통해 아틀라시안과 함께할 앞으로의 로드맵에 대한 많은 인사이트를 얻어 가셨길 바랍니다.
 
 
+디무브는 앞으로도 아틀라시안의 플래티넘 솔루션 파트너로 고객 분들께 아틀라시안의 제품과 서비스를 보다 원활하게 제공해드리고 활용하실 수 있도록 도와드리겠습니다.
+
+컨퍼런스의 모든 사진과 발표자료 및 영상이 궁금하신 분들은 [아틀라시안 in 서울 2022 홈페이지](https://www.atlassiankr.com/)에 방문해주시고, 관련하여 궁금하신 점이 있으시다면 언제든지 저희에게 알려주세요!
+
+**Atlassian in Seoul '23** 으로 다시 찾아뵐 그날을 고대하겠습니다.
+
+감사합니다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzMzNTA0MywxNjUxNjAxOTk0LC0xMz
-MxMzMzMzY1LDEzODY4MjU0MTYsLTM4NTY4MDQ5OSwyMDY2NjU4
-MDI1LDE2NTEyOTY5NzYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE2MDc5NTExMzMsMTY1MTYwMTk5NCwtMT
+MzMTMzMzM2NSwxMzg2ODI1NDE2LC0zODU2ODA0OTksMjA2NjY1
+ODAyNSwxNjUxMjk2OTc2LC0yMDg4NzQ2NjEyXX0=
 -->
