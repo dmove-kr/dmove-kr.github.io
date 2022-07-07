@@ -41,7 +41,7 @@
 
 ## ITSM Solution Booth
 
-![](/assets/images/blog/atlassianinseoul_4.png)
+![](/assets/images/blog/atlassianinseoul_5.png)
 
 아틀라시안의 대표 솔루션은 총 4가지로 나뉠 수 있는데, 바로 Scaled Agile, ITSM, DevOps 그리고 Work Management 입니다.
 
@@ -49,7 +49,7 @@
 
 주요 ITSM 프로세스에 대한 데모 영상 및 시연은 물론, 아틀라시안 in 서울의 주제인 ‘아틀라시안 클라우드’에 대한 데모와 마이그레이션 서비스 안내까지, 솔루션 파트너의 입장에서 고객 분들께 제공해 드릴 수 있는 다양한 서비스를 소개해 드릴 수 있는 기회를 갖게 되어서 정말 뜻깊은 시간이었는데요.
 
-![](/assets/images/blog/atlassianinseoul_4.png)
+![](/assets/images/blog/atlassianinseoul_6.png)
 
 정말 많은 고객 분들께서 저희 부스를 찾아 주셔서 아틀라시안의 ITSM과 클라우드에 대한 상담도 하시고, 설문조사 이벤트에도 적극적으로 참여해 주셨습니다.
 
@@ -59,7 +59,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzEzMzMzNjUsMTM4NjgyNTQxNiwtMz
-g1NjgwNDk5LDIwNjY2NTgwMjUsMTY1MTI5Njk3NiwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMTY1MTYwMTk5NCwtMTMzMTMzMzM2NSwxMz
+g2ODI1NDE2LC0zODU2ODA0OTksMjA2NjY1ODAyNSwxNjUxMjk2
+OTc2LC0yMDg4NzQ2NjEyXX0=
 -->
