@@ -56,17 +56,14 @@
 비대면으로만 소통하던 고객 분들을 실제로 뵙기도 하고, 또 새로운 고객 분들께 저희 디무브의 서비스를 알려드릴 수 있어서 매우 기뻤습니다.
 
 ---
-See ou Next Year
+## See you next year! 
 
-오전 10시부터 오후6시까지 궂은 날씨에도 긴 시간 동안 참석해주신 모든 아틀라시안 고객 분들께 다시 한번 감사의 말씀을 드리며,
-
-이번 컨퍼런스를 통해 아틀라시안과 함께할 앞으로의 로드맵에 대한 많은 인사이트를 얻어 가셨길 바랍니다.
-
-![](blob:https://dmove.atlassian.net/879ad21e-4f5a-4e39-bfea-88cf6755320c#media-blob-url=true&id=b39bb0a8-b950-4a7d-b3dd-209935da306a&collection=contentId-35233824891&contextId=35233824891&mimeType=image%2Fjpeg&name=2022.06.30ATLASSIAM%20is%EC%84%9C%EC%9A%B822%20%ED%96%89%EC%82%AC%EC%82%AC%EC%A7%84-286.jpg&size=5868400&width=1046&height=697&alt=)
+dk
+오전 10시부터 오후6시까지 궂은 날씨에도 긴 시간 동안 참석해주신 모든 아틀라시안 고객 분들께 다시 한번 감사의 말씀을 드리며, 이번 컨퍼런스를 통해 아틀라시안과 함께할 앞으로의 로드맵에 대한 많은 인사이트를 얻어 가셨길 바랍니다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzA3Njk5OCwxNjUxNjAxOTk0LC0xMz
-MxMzMzMzY1LDEzODY4MjU0MTYsLTM4NTY4MDQ5OSwyMDY2NjU4
-MDI1LDE2NTEyOTY5NzYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNDMwNTA1ODcxLDE2NTE2MDE5OTQsLTEzMz
+EzMzMzNjUsMTM4NjgyNTQxNiwtMzg1NjgwNDk5LDIwNjY2NTgw
+MjUsMTY1MTI5Njk3NiwtMjA4ODc0NjYxMl19
 -->
