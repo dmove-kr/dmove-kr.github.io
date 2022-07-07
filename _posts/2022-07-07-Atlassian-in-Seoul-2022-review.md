@@ -18,7 +18,26 @@
 대망의 행사 당일, 새벽부터 정말 장대비가 계속 쏟아졌는데요.
 
 너무 많은 비가 와서 고객분들께서 오시는 길이 힘들지 않을까 걱정했지만, 다행히도 많은 분들께서 아틀라시안에 대한 애정과 열정으로 비를 뚫고 참석해 주셨습니다.
+
+![](/assets/images/blog/atlassianinseoul_2.png)
+
+오전 10시가 되자 아틀라시안의 한국 총괄 디렉터인 류윤상 대표님의 #힙하고 #체계적으로 #일하는 방법에 대한 오프닝 키노트를 시작으로 본격적으로 행사가 진행되었습니다. 
+
+오프닝 키노트를 통해 아틀라시안에서 말하는 연결된 경험과 유연함이 어떻게 솔루션화 되어 조직의 협업 문화를 강화하고 업무 프로세스를 디지털화 하는지에 대한 아틀라시안의 신념을 다시 한번 느낄 수 있었습니다.
+
+
+![](/assets/images/blog/atlassianinseoul_3.png)
+
+오전 10시가 되자 아틀라시안의 한국 총괄 디렉터인 류윤상 대표님의 #힙하고 #체계적으로 #일하는 방법에 대한 오프닝 키노트를 시작으로 본격적으로 행사가 진행되었습니다. 
+
+오프닝 키노트를 통해 아틀라시안에서 말하는 연결된 경험과 유연함이 어떻게 솔루션화 되어 조직의 협업 문화를 강화하고 업무 프로세스를 디지털화 하는지에 대한 아틀라시안의 신념을 다시 한번 느낄 수 있었습니다.
+
+또한, 지난 4월 Atlassian Team '22 컨퍼런스에서 최초로 공개되었던 신제품 Atlas, Compass 그리고 Data Lake에 대해서도 한국 고객분들을 대상으로 다시 한번 소개하는 시간이 있었습니다.
+
+그 뒤로 Atlassian Platform 기반의 Open Work Management, ITSM, DevOps, Scaled Agile 솔루션 및 SaaS 전환을 위한 방법론, SaaS 전환에 있어 고민이 필보안/컴플라이언스, 아이덴티티 & 접근 관리 등에 대한 세션이 진행되었는데요.
+
+발표 내용에 대한 보다 자세한 내용은 [아틀라시안 in 서울 2022 홈페이지](https://www.atlassiankr.com/ "https://www.atlassiankr.com/")에서 확인해 보실 수 있습니다!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTY4MDQ5OSwyMDY2NjU4MDI1LDE2NT
-EyOTY5NzYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNDA2MTE1MzE0LC0zODU2ODA0OTksMjA2Nj
+Y1ODAyNSwxNjUxMjk2OTc2LC0yMDg4NzQ2NjEyXX0=
 -->
