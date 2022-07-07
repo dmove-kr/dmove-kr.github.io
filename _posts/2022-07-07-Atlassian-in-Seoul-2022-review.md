@@ -13,6 +13,9 @@
 컨퍼런스에서 소개된 다양한 세션과 부스 현장을 돌아보며 그날의 하이라이트를 공유해드리고자 합니다.
 
 ---
+## Atlassian Sessions
+
+
 ![](/assets/images/blog/atlassianinseoul_1.png)
 
 대망의 행사 당일, 새벽부터 정말 장대비가 계속 쏟아졌는데요.
@@ -36,12 +39,27 @@
 
 ---
 
+## ITSM Solution Booth
 
+![](/assets/images/blog/atlassianinseoul_4.png)
+
+아틀라시안의 대표 솔루션은 총 4가지로 나뉠 수 있는데, 바로 Scaled Agile, ITSM, DevOps 그리고 Work Management 입니다.
+
+디무브에서는 그 중에서 **ITSM**을 주제로 한 솔루션 부스에서 고객 분들을 맞이 하였습니다.
+
+주요 ITSM 프로세스에 대한 데모 영상 및 시연은 물론, 아틀라시안 in 서울의 주제인 ‘아틀라시안 클라우드’에 대한 데모와 마이그레이션 서비스 안내까지, 솔루션 파트너의 입장에서 고객 분들께 제공해 드릴 수 있는 다양한 서비스를 소개해 드릴 수 있는 기회를 갖게 되어서 정말 뜻깊은 시간이었는데요.
+
+![](/assets/images/blog/atlassianinseoul_4.png)
+
+정말 많은 고객 분들께서 저희 부스를 찾아 주셔서 아틀라시안의 ITSM과 클라우드에 대한 상담도 하시고, 설문조사 이벤트에도 적극적으로 참여해 주셨습니다.
+
+비대면으로만 소통하던 고객 분들을 실제로 뵙기도 하고, 또 새로운 고객 분들께 저희 디무브의 서비스를 알려드릴 수 있어서 매우 기뻤습니다.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjgyNTQxNiwtMzg1NjgwNDk5LDIwNj
-Y2NTgwMjUsMTY1MTI5Njk3NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEzMzEzMzMzNjUsMTM4NjgyNTQxNiwtMz
+g1NjgwNDk5LDIwNjY2NTgwMjUsMTY1MTI5Njk3NiwtMjA4ODc0
+NjYxMl19
 -->
