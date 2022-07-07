@@ -11,7 +11,10 @@
 아틀라시안 플래티넘 솔루션 파트너인 디무브에서는 아틀라시안의 주력 솔루션인 ITSM(IT Service Management)과 Cloud Migration 서비스를 주제로 솔루션 부스를 운영하였는데요.
 
 컨퍼런스에서 소개된 다양한 세션과 부스 현장을 돌아보며 그날의 하이라이트를 공유해드리고자 합니다.
+
+---
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODQ3MTE4NCwxNjUxMjk2OTc2LC0yMD
+eyJoaXN0b3J5IjpbMjA2NjY1ODAyNSwxNjUxMjk2OTc2LC0yMD
 g4NzQ2NjEyXX0=
 -->
