@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3년만에 돌아온 아틀라시안 고객 컨퍼런스, 'Atlassian in Seoul 22' 
+title: 3년만에 돌아온 아틀라시안 고객 컨퍼런스, "Atlassian in Seoul 22" 후기
 Subtitle: Atlassian in Seoul 2022
 date: 2022-07-07
 categories: [Inside Atlassian]
@@ -25,20 +25,20 @@ tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Ji
 ## Atlassian Sessions
 
 
-![](/assets/images/blog/atlassianinseoul_1.png)
+![](/assets/images/blog/atlassianinseoul_1.jpg)
 
 대망의 행사 당일, 새벽부터 정말 장대비가 계속 쏟아졌는데요.
 
 너무 많은 비가 와서 고객분들께서 오시는 길이 힘들지 않을까 걱정했지만, 다행히도 많은 분들께서 아틀라시안에 대한 애정과 열정으로 비를 뚫고 참석해 주셨습니다.
 
-![](/assets/images/blog/atlassianinseoul_2.png)
+![](/assets/images/blog/atlassianinseoul_2.jpg)
 
 오전 10시가 되자 아틀라시안의 한국 총괄 디렉터인 류윤상 대표님의 #힙하고 #체계적으로 #일하는 방법에 대한 오프닝 키노트를 시작으로 본격적으로 행사가 진행되었습니다. 
 
 오프닝 키노트를 통해 아틀라시안에서 말하는 연결된 경험과 유연함이 어떻게 솔루션화 되어 조직의 협업 문화를 강화하고 업무 프로세스를 디지털화 하는지에 대한 아틀라시안의 신념을 다시 한번 느낄 수 있었습니다.
 
 
-![](/assets/images/blog/atlassianinseoul_3.png)
+![](/assets/images/blog/atlassianinseoul_3.jpg)
 
 또한, 지난 4월 Atlassian Team '22 컨퍼런스에서 최초로 공개되었던 신제품 [Atlas](http://blog.dmove.kr/inside%20atlassian/2022/04/20/Introducing-Atlas.html), [Compass](http://blog.dmove.kr/inside%20atlassian/2022/04/21/Introducing-Compass.html) 그리고 [Data Lake](http://blog.dmove.kr/inside%20atlassian/2022/04/26/Atlassian-Datalake-and-Analytics.html)에 대해서도 한국 고객분들을 대상으로 다시 한번 소개하는 시간이 있었습니다.
 
@@ -50,7 +50,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Ji
 
 ## ITSM Solution Booth
 
-![](/assets/images/blog/atlassianinseoul_5.png)
+![](/assets/images/blog/atlassianinseoul_5.jpg)
 
 아틀라시안의 대표 솔루션은 총 4가지로 나뉠 수 있는데, 바로 Scaled Agile, ITSM, DevOps 그리고 Work Management 입니다.
 
@@ -58,7 +58,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Ji
 
 주요 ITSM 프로세스에 대한 데모 영상 및 시연은 물론, 아틀라시안 in 서울의 주제인 ‘아틀라시안 클라우드’에 대한 데모와 마이그레이션 서비스 안내까지, 솔루션 파트너의 입장에서 고객 분들께 제공해 드릴 수 있는 다양한 서비스를 소개해 드릴 수 있는 기회를 갖게 되어서 정말 뜻깊은 시간이었는데요.
 
-![](/assets/images/blog/atlassianinseoul_6.png)
+![](/assets/images/blog/atlassianinseoul_6.jpg)
 
 정말 많은 고객 분들께서 저희 부스를 찾아 주셔서 아틀라시안의 ITSM과 클라우드에 대한 상담도 하시고, 설문조사 이벤트에도 적극적으로 참여해 주셨습니다.
 
@@ -67,7 +67,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Ji
 ---
 ## See you next year! 
 
-![](/assets/images/blog/atlassianinseoul_7.png)
+![](/assets/images/blog/atlassianinseoul_7.jpg)
 
 
 아틀라시안 본사 팀 분들은 물론, 디무브를 포함한 아틀라시안의 한국 파트너들도 이번 컨퍼런스에서 보다 많은 고객분들을 직접 만나고 새로운 전략에 대한 아이디어를 드리고자 노력하였는데요. 
