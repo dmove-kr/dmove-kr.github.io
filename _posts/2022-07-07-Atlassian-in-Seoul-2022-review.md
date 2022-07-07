@@ -14,7 +14,11 @@
 
 ---
 
+
+대망의 행사 당일, 새벽부터 정말 장대비가 계속 쏟아졌는데요.
+
+너무 많은 비가 와서 고객분들께서 오시는 길이 힘들지 않을까 걱정했지만, 다행히도 많은 분들께서 아틀라시안에 대한 애정과 열정으로 비를 뚫고 참석해 주셨습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjY1ODAyNSwxNjUxMjk2OTc2LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTMyMDcwNDM5NiwyMDY2NjU4MDI1LDE2NT
+EyOTY5NzYsLTIwODg3NDY2MTJdfQ==
 -->
