@@ -58,12 +58,17 @@
 ---
 ## See you next year! 
 
-dk
+![](/assets/images/blog/atlassianinseoul_7.png)
+
+
+아틀라시안 본사 팀 분들은 물론, 디무브를 포함한 아틀라시안의 한국 파트너들도 이번 컨퍼런스에서 보다 많은 고객분들을 직접 만나고 새로운 전략에 대한 아이디어를 드리고자 노력하였는데요. 
+
 오전 10시부터 오후6시까지 궂은 날씨에도 긴 시간 동안 참석해주신 모든 아틀라시안 고객 분들께 다시 한번 감사의 말씀을 드리며, 이번 컨퍼런스를 통해 아틀라시안과 함께할 앞으로의 로드맵에 대한 많은 인사이트를 얻어 가셨길 바랍니다.
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwNTA1ODcxLDE2NTE2MDE5OTQsLTEzMz
-EzMzMzNjUsMTM4NjgyNTQxNiwtMzg1NjgwNDk5LDIwNjY2NTgw
-MjUsMTY1MTI5Njk3NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTM1NzMzNTA0MywxNjUxNjAxOTk0LC0xMz
+MxMzMzMzY1LDEzODY4MjU0MTYsLTM4NTY4MDQ5OSwyMDY2NjU4
+MDI1LDE2NTEyOTY5NzYsLTIwODg3NDY2MTJdfQ==
 -->
