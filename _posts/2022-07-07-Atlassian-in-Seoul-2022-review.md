@@ -1,6 +1,17 @@
 ![enter image description here](https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/AIS_Banner.png)
 
+안녕하세요, 디무브 입니다! 🎈
 
+지난 6월 30일, Atlassian in 서울 '22 행사가 성황리에 진행되었는데요!
+
+그 동안 코로나 팬데믹으로 인해 직접 만나뵙기 어려웠던 Atlassian의 고객 분들을 무려 3년만에 초청하여 모실 수 있었던 매우 뜻깊은 자리였습니다.
+
+컨퍼런스에서는 다양한 국가에서 방한한 아틀라시안 임직원들의 업계 최신 트렌드와 아틀라시안 로드맵에 대한 흥미로운 세션은 물론 실제 고객 사례를 소개해 드렸습니다.
+
+아틀라시안 플래티넘 솔루션 파트너인 디무브에서는 아틀라시안의 주력 솔루션인 ITSM(IT Service Management)과 Cloud Migration 서비스를 주제로 솔루션 부스를 운영하였는데요.
+
+컨퍼런스에서 소개된 다양한 세션과 부스 현장을 돌아보며 그날의 하이라이트를 공유해드리고자 합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTI5Njk3NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTE0ODQ3MTE4NCwxNjUxMjk2OTc2LC0yMD
+g4NzQ2NjEyXX0=
 -->
