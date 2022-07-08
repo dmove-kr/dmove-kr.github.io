@@ -11,7 +11,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Ji
 
 안녕하세요, 디무브 입니다! 🎈
 
-</br>
+<br/>
 
 지난 6월 30일, Atlassian in 서울 '22 행사가 성황리에 진행되었는데요!
 
@@ -23,7 +23,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Ji
 
 컨퍼런스에서 소개된 다양한 세션과 부스 현장을 돌아보며 그날의 하이라이트를 공유해드리고자 합니다.
 
-</br>
+<br/>
 
 ---
 ## Atlassian Sessions
@@ -35,7 +35,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Ji
 
 너무 많은 비가 와서 고객분들께서 오시는 길이 힘들지 않을까 걱정했지만, 다행히도 많은 분들께서 아틀라시안에 대한 애정과 열정으로 비를 뚫고 참석해 주셨습니다.
 
-</br>
+<br/>
 
 ![](/assets/images/blog/atlassianinseoul_2.jpg)
 
@@ -43,7 +43,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Ji
 
 오프닝 키노트를 통해 아틀라시안에서 말하는 연결된 경험과 유연함이 어떻게 솔루션화 되어 조직의 협업 문화를 강화하고 업무 프로세스를 디지털화 하는지에 대한 아틀라시안의 혁신을 다시 한번 느낄 수 있었습니다.
 
-</br>
+<br/>
 
 ![](/assets/images/blog/atlassianinseoul_3.jpg)
 
@@ -53,7 +53,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Ji
 
 모든 세션에 대한 보다 자세한 내용은 [**아틀라시안 in 서울 2022 홈페이지**](https://www.atlassiankr.com/ "https://www.atlassiankr.com/")에서 확인해 보실 수 있습니다!
 
-</br>
+<br/>
 
 ---
 
@@ -67,7 +67,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Ji
 
 주요 ITSM 프로세스에 대한 데모 영상 및 시연은 물론, 아틀라시안 in 서울의 주제인 ‘아틀라시안 클라우드’에 대한 데모와 마이그레이션 서비스 안내까지, 솔루션 파트너의 입장에서 고객 분들께 제공해 드릴 수 있는 다양한 서비스를 소개해 드릴 수 있는 기회를 갖게 되어서 정말 뜻깊은 시간이었는데요.
 
-</br>
+<br/>
 
 ![](/assets/images/blog/atlassianinseoul_6.jpg)
 
@@ -75,7 +75,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Ji
 
 비대면으로만 소통하던 고객 분들을 실제로 뵙기도 하고, 또 새로운 고객 분들께 저희 디무브의 서비스를 알려드릴 수 있어서 매우 기뻤습니다.
 
-</br>
+<br/>
 
 ---
 ## See you next year! 
@@ -89,7 +89,7 @@ tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Ji
 
 저희에게도 이번 컨퍼런스는 고객 분들의 의견을 생생하게 접할 수 있어 매우 의미있는 시간이었으며, 앞으로도 더욱 많은 고객 분들께서 아틀라시안을 통해 조직의 잠재력을 최대화 하실 수 있도록 열심히 지원해드리겠습니다. 
 
-</br>
+<br/>
 
 컨퍼런스의 모든 사진과 발표자료 및 영상이 궁금하신 분들은 [아틀라시안 in 서울 2022 홈페이지](https://www.atlassiankr.com/)에 방문해주시고, 관련하여 궁금하신 점이 있으시다면 언제든지 저희에게 알려주세요!
 
