@@ -4,6 +4,7 @@ title: "Welcome!"
 description: "기술과 문화 그리고 다양한 소식들을 공유합니다."
 logo: 'assets/images/Dmove.png'
 favicon: 'assets/images/banners/favicon.ico'
+baseurl : "https://blog.dmove.kr"
 url: "https://blog.dmove.kr"
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
