@@ -3,21 +3,15 @@ layout: post
 title: 2021년 6월 아틀라시안 웨비나  - 디지털 트랜스포매이션을 위한 아틀라시안의 IT 서비스 관리
 subtitle: Dmove ITSM 웨비나
 date: 2021-06-07
+author: jenna
+image : assets/images/Blog%20Thumbnails/210607-ITSM Webinar.png
 categories: [Webinars]
-Author: 위거남 차장(디무브)
 tags: [아틀라시안,ITSM,IT서비스,Atlassian,JiraServiceManagement,Jira,지라,협업솔루션,ITIL,디지털트랜스포케이션]
-
-
-
 ---
 
 
 
-![](https://talkit.tv/userfiles/images/file1622460868828.jpg)
 
-
-
-![](https://blog.dmove.kr/assets/images/banners/Webinar/ITSM-Thumbnail.png)
 
 :calendar: 일자 : 2021년 6월 29일 (화)
 
@@ -137,30 +131,15 @@ Atlassian의 공식 파트너인 디무브의 아틀라시안 솔루션 전문�
 </div>
 
 
-
-<br>
+<br/>
 
 <hr>
 
 
 
 
+<center><img src="https://talkit.tv/userfiles/images/file1623075818298.jpg"></center>
 
-  <div style="width: auto; color:#fff !important; float: left; position:relative; min-height: 1px; padding-right: 15px; padding-left: 15px; background-color:#333333; margin-bottom:20px;">
-        <ul style="border: 0 !important; padding-left: 0; margin-bottom: 0; list-style: none; margin-top: 0; margin-block-start: 1em; margin-block-end: 1em;
-margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; display:inline-flex;" id="nav-white ">
-            <li style="font-size: 17px !important; line-height: 23px !important; text-align: -webkit-match-parent;">
-            <a href="#goodsTab" style="background-color:#333333; color:white !important; font-weight:bold; margin-right:10px; " data-toggle="tab">경품 안내</a>
-            </li>
-
-
-        </ul>
-
- <div style="padding:15px 0;">
- <div style="display: block; opacity: 1; padding-bottom:20px !important; transition: opacity .15 linear;" id="goodsTab">
-    <img src="https://talkit.tv/userfiles/images/file1623075818298.jpg" title="file1623075818298.jpg" style=" max-width:100%; display:block; vertical-align: middle; border:0; height: auto;">
-    </div>
-      </div></div>
 
 
 

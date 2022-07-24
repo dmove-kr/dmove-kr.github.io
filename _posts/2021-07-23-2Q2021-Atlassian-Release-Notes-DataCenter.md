@@ -3,6 +3,8 @@ layout: post
 title: 2021 Atlassian 주요 제품 릴리즈 노트 (May ~ Jul) - Server,DC
 Subtitle: Release Note
 date: 2021-07-23
+author : ethan
+image : assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png
 categories: [Release Note]
 tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드, Jira, jira, Jira Cloud, Release, Release Note, Jira Sofrware, Jira Service Management, Confluence,컨플,DevOps, 데브옵스, dev, Dev, 에자일, Agile, Wiki]
 
@@ -11,11 +13,9 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 
 
-![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
 
 
-
-안녕하세요, 디무브 입니다! :balloon:
+안녕하세요, 디무브 입니다! 🎈
 
 
 5월부터 7월까지 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence의 서버와 데이터 센터 버전에 어떠한 변화가 있었는지 정리해 보았습니다.   

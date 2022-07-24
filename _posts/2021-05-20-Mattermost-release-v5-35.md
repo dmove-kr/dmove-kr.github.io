@@ -3,11 +3,13 @@ layout: post
 title: Mattermost v5.35 릴리즈 안내  
 subtitle: 매터모스트 릴리즈 노트  
 date: 2021-05-20
+author : jackson
+image : http://mattermost.com/wp-content/uploads/2021/08/General_Image_1@2x.png
 categories: [Release Note]  
 tags: [Mattermost, Release note, Messenger, Slack-alternative, Opensource, 매터모스트, 사내메신저, 기업용메신저]
 ---
 
-안녕하세요, 디무브 입니다!:balloon:
+안녕하세요, 디무브 입니다! 🎈
 
 5월 17일에 Mattermost의 5.35버전이 배포 되었습니다. 이번 배포에서는 어떠한 기능들이 포함되어 있는 지 한 번 살펴 보겠습니다.
 

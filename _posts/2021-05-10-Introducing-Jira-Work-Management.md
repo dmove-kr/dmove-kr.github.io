@@ -3,13 +3,14 @@ layout: post
 title: 비즈니스 팀을 위한 Jira Work Management를 소개합니다. 
 subtitle: Jira Core가 Jira Work Management 로 새롭게 태어났습니다. 
 date: 2021-05-10
+author : ethan
+image : https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/download-2.png?resize=1560,760&ssl=1
 categories: [Inside Atlassian]
 tags: [Atlassian Team 21, Atlassian, Jira, Jira Work Management, Project Management]
 ---
 
-![banner](https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/04/download-2.png?resize=1560,760&ssl=1)
 
-안녕하세요, 디무브 입니다! :balloon:
+안녕하세요, 디무브 입니다!  🎈
 
 지난 4월 말 진행된 Atlassian Team'21에서 Jira Core Cloud의 향상된 버전인 **"Jira Work Management"** 공개되었습니다. 
 

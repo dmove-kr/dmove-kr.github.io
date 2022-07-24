@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 3년만에 돌아온 아틀라시안 고객 컨퍼런스, "Atlassian in Seoul 22" 후기
+title: 3년만에 돌아온 아틀라시안 고객 컨퍼런스, 'Atlassian in Seoul 22' 후기
 Subtitle: Atlassian in Seoul 2022
 date: 2022-07-07
+image : https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/AIS_Banner.png
 categories: [Inside Atlassian]
 tags: [Atlassian, 아틀라시안, 아틀라시안인서울, Atlassian Cloud, Jira, Confluence, CloudMigration, 아틀라시안클라우드, 디무브, atlassianinseoul, 아틀라시안in서울, Atlas, Compass, Datalake, 아틀라시안행사, 파르나스호텔]
 ---
 
-![enter image description here](https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/AIS_Banner.png)
 
 안녕하세요, 디무브 입니다! 🎈
 

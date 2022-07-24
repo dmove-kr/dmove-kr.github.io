@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Case Study - Zabbix 모니터링 솔루션의 넥슨 재팬 구축 사례
+title: Zabbix Case Study - 넥슨 재팬 구축 사례
 Subtitle: Zabbix Case Study
 date: 2021-08-17
+author : jackson
+image : https://blog.zabbix.com/wp-content/uploads/2020/03/featured_image.png
 categories: [Case Study]
 tags: [Dmove, Zabbix,자빅스, 모니터링솔루션, 모니터링툴, 자빅스 구축, Case Study, Nexon Zapan]
 
 ---
 
-
-
-![](https://blog.zabbix.com/wp-content/uploads/2020/03/featured_image.png)
 
 
 

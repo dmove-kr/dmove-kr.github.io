@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/assets/images/banners/favicon.ico">
+
+<title>2022 Atlassian 주요 제품 릴리즈 노트  ( Apr ~ Jun) - Cloud | Dmove Blog</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>2022 Atlassian 주요 제품 릴리즈 노트 ( Apr ~ Jun) - Cloud | Welcome!</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="2022 Atlassian 주요 제품 릴리즈 노트 ( Apr ~ Jun) - Cloud" />
+<meta name="author" content="jackson" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="기술과 문화 그리고 다양한 소식들을 공유합니다." />
+<meta property="og:description" content="기술과 문화 그리고 다양한 소식들을 공유합니다." />
+<link rel="canonical" href="http://localhost:4000/2Q2022-Atlassian-Release-Notes-Cloud/" />
+<meta property="og:url" content="http://localhost:4000/2Q2022-Atlassian-Release-Notes-Cloud/" />
+<meta property="og:site_name" content="Welcome!" />
+<meta property="og:image" content="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-06-27T00:00:00+09:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" />
+<meta property="twitter:title" content="2022 Atlassian 주요 제품 릴리즈 노트 ( Apr ~ Jun) - Cloud" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"jackson"},"dateModified":"2022-06-27T00:00:00+09:00","datePublished":"2022-06-27T00:00:00+09:00","description":"기술과 문화 그리고 다양한 소식들을 공유합니다.","headline":"2022 Atlassian 주요 제품 릴리즈 노트 ( Apr ~ Jun) - Cloud","image":"https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2Q2022-Atlassian-Release-Notes-Cloud/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/Dmove.png"},"name":"jackson"},"url":"http://localhost:4000/2Q2022-Atlassian-Release-Notes-Cloud/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+<link href="/assets/css/screen.css" rel="stylesheet">
+
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<script src="/assets/js/jquery.min.js"></script>
+
+
+<!--툴팁 추가-->
+<link rel="stylesheet" href="/assets/css/jekyll-glossary-tooltip.css">
+
+
+
+<!-- darkmode 적용 -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+<script src="/assets/js/dark-theme.js"></script>
+<!--
+
+
+-->
+
+
+</head>
+
+
+
+
+<body class="layout-post">
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+    <!-- Begin Logo -->
+
+    
+
+    
+    
+    
+
+
+    <a class="navbar-brand" href="/">
+        <img id="logo" src="/assets/images/Dmove.png" alt="Dmove Blog">
+        </a>
+
+    
+
+
+    
+    <!-- End Logo -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+
+      
+
+        <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+
+
+                
+                <li class="nav-item">
+                
+
+            </li>
+<li class="nav-item">
+               
+          
+          
+
+     
+                
+                
+               
+                <!-- 다크 모드 토글 버튼 -->
+                <div class="darkmode">
+                    <div class="inner">
+                        <input type="radio" name="toggle" id="toggle-radio-light" checked><label for="toggle-radio-light" class="tolight"><i class="fas fa-sun tolight"></i></label>
+                        <input type="radio" name="toggle" id="toggle-radio-dark"><label for="toggle-radio-dark" class="todark"><i class="fas fa-moon todark"></i></label>
+                        <div class="darkmode-bg"></div>
+                    </div>
+                </div>
+        
+            </li>
+    
+
+
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="https://blog.dmove.kr/about.html"> 디무브 소개</a>
+                    </li>
+
+
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="/categories">카테고리</a>
+                </li>
+            
+                <a class="nav-link" href="/index.html">Blog</a>
+                
+            <!--
+                <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+                </li>
+
+            -->           
+                
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://blog.dmove.kr/question.html">문의하기</a>
+                </li>
+
+                
+        
+                <script src="/assets/js/lunr.js"></script>
+<script src="/assets/js/lunr.min.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+</ul>
+<form class="bd-search" onsubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter...">
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+
+            
+
+        <!-- End Menu -->
+
+    </div>
+
+
+    
+    </div>
+
+    
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+
+<div class="container">
+
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+   <!-- <h1 class="sitetitle">Dmove Blog</h1> -->
+   <h1 class="sitetitle">Welcome! Dmove Blog</h1>
+    <p class="lead">
+        기술과 문화 그리고 다양한 소식들을 공유합니다.
+    </p>
+</div>
+
+<!-- Content
+================================================== -->
+<div class="main-content">
+
+    
+    <!-- Begin Article
+================================================== -->
+
+
+
+
+
+<div style="display: flex;">
+
+
+  <session class="container">
+    <div class="row">
+
+        
+        <!-- Post Share -->
+
+        <!--
+        <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=2022 Atlassian 주요 제품 릴리즈 노트  ( Apr ~ Jun) - Cloud&url=http://localhost:4000/2Q2022-Atlassian-Release-Notes-Cloud/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/2Q2022-Atlassian-Release-Notes-Cloud/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2Q2022-Atlassian-Release-Notes-Cloud/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+    <div class="sep">
+    </div>
+    <ul>
+        <li>
+        <a class="small smoothscroll" href="#disqus_thread"></a>
+        </li>
+    </ul>
+    
+</div>
+
+        </div>
+
+    -->
+
+        <!-- Post -->
+        
+        
+        
+
+        <div class="col-md-11 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+
+            <!--                
+                
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" style="width:75px; height:75px; " src="/assets/images/main/img_ourteam_jackson.png" alt="Jackson"> 
+                        
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left" style="margin:auto;">
+                        <p> <a target="_blank" class="link-dark" href="https://dmove.co.kr/company/our-team#jackson">Jackson</a>  
+                            <small>
+                            <span class="post-date"><time class="post-date" datetime="2022-06-27">27 Jun 2022</time></span>           
+                            
+                            </small>
+                        </p>
+                     
+                        
+
+        
+                        
+                    </div>
+                </div>
+                
+
+            -->
+            
+                <!-- Post Title -->
+
+                
+
+                <h1 class="posttitle">2022 Atlassian 주요 제품 릴리즈 노트  ( Apr ~ Jun) - Cloud</h1>
+
+                <hr>
+
+
+                <div class=" b-0 mt-auto">
+                    <div class="wrapfooter">
+                        
+                        <span class="meta-footer-thumb">
+                        
+                        <a target="_blank" href="https://dmove.co.kr/company/our-team#jackson">  <img class="author-thumb" style="width: 75px; height: 75px;" src="/assets/images/main/img_ourteam_jackson.png" alt="Jackson"> </a>
+                        
+                        </span>
+                        <span class="author-meta">
+                        <span class="post-name"><a target="_blank" href="https://dmove.co.kr/company/our-team#jackson">Jackson</a></span>
+                          <span class="post-date" style="font-size: 0.6rem;">Solution Engineer</span>
+                        <br>
+                        
+                      <!--  <span class="post-date">27 Jun 2022</span> -->
+                      <span class="post-date">27 Jun 2022
+                        </span>
+                        <div class="clearfix"></div>
+                    </span>
+</div>
+                </div>
+
+            
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png" alt="2022 Atlassian 주요 제품 릴리즈 노트  ( Apr ~ Jun) - Cloud">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+
+               <!--
+                
+                
+                
+                -->
+
+
+                
+               <div class="post-content">
+                    <!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) -->
+
+<p>안녕하세요. 디무브 입니다! <img class="emoji" title=":balloon:" alt=":balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f388.png" height="20" width="20"></p>
+
+<p>이번 시간에는 2022년 2분기 기간 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence의 클라우드 제품 릴리즈 노트를 말씀드리려합니다.</p>
+
+<p>각 제품의 Cloud 버전에 어떠한 변화가 있었는지 여러분과 함께 확인해볼 수 있는 시간을 마련했으니 꼭 확인해보세요!</p>
+
+<hr>
+
+<h2 id="jira-software">Jira Software</h2>
+
+<h3 id="1-클라우드-간-마이그레이션-지원">1. 클라우드 간 마이그레이션 지원</h3>
+
+<p>기존 클라우드 간 마이그레이션 방법은 Zip파일로 클라우드 사이트를 백업 후 새로운 사이트에 복원하는 방법 밖에 없어 백업과 복원간 많은 시간이 소요되며 불완전한 복원으로 인해 Jira를 사용하기 어려웠습니다.</p>
+
+<p>하지만 이제 클라우드 환경에서도 Jira Cloud Migration Assistant 툴이 지원되어 둘 이상의 클라우드 사이트 간의 사용자 정보와 Jira 환경을 마이그레이션 할 수 있습니다. <br></p>
+
+<center><img sytle="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/1.png"></center>
+<p><br></p>
+
+<p><br></p>
+
+<h3 id="2-볼-수-있는-이슈의-갯수-개선">2. 볼 수 있는 이슈의 갯수 개선</h3>
+
+<p>Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최대 갯수는 100개 정도로 만약 100개 보다 더 많은 갯수의 이슈를 보려면 필터나 이슈 검색을 통해 찾아봐야 하는 불편함이 있었습니다. 하지만 이제 최대 500개 까지의 이슈를 한 이슈 내에서 확인이 가능합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/2.png"></center>
+
+<center> <p style="color:rgba(0,0,0,.55);">이슈 보기 화면</p>
+</center>
+<p><br></p>
+
+<p>또한 로드맵에서 볼 수 있는 이슈의 갯수를 기존 최대 3,000개에서 5,000개 까지 확인할 수 있도록 개선되었습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/3.png"></center>
+<p><br></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">Jira 로드맵</p>
+</center>
+<p><br></p>
+
+<h3 id="3-보드에서-개발-현황-확인">3. 보드에서 개발 현황 확인</h3>
+
+<p>기존의 개발 현황을 확인하기 위해서는 이슈를 클릭한 다음, 이슈 필드의 “Development“ 패널을 통해 개발현황을 확인해야 하여 전체적인 이슈의 개발 현황을 확인할 때는 많은 어려움이 있었습니다.</p>
+
+<p>하지만 이제 Jira의 보드에서 개발 현황을 바로 확인할 수 있습니다. 카드의 브랜치 아이콘에 마우스를 대면 풀 리퀘스트나 브랜치, 커밋 등의 정보를 확인할 수 있어 하나하나 이슈를 접근할 필요 없이 개발 현황을 바로 확인이 가능합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/4.png"></center>
+<p><br></p>
+
+<h3 id="4-대시-보드-복원-jsm도-동일하게-적용">4. 대시 보드 복원 (JSM도 동일하게 적용)</h3>
+
+<p>기존 Jira는 대시보드 삭제 시 복구가 불가능하기 때문에 다시 일일이 만들어야 하는 번거로움이 있었습니다. 이제 프로젝트 처럼 휴지통에 최대 60일 동안 보관이 가능하기 때문에 삭제한 대시보드를 다시 복구할 수 있습니다.</p>
+
+<p>대시보드를 복구하기 위해서는 관리자 계정으로 로그인 후 <strong>시스템 → 좌측 메뉴의 대시보드(Dashboards) →</strong>
+<strong>Show dashboards moved to trash 란을 체크 → Restore</strong>를 클릭하여 복구할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/5.png"></center>
+
+<center><img style="width:50%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/6.png"></center>
+
+<h3 id="5-프로젝트-요약-페이지-추가">5. 프로젝트 요약 페이지 추가</h3>
+
+<p>이번에 새롭게 추가된 Jira의 기능 중 하나는 프로젝트 진행상황을 보기 쉽게 한 눈에 볼 수 있는 것입니다.</p>
+
+<p>아래 이미지와 같이 하나의 프로젝트 내 이슈 상태에 따른 프로젝트 진행 상황과 우선 순위, 프로젝트를 진행 중인 사람, 연관된 프로젝트 등을 정리하여 하나의 페이지에 표시됩니다.</p>
+
+<center><img style="width: 70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/7.png"></center>
+
+<p><br></p>
+
+<p><strong>버그 개선점</strong></p>
+
+<ul>
+  <li>JQL을 통해 스프린트 검색 시 하위 작업 이슈가 검색되지 않은 이슈를 해결하였습니다.</li>
+</ul>
+
+<hr>
+
+<h2 id="jira-service-management">Jira Service Management</h2>
+
+<h3 id="1-대기열-큐의-성능-및-확장성-향상">1. 대기열 큐의 성능 및 확장성 향상</h3>
+
+<p>1,000개 이상의 이슈가 있는 대기열의 경우 프로젝트 사이드 바에 이슈 수가 999+로 표시됩니다. 이에 큐를 선택하게 되면 정확한 이슈의 갯수가 대기열에 표시되어 모든 대기열에 있는 이슈를 새로 고침 빈도가 줄어들어 성능을 향상 시킬 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/1.png"></center>
+<p><br></p>
+
+<h3 id="2-변경-요청에-대한-리스크를-식별하는-새로운-방법-도입">2. 변경 요청에 대한 리스크를 식별하는 새로운 방법 도입</h3>
+
+<p>이제 변경 요청 사항에 대한 이슈를 볼 때 인사이트 패널을 사용하여 변경 사항을 승인하기 전 변경 사항에 대한 잠재적인 위험 요소를 스캔할 수 있습니다.</p>
+
+<p>스캔 실행 시 다음과 같은 항목이 표시됩니다:</p>
+
+<ul>
+  <li>
+    <p>Changes : 변경 사항으로 설정된 동일한 기간에 하나 이상의 변경 사항이 있는 경우 충돌사항으로 인식하여 표시합니다. 또한 변경 사항의 계획된 종료일로부터 최대 일주일 이내에 계획 되어 있는다른 변경 내용도 보여 줍니다.</p>
+
+    <center><img style="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/2.png"></center>
+    <p><br></p>
+  </li>
+  <li>
+    <p>Incidents : 변경 사항 적용 시 영향을 받는 서비스와 관련된 인시던트를 표시합니다.</p>
+  </li>
+</ul>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/3.png"></center>
+<p><br></p>
+
+<h3 id="3-이해관계자-필드-추가">3. 이해관계자 필드 추가</h3>
+
+<p>인시던트 관리에서 이해관계자는 인시던트 의사결정 등 인시던트 해결을 위해 필요한 존재이며 이해관계자 관리는 인시던트 대응에 있어 중요하면서 어려운 요소입니다. 이에 Jira 이슈에서 발생한 인시던트 내 이해관계자 필드를 추가하여 누가 해당 인시던트의 이해관계자인지 바로 확인할 수 있으며 필요 시 새로운 이해관계자를 추가할 수 있습니다.</p>
+
+<center><img style="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/4.png"></center>
+<p><br></p>
+
+<hr>
+
+<h2 id="confluence">Confluence</h2>
+
+<h3 id="1-패널의-커스터마이징">1. 패널의 커스터마이징</h3>
+
+<p>Confluence에서 이용 가능한 기존 패널의 경우 5가지 색상 패널만 제공하여 간단한 정보만 입력해야 했기 때문에 많은 사용자 분들의 아쉬움이 있었습니다. 이제 패널의 커스터마이징을 통해 다양한 색상과 이모지를 추가하여 패널을 구성할 수 있습니다.  커스터 마이징된 패널은 아래와 같이 구성이 가능합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/1.png"></center>
+<p><br></p>
+
+<p><br></p>
+
+<h3 id="2-저장되지-않은-초안-찾기">2. 저장되지 않은 초안 찾기</h3>
+
+<p>이번 분기 업데이트 중 하나는 저장하지 않거나 작성 중 취소한 초안들을 찾을 수 있도록 하였습니다. Confluence 상단 메뉴의 <strong>Recent → Drafts</strong> 로 확인하거나 본인의 프로필로 이동한 후 <strong>Drafts</strong>를 클릭하여 본인이 작성한 초안들을 확인할 수 있습니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/2.png"></center>
+<p><br></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">상단 메뉴 바에서 초안 찾기</p>
+</center>
+<p><br></p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/3.png"></center>
+<center> <p style="color:rgba(0,0,0,.55);">프로필에서 초안 찾기</p>
+</center>
+<p><br></p>
+
+<h3 id="3-보관할-페이지-추천-confluence-프리미엄-플랜에서만-지원합니다">3. 보관할 페이지 추천 (Confluence 프리미엄 플랜에서만 지원합니다)</h3>
+
+<div style="border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);">
+<div style="flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); "><span role="img" style="--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;"><svg style="width: 24; height: 24; role: presentation;"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z" fill="currentColor"></path></svg></span></div> <div class="notebox-text">해당 기능은 Confluence 프리미엄 플랜 기능 중 하나인 Bulk Archive 기능에서 발생하는 이벤트 입니다.</div>
+</div>
+
+<p>Confluence 의 <strong>일괄 보관(Bulk Archive)</strong> 기능은 페이지를 일괄 보관할 때 사용하는 기능이며 스페이스 내 <strong>관리(admin)</strong> 권한이 있는 사용자만 사용이 가능합니다.</p>
+
+<p>만약 <strong>일괄 보관(Bulk Archive)</strong> 기능을 사용할 수 있는 사용자가 전체 페이지를 보관할 때 특정 페이지를 볼 수 없거나 보관할 수 있는 권한이 없는 페이지가 있을 경우, 권한이 없는 페이지는 생략하고 나머지 페이지는 보관됩니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/4.png"></center>
+<p><br></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">기본 페이지 구조</p>
+</center>
+<p><br></p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/5.png"></center>
+<p><br></p>
+
+<center> <p style="color:rgba(0,0,0,.55);">사용자가 페이지를 볼 수 있는 권한이 없는 경우 보관 시 볼 수 없는 페이지는 생략되어 표시됩니다.</p>
+</center>
+<p><br></p>
+
+<p>페이지 일괄 보관 완료 후 메일이나 알림을 통해 보관이 생략된 페이지가 있음을 알림과 함께 보관할 수 있는 방법을 아래의 이미지와 안내합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/6.png"></center>
+<p><br></p>
+
+<hr>
+
+<p>Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.</p>
+
+<p>Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!</p>
+
+<p>감사합니다.😃</p>
+
+                  </div>
+                  
+              
+                
+              
+            </div>
+
+            <!-- Rating -->
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2022-06-27">27 Jun 2022</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Release-Note">Release Note</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Agile">#Agile</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Atlassian">#Atlassian</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Atlassian-Cloud">#Atlassian Cloud</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Confluence">#Confluence</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Dev">#Dev</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#DevOps">#DevOps</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Jira">#Jira</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Jira-Cloud">#Jira Cloud</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Jira-Service-Management">#Jira Service Management</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Jira-Sofrware">#Jira Sofrware</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Release">#Release</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Release-Note">#Release Note</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Wiki">#Wiki</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#dev">#dev</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#jira">#jira</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4">#데브옵스</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#%EC%95%84%ED%8B%80%EB%9D%BC%EC%8B%9C%EC%95%88">#아틀라시안</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#%EC%95%84%ED%8B%80%EB%9D%BC%EC%8B%9C%EC%95%88%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C">#아틀라시안클라우드</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#%EC%97%90%EC%9E%90%EC%9D%BC">#에자일</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#%EC%BB%A8%ED%94%8C">#컨플</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="/Case-Study-Bitbucket-Blog-Posting/"> « Case Study - Bitbucket을 활용하여 자신만의 블로그 포스팅하기</a>
+            
+            
+            <a class="next d-block col-md-6 text-lg-right" href="/2Q2022-Atlassian-Release-Notes-Server/">2022 Atlassian 주요 제품 릴리즈 노트 (Apr ~ Jun) - Data Center » </a>
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+        
+    </div>
+ </session>
+   
+ 
+ 
+ <!--TOC 테스트-->
+
+ <session class="post-article" style="position: sticky; top: 100px; height:400px;">
+    
+    <!--
+    <div class="toc">
+      <h2 style="font-size: 20px;">Table Of Content</h2>
+       <ul><li><a href="#jira-software">Jira Software</a><ul><li><a href="#1-클라우드-간-마이그레이션-지원">1. 클라우드 간 마이그레이션 지원</a></li><li><a href="#2-볼-수-있는-이슈의-갯수-개선">2. 볼 수 있는 이슈의 갯수 개선</a></li><li><a href="#3-보드에서-개발-현황-확인">3. 보드에서 개발 현황 확인</a></li><li><a href="#4-대시-보드-복원-jsm도-동일하게-적용">4. 대시 보드 복원 (JSM도 동일하게 적용)</a></li><li><a href="#5-프로젝트-요약-페이지-추가">5. 프로젝트 요약 페이지 추가</a></li></ul></li><li><a href="#jira-service-management">Jira Service Management</a><ul><li><a href="#1-대기열-큐의-성능-및-확장성-향상">1. 대기열 큐의 성능 및 확장성 향상</a></li><li><a href="#2-변경-요청에-대한-리스크를-식별하는-새로운-방법-도입">2. 변경 요청에 대한 리스크를 식별하는 새로운 방법 도입</a></li><li><a href="#3-이해관계자-필드-추가">3. 이해관계자 필드 추가</a></li></ul></li><li><a href="#confluence">Confluence</a><ul><li><a href="#1-패널의-커스터마이징">1. 패널의 커스터마이징</a></li><li><a href="#2-저장되지-않은-초안-찾기">2. 저장되지 않은 초안 찾기</a></li><li><a href="#3-보관할-페이지-추천-confluence-프리미엄-플랜에서만-지원합니다">3. 보관할 페이지 추천 (Confluence 프리미엄 플랜에서만 지원합니다)</a></li></ul></li></ul>
+
+     </div>
+
+    -->
+
+    
+    <h2 style="font-size: 20px;">Table Of Content</h2>
+    <style type="text/css" media="screen">
+    .post-menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    </style>
+    
+    <div class="post-menu">
+      <div class="post-menu-content"></div>
+    </div>
+    
+    <script>
+      function generateContent() {
+        var menu = document.querySelector(".post-menu");
+        var menuContent =  menu.querySelector(".post-menu-content");
+        var headings = document.querySelector(".post-content").querySelectorAll("h1,h2,h3,h4,h5,h6");
+        var thisfilefullname = document.URL.substring(document.URL.lastIndexOf("/") + 1, document.URL.length);
+    
+        console.log(thisfilefullname);
+        
+        // Hide menu when no headings
+        if (headings.length === 0 || thisfilefullname=="about.html") {
+          return menu.style.display = "none";
+        }
+    
+        // Generate post menu
+        var menuHTML = '';
+        for (var i = 0; i < headings.length; i++) {
+          
+        
+           
+        }
+
+        if(i>=11)
+        {
+          var headings = document.querySelector(".post-content").querySelectorAll("h2");
+          for (var i = 0; i < headings.length; i++) {
+
+      
+            var h = headings[i];
+            
+            menuHTML += (
+              '<li class="h-' + h.tagName.toLowerCase() + '">'
+              // + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+              + '<a href="#' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+  
+             
+          }
+
+
+        }
+
+        else{
+
+          for (var i = 0; i < headings.length; i++) {
+          var h = headings[i];
+          menuHTML += (
+
+
+            '<li class="h-' + h.tagName.toLowerCase() + '">'
+            // + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+            + '<a href="#' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+            }
+        }
+    
+        menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+    
+        // The header element
+        var header = document.querySelector('header.site-header');
+    
+        function doMenuCollapse(index, over_items) {
+          var items = menuContent.firstChild.children;
+    
+          if (over_items == undefined) {
+            over_items = 20;
+          }
+    
+          if (items.length < over_items) {
+            return;
+          }
+    
+          var activeItem = items[index];
+          var beginItem = activeItem
+          var endItem = activeItem
+          var beginIndex = index;
+          var endIndex = index + 1;
+          while (beginIndex >= 0
+            && !items[beginIndex].classList.contains('h-h2')) {
+            beginIndex -= 1;
+          }
+          while (endIndex < items.length
+            && !items[endIndex].classList.contains('h-h2')) {
+            endIndex += 1;
+          }
+          for (var i = 0; i < beginIndex; i++) {
+            item = items[i]
+            if (!item.classList.contains('h-h2')) {
+              item.style.display = 'none';
+            }
+          }
+          for (var i = beginIndex + 1; i < endIndex; i++) {
+            item = items[i]
+            // if (!item.classList.contains('h-h2')) {
+              item.style.display = '';
+            // }
+          }
+          for (var i = endIndex; i < items.length; i++) {
+            item = items[i]
+            if (!item.classList.contains('h-h2')) {
+              item.style.display = 'none';
+            }
+          }
+        }
+    
+        // Init menu collapsed
+        doMenuCollapse(-1);
+    
+        // Active the menu item
+        window.addEventListener('scroll', function (event) {
+          var lastActive = menuContent.querySelector('.active');
+          var changed = true;
+          var activeIndex = -1;
+          for (var i = headings.length - 1; i >= 0; i--) {
+            var h = headings[i];
+            var headingRect = h.getBoundingClientRect();
+            var headerRect = header.getBoundingClientRect();
+            var headerTop = Math.floor(headerRect.top);
+            var headerHeight = Math.floor(headerRect.height);
+            var headerHeight = headerTop + headerHeight + 20;
+            if (headingRect.top <= headerHeight) {
+              var id = 'h-' + h.getAttribute('id');
+              var a = menuContent.querySelector('a[href="#' + id  + '"]');
+              var curActive = a.parentNode;
+              if (curActive) {
+                curActive.classList.add('active');
+                activeIndex = i;
+              }
+              if (lastActive == curActive) {
+                changed = false;
+              }
+              break;
+            }
+          }
+          if (changed) {
+            if (lastActive) {
+              lastActive.classList.remove('active');
+            }
+            doMenuCollapse(activeIndex);
+          }
+          event.preventDefault();
+        });
+      }
+      generateContent();
+    </script>
+    
+    
+    </session>
+
+
+
+
+</div>
+  
+
+  
+    
+
+
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+
+<!--
+
+    <div class="container">
+        <div id="comments" class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'demowebsite'; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+            </div>
+        </div>
+    </div>
+
+-->
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+
+
+</div>
+
+
+<!-- Bottom Alert Bar
+================================================== -->
+<!--<div class="alertbar">
+	<div class="container text-center">
+		<span><img src="/assets/images/Dmove.png" alt="Welcome!"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+            <div class="mc-field-group">
+            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+            </div>
+        </form>
+	</div>
+</div> -->
+
+    
+</div>
+
+<!-- Categories Jumbotron
+================================================== -->
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div class="d-md-flex align-items-center justify-content-center h-100">
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">Categories <span class="d-none d-md-inline">→</span>
+</h2>
+            </div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+            
+            
+                
+                    <a class="mt-1 mb-1" href="/categories#Atlassian-Cloud">Atlassian Cloud (10)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Case-Study">Case Study (7)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Security">Security (4)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Inside-Atlassian">Inside Atlassian (19)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Release-Note">Release Note (14)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#How-To">How To (5)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Webinars">Webinars (11)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Company-News">Company News (4)</a>
+                
+            
+            
+		</div>
+	</div>
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                Copyright © 2022 Dmove Blog 
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <p>TEL: 02-6405-0800 |  email : <a href="mailto:sales@dmove.kr" style="border-bottom: 1px solid;">sales@dmove.kr</a> </p>
+              <!--  <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net -->
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts
+================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="/assets/js/mediumish.js"></script>
+
+
+
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+
+<script id="dsq-count-scr" src="//demowebsite.disqus.com/count.js"></script>
+
+
+</body>
+
+
+</html>

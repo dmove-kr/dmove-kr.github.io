@@ -1,0 +1,358 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body[data-darkmode=on] {
+    background-color: #1e1f21;
+    color: #e8e8e8 !important;
+
+    hr {
+        border-top : 1px solid;
+    }
+
+    p {
+        color : #eaeaea;
+    }
+
+
+    .logo {
+        background-image: url("/assets/images/Dmove-dark.png")
+    }
+
+    .notebox-text{
+        color : black;
+    }
+
+
+    .article-post{
+        font-family: Merriweather;
+        font-size: 18px;
+        line-height: 1.84;
+        color: #eaeaea;
+
+    }
+
+        a {
+    
+            color: #eaeaea;
+            transition: all 0.2s;
+
+            
+        }
+
+        
+
+        
+
+        .link-dark {
+            color: white;
+        }
+
+        //내비게이션 바 색상 
+        @media screen and (min-width:992px) {
+            .navbar-expand-lg .navbar-nav .nav-link {
+                padding-right: 0.8rem;
+                padding-left: 0.8rem;
+            color: #eaeaea;}
+        }
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 0.8rem;
+            padding-left: 0.8rem;
+        color: #eaeaea;}
+       
+
+
+
+        //내비게이션 바 색상
+
+
+        //카드 설정
+
+            //포스트 카드 설정
+        .listfeaturedtag {
+            border: 1px solid #3a3b3d;
+            border-radius: .25rem;
+            transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+        }
+
+
+        .section-title span {
+            border-bottom: 1px solid #eaeaea;
+            display: inline-block;
+            padding-bottom: 20px;
+            margin-bottom: -1px;
+        }
+
+        .section-title h2 {
+            border-bottom: 1px solid #3a3b3d;
+            font-weight: 700;
+            font-size: 1.4rem;
+            margin-bottom: 27px;
+        }
+        
+             .card {
+             
+              background-color: #2c2d30;
+              border-color: #3a3b3d;
+            }
+
+            .card .img-fluid {
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+            border-bottom: 1px solid #3a3b3d;}
+
+            .card-footer {
+                background-color: #2c2d30;
+            }
+        
+            .listfeaturedtag h4.card-text,
+            .listrecent h4.card-text {
+            color: #eaeaea;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            font-weight: 400;
+            }
+
+            .bg-white {
+                border-top: 1px solid #222; 
+                background-color: #2c2d30 !important;
+              }
+              
+
+        //카드 설정
+        
+        
+        .authorpage .author-description {
+            font-size: 1rem;
+            color: #eaeaea;
+        }
+
+        .post-top-meta span {
+            font-size: 0.9rem;
+            color: #eaeaea;
+            display: inline-block;
+        }
+
+
+        ul.tags li a {
+            background: rgba(0, 0, 0, .05);
+            color: #eaeaea;
+            border-radius: 3px;
+            padding: 5px 10px;
+            border: 1px solid white;
+            
+        }
+
+        ul.tags li {
+            display: inline-block;
+            font-size: 0.9rem;
+            margin-top: 20px;
+        }
+        
+
+
+
+        span.post-date,
+        span.post-read {
+        color: #eaeaea;
+        }
+
+
+        .footer {
+            border-top: 1px solid rgba(0, 0, 0, .05) !important;
+            padding-top: 15px;
+            padding-bottom: 12px;
+            font-size: 0.8rem;
+            color: #eaeaea;
+            margin-top: 50px;
+            margin-bottom: 62px;
+            position: relative;
+            background: #222;
+        }
+
+        
+
+
+        .modal-content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 100%; // Ensure `.modal-content` extends the full width of the parent `.modal-dialog`
+            // counteract the pointer-events: none; in the .modal-dialog
+            pointer-events: auto;
+            outline: 0;
+            background-color: #222;
+          }
+
+
+        .post-menu {
+            padding-left: 20px;
+            min-width: 200px;
+            max-width: 450px;
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
+            margin-right: 0px;
+            font-weight: 600;
+          
+            .post-menu-title {
+              
+              margin-bottom: 14px;
+           
+              color: #222;
+            }
+          
+            .post-menu-content {
+        
+                $text-color:       #454545 !default;
+              ul {
+                border-left: 1px solid #e9ecef;
+              //  $indent: $base-font-size / 4;
+               $active-bgcolor: #ecebec;
+          
+                
+        
+            .h-h2{
+                font-size: 0.85rem;
+            }
+        
+            .h-h3{
+                font-size: 0.75rem;
+                margin-left: 15px;
+            }
+               
+                
+                a {
+                  display: flex;
+                  padding: 2px 8px;
+                  color: #eaeaea;
+          
+                  * {
+                    pointer-events: none;
+                  }
+          
+                  &:hover {
+                    text-decoration: none;
+                    color: #21adad;
+                   // color: lighten($text-color, 20%)!important;
+                  }
+                }
+          
+                .active {
+                  background-color: $active-bgcolor;
+                  transition: background 0.5s;
+                  border-left: 2px solid #202020;
+                  margin-left: -2px;
+          
+                  &:hover {
+                    background-color: lighten($active-bgcolor, 2%);
+                  }
+          
+                  a {
+                    color: #121416;
+                  }
+                }
+              }
+            }
+          }
+          
+
+
+    
+}
+/* Darkmode Toggle */
+body[data-darkmode=on] .darkmode > .inner{
+    
+    max-height: 40px;
+
+}
+.darkmode > .inner{
+    position: relative;
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 1.5em;
+    
+   
+}
+.darkmode label {
+    cursor: pointer;
+}
+.darkmode label:first-of-type{
+    padding: 5px 5px 5px 10px;
+    border-radius: 50% 0 0 50%;
+}
+.darkmode label:last-of-type{
+    padding: 5px 10px 5px 5px;
+    border-radius: 0 50% 50% 0;
+}
+.darkmode i{
+    font-size: 1.5em;
+    color: #aaa;
+}
+.darkmode input[type=radio]{
+    display: none;
+}
+.darkmode input[type=radio]:checked + label > i {
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+}
+.darkmode .darkmode-bg{
+    width: 39px;
+    height: 34px;
+    position: absolute;
+    left: 5px;
+    border-radius: 50px 15px 15px 50px;
+    z-index: -1;
+    transition: all 0.35s ease-in-out;
+    background-color: #03a9f4;
+}
+
+
+
+
+#toggle-radio-dark:checked ~ .darkmode-bg{
+    border-radius: 15px 50px 50px 15px;
+    top: 5px;
+    left: 44px;
+}
+
+ #toggle{
+            display: inline-flex;
+            padding: 5px;
+            border-radius: 1.5em;
+            background-color: #82d8ff;
+        }
+        #toggle i{
+            font-size: 1.5em;
+            padding: 5px;
+            background-color: #fff;
+            
+        }
+        #light-mode{
+            border-radius: 50% 0 0 50%;
+        }
+        #dark-mode{
+            border-radius: 0 50% 50% 0;
+        }
+        #toggle input{
+            display: none;
+        }
+        #toggle input[type=radio]:checked + label > i {
+            background-color: #82d8ff;
+            color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
+
+
+

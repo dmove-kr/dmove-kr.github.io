@@ -2,15 +2,16 @@
 
 layout: post
 title: 2021 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Apr) -Server, DC
-subtitle: Atlassian Release Note
+subtitle: Release Note
 date: 2021-05-06 15:48:00
+author : ethan
+image : assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png
 categories: [Release Note]
 tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Server,Data Center, Atlassian, 아틀라시안, 아틀라시안데이터센터]
 ---
 
-![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
 
-안녕하세요, 디무브 입니다! :balloon:
+안녕하세요, 디무브 입니다! 🎈
 
 
 지난 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었는데요. 

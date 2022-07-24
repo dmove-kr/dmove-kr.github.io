@@ -3,12 +3,14 @@ layout: post
 title: 아틀라시안 마켓플레이스를 활용한 팀워크 활성화
 Subtitle: 아틀라시안 마켓플레이스를 활용한 팀워크 활성화
 date: 2022-05-12
+author : jamie
+image : https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/1120-x-545-px@2x-1560x760.png
 categories: [Inside Atlassian]
-tags: [Atlassian, Marketplace, 아틀라시안, 마켓플레이스, 팀워크, teamwork. Teamwork, confluence, jira, ]
+tags: [Atlassian, Marketplace, 아틀라시안, 마켓플레이스, 팀워크, teamwork. Teamwork, confluence, jira ]
 ---
 
 
-![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/1120-x-545-px@2x-1560x760.png)
+
 
 <br/>
 

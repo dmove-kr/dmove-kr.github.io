@@ -3,12 +3,14 @@ layout: post
 title: 2022년 5월 디무브 웨비나 안내 - IT혁신을 위한 아틀라시안 클라우드 마이그레이션 전략
 Subtitle: Atlassian Cloud Migration Webinar
 date: 2022-05-18
+author : jenna
+image : assets/images/Blog%20Thumbnails/220518-Migration Webinar.png
 categories: [Webinars]
 tags: [Atlassian, 아틀라시안, 아틀라시안웨비나, Atlassian Cloud, Jira, Confluence, CloudMigration, Servertocloud, 클라우드마이그레이션, 아틀라시안클라우드, 디무브, Atlassianwebinar]
 ---
 
 
-![Title](https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/Cloud%20Migration%20Webinar%20Title_2_1.png)
+
 
 안녕하세요. 디무브 입니다. 🎈 
 

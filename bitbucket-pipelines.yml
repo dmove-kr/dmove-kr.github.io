@@ -1,0 +1,19 @@
+#  Template Ruby build
+
+#  This template allows you to validate your Ruby code.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: ruby:2.7
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: Blog Jekyll build
+          script:
+            - bundle update
+            - bundle install
+            - jekyll build
+     
+
+

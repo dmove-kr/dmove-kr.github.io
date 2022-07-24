@@ -1,16 +1,18 @@
 ---
 
 layout: post
-title: Atlassian Team '22 - 오프닝 키노트 "Culture eats strategy for breakfast"
+title: Atlassian Team '22 - 오프닝 키노트 (Culture eats strategy for breakfast)
 Subtitle: Culture eats strategy for breakfast
 date: 2022-04-14
+author : jenna
+image : assets/images/blog/Team22%20banner.png
 categories: [Inside Atlassian]
 tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere, Scottfarquhar, Lasvegas, 아틀라시안컨퍼런스, cultureeatsstrategyforbreakfast, postcovid, atlas, compass, datalake, atlassiananlytics, team22keynote, 아틀라스, 컴파스, chartio]
 
 ---
 
 
-![Team22 banner](/assets/images/blog/Team22 banner.png)
+
 
 안녕하세요, 디무브 입니다! 🎈
 

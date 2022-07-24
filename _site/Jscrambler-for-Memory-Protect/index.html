@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/assets/images/banners/favicon.ico">
+
+<title>스펙터 취약점에 대응하기 위한 메모리 보호 솔루션 | Dmove Blog</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>스펙터 취약점에 대응하기 위한 메모리 보호 솔루션 | Welcome!</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="스펙터 취약점에 대응하기 위한 메모리 보호 솔루션" />
+<meta name="author" content="jenna" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="메모리 보호 - 스펙터 취약점 대응" />
+<meta property="og:description" content="메모리 보호 - 스펙터 취약점 대응" />
+<link rel="canonical" href="http://localhost:4000/Jscrambler-for-Memory-Protect/" />
+<meta property="og:url" content="http://localhost:4000/Jscrambler-for-Memory-Protect/" />
+<meta property="og:site_name" content="Welcome!" />
+<meta property="og:image" content="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202021-04-15%20%EC%98%A4%ED%9B%84%202.10.54.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-04-15T00:00:00+09:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202021-04-15%20%EC%98%A4%ED%9B%84%202.10.54.png" />
+<meta property="twitter:title" content="스펙터 취약점에 대응하기 위한 메모리 보호 솔루션" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"jenna"},"dateModified":"2021-04-15T00:00:00+09:00","datePublished":"2021-04-15T00:00:00+09:00","description":"메모리 보호 - 스펙터 취약점 대응","headline":"스펙터 취약점에 대응하기 위한 메모리 보호 솔루션","image":"https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202021-04-15%20%EC%98%A4%ED%9B%84%202.10.54.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Jscrambler-for-Memory-Protect/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/Dmove.png"},"name":"jenna"},"url":"http://localhost:4000/Jscrambler-for-Memory-Protect/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+<link href="/assets/css/screen.css" rel="stylesheet">
+
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<script src="/assets/js/jquery.min.js"></script>
+
+
+<!--툴팁 추가-->
+<link rel="stylesheet" href="/assets/css/jekyll-glossary-tooltip.css">
+
+
+
+<!-- darkmode 적용 -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+<script src="/assets/js/dark-theme.js"></script>
+<!--
+
+
+-->
+
+
+</head>
+
+
+
+
+<body class="layout-post">
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+    <!-- Begin Logo -->
+
+    
+
+    
+    
+    
+
+
+    <a class="navbar-brand" href="/">
+        <img id="logo" src="/assets/images/Dmove.png" alt="Dmove Blog">
+        </a>
+
+    
+
+
+    
+    <!-- End Logo -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+
+      
+
+        <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+
+
+                
+                <li class="nav-item">
+                
+
+            </li>
+<li class="nav-item">
+               
+          
+          
+
+     
+                
+                
+               
+                <!-- 다크 모드 토글 버튼 -->
+                <div class="darkmode">
+                    <div class="inner">
+                        <input type="radio" name="toggle" id="toggle-radio-light" checked><label for="toggle-radio-light" class="tolight"><i class="fas fa-sun tolight"></i></label>
+                        <input type="radio" name="toggle" id="toggle-radio-dark"><label for="toggle-radio-dark" class="todark"><i class="fas fa-moon todark"></i></label>
+                        <div class="darkmode-bg"></div>
+                    </div>
+                </div>
+        
+            </li>
+    
+
+
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="https://blog.dmove.kr/about.html"> 디무브 소개</a>
+                    </li>
+
+
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="/categories">카테고리</a>
+                </li>
+            
+                <a class="nav-link" href="/index.html">Blog</a>
+                
+            <!--
+                <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+                </li>
+
+            -->           
+                
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://blog.dmove.kr/question.html">문의하기</a>
+                </li>
+
+                
+        
+                <script src="/assets/js/lunr.js"></script>
+<script src="/assets/js/lunr.min.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+</ul>
+<form class="bd-search" onsubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter...">
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+
+            
+
+        <!-- End Menu -->
+
+    </div>
+
+
+    
+    </div>
+
+    
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+
+<div class="container">
+
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+   <!-- <h1 class="sitetitle">Dmove Blog</h1> -->
+   <h1 class="sitetitle">Welcome! Dmove Blog</h1>
+    <p class="lead">
+        기술과 문화 그리고 다양한 소식들을 공유합니다.
+    </p>
+</div>
+
+<!-- Content
+================================================== -->
+<div class="main-content">
+
+    
+    <!-- Begin Article
+================================================== -->
+
+
+
+
+
+<div style="display: flex;">
+
+
+  <session class="container">
+    <div class="row">
+
+        
+        <!-- Post Share -->
+
+        <!--
+        <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=스펙터 취약점에 대응하기 위한 메모리 보호 솔루션&url=http://localhost:4000/Jscrambler-for-Memory-Protect/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/Jscrambler-for-Memory-Protect/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Jscrambler-for-Memory-Protect/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+    <div class="sep">
+    </div>
+    <ul>
+        <li>
+        <a class="small smoothscroll" href="#disqus_thread"></a>
+        </li>
+    </ul>
+    
+</div>
+
+        </div>
+
+    -->
+
+        <!-- Post -->
+        
+        
+        
+
+        <div class="col-md-11 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+
+            <!--                
+                
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" style="width:75px; height:75px; " src="/assets/images/main/img_ourteam_jenna.png" alt="Jenna"> 
+                        
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left" style="margin:auto;">
+                        <p> <a target="_blank" class="link-dark" href="https://dmove.co.kr/company/our-team#jenna">Jenna</a>  
+                            <small>
+                            <span class="post-date"><time class="post-date" datetime="2021-04-15">15 Apr 2021</time></span>           
+                            
+                            </small>
+                        </p>
+                     
+                        
+
+        
+                        
+                    </div>
+                </div>
+                
+
+            -->
+            
+                <!-- Post Title -->
+
+                
+
+                <h1 class="posttitle">스펙터 취약점에 대응하기 위한 메모리 보호 솔루션</h1>
+
+                <hr>
+
+
+                <div class=" b-0 mt-auto">
+                    <div class="wrapfooter">
+                        
+                        <span class="meta-footer-thumb">
+                        
+                        <a target="_blank" href="https://dmove.co.kr/company/our-team#jenna">  <img class="author-thumb" style="width: 75px; height: 75px;" src="/assets/images/main/img_ourteam_jenna.png" alt="Jenna"> </a>
+                        
+                        </span>
+                        <span class="author-meta">
+                        <span class="post-name"><a target="_blank" href="https://dmove.co.kr/company/our-team#jenna">Jenna</a></span>
+                          <span class="post-date" style="font-size: 0.6rem;">Marketing Manager</span>
+                        <br>
+                        
+                      <!--  <span class="post-date">15 Apr 2021</span> -->
+                      <span class="post-date">15 Apr 2021
+                        </span>
+                        <div class="clearfix"></div>
+                    </span>
+</div>
+                </div>
+
+            
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-04-15%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.10.54.png" alt="스펙터 취약점에 대응하기 위한 메모리 보호 솔루션">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+
+               <!--
+                
+                
+                
+                -->
+
+
+                
+               <div class="post-content">
+                    <h2 id="메모리-보호---스펙터-취약점-대응">메모리 보호 - 스펙터 취약점 대응</h2>
+
+<p>안녕하세요, 디무브 입니다! 🎈</p>
+
+<p><strong>“스펙터(Spectre)”</strong> 는 발견 된 지 3년이 지난 취약점이지만 여전히 악용할 수 있는 여지가 남아있어 보안 전문가들에게 많은 우려 사항을 안겨주고 있습니다.</p>
+
+<p>Google은 최근 스펙터 취약점에 대한 PoC 익스플로잇(Exploit)을 <a href="https://security.googleblog.com/2021/03/a-spectre-proof-of-concept-for-spectre.html">보안 블로그</a>에 게시했습니다.</p>
+
+<p>이 포스팅에서는 개발 팀이 애플리케이션 수준의 완화 조치를 배포해야하는 이유와 메모리 보호가 Spectre 공격에 대해 어떻게 추가적으로 방어하는지 설명해 줍니다.</p>
+
+<p>이를 기반으로 스펙터 취약점에 대응하기 위하여 왜 Jscrambler가 필요한지 소개해 드리겠습니다.</p>
+
+<hr>
+
+<h3 id="스펙터-공격spectre-attacks이란">스펙터 공격(Spectre Attacks)이란?</h3>
+
+<p>스펙터 공격은 본질적으로 서로 다른 응용 프로그램 간의 격리를 깨고 에러가 없는 프로그램(error-free program)을 속여 기밀 정보가 누출될 수 있게 합니다. 
+CPU의 최적화 기능(브랜치 예측)의 결점을 이용하여 프로그램이 메모리에 접근한 다음 사이드 채널에서 읽도록 강제하는 것입니다.</p>
+
+<p>이러한 특성으로 인해 스펙터 취약점은 웹 앱을 포함한 다양한 유형의 애플리케이션에 대한 공격을 허용합니다. 
+공격자는 프로세서와 온칩 메모리가 상호 작용하는 이러한 방식을 악용하여 브라우저의 여러 웹 사이트에서 민감한 정보를 추출할 수 있습니다.</p>
+
+<p>정부, 의료 및 금융 앱과 같이 매우 민감한 데이터를 처리하는 애플리케이션에서 이러한 공격은 심각한 결과를 초래할 수 있습니다.</p>
+
+<p>앱의 메모리를 악용하려는 공격자의 동기는 일반적으로 다음과 같습니다.</p>
+
+<p>■ 코드를 리버스 엔지니어링하고 그 매커니즘 이해</p>
+
+<p>■ 앱의 동작을 수정하고 새로운 기능에 접근</p>
+
+<p>■ 민감한 데이터에 접근 및 검색</p>
+
+<p>문제는, 이러한 스펙터 공격과 관련하여 브라우저 공급 업체의 노력(<a href="https://www.chromium.org/Home/chromium-security/site-isolation">Site Isolation</a>, <a href="https://www.chromium.org/developers/design-documents/oop-iframes">out-of-process iframes</a>, <a href="https://www.chromium.org/Home/chromium-security/corb-for-developers">Cross-Origin Read Blocking</a> 등)에도 불구하고 공격을 완화할 수 있는 궁극적인 솔루션이 아직 없다는 것입니다.</p>
+
+<p>이러한 공격을 완전히 완화하기 위해 필요한 변경 사항은 프로세서 아키텍처(하드웨어) 수준이며 몇 년이 걸릴 수 있습니다.</p>
+
+<p>그러나 애플리케이션 소유자는 지금 당장 조치를 취하여 민감한 데이터를 보호하고 공격자가 읽을 수 있는 메모리의 일부에 데이터가 존재하지 않도록 해야합니다.</p>
+
+<p>PoC 익스플로잇에서 구글은 웹 개발자가 교차 출처 리소스에 대한 엑세스를 적극적으로 거부하는 새로운 매커니즘을 사용하여, 사이트를 보다 강력하게 격리하는 것을 권장하였습니다.</p>
+
+<p>또한 개발자들을 위한 구체적인 조언과 함께 <a href="https://w3c.github.io/webappsec-post-spectre-webdev/">포스트 스펙터 웹 개발</a> 및 <a href="https://blog.chromium.org/2021/03/mitigating-side-channel-attacks.html">사이드 채널 공격 완화</a>에 대한 게시물을 공유했습니다.</p>
+
+<hr>
+
+<h3 id="추가-방어선을-통한-메모리-보호">추가 방어선을 통한 메모리 보호</h3>
+
+<p>웹 앱에 대한 스펙터 공격의 결과로 수백만개의 민감한 데이터 기록이 유출될 수 있으므로 애플리케이션 소유자는 추가 방어선을 찾아야 하며, 그 중 하나가 바로 메모리 보호입니다.</p>
+
+<p>웹 앱의 맥락에서 메모리 보호(Memory Protection)는 Jscrambler에서 개발 한 방어 기술로 메모리의 민감한 데이터를 암호화하고 애플리케이션이 엑세스해야 하는 경우에만 해독하는 것을 말합니다.</p>
+
+<p>이 방어 기술은  최첨단 암호화 알고리즘을 사용하여 객체 및 배열과 같은 복잡한 구조의 문자열과 숫자를 적용할 수 있습니다.</p>
+
+<p>결과적으로 공격자가 일부 데이터를 검색해도 암호화되어있기 때문에 쓸모가 없게 될 가능성이 높습니다.</p>
+
+<p>성능에 큰 영향을 주지 않으려면 지속적으로 엑세스하는 데이터 구조에 메모리 보호를 적용하는 것이 아니라, 자주 엑세스하지 않는 데이터 구조에 메모리 보호를 적용하는 것이 중요합니다.</p>
+
+<p>키, 인증 토큰 등이 있지만 이것만으로는 공격자가 메모리에서 민감한 데이터를 긁어내는 것을 막을 수 없다는 점을 유의해야 합니다.</p>
+
+<p>그러나 브라우저 방어 및 기타 애플리케이션 수준 완화 조치와 함께 사용하면 잠재적 공격에 대한 위험성을 크게 줄일 수 있습니다.</p>
+
+<hr>
+
+<h3 id="결론">결론</h3>
+
+<p>스펙터 공격에 대한 완전한 방어를 위해 하드웨어 변경이 필요한 동안, 웹 앱에 대한 위험을 대비하기 위한 확실한 해결을 기다리기에는 큰 부담으로 다가 올 것입니다.</p>
+
+<p>때문에, 최신의 브라우저 방어와 Jscrambler의 메모리 보호 기능과의 조합은 이러한 공격의 영향을 크게 줄여 줄여주고 애플리케이션 소유자가 안심할 수 있도록 도와줍니다.</p>
+
+<p>특히 다른 권장 방어 전략과 함께 사용할 때 더욱 큰 시너지 효과를 볼 수 있습니다.</p>
+
+<blockquote>
+  <p><em>원글 출처: https://blog.jscrambler.com/memory-protection-an-extra-line-of-defense-against-spectre-attacks/</em></p>
+</blockquote>
+
+<hr>
+
+<p>Jscrambler 에 대해 더 알고 싶으신 가요?</p>
+
+<p>보다 철저한 방어 전략을 위해 Jscrambler 도입을 고려하신다면, 언제든지 디무브에게 문의해주세요.</p>
+
+<p>감사합니다. <img class="emoji" title=":smiley:" alt=":smiley:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f603.png" height="20" width="20">
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNDUzOTkyMjg1XX0=
+--></p>
+
+                  </div>
+                  
+              
+                
+              
+            </div>
+
+            <!-- Rating -->
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2021-04-15">15 Apr 2021</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Security">Security</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Jscrambler">#Jscrambler</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Memory-Protect">#Memory Protect</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Security">#Security</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Spector">#Spector</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#%EC%8A%A4%ED%8E%99%ED%84%B0%EA%B3%B5%EA%B2%A9">#스펙터공격</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="/Mattermost-vs-Slack/"> « 기업용 메신저 비교 분석 - Mattermost vs Slack</a>
+            
+            
+            <a class="next d-block col-md-6 text-lg-right" href="/communication-channels-workplace/">협업의 기본 - 업무용 커뮤니케이션 채널 가이드 » </a>
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+        
+    </div>
+ </session>
+   
+ 
+ 
+ <!--TOC 테스트-->
+
+ <session class="post-article" style="position: sticky; top: 100px; height:400px;">
+    
+    <!--
+    <div class="toc">
+      <h2 style="font-size: 20px;">Table Of Content</h2>
+       <ul><li><a href="#메모리-보호---스펙터-취약점-대응">메모리 보호 - 스펙터 취약점 대응</a><ul><li><a href="#스펙터-공격spectre-attacks이란">스펙터 공격(Spectre Attacks)이란?</a></li><li><a href="#추가-방어선을-통한-메모리-보호">추가 방어선을 통한 메모리 보호</a></li><li><a href="#결론">결론</a></li></ul></li></ul>
+
+     </div>
+
+    -->
+
+    
+    <h2 style="font-size: 20px;">Table Of Content</h2>
+    <style type="text/css" media="screen">
+    .post-menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    </style>
+    
+    <div class="post-menu">
+      <div class="post-menu-content"></div>
+    </div>
+    
+    <script>
+      function generateContent() {
+        var menu = document.querySelector(".post-menu");
+        var menuContent =  menu.querySelector(".post-menu-content");
+        var headings = document.querySelector(".post-content").querySelectorAll("h1,h2,h3,h4,h5,h6");
+        var thisfilefullname = document.URL.substring(document.URL.lastIndexOf("/") + 1, document.URL.length);
+    
+        console.log(thisfilefullname);
+        
+        // Hide menu when no headings
+        if (headings.length === 0 || thisfilefullname=="about.html") {
+          return menu.style.display = "none";
+        }
+    
+        // Generate post menu
+        var menuHTML = '';
+        for (var i = 0; i < headings.length; i++) {
+          
+        
+           
+        }
+
+        if(i>=11)
+        {
+          var headings = document.querySelector(".post-content").querySelectorAll("h2");
+          for (var i = 0; i < headings.length; i++) {
+
+      
+            var h = headings[i];
+            
+            menuHTML += (
+              '<li class="h-' + h.tagName.toLowerCase() + '">'
+              // + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+              + '<a href="#' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+  
+             
+          }
+
+
+        }
+
+        else{
+
+          for (var i = 0; i < headings.length; i++) {
+          var h = headings[i];
+          menuHTML += (
+
+
+            '<li class="h-' + h.tagName.toLowerCase() + '">'
+            // + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+            + '<a href="#' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+            }
+        }
+    
+        menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+    
+        // The header element
+        var header = document.querySelector('header.site-header');
+    
+        function doMenuCollapse(index, over_items) {
+          var items = menuContent.firstChild.children;
+    
+          if (over_items == undefined) {
+            over_items = 20;
+          }
+    
+          if (items.length < over_items) {
+            return;
+          }
+    
+          var activeItem = items[index];
+          var beginItem = activeItem
+          var endItem = activeItem
+          var beginIndex = index;
+          var endIndex = index + 1;
+          while (beginIndex >= 0
+            && !items[beginIndex].classList.contains('h-h2')) {
+            beginIndex -= 1;
+          }
+          while (endIndex < items.length
+            && !items[endIndex].classList.contains('h-h2')) {
+            endIndex += 1;
+          }
+          for (var i = 0; i < beginIndex; i++) {
+            item = items[i]
+            if (!item.classList.contains('h-h2')) {
+              item.style.display = 'none';
+            }
+          }
+          for (var i = beginIndex + 1; i < endIndex; i++) {
+            item = items[i]
+            // if (!item.classList.contains('h-h2')) {
+              item.style.display = '';
+            // }
+          }
+          for (var i = endIndex; i < items.length; i++) {
+            item = items[i]
+            if (!item.classList.contains('h-h2')) {
+              item.style.display = 'none';
+            }
+          }
+        }
+    
+        // Init menu collapsed
+        doMenuCollapse(-1);
+    
+        // Active the menu item
+        window.addEventListener('scroll', function (event) {
+          var lastActive = menuContent.querySelector('.active');
+          var changed = true;
+          var activeIndex = -1;
+          for (var i = headings.length - 1; i >= 0; i--) {
+            var h = headings[i];
+            var headingRect = h.getBoundingClientRect();
+            var headerRect = header.getBoundingClientRect();
+            var headerTop = Math.floor(headerRect.top);
+            var headerHeight = Math.floor(headerRect.height);
+            var headerHeight = headerTop + headerHeight + 20;
+            if (headingRect.top <= headerHeight) {
+              var id = 'h-' + h.getAttribute('id');
+              var a = menuContent.querySelector('a[href="#' + id  + '"]');
+              var curActive = a.parentNode;
+              if (curActive) {
+                curActive.classList.add('active');
+                activeIndex = i;
+              }
+              if (lastActive == curActive) {
+                changed = false;
+              }
+              break;
+            }
+          }
+          if (changed) {
+            if (lastActive) {
+              lastActive.classList.remove('active');
+            }
+            doMenuCollapse(activeIndex);
+          }
+          event.preventDefault();
+        });
+      }
+      generateContent();
+    </script>
+    
+    
+    </session>
+
+
+
+
+</div>
+  
+
+  
+    
+
+
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+
+<!--
+
+    <div class="container">
+        <div id="comments" class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'demowebsite'; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+            </div>
+        </div>
+    </div>
+
+-->
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+
+
+</div>
+
+
+<!-- Bottom Alert Bar
+================================================== -->
+<!--<div class="alertbar">
+	<div class="container text-center">
+		<span><img src="/assets/images/Dmove.png" alt="Welcome!"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+            <div class="mc-field-group">
+            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+            </div>
+        </form>
+	</div>
+</div> -->
+
+    
+</div>
+
+<!-- Categories Jumbotron
+================================================== -->
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div class="d-md-flex align-items-center justify-content-center h-100">
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">Categories <span class="d-none d-md-inline">→</span>
+</h2>
+            </div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+            
+            
+                
+                    <a class="mt-1 mb-1" href="/categories#Atlassian-Cloud">Atlassian Cloud (10)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Case-Study">Case Study (7)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Security">Security (4)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Inside-Atlassian">Inside Atlassian (19)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Release-Note">Release Note (14)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#How-To">How To (5)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Webinars">Webinars (11)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Company-News">Company News (4)</a>
+                
+            
+            
+		</div>
+	</div>
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                Copyright © 2022 Dmove Blog 
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <p>TEL: 02-6405-0800 |  email : <a href="mailto:sales@dmove.kr" style="border-bottom: 1px solid;">sales@dmove.kr</a> </p>
+              <!--  <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net -->
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts
+================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="/assets/js/mediumish.js"></script>
+
+
+
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+
+<script id="dsq-count-scr" src="//demowebsite.disqus.com/count.js"></script>
+
+
+</body>
+
+
+</html>

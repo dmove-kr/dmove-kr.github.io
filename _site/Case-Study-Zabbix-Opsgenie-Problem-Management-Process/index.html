@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/assets/images/banners/favicon.ico">
+
+<title>Case Study - Zabbix와 Opsgenie를 활용한 장애 처리 | Dmove Blog</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Case Study - Zabbix와 Opsgenie를 활용한 장애 처리 | Welcome!</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Case Study - Zabbix와 Opsgenie를 활용한 장애 처리" />
+<meta name="author" content="jackson" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="안녕하세요, 디무브 입니다! 🎈" />
+<meta property="og:description" content="안녕하세요, 디무브 입니다! 🎈" />
+<link rel="canonical" href="http://localhost:4000/Case-Study-Zabbix-Opsgenie-Problem-Management-Process/" />
+<meta property="og:url" content="http://localhost:4000/Case-Study-Zabbix-Opsgenie-Problem-Management-Process/" />
+<meta property="og:site_name" content="Welcome!" />
+<meta property="og:image" content="http://localhost:4000/assets/images/Blog%20Thumbnails/220314-Casestudy.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-03-14T00:00:00+09:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/Blog%20Thumbnails/220314-Casestudy.jpg" />
+<meta property="twitter:title" content="Case Study - Zabbix와 Opsgenie를 활용한 장애 처리" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"jackson"},"dateModified":"2022-03-14T00:00:00+09:00","datePublished":"2022-03-14T00:00:00+09:00","description":"안녕하세요, 디무브 입니다! 🎈","headline":"Case Study - Zabbix와 Opsgenie를 활용한 장애 처리","image":"http://localhost:4000/assets/images/Blog%20Thumbnails/220314-Casestudy.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Case-Study-Zabbix-Opsgenie-Problem-Management-Process/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/Dmove.png"},"name":"jackson"},"url":"http://localhost:4000/Case-Study-Zabbix-Opsgenie-Problem-Management-Process/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+<link href="/assets/css/screen.css" rel="stylesheet">
+
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<script src="/assets/js/jquery.min.js"></script>
+
+
+<!--툴팁 추가-->
+<link rel="stylesheet" href="/assets/css/jekyll-glossary-tooltip.css">
+
+
+
+<!-- darkmode 적용 -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+<script src="/assets/js/dark-theme.js"></script>
+<!--
+
+
+-->
+
+
+</head>
+
+
+
+
+<body class="layout-post">
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+    <!-- Begin Logo -->
+
+    
+
+    
+    
+    
+
+
+    <a class="navbar-brand" href="/">
+        <img id="logo" src="/assets/images/Dmove.png" alt="Dmove Blog">
+        </a>
+
+    
+
+
+    
+    <!-- End Logo -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+
+      
+
+        <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+
+
+                
+                <li class="nav-item">
+                
+
+            <li class="nav-item">
+               
+          
+          
+
+     
+                
+                
+               
+                <!-- 다크 모드 토글 버튼 -->
+                <div class="darkmode">
+                    <div class="inner">
+                        <input type="radio" name="toggle" id="toggle-radio-light" checked><label for="toggle-radio-light" class="tolight"><i class="fas fa-sun tolight"></i></label>
+                        <input type="radio" name="toggle" id="toggle-radio-dark"><label for="toggle-radio-dark" class="todark"><i class="fas fa-moon todark"></i></label>
+                        <div class="darkmode-bg"></div>
+                    </div>
+                </div>
+        
+            </li>
+    
+
+
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="https://blog.dmove.kr/about.html"> 디무브 소개</a>
+                    </li>
+
+
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="/categories">카테고리</a>
+                </li>
+            
+                <a class="nav-link" href="/index.html">Blog</a>
+                </li>
+            <!--
+                <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+                </li>
+
+            -->           
+                
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://blog.dmove.kr/question.html">문의하기</a>
+                </li>
+
+                
+        
+                <script src="/assets/js/lunr.js"></script>
+<script src="/assets/js/lunr.min.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+
+            </ul>
+
+        <!-- End Menu -->
+
+    </div>
+
+
+    
+    </div>
+
+    
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+
+<div class="container">
+
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+   <!-- <h1 class="sitetitle">Dmove Blog</h1> -->
+   <h1 class="sitetitle">Welcome! Dmove Blog</h1>
+    <p class="lead">
+        기술과 문화 그리고 다양한 소식들을 공유합니다.
+    </p>
+</div>
+
+<!-- Content
+================================================== -->
+<div class="main-content">
+
+    
+    <!-- Begin Article
+================================================== -->
+
+
+
+
+
+<div style="display: flex;">
+
+
+  <session class="container">
+    <div class="row">
+
+        
+        <!-- Post Share -->
+
+        <!--
+        <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Case Study - Zabbix와 Opsgenie를 활용한 장애 처리&url=http://localhost:4000/Case-Study-Zabbix-Opsgenie-Problem-Management-Process/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/Case-Study-Zabbix-Opsgenie-Problem-Management-Process/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Case-Study-Zabbix-Opsgenie-Problem-Management-Process/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+    <div class="sep">
+    </div>
+    <ul>
+        <li>
+        <a class="small smoothscroll" href="#disqus_thread"></a>
+        </li>
+    </ul>
+    
+</div>
+
+        </div>
+
+    -->
+
+        <!-- Post -->
+        
+        
+        
+
+        <div class="col-md-11 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+
+            <!--                
+                
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" style="width:75px; height:75px; " src="/assets/images/main/img_ourteam_jackson.png" alt="Jackson"> 
+                        
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left" style="margin:auto;">
+                        <p> <a target="_blank" class="link-dark" href="https://dmove.co.kr/company/our-team#jackson">Jackson</a>  
+                            <small>
+                            <span class="post-date"><time class="post-date" datetime="2022-03-14">14 Mar 2022</time></span>           
+                            
+                            </small>
+                        </p>
+                     
+                        
+
+        
+                        
+                    </div>
+                </div>
+                
+
+            -->
+            
+                <!-- Post Title -->
+
+                
+
+                <h1 class="posttitle">Case Study - Zabbix와 Opsgenie를 활용한 장애 처리</h1>
+
+                <hr>
+
+
+                <div class=" b-0 mt-auto">
+                    <div class="wrapfooter">
+                        
+                        <span class="meta-footer-thumb">
+                        
+                        <a target="_blank" href="https://dmove.co.kr/company/our-team#jackson">  <img class="author-thumb" style="width: 75px; height: 75px;" src="/assets/images/main/img_ourteam_jackson.png" alt="Jackson"> </a>
+                        
+                        </span>
+                        <span class="author-meta">
+                        <span class="post-name"><a target="_blank" href="https://dmove.co.kr/company/our-team#jackson">Jackson</a></span>
+                        &nbsp; <span class="post-date" style="font-size: 0.6rem;">Solution Engineer</span>
+                        <br/>
+                        
+                      <!--  <span class="post-date">14 Mar 2022</span> -->
+                      <span class="post-date">14 Mar 2022
+                        </span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+            
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="/assets/images/Blog%20Thumbnails/220314-Casestudy.jpg" alt="Case Study - Zabbix와 Opsgenie를 활용한 장애 처리">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+
+               <!--
+                
+                
+                
+                -->
+
+
+                
+               <div class="post-content">
+                    <p>안녕하세요, 디무브 입니다! 🎈 <br /></p>
+
+<p>이번 시간에는 오픈소스 모니터링 툴인 Zabbix와 경고 및 인시던트 관리 툴인 Opsgenie를 활용한 장애 인지 및 알림, 처리 프로세스에 대해 소개해 드리려고 합니다.</p>
+
+<p>Zabbix는 엔터프라이즈를 위한 오픈소스 기반의 모니터링 솔루션입니다. 현재 많은 기업들이 IT 서비스를 위한 인프라를 운영 중이며 이러한 인프라를 새로 추가하거나, 변경하는 일들은 빈번하게 발생합니다. 이러한 상황에서 인프라와 애플리케이션들의 Up/Down 유무나 어플리케이션의 성능 지표를 측정하는 도구로 Zabbix가 많이 사용되고 있습니다.</p>
+
+<p>Opsgenie 는 IT 서비스 및 인프라에서 발생하는 Incident를 관리하는 툴로써, 모니터링 시스템들에서 발생하는 Alert 데이터를 통합하여 관리하는 솔루션입니다. Opsgenie 는 200개가 넘는 도구와의 통합 기능이 제공되며, 강력한 API 와 웹훅, 메일 통합 기능을 제공하고 있습니다. 이를 활용해 Opsgenie는 다양한 시스템에서 발생한 Alert 데이터를 중앙 집중화하고, 한곳에서 장애를 빠르게 처리할 수 있도록 도와줄 수 있습니다.</p>
+
+<p>이제 장애가 발생하였을 때 어떻게 Zabbix와 Opsgenie를 사용하여 효율적으로 장애를 처리할 수 있는지 같이 확인해보도록 하겠습니다.</p>
+
+<hr />
+
+<h2 id="zabbix---opsgenie-장애-처리-프로세스"><strong>Zabbix - Opsgenie 장애 처리 프로세스</strong></h2>
+
+<p><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/1.png" /></p>
+
+<p>Zabbix 와 Opsgenie 를 연동하게 될 경우 Zabbix내의 Alert 상태 정보와 Opsgenie의 Alert 상태 정보를 서로 동기화할 수 있습니다. 예를 들어 장애를 인지하거나 종료 시 Zabbix의 Alert 정보와 Opsgenie의 Alert 정보는 서로 동기화 하여 자동적으로 인지(ACK) 상태 또는 종료(Closed) 상태로 변경됩니다.</p>
+
+<p>Zabbix 와 Opsgenie의 연계 및 동기화 구성 방법은 아래 그림을 통해 자세히 설명 드리겠습니다.</p>
+
+<p>1.서버 또는 장비에서 장애 발생 시 Zabbix에서는 모니터링된 데이터를 통해 트리거된 데이터를 기반으로 Alert 이벤트를 생성합니다.</p>
+
+<p><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/2.png" /></p>
+
+<p>2.Alert이 생성되면 Zabbix에서 구성한 <strong>Opsgenie 웹훅</strong>과 Zabbix 서버의 <strong>OEC(Opsgenie Edge Connector)</strong> 플러그인을 통해 Opsgenie에 Alert 정보가 전달됩니다.</p>
+
+<p><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/3.png" /></p>
+
+<center>Zabbix에서 트리거된 액션을 통해 서버단으로 Opsgenie 웹훅 전송</center>
+
+<p><br /></p>
+
+<p><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/4.png" /></p>
+
+<center>Opsgenie Edge Connector Log</center>
+
+<ol>
+  <li>Alert 정보를 받은 Opsgenie는 장애에 대한 Alert을 생성합니다.</li>
+</ol>
+
+<p><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/5.png" /></p>
+
+<p>생성된 Alert 정보는 다음과 같습니다: <br />
+- 제목 : 장애 내용 <br />
+- 담당 팀(Owner Team) : Zabbix와 연동한 팀 <br />
+- Last Updated, Duplicated : Alert의 업데이트 또는 복제된 시간 <br />
+- 설명(Dscription) : 장애가 발생한 시간, 장애 이름, 장애가 발생한 호스트에 대한 내용 <br />
+- 우선순위(Priority) : 장애의 수준 <br /></p>
+
+<p>4.담당자가 Alert을 확인한 뒤, “<strong>ACK</strong>”를 누르게 될 경우 Zabbix와 Opsgenie는 서로 자동 동기화 되어 Zabbix에서도 동일하게 Alert 정보가 업데이트 됩니다.</p>
+
+<div style="width:45%; float:left; margin-right : 10%;"><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/6.png" /><p> 활동 로그(Activity Log)에서 Ack 신호를 Zabbix로 전달하는 것을 확인할 수 있습니다.</p></div>
+<div style="width:45%;float:right;"><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/7.png" /></div>
+<p>Ack 신호를 전달받은 Zabbix에서는 Alert의 인지 상태를 자동으로 변경합니다.</p>
+<div style="clear:both;"></div>
+
+<h3 id="인시던트를-활용한-장애-처리">인시던트를 활용한 장애 처리</h3>
+
+<p>Zabbix 에서 발생한 Alert이 웹훅을 통해 Opsgenie로 전달되게 되면 Opsgenie에 연동된 팀에 Alert이 할당됩니다. 그 다음 장애를 담당하는 팀 또는 책임자가 해당 Alert을 통해 장애를 분석하고 인시던트로 판단할 경우, Alert을 인시던트로 연계할 수 있습니다. Zabbix에서 발생한 Alert이 웹훅을 통해 Opsgenie로 전달되게 되면 Opsgenie에 연동된 팀에 Alert 이 할당됩니다.</p>
+
+<p>인시던트를 생성하는 방법은 Alert 분석 후 자체적으로 인시던트를 만들거나 <strong>인시던트 룰(Incident rule)</strong>을 사용하여 인시던트를 생성할 수 있습니다. 인시던트를 통해 장애를 관리하고 관리하는 프로세스를 설명드린 뒤, 인시던트 룰에 대해 추가적으로 설명하겠습니다.</p>
+
+<p>1.담당자가 Alert 정보를 확인하여 장애의 정도에 따라 인시던트를 생성합니다.</p>
+
+<p><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/8.png" /></p>
+
+<p>인시던트의 세부사항은 다음과 같습니다:</p>
+
+<ul>
+  <li>Description : 인시던트로 연계된 장애에 대한 정보를 보여줍니다.</li>
+</ul>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/9.png" /></center>
+
+<ul>
+  <li>Impacted Serviced : 장애가 발생한 서비스의 종류를 보여줍니다. 서비스는 Opsgenie의 서비스 항목에 등록하여 사용할 수 있습니다. Opsgenie에서의 Impacted Service 는 Jira Service Management 와 Statuspage 에서의 Service 개념과 상호 연계 됩니다.</li>
+</ul>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/10.png" /></center>
+
+<ul>
+  <li>Associated Alerts : 해당 인시던트와 연관된 Alert 정보들을 보여줍니다.</li>
+</ul>
+
+<p><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/11.png" /></p>
+
+<ul>
+  <li>Time Line : 인시던트 및 Alert의 업데이트 사항 등을 시간 별로 표시합니다.</li>
+</ul>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/12.png" /></center>
+
+<p>2.팀 또는 부서 별 회의를 통해 인시던트를 처리합니다 : 인시던트를 Slack이나 Mattermost와 같은 채팅 툴과 연동하여 회의 환경을 구성하거나 Opsgenie 자체 커뮤니케이션 기능인 <strong>웹 컨퍼런스 브릿지</strong> 또는 <strong>ICC(Incident Command Center)</strong> 기능을 사용하여 채팅 또는 회의 환경을 구성할 수 있습니다.</p>
+
+<p>* 웹 컨퍼런스 브릿지와 ICC 기능은 엔터프라이즈 플랜에서 사용이 가능합니다.</p>
+
+<div style="width:45%; float:left; margin-right : 10%;"><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/13.png" /><center><p>웹 컨퍼런스 브릿지</p></center></div>
+<div style="width:45%;float:right;"><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/14.png" /><center><p>Incident Command Center</p></center></div>
+<div style="clear:both;"></div>
+
+<ol>
+  <li>인시던트 처리가 완료되면 Zabbix의 Alert 상태는 <strong>Closed</strong>로 해결되고 Opsgenie의 Alert 정보 역시 <strong>Closed</strong>상태로 동일하게 변경됩니다.  모든 인시던트 처리가 끝나면 인시던트를 <strong>해결</strong>(<strong>Resolved)</strong> 상태로 변경합니다.</li>
+</ol>
+
+<div style="width:45%; float:left; margin-right : 10%;"><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/15.png" /></div>
+<div style="width:45%;float:right;"><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/16.png" /></div>
+<div style="clear:both;"></div>
+
+<p>4.인시던트 처리 후 Opsgenie는 인시던트의 사후 조치 보고서인 <strong>포스트모템(Postmortems)</strong>를 제공합니다. 완성한 <strong>포스트모템(Postmortems)</strong>은 Confluence와 연동하여 페이지로 Export가 가능합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/17.png" /></center>
+
+<hr />
+
+<h3 id="tip--인시던트-관리를-위한-환경-구성"><strong>Tip : 인시던트 관리를 위한 환경 구성</strong></h3>
+
+<p>지금까지 Zabbix와 Opsgenie를 활용한 인시던트 및 장애 관리에 대해 알아보았습니다. 인시던트 관리 환경을 구성하기 위해서는 많은 작업이 필요한데요. 크게 3개로 나누어 설명을 드리면 Zabbix의 웹훅, 액션 설정, 서버의 Oec 설정, Opsgenie의 연동 설정이 필요합니다.</p>
+
+<p>우선 Zabbix의 웹훅 설정에서 Opsgenie를 추가합니다. 그 다음 장애가 발생하여 Alert 생성되었을 때 트리거를 작동시켜 Alert 정보를 Opsgenie Edge Connector를 통해 Opsgenie로 전달합니다. 이를 위해서는 Zabbix 웹 상에서 트리거 설정과 Zabbix 서버에서 Opsgenie Edge Connector 서비스를 적용해야 합니다.</p>
+
+<p>마지막으로 Opsgenie에서는 Zabbix의 Alert 정보를 받기 위해 연동 설정이 필요합니다. 그러기 위해서는 우선 팀을 생성해야 하는데요. 이유는 Opsgenie는 팀을 기반으로 인시던트를 관리하고 처리하기 때문입니다. 팀을 구성한 다음, Zabbix와 연동을 구성하여 Alert 정보를 받을 수 있습니다.</p>
+
+<p>추가적으로 Opsgenie의 인시던트 룰을 사용하여 Alert 생성 시 특정 조건을 만족하도록 설정하여 자동으로 인시던트를 생성하고 팀에 할당할 수 있습니다.</p>
+
+<p>이제 아래 예시를 통해 환경 구성에 대해 자세히 확인해보도록 하겠습니다.</p>
+
+<p><br /></p>
+
+<p><strong>Opsgenie Integration 설정</strong></p>
+
+<ol>
+  <li>Opsgenie에서 타사 제품과 Integration을 구성하기 위해서는 팀을 생성합니다. 팀을 생성하셨다면 상단의 <strong>Teams → Integrations → Add Integration</strong>을 클릭하여 Zabbix를 선택합니다.</li>
+</ol>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/18.png" /></center>
+
+<p>2.Integration 이름을 선택한 다음, API Key를 복사하고, 연동 시 실행할 액션을 선택하여 저장합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/19.png" /></center>
+
+<p><br /></p>
+
+<p><strong>Opsgenie Webhook 설정 (Zabbix)</strong></p>
+
+<ol>
+  <li>Zabbix 관리자 계정으로 로그인 후, 관리 → 미디어 타입 → Opsgenie를 클릭합니다.</li>
+</ol>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/20.png" /></center>
+
+<p>2.Opsgenie와 연동에 필요한 api, team, token, web 주소와 Zabbix의 URL을 입력합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/21.png" /></center>
+
+<ol>
+  <li><strong>User settings → Profile → 연락 방법</strong>으로 접근하여 <strong>추가</strong>를 클릭하여 Opsgenie 웹훅을 추가합니다.</li>
+</ol>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/22.png" /></center>
+
+<p><br /></p>
+
+<p><strong>Opsgenie Action 설정 (Zabbix)</strong></p>
+
+<p>액션은 Zabbix에서 장애 발생 시 트리거 되어 Opsgenie 웹훅을 통해 Opsgenie의 Alert 생성 정보를 전달합니다.</p>
+
+<p>1.<strong>설정 → 액션 → Trigger actions</strong>로 이동합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/23.png" /></center>
+
+<p><br />   2. 우측 상단의 액션 작성을 클릭합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/24.png" /></center>
+
+<p><br />  3. 오퍼레이션에서 스텝을 추가합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/25.png" /></center>
+
+<p><br />  4. 전달 대상과 미디어에서 Opsgenie를 추가합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/26.png" /></center>
+
+<p><br /></p>
+
+<p>5.갱신과 복구에 대한 트리거를 4번과 동일하게 추가합니다.</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/27.png" /></center>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/28.png" /></center>
+
+<center>완성된 트리거 액션</center>
+
+<p><br /></p>
+
+<p><strong>OEC Connector 설치 (Zabbix - Server)</strong></p>
+
+<p>1.해당 링크에서 서버 OS에 맞는 OEC Connector를 다운로드 받은 후 rpm 또는 dpkg 명령어를 통해 패키지를 설치합니다.</p>
+
+<p><a href="https://github.com/opsgenie/oec-scripts/releases/tag/Zabbix-1.1.6_oec-1.1.3">Release Zabbix-1.1.6_oec-1.1.3 Opsgenie/oec-scripts</a></p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/29.png" /></center>
+
+<p>​    2. OEC 서비스를 시작합니다.</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>root@jira-crowd:/home/gongdol# service oec start 
+root@jira-crowd:/home/gongdol# service oec status
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/30.png" /></center>
+
+<p><br /></p>
+
+<p>3.OEC config.json 파일을 수정합니다. 기본적으로 config 파일은 /home/opsgenie/oec/conf 폴더에 있습니다. 수정해야 하는 항목은 다음과 같습니다:
+apiKey : Opsgenie에서 Integration을 생성하였을 때 발급받은 키
+command_url : zabbix url로 수정
+user &amp; password : zabbix 계정</p>
+
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/31.png" /></center>
+
+<p><br /></p>
+
+<p><strong>인시던트 룰(Incident Rule) 설정</strong></p>
+
+<p>인시던트 룰은 생성된 경고가 특정 조건을 만족할 때 장애와 관련된 인시던트를 생성할 수 있도록 규칙을 생성합니다. 인시던트 룰은 팀 설정에서 생성이 가능합니다. 제가 설정한 인시던트 룰은 설명 내용에 “<strong>Server</strong>“라는 내용이 포함될 시 인시던트를 생성하도록 규칙을 설정하였습니다.</p>
+
+<div style="width:45%; float:left; margin-right : 10%;"><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/32.png" /><center><p>인시던트 룰</p></center></div>
+<div style="width:45%;float:right;"><img src="https://blog.dmove.kr/assets/images/banners/Zabbix-Opsgenie/33.png" /><center>인시던트 룰로 생성된 인시던트</center></div>
+<div style="clear:both;"></div>
+
+<hr />
+
+<p>지금 까지 Zabbix와 Opsgenie를 연동하여 장애 발생 시 어떻게 Alert과 인시던트를 생성하고 효과적으로 처리 하는지 알아보았습니다.</p>
+
+<p>Zabbix나 Opsgenie에 대해 자세한 내용이 궁금하시다면 저희 <a href="http://dmove.co.kr/contact-us/quote-service-inquiry">디무브에게 문의</a>해 주시면 감사하겠습니다.</p>
+
+<p>감사합니다!</p>
+
+
+                  </div>
+                  
+              
+                
+              
+            </div>
+
+            <!-- Rating -->
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2022-03-14">14 Mar 2022</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Case-Study">Case Study</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Atlassian">#Atlassian</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Cloud">#Cloud</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Opsgenie">#Opsgenie</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Zabbix">#Zabbix</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#opsgenie">#opsgenie</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#zabbix">#zabbix</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#옵스지니">#옵스지니</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#인시던트">#인시던트</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#자빅스">#자빅스</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#장애">#장애</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#장애관리">#장애관리</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="/VSCODE-Jira-and-Bitbucket-Integration/"> &laquo; Case Study - VSCODE와 Jira & Bitbucket Integration</a>
+            
+            
+            <a class="next d-block col-md-6 text-lg-right" href="/Incident-management-with-atlassian-itsm-webinar/">2022년 3월 디무브 웨비나 안내 - 효과적인 인시던트 관리를 위한 아틀라시안 ITSM 솔루션 &raquo; </a>
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+        
+    </div>
+ </session>
+   
+ 
+ 
+ <!--TOC 테스트-->
+
+ <session class="post-article" style="position: sticky; top: 100px; height:400px;" >
+    
+    <!--
+    <div class="toc">
+      <h2 style="font-size: 20px;">Table Of Content</h2>
+       <ul><li><a href="#zabbix---opsgenie-장애-처리-프로세스"><strong>Zabbix - Opsgenie 장애 처리 프로세스</strong></a><ul><li><a href="#인시던트를-활용한-장애-처리">인시던트를 활용한 장애 처리</a></li><li><a href="#tip--인시던트-관리를-위한-환경-구성"><strong>Tip : 인시던트 관리를 위한 환경 구성</strong></a></li></ul></li></ul>
+
+     </div>
+
+    -->
+
+    
+    <h2 style="font-size: 20px;">Table Of Content</h2>
+    <style type="text/css" media="screen">
+    .post-menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    </style>
+    
+    <div class="post-menu">
+      <div class="post-menu-content"></div>
+    </div>
+    
+    <script>
+      function generateContent() {
+        var menu = document.querySelector(".post-menu");
+        var menuContent =  menu.querySelector(".post-menu-content");
+        var headings = document.querySelector(".post-content").querySelectorAll("h1,h2,h3,h4,h5,h6");
+        var thisfilefullname = document.URL.substring(document.URL.lastIndexOf("/") + 1, document.URL.length);
+    
+        console.log(thisfilefullname);
+        
+        // Hide menu when no headings
+        if (headings.length === 0 || thisfilefullname=="about.html") {
+          return menu.style.display = "none";
+        }
+    
+        // Generate post menu
+        var menuHTML = '';
+        for (var i = 0; i < headings.length; i++) {
+          
+        
+           
+        }
+
+        if(i>=11)
+        {
+          var headings = document.querySelector(".post-content").querySelectorAll("h2");
+          for (var i = 0; i < headings.length; i++) {
+
+      
+            var h = headings[i];
+            
+            menuHTML += (
+              '<li class="h-' + h.tagName.toLowerCase() + '">'
+              // + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+              + '<a href="#' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+  
+             
+          }
+
+
+        }
+
+        else{
+
+          for (var i = 0; i < headings.length; i++) {
+          var h = headings[i];
+          menuHTML += (
+
+
+            '<li class="h-' + h.tagName.toLowerCase() + '">'
+            // + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+            + '<a href="#' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+            }
+        }
+    
+        menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+    
+        // The header element
+        var header = document.querySelector('header.site-header');
+    
+        function doMenuCollapse(index, over_items) {
+          var items = menuContent.firstChild.children;
+    
+          if (over_items == undefined) {
+            over_items = 20;
+          }
+    
+          if (items.length < over_items) {
+            return;
+          }
+    
+          var activeItem = items[index];
+          var beginItem = activeItem
+          var endItem = activeItem
+          var beginIndex = index;
+          var endIndex = index + 1;
+          while (beginIndex >= 0
+            && !items[beginIndex].classList.contains('h-h2')) {
+            beginIndex -= 1;
+          }
+          while (endIndex < items.length
+            && !items[endIndex].classList.contains('h-h2')) {
+            endIndex += 1;
+          }
+          for (var i = 0; i < beginIndex; i++) {
+            item = items[i]
+            if (!item.classList.contains('h-h2')) {
+              item.style.display = 'none';
+            }
+          }
+          for (var i = beginIndex + 1; i < endIndex; i++) {
+            item = items[i]
+            // if (!item.classList.contains('h-h2')) {
+              item.style.display = '';
+            // }
+          }
+          for (var i = endIndex; i < items.length; i++) {
+            item = items[i]
+            if (!item.classList.contains('h-h2')) {
+              item.style.display = 'none';
+            }
+          }
+        }
+    
+        // Init menu collapsed
+        doMenuCollapse(-1);
+    
+        // Active the menu item
+        window.addEventListener('scroll', function (event) {
+          var lastActive = menuContent.querySelector('.active');
+          var changed = true;
+          var activeIndex = -1;
+          for (var i = headings.length - 1; i >= 0; i--) {
+            var h = headings[i];
+            var headingRect = h.getBoundingClientRect();
+            var headerRect = header.getBoundingClientRect();
+            var headerTop = Math.floor(headerRect.top);
+            var headerHeight = Math.floor(headerRect.height);
+            var headerHeight = headerTop + headerHeight + 20;
+            if (headingRect.top <= headerHeight) {
+              var id = 'h-' + h.getAttribute('id');
+              var a = menuContent.querySelector('a[href="#' + id  + '"]');
+              var curActive = a.parentNode;
+              if (curActive) {
+                curActive.classList.add('active');
+                activeIndex = i;
+              }
+              if (lastActive == curActive) {
+                changed = false;
+              }
+              break;
+            }
+          }
+          if (changed) {
+            if (lastActive) {
+              lastActive.classList.remove('active');
+            }
+            doMenuCollapse(activeIndex);
+          }
+          event.preventDefault();
+        });
+      }
+      generateContent();
+    </script>
+    
+    
+    </session>
+
+
+
+
+</div>
+  
+
+  
+    
+
+
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+
+<!--
+
+    <div class="container">
+        <div id="comments" class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'demowebsite'; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+            </div>
+        </div>
+    </div>
+
+-->
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+
+
+</div>
+
+
+<!-- Bottom Alert Bar
+================================================== -->
+<!--<div class="alertbar">
+	<div class="container text-center">
+		<span><img src="/assets/images/Dmove.png" alt="Welcome!"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+            <div class="mc-field-group">
+            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+            </div>
+        </form>
+	</div>
+</div> -->
+
+    
+</div>
+
+<!-- Categories Jumbotron
+================================================== -->
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div class="d-md-flex align-items-center justify-content-center h-100">
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">Categories <span class="d-none d-md-inline">→</span></h2>
+            </div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+            
+            
+                
+                    <a class="mt-1 mb-1" href="/categories#Atlassian-Cloud">Atlassian Cloud (10)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Case-Study">Case Study (7)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Security">Security (4)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Inside-Atlassian">Inside Atlassian (19)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Release-Note">Release Note (14)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#How-To">How To (5)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Webinars">Webinars (11)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Company-News">Company News (4)</a>
+                
+            
+            
+		</div>
+	</div>
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                Copyright © 2022 Dmove Blog 
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <p>TEL: 02-6405-0800 |  email : <a href="mailto:sales@dmove.kr" style="border-bottom: 1px solid;">sales@dmove.kr</a> </p>
+              <!--  <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net -->
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts
+================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="/assets/js/mediumish.js"></script>
+
+
+
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+
+<script id="dsq-count-scr" src="//demowebsite.disqus.com/count.js"></script>
+
+
+</body>
+
+
+</html>

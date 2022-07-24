@@ -3,12 +3,13 @@ layout: post
 title: 2021년 12월 디무브 웨비나 안내 - 제로 트러스트 보안 기반의 클라우드 계정 관리 및 접근 통제
 Subtitle: Atlassian & Okta Webinar
 date: 2021-12-06
+author : jenna
+image : assets/images/Blog%20Thumbnails/211206-IAM Webinar.png
 categories: [Webinars]
 tags: [Atlassian, 아틀라시안, Okta, 옥타, 토크아이티, 아틀라시안웨비나, 옥타웨비나, IAM, Identity Management, Access Management, Cloud, Zero Trust, 제로트러스트, 계정관리, 클라우드 연동]
 ---
 
 
-![Banner](https://blog.dmove.kr/assets/images/blog/Webinar Title Banner.png)
 
 안녕하세요. 디무브 입니다. 🎈 
 

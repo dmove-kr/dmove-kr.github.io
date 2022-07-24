@@ -1,9 +1,11 @@
 ---
 
 layout: post
-title: Atlassian Team '22 - ITSM 키노트 "Come together right now" 
+title: Atlassian Team '22 - ITSM 키노트 'Come together right now'
 Subtitle: Atlassian IT Service Management
 date: 2022-05-17
+author : jenna
+image : assets/images/blog/team22_ITSM_1.png
 categories: [Inside Atlassian]
 tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere, ITSM, Jiraservicemanagement, jiraservicedesk, AtlassianITSM, ITservicemanagement, Digitaltransformation, 지라]
 

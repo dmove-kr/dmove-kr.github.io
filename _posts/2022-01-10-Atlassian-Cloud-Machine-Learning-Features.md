@@ -1,8 +1,10 @@
 ---
 layout: post
-title: 아틀라시안 클라우드 제품에 적용된 머신러닝 기반의 "Smart" 기능 소개
+title: 아틀라시안 클라우드 제품에 적용된 머신러닝 기반의 Smart 기능 소개
 Subtitle: Introducing machine learning-powered “smarts” to Atlassian cloud products
 date: 2022-01-10
+author : jenna
+image : https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/searching-v3.png
 categories: [Atlassian Cloud]
 tags: [Atlassian, 아틀라시안, AI, Machinelearning, Atlassian Cloud, 아틀라시안클라우드, Jira Cloud, Confluence Cloud, 디무브, Dmove]
 ---

@@ -3,12 +3,14 @@ layout: post
 title: 2022년 6월 디무브 웨비나 안내 - 아틀라시안 클라우드로 우리 조직의 디지털 업무 혁신을 가속화 하는 방법
 Subtitle: Atlassian Cloud Migration Webinar
 date: 2022-06-14
+author : jenna
+image : assets/images/Blog%20Thumbnails/220614-Cloud Webinar.png
 categories: [Webinars]
 tags: [Atlassian, 아틀라시안, 아틀라시안웨비나, Atlassian Cloud, Jira, Confluence, CloudMigration, Servertocloud, 클라우드마이그레이션, 아틀라시안클라우드, 디무브, Atlassianwebinar, 올쇼tv]
 ---
 
 
-![Title](https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/Atlassian%20Cloud_Title%20Banner_2.png)
+<!-- ![Title](https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/Atlassian%20Cloud_Title%20Banner_2.png) -->
 
 안녕하세요. 디무브 입니다. 🎈 
 

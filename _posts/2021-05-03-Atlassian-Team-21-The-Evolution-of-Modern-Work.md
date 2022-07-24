@@ -3,13 +3,15 @@ layout: post
 title: Atlassian Team '21 - The Evolution of Modern Work 키노트 with Zoom & Slack CEO
 subtitle: COVID-19 팬데믹 이후의 업무 환경과 미래
 date: 2021-05-03
+author : jenna
+image : https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/04/brand-4570-how-to-lead-remotely-when-you-dont-have-a-clue@2x.png?w=2240&ssl=1
 categories: [Inside Atlassian]
 tags: [Atlassian Team 21, Atlassian, Slack, Zoom, Remotework]
 ---
-![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/04/brand-4570-how-to-lead-remotely-when-you-dont-have-a-clue@2x.png?w=2240&ssl=1)
 
 
-안녕하세요, 디무브 입니다! :balloon:
+
+안녕하세요, 디무브 입니다! 🎈
 
 지난 4월 말 진행한 아틀라시안의 디지털 컨퍼런스 [Atlassian Team '21](https://events.atlassian.com/team21) 에서 Atlassian의 공동 창립자이자 공동 CEO인 [Mike Cannon-Brookes](https://www.linkedin.com/in/mcannonbrookes)은 Slack의 공동 창립자 겸 CEO인 [Stewart Butterfield](https://www.linkedin.com/in/butterfield), Zoom의 창립자 겸 CEO인 [Eric Yuan](https://www.linkedin.com/in/ericsyuan) 과 "The Evolution of Modern Work" 라는 주제로 키노트를 진행하였습니다. 
 

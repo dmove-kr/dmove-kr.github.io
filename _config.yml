@@ -1,176 +1,124 @@
-# Welcome to Jekyll!
-#
-# About Theme
-#
-# Yet another theme for elegant writers with modern flat style and beautiful
-# night/dark mode.
-#
-# Website: https://github.com/jeffreytse/jekyll-theme-yat
-#
-# You can do anything you want, including projects for your clients, as long
-# as you mention an attribution back (credit links in footer or project).
-# See the LICENCE file.
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you
-# use 'bundle exec jekyll serve'. If you change this file, please restart
-# the server process.
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Site
+name: "Dmove Blog"
+title: "Welcome!"
+description: "기술과 문화 그리고 다양한 소식들을 공유합니다."
+logo: 'assets/images/Dmove.png'
+favicon: 'assets/images/banners/favicon.ico'
+baseurl: 
+google_analytics: 'UA-46278016-1'
+disqus: 'demowebsite'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
 
-title: Dmove Blog
-email: sales@dmove.kr
-author: Dmove
-copyright: Copyright © 2020-2021
+# Authors
+authors:
 
-tel: 02-6405-0800
-description: >- # this means to ignore newlines until "baseurl:"
-  디무브의 블로그에 오신 걸 환영합니다.
-  제품 및 기술과 IT 트렌드, 이벤트 등 다양한 콘텐츠를 공유합니다. 
+  jenna:
+    name : Jenna
+    display_name : Jenna
+    executive : Marketing Manager
+    avatar : 'assets/images/main/img_ourteam_jenna.png'
+    email : jenna@dmove.kr
+    description : 디무브 Sales & Marketing Manager Jenna 입니다.
+    web : https://dmove.co.kr/company/our-team#jenna
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.dmove.kr" # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "" # the favicon for your site
 
-# Yat date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-yat:
-  date_format: "%b %d, %Y"
+  jamie:
+    name : Jamie
+    display_name : Jamie
+    executive: Sales Support
+    avatar : 'assets/images/main/img_ourteam_jamie.png'
+    email : jenna@dmove.kr
+    description : 디무브 Sales & Marketing Manager Jamie 입니다.
+    web : https://dmove.co.kr/company/our-team#jamie
 
-# If you want more debug log, you can set true
-# debug: false
 
-# If you don't want transparent header, you can set false
-# header_transparent: true
+  ellin:
+    name : Ellin
+    display_name : Ellin
+    executive : Office Manager
+    avatar : 'assets/images/main/img_ourteam_ellin.png'
+    email : ellin@dmove.kr
+    description : 디무브 Office Manager Ellin 입니다.
+    web : https://dmove.co.kr/company/our-team#ellin
 
-# Google analytics
-google_analytics: G-8DXEPMWW70
 
-# If you want to generate website sitemap, you can set true
-sitemap: True
+  andy:
+    name : Andy
+    display_name : Andy
+    executive : Sr.Solution Engineer
+    avatar : 'assets/images/main/img_ourteam_andy.png'
+    email : wign21@dmove.kr
+    description : 디무브 Atlassian Solution Engineer Andy 입니다.
+    web : https://dmove.co.kr/company/our-team#andy 
 
-# If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+    
 
-# Translate languges
-# langs refer to https://cloud.google.com/translate/docs/languages
-# translate_langs:
-#   - lang: en
-#     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
-#     text: English
-#
-#   - lang: fr
-#     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
-#     text: Franch
-#
-#   - lang: zh-CN
-#     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-#     text: Chinese(Simple)
-#
-#   - lang: ja
-#     img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
-#     text: Japanese
-#
-#   - lang: ko
-#     img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
-#     text: Korean
-#
-#   - lang: ru
-#     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
-#     text: Russian
+  
+  jackson:
+    name : Jackson
+    display_name : Jackson
+    executive : Solution Engineer
+    avatar : 'assets/images/main/img_ourteam_jackson.png'
+    email : jackson@dmove.kr
+    description : 디무브 Atlassian Solution Engineer Jackson 입니다.
+    web : https://dmove.co.kr/company/our-team#jackson
 
-# You can choose a theme color
-# Default theme colors as below:
-# coolblack: #090a0b
-# spacegrey: #353535
-# snowwhite: #ffffff
-#
-# theme_color: snowwhite
-#
-# Custom color as below:
-# theme_color: "#882250"
+  ethan:
+    name : Ethan
+    display_name : Ethan
+    executive : Solution Engineer
+    avatar : 'assets/images/main/img_ourteam_ethan.png'
+    email : ethan@dmove.kr
+    description : 디무브 아틀라시안 개발자로 근무하고 있습니다. 블로그 많이 사랑해 주세요!
+    web : https://dmove.co.kr/company/our-team#ethan
 
-# Night/Dark mode
-# Default mode is "auto", "auto" is for auto nightshift
-# (19:00 - 07:00), "manual" is for manual toggle, and
-# "on/off" is for default on/off.
-#
-# Whatever the user's choice is, it will supersede the
-# default setting of the site and be kept during the
-# visit (session). Only the dark mode setting is"manual",
-# it will be always kept on every visit (i.e. no matter
-# the browser is closed or not)
-#
-# night_mode: "auto"
-
-# Code badge setting
-# You can enable or disable the code badge and so on
-# code_badge:
-#   enabled: "true"
-#   color: "#fff"
-#   background_color: "#ff4e00"
-#   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
-
-# Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
-
-# Excerpt size setting
-# excerpt_size: 350
-
-# Pagination setting
-# paginate: 5
-
-# Disqus comments
-# disqus:
-#   shortname: "Your Disqus username"
-
-# Gitment comments
-# gitment:
-#   username: "Your GitHub username"
-#   repo: "The repo to store comments"
-#   client_id: "Your client ID"
-#   client_secret: "Your client secret"
-#   redirect_uri: "Your redirect url"   # If you use a custom domain name
-
-# Build settings
-# highlighter: none
-# markdown: kramdown
-markdown: kramdown
-kmarkdown:
-  input: kramdown
-
+# Plugins
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-spaceship
+  - jekyll-archives
+  - jekyll-toc
+  - jekyll-glossary_tooltip
   - jemoji
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 9
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
 
-tipue_search:
-  include:
-      pages: false
-      collections: []
-  exclude:
-      files: [search.html, index.html, tags.html]
-      categories: []
-      tags: []
+#다크 모드 추가
+dark_theme_toggle : true
+
+
+
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

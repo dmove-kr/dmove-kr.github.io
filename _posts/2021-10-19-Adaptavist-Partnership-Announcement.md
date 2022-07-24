@@ -3,11 +3,13 @@ layout: post
 title: Adaptavist 파트너쉽 및 ScriptRunner(Atlassian Add-on)소개
 Subtitle: Adaptavist Partner Announcement
 date: 2021-10-19
+author : jenna
+image : assets/images/Blog%20Thumbnails/211019-Adaptavist.png
 categories: [Company News]
 tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드, Jira Cloud, Adaptavist, Jira Sofrware, Atlassian Marketplace, scriptrunner]
 ---
 
-![Adaptavist Partner](/assets/images/blog/rgb_logo_Adaptavist_orange.svg)
+
 
 안녕하세요, 디무브입니다! 🎈
 

@@ -3,11 +3,13 @@ layout: post
 title: 아틀라시안 클라우드 제품의 변경 관리를 위한 4가지 방법
 Subtitle: CVE-2021-42574
 date: 2021-11-15
+author : ethan
+image : https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/download.png?resize=1560,760&ssl=1
 categories: [Atlassian Cloud]
 tags: [Atlassian, 아틀라시안, Jira, Confluence, 변경관리, Change Management, Atlassian Cloud, 디무브, 아틀라시안 릴리즈 노트]
 ---
 
-![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/08/download.png?resize=1560,760&ssl=1)
+
 
 안녕하세요, 디무브입니다! 🎈
 

@@ -3,8 +3,10 @@ layout: post
 title: Case Study - Bitbucket을 활용하여 자신만의 블로그 포스팅하기
 Subtitle: 블로그 포스팅
 date: 2022-06-23
+image : https://www.dmove.co.kr/html/_skin/img/sub/products/img_bitbucket_03.png
 categories: [Case Study]
 tags: [Atlassian, Cloud, Bitbucket, bitbucket, 비트버킷, Blog, blog, 블로그, 블로그 포스팅 ]
+author : jackson
 
 ---
 

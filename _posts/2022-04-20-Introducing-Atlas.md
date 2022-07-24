@@ -4,13 +4,15 @@ layout: post
 title: 팀워크 향상을 위한 아틀라시안의 프로젝트 디렉토리 'Atlas'를 소개합니다.
 Subtitle: Introducing Atlas – your new teamwork directory
 date: 2022-04-20
+author : jackson
+image : assets/images/banners/Intro-Atlas/Main.png
 categories: [Inside Atlassian]
 tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere, Scottfarquhar, Lasvegas, 아틀라시안컨퍼런스, postcovid, atlas, atlassiananlytics, team22keynote, 아틀라스]
 
 ---
 
 
-![Atlas banner](/assets/images/banners/Intro-Atlas/Main.png)
+<!-- ![Atlas banner](/assets/images/banners/Intro-Atlas/Main.png) -->
 
 안녕하세요, 디무브 입니다! 🎈
 

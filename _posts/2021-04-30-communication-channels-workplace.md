@@ -3,11 +3,13 @@ layout: post
 title: 협업의 기본 - 업무용 커뮤니케이션 채널 가이드
 subtitle: 당신이 일하는 책상이 어디에 있든, 효과적으로 커뮤니케이션 하는 방법 
 date: 2021-04-30 12:00:00
+author : jenna
+image : https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/in-their-own-words-pt-1_featured%403x-1560x760.png
 categories: [Inside Atlassian]
 tags: [Communication, Atlassian, Confluence, Collaboration]
 ---
 
-![banner-image](https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/in-their-own-words-pt-1_featured%403x-1560x760.png)
+
 
 
 ## 업무용 커뮤니케이션 채널 가이드

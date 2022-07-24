@@ -1,15 +1,16 @@
 ---
 layout: post
-title: Atlassian Cloud에서 제품 액세스를 위한 IP 주소 허용 및 지정하기
+title: Atlassian Cloud Tip - 제품 액세스를 위한 IP 주소 허용 및 지정
 subtitle: Specify IP addresses for product access
 date: 2021-05-27
+author : jackson
+image : https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629
 categories: [How To]
 tags: [Product Access, Atlassian, Jira, Confluence, IP, Atlassian Cloud, Whitelist, 아틀라시안, 아틀라시안클라우드, 지라, 컨플루언스]
 ---
 
-![enter image description here](https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629)
 
-안녕하세요, 디무브 입니다! :balloon: 
+안녕하세요, 디무브 입니다! 🎈
 
 이번에는 기술적인 내용을 가지고 왔습니다.  
 바로 **제품 액세스를 위한 IP 주소 허용 및 지정** 방법인데요!

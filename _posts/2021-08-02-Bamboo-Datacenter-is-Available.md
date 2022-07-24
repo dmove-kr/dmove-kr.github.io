@@ -3,11 +3,12 @@ layout: post
 title: Bamboo Data Center 라이선스 정식 출시 안내
 Subtitle: Important changes to Bamboo Server
 date: 2021-08-02
+author : jenna
+image : assets/images/blog/bamboo1.png
 categories: [Inside Atlassian]
 tags: [Atlassian, 아틀라시안, Bamboo, 뱀부, 배포빌드, 지속적통합, CICD, 개발협업툴, Atlassian Bamboo, 아틀라시안 데이터센터]
 ---
 
-![banner](/assets/images/blog/bamboo1.png)
 
 안녕하세요, 디무브 입니다! 🎈
 

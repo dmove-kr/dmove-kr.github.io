@@ -3,11 +3,12 @@ layout: post
 title: ALM Works 파트너쉽 및 Structure(Atlassian Add-on)소개
 Subtitle: ALM Works Certified Partner Announcement
 date: 2021-07-21
+author : jenna
+image : assets/images/Blog%20Thumbnails/210721-ALM Works.png
 categories: [Company News]
 tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드, Jira Cloud, ALMworks, Jira Sofrware, Atlassian Marketplace, Structure for Jira]
 ---
 
-![ALM Works Certified Partner](/assets/images/blog/ALM Certified Partner RGB Color.png)
 
 안녕하세요, 디무브입니다! 🎈
 

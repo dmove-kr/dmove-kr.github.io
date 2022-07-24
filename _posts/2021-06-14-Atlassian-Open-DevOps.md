@@ -2,13 +2,16 @@
 layout: post
 title: Atlassian의 DevOps 접근 방식, Open DevOps
 date: 2021-06-15
+author : ethan 
+image : assets/images/blog/Opendev_1.png
 categories: [Atlassian Cloud]
 tags: [Atlassian, Jira, Confluence, Bitbucket, Opsgenie, Atlassian Cloud, OpenDevOps, DevOps, 오픈데브옵스, 데브옵스, 아틀라시안, 아틀라시안클라우드, 지라, 컨플루언스]
 ---
 
-![banner](/assets/images/blog/Opendev_1.png)
 
-안녕하세요, 디무브 입니다! :balloon: 
+
+
+안녕하세요, 디무브 입니다! 🎈
 
 다양한 툴 체인을 올인원으로 활용할 수 있는 Jira 기반 개발 환경인 아틀라시안의 **Open DevOps**가 지난 4월 말 진행된 Team 21에서 정식으로 소개되었습니다.
 

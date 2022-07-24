@@ -3,13 +3,13 @@ layout: post
 title: Confluence 활용 Tip.1 - 프로젝트를 효과적으로 관리하는 3가지 방법
 Subtitle: Confluence의 프로젝트 관리
 date: 2021-09-10
+author : jackson
+image : assets/images/banners/Confluence/3%20ways%20confluence-main.png
 categories: [How To]
 tags: [Atlassian, 아틀라시안, Confluence, 컨플루언스, 프로젝트관리, Confluence 활용, KMS, 문서관리, 협업솔루션, 협업도구]
 ---
 
 
-
-![](https://blog.dmove.kr/assets/images/banners/Confluence/3%20ways%20confluence-main.png)
 
 
 

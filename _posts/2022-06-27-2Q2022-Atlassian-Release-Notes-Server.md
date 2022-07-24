@@ -4,6 +4,8 @@ layout: post
 title: 2022 Atlassian 주요 제품 릴리즈 노트 (Apr ~ Jun) - Data Center
 Subtitle: Release Note
 date: 2022-06-27
+author : jackson
+image: https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png
 categories: [Release Note]
 tags: [Atlassian, Atlassian Data Center, 아틀라시안, 아틀라시안 서버, 데이터 센터, Jira, jira, Jira Server, Data Center, Release, Release Note, Jira Sofrware, Jira Service Management, Confluence,컨플,DevOps, 데브옵스, dev, Dev, 에자일, Agile, Wiki]
 
@@ -11,7 +13,7 @@ tags: [Atlassian, Atlassian Data Center, 아틀라시안, 아틀라시안 서버
 
 
 
-![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
+<!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) -->
 
 안녕하세요. 디무브 입니다! :balloon:
 

@@ -1,16 +1,18 @@
 ---
 layout: post
 title: 2021 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Apr) - Cloud
-subtitle: Atlassian Release Note
+subtitle: Release Note
 date: 2021-05-06 16:48:00
+author : jackson
+image : assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png
 categories: [Release Note]
 tags: [Jira,Conlfuence,Jira Service Management,Releases, Release Notes,Cloud, Atlassian, 아틀라시안, 아틀라시안클라우드]
 ---
 
 
-![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png)
+<!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) -->
 
-안녕하세요, 디무브 입니다! :balloon:
+안녕하세요, 디무브 입니다! 🎈
 
 
 

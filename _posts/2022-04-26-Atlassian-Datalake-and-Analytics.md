@@ -4,13 +4,15 @@ layout: post
 title: 데이터 중심의 통찰력을 높여주는 아틀라시안의 'Atlassian Data Lake & Atlassian Analytics'를 소개합니다.
 Subtitle: Help teams see the big picture in their work.
 date: 2022-04-26
+author : jamie
+image : https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/image-20220309-183113-1536x747.png
 categories: [Inside Atlassian]
 tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere,  Lasvegas, 아틀라시안컨퍼런스, postcovid, datalake, atlassiananlytics, team22keynote, dataanalytics, altassiancloud]
 
 ---
 
 
-![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/image-20220309-183113-1536x747.png)
+
 
 <br/>
 

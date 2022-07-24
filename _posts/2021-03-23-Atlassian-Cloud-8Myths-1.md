@@ -3,10 +3,12 @@ layout: post
 title:  아틀라시안 클라우드에 대한 8가지 오해 Part.1
 subtitle:  데이터 보안부터 성능에 이르기까지 가장 일반적인 오해를 바로잡기
 date:   2021-03-23 12:00:00
+author : jenna
+image : https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.10.19.png
 categories: [Atlassian Cloud]
 tags: [Atlassian, Cloud, Cloud Migration]
 ---
-안녕하세요, 디무브 입니다! :balloon:
+안녕하세요, 디무브 입니다! 🎈
 
 클라우드 마이그레이션을 전문으로 하는 Atlassian의 솔루션 파트너인 저희는 클라우드로의 마이그레이션을 주저하는 대부분의 고객들이 잘못되었거나 오래 된 정보로 인해 많은 오해를 하고 있다는 것을 알게되었습니다.
 

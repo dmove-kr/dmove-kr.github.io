@@ -3,11 +3,13 @@ layout: post
 title: 우리 조직에게 가장 적합한 Atlassian 클라우드 플랜은 무엇일까?
 Subtitle: Atlassian Cloud Plan 
 date: 2021-07-15
+author : jenna
+image : https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/02/image-20201008-155621-4.png?w=1560&ssl=1
 categories: [Atlassian Cloud]
 tags: [Atlassian, Atlassian Cloud, Cloud Migration, 아틀라시안, 아틀라시안클라우드, Jira Cloud, Confluence Cloud]
 ---
 
-![enter image description here](https://i0.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/02/image-20201008-155621-4.png?w=1560&ssl=1)
+
 안녕하세요, 디무브입니다! 🎈
 
 Atlassian 클라우드는 뛰어난 확장성과 뉴노멀 시대에 맞는 원격 근무에 친화적인 환경 등의 장점을 토대로 소규모 팀부터 엔터프라이즈 조직까지, 모든 규모의 조직을 아우르는 플랜을 제공하고 있습니다.

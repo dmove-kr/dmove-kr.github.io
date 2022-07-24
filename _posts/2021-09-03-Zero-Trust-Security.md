@@ -3,12 +3,13 @@ layout: post
 title: 제로 트러스트(Zero Trust) - Atlassian Cloud의 보안 모델
 Subtitle: Zero Trust Security 
 date: 2021-09-03
+author : jenna
+image : https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/07/blog-1120x545@2x.png?resize=1560,760&ssl=1
 categories: [Atlassian Cloud]
 tags: [Atlassian, 아틀라시안, Atlassian Cloud,Cloud 보안, 제로트러스트, Zero trust, Atlassian Access, Access Management, 클라우드계정관리]
 ---
 
 
-![enter image description here](https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2021/07/blog-1120x545@2x.png?resize=1560,760&ssl=1)
 
 안녕하세요, 디무브 입니다! 🎈
 
