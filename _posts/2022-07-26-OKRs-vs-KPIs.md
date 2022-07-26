@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OKRs vs KPIs: 개념 및 사용 방법에 대한 가이드
+title: OKRs vs KPIs - 개념 및 사용 방법에 대한 가이드
 Subtitle: Atlassian in Seoul 2022
 date: 2022-07-26
 image : https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/208d7955-33b5-4ad5-b739-82f8ce94ecac/8a9982ff7519604f01751c35c4ac0507/AIS_Banner.png
