@@ -5,12 +5,311 @@
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Jul 2022 11:07:05 +0900</pubDate>
-    <lastBuildDate>Mon, 25 Jul 2022 11:07:05 +0900</lastBuildDate>
+    <pubDate>Tue, 26 Jul 2022 15:35:27 +0900</pubDate>
+    <lastBuildDate>Tue, 26 Jul 2022 15:35:27 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>3년만에 돌아온 아틀라시안 고객 컨퍼런스, 'Atlassian in Seoul 22' 후기</title>
+        <title>OKRs vs KPIs - 개념 및 사용 방법에 대한 가이드</title>
+        <description>&lt;p&gt;안녕하세요, 디무브 입니다.🎈&lt;/p&gt;
+
+&lt;p&gt;이번 포스트에서는 목표 설정에 있어서 가장 많이 활용되고 있는 두 가지 체제에 대한 개념과 작성 방법 및 적절한 사용 시기에 대해 공유드리려고 합니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 체제 설정은 조직과 개인 모두에게 동기를 부여하고 업무에 대한 집중을 높임으로써 생산성을 증가시키는 이점이 있습니다. 또한 이에 따른 결과를 객관적인 수치로 확인할 수 있어 많은 기업에서 성과 지표로 사용되고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;5 - SUMMARY&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-   OKRs와 KPIs는 조직이 의미 있는 목표를 설정하고 그 목표를 달성하기 위한 효과적인 전략을 실행하는 데 도움이 되는 대중적인 목표 설정 방법입니다. &lt;br /&gt;  - 일부 조직에서는 한 체제만을 따르지만 많은 기업에서 OKRs과 KPIs를 함께 사용합니다. &lt;br /&gt;  - 목표 설정 시에는 SMART 기법을 사용하고 조직 전체에 걸쳐 가시적으로 평가할 수 있도록 합니다. &lt;br /&gt; &lt;em&gt;&lt;strong&gt;SMART:&lt;/strong&gt; 한 가지 목표를 구체적으로 측정 가능하고 성취 가능하며 연관성 있게 시간제한을 두는 목표 설정법입니다. &lt;br /&gt;  &lt;strong&gt;S&lt;/strong&gt;pecific - 구체적인 / &lt;strong&gt;M&lt;/strong&gt;easurable - 예측 가능한 / &lt;strong&gt;A&lt;/strong&gt;ttainable - 달성 가능한 / &lt;strong&gt;R&lt;/strong&gt;elevant - 관련된  &lt;strong&gt;T&lt;/strong&gt;imely - 시기적절한&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;모든 목표가 같지 않기 때문에 목표했던 결과와 성공 여부를 결정하는 데 사용되는 지표와 크고 작은 계획들이 각 각 이루어져야 합니다.&lt;/p&gt;
+
+&lt;p&gt;그렇다면, 어떻게 올바른 목표를 세우고 그에 맞게 나아가고 있는지 알 수 있을까요?&lt;/p&gt;
+
+&lt;p&gt;시기적절한 사용은 조직이 의미 있는 목표를 설정하고 그에 도달하기 위한 효과적인 전략을 실행할 수 있게 합니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 효과를 최대한 활용하기 위해서는 각 체제의 이점과 한계를 이해하는 것이 중요합니다.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;목표-및-핵심-결과okrs란-무엇인가요&quot;&gt;&lt;strong&gt;목표 및 핵심 결과(OKRs)란 무엇인가요?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;목표 및 핵심 결과(OKRs)는 조직 및 팀이 목표를 정의하고 관련 결과를 추적하기 위해 사용하는 목표 설정 체제입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;90년대 후반에 Google에 OKRs를 소개한 미국의 유명 벤처 자본가 John Doerr는 목표는 무엇(What)이고, 핵심 결과는 방법(How)이다 라고 서술하였습니다.&lt;/p&gt;
+
+&lt;p&gt;알맞게 설정된 목표란 팀이 정한 기간(예: 다음 분기 말 또는 회계연도)동안 달성하고자 하는 바를 명확히 명시 하는 것입니다. 목표는 도전적으로 해야 하고 이를 팀의 최우선 사항으로 여겨야 합니다.&lt;/p&gt;
+
+&lt;p&gt;진행률을 측정하기 위해 각 목표에는 달성 여부를 나타내는 정량적 지표인 3~5개 정도의 핵심 결과가 있어야 합니다.&lt;/p&gt;
+
+&lt;p&gt;핵심 결과는 보통 0~1의 점수로 나타내는데요.&lt;/p&gt;
+
+&lt;p&gt;여기서 1은 목표를 설정하고 대성공을 거둔 경우이며, 0.3은 목표에 못 미치는 상당히 높은 위험을 나타내는 반면 0.7 은 목표치에 다소 도달했음을 나타냅니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2022/06/1-1536x819.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;okr-예시&quot;&gt;OKR &lt;strong&gt;예시&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;OKRs의 작성은  지도층(전사적 OKRs 경우) 또는 개별 팀, 부서에 걸친 협업 프로세스여야 합니다.&lt;/p&gt;
+
+&lt;p&gt;아래는 팀이 연 단위로 설정할 수 있는 OKRs의 몇 가지 예입니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;전사적 OKRs&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;목표: 판매 수익 증대&lt;/strong&gt; &lt;br /&gt; 핵심 결과 #1: 웹 전환율 25% 향상 &lt;br /&gt;  핵심 결과 #2: 평균 가입 가치를 300달러에서 500달러로 증가 &lt;br /&gt;  핵심 결과 #3: 평균 판매 일수를 20일에서 17일로 단축&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;목표: 직원 이직률 감소&lt;/strong&gt;  &lt;br /&gt; 핵심 결과 #1: 직원 이직률 20%에서 15%로 감소 &lt;br /&gt; 핵심 결과 #2: 12주 중 10주 동안 직원 만족도 조사에서 4점 이상 획득  &lt;br /&gt;핵심 결과 #3: 360개 피드백 설문조사에 대한 직원 응답률 70%에서 90%로 증가&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;목표: 시장 점유율 증가&lt;/strong&gt;  &lt;br /&gt; 핵심 결과 #1: 페이지 검색 결과 순위를 6위에서 15위로 증가 &lt;br /&gt; 핵심 결과 #2: 고객 이탈 30% 감소 &lt;br /&gt; 핵심 결과 #3: 4개의 미디어 확보 달성&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;각 전사적 목표에는 KRs가 수반되고 이 KRs를 사용하여 팀 수준의 목표로도 설정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어 “판매 수익 증가”라는 목표에는 영업 팀뿐만 아니라 아래와 같이 여러 팀의 지원이 필요할 수 있습니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;팀 단계 OKRs&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;영업 팀의 OKRs는 매출 증대라는 전사적 목표와 직접적인 관련이 있습니다.  &lt;br /&gt; &lt;strong&gt;목표: 월별 매출 증대&lt;/strong&gt;  &lt;br /&gt; 핵심 결과 #1: 웹 전환율 25% 증가  &lt;br /&gt; 핵심 결과 #2: 고객 유지율 30%에서 50%로 증가  &lt;br /&gt; 핵심 결과 #3: 매월 40건의 높은 가치 잠재 고객 창출&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;마찬가지로 마케팅 팀의 OKRs도 시장 점유율을 높이려는 회사의 목표와 일치할 것입니다.  &lt;br /&gt; &lt;strong&gt;목표: 브랜드 인지도 증가&lt;/strong&gt;  &lt;br /&gt; 핵심 결과 #1: 페이지 검색 결과 순위를 6위에서 15위로 증가  &lt;br /&gt; 핵심 결과 #2: 4개의 미디어 지점 확보  &lt;br /&gt; 핵심 결과 #3: 소셜 미디어 참여율 35%에서 55%로 증가&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;일단 OKRs를 작성한 팀은 정기적으로 모임을 갖고 자신의 노력들이 핵심 결과에 맞춰 올바른 방향으로 나아가고 있는지 판단해야 합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;핵심-성과-지표kpi란-무엇인가요&quot;&gt;&lt;strong&gt;핵심 성과 지표(KPI)란 무엇인가요?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;핵심 성과 지표(KPIs)는 특정 목표에 대한 팀 또는 개인의 성과를 정량적으로 측정하는 지표입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;기본적으로 KPI는 팀이 목표 대비 어떤 성과를 내고 있는지 알려주는 지표입니다.&lt;/p&gt;
+
+&lt;p&gt;만약 팀이 원하는 결과로 향하지 못하고 업무의 지연이 있는 경우 새로운 전략을 추구하거나 목표를 재평가해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;KPIs 는 시간 범위와 같이 측정 가능한 목표에만 유용하기 때문에 팀들은 OKRs와 KPIs를 상호 보완적으로 사용합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;kpi-예시&quot;&gt;KPI 예시&lt;/h2&gt;
+
+&lt;p&gt;OKRs와 마찬가지로, 전사적인 KPI에 영향을 미치는 요소를 특정 부서와 팀으로 설정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 다양한 팀의 KPIs와 그에 상응하는 목표는 아래와 같습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;strong&gt;영업 팀(Sales team&lt;/strong&gt;)&lt;/dt&gt;
+      &lt;dd&gt;KPI는 계약 금액으로, 월 250달러에서 월 350달러로 계약 금액을 높이는 것이 목표입니다.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;strong&gt;마케팅 팀(Marketing team&lt;/strong&gt;)&lt;/dt&gt;
+      &lt;dd&gt;KPI는 전환율로 전환율을 30% 높이는 것이 목표입니다.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;strong&gt;고객서비스 팀(Customer service team&lt;/strong&gt;)&lt;/dt&gt;
+      &lt;dd&gt;KPI는 티켓 해결 시간으로 목표는 티켓 해결 시간을 50% 줄이는 것입니다.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;strong&gt;운영 팀(Operations team&lt;/strong&gt;)”&lt;/dt&gt;
+      &lt;dd&gt;KPI는 자재 비용으로 목표는 자재 비용을 5% 절감하는 것입니다.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;개인의 목표를 달성하기에 OKRs가 적절하지 않다면, KPIs는 개인적인 KPI 목표( 예 - 영업 팀의 각 구성원이 2분기까지 판매한 고액 계약 건 수 등)를 통해 특정 목표를 달성하고 협력할 수 있는 효과적인 방법이 될 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;okrs-vs-kpis-사용-시기&quot;&gt;&lt;strong&gt;OKRs vs KPIs: 사용 시기&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;일부 조직은 특정한 체제만을 유지하지만(구글은 OKRs 사용으로 악명 높다.), 아틀라시안을 포함한 많은 기업은 OKRs와 KPIs를 함께 사용합니다.&lt;/p&gt;
+
+&lt;p&gt;John Doerr는 OKRs에 대한 폭 넓은 내용과 OKRs와 KPIs가 서로 보완할 수 있음을 강조하였는데요.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;OKRs는 필요한 방향과 맥락을 제공합니다. 그런 의미에서 OKRs는 영혼이 있는 KPIs라고 할 수 있습니다. 목표는 달성하고자 하는 바를 설명하고, 주요 결과는 어떻게 달성하고 있는지를 보여줍니다. KPIs는 측정 가능하므로 훌륭한 핵심 결과를 창출할 수 있습니다. OKRs와 KPIs를 나누어 생각하기 보다는 상호 보완 관계로 고려해야합니다. - John Doerr&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;KPI는 이미 사용 중인 프로그램을 측정하기 위한 간단한 프로세스입니다. 예를 들어, 지난 6개월 동안 소셜 미디어 전략을 수립했지만 효과를 확인할 수 없다면 KPI를 통해 성과를 측정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;반면에 새로운 전략을 시도하거나 제품 출시 계획이라면 OKR이 더 나은 선택일 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;OKRs는 목표를 달성하지 못할지라도 해당 목표치에 도달하기 위한 노력을 장려하도록 설계되어있고, 실패는 나쁜 것이 아니며 위험으로부터 신뢰를 얻는 환경을 조성하는 것으로 이해해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;물론, OKRs는 개인에게 적합하지 않을 수 있습니다: 팀 구성원에게 자체 OKRs를 작성하도록 요청하면 목표에 의한 영향 보다는 목표 중심 KRs가 발생하는 경우가 많습니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 마케터는 랜딩 페이지 변환을 12% 증가시키는 목표를 달성하기 위해 “A/B 테스트 10 복사변형”의 KR에 집중하는 경향이 있을 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;여기서 문제는 KR이 목표에 의한 영향보다 목표에만 집중한다는 점입니다. 종종 명시된 목표는 한 개인에 의해 달성되지 않고 모든 팀원이 협력을 필요로 합니다.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;atlassian-팀이-okrs와-kpis를-사용하는-방법&quot;&gt;&lt;strong&gt;Atlassian 팀이 OKRs와 KPIs를 사용하는 방법&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;아틀라시안에서는 가장 적합한 방법과 수단을 사용하여 팀이 혁신적으로 생각하고 생산적인 목표를 세울 수 있도록 도와줍니다. 모든 팀이 더 많은 것을 성취할 수 있도록 하는 OKRs를 작성하기 위해 아래와 같이 5단계 프로세스를 설계했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;팀-또는-부서-okr-세션-실행-방법-how-to-run-a-team--or-department-level-okr-session&quot;&gt;&lt;strong&gt;팀 또는 부서 OKR 세션 실행 방법 (How to run a team- or department-level OKR session):&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;strong&gt;준비단계(Prep)&lt;/strong&gt;&lt;/dt&gt;
+      &lt;dd&gt;미팅 시간을 설정하고 관련 정보를 공유합니다. 원격으로 근무하는 팀의 경우에는 회의 시 Trello 보드 또는 Confluence 페이지를 모든 사용자가 사용하도록 권장하고, 직접 대면하는 팀의 경우에는 회의 시 해당 보드나 페이지를 스크린에 띄워 놓고 진행하는 것을 권장합니다.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;strong&gt;목표 설정(Set the stage)&lt;/strong&gt;&lt;/dt&gt;
+      &lt;dd&gt;다음 분기에 고객에게 가장 큰 가치를 제공할 수 있는 부분이 무엇인지 생각하며 목표를 브레인스토밍합니다.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;strong&gt;핵심 결과 설정(Set key results)&lt;/strong&gt;&lt;/dt&gt;
+      &lt;dd&gt;1~3개의 주요 목표를 설정하고 목표를 달성했음을 확인할 수 있는 결과를 설정합니다.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;strong&gt;권한 부여(Assign owners)&lt;/strong&gt;&lt;/dt&gt;
+      &lt;dd&gt;각각의 KR을 추적할 수 있도록 팀 멤버에게 권한을 부여합니다.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;strong&gt;검토(Review)&lt;/strong&gt;&lt;/dt&gt;
+      &lt;dd&gt;목표가 충분히 도전적이고 0~1까지 점수를 매길 수 있는지 확인합니다.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;아틀라시안은 전사적 OKRs를 정하고, 팀에게 공지합니다.&lt;/p&gt;
+
+&lt;p&gt;전사적인 OKRs 설정하는 것이 결코 쉬운 일이 아니지만, 모든 팀이 올해 가장 중요한 일에 집중할 수 있음을 보장함과 동시에 Confluence나 Atlas처럼 누구나 볼 수 있도록 명백(투명) 하게 진행 상황을 측정해야 한다고 믿고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2022/06/unnamed-1.png&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;KPIs, OKRs를 각각 사용하거나 두 체제를 모두 사용하는 경우에도 팀원 모두가 같은 목표에 대해 이해하고 있는지 확인합니다.&lt;/p&gt;
+
+&lt;p&gt;목표를 작성하고 추적하는 과정에 직원을 참여시킴으로써 조직 전체가 같은 목표를 갖고 성공을 위한 준비를 더 잘 할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;저희 디무브에서도 매 연말에 전사적인 목표를 모든 구성원에게 공유하고 개인이 목표를 세울 수 있도록 하고 있는데요.&lt;/p&gt;
+
+&lt;p&gt;OKRs를 통해 조직의 목표에 맞춰 함께 성장하기 위해서 본인 스스로 해야 하는 일과 할 수 있는 일에 대해 작성하고 논의하는 시간을 갖고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;그리고 이 모든 과정을 Confluence를 통해 투명하게 공유하고, Jira Project와 연결하여 진행상황을 추적하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이번 연도에는 KPIs의 이점을 활용하여 보다 더 명확한 목표를 세워 조직과 팀이 양방향으로 소통하고 협력할 수 있도록 도전해 봐야겠습니다.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안을 이용하여 목표를 설정하고 추적하는 과정을 보다 가시적으로 관리하고 싶으시다면, 언제든지 디무브로 문의해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 Jul 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/OKRs-vs-KPIs/</link>
+        <guid isPermaLink="true">http://localhost:4000/OKRs-vs-KPIs/</guid>
+        
+        <category>Atlassian</category>
+        
+        <category>아틀라시안</category>
+        
+        <category>Atlassian Cloud</category>
+        
+        <category>Jira</category>
+        
+        <category>Confluence</category>
+        
+        <category>아틀라시안클라우드</category>
+        
+        <category>디무브</category>
+        
+        <category>OKR</category>
+        
+        <category>KPI</category>
+        
+        <category>Atlas</category>
+        
+        <category>Performancereview</category>
+        
+        <category>Jiraworkmanagement</category>
+        
+        
+        <category>Inside Atlassian</category>
+        
+      </item>
+    
+      <item>
+        <title>3년만에 돌아온 아틀라시안 고객 컨퍼런스, &apos;Atlassian in Seoul 22&apos; 후기</title>
         <description>&lt;p&gt;안녕하세요, 디무브 입니다! 🎈&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -1909,7 +2208,7 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
       </item>
     
       <item>
-        <title>Atlassian Team '22 - ITSM 키노트 'Come together right now'</title>
+        <title>Atlassian Team &apos;22 - ITSM 키노트 &apos;Come together right now&apos;</title>
         <description>&lt;p&gt;안녕하세요, 디무브 입니다! 🎈
 &lt;br /&gt;&lt;/p&gt;
 
@@ -2083,193 +2382,6 @@ Atlassian Analytics는 개발에서 운영까지 각기 다른 도구의 데이�
         <category>Digitaltransformation</category>
         
         <category>지라</category>
-        
-        
-        <category>Inside Atlassian</category>
-        
-      </item>
-    
-      <item>
-        <title>아틀라시안 마켓플레이스를 활용한 팀워크 활성화</title>
-        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;안녕하세요, 디무브 입니다! 🎈 여러분들도 아시다시피 지난 10년간 아틀라시안은 계속해서 성장해왔는데요.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;그로 인해 현재 200,000개 의 회사들이 아틀라시안 제품을 이용해 팀을 관리하고 있다는 점! 알고 계셨나요?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;코로나로 인해 기업들의 재택근무가 늘어남에 따라 업무 협업툴에 대한 기업들의 니즈는 계속해서 증대되고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이러한 과정 속에서 회사별 또는 팀별로 업무를 관리하는 방식이 다르고 팀원들의 요구사항 또한 점점 다양해지고 있기 때문에 그 어느때보다 Jira나 Confluence 같은 팀워크 툴의 커스터마이징에 대한 고객의 요구가 높아지고 있는데요!&lt;/p&gt;
-
-&lt;p&gt;동시에 작업 방식이 원격으로 변화함에 따라 디지털 작업 공간 안에서안전한 환경을 구축하는것이 많은 기업들의 목표가 되고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;즉, 고객의 필요에 따른 커스터마이징+ 디지털 보안 강화&lt;/strong&gt; 가 아틀라시안이 당면한 과제 중 하나라고 해도 과언이 아닌데요.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안은 이러한 고객 목표에 부합하기 위해 아틀라시안 제품과의 통합 기능을 제공하는 5300개의 마켓플레이스 앱을 통해 팀간의 협업을 개선하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;그 결과 아틀라시안 마켓플레이스 앱 총매출이 20억달러, 한화로 2조 4300억을 돌파하는 놀라운 성과를 달성했는데요!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;이 획기적인 성과는 앱 수요의 급속한 성장과 이러한 수요를 충족하기 위한 마켓플레이스 파트너들의 엄청난 노력으로 이룰 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;그렇다면 지금부터 마켓플레이스가 아틀라시안 고객들을 위해 어떤 역할을 하는지 좀 더 자세히 살펴볼까요?   &lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/1f642.png&quot; alt=&quot;:slight_smile:&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;커스터마이징-활성화&quot;&gt;&lt;strong&gt;커스터마이징 활성화&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Jira 및 Confluence의 도입 초기부터 아틀라시안은 고객들이 팀의 특화된 요구 사항을 충족할 수 있도록 아틀라시안 제품을 수정할 수 있도록 했습니다. 아틀라시안 창립자들은 팀이 직면한 다양한 요구 사항을 창립 초기부터 인식했고 이것이 처음부터 Jira 및 Confluence 소스 코드를 제공하여 커스터마이징을 활성화한 이유이기도 합니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 커스터마이징 기능을 구축하는데에는 많은 시간과 노력이 들어가기 때문에 초기부터 모든 고객이 이를 사용할 수 있는 것은 아니었는데요.&lt;/p&gt;
-
-&lt;p&gt;이러한 이유로 아틀라시안 본사는 커스터마이징 기능을 확장하기 위해 개발자가 플러그인을 구축할 수 있는 프레임워크를 도입했고 이것은 향후 마켓플레이스의 기틀이 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/banners/Marketplace-Teamwork/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;플러그인 프레임워크가 도입되고 나서 파트너사들이 고객에게 혁신적인 앱을 제공하기 시작한데에는 그리 오랜 시간이 걸리지 않았는데요.&lt;/p&gt;
-
-&lt;p&gt;먼저 팀 간의 커뮤니케이션을 개선하기 위해 시각화 기능을 공유할 수 있는 Gliffy Diagrams for Confluence 제품이 마켓플레이스의 첫 번째 앱 중 하나로 개발되었습니다.&lt;/p&gt;
-
-&lt;p&gt;해당 제품으로 인해 Confluence나 Jira에서 직관적인 차트와 도표 작성이 가능해졌고 뒤이어 파트너사 중 하나는 스크립팅 어플인 &lt;strong&gt;Scriptrunner&lt;/strong&gt;를 빠르게 개발했습니다.&lt;/p&gt;
-
-&lt;p&gt;이를 통해 고객은 워크플로우를 자동화하고 Jira를 보다 다양한 방식으로 커스터마이징 할 수 있게 되었고 이러한 앱들은 오늘날에도 여전히 마켓플레이스에서 강력한 역할을 하고 있습니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;오늘날-앱과-아틀라시안-제품의-통합은-고객에게-필수적인-요소&quot;&gt;오늘날 앱과 아틀라시안 제품의 통합은 고객에게 필수적인 요소&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Marketplace-Teamwork/2.png&quot; /&gt; &lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;아틀라시안은 보다 다양한 고객의 요구를 반영하기 위해 2012년 5월에 공식적으로 마켓플레이스를 출시했습니다.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안은 마켓플레이스 출시 후 앱 개발을 지원하기 위해 새로운 프레임워크에 계속 투자했고 그 결과 2013년에 클라우드 앱 개발을 위한 첫 번째 플랫폼을 도입했습니다.&lt;/p&gt;
-
-&lt;p&gt;2021년에는 Forge라는 플랫폼을 새롭게 도입하면서 개발자가 아틀라시안에서 앱을 구축하고 호스팅 할 수 있도록 지원했습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/banners/Marketplace-Teamwork/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;마켓플레이스 앱의 활성화로 인해 오늘날 아틀라시안 고객은 매주 평균 28,000개 이상의 앱을 설치하고 Jira 및 Confluence 클라우드 고객의 70% 이상이 최소 하나의 클라우드 앱을 설치했으며 1,250개 이상의 파트너가 마켓플레이스 앱을 하나 이상 보유하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Marketplace-Teamwork/4.png&quot; /&gt; &lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;그렇다면 마켓플레이스 앱을 보유하고 있지 않은 파트너사들은 주로 무슨 역할을 할까요?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;별도의 앱을 보유하고 있지 않은 파트너사들은 고객들에게 아틀라시안 제품 관련 전문지식을 공유하고는 합니다.&lt;/p&gt;
-
-&lt;p&gt;유저들은 파트너가 운영하는 이벤트인 Trundl의 JiraCon 또는 Deviniti의 Jira Day에서 보다 효율적인 작업 방식을 배울 수 있고 파트너 팟캐스트에서 아틀라시안 뉴스에 대한 주간 업데이트를 받거나 파트너가 운영하는 가이드 및 교육 콘텐츠를 통해 아틀라시안 제품 또는 마켓플레이스 어플의 어려운 부분을 안내 받을 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Marketplace-Teamwork/5.png&quot; style=&quot;border: 1px solid darkgray;&quot; /&gt; &lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;현재 마켓플레이스에는 2,500개 이상의 클라우드 어플이 있으며 이 수는 매일 증가하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;그렇다면 주요 마켓플레이스 어플의 기능에 대해 알아보는 시간을 가져볼까요? ! :blush:&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Timesheet Check for Jira&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;해당 어플은 Tempo Planner라는 인기 있는 시간 관리 어플과 통합되어 팀원의 근무 시간이 노동 규정을 위반할 때 관리자에게 자동으로 알려주는 기능을 합니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;One-to-One Analytics&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;관리자는 이 어플을 통해 팀원의 Bitbucket 또는 GitHub 활동을 수집하고 Confluence 내에서 KPI를 측정할 수 있습니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Community Help for Jira and Confluence&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;이 어플을 사용할 시 사용자가 Jira 또는 Confluence에 접속하여 바로 아틀라시안 커뮤니티 답변을 검색할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;위에서 보여드린 어플들은 아틀라시안 클라우드를 사용할때 업무능력을 향상시켜주는 몇가지 어플의 예시일 뿐인데요.&lt;/p&gt;
-
-&lt;p&gt;마켓플레이스를 이용했을때 Jira의 경우 근무시간 기록표를 구성하는 것부터 CRM 통합, 채팅 등 다양한 기능이 가능하며 이는 팀이 Jira를 핵심 소스로 유지함과 동시에 팀원들이 보다 편리하게 일 할 수 있도록 만들어줍니다.&lt;/p&gt;
-
-&lt;p&gt;또한 Confluence의 경우에는 시각적 협업 및 데이터 시각화 분석이 가능한 앱을 통해  조직 전체에 보다 쉽게 정보를 제공 할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이 외에도 아틀라시안은 Slack, GitHub, Microsoft Teams 등과 같은 최고의 도구와 통합하여 더 많은 팀 구성원들이 아틀라시안 제품을 사용할 수 있도록 하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Marketplace-Teamwork/6.png&quot; /&gt; &lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;현재까지 살펴본 것들은 아틀라시안 마켓플레이스의 시작에 불과합니다.&lt;/p&gt;
-
-&lt;p&gt;총 매출 20억 달러는 다가올 미래에 비해 아주 적은 수익이며 아틀라시안은 최근에 설립된 펀드인 Atlassian Ventures를 통해 자체 투자도 진행하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안은 미래에 다가올 마켓플레이스의 성장을 위해 클라우드를 개발할수 있는 환경을 보다 쉽게 만들고자 합니다.&lt;/p&gt;
-
-&lt;p&gt;그러한 노력으로 올해 초 개발자가 클라우드용으로 안정적이게 확장 가능한 어플을 구축하는데 도움이 되는 새로운 개발 플랫폼인 Forge의 출시를 발표했습니다.&lt;/p&gt;
-
-&lt;p&gt;Forge를 통해 현재 아틀라시안은 개발자가 아틀라시안의 인프라에서 앱을 구축하고 호스팅 할 수 있도록 지원함으로써 앱 개발 프로세스를 단순화하고 클라우드 앱 간의 보안 및 안정성을 보장하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;아틀라시안 마켓플레이스의 클라우드 앱은 업계 최고의 보안 및 개인 정보 보호 요구 사항을 충족해야 하고&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;취약점에 대해 정기적으로 검토받고 취약점이 있을 시에는 보고를 통해 이를 의무적으로 공개해야 합니다.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;앞으로도 아틀라시안 본사는 클라우드 및 데이터 센터 고객이 필요로 하는 모든 니즈를 마켓플레이스 어플이 충족할 수 있도록 계속 투자하고 성장시킬것입니다.&lt;/p&gt;
-
-&lt;p&gt;또한 고객은 아틀라시안이 제공하는 &lt;strong&gt;“혁신적인 마켓플레이스 앱”&lt;/strong&gt;과 함께 조직의 필요에 맞게 업무 방식을 체계적이고 효율적인 방식으로 변화 시킬 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;디무브는 아틀라시안 마켓플레이스의 대표 앱인 ScriptRunner, Structure 및 &lt;a href=&quot;http://draw.io/&quot;&gt;Draw.io&lt;/a&gt; 와 파트너쉽을 맺고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;그외에도 마켓플레이스 앱 관련하여 문의 사항이 있으시면 언제든지 디무브에 문의 부탁드립니다.&lt;/p&gt;
-
-&lt;p&gt;감사합니다.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 12 May 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/Atlassian-Marketplace-Teamwork/</link>
-        <guid isPermaLink="true">http://localhost:4000/Atlassian-Marketplace-Teamwork/</guid>
-        
-        <category>Atlassian</category>
-        
-        <category>Marketplace</category>
-        
-        <category>아틀라시안</category>
-        
-        <category>마켓플레이스</category>
-        
-        <category>팀워크</category>
-        
-        <category>teamwork. Teamwork</category>
-        
-        <category>confluence</category>
-        
-        <category>jira</category>
         
         
         <category>Inside Atlassian</category>
