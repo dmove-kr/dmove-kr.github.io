@@ -10,7 +10,7 @@ tags: [Atlassian,아틀라시안클라우드마이그레이션, 아틀라시안�
 ---
 
 
-<!-- ![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar0.png?raw=true) -->
+<!-- ![enter image description here](https://blog.dmove.kr/assets/images/blog/Webinar0.png?raw=true) -->
 
 
 안녕하세요, 디무브입니다🎈
@@ -47,7 +47,7 @@ tags: [Atlassian,아틀라시안클라우드마이그레이션, 아틀라시안�
 
 # #Session 1. 아틀라시안 클라우드로 마이그레이션 해야하는 이유
 
-![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/%EC%9B%A8%EB%B9%84%EB%82%98%20%EB%B8%94%EB%A1%9C%EA%B7%B81.PNG?raw=true)
+![enter image description here](https://blog.dmove.kr/assets/images/blog/%EC%9B%A8%EB%B9%84%EB%82%98%20%EB%B8%94%EB%A1%9C%EA%B7%B81.PNG?raw=true)
 
 
 지난해 아틀라시안이 신규 서버 제품의 구매를 완전히 중단함에 따라 현재 아틀라시안에서 신규로 구매하실 수 있는 라이센스 유형은 온프레미스인 데이터센터와 SaaS 기반의 클라우드만 남게 되었는데요.
@@ -63,7 +63,7 @@ tags: [Atlassian,아틀라시안클라우드마이그레이션, 아틀라시안�
 -   **생산성 증대의 차이-** 클라우드의 경우 높은 확장성과 탄력성으로 손쉽게 기능 확장이 가능하나 데이터센터의 경우 시간과 비용이 많이 소요됨
 
 
-![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar2.PNG?raw=true)
+![enter image description here](https://blog.dmove.kr/assets/images/blog/Webinar2.PNG?raw=true)
 
 
 실제로 500명의 사용자를 기준으로 지라와 컨플루언스 클라우드와 온프레미스인 서버의 총 소유 비용을 추정하여 비교해보면 온프레미스인 서버는 1년간 약 2억 5천 클라우드는 스탠다드 플랜 기준으로 약 6000만원의 비용이 발생했는데요. 
@@ -72,7 +72,7 @@ tags: [Atlassian,아틀라시안클라우드마이그레이션, 아틀라시안�
 
 ----------
 
-![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar3.PNG?raw=true)
+![enter image description here](https://blog.dmove.kr/assets/images/blog/Webinar3.PNG?raw=true)
 
 실제로 아틀라시안에서는 온프레미스 버전을 이용 중인 고객 분들을 대상으로 성공적인 클라우드 마이그레이션이 가능할 수 있도록 클라우드 로열티 디스카운트 제도, 듀얼 라이센싱 제도, 무료 클라우드 평가판 제도 등 주요 3가지 제도들을 통해 비용적인 이점을 제공하고 있습니다.
 
@@ -86,7 +86,7 @@ tags: [Atlassian,아틀라시안클라우드마이그레이션, 아틀라시안�
 
 
 
-![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar4.png?raw=true)
+![enter image description here](https://blog.dmove.kr/assets/images/blog/Webinar4.png?raw=true)
 
 다음으로는 아틀라시안 클라우드의 주요 기능에 대해 살펴보았는데요.
 
@@ -106,7 +106,7 @@ tags: [Atlassian,아틀라시안클라우드마이그레이션, 아틀라시안�
 -   **Team Calendars for Confluence-** 기존 서버 버전에서는 유료였으나 클라우드 프리미엄 플랜에 무료로 통합된 기능으로 팀 및 개인 일정을 한눈에 파악하여 체계적인 팀 관리 가능
 
 
-![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar5.png?raw=true)
+![enter image description here](https://blog.dmove.kr/assets/images/blog/Webinar5.png?raw=true)
 
 클라우드 프리미엄 플랜의 기본 기능으로 보시는 것과 같이 4가지 기능이 추가되었는데요.
 
@@ -121,7 +121,7 @@ IP 허용 목록 기능을 통해 사이트상의 액세스를 신뢰할 수 있
 # #Session 2. 클라우드 마이그레이션 프로세스
 
 
-![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar6.png?raw=true)
+![enter image description here](https://blog.dmove.kr/assets/images/blog/Webinar6.png?raw=true)
 
 
 이번에는 클라우드 마이그레이션의 각 단계별 프로세스에 대해 알아보는 시간을 가져보겠습니다.
@@ -138,7 +138,7 @@ IP 허용 목록 기능을 통해 사이트상의 액세스를 신뢰할 수 있
 
 <br/>
 
-![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webianr7.png?raw=true)
+![enter image description here](https://blog.dmove.kr/assets/images/blog/Webianr7.png?raw=true)
 
 다음으로는 클라우드 마이그레이션의 각 단계별 프로세스에 대해 자세하게 소개해드리는 시간을 가졌는데요.
 
@@ -155,7 +155,7 @@ IP 허용 목록 기능을 통해 사이트상의 액세스를 신뢰할 수 있
 **5.마이그레이션**-실제 마이그레이션을 수행하는 단계로 서버 시스템을 중지하고 테스트 단계에서 발생한 이슈들을 수정하여 최적의 상황으로 마이그레이션을 수행
 
 
-![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webianr8.png?raw=true)
+![enter image description here](https://blog.dmove.kr/assets/images/blog/Webianr8.png?raw=true)
 
 
 마지막 단계인 서비스 오픈 단계에서는 사용자 피드백을 통해 앞서 발견하지 못했던 이슈들을 처리하고 고객이 클라우드 환경에서 업무를 잘 수행할 수 있도록 지원합니다.
@@ -171,7 +171,7 @@ IP 허용 목록 기능을 통해 사이트상의 액세스를 신뢰할 수 있
 # #Session 3. 클라우드 마이그레이션 고객 사례
 
 
-![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webianr9.png?raw=true)
+![enter image description here](https://blog.dmove.kr/assets/images/blog/Webianr9.png?raw=true)
 
 
 세번째 세션에서는 실제로 저희 디무브를 통해 클라우드 마이그레이션을 진행했던 고객의 사례에 대해 소개해드렸는데요.
@@ -186,7 +186,7 @@ IP 허용 목록 기능을 통해 사이트상의 액세스를 신뢰할 수 있
 
 <br/>
 
-![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar10.png?raw=true)
+![enter image description here](https://blog.dmove.kr/assets/images/blog/Webinar10.png?raw=true)
 
 
 두 번째 고객인 N사의 경우 사세 확장으로 인한 급격한 사용자 증가로 인해 서버 부하가 발생하기 시작하였으며 그로 인해 속도 저하 및 간헐적인 장애가 발생하는 상태였습니다.

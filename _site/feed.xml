@@ -5,8 +5,8 @@
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Jul 2022 16:11:54 +0900</pubDate>
-    <lastBuildDate>Tue, 26 Jul 2022 16:11:54 +0900</lastBuildDate>
+    <pubDate>Wed, 27 Jul 2022 13:11:18 +0900</pubDate>
+    <lastBuildDate>Wed, 27 Jul 2022 13:11:18 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -1707,7 +1707,7 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
     
       <item>
         <title>웨비나 생생후기 - IT 혁신을 위한 아틀라시안 클라우드 마이그레이션 전략</title>
-        <description>&lt;!-- ![enter image description here](https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar0.png?raw=true) --&gt;
+        <description>&lt;!-- ![enter image description here](https://blog.dmove.kr/assets/images/blog/Webinar0.png?raw=true) --&gt;
 
 &lt;p&gt;안녕하세요, 디무브입니다🎈&lt;/p&gt;
 
@@ -1759,7 +1759,7 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
 
 &lt;h1 id=&quot;session-1-아틀라시안-클라우드로-마이그레이션-해야하는-이유&quot;&gt;#Session 1. 아틀라시안 클라우드로 마이그레이션 해야하는 이유&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/%EC%9B%A8%EB%B9%84%EB%82%98%20%EB%B8%94%EB%A1%9C%EA%B7%B81.PNG?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/%EC%9B%A8%EB%B9%84%EB%82%98%20%EB%B8%94%EB%A1%9C%EA%B7%B81.PNG?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;지난해 아틀라시안이 신규 서버 제품의 구매를 완전히 중단함에 따라 현재 아틀라시안에서 신규로 구매하실 수 있는 라이센스 유형은 온프레미스인 데이터센터와 SaaS 기반의 클라우드만 남게 되었는데요.&lt;/p&gt;
 
@@ -1777,7 +1777,7 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar2.PNG?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar2.PNG?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;실제로 500명의 사용자를 기준으로 지라와 컨플루언스 클라우드와 온프레미스인 서버의 총 소유 비용을 추정하여 비교해보면 온프레미스인 서버는 1년간 약 2억 5천 클라우드는 스탠다드 플랜 기준으로 약 6000만원의 비용이 발생했는데요.&lt;/p&gt;
 
@@ -1785,7 +1785,7 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar3.PNG?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar3.PNG?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;실제로 아틀라시안에서는 온프레미스 버전을 이용 중인 고객 분들을 대상으로 성공적인 클라우드 마이그레이션이 가능할 수 있도록 클라우드 로열티 디스카운트 제도, 듀얼 라이센싱 제도, 무료 클라우드 평가판 제도 등 주요 3가지 제도들을 통해 비용적인 이점을 제공하고 있습니다.&lt;/p&gt;
 
@@ -1801,7 +1801,7 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar4.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar4.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;다음으로는 아틀라시안 클라우드의 주요 기능에 대해 살펴보았는데요.&lt;/p&gt;
 
@@ -1823,7 +1823,7 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar5.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar5.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;클라우드 프리미엄 플랜의 기본 기능으로 보시는 것과 같이 4가지 기능이 추가되었는데요.&lt;/p&gt;
 
@@ -1835,7 +1835,7 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
 
 &lt;h1 id=&quot;session-2-클라우드-마이그레이션-프로세스&quot;&gt;#Session 2. 클라우드 마이그레이션 프로세스&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar6.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar6.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;이번에는 클라우드 마이그레이션의 각 단계별 프로세스에 대해 알아보는 시간을 가져보겠습니다.&lt;/p&gt;
 
@@ -1851,7 +1851,7 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webianr7.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webianr7.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;다음으로는 클라우드 마이그레이션의 각 단계별 프로세스에 대해 자세하게 소개해드리는 시간을 가졌는데요.&lt;/p&gt;
 
@@ -1867,7 +1867,7 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
 
 &lt;p&gt;&lt;strong&gt;5.마이그레이션&lt;/strong&gt;-실제 마이그레이션을 수행하는 단계로 서버 시스템을 중지하고 테스트 단계에서 발생한 이슈들을 수정하여 최적의 상황으로 마이그레이션을 수행&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webianr8.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webianr8.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;마지막 단계인 서비스 오픈 단계에서는 사용자 피드백을 통해 앞서 발견하지 못했던 이슈들을 처리하고 고객이 클라우드 환경에서 업무를 잘 수행할 수 있도록 지원합니다.&lt;/p&gt;
 
@@ -1881,7 +1881,7 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
 
 &lt;h1 id=&quot;session-3-클라우드-마이그레이션-고객-사례&quot;&gt;#Session 3. 클라우드 마이그레이션 고객 사례&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webianr9.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webianr9.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;세번째 세션에서는 실제로 저희 디무브를 통해 클라우드 마이그레이션을 진행했던 고객의 사례에 대해 소개해드렸는데요.&lt;/p&gt;
 
@@ -1895,7 +1895,7 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/dmove-kr/dmove-kr.github.io/blob/main/assets/images/blog/Webinar10.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar10.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;두 번째 고객인 N사의 경우 사세 확장으로 인한 급격한 사용자 증가로 인해 서버 부하가 발생하기 시작하였으며 그로 인해 속도 저하 및 간헐적인 장애가 발생하는 상태였습니다.&lt;/p&gt;
 
