@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/assets/images/banners/favicon.ico">
+
+<title>DevOps로 나아가기 위한 4가지 주요 방법 | Dmove Blog</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>DevOps로 나아가기 위한 4가지 주요 방법 | Welcome!</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="DevOps로 나아가기 위한 4가지 주요 방법" />
+<meta name="author" content="ethan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="안녕하세요, 디무브입니다! 🎈" />
+<meta property="og:description" content="안녕하세요, 디무브입니다! 🎈" />
+<link rel="canonical" href="http://localhost:4000/how%20to/2021/09/23/step-up-your-devops-game.html" />
+<meta property="og:url" content="http://localhost:4000/how%20to/2021/09/23/step-up-your-devops-game.html" />
+<meta property="og:site_name" content="Welcome!" />
+<meta property="og:image" content="https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/11/devopsecosystem_1160x620_@2x.png?resize=1560,760&ssl=1" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-23T00:00:00+09:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/11/devopsecosystem_1160x620_@2x.png?resize=1560,760&ssl=1" />
+<meta property="twitter:title" content="DevOps로 나아가기 위한 4가지 주요 방법" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"ethan"},"dateModified":"2021-09-23T00:00:00+09:00","datePublished":"2021-09-23T00:00:00+09:00","description":"안녕하세요, 디무브입니다! 🎈","headline":"DevOps로 나아가기 위한 4가지 주요 방법","image":"https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/11/devopsecosystem_1160x620_@2x.png?resize=1560,760&ssl=1","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/how%20to/2021/09/23/step-up-your-devops-game.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/Dmove.png"},"name":"ethan"},"url":"http://localhost:4000/how%20to/2021/09/23/step-up-your-devops-game.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+<link href="/assets/css/screen.css" rel="stylesheet">
+
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<script src="/assets/js/jquery.min.js"></script>
+
+
+<!--툴팁 추가-->
+<link rel="stylesheet" href="/assets/css/jekyll-glossary-tooltip.css">
+
+
+
+<!-- darkmode 적용 -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+<script src="/assets/js/dark-theme.js"></script>
+<!--
+
+
+-->
+
+
+</head>
+
+
+
+
+<body class="layout-post">
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+    <!-- Begin Logo -->
+
+    
+
+    
+    
+    
+
+
+    <a class="navbar-brand" href="/">
+        <img id="logo" src="/assets/images/Dmove.png" alt="Dmove Blog">
+        </a>
+
+    
+
+
+    
+    <!-- End Logo -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+
+      
+
+        <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+
+
+                
+                <li class="nav-item">
+                
+
+            <li class="nav-item">
+               
+          
+          
+
+     
+                
+                
+               
+                <!-- 다크 모드 토글 버튼 -->
+                <div class="darkmode">
+                    <div class="inner">
+                        <input type="radio" name="toggle" id="toggle-radio-light" checked><label for="toggle-radio-light" class="tolight"><i class="fas fa-sun tolight"></i></label>
+                        <input type="radio" name="toggle" id="toggle-radio-dark"><label for="toggle-radio-dark" class="todark"><i class="fas fa-moon todark"></i></label>
+                        <div class="darkmode-bg"></div>
+                    </div>
+                </div>
+        
+            </li>
+    
+
+
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="https://dmove.co.kr/company/about-dmove"> 디무브 소개</a>
+                    </li>
+
+
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="/categories">카테고리</a>
+                </li>
+            
+                <a class="nav-link" href="/index.html">Blog</a>
+                </li>
+            <!--
+                <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+                </li>
+
+            -->           
+                
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://dmove.co.kr/contact-us/quote-service-inquiry">문의하기</a>
+                </li>
+
+                
+        
+                <script src="/assets/js/lunr.js"></script>
+<script src="/assets/js/lunr.min.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+
+            </ul>
+
+        <!-- End Menu -->
+
+    </div>
+
+
+    
+    </div>
+
+    
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+
+<div class="container">
+
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+   <!-- <h1 class="sitetitle">Dmove Blog</h1> -->
+   <h1 class="sitetitle">Welcome! Dmove Blog</h1>
+    <p class="lead">
+        기술과 문화 그리고 다양한 소식들을 공유합니다.
+    </p>
+</div>
+
+<!-- Content
+================================================== -->
+<div class="main-content">
+
+    
+    <!-- Begin Article
+================================================== -->
+
+
+
+
+
+<div style="display: flex;">
+
+
+  <session class="container">
+    <div class="row">
+
+        
+        <!-- Post Share -->
+
+        <!--
+        <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=DevOps로 나아가기 위한 4가지 주요 방법&url=http://localhost:4000/how%20to/2021/09/23/step-up-your-devops-game.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/how%20to/2021/09/23/step-up-your-devops-game.html" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/how%20to/2021/09/23/step-up-your-devops-game.html" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+    <div class="sep">
+    </div>
+    <ul>
+        <li>
+        <a class="small smoothscroll" href="#disqus_thread"></a>
+        </li>
+    </ul>
+    
+</div>
+
+        </div>
+
+    -->
+
+        <!-- Post -->
+        
+        
+        
+
+        <div class="col-md-11 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+
+            <!--                
+                
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" style="width:75px; height:75px; " src="/assets/images/main/img_ourteam_ethan.png" alt="Ethan"> 
+                        
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left" style="margin:auto;">
+                        <p> <a target="_blank" class="link-dark" href="https://dmove.co.kr/company/our-team#ethan">Ethan</a>  
+                            <small>
+                            <span class="post-date"><time class="post-date" datetime="2021-09-23">23 Sep 2021</time></span>           
+                            
+                            </small>
+                        </p>
+                     
+                        
+
+        
+                        
+                    </div>
+                </div>
+                
+
+            -->
+            
+                <!-- Post Title -->
+
+                
+
+                <h1 class="posttitle">DevOps로 나아가기 위한 4가지 주요 방법</h1>
+
+                <hr>
+
+
+                <div class=" b-0 mt-auto">
+                    <div class="wrapfooter">
+                        
+                        <span class="meta-footer-thumb">
+                        
+                        <a target="_blank" href="https://dmove.co.kr/company/our-team#ethan">  <img class="author-thumb" style="width: 75px; height: 75px;" src="/assets/images/main/img_ourteam_ethan.png" alt="Ethan"> </a>
+                        
+                        </span>
+                        <span class="author-meta">
+                        <span class="post-name"><a target="_blank" href="https://dmove.co.kr/company/our-team#ethan">Ethan</a></span>
+                        &nbsp; <span class="post-date" style="font-size: 0.6rem;">Solution Engineer</span>
+                        <br/>
+                        
+                      <!--  <span class="post-date">23 Sep 2021</span> -->
+                      <span class="post-date">23 Sep 2021
+                        </span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+            
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/11/devopsecosystem_1160x620_@2x.png?resize=1560,760&ssl=1" alt="DevOps로 나아가기 위한 4가지 주요 방법">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+
+               <!--
+                
+                
+                
+                -->
+
+
+                
+               <div class="post-content">
+                    <p>안녕하세요, 디무브입니다! 🎈</p>
+
+<p>현재 업무를 수행하고 있는 대부분의 팀은 목표를 달성하는 데 필요한 여러 업체의 다양한 도구를 사용하고 있습니다.</p>
+
+<p>그러나 Atlassian에서 조사한 <a href="https://blog.dmove.kr/homepage_use/devops.html">2020 DevOps Trends Survey</a>에서 알 수 있듯이 많은 팀들이 DevOps 구현에 어려움을 겪고 있습니다.</p>
+
+<p>DevOps로의 전환에는 문화적, 기술적 변화가 모두 필요하기 때문입니다.</p>
+
+<p>작년 10월, Atlassian의 Ian Buchanan(주요 솔루션 설계자이자 DevOps 전문가)은 “<a href="https://www.atlassian.com//webinars/software/4-critical-devops-integrations-for-jira-and-bitbucket">DevOps 통합을 위한 4가지 중요 요소</a>“라는 주제로 웨비나를 주최했습니다.</p>
+
+<p>이 웨비나에서 Ian은 어떻게 파트너 에코 시스템이 통합된 DevOps tool chain을 강화하고 고객에게 그 가치를 제공할 수 있는 지에 관한 방법을 다뤘습니다.</p>
+
+<p>Ian은 Atlassian 고객 설문조사 외에도 가장 큰 파트너 및 고객과의 경험을 바탕으로 DevOps 구축을 진행할 때 고려해야 할 4가지 주요 DevOps 사례를 소개했습니다.</p>
+
+<hr />
+
+<h2 id="1-애자일-테스트">1. 애자일 테스트</h2>
+
+<p>전통적으로 테스트는 QA 팀이 주도하며 프로젝트가 끝날 시점에 진행했습니다.</p>
+
+<p>하지만 애자일 및 DevOps 전환에서는 팀이 초기 설계에서 통합, 배포 및 소프트웨어 제공에 이르는 개발 프로세스 전반에 걸친 테스트를 통합하여 리드 타임을 단축하고 버그를 더 빠르게 감지할 수 있습니다.</p>
+
+<p><a href="https://community.atlassian.com/t5/DevOps-Articles/Step-Up-Your-DevOps-Game-Webinar-Questions-Answered-Agile/ba-p/1517980">Agile testing</a>에서 테스트는 사양(스펙)의 일부로 자동화를 통해 요청 사항에 맞는 테스트를 진행할 수 있습니다.</p>
+
+<p>Atlassian의 테스트 통합은 팀 구성원이 Jira에서 직접 테스트를 쉽게 보고 관리할 수 있도록 설계되었습니다.</p>
+
+<p>예를 들어, Zephyr for Jira에서 테스트 관리를 사용하면 Jira 이슈를 테스트로 사용하면 다른 애플리케이션으로 전환하지 않고도 테스트 상태 및 성능에 대한 전체 정보를 얻을 수 있습니다.</p>
+
+<h3 id="소프트웨어-개발-프로세스-전반에-걸쳐-테스트를-통합하기-위한-팁">소프트웨어 개발 프로세스 전반에 걸쳐 테스트를 통합하기 위한 팁</h3>
+
+<p><img src="https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/11/pasted-image-0.png?resize=768,269&amp;ssl=1" alt="enter image description here" /></p>
+
+<p><strong>개발 프로세스 전반에 걸쳐 테스트의 가치를 공유할 수 있도록 설계합니다.</strong></p>
+
+<p>즉, 계획 단계에 테스트를 포함하고 개발 프로세스의 관계자가 각 테스트 구성 요소를 정의하는 데 도움을 줄 수 있습니다. 이렇게 하면 실패 분석 시간을 절약할 수 있습니다.</p>
+
+<p><strong>세부 정보와 광범위한 보기를 모두 포함하는 중앙 집중식 보고를 설정합니다.</strong></p>
+
+<p>모든 팀이 사용할 수 있고 개발자, 제품 관리자 및 CTO가 해석할 수 있는 보고를 작성합니다.</p>
+
+<p><strong>DevOps 업무 흐름(워크플로)의 각 시스템에서 테스트를 통합합니다.</strong></p>
+
+<p>자동화 프레임워크 및 CI/CD 플랫폼을 포함하여 툴 전반에 걸쳐 테스트 진행 상황과 결과를 통합하도록 노력해야 합니다. 이를 실현하는 한 가지 방법은 Jira를 설정하여 데이터 흐름에 도움이 되는 통합을 식별하는 것입니다.</p>
+
+<h2 id="2-devsecops">2. DevSecOps</h2>
+
+<p>많은 조직에서 보안 조치는 여전히 외부에서 내부로 향한 보안 사항에 국한되어 있습니다.</p>
+
+<p>그러나 DevOps 및 Agile로의 전환으로 인해 소프트웨어 릴리스가 더 자주 발생하고 기존 보안 관행을 계속 사용하기가 더 어려워졌습니다.</p>
+
+<p>이러한 변화로 인해 업무를 수행하는 팀은 테스트와 마찬가지로 개발 속도를 저해하지 않으면서 개발 흐름의 초기에 보안에 관한 내용을 함께 고려하여 개발을 진행해야합니다.</p>
+
+<p>이러한 “좌회전(Shift-left)” 접근 방식을 통해 팀은 리드 타임이 단축시키고 보안 사고를 줄여 궁극적으로 유지 보수에 사용되는 시간과 자원을 절약할 수 있습니다.</p>
+
+<p>DevSecOps 용 Atlassian 통합은 Jira 또는 Bitbucket 내에서 보안 관행을 관리하고 해결하는 데 사용할 수 있습니다.</p>
+
+<p>예를 들어, Snyk와의 통합은 <a href="https://bitbucket.org/product/features/pipelines/integrations">Bitbucket pipes</a>를 이용하여 Bitbucket pipeline라인에 보안 스캐닝을 직접 삽입하거나 빌드 단계의 일부로 스캐닝을 포함하여 코드의 커밋에 대해 스캐닝을 할 수 있습니다.</p>
+
+<p>이렇게 하면 풀 리퀘스트를 실행하기 전에 모든 보안 항목을 확인할 수 있습니다.</p>
+
+<h3 id="devsecops-사례-구축을-위한-팁">DevSecOps 사례 구축을 위한 팁</h3>
+
+<p><img src="https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/11/pasted-image-0.png?resize=768,269&amp;ssl=1" alt="enter image description here" /></p>
+
+<p><strong>도구가 아닌 방법에 대해 생각합니다.</strong></p>
+
+<p>DevSecOps는 올바른 도구를 비롯하여 사고 방식의 전환도 필요합니다. 계획 및 개발 프로세스에 보안을 통합하는 방법을 이해하는 데 시간을 할애하십시오. 보안에 관한 올바른 사고방식이나 문화가 있으면 도구의 가치를 극대화할 수 있습니다.</p>
+
+<p><strong>이해 관계자의 동의를 얻어야 합니다.</strong></p>
+
+<p>보안을 개발 프로세스에 적용했을 때 얻을 수 있는 주요 이점들을 제시하여 이해 관계자의 동의를 얻을 수 있도록 합니다.</p>
+
+<p><strong>보안을 위해 공유 모델을 채택합니다.</strong></p>
+
+<p>적합한 이해 관계자의 동의를 얻으면 더 많은 참여를 이끌 수 있습니다. 이해 관계자들과 협력하여 팀에 도움이 되는 방법을 정의합니다.</p>
+
+<p><strong>개발자가 정보에 입각한 결정을 내릴 수 있도록 합니다.</strong></p>
+
+<p>개발자가 보안 전문가가 될 필요는 없지만 정보에 입각한 결정을 내릴 수 있을 만큼 초기에 관련 정보가 있어야 합니다. 올바른 도구를 사용하면 개발자가 필요로 하는 정보를 얻을 수 있습니다.</p>
+
+<h2 id="3-기능-플래그feature-flag-사용"><strong>3. 기능 플래그(Feature flag) 사용</strong></h2>
+
+<p>팀은 릴리스와 코드 배포를 결합할 때 플랫폼 기능과 사용자 경험에 비롯된 문제를 경험할 수 있습니다.</p>
+
+<p>이를 해결하기 위해코드를 배포하지 않고 원격으로 기능을 활성화하거나 비활성화하는데 사용되는 소프트웨어 개발 프로세스인 기능 플래그를 사용하면 위험도를 낮추고 배포 빈도를 높여 변경 실패를 줄일 수 있습니다.</p>
+
+<p>Atlassian은 Jira 내의 롤아웃 상태와 같은 기능 플래그 세부 정보를 표시하여 업무 흐름(워크 플로우)를 통합할 수 있도록 지원합니다.</p>
+
+<p>또한 LaunchDarkly와의 통합을 통해 Jira 스토리 내에 기능 플래그를 만들 수 있습니다.</p>
+
+<h3 id="기능-플래그에-대한-팁">기능 플래그에 대한 팁</h3>
+<p><img src="https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/11/pasted-image-0-2.png?resize=768,213&amp;ssl=1" alt="enter image description here" /></p>
+
+<p><strong>플래그 계획을 전체 기능을 설계할 때 포함합니다.</strong></p>
+
+<p>사용자 인터페이스의 일부를 온/오프할 수 있도록 아이디어를 계획하고 이에 따라 코드를 개발하면 if문과 같은 기능 플래그를 쉽게 관리할 수 있습니다.</p>
+
+<p><strong>명명 시스템을 표준화합니다.</strong></p>
+
+<p>기능 플래그 지정은 매우 중요하며 대규모 기능 플래그 지정이 일반적입니다. 명명시스템을 표준화하면 긴급 상황에서 신속하게 사용하려는 기능을 찾을 수 있습니다.</p>
+
+<p><strong>플래그의 범위를 최소화합니다.</strong></p>
+
+<p>릴리스 및 배포에 대한 더 많은 제어를 유지하려면 플래그 범위를 좁혀 기능 변경 사항을 격리하십시오.</p>
+
+<p><strong>정기적으로 플래그 사용을 검토합니다</strong> .</p>
+
+<p>모든 사용자에 대해 기능이 설정되면 일부 사용자는 기능 플래그를 제거하고 싶을 것입니다. 그렇기 때문에 몇 개월마다 기능 플래그를 주기적으로 살펴봐야 합니다.</p>
+
+<h2 id="4-모니터링-및-옵저버빌리티observability"><strong>4. 모니터링 및 옵저버빌리티(Observability)</strong></h2>
+
+<p>많은 운영 팀은 여전히 ​​속도와 품질 사이의 균형을 맞추는데에 어려움을 겪고 있습니다.</p>
+
+<p>이는 효과적으로 우선 순위를 정할 수 있는 기준을 놓치고 있기 때문이며 이는 주어진 시간에 성능 테스트에 대한 감각을 얻기 어렵기 때문입니다.</p>
+
+<p>또한 로깅 및 모니터링은 중요하지만 사각지대와 잘못된 구성을 생성하는 수십 개의 데이터 소스로 인해 불필요한 모니터링을 수행할 수도 있습니다.</p>
+
+<p>그래서 옵저버빌리티에 대한 기능은 애플리케이션의 성능, 기본 인프라 및 모든 사용자의 경험에 대해 정확한 답변을 제공하여 팀이 훨씬 더 빠르게 인시던트를 찾고 해결할 수 있도록 합니다.</p>
+
+<p>Atlassian의 고급 관찰 기능(Advanced Observability)은 팀이 플랫폼 전반에 걸쳐 경고를 업데이트, 확인 및 관리할 수 있도록 지원합니다.</p>
+
+<p>예를 들어, Dynatrace와의 통합은 모니터링 플랫폼과 Jira간에 발생한 문제를 동기화하거나 Bitbucket 배포 작업을 플랫폼에 보내 문제의 근본 원인을 파악할 수 있습니다.</p>
+
+<p>Sumo Logic과 같은 솔루션을 통해 한 개의 대시보드에서 여러 Atlassian 제품의 정보를 통합하여 확인할 수도 있습니다.</p>
+
+<h3 id="모니터링-및-관찰-가능성에-접근하는-방법">모니터링 및 관찰 가능성에 접근하는 방법</h3>
+<p><img src="https://i2.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2020/11/pasted-image-0-3.png?resize=768,264&amp;ssl=1" alt="enter image description here" /></p>
+
+<p><strong>“고급 관찰 가능성”의 메트릭을 추적합니다.</strong></p>
+
+<p>메트릭, 로그 및 추적 외에도 앱 토폴로지, 코드 수준 세부 정보, 사용자 경험 및 동작도 모니터링해야 합니다. 이러한 메트릭이 상황에 맞게 연결되면 근본 원인과 미치는 영향을 더 빨리 이해할 수 있습니다.</p>
+
+<p><strong>업무 자동화를 실현합니다.</strong></p>
+
+<p>자동화는 현대적이고 동적인 멀티 클라우드 애플리케이션 환경에서 매우 중요하기 때문에 충분한 시간을 투자하여 적용하십시오.</p>
+
+<p><strong>근본 원인과 비즈니스 영향에 대한 정보를 전달할 수 있는 AI로 “가상 팀”을 설계합니다.</strong></p>
+
+<p>발생한 상황, 비즈니스 영향, 문제의 근본 원인 및 해결 방법에 대한 정보를 알려줄 준비가 된 “가상 팀” 역할을 하는 기술을 사용합니다.</p>
+
+<p><strong>팀 간에 도구를 공유합니다.</strong></p>
+
+<p>개발, 운영 및 비즈니스의 팀 간에 공통 언어를 사용할 수 있는 도구를 채택하여 보다 효과적으로 협업할 수 있습니다.</p>
+
+<hr />
+
+<p>Atlassian과 파트너 에코시스템은 DevOps에 대한 개방형 툴체인 접근 방식을 지원합니다.</p>
+
+<p>이 접근 방식을 통해 조직의 기존 워크플로우와 간편하게 통합할 수 있습니다.</p>
+
+<p>예를 들어, DevOps의 초기 단계의 경우 Jira에서 주요 업무를 작업하고 다른 기능은 수동으로 처리하는식으로 업무 방식을 관리할 수 있습니다.</p>
+
+<p>이 단계가 끝나면 애자일 테스트 및 지속적 제공으로 전환하여 더 많은 통합과 자동화를 실현할 수 있습니다.</p>
+
+<p>이러한 과정이 더 발전할수록 테스트와 전달이 훨씬 더 통합되고 옵저버빌리티와 기능 플래그를 채택하게 될 것입니다.</p>
+
+<p>DevOps를 보다 성공적으로 시작하고 싶으시다면 언제든지 디무브로 연락주세요.</p>
+
+<p>감사합니다. 😃</p>
+
+                  </div>
+                  
+              
+                  <br/>
+                  <hr>
+
+                  <div class="inner">
+
+                    <ul style="margin-right: -1.25rem; margin-left: -1.25rem; align-items:center; -webkit-box-align:center;">
+                   
+                        <h4 class="fw_25 fw_400">문의 사항이 있으시면 <br style="display: none! important!;">언제든 문의 부탁드립니다.</h4>
+                        <div class="btn_main_more mt40 mb_t_c">
+                       <a style="background-color: #379e9f;" class="btn" href="http://dmove.co.kr/contact-us/quote-service-inquiry">문의하기</a>
+                        </div>
+                  
+            
+                  
+                    </div>
+            
+                
+              
+            </div>
+
+            <!-- Rating -->
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2021-09-23">23 Sep 2021</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#How-To">How To</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Agile">#Agile</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Atlassian">#Atlassian</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Bitbucket">#Bitbucket</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#DevOps">#DevOps</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#DevSecOps">#DevSecOps</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Jira">#Jira</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#개발자">#개발자</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#아틀라시안">#아틀라시안</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="/how%20to/2021/09/17/Confluence-Tip.2-Write-Documentation-with-Template.html"> &laquo; Confluence 활용 Tip.2 - 페이지 템플릿을 통한 효과적인 문서 작성</a>
+            
+            
+            <a class="next d-block col-md-6 text-lg-right" href="/company%20news/2021/09/24/October-2021-Atlassian-Cloud-Pricing-Changes.html">2021년 10월 아틀라시안 클라우드 가격 인상 안내 &raquo; </a>
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+        
+    </div>
+ </session>
+   
+ 
+ 
+ <!--TOC 테스트-->
+
+ <session class="post-article" style="position: sticky; top: 100px; height:400px;" >
+    
+    <!--
+    <div class="toc">
+      <h2 style="font-size: 20px;">Table Of Content</h2>
+       <ul><li><a href="#1-애자일-테스트">1. 애자일 테스트</a><ul><li><a href="#소프트웨어-개발-프로세스-전반에-걸쳐-테스트를-통합하기-위한-팁">소프트웨어 개발 프로세스 전반에 걸쳐 테스트를 통합하기 위한 팁</a></li></ul></li><li><a href="#2-devsecops">2. DevSecOps</a><ul><li><a href="#devsecops-사례-구축을-위한-팁">DevSecOps 사례 구축을 위한 팁</a></li></ul></li><li><a href="#3-기능-플래그feature-flag-사용"><strong>3. 기능 플래그(Feature flag) 사용</strong></a><ul><li><a href="#기능-플래그에-대한-팁">기능 플래그에 대한 팁</a></li></ul></li><li><a href="#4-모니터링-및-옵저버빌리티observability"><strong>4. 모니터링 및 옵저버빌리티(Observability)</strong></a><ul><li><a href="#모니터링-및-관찰-가능성에-접근하는-방법">모니터링 및 관찰 가능성에 접근하는 방법</a></li></ul></li></ul>
+
+     </div>
+
+    -->
+
+    
+    <h2 style="font-size: 20px;">Table Of Content</h2>
+    <style type="text/css" media="screen">
+    .post-menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    </style>
+    
+    <div class="post-menu">
+      <div class="post-menu-content"></div>
+    </div>
+    
+    <script>
+      function generateContent() {
+        var menu = document.querySelector(".post-menu");
+        var menuContent =  menu.querySelector(".post-menu-content");
+        var headings = document.querySelector(".post-content").querySelectorAll("h1,h2,h3,h4,h5,h6");
+        var thisfilefullname = document.URL.substring(document.URL.lastIndexOf("/") + 1, document.URL.length);
+    
+        console.log(thisfilefullname);
+        
+        // Hide menu when no headings
+        if (headings.length === 0 || thisfilefullname=="about.html") {
+          return menu.style.display = "none";
+        }
+    
+        // Generate post menu
+        var menuHTML = '';
+        for (var i = 0; i < headings.length; i++) {
+          
+        
+           
+        }
+
+        if(i>=11)
+        {
+          var headings = document.querySelector(".post-content").querySelectorAll("h2");
+          for (var i = 0; i < headings.length; i++) {
+
+      
+            var h = headings[i];
+            
+            menuHTML += (
+              '<li class="h-' + h.tagName.toLowerCase() + '">'
+              // + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+              + '<a href="#' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+  
+             
+          }
+
+
+        }
+
+        else{
+
+          for (var i = 0; i < headings.length; i++) {
+          var h = headings[i];
+          menuHTML += (
+
+
+            '<li class="h-' + h.tagName.toLowerCase() + '">'
+            // + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+            + '<a href="#' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+            }
+        }
+    
+        menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+    
+        // The header element
+        var header = document.querySelector('header.site-header');
+    
+        function doMenuCollapse(index, over_items) {
+          var items = menuContent.firstChild.children;
+    
+          if (over_items == undefined) {
+            over_items = 20;
+          }
+    
+          if (items.length < over_items) {
+            return;
+          }
+    
+          var activeItem = items[index];
+          var beginItem = activeItem
+          var endItem = activeItem
+          var beginIndex = index;
+          var endIndex = index + 1;
+          while (beginIndex >= 0
+            && !items[beginIndex].classList.contains('h-h2')) {
+            beginIndex -= 1;
+          }
+          while (endIndex < items.length
+            && !items[endIndex].classList.contains('h-h2')) {
+            endIndex += 1;
+          }
+          for (var i = 0; i < beginIndex; i++) {
+            item = items[i]
+            if (!item.classList.contains('h-h2')) {
+              item.style.display = 'none';
+            }
+          }
+          for (var i = beginIndex + 1; i < endIndex; i++) {
+            item = items[i]
+            // if (!item.classList.contains('h-h2')) {
+              item.style.display = '';
+            // }
+          }
+          for (var i = endIndex; i < items.length; i++) {
+            item = items[i]
+            if (!item.classList.contains('h-h2')) {
+              item.style.display = 'none';
+            }
+          }
+        }
+    
+        // Init menu collapsed
+        doMenuCollapse(-1);
+    
+        // Active the menu item
+        window.addEventListener('scroll', function (event) {
+          var lastActive = menuContent.querySelector('.active');
+          var changed = true;
+          var activeIndex = -1;
+          for (var i = headings.length - 1; i >= 0; i--) {
+            var h = headings[i];
+            var headingRect = h.getBoundingClientRect();
+            var headerRect = header.getBoundingClientRect();
+            var headerTop = Math.floor(headerRect.top);
+            var headerHeight = Math.floor(headerRect.height);
+            var headerHeight = headerTop + headerHeight + 20;
+            if (headingRect.top <= headerHeight) {
+              var id = 'h-' + h.getAttribute('id');
+              var a = menuContent.querySelector('a[href="#' + id  + '"]');
+              var curActive = a.parentNode;
+              if (curActive) {
+                curActive.classList.add('active');
+                activeIndex = i;
+              }
+              if (lastActive == curActive) {
+                changed = false;
+              }
+              break;
+            }
+          }
+          if (changed) {
+            if (lastActive) {
+              lastActive.classList.remove('active');
+            }
+            doMenuCollapse(activeIndex);
+          }
+          event.preventDefault();
+        });
+      }
+      generateContent();
+    </script>
+    
+    
+    </session>
+
+
+
+
+</div>
+  
+
+  
+    
+
+
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+
+<!--
+
+    <div class="container">
+        <div id="comments" class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'demowebsite'; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+            </div>
+        </div>
+    </div>
+
+-->
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+
+
+</div>
+
+
+<!-- Bottom Alert Bar
+================================================== -->
+<!--<div class="alertbar">
+	<div class="container text-center">
+		<span><img src="/assets/images/Dmove.png" alt="Welcome!"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+            <div class="mc-field-group">
+            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+            </div>
+        </form>
+	</div>
+</div> -->
+
+    
+</div>
+
+<!-- Categories Jumbotron
+================================================== -->
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div class="d-md-flex align-items-center justify-content-center h-100">
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">Categories <span class="d-none d-md-inline">→</span></h2>
+            </div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+            
+            
+                
+                    <a class="mt-1 mb-1" href="/categories#Atlassian-Cloud">Atlassian Cloud (10)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Case-Study">Case Study (7)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Security">Security (4)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Inside-Atlassian">Inside Atlassian (20)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Release-Note">Release Note (14)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#How-To">How To (5)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Webinars">Webinars (11)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#Company-News">Company News (4)</a>
+                
+            
+            
+		</div>
+	</div>
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                Copyright © 2022 Dmove Blog 
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <p>TEL: 02-6405-0800 |  email : <a href="mailto:sales@dmove.kr" style="border-bottom: 1px solid;">sales@dmove.kr</a> </p>
+              <!--  <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net -->
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts
+================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="/assets/js/mediumish.js"></script>
+
+
+
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+
+<script id="dsq-count-scr" src="//demowebsite.disqus.com/count.js"></script>
+
+
+</body>
+
+
+</html>

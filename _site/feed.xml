@@ -5,8 +5,8 @@
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jul 2022 13:11:18 +0900</pubDate>
-    <lastBuildDate>Wed, 27 Jul 2022 13:11:18 +0900</lastBuildDate>
+    <pubDate>Wed, 03 Aug 2022 13:18:45 +0900</pubDate>
+    <lastBuildDate>Wed, 03 Aug 2022 13:18:45 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -276,8 +276,8 @@
 &lt;p&gt;감사합니다.&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Jul 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/OKRs-vs-KPIs/</link>
-        <guid isPermaLink="true">http://localhost:4000/OKRs-vs-KPIs/</guid>
+        <link>http://localhost:4000/inside%20atlassian/2022/07/26/OKRs-vs-KPIs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2022/07/26/OKRs-vs-KPIs.html</guid>
         
         <category>Atlassian</category>
         
@@ -397,8 +397,8 @@
 &lt;p&gt;감사합니다.&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 Jul 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/Atlassian-in-seoul-22-recap/</link>
-        <guid isPermaLink="true">http://localhost:4000/Atlassian-in-seoul-22-recap/</guid>
+        <link>http://localhost:4000/inside%20atlassian/2022/07/07/Atlassian-in-seoul-22-recap.html</link>
+        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2022/07/07/Atlassian-in-seoul-22-recap.html</guid>
         
         <category>Atlassian</category>
         
@@ -966,8 +966,8 @@
 &lt;p&gt;감사합니다.😃&lt;/p&gt;
 </description>
         <pubDate>Mon, 27 Jun 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/2Q2022-Atlassian-Release-Notes-Server/</link>
-        <guid isPermaLink="true">http://localhost:4000/2Q2022-Atlassian-Release-Notes-Server/</guid>
+        <link>http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Server.html</link>
+        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Server.html</guid>
         
         <category>Atlassian</category>
         
@@ -1196,8 +1196,8 @@
 &lt;p&gt;감사합니다.😃&lt;/p&gt;
 </description>
         <pubDate>Mon, 27 Jun 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/2Q2022-Atlassian-Release-Notes-Cloud/</link>
-        <guid isPermaLink="true">http://localhost:4000/2Q2022-Atlassian-Release-Notes-Cloud/</guid>
+        <link>http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud.html</link>
+        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud.html</guid>
         
         <category>Atlassian</category>
         
@@ -1558,8 +1558,8 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
 
 </description>
         <pubDate>Thu, 23 Jun 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/Case-Study-Bitbucket-Blog-Posting/</link>
-        <guid isPermaLink="true">http://localhost:4000/Case-Study-Bitbucket-Blog-Posting/</guid>
+        <link>http://localhost:4000/case%20study/2022/06/23/Case-Study-Bitbucket-Blog-Posting.html</link>
+        <guid isPermaLink="true">http://localhost:4000/case%20study/2022/06/23/Case-Study-Bitbucket-Blog-Posting.html</guid>
         
         <category>Atlassian</category>
         
@@ -1671,8 +1671,8 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
 
 </description>
         <pubDate>Tue, 14 Jun 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/Atlassian-Cloud-Webinar/</link>
-        <guid isPermaLink="true">http://localhost:4000/Atlassian-Cloud-Webinar/</guid>
+        <link>http://localhost:4000/webinars/2022/06/14/Atlassian-Cloud-Webinar.html</link>
+        <guid isPermaLink="true">http://localhost:4000/webinars/2022/06/14/Atlassian-Cloud-Webinar.html</guid>
         
         <category>Atlassian</category>
         
@@ -1927,8 +1927,8 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
 
 </description>
         <pubDate>Tue, 07 Jun 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/Cloud-Migration-Webinar-Review/</link>
-        <guid isPermaLink="true">http://localhost:4000/Cloud-Migration-Webinar-Review/</guid>
+        <link>http://localhost:4000/webinars/2022/06/07/Cloud-Migration-Webinar-Review.html</link>
+        <guid isPermaLink="true">http://localhost:4000/webinars/2022/06/07/Cloud-Migration-Webinar-Review.html</guid>
         
         <category>Atlassian</category>
         
@@ -2061,8 +2061,8 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
 &lt;p&gt;감사합니다.&lt;/p&gt;
 </description>
         <pubDate>Mon, 30 May 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/6-pillars-of-a-succssful-cloud-migration/</link>
-        <guid isPermaLink="true">http://localhost:4000/6-pillars-of-a-succssful-cloud-migration/</guid>
+        <link>http://localhost:4000/atlassian%20cloud/2022/05/30/6-pillars-of-a-succssful-cloud-migration.html</link>
+        <guid isPermaLink="true">http://localhost:4000/atlassian%20cloud/2022/05/30/6-pillars-of-a-succssful-cloud-migration.html</guid>
         
         <category>Atlassian</category>
         
@@ -2175,8 +2175,8 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
 
 </description>
         <pubDate>Wed, 18 May 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/Atlassian-Cloud-Migration-Webinar/</link>
-        <guid isPermaLink="true">http://localhost:4000/Atlassian-Cloud-Migration-Webinar/</guid>
+        <link>http://localhost:4000/webinars/2022/05/18/Atlassian-Cloud-Migration-Webinar.html</link>
+        <guid isPermaLink="true">http://localhost:4000/webinars/2022/05/18/Atlassian-Cloud-Migration-Webinar.html</guid>
         
         <category>Atlassian</category>
         
@@ -2356,8 +2356,8 @@ Atlassian Analytics는 개발에서 운영까지 각기 다른 도구의 데이�
 감사합니다. 😃&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 May 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/Atlassian-Team22-ITSM-Keynote/</link>
-        <guid isPermaLink="true">http://localhost:4000/Atlassian-Team22-ITSM-Keynote/</guid>
+        <link>http://localhost:4000/inside%20atlassian/2022/05/17/Atlassian-Team22-ITSM-Keynote.html</link>
+        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2022/05/17/Atlassian-Team22-ITSM-Keynote.html</guid>
         
         <category>Atlassian</category>
         
