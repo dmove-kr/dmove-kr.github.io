@@ -114,6 +114,8 @@ QR코드가 프레젠테이션 화면에 자동으로 표시되고 링크를 빠
 아틀라시안은 새로운 기능과 혁신을 끊임 없이 연구하고 더 나은 디지털 경험을 제공하고 있습니다.
 
 Confluence로 팀을 통합하고 협업하고 싶으시다면 언제든지 디무브에게 문의해주세요.
+
+감사합니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTYxMzI0MThdfQ==
+eyJoaXN0b3J5IjpbNjAyMzQ5MTE5XX0=
 -->
