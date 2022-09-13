@@ -36,7 +36,42 @@ QR코드가 프레젠테이션 화면에 자동으로 표시되고 링크를 빠
 
 스크롤 할 때 프레젠테이션 중인 섹션은 굵게 표시되고 나머지 페이지는 회색으로 표시되어 청중의 관심을 원하는 곳으로 유도할 수 있습니다.
 
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/presenter-mode.gif)
+
+
+## 2. 40개의 새로운 템플릿
+
+때로는 시작하는 것이 가장 어렵게 느껴지곤 하는데요. Confluence가 제공하는 템플릿을 활용한다면 페이지 작성을 매우 쉽게 시작할 수 있습니다.
+
+얼마전 아틀라시안은 하이브리드 작업 탐색, 비즈니스 확장 및 생산성 향상을 위해 40개 이상의 템플릿을 새롭게 설계하여 추가하였는데요.
+
+목표 수립을 위한 SMART 목표부터 주간 보고서에 이르기까지 다양한 부서와 업무를 위한 템플릿이 준비되어, 페이지 서식을 만들기 위한 시간을 줄이고 빠르게 원하는 페이지를 생성할 수 있습니다.
+
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/5c22e8c6-1f5a-40ac-ade4-85ca9c671d15.gif)
+
+## 3. 데이터 기반 스토리 제공을 위한 테이블 시각화
+
+컨플루언스 페이지의 테이블 데이터를 시각화하세요!
+
+예를 들어, 프레젠테이션용 페이지를 구상할 때 인터랙티브하고 사용자 지정가능한 차트를 사용하여 데이터를 보다 생생하게 전달할 수 있습니다.
+
+프로젝트에 대한 업데이트나 재무 보고서를 작성할 때에도 몇번의 클릭만으로 테이블 데이터를 막대, 선 또는 원형 차트로 변환하여 팀을 위한 시각적 통찰력과 함께 더 의미있는 스토리를 제공할 수 있습니다.
+
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/tablevis-marketing.gif)
+
+## . 단일 진실 공급원(SSOT)를 위한 다중 발췌 매크로
+
+수백개가 넘는 페이지를 항상 정확하고 최신 정보로 유지하는 것은 쉽지 않은데요.
+
+발췌 매크로([Excerpt Macros](https://support.atlassian.com/confluence-cloud/docs/insert-the-excerpt-macro/ "https://support.atlassian.com/confluence-cloud/docs/insert-the-excerpt-macro/"))를 사용하면 코드를 사용하지 않고도 페이지 컨텐츠의 일부를 다른 페이지에서 재사용 할 수 있도록 하여 SSOT(single source of truth)를 쉽게 만들 수 있습니다.
+
+더군다가 발췌 매크로는 한 페이지에 여러 컨텐츠를 발췌할 수 있게 되어 더욱 강력해졌습니다.
+
+이를 통해 발췌된 모든 컨텐츠를 업데이트하기 위한 하나의 중앙 페이지를 가질 수 있으며, 이러한 변경 사항은 발췌 부분이 추가된 모든 페이지에 자동으로 적용됩니다.
+
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/multiple-excerpts-final.gif)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDkyMjcwNF19
+eyJoaXN0b3J5IjpbMTMyNzY5MDcxMV19
 -->
