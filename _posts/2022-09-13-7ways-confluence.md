@@ -59,7 +59,7 @@ QR코드가 프레젠테이션 화면에 자동으로 표시되고 링크를 빠
 
 ![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/tablevis-marketing.gif)
 
-## . 단일 진실 공급원(SSOT)를 위한 다중 발췌 매크로
+## 4. 단일 진실 공급원(SSOT)를 위한 다중 발췌 매크로
 
 수백개가 넘는 페이지를 항상 정확하고 최신 정보로 유지하는 것은 쉽지 않은데요.
 
@@ -71,7 +71,49 @@ QR코드가 프레젠테이션 화면에 자동으로 표시되고 링크를 빠
 
 ![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/multiple-excerpts-final.gif)
 
+## 5. 페이지 상태로 명확한 정보 전달
 
+너무 많은 작업이 비동기식으로 진행되고 빠르게 진행되어야 한다는 압박감에 여러분이 내리는 결정이 부정확하거나 아직 검토 중인 정보를 토대로 이루어 진 건 아닌지 확인해 보는 것은 매우 중요한데요.
+
+페이지 상태는 모든 사용자들에게 현재 이 페이지 내의 정보가 어느 단계인지를 매우 명확하게 보여줍니다.
+
+기본적으로 제공하는 상태 중 하나를 선택하거나, 팀의 고유한 업무 방식에 맞게 사용자 정의된 상태를 추가 할 수 있습니다.
+
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/ac18cea7-93ba-49c2-97bf-28d0f891a1ab.gif)
+
+## 6. 템플릿에 비주얼 더하기
+
+때로는 팀의 요구 사항에 딱 맞는 템플릿이 필요한데요. 그럴 때 여러분은 자신만의 템플릿을 만들 수 있습니다.
+
+이제 템플릿에 시각적 개체를 추가하여 템플릿을 더욱 풍부하게 생성할 수 있게 되었습니다.
+
+이미지, GIF 및 로고 등은 페이지 참여를 높이고 정보를 유지하는데 큰 도움이 된다는 사실을 잊지마세요.
+
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/e495175f-7332-462a-850b-76574a75e2ff.gif)
+
+## 7. 내용 강조를 위한 사용자 정의 가능한 패널
+
+사용자들의 관심을 끌기 위해 쉽게 읽힐 수 있도록 페이지를 작성하는 것은 매우 중요합니다.
+
+그리고 컬러 패널은 중요한 정보를 강조하는 가장 좋은 방법 중 하나인데요.
+
+이 컬러 패널은 주요 콜아웃, 주의사항, 성과, 면책조항 등을 눈에 쉽게 띌 수 있도록 합니다.
+
+이제 다양한 배경색과 이모티콘을 사용하여 전달하고자 하는 메시지를 효과적으로 보여주고 커스터마이징 할 수 있습니다.
+
+![enter image description here](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/3ce4f428-55a1-416f-9abe-bb74c64b21a8.gif)
+
+---
+
+전 세계의 많은 조직은 언제 어디에서나 일할 수 있고 빠르게 정보를 공유하는 환경을 만들고자 노력하고 있습니다.
+
+그러기 위해서는 실시간으로 초안을 작성하고, 다듬고, 발표하고 피드백을 수집할 수 있는 하나의 도구가 필요합니다.
+
+보다 스마트해진 Confluence Cloud는 단연코 최고의 단일 정보 소스라고 할 수 있는데요.
+
+아틀라시안은 새로운 기능과 혁신을 끊임 없이 연구하고 더 나은 디지털 경험을 제공하고 있습니다.
+
+Confluence로 팀을 통합하고 협업하고 싶으시다면 언제든지 디무브에게 문의해주세요.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzY5MDcxMV19
+eyJoaXN0b3J5IjpbLTEyNTYxMzI0MThdfQ==
 -->
