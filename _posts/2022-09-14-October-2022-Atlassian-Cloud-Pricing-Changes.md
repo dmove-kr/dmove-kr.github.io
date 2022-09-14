@@ -17,6 +17,8 @@ tags: [Atlassian, 아틀라시안, Atlassian Cloud, Jira, Confluence, Jira Servi
 
 가격 변경에 대한 자세한 내용을 정리하여 전달드리니 아래 내용을 꼭 확인해주세요!
 
+<br/>
+
 ----------
 
 ## 가격 인상 제품
@@ -40,6 +42,7 @@ tags: [Atlassian, 아틀라시안, Atlassian Cloud, Jira, Confluence, Jira Servi
 
 3rd Party 제조사에서 제공하는 마켓플레이스 앱의 경우 아틀라시안의 정책과 무관한 가격 정책이 적용되므로, 인상율 및 가격 변동 시기는 해당 제조사의 정책에 따릅니다.
 
+<br/>
 
 ## 가격 인상 이유
 
@@ -53,6 +56,8 @@ tags: [Atlassian, 아틀라시안, Atlassian Cloud, Jira, Confluence, Jira Servi
 
 아틀라시안은 앞으로도 더 나은 서비스를 제공할 수 있도록 클라우드 제품 및 에코시스템에 지속적으로 투자할 것임을 약속 드립니다.
 
+<br/>
+
 ## 비용 전략 제시
 
 디무브에서는 가격 인상에도 불구하고 Atlassian 제품의 비용을 최소화할 수 있는 최선의 전략을 제안 드립니다.
@@ -64,6 +69,8 @@ tags: [Atlassian, 아틀라시안, Atlassian Cloud, Jira, Confluence, Jira Servi
 셋째, 월간 구독을 진행 중이신 고객은 가격 변동 이전에 **연간 구독으로 전환**하여 향후 1~2년에 대한 구독 비용을 절감하실 수 있습니다.
 
 가격 인상 이전에 구매를 진행하시기 위해서는 즉시 저희 디무브에게 문의해주세요.
+
+<br/>
 
 ----------
 
