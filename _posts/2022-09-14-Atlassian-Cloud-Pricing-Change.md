@@ -18,28 +18,18 @@
 -   **Confluence**
     
 -   **Jira Service Management**
+
+| **제품** | **인상율** |
+|--|--|
+| Jira Software - 200유저티어를 제외한 모든 유저 티어 | 5% (_Premium 200 tier is 6%)_ |
+| Jira Service Management - 모든 유저 티어 | 5% |
+| Confluence - 400유저티어를 제외한 모든 유저 티어 | 5% (_Standard 400 tier is 6%)_|
     
-**제품**
-
-**인상율**
-
-**List price**
-
-Jira Software - 200유저티어를 제외한 모든 유저 티어
-
-5% (_Premium 200 tier is 6%)_
-
-Jira Service Management - 모든 유저 티어
-
-5%
-
-Confluence - 400유저티어를 제외한 모든 유저 티어
-
-5% (_Standard 400 tier is 6%)_
 
 [전체 List Price($) 확인하기](https://www.atlassian.com/licensing/future-pricing/cloud-pricing/pricing-tables "https://www.atlassian.com/licensing/future-pricing/cloud-pricing/pricing-tables")
 
 3rd Party 제조사에서 제공하는 마켓플레이스 앱의 경우 아틀라시안의 정책과 무관한 가격 정책이 적용되므로, 인상율 및 가격 변동 시기는 해당 제조사의 정책에 따릅니다.
+
 
 ## 가격 인상 이유
 
@@ -73,5 +63,5 @@ Confluence - 400유저티어를 제외한 모든 유저 티어
 
 감사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTc4NDQwMSw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbLTc2Njk2MDYxNCw0OTc4MTg4MTBdfQ==
 -->
