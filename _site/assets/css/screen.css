@@ -160,11 +160,15 @@ section.recent-posts {
     padding-left: 0;
 }
 
+
+
+
 .listfeaturedtag h2.card-title,
 .listrecent h2.card-title {
     font-size: 1.3rem;
     font-weight: 700;
     line-height: 1.25;
+    text-decoration: none;
 }
 
 .listfeaturedtag h3.card-title,
@@ -961,6 +965,13 @@ iframe {
     display: inline-block;
 }
 
+.jumbotron.fortags a:hover {
+    
+        color: #21adad;
+        text-decoration: none;
+   
+}
+
 .layout-page .jumbotron.fortags {
     display: none;
 }
@@ -1129,7 +1140,8 @@ table {
   .btn_main_more a{
 
 	color:#fff !important;
-        display: inline-block;
+    text-decoration:none;
+    display: inline-block;
     line-height: 1;
     font-size: 1.25rem;
     font-weight: 700;
@@ -1142,6 +1154,12 @@ table {
     -webkit-transition: 0.2s all ease-in-out;
     transition: 0.2s all ease-in-out;
         }
+
+
+    .btn_main_more a:hover{
+
+        }
+  
 
   .mt40{
   text-align: center!important;

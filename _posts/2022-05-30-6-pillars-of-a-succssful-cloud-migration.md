@@ -5,6 +5,7 @@ title: 성공적인 클라우드 마이그레이션을 위한 6가지 핵심 요
 Subtitle: 6 pillars of a successful cloud migration
 date: 2022-05-30
 author: ethan
+featured : true
 image : https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/pasted-image-0-1-1200x760.png
 categories: [Atlassian Cloud]
 tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, 마이그레이션, Migration, migration, pillar, 핵심, 클라우드, 클라우드 마이그레이션]

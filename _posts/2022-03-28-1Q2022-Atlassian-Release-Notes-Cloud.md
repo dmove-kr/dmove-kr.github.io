@@ -3,7 +3,6 @@
 layout: post
 author: jackson
 image : https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png
-featured: true
 title: 2022 Atlassian 주요 제품 릴리즈 노트 (Jan ~ Mar) - Cloud
 Subtitle: Release Note
 date: 2022-03-28

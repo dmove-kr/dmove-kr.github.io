@@ -3,7 +3,6 @@ layout: post
 title: Case Study - VSCODE와 Jira & Bitbucket Integration
 Subtitle: VSCODE와 Jira & Bitbucket Integration
 date: 2022-02-25
-featured: true
 author : ethan
 image : assets/images/banners/VScode%20Integration/1.png
 categories: [Case Study]
