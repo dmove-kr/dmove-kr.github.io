@@ -17,12 +17,14 @@ License: https://www.wowthemes.net/freebies-license/
     padding: 1rem 0rem;
 }
 
-body{
 
-    color: black;
-    background-color: #fff;
+/* 메인 본문 P 태그 안 A 태그 안의 밑줄 추가  */
 
+p a {
+    text-decoration: underline;
 }
+
+
 
 ul {
 
@@ -34,9 +36,11 @@ a {
     transition: all 0.2s;
 }
 
+/* A 태그에 마우스 커서 이동 시 색 변환 */
 a:hover {
     color: #21adad;
     text-decoration: none;
+    
 }
 
 pre {
@@ -246,80 +250,6 @@ section.recent-posts {
     font-weight: 400;
 }
 */
-
-
-.toc {
-    position: sticky;
-    font-weight: 600;
-    right: 0px;
-    border-left: 2px solid #e0d9e7;
-    width: 350px;
-    color: $default;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    margin-right: 0px;
-    font-size: 0.75rem;
-    list-style-type:none;
-  
-    display: block;
-    @media (min-width: 75em){
-      width: 240px;
-      display: block;
-    }
-    @media (min-width: 85em){
-      width: 300px;
-      display: block;
-    }
-    @media (min-width: 95em){
-      width: 360px;
-      display: block;
-    }
-  
-    a.toc-active {
-      font-weight: bold; 
-      transition: all 0.125s ease-in 0s; 
-      font-size: 0.75rem;
-      color: #9075aa;
-    }
-    
-    ul {
-    
-      list-style-type: none;
-      margin-bottom: 0.1rem;
-      padding-left: 0rem;
-     
-      li {
-    /*    padding-left: 0.3rem; */
-        list-style-type: none;
-      }
-    }
-
-    ul:hover{
-        background-color: #272794;
-        color: white;
-        transition : 2s;
-    }
-    
-
-    
-
-    a {
-        color: lightseagreen;
-        list-style:none;
-        text-decoration: none;
-    }
-   
-    a:hover {
-        background-color: #272794;
-        color: white;
-        transition : 2s;
-    }
-  }
-
 
 
 /*toc 추가*/
