@@ -74,6 +74,15 @@ authors:
     description : 디무브 아틀라시안 개발자로 근무하고 있습니다. 블로그 많이 사랑해 주세요!
     web : https://dmove.co.kr/company/our-team#ethan
 
+  eddie:
+    name : Eddie
+    display_name : Eddie
+    executive : Solution Engineer
+    avatar : 'assets/images/main/img_ourteam_eddie.png'
+    email : eddie@dmove.kr
+    description : 디무브 Atlassian Solution Engineer Eddie 입니다.
+    web : https://dmove.co.kr/company/our-team#eddie 
+
 # Plugins
 plugins:
   - jekyll-paginate

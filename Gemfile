@@ -14,3 +14,5 @@ gem "jekyll-toc"
 gem "jekyll-glossary_tooltip"
 gem "jemoji"
 gem "jekyll-archives"
+
+gem "webrick", "~> 1.7"

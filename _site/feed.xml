@@ -5,9 +5,661 @@
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Sep 2022 20:15:46 +0900</pubDate>
-    <lastBuildDate>Wed, 21 Sep 2022 20:15:46 +0900</lastBuildDate>
+    <pubDate>Thu, 29 Sep 2022 17:26:15 +0900</pubDate>
+    <lastBuildDate>Thu, 29 Sep 2022 17:26:15 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>2022 Atlassian 주요 제품 릴리즈 노트  ( Jul ~ Sep) - Server</title>
+        <description>&lt;!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) --&gt;
+
+&lt;h1 id=&quot;안녕하세요-디무브-입니다-&quot;&gt;안녕하세요. 디무브 입니다 &lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png&quot; alt=&quot;:balloon:&quot; /&gt;&lt;/h1&gt;
+
+&lt;p&gt;이번 시간에는 2022년 3분기 기간 동안 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence, Bitbucket의 Server/DataCenter 제품 릴리즈 노트를 설명드리려 합니다.&lt;/p&gt;
+
+&lt;p&gt;각 제품의 버전에 어떠한 변화가 있었는지 함께 확인 할 수 있는 시간을 놓치지 마세요!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;1-jira-software&quot;&gt;&lt;strong&gt;1. Jira Software&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;h3 id=&quot;-version-91x--version-92x&quot;&gt;&lt;strong&gt;■ Version 9.1.x ~ Version 9.2x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-애자일-보드의-성능이-개선-되었습니다&quot;&gt;1. 애자일 보드의 성능이 개선 되었습니다.&lt;/h3&gt;
+
+&lt;p&gt;이전 버전의 Jira 는 스프린트를 사용하면 스프린트의 수 가 많아질수록 애자일 보드가 느려지는 현상이 있었습니다. 이번 9.1 버전 부터는 보드 지연 이슈가 개선 되어  성능 문제로 작업이 중단 되지 않고 작업에 집중하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;아래 링크를 클릭하여 자세히 알아보세요!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://confluence.atlassian.com/jiracore/preparing-for-jira-9-1-1142444576.html&quot;&gt;에자일 보드 확인하기&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-감사-로그-제외-기능-추가&quot;&gt;2. 감사 로그 제외 기능 추가&lt;/h3&gt;
+
+&lt;p&gt;감사 로그에서 특정 이벤트에 대한 로그를 제외 시킬 수 있는 기능이 추가 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;아래 이미지 처럼 Excluded Events 항목에서 이벤트를 선택하여 해당 이벤트에 대한 기록을 제외할 수 있습니다. 로그를 제외시킴으로서 불필요한 로그를 바로 바로 필터링 가능합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-애자일-뷰-화면-개선&quot;&gt;3. 애자일 뷰 화면 개선&lt;/h3&gt;
+
+&lt;p&gt;이번 업데이트에서는 Jira 애자일 뷰 화면이 개선되었습니다.&lt;/p&gt;
+
+&lt;p&gt;Jira Backlog 및 Board 애자일 뷰에 대해 페이지 로딩 시간을 크게 줄여 앱이 더 빠르고 안정적으로 작업을 수행 할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;자세한 사항은 아래 링크에서 확인 하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;아래 링크를 클릭하여 자세히 알아보세요!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://confluence.atlassian.com/jiracore/preparing-for-jira-9-2-1155149623.html&quot;&gt;개선된 에자일 뷰 확인하기&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-이슈-네비게이터-개선&quot;&gt;4. 이슈 네비게이터 개선&lt;/h3&gt;
+
+&lt;p&gt;Jira에 필드가 많은 사용자인 경우 이슈 네이게이터에서 원하는 값을 한번에 찾기 힘드셨을 것 입니다.&lt;/p&gt;
+
+&lt;p&gt;이번 업데이트에서는 너무 많이 검색되는 이슈를 해결하기 위해 목록에서 이슈 검색의 열 드롭 다운에 대한 결과 우선순위 지정 기능이 추가 되었습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;이제 검색어가 여러 필드와 일치하더라도 정확하게 일치하는 항목이 우선으로 표시 됩니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;해결된-이슈-사항&quot;&gt;&lt;strong&gt;해결된 이슈 사항&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;-version-91x&quot;&gt;&lt;strong&gt;■ Version 9.1.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;스프린트의 캐시로 인해 성능이 저하되는 이슈&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSWSERVER-20618?src=confmacro&quot;&gt;JSWSERVER-20618&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;JQL 검색 후 뒤로 버튼을 사용해도 검색 결과가 변경 되지 않은 이슈&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73925?src=confmacro&quot;&gt;JRASERVER-73925&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Jira Agile Wallboard 가젯에 대한 드롭다운 목록에서 다른 보드가 나오는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73826?src=confmacro&quot;&gt;JRASERVER-73826&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;MYSQL 8.22.1 로 업그레이드 한 후 Jira 서비스 가동 불가 이슈&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73725?src=confmacro&quot;&gt;JRASERVER-73725&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;백로그 페이지 : “추가 옵션” 엑세스 가능한 이름이 누락 됩니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73587?src=confmacro&quot;&gt;JRASERVER-73587&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;-version-92x&quot;&gt;&lt;strong&gt;■ Version 9.2x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;“에픽 링크” 드롭 다운 제안이 제대로 작동하지 않습니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSWSERVER-21280?src=confmacro&quot;&gt;JSWSERVER-21280&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;server.xml connector 파일에서 SSL 문서가 잘못되는 이슈&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74250?src=confmacro&quot;&gt;JRASERVER-74250&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;[Critical]&lt;/strong&gt; 아파치 톰캣 CVE-2022-34305 보안 이슈 해결&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73956?src=confmacro&quot;&gt;JRASERVER-73956&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;에픽 링크 검색 시 일부 결과가 누락되는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73922?src=confmacro&quot;&gt;JRASERVER-73922&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;백로그: 버전 및 에픽 필터 페이지에 랜드마크가 누락&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73322?src=confmacro&quot;&gt;JRASERVER-73322&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;이슈 생성 시 성능 저하로 인해 이슈 생성이 어려워지는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73193?src=confmacro&quot;&gt;JRASERVER-73193&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;이슈를 삭제 동안 커스텀 필드 값을 업데이트 하게 될 경우, 삭제 프로세스에 대한 스레드가 멈추는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-70522?src=confmacro&quot;&gt;JRASERVER-70522&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;2-jira-service-management&quot;&gt;&lt;strong&gt;2. Jira Service Management&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;h3 id=&quot;-version-50x--version-52x&quot;&gt;&lt;strong&gt;■ Version 5.0.x ~ Version 5.2x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-빠르고-정확해진-sla-멀티-스레드-기능-개선&quot;&gt;&lt;strong&gt;1. 빠르고 정확해진 SLA, 멀티 스레드 기능 개선&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;1.1 이슈 성능 SLA 재측정 기능 추가&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;이슈 보기 화면에서 이슈에 대한 SLA(&lt;em&gt;Service-Level Agreement&lt;/em&gt;)를 재측정이 가능합니다.&lt;/p&gt;
+
+    &lt;p&gt;SLA를 설정하는 방법은 아래와 같습니다 :&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;이슈 보기에서 &lt;strong&gt;SLA 패널&lt;/strong&gt;로 이동합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;SLA 우측 상단&lt;/strong&gt; 의 ●●● 을 클릭 후 &lt;strong&gt;Recalculated all SLAs&lt;/strong&gt; 를 클릭합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira Service Management/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;1.2 멀티 스레드 기능 추가&lt;/p&gt;
+
+&lt;p&gt;스레드 외 처리 모드를 선택 할 수 있는 SLA(&lt;em&gt;Service-Level Agreement&lt;/em&gt;)기능이 추가 되었습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;2백그라운드-처리-개선&quot;&gt;&lt;strong&gt;2.백그라운드 처리 개선&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;PSMQ(Pretty Simple Message Queue)가 함께 JSM의 일부 영역을 최적화 하여 인스턴스의 안정성과 크기 조정을 개선하는데 도움이 됩니다. 이를 통해 20~65% 향상된 스레드 메시지 처리 향상시킬 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;변경 사항은 다음과 같습니다 :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;데이터베이스 메시지 큐 속성 테이블 호출 제거&lt;/li&gt;
+  &lt;li&gt;API 및 쿼리에서 메시지 우선 순위 제거&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-고객센터-공지-개선&quot;&gt;&lt;strong&gt;3. 고객센터 공지 개선&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;도움말 센터와 고객 포탈에서 표시되는 배너가 개선 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;이제 공지 사항을 수정 할 수 있는 페이지가 추가 됩니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira Service Management/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;또한 고객 포털에서 배너를 삭제 하는 경우 첨부된 번역이 있을 경우 경고 메시지가 나오게 됩니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira Service Management/2022_3Q/3.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;이처럼 배너 콘텐츠의 불일치 방지와 삭제가 쉽게 개선이 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;이 기능은 해당 플래그와 함께 기본적으로 활성화됩니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-1-해결된-이슈-사항&quot;&gt;&lt;strong&gt;2-1. 해결된 이슈 사항&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;-version-50x51x&quot;&gt;&lt;strong&gt;■ Version 5.0.x~5.1.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;기술 자료 문서 간격에 오류가 발생&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11298?src=confmacro&quot;&gt;JSDSERVER-11298&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;숫자 사용자 이름을 가진 에이전트는 고객 포털에서 이슈 생성 시 “대신 이 요청 제기” 필드에 오류가 발생&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11256?src=confmacro&quot;&gt;JSDSERVER-11256&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;고객 포탈에 여러 단일 사용자 선택기 필드를 추가하면 일부 필드 편집이 불가한 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11136?src=confmacro&quot;&gt;JSDSERVER-11136&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;이슈에서 SLA 필드를 가리키면 기한 정보가 표시되지 않는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11055?src=confmacro&quot;&gt;JSDSERVER-11055&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;-version-52x&quot;&gt;&lt;strong&gt;■ Version 5.2.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;비즈니스 서비스/개체 생성에 대한 레이블 등 여러 오류&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11796?src=confmacro&quot;&gt;JSDSERVER-11796&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;JSM 업그레이드 후 인사이트 사용자 정의 필드 값이 비어 있는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11894?src=confmacro&quot;&gt;JSDSERVER-11894&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;내보내기 중 개체 유형의 경우 CSV 파일이 생성되지 않는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11169?src=confmacro&quot;&gt;JSDSERVER-11169&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Insight/Jira 관리자가 아닌 개체 스키마 관리자는 가져오기를 수동으로 실행할 때 권한 오류가 표시되는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11292?src=confmacro&quot;&gt;JSDSERVER-11292&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;3-confluence&quot;&gt;3. Confluence&lt;/h1&gt;
+
+&lt;h3 id=&quot;-version-718x--719x&quot;&gt;&lt;strong&gt;■ Version 7.18.x ~ 7.19.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-클러스터에서-로깅-수준을-변경하는-것이-더-쉬워졌습니다&quot;&gt;1. 클러스터에서 로깅 수준을 변경하는 것이 더 쉬워졌습니다.&lt;/h3&gt;
+
+&lt;p&gt;7.18버전 업데이트 이후 클러스터 별로 로그를 확인할 때 클러스터 노드를 선택 하여 로그를 관리할 수 있습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-719-버전의-lts-장기-서비스-지원&quot;&gt;2. 7.19 버전의 LTS 장기 서비스 지원&lt;/h3&gt;
+
+&lt;p&gt;이번 업데이트에서는 7.19 버전의 Confluence 장기 서비스 지원이 가능한 버전으로 선정되었습니다.&lt;/p&gt;
+
+&lt;p&gt;기존 장기 지원 릴리스 버전인 7.13와 7.19x 버전의 차이점은 아래와 같습니다:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;OAuth 2.0 통합을 위한 향상된 보안&lt;/li&gt;
+  &lt;li&gt;데이터베이스 암호 암호화&lt;/li&gt;
+  &lt;li&gt;SSO에 여러 ID 공급자 사용&lt;/li&gt;
+  &lt;li&gt;사이트를 계속 실행하는 새로운 응용 프로그램 메트릭&lt;/li&gt;
+  &lt;li&gt;더 빠른 권한 검사&lt;/li&gt;
+  &lt;li&gt;가동 중지 시간 없이 다음 Confluence로 업그레이드&lt;/li&gt;
+  &lt;li&gt;보존 규칙을 사용하여 기록 데이터를 정리하고 휴지통을 지웁니다.&lt;/li&gt;
+  &lt;li&gt;접근성 향상을 위해 업데이트된 VPAT 문서&lt;/li&gt;
+  &lt;li&gt;PSQL 및 MSQL을 포함한 데이터베이스에 대한 추가 지원&lt;/li&gt;
+  &lt;li&gt;쿠버네티스에 Confluence Data Center 설치 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-version-718x에서-해결된-이슈&quot;&gt;&lt;strong&gt;■ Version 7.18.x에서 해결된 이슈&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[취약]CVE-2022-22965에 대한 FAQ에 설명된 문제의 추적 해결&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-78586?src=confmacro&quot;&gt;CONFSERVER-78586&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[취약]Confluence Server &amp;amp; Data Center의 OGNL 주입을 통한 원격 코드 실행(CVE-2022-26134)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-79016?src=confmacro&quot;&gt;CONFSERVER-79016&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[취약] Confluence Data Center java 역직렬화 취약점 개선&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-78179?src=confmacro&quot;&gt;CONFSERVER-78179&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;라틴어가 아닌 문자는 PDF로 사용자 지정 내보내기 페이지에 표시되지 않습니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-45192?src=confmacro&quot;&gt;CONFSERVER-45192&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;-version-719x에서-해결된-이슈&quot;&gt;&lt;strong&gt;■ Version 7.19.x에서 해결된 이슈&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Confluence 좋아요 및 의견을 작성해도 주요 인기있는 피드에 나타나지 않습니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-79588?src=confmacro&quot;&gt;CONFSERVER-79588&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;날짜 @currentDate 변수에 대한 잘못된 날짜 형식이 표기 됩니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-58977?src=confmacro&quot;&gt;CONFSERVER-58977&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;엑셀 표 또는 워드의 내용을 붙여 넣으면 페이지에 추가 이미지 첨부 파일이 삽입 됩니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-78579?src=confmacro&quot;&gt;CONFSERVER-78579&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;윈도우 기본 Office 응용 프로그램에서 차트 이미지를 붙여 넣으면 업로드가 트리거 되지 않으며 서버 오류가 발생 됩니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-78052?src=confmacro&quot;&gt;CONFSERVER-78052&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;4-bitbucket&quot;&gt;4. Bitbucket&lt;/h1&gt;
+
+&lt;h3 id=&quot;-version-82x--84x&quot;&gt;&lt;strong&gt;■ Version 8.2.x ~ 8.4.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-개발자에게-레포지토리-생성-권한-부여-가능&quot;&gt;1. 개발자에게 레포지토리 생성 권한 부여 가능&lt;/h3&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Bitbucket/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;위 이미지와 같이 개발자에게 레포지토리를 만들기 권한을 부여하고 새 레포지토리를 생성하게 되면 개발자가 자신이 만든 저장소의 관리자가 됩니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-노출된-비밀을-알려주는-검사-기능&quot;&gt;2. 노출된 비밀을 알려주는 검사 기능&lt;/h3&gt;
+
+&lt;p&gt;개발자가 API 개발이나 테스트를 위해 사용한 코드에 토큰, 키, 암호가 레포지토리에 저장이 될 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이는 곧 큰 보안 취약점으로 엄청난 피해를 가져다 올 수 있습니다. 이번 업데이트 된 “&lt;strong&gt;Secret Scanning&lt;/strong&gt;“ 기능은 커밋이 진행되는 동안 보안 상으로 취약점이 될 만할 키나 토큰 정보를 확인하여  즉각적으로 알릴 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이를 통해 레포지토리를 즉각적으로 수정하여 보안점을 개선할 수 있습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Bitbucket/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;해결된-이슈&quot;&gt;&lt;strong&gt;해결된 이슈&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;저장소가 미러에서 동기화를 중지하는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/BSERV-13477?src=confmacro&quot;&gt;BSERV-13477&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Bitbucket 8.3.0의 언어 팩에 대한 잘못된 인코딩&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/BSERV-13424?src=confmacro&quot;&gt;BSERV-13424&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;[Critical]&lt;/strong&gt; 중요 심각도 명령 주입 취약점 개선&lt;a href=&quot;https://jira.atlassian.com/browse/BSERV-13438?src=confmacro&quot;&gt;(CVE-2022-36804)&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-78179?src=confmacro&quot;&gt;CONFSERVER-78179&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;프로세스가 취소되면 명령 입력 처리기가 중단 되는 형상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/BSERV-13358?src=confmacro&quot;&gt;BSERV-13358&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Bitbucket 브라우저의 오류 메시지에 민감한 DB 세부 정보를 표시 하는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/BSERV-13222?src=confmacro&quot;&gt;BSERV-13222&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        <pubDate>Thu, 29 Sep 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Server.html</link>
+        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Server.html</guid>
+        
+        <category>Atlassian</category>
+        
+        <category>Atlassian Cloud</category>
+        
+        <category>아틀라시안</category>
+        
+        <category>아틀라시안클라우드</category>
+        
+        <category>Jira</category>
+        
+        <category>jira</category>
+        
+        <category>Jira Cloud</category>
+        
+        <category>Release</category>
+        
+        <category>Release Note</category>
+        
+        <category>Jira Sofrware</category>
+        
+        <category>Jira Service Management</category>
+        
+        <category>Confluence</category>
+        
+        <category>컨플</category>
+        
+        <category>DevOps</category>
+        
+        <category>데브옵스</category>
+        
+        <category>dev</category>
+        
+        <category>Dev</category>
+        
+        <category>에자일</category>
+        
+        <category>Agile</category>
+        
+        <category>Wiki</category>
+        
+        <category>Bitbuket</category>
+        
+        
+        <category>Release Note</category>
+        
+      </item>
+    
+      <item>
+        <title>2022 Atlassian 주요 제품 릴리즈 노트  ( Jul ~ Sep) - Cloud</title>
+        <description>&lt;!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) --&gt;
+
+&lt;p&gt;안녕하세요. 디무브 입니다 &lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png&quot; alt=&quot;:balloon:&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이번 시간에는 2022년 3분기 기간 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence의 클라우드 제품 릴리즈 노트를 말씀드리려합니다.&lt;/p&gt;
+
+&lt;p&gt;각 제품의 Cloud 버전에 어떠한 변화가 있었는지 함께 확인 할 수 있는 시간을 놓치지 마세요!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;jira-software&quot;&gt;Jira Software&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-스마트-링크-미리보기&quot;&gt;1. 스마트 링크 미리보기&lt;/h3&gt;
+
+&lt;p&gt;기존 Jira 의 링크는 해당 URL을 타고 들어가야만 해당 정보를 얻을 수 있다는 단점이 존재 하였습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 이제 스마트 링크를 사용하여 링크 뒤에 사이트에 대해 다른 탭을 열 필요 없이 다른 이슈 또는 페이지에 대한 링크를 포함하여 미리 볼 수 있게 되었습니다!&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;위처럼 커서를 링크에 둘 경우, 해당 링크의 주요 정보를 미리 볼 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-시스템-대시-보드-익명-접근-방지&quot;&gt;2. 시스템 대시 보드 익명 접근 방지&lt;/h3&gt;
+
+&lt;p&gt;이번 분기 업데이트 내용 중 하나는 Jira  대시보드 엑세스 기능이 추가되었습니다.&lt;/p&gt;
+
+&lt;p&gt;관리자 계정의 사용자가 사이트 내 조직에 속해 있지 않다면, 기본 대시보드에 접근이 불가능합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-이슈-생성-간-이슈의-상태-설정&quot;&gt;3. 이슈 생성 간 이슈의 상태 설정&lt;/h3&gt;
+
+&lt;p&gt;기존 Jira같은 경우는 이슈를 만들고 상태를 변경하여야만 했기 때문에 많은 사용자 분들이 이슈를 생성할 때 해당 이슈의 상태를 지정하기를 원했습니다. 이제 이슈 생성 중 이슈의 상태를 설정할 수 있도록 새롭게 &lt;strong&gt;상태&lt;/strong&gt; 필드가 추가 되었습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_3Q/3.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;위 이미지 처럼  이슈 생성 간 이슈 전환을 할 필요 없이 필드에서 이슈 상태를 선택 할 수 있도록 구성이 가능합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;jira-service-management&quot;&gt;Jira Service Management&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-서비스-데스크-이슈-생성-시-요청-등록-기능-추가-agent&quot;&gt;1. 서비스 데스크 이슈 생성 시 요청 등록 기능 추가 (Agent)&lt;/h3&gt;
+
+&lt;p&gt;기존 JSM에서는 요청을 등록 하려면 서비스 포털에서만 요청을 선택할 수 있고, 이슈 생성 시에는 요청 유형을 선택할 수 없기 때문에, 이슈를 등록하여 서비스 요청을 생성하는 경우 많은 어려움이 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;이번 업데이트에서는  이슈를 생성 시 요청 유형을 별도로 선택 할 수 있어 굳이 서비스 포털에서 요청 등록을 하지 않더라도 이슈 생성을 통해 서비스 요청 유형을 지정할 수 있습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira Service Management/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-서비스-포털-에서-사용자-멘션-기능-추가&quot;&gt;2. 서비스 포털 에서 사용자 멘션 기능 추가&lt;/h3&gt;
+
+&lt;p&gt;포탈에 서비스 요청을 할 때 기존 서비스 요청을 처리하는 특정 담당자를 언급(멘션)하는 기능은 지원되지 않았습니다.&lt;/p&gt;
+
+&lt;p&gt;이에 기존 담당자와 요청에 대해 이야기 하려면 따로 유선으로 연락을 하거나 문자를 통해 이야기 해야 했기 때문에 서비스 데스크의 순 기능을 발휘할 수 없었습니다.이번 업데이트 에서는 JSM 포털에서 요청 등록 시 사용자 언급이 가능하게 되었습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira Service Management/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;위처럼 &lt;strong&gt;’@’ 후 맨션&lt;/strong&gt; 기능을 사용해 담당자를 호출 할 수도 있어서 정보를 정확하게 공유가 가능합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;confluence&quot;&gt;Confluence&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-관련-페이지-추천&quot;&gt;1. 관련 페이지 추천&lt;/h3&gt;
+
+&lt;p&gt;새로운 기능으로 Confluence 관련 페이지가 추가되었습니다.&lt;/p&gt;
+
+&lt;p&gt;모든 페이지의 가장 하단에 관련 페이지 추천이 3개 표시가 됩니다. 해당 관련 페이지는 내용을 기반으로 관련된 페이지를 Confluence가 추천해 줍니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-페이지에-상태-추가&quot;&gt;2. 페이지에 상태 추가&lt;/h3&gt;
+
+&lt;p&gt;기존에 페이지 작성 시 초안을 작성하거나 미완성 문서를 작성 할 때&lt;/p&gt;
+
+&lt;p&gt;제목 앞에 [미완성]을 붙이는 등 불편하고 번거로운 경우가 많았을 것 입니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 이제 상태를 나타낼 수 있는 항목이 새로 생겼고&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/e1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;위처럼 페이지에 대한 상태를 나타내 해당 페이지의 상태를 공유하는 것이 가능해 졌습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;상태는 색과 멘트까지 직접 입력이 가능합니다!&lt;/p&gt;
+
+&lt;h3 id=&quot;3-ppt모드가-추가-되었습니다&quot;&gt;3. PPT모드가 추가 되었습니다!&lt;/h3&gt;
+
+&lt;p&gt;평소 페이지에 대한 발표, 소개를 진행함에 있어서 드래그로 내려서 소개를 하시거나 문서 내보내기를 통해  다운로드 받아서 PPT로 변환 시켜 내용 공유를 진행 하셨을 것 입니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 이제 프리젠테이션 모드 기능 추가로 인해 내용을 팀원에게 공유하거나 발표를 진행 할 때 보다 간편하게 공유가 가능해 졌습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/3.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/4.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;프레젠테이션 모드를 실행하게 되면 페이지를 파트별로 나눠서 보여주고, QR같은 기능과 함께 사용하면 팀원과 모두 손쉽게 페이지 정보 공유가 가능합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.😃&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 29 Sep 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Cloud.html</link>
+        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Cloud.html</guid>
+        
+        <category>Atlassian</category>
+        
+        <category>Atlassian Cloud</category>
+        
+        <category>아틀라시안</category>
+        
+        <category>아틀라시안클라우드</category>
+        
+        <category>Jira</category>
+        
+        <category>jira</category>
+        
+        <category>Jira Cloud</category>
+        
+        <category>Release</category>
+        
+        <category>Release Note</category>
+        
+        <category>Jira Sofrware</category>
+        
+        <category>Jira Service Management</category>
+        
+        <category>Confluence</category>
+        
+        <category>컨플</category>
+        
+        <category>DevOps</category>
+        
+        <category>데브옵스</category>
+        
+        <category>dev</category>
+        
+        <category>Dev</category>
+        
+        <category>에자일</category>
+        
+        <category>Agile</category>
+        
+        <category>Wiki</category>
+        
+        
+        <category>Release Note</category>
+        
+      </item>
     
       <item>
         <title>2022년 10월 아틀라시안 클라우드 가격 인상 안내</title>
@@ -599,7 +1251,7 @@
       </item>
     
       <item>
-        <title>3년만에 돌아온 아틀라시안 고객 컨퍼런스, 'Atlassian in Seoul 22' 후기</title>
+        <title>3년만에 돌아온 아틀라시안 고객 컨퍼런스, &apos;Atlassian in Seoul 22&apos; 후기</title>
         <description>&lt;p&gt;안녕하세요, 디무브 입니다! 🎈&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -1992,392 +2644,6 @@ git push origin master //원격 레포지토리의 master 브랜치로 푸쉬
         
         
         <category>Webinars</category>
-        
-      </item>
-    
-      <item>
-        <title>웨비나 생생후기 - IT 혁신을 위한 아틀라시안 클라우드 마이그레이션 전략</title>
-        <description>&lt;!-- ![enter image description here](https://blog.dmove.kr/assets/images/blog/Webinar0.png?raw=true) --&gt;
-
-&lt;p&gt;안녕하세요, 디무브입니다🎈&lt;/p&gt;
-
-&lt;p&gt;지난 5월 26일 IT 혁신을 위한 아틀라시안 클라우드 마이그레이션 전략을 주제로한 웨비나가 성황리에 종료되었습니다.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안이 클라우드 우선 기업으로의 전환을 표명함에 따라 지난 2021년 2월에는 신규 서버 제품의 판매를 중단했고 다가오는 2024년에는 서버 제품의 지원을 완전히 종료함과 동시에 대부분의 고객들을 클라우드로 전환 시킬 것이라고 선언했는데요.&lt;/p&gt;
-
-&lt;p&gt;이에 따라 기존의 서버 제품을 이용 중이신 아틀라시안 고객 분들은 클라우드로의 마이그레이션이 선택이 아닌 필수가 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;따라서 저희 디무브는 이번 웨비나를 통해 아틀라시안 서버 제품을 이용 중이신 고객 분들의 고민을 덜어드리고자 아틀라시안 클라우드의 특장점에 대해 소개해드리고 클라우드로의 마이그레이션 과정을 상세히 공유해드렸는데요.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안 클라우드에 대한 기업들의 높은 관심을 증명하듯 예상보다 더 많은 인원이 이번 웨비나에 참석해주셨습니다&lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/1f600.png&quot; alt=&quot;:grinning:&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;다시 한번 참여해주신 모든 분들께 감사의 말씀을 드리며 이번 시간에는 진행했던 웨비나에 대해 생생하게 리뷰해보는 시간을 가져보려합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;본 웨비나는 아래와 같이 크게 3개의 Agenda로 진행하였습니다.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;시간&lt;/th&gt;
-      &lt;th&gt;주제&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;15:00 ~ 15:25&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;아틀라시안 클라우드 마이그레이션을 해야 하는 이유&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;15:25 ~ 15:45&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;클라우드 마이그레이션 프로세스&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;15:45 ~ 15:55&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;마이그레이션 고객 사례&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;15:55 ~ 16:00&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Q&amp;amp;A&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;session-1-아틀라시안-클라우드로-마이그레이션-해야하는-이유&quot;&gt;#Session 1. 아틀라시안 클라우드로 마이그레이션 해야하는 이유&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/%EC%9B%A8%EB%B9%84%EB%82%98%20%EB%B8%94%EB%A1%9C%EA%B7%B81.PNG?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;지난해 아틀라시안이 신규 서버 제품의 구매를 완전히 중단함에 따라 현재 아틀라시안에서 신규로 구매하실 수 있는 라이센스 유형은 온프레미스인 데이터센터와 SaaS 기반의 클라우드만 남게 되었는데요.&lt;/p&gt;
-
-&lt;p&gt;그렇다면 아틀라시안 클라우드와 데이터센터는 어떠한 특징적 차이가 있을까요?&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;팀별 규모의 차이&lt;/strong&gt;- 클라우드의 경우 10명 이하의 소규모 팀부터 몇천명 이상의 대규모 팀까지 다양하게 적용 가능하나 데이터센터의 경우 최소 500명 이상부터 구독 가능&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;인프라 및 유지보수 비용의 차이-&lt;/strong&gt; 클라우드의 경우 라이선스 구독 금액만 고객이 부담하나 데이터센터의 경우 라이선스 구독 금액 외에도 인프라 및 유지보수 비용을 고객이 부담해야 하기 때문에 총 소유비용이 증가함&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;생산성 증대의 차이-&lt;/strong&gt; 클라우드의 경우 높은 확장성과 탄력성으로 손쉽게 기능 확장이 가능하나 데이터센터의 경우 시간과 비용이 많이 소요됨&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar2.PNG?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;실제로 500명의 사용자를 기준으로 지라와 컨플루언스 클라우드와 온프레미스인 서버의 총 소유 비용을 추정하여 비교해보면 온프레미스인 서버는 1년간 약 2억 5천 클라우드는 스탠다드 플랜 기준으로 약 6000만원의 비용이 발생했는데요.&lt;/p&gt;
-
-&lt;p&gt;이는 약 2억에 가까운 큰 금액으로 앞서 말씀 드렸듯 서버의 경우 총 소유 비용에 인프라 관리 및 유지 비용이 포함되기 때문에 전체 비용면에서 클라우드와 큰 차이가 발생합니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar3.PNG?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;실제로 아틀라시안에서는 온프레미스 버전을 이용 중인 고객 분들을 대상으로 성공적인 클라우드 마이그레이션이 가능할 수 있도록 클라우드 로열티 디스카운트 제도, 듀얼 라이센싱 제도, 무료 클라우드 평가판 제도 등 주요 3가지 제도들을 통해 비용적인 이점을 제공하고 있습니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;클라우드 로열티 디스카운트제도&lt;/strong&gt;- 서버 또는 데이터센터 고객이 1001명 이상 클라우드로 마이그레이션 할 경우 신청 시점에 따라 20~40% 할인 제공&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;듀얼 라이센싱 제도-&lt;/strong&gt; 서버 또는 데이터센터 고객이 1001명 이상 클라우드로 마이그레이션 할 경우 1년 동안 서버 및 데이터센터 구독을 100% 할인된 가격으로 제공&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;무료 클라우드 평가판 제도-&lt;/strong&gt; 유지 관리 기간이 60일 이상 남은 서버 및 데이터 센터 고객에 한해 2022년 8월 15일까지 클라우드 마이그레이션 평가판을 신청할 시 12개월간 무료로 제공&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar4.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;다음으로는 아틀라시안 클라우드의 주요 기능에 대해 살펴보았는데요.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;팀 멘션 기능&lt;/strong&gt;- 기존 서버 및 데이터센터에서는 팀을 멘션할 경우 모든 사용자를 개별적으로 멘션해야 했으나 클라우드에서는 팀 단위로 멘션이 가능한 팀 멘션 기능이 추가됨&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Automation (반복적인 작업을 자동화하여 생산성을 향상시켜주는 기능)-&lt;/strong&gt; 온프레미스 버전에서는 유료 기능이었으나 클라우드에서는 무료로 제공&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Advanced Roadmap (업무의 진행사항을 직관적으로 파악할 수 있는 기능)-&lt;/strong&gt; 기존 서버 버전에서는 유료 기능이었으나 클라우드 프리미엄 플랜에서 무료로 제공&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Confluence 템플릿 수 증가-&lt;/strong&gt; 기존 온프레미스형 제품 대비 마케팅, 법무, 인사, IT 등 여러 분야에 걸쳐 업무 특성에 맞는 다양한 템플릿 제공&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Team Calendars for Confluence-&lt;/strong&gt; 기존 서버 버전에서는 유료였으나 클라우드 프리미엄 플랜에 무료로 통합된 기능으로 팀 및 개인 일정을 한눈에 파악하여 체계적인 팀 관리 가능&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar5.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;클라우드 프리미엄 플랜의 기본 기능으로 보시는 것과 같이 4가지 기능이 추가되었는데요.&lt;/p&gt;
-
-&lt;p&gt;관리자 인사이트 기능을 활용하여 시간 경과에 따른 제품 사용량 및 활동을 확인할 수 있고&lt;/p&gt;
-
-&lt;p&gt;IP 허용 목록 기능을 통해 사이트상의 액세스를 신뢰할 수 있는 IP로 제한하여 데이터 보안을 강화할 수 있게 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;또한 샌드박스 기능을 통해 아틀라시안이 제공할 새로운 기능을 팀 입장에서 미리 테스트 해볼 수 있으며 릴리스 추적 기능을 활용하여 팀 입장에서 제품을 출시하는 방법과 시기를 제어하여 효과적인 제품의 출시가 가능해졌습니다.&lt;/p&gt;
-
-&lt;h1 id=&quot;session-2-클라우드-마이그레이션-프로세스&quot;&gt;#Session 2. 클라우드 마이그레이션 프로세스&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar6.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이번에는 클라우드 마이그레이션의 각 단계별 프로세스에 대해 알아보는 시간을 가져보겠습니다.&lt;/p&gt;
-
-&lt;p&gt;클라우드 마이그레이션 단계는 각각 평가, 계획, 준비, 테스트, 마이그레이션, 서비스 오픈 등의 총 6단계로 이루어져 있는데요.&lt;/p&gt;
-
-&lt;p&gt;마이그레이션 프로세스에서 가장 중요한 것은 마이그레이션으로 인해 고객의 사용성이 저하되지 않아야 한다는 점입니다. 이를 위해서는 모든 과정에서 고객과 아틀라시안의 참여가 반드시 필요한데요.&lt;/p&gt;
-
-&lt;p&gt;이 과정에서 고객의 피드백을 원활하게 조율하기 위해 아틀라시안과 커뮤니케이션 하는 역할을 저희 디무브가 맡아서 진행하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;특히 저희 디무브는 평가 단계부터 서비스 오픈까지 마이그레이션을 위한 전 과정을 지원해 드리고 있고 이 과정 전반에서 발생하는 이슈에 대해서 원할한 해결방안을 제시해드리고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;때문에 복잡한 마이그레이션일수록 저희와 함께 협업하여 진행하시면 성공적인 마이그레이션이 가능합니다&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webianr7.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;다음으로는 클라우드 마이그레이션의 각 단계별 프로세스에 대해 자세하게 소개해드리는 시간을 가졌는데요.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1.평가&lt;/strong&gt;-클라우드로 전환 시 기업에 어떠한 영향을 미칠지 알아보고 보안 및 규정 준수 여부, 성능 및 복잡성, 앱 및 통합의 측면에서 사전에 클라우드와 조직의 적합성을 평가&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2.계획&lt;/strong&gt;- 최적화 및 전환 / 전면적 전환 / 단계적 전환 / 새로 시작 등의 주요 4가지 전략 중&lt;/p&gt;
-
-&lt;p&gt;기업의 특성을 고려하여 마이그레이션 비용 및 시간을 산정하여 알맞은 전략 설정 필요&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3.준비&lt;/strong&gt;-마이그레이션에 필요한 항목을 정리 및 준비하는 단계로 마이그레이션을 진행할 사용자의 계정 정리, 데이터 정리, 앱 정리를 진행한 후 클라우드 인스턴스를 생성해야 함&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4.테스트&lt;/strong&gt;-실제 테스트 마이그레이션을 수행하는 단계로 마이그레이션 시 발생할 수 있는 이슈 및 실제 작업에 소요되는 시간을 평가하고 마이그레이션에 들어가기 전 사전 평가 단계의 내용들이 잘 반영되었는지 확인하는 단계&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5.마이그레이션&lt;/strong&gt;-실제 마이그레이션을 수행하는 단계로 서버 시스템을 중지하고 테스트 단계에서 발생한 이슈들을 수정하여 최적의 상황으로 마이그레이션을 수행&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webianr8.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;마지막 단계인 서비스 오픈 단계에서는 사용자 피드백을 통해 앞서 발견하지 못했던 이슈들을 처리하고 고객이 클라우드 환경에서 업무를 잘 수행할 수 있도록 지원합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;예를 들어 고객이 이슈를 등록할 시 저희 디무브의 엔지니어가 이슈에 대한 문제를 해결하여 고객이 클라우드 환경에 잘 적응할 수 있도록 지원하며 당사가 제공하는 연간 유지보수 서비스를 통해 아틀라시안 클라우드 제품을 이용하면서 발생하는 이슈들에 대해 지속적으로 대응 및 관리를 해드리고 있습니다.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;또한 Jira, Confluence, Bitbucket 등 아틀라시안 제품별로 클라우드 사용법 관련 교육을 진행하여 사용자가 클라우드의 기능에 대해 쉽게 익힐 수 있도록 지원하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;session-3-클라우드-마이그레이션-고객-사례&quot;&gt;#Session 3. 클라우드 마이그레이션 고객 사례&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webianr9.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;세번째 세션에서는 실제로 저희 디무브를 통해 클라우드 마이그레이션을 진행했던 고객의 사례에 대해 소개해드렸는데요.&lt;/p&gt;
-
-&lt;p&gt;첫번째 고객인 K사의 경우 프리미엄 웹툰 서비스를 제공하는 L사를 인수하여 각각 100유저와 300유저의 Jira 및 Confluence의 서버 버전을 이용중이었고 K사와의 버전간 제품 구성 및 사용 방법이 달라 같은 Jira 및 Confluence를 사용하더라도 협업시 불편함이 존재했습니다.&lt;/p&gt;
-
-&lt;p&gt;저희 디무브는 고객의 인스턴스 관리에 대한 효율성을 증대시키기 위해 먼저 사용자 정리 작업을 제안 드린 후 분리되어 관리 중이던 사용자 디렉토리를 통합하는 과정을 진행했습니다.&lt;/p&gt;
-
-&lt;p&gt;그 과정에서 마이그레이션에 걸리는 시간을 줄이기 위한 방법을 적용하여 시스템의 다운타임을 최소화하여 고객사의 업무 공백을 최소화 하였습니다.&lt;/p&gt;
-
-&lt;p&gt;결과적으로 이를 통해 고객이 바라던 인스턴스 관리의 복잡성을 감소시킬 수 있었고 분리되어있던 인스턴스의 통합을 통하여 양사 간의 협업 및 효율성을 높일 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/blog/Webinar10.png?raw=true&quot; alt=&quot;enter image description here&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;두 번째 고객인 N사의 경우 사세 확장으로 인한 급격한 사용자 증가로 인해 서버 부하가 발생하기 시작하였으며 그로 인해 속도 저하 및 간헐적인 장애가 발생하는 상태였습니다.&lt;/p&gt;
-
-&lt;p&gt;이를 해결하기 위해 저희 디무브는 가동시간 99.9%를 보장하는 클라우드로의 마이그레이션을 계획하게 되었고 각 사업 부서별 일정을 고려하여 순차적으로 클라우드 마이그레이션을 진행하였습니다.&lt;/p&gt;
-
-&lt;p&gt;클라우드 마이그레이션 이후 서버 장애에 따른 업무 영향도를 줄일 수 있게 되었고 업무의 연속성을 높일 수 있게 되었으며 Jira 및 Confluence 서비스에 필요한 서버 운영 및 유지 관리 공수가 줄어들게 되어 직원들이 다른 업무에 역량을 집중 할 수 있게 되었습니다&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;이렇듯 이번 웨비나를 통해 아틀라시안 클라우드의 이점부터 마이그레이션 시 고객이 고려해야할 사항 및 실제 고객의 사례들까지 세세하게 알아보았는데요!&lt;/p&gt;
-
-&lt;p&gt;관련하여 데모 영상을 포함한 더 생생한 후기가 궁금하시다면 아래 링크를 통해 영상으로도 확인 가능하니 참고 부탁드립니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6-fRBJGSi-A&amp;amp;feature=youtu.be&quot;&gt;[웨비나 다시보기] IT혁신을 위한 아틀라시안 클라우드 마이그레이션 전략 - YouTube&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;앞으로도 저희 디무브는 아틀라시안 클라우드 관련하여 더 좋은 내용으로 찾아뵐 것을 약속드리며&lt;/p&gt;
-
-&lt;p&gt;클라우드 마이그레이션 관련하여 궁금하신 사항이 있으신 경우 언제든지 연락 부탁드립니다.&lt;/p&gt;
-
-&lt;p&gt;그럼 이만 본 포스팅을 마치도록 하겠습니다.&lt;/p&gt;
-
-&lt;p&gt;감사합니다&lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/1f600.png&quot; alt=&quot;:grinning:&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 07 Jun 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/webinars/2022/06/07/Cloud-Migration-Webinar-Review.html</link>
-        <guid isPermaLink="true">http://localhost:4000/webinars/2022/06/07/Cloud-Migration-Webinar-Review.html</guid>
-        
-        <category>Atlassian</category>
-        
-        <category>아틀라시안클라우드마이그레이션</category>
-        
-        <category>아틀라시안클라우드</category>
-        
-        <category>클라우드마이그레이션</category>
-        
-        <category>Webinar</category>
-        
-        <category>웨비나</category>
-        
-        <category>디무브웨비나</category>
-        
-        
-        <category>Webinars</category>
-        
-      </item>
-    
-      <item>
-        <title>성공적인 클라우드 마이그레이션을 위한 6가지 핵심 요소</title>
-        <description>&lt;p&gt;안녕하세요, 디무브 입니다! 🎈
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;지난 4월 6일, 라스베가스에서 Atlassian Team ‘22가 약 3년만에 대면 이벤트로 전세계 고객들과 파트너들을 맞이하였습니다.&lt;/p&gt;
-
-&lt;p&gt;오늘 저희는 Team 22의 세션 중 하나인 &lt;strong&gt;“성공적인 클라우드 마이그레이션을 위한 6가지 핵심 요소”&lt;/strong&gt;를 사례를 통해 설명하고자 합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://events.atlassian.com/team22/speaker/435979/caterina-notarbartolo-notarbartolo?i=Ks9OTgmhT8jSGUOo-h0PFAGgWruxMxbk&quot;&gt;Nationwide Building Society&lt;/a&gt; 사는 영국의 금융 기관 중 하나로 세계에서 7번째로 큰 협동 금융 기관인데요.&lt;/p&gt;
-
-&lt;p&gt;NationWide 사는 몇 년동안  Jira와 Confluence 데이터 센터 버전을 구축하여 사용하고 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 온프레미스 접근 방식에는 한계가 있었기 때문에 점진적으로 성장해 나가는 조직에 맞춰 2020년 말, 그들은 클라우드로 마이그레이션을 수행하였고 여러 개의 클라우드 인스턴스를 마련하였습니다.&lt;/p&gt;
-
-&lt;p&gt;NationWide 사는 어떻게 성공적으로 클라우드로 마이그레이션을 수행하였을까요?&lt;/p&gt;
-
-&lt;p&gt;클라우드 마이그레이션을 위한 성공적인 6가지 핵심요소와 함께 마이그레이션을 통해 어떻게 전략적인 이익을 취할 수 있었는지 이야기 해보겠습니다.&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;1-마이그레이션-사례-정리&quot;&gt;1. 마이그레이션 사례 정리&lt;/h3&gt;
-
-&lt;p&gt;첫번째 핵심 요소는 마이그레이션을 위한 사례를 이해하는 것입니다.&lt;/p&gt;
-
-&lt;p&gt;성공적인 마이그레이션을 위해서는 전체적인 기술 전략과 더불어 아틀라시안 외 타 제품과의 통합을 지원하고, 타사의 서비스나 장치들을 직접 사용할 수 있도록 해야합니다.&lt;/p&gt;
-
-&lt;p&gt;또한 안전한 접근을 통해 조직 전체가 단일 인스턴스로 이동하여 메타데이터 관리를 위한 의사 결정을 내릴 수 있도록 해야합니다.&lt;/p&gt;
-
-&lt;p&gt;전체 인스턴스 관리를 한 장소에서 할 수 있게 되어 지원 팀은 추가 인력 없이 운영을 효율적으로 이끌어 갈 수 있고, 이는 조직 전체의 TCO 감소와도 연결됩니다.&lt;/p&gt;
-
-&lt;p&gt;그 결과 Nationwide 사는 지원 팀 내 인력 추가의 필요성을 줄일 수 있게 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;인스턴스의 사용량이 증가하게 되면, 지원 팀이 단일 관리 지점을 관리할 수 있어 효율적으로 마이그레이션을 수행하게 됩니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-적합한-파트너-선택&quot;&gt;2. 적합한 파트너 선택&lt;/h3&gt;
-
-&lt;p&gt;성공적인 마이그레이션을 위한 두 번째 핵심은 적합한 파트너를 선택하는 것입니다.&lt;/p&gt;
-
-&lt;p&gt;Nationwide사는 데이터 센터 인스턴스를 관리형 서비스로 제공했던 담당자였던 아틀라시안의 솔루션 파트너인 Adaptavist사와 협업하고 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;Nationwide 사는 Adaptavist 사가 여러 개의 크고 복잡한 클라우드 마이그레이션 프로젝트를 완수한 것을 알고 있었기 때문에 성공적으로 마이그레이션을 수행할 것을 알 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;그래서 그들은 클라우드 마이그레이션에 적합한 회사로 Adaptivist사와 함께하기로 결정했습니다.&lt;/p&gt;
-
-&lt;p&gt;Adaptavist 사는 여러 마이그레이션을 통해 얻은 인사이트와 정보를 제공하고, 마이그레이션 작업에 필요한 여러 템플릿을 제공하였습니다.&lt;/p&gt;
-
-&lt;p&gt;그 결과 NationWide사는 전체적으로 마이그레이션에 접근하는 방식에 대해 많은 것을 배웠고, 배운 내용을 바탕으로 마이그레이션에 접근하는 방식을 접목시킬 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;3-사용자에게-권한-부여&quot;&gt;3. 사용자에게 권한 부여&lt;/h3&gt;
-
-&lt;p&gt;세 번째 핵심은 사용자에게 권한을 부여하는 것입니다.&lt;/p&gt;
-
-&lt;p&gt;Nationwide 사는 마이그레이션의 툴셋 전체를 활용하고 있는 인원들로 구성된 포럼을 알고 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;포럼을 통해 조직 내의 최종 사용자들은 클라우드 마이그레이션의 다양한 사례를 참고하고 직접 클라우드 환경을 경험해 볼 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;이러한 경험은 사용자가 클라우드로의 전환을 두려워하지 않고 새로운 작업 방식에 빠르게 적응할 수 있도록 도와주는 중요한 부분이라고 할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;4--커뮤니케이션-계획-수립&quot;&gt;4.  커뮤니케이션 계획 수립&lt;/h3&gt;
-
-&lt;p&gt;커뮤니케이션은 클라우드 마이그레이션과 같은 복잡한 프로세스에서 절대적으로 중요합니다.&lt;/p&gt;
-
-&lt;p&gt;Nationwide사와 아틀라시안, Adaptavist사 간의 강력한 협업을 구축하는 것이 이번 클라우드 마이그레이션의 핵심이었습니다.&lt;/p&gt;
-
-&lt;p&gt;NationWide 사는 마이그레이션을 위한 통합 플레이북과 문서를 활용하여 협업 계획과 관련된 일정을 수립하여 모든 것을 한 눈에 확인 하였습니다.&lt;/p&gt;
-
-&lt;p&gt;또한 표준 애자일, 일일 스탠드업, 주간 계획 회의 및 이해관계자와의 회의와 같은 정기 회의를 통해 적극적인 마이그레이션을 지원했습니다.&lt;/p&gt;
-
-&lt;p&gt;그들은 Jira와 Confluence를 협업 및 작업 관리를 위한 주요 툴로 활용하여 마이그레이션 프로세스에서 진행 중인 모든 사항을 파악할 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;5-애자일&quot;&gt;5. 애자일&lt;/h3&gt;
-
-&lt;p&gt;클라우드 마이그레이션과 같은 복잡한 프로젝트에서 주의해야 할 사항 중 하나는 계획의 변화를(피벗하는 것을) 두려워해선 안된다는 것입니다. NationWide 사는 프로젝트의 마지막을 앞두고 수용가능한 범위에서 벗어날 수있는 큰 장애물에 직면했습니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 그들은 매우 신속하게 방향을 전환하여 “Adaptavist” 사와 “아틀라시안”, 그리고 이슈가 발생한 앱 제공업체인 “스마트베어” 사와 긴밀히 협력해 아틀라시안 클라우드의 일부 기능에 대한 대체 솔루션을 구축할 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;이는 모두가 함께 협업하여 해결책을 찾아 제품에 집중하도록 한 결과였습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;6-프로젝트가-아닌-제품으로-지원&quot;&gt;6. 프로젝트가 아닌 제품으로 지원&lt;/h3&gt;
-
-&lt;p&gt;마지막 핵심요소는 프로젝트 활동이 아닌 제품 스트림으로 설정되도록 보장하여 사내 제품 팀을 두도록 하는 것입니다.&lt;/p&gt;
-
-&lt;p&gt;이렇게 하면 제품의 유지 보수를 수행하여 제품을 지속적으로 개선할 수 있게 됩니다.&lt;/p&gt;
-
-&lt;p&gt;그 결과 최종 사용자가 제공하는 정보를 수집하여 앞으로의 백로그를 관리하게 되고 앞으로 나아가고자 하는 방향성을 제시 할 수 있어 마이그레이션을 성공적으로 이끌 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;지금까지 Nationwide 사의 사례를 통해 클라우드로의 성공적인 마이그레이션을 위한 여섯 가지 주요 핵심요소를 살펴보았습니다.&lt;/p&gt;
-
-&lt;p&gt;Nationwide 사는 파트너와 긴밀하게 협업하여 Jira와 Confluence를 위한 클라우드 마이그레이션을 성공적으로 진행 하였는데요.&lt;/p&gt;
-
-&lt;p&gt;그들은 마이그레이션을 통해 원래 비즈니스 사례를 달성할 뿐만 아니라 사용자의 업무 중단을 최소화하여 매우 성공적인 마이그레이션 환경을 제공할 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;추가적인 아틀라시안 클라우드 제품이나 마이그레이션에 대해 알고 싶으시다면 저희 디무브에게 문의주시면 더 많은 내용을 확인할 수 있습니다!&lt;/p&gt;
-
-&lt;p&gt;감사합니다.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 30 May 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/atlassian%20cloud/2022/05/30/6-pillars-of-a-succssful-cloud-migration.html</link>
-        <guid isPermaLink="true">http://localhost:4000/atlassian%20cloud/2022/05/30/6-pillars-of-a-succssful-cloud-migration.html</guid>
-        
-        <category>Atlassian</category>
-        
-        <category>Team22</category>
-        
-        <category>아틀라시안</category>
-        
-        <category>Atlassianteam22</category>
-        
-        <category>마이그레이션</category>
-        
-        <category>Migration</category>
-        
-        <category>migration</category>
-        
-        <category>pillar</category>
-        
-        <category>핵심</category>
-        
-        <category>클라우드</category>
-        
-        <category>클라우드 마이그레이션</category>
-        
-        
-        <category>Atlassian Cloud</category>
         
       </item>
     
