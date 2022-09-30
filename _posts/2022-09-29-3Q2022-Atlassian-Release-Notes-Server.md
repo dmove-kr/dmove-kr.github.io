@@ -273,13 +273,14 @@ PSMQ(Pretty Simple Message Queue)가 함께 JSM의 일부 영역을 최적화 �
 | **[Critical]** 중요 심각도 명령 주입 취약점 개선[(CVE-2022-36804)](https://jira.atlassian.com/browse/BSERV-13438?src=confmacro) | [CONFSERVER-78179](https://jira.atlassian.com/browse/CONFSERVER-78179?src=confmacro) | **DONE**   |
 | 프로세스가 취소되면 명령 입력 처리기가 중단 되는 형상        | [BSERV-13358](https://jira.atlassian.com/browse/BSERV-13358?src=confmacro) | **DONE**   |
 | Bitbucket 브라우저의 오류 메시지에 민감한 DB 세부 정보를 표시 하는 현상 | [BSERV-13222](https://jira.atlassian.com/browse/BSERV-13222?src=confmacro) | **DONE**   |
- 
+
+
 
 Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.
 
 Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!
 
 감사합니다.😃
- 
 
- 
+
+
