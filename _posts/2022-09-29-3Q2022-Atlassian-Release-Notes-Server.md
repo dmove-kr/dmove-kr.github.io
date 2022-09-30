@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 2022 Atlassian 주요 제품 릴리즈 노트  ( Jul ~ Sep) - Server
+title: 2022 Atlassian 주요 제품 릴리즈 노트  ( Jul ~ Sep) - Data Center
 Subtitle: Release Note
 date: 2022-09-29
 author : eddie
@@ -15,9 +15,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 <!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) -->
 
-# 안녕하세요. 디무브 입니다 ![:balloon:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png)
-
- 
+안녕하세요. 디무브 입니다 ![:balloon:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png)
 
 이번 시간에는 2022년 3분기 기간 동안 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence, Bitbucket의 Server/DataCenter 제품 릴리즈 노트를 설명드리려 합니다.
 
@@ -25,7 +23,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 ------
 
-# **1. Jira Software**
+## Jira Software
 
 ### **■ Version 9.1.x ~ Version 9.2x**
 
@@ -115,7 +113,7 @@ Jira에 필드가 많은 사용자인 경우 이슈 네이게이터에서 원하
 
  
 
-# **2. Jira Service Management**
+## Jira Service Management
 
  
 
@@ -195,7 +193,7 @@ PSMQ(Pretty Simple Message Queue)가 함께 JSM의 일부 영역을 최적화 �
 
  
 
-# 3. Confluence
+## Confluence
 
 ### **■ Version 7.18.x ~ 7.19.x**
 
@@ -244,7 +242,7 @@ PSMQ(Pretty Simple Message Queue)가 함께 JSM의 일부 영역을 최적화 �
 
  
 
-# 4. Bitbucket
+## Bitbucket
 
 ### **■ Version 8.2.x ~ 8.4.x**
 
@@ -275,7 +273,13 @@ PSMQ(Pretty Simple Message Queue)가 함께 JSM의 일부 영역을 최적화 �
 | **[Critical]** 중요 심각도 명령 주입 취약점 개선[(CVE-2022-36804)](https://jira.atlassian.com/browse/BSERV-13438?src=confmacro) | [CONFSERVER-78179](https://jira.atlassian.com/browse/CONFSERVER-78179?src=confmacro) | **DONE**   |
 | 프로세스가 취소되면 명령 입력 처리기가 중단 되는 형상        | [BSERV-13358](https://jira.atlassian.com/browse/BSERV-13358?src=confmacro) | **DONE**   |
 | Bitbucket 브라우저의 오류 메시지에 민감한 DB 세부 정보를 표시 하는 현상 | [BSERV-13222](https://jira.atlassian.com/browse/BSERV-13222?src=confmacro) | **DONE**   |
+ 
 
+Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.
+
+Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!
+
+감사합니다.😃
  
 
  
