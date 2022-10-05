@@ -5,15 +5,15 @@
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Sep 2022 17:26:15 +0900</pubDate>
-    <lastBuildDate>Thu, 29 Sep 2022 17:26:15 +0900</lastBuildDate>
+    <pubDate>Thu, 06 Oct 2022 00:34:35 +0900</pubDate>
+    <lastBuildDate>Thu, 06 Oct 2022 00:34:35 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>2022 Atlassian 주요 제품 릴리즈 노트  ( Jul ~ Sep) - Server</title>
+        <title>2022 Atlassian 주요 제품 릴리즈 노트  ( Jul ~ Sep) - Data Center</title>
         <description>&lt;!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) --&gt;
 
-&lt;h1 id=&quot;안녕하세요-디무브-입니다-&quot;&gt;안녕하세요. 디무브 입니다 &lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png&quot; alt=&quot;:balloon:&quot; /&gt;&lt;/h1&gt;
+&lt;p&gt;안녕하세요. 디무브 입니다 &lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png&quot; alt=&quot;:balloon:&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;이번 시간에는 2022년 3분기 기간 동안 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence, Bitbucket의 Server/DataCenter 제품 릴리즈 노트를 설명드리려 합니다.&lt;/p&gt;
 
@@ -21,7 +21,7 @@
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;1-jira-software&quot;&gt;&lt;strong&gt;1. Jira Software&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;jira-software&quot;&gt;Jira Software&lt;/h2&gt;
 
 &lt;h3 id=&quot;-version-91x--version-92x&quot;&gt;&lt;strong&gt;■ Version 9.1.x ~ Version 9.2x&lt;/strong&gt;&lt;/h3&gt;
 
@@ -155,7 +155,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h1 id=&quot;2-jira-service-management&quot;&gt;&lt;strong&gt;2. Jira Service Management&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;jira-service-management&quot;&gt;Jira Service Management&lt;/h2&gt;
 
 &lt;h3 id=&quot;-version-50x--version-52x&quot;&gt;&lt;strong&gt;■ Version 5.0.x ~ Version 5.2x&lt;/strong&gt;&lt;/h3&gt;
 
@@ -284,7 +284,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h1 id=&quot;3-confluence&quot;&gt;3. Confluence&lt;/h1&gt;
+&lt;h2 id=&quot;confluence&quot;&gt;Confluence&lt;/h2&gt;
 
 &lt;h3 id=&quot;-version-718x--719x&quot;&gt;&lt;strong&gt;■ Version 7.18.x ~ 7.19.x&lt;/strong&gt;&lt;/h3&gt;
 
@@ -382,7 +382,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h1 id=&quot;4-bitbucket&quot;&gt;4. Bitbucket&lt;/h1&gt;
+&lt;h2 id=&quot;bitbucket&quot;&gt;Bitbucket&lt;/h2&gt;
 
 &lt;h3 id=&quot;-version-82x--84x&quot;&gt;&lt;strong&gt;■ Version 8.2.x ~ 8.4.x&lt;/strong&gt;&lt;/h3&gt;
 
@@ -442,6 +442,12 @@
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.😃&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 29 Sep 2022 00:00:00 +0900</pubDate>
@@ -515,7 +521,7 @@
 
 &lt;p&gt;하지만 이제 스마트 링크를 사용하여 링크 뒤에 사이트에 대해 다른 탭을 열 필요 없이 다른 이슈 또는 페이지에 대한 링크를 포함하여 미리 볼 수 있게 되었습니다!&lt;/p&gt;
 
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;위처럼 커서를 링크에 둘 경우, 해당 링크의 주요 정보를 미리 볼 수 있습니다.&lt;/p&gt;
@@ -526,14 +532,14 @@
 
 &lt;p&gt;관리자 계정의 사용자가 사이트 내 조직에 속해 있지 않다면, 기본 대시보드에 접근이 불가능합니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;3-이슈-생성-간-이슈의-상태-설정&quot;&gt;3. 이슈 생성 간 이슈의 상태 설정&lt;/h3&gt;
 
 &lt;p&gt;기존 Jira같은 경우는 이슈를 만들고 상태를 변경하여야만 했기 때문에 많은 사용자 분들이 이슈를 생성할 때 해당 이슈의 상태를 지정하기를 원했습니다. 이제 이슈 생성 중 이슈의 상태를 설정할 수 있도록 새롭게 &lt;strong&gt;상태&lt;/strong&gt; 필드가 추가 되었습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira/2022_3Q/3.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_3Q/3.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;위 이미지 처럼  이슈 생성 간 이슈 전환을 할 필요 없이 필드에서 이슈 상태를 선택 할 수 있도록 구성이 가능합니다.&lt;/p&gt;
@@ -546,7 +552,7 @@
 
 &lt;p&gt;이번 업데이트에서는  이슈를 생성 시 요청 유형을 별도로 선택 할 수 있어 굳이 서비스 포털에서 요청 등록을 하지 않더라도 이슈 생성을 통해 서비스 요청 유형을 지정할 수 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira Service Management/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira Service Management/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;2-서비스-포털-에서-사용자-멘션-기능-추가&quot;&gt;2. 서비스 포털 에서 사용자 멘션 기능 추가&lt;/h3&gt;
@@ -555,7 +561,7 @@
 
 &lt;p&gt;이에 기존 담당자와 요청에 대해 이야기 하려면 따로 유선으로 연락을 하거나 문자를 통해 이야기 해야 했기 때문에 서비스 데스크의 순 기능을 발휘할 수 없었습니다.이번 업데이트 에서는 JSM 포털에서 요청 등록 시 사용자 언급이 가능하게 되었습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Jira Service Management/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira Service Management/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;위처럼 &lt;strong&gt;’@’ 후 맨션&lt;/strong&gt; 기능을 사용해 담당자를 호출 할 수도 있어서 정보를 정확하게 공유가 가능합니다.&lt;/p&gt;
@@ -568,7 +574,7 @@
 
 &lt;p&gt;모든 페이지의 가장 하단에 관련 페이지 추천이 3개 표시가 됩니다. 해당 관련 페이지는 내용을 기반으로 관련된 페이지를 Confluence가 추천해 줍니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;2-페이지에-상태-추가&quot;&gt;2. 페이지에 상태 추가&lt;/h3&gt;
@@ -579,12 +585,12 @@
 
 &lt;p&gt;하지만 이제 상태를 나타낼 수 있는 항목이 새로 생겼고&lt;/p&gt;
 
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/e1.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/e1.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;위처럼 페이지에 대한 상태를 나타내 해당 페이지의 상태를 공유하는 것이 가능해 졌습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;상태는 색과 멘트까지 직접 입력이 가능합니다!&lt;/p&gt;
@@ -595,10 +601,10 @@
 
 &lt;p&gt;하지만 이제 프리젠테이션 모드 기능 추가로 인해 내용을 팀원에게 공유하거나 발표를 진행 할 때 보다 간편하게 공유가 가능해 졌습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/3.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/3.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;http://localhost:4000/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/4.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/4.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;프레젠테이션 모드를 실행하게 되면 페이지를 파트별로 나눠서 보여주고, QR같은 기능과 함께 사용하면 팀원과 모두 손쉽게 페이지 정보 공유가 가능합니다.&lt;/p&gt;
@@ -1251,7 +1257,7 @@
       </item>
     
       <item>
-        <title>3년만에 돌아온 아틀라시안 고객 컨퍼런스, &apos;Atlassian in Seoul 22&apos; 후기</title>
+        <title>3년만에 돌아온 아틀라시안 고객 컨퍼런스, 'Atlassian in Seoul 22' 후기</title>
         <description>&lt;p&gt;안녕하세요, 디무브 입니다! 🎈&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;

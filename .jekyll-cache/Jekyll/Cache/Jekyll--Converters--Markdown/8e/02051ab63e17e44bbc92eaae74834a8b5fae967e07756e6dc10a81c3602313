@@ -1,6 +1,6 @@
-I"�^<!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) -->
+I":\<!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) -->
 
-<h1 id="안녕하세요-디무브-입니다-">안녕하세요. 디무브 입니다 <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png" alt=":balloon:" /></h1>
+<p>안녕하세요. 디무브 입니다 <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png" alt=":balloon:" /></p>
 
 <p>이번 시간에는 2022년 3분기 기간 동안 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence, Bitbucket의 Server/DataCenter 제품 릴리즈 노트를 설명드리려 합니다.</p>
 
@@ -8,7 +8,7 @@
 
 <hr />
 
-<h1 id="1-jira-software"><strong>1. Jira Software</strong></h1>
+<h2 id="jira-software">Jira Software</h2>
 
 <h3 id="-version-91x--version-92x"><strong>■ Version 9.1.x ~ Version 9.2x</strong></h3>
 
@@ -18,17 +18,7 @@
 
 <p>아래 링크를 클릭하여 자세히 알아보세요!</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>[<img src="https://confluence.atlassian.com/staticassets/4.1.3/dist/common/images/favicon.png" alt="img" />Preparing for Jira 9.1</td>
-      <td>Atlassian Support</td>
-      <td>Atlassian Documentation](https://confluence.atlassian.com/jiracore/preparing-for-jira-9-1-1142444576.html)</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="https://confluence.atlassian.com/staticassets/4.1.3/dist/common/images/favicon.png" alt="img" />Atlassian</p>
+<p><a href="https://confluence.atlassian.com/jiracore/preparing-for-jira-9-1-1142444576.html">에자일 보드 확인하기</a></p>
 
 <h3 id="2-감사-로그-제외-기능-추가">2. 감사 로그 제외 기능 추가</h3>
 
@@ -36,7 +26,7 @@
 
 <p>아래 이미지 처럼 Excluded Events 항목에서 이벤트를 선택하여 해당 이벤트에 대한 기록을 제외할 수 있습니다. 로그를 제외시킴으로서 불필요한 로그를 바로 바로 필터링 가능합니다.</p>
 
-<center><img sytle="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira/2022_3Q/1.png" /></center>
+<center><img sytle="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_3Q/1.png" /></center>
 <p><br /></p>
 
 <h3 id="3-애자일-뷰-화면-개선">3. 애자일 뷰 화면 개선</h3>
@@ -49,17 +39,7 @@
 
 <p>아래 링크를 클릭하여 자세히 알아보세요!</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>[<img src="https://confluence.atlassian.com/staticassets/4.1.3/dist/common/images/favicon.png" alt="img" />Preparing for Jira 9.2</td>
-      <td>Atlassian Support</td>
-      <td>Atlassian Documentation](https://confluence.atlassian.com/jiracore/preparing-for-jira-9-2-1155149623.html)</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="https://confluence.atlassian.com/staticassets/4.1.3/dist/common/images/favicon.png" alt="img" />Atlassian</p>
+<p><a href="https://confluence.atlassian.com/jiracore/preparing-for-jira-9-2-1155149623.html">개선된 에자일 뷰 확인하기</a></p>
 
 <h3 id="4-이슈-네비게이터-개선">4. 이슈 네비게이터 개선</h3>
 
@@ -67,7 +47,7 @@
 
 <p>이번 업데이트에서는 너무 많이 검색되는 이슈를 해결하기 위해 목록에서 이슈 검색의 열 드롭 다운에 대한 결과 우선순위 지정 기능이 추가 되었습니다.</p>
 
-<center><img sytle="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira/2022_3Q/2.png" /></center>
+<center><img sytle="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_3Q/2.png" /></center>
 <p><br /></p>
 
 <p>이제 검색어가 여러 필드와 일치하더라도 정확하게 일치하는 항목이 우선으로 표시 됩니다.</p>
@@ -162,7 +142,7 @@
   </tbody>
 </table>
 
-<h1 id="2-jira-service-management"><strong>2. Jira Service Management</strong></h1>
+<h2 id="jira-service-management">Jira Service Management</h2>
 
 <h3 id="-version-50x--version-52x"><strong>■ Version 5.0.x ~ Version 5.2x</strong></h3>
 
@@ -185,7 +165,7 @@
   <li><strong>SLA 우측 상단</strong> 의 ●●● 을 클릭 후 <strong>Recalculated all SLAs</strong> 를 클릭합니다.</li>
 </ol>
 
-<center><img sytle="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira Service Management/2022_3Q/1.png" /></center>
+<center><img sytle="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira Service Management/2022_3Q/1.png" /></center>
 <p><br /></p>
 
 <p>1.2 멀티 스레드 기능 추가</p>
@@ -209,17 +189,17 @@
 
 <p>이제 공지 사항을 수정 할 수 있는 페이지가 추가 됩니다.</p>
 
-<center><img sytle="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira Service Management/2022_3Q/2.png" /></center>
+<center><img sytle="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira Service Management/2022_3Q/2.png" /></center>
 <p><br /></p>
 
 <p>또한 고객 포털에서 배너를 삭제 하는 경우 첨부된 번역이 있을 경우 경고 메시지가 나오게 됩니다.</p>
 
-<center><img sytle="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Jira Service Management/2022_3Q/3.png" /></center>
+<center><img sytle="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira Service Management/2022_3Q/3.png" /></center>
 <p><br /></p>
 
 <p>이처럼 배너 콘텐츠의 불일치 방지와 삭제가 쉽게 개선이 되었습니다.</p>
 
-<p>이 기능은 해당 플래그와 함께 기본적으로 활성화됩니다 <code class="language-plaintext highlighter-rouge">sd.help.center.announcement.improvements</code>.</p>
+<p>이 기능은 해당 플래그와 함께 기본적으로 활성화됩니다.</p>
 
 <h3 id="2-1-해결된-이슈-사항"><strong>2-1. 해결된 이슈 사항</strong></h3>
 
@@ -291,7 +271,7 @@
   </tbody>
 </table>
 
-<h1 id="3-confluence">3. Confluence</h1>
+<h2 id="confluence">Confluence</h2>
 
 <h3 id="-version-718x--719x"><strong>■ Version 7.18.x ~ 7.19.x</strong></h3>
 
@@ -299,7 +279,7 @@
 
 <p>7.18버전 업데이트 이후 클러스터 별로 로그를 확인할 때 클러스터 노드를 선택 하여 로그를 관리할 수 있습니다.</p>
 
-<center><img sytle="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Confluence/2022_3Q/1.png" /></center>
+<center><img sytle="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_3Q/1.png" /></center>
 <p><br /></p>
 
 <h3 id="2-719-버전의-lts-장기-서비스-지원">2. 7.19 버전의 LTS 장기 서비스 지원</h3>
@@ -389,13 +369,13 @@
   </tbody>
 </table>
 
-<h1 id="4-bitbucket">4. Bitbucket</h1>
+<h2 id="bitbucket">Bitbucket</h2>
 
 <h3 id="-version-82x--84x"><strong>■ Version 8.2.x ~ 8.4.x</strong></h3>
 
 <h3 id="1-개발자에게-레포지토리-생성-권한-부여-가능">1. 개발자에게 레포지토리 생성 권한 부여 가능</h3>
 
-<center><img sytle="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Bitbucket/2022_3Q/1.png" /></center>
+<center><img sytle="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Bitbucket/2022_3Q/1.png" /></center>
 <p><br /></p>
 
 <p>위 이미지와 같이 개발자에게 레포지토리를 만들기 권한을 부여하고 새 레포지토리를 생성하게 되면 개발자가 자신이 만든 저장소의 관리자가 됩니다.</p>
@@ -408,7 +388,7 @@
 
 <p>이를 통해 레포지토리를 즉각적으로 수정하여 보안점을 개선할 수 있습니다.</p>
 
-<center><img sytle="width:70%;" src="http://localhost:4000/assets/images/banners/Release%20Note%20Server/Bitbucket/2022_3Q/2.png" /></center>
+<center><img sytle="width:70%;" src="https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Bitbucket/2022_3Q/2.png" /></center>
 <p><br /></p>
 
 <h3 id="해결된-이슈"><strong>해결된 이슈</strong></h3>
@@ -449,5 +429,11 @@
     </tr>
   </tbody>
 </table>
+
+<p>Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.</p>
+
+<p>Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!</p>
+
+<p>감사합니다.😃</p>
 
 :ET
