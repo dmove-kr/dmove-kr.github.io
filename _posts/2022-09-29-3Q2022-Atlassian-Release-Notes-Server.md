@@ -1,4 +1,3 @@
-```
 ---
 
 layout: post
@@ -282,4 +281,3 @@ Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하�
 Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!
 
 감사합니다.😃
-```
