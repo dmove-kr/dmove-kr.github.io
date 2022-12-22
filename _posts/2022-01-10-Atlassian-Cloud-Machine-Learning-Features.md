@@ -4,7 +4,7 @@ title: 아틀라시안 클라우드 제품에 적용된 머신러닝 기반의 S
 Subtitle: Introducing machine learning-powered “smarts” to Atlassian cloud products
 date: 2022-01-10
 author : jenna
-image : https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/searching-v3.png
+image : https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629
 categories: [Atlassian Cloud]
 tags: [Atlassian, 아틀라시안, AI, Machinelearning, Atlassian Cloud, 아틀라시안클라우드, Jira Cloud, Confluence Cloud, 디무브, Dmove]
 ---
