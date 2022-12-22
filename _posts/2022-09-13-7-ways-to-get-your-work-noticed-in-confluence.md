@@ -3,7 +3,7 @@ layout: post
 title: Confluence를 활용하여 보다 스마트하게 일하는 7가지 방법
 Subtitle: 7 ways to get your work noticed with Confluence
 date: 2022-09-13
-image : https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/connieillo-1560x760.png
+image : https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629
 categories: [How To]
 author : jenna
 tags: [Atlassian, 아틀라시안, Atlassian Cloud, Confluence, 아틀라시안클라우드,컨플루언스, wiki, SSOT, 지식관리, Confluence Cloud, KSM, 협업툴]
