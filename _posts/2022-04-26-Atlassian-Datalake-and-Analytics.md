@@ -5,7 +5,7 @@ title: 데이터 중심의 통찰력을 높여주는 아틀라시안의 'Atlassi
 Subtitle: Help teams see the big picture in their work.
 date: 2022-04-26
 author : jamie
-image : https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/image-20220309-183113-1536x747.png
+image : https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629
 categories: [Inside Atlassian]
 tags: [Atlassian, Team22, 아틀라시안, Atlassianteam22, teamanywhere,  Lasvegas, 아틀라시안컨퍼런스, postcovid, datalake, atlassiananlytics, team22keynote, dataanalytics, altassiancloud]
 
