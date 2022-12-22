@@ -3,7 +3,7 @@ layout: post
 title: OKRs vs KPIs - 개념 및 사용 방법에 대한 가이드
 Subtitle: OKRs vs KPIs
 date: 2022-07-26
-image : https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2022/06/bb7f24ad-a935-415f-a11f-c1b2ffec7cb8-1536x747.jpeg
+image : https://uploads-ssl.webflow.com/5e9c0619a2cd3d768afff669/60dc59abe3e902dcd9430c5c_Open%20Graph%20image%20Atlassian.jpg
 categories: [Inside Atlassian]
 author : ellin
 tags: [Atlassian, 아틀라시안, Atlassian Cloud, Jira, Confluence, 아틀라시안클라우드, 디무브, OKR, KPI, Atlas, Performancereview, Jiraworkmanagement]
