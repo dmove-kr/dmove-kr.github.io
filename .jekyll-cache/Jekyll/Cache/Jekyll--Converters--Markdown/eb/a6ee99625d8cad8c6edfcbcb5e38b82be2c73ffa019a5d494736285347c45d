@@ -1,0 +1,129 @@
+I"!<hr />
+
+<table>
+  <tbody>
+    <tr>
+      <td>원문: [Crowd Security Advisory (November 2022)</td>
+      <td>Crowd Data Center and Server 5.0</td>
+      <td>Atlassian Documentation](https://confluence.atlassian.com/crowd/crowd-security-advisory-november-2022-1168866129.html)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>안녕하세요, 디무브 입니다.</p>
+
+<p>현재 아틀라시안 Crowd의 Server 및 Data Center 버전에서 중요한 보안 취약점이 발견되어 안내드립니다.</p>
+
+<p>해당 취약점은 허용 목록의 IP에서 암호 검사를 우회하여 Crowd 응용 프로그램으로 인증할 수 있게 되어 인증되지 않은 원격 공격자가 Crowd REST API 경로에 있는 엔드포인트를 호출할 수 있게 된다는 것입니다.</p>
+
+<p>이 취약점으로 영향받는 정도는 제품 별로 상이하지만, 치명적인 보안 취약사항이기 때문에 빠른 패치가 필요합니다.</p>
+
+<hr />
+
+<h2 id="영향을-받는-atlassian-serverdc-제품">영향을 받는 Atlassian Server(DC) 제품</h2>
+
+<h3 id="영향을-받는-버전"><strong>영향을 받는 버전</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>제품</strong></th>
+      <th style="text-align: left"><strong>영향을 받는 버전</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Crowd 서버 및 데이터 센터</td>
+      <td style="text-align: left">Crowd 5.0.0 - Crowd 5.0.2Crowd 4.0.0 - Crowd 4.4.3Crowd 3.0.0 - Crowd 3.7.2</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="해결-방안">해결 방안</h2>
+
+<p>아틀라시안에서는 취약점을 개선시킨 <strong>Fixed버전</strong>으로 업그레이드 할 것을 권고하고 있습니다.</p>
+
+<h3 id="fixed-버전"><strong>Fixed 버전</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>제품</strong></th>
+      <th style="text-align: left"><strong>Fixed 버전</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Crowd 서버 및 데이터 센터</td>
+      <td style="text-align: left">Crowd 5.0.0 - Crowd 5.0.2 &gt;= 5.0.3 or laterCrowd 4.0.0 - Crowd 4.4.3 &gt;= 4.4.4 or laterCrowd 3.0.0 - Crowd 3.7.2 &gt; = 이 버전은 더 이상 사용 가능한 수정 사항이 없습니다. Crowd 4.4.4 또는 5.0.3으로 업그레이드하세요.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="취약점-완화-방법임시-방편">취약점 완화 방법(임시 방편)</h2>
+
+<p>아틀라시안에서는 <strong>Fixed버전</strong>으로 업그레이드를 권고하고 있으나, 당장 업그레이드를 할 수 없는 경우엔 다음의 임시 완화 방안을 적용하여 사용하실 수 있습니다.</p>
+
+<h3 id="1-원격-주소-제거">1. 원격 주소 제거</h3>
+
+<p>Crowd 제품에서 프로그램의 원격 주소를 제거하거나 유효성 검사를 하여 문제를 일시적으로 완화할 수 있습니다.</p>
+
+<p>원격 주소를 제거하려면:</p>
+
+<ol>
+  <li>Crowd에 로그인합니다.</li>
+  <li>위쪽 탐색 모음에서 <strong>응용 프로그램을</strong> 클릭합니다.</li>
+  <li><strong>응용 프로그램 보기</strong> 화면에서 <strong>원격 주소</strong>탭을 클릭합니다.</li>
+  <li>모든 <strong>원격 주소를 제거</strong>합니다.</li>
+</ol>
+
+<p>Crowd 3.0.0 이상은 기본적으로 원격 주소가 없어야 합니다.</p>
+
+<h3 id="2-비밀번호-변경">2. 비밀번호 변경</h3>
+
+<p>프로그램의 암호를 더 강력한 암호로 변경할 수 있으며 이는 원격 주소를 제거할 수 없는 경우 특히 중요합니다.</p>
+
+<p>암호를 변경하려면,</p>
+
+<ol>
+  <li>Crowd에 로그인합니다.</li>
+  <li>위쪽 탐색 모음에서 <strong>응용 프로그램을</strong> 클릭합니다.</li>
+  <li><strong>세부 정보</strong> 탭에서 <strong>암호 변경을</strong> 선택합니다.</li>
+</ol>
+
+<hr />
+
+<h2 id="취약점-정리">취약점 정리</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>취약점 설명</strong></th>
+      <th style="text-align: left">인증되지 않은 공격자가 REST API 엔드포인트에 호출이 가능한 취약점</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>취약점 공개 날짜</strong></td>
+      <td style="text-align: left">2022년 11월 16일 오전 10시 PDT</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>영향을 받는 제품</strong></td>
+      <td style="text-align: left">Crowd 서버 및 데이터 센터</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">CVE ID</td>
+      <td style="text-align: left">CVE-2022-43782</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>관련하여 도움이 필요하실 경우 디무브로 언제든지 문의해주시기 바랍니다.</p>
+
+<p>감사합니다.</p>
+
+:ET
