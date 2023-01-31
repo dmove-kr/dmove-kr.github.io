@@ -3,11 +3,265 @@
   <channel>
     <title>Welcome!</title>
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Jan 2023 13:10:24 +0900</pubDate>
-    <lastBuildDate>Wed, 11 Jan 2023 13:10:24 +0900</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 31 Jan 2023 13:53:29 +0900</pubDate>
+    <lastBuildDate>Tue, 31 Jan 2023 13:53:29 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>2022-2023 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Jan) - Cloud</title>
+        <description>&lt;!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) --&gt;
+
+&lt;p&gt;안녕하세요. 디무브 입니다 &lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png&quot; alt=&quot;:balloon:&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이번 시간에는 2022년 4분기와 2023년 1월까지  아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence의 클라우드 제품 릴리즈 노트를 말씀드리려합니다.&lt;/p&gt;
+
+&lt;p&gt;각 제품의 Cloud 버전에 어떠한 변화가 있었는지 함께 확인 할 수 있는 시간을 놓치지 마세요!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;jira-software&quot;&gt;Jira Software&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-백로그---에픽-및-이슈-관리&quot;&gt;1. 백로그 - 에픽 및 이슈 관리&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;백로그에서 에픽에 대한 이슈 관리 기능이 추가되었습니다. 
+해당 기능에는 &lt;strong&gt;에픽의 이름 변경, 세부 정보 표시, 이슈 생성 및 할당&lt;/strong&gt; 등 백로그 화면에서 이슈 관리에 대한 다양한 기능을 수행할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Jira/2022_4Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-릴리즈-자동화-관리&quot;&gt;2. 릴리즈 자동화 관리&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;릴리즈 화면에서 자동화 기능을 수행할 수 있는 기능이 추가되었습니다. 릴리즈 화면 우측 상단의 “번개 모양 아이콘“ 을 클릭하면 &lt;strong&gt;“수정 버전과 관련외 이슈 관리“, “릴리즈 시 Slack과 연동“&lt;/strong&gt;과 같은 자동화 템플릿 리스트가 출력됩니다.&lt;/p&gt;
+
+    &lt;p&gt;만약 해당 템플릿 외에 별도의 자동화 기능을 만들고 싶을 경우, 메뉴 하단의 &lt;strong&gt;자동화 관리&lt;/strong&gt; 또는 &lt;strong&gt;자동화 만들기&lt;/strong&gt;를 클릭하여 자동화 규칙을 커스터마이징 할 수 있습니다.&lt;/p&gt;
+
+    &lt;center&gt;&lt;img sytle=&quot;width:50%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Jira/2022_4Q/2.png&quot; /&gt;&lt;/center&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-advanced-roadmap---감사-로그-기능-추가&quot;&gt;3. Advanced Roadmap - 감사 로그 기능 추가&lt;/h3&gt;
+
+&lt;p&gt;해당 기능은 Jira 프리미엄 플랜 이상만 사용이 가능합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;감사 로그 기능에 Advanced Roadmap의 변경 사항이 기록되도록 추가되었습니다. 기록되는 내용은 다음과 같습니다.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;-계획 생성 및 삭제&lt;/li&gt;
+      &lt;li&gt;-일정 구성 변경&lt;/li&gt;
+      &lt;li&gt;-이슈 구성이 추가 및 삭제 사항&lt;/li&gt;
+      &lt;li&gt;-제외 규칙 변경 사항&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;center&gt;&lt;img sytle=&quot;width:50%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Jira/2022_4Q/3.png&quot; /&gt;&lt;/center&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-advanced-roadmap---샘플-계획-제공&quot;&gt;4. Advanced Roadmap - 샘플 계획 제공&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Advanced Roadmap 기능 활용이 어려운 사용자 분들을 위해 템플릿화된 샘플 계획을 추가하였습니다. 상단 계획 → 샘플 계획 만들기 버튼을 클릭하여 템플릿화 된 샘플 계획을 생성하여 프로젝트 설계 시 필요한 사항을 샘플을 통해 확인할 수 있습니다.&lt;/p&gt;
+
+    &lt;center&gt;&lt;img sytle=&quot;width:50%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Jira/2022_4Q/4.png&quot; /&gt;&lt;/center&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+    &lt;p style=&quot;text-align: center; &quot;&gt;샘플 계획 생성&lt;/p&gt;
+
+    &lt;center&gt;&lt;img sytle=&quot;width:50%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Jira/2022_4Q/5.png&quot; /&gt;&lt;/center&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;생성된 샘플 계획&lt;/p&gt;
+
+&lt;h3 id=&quot;5-로드맵---컴포넌트를-사용한-필터-기능-추가&quot;&gt;5. 로드맵 - 컴포넌트를 사용한 필터 기능 추가&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;로드맵에서 이슈를 분류할 때 컴포넌트를 통해 로드맵을 필터링 하는 기능이 추가되었습니다.
+    &lt;center&gt;&lt;img sytle=&quot;width:50%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Jira/2022_4Q/6.png&quot; /&gt;&lt;/center&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;jira-service-management&quot;&gt;Jira Service Management&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-이슈-유형과-요청-유형-구분-회사-관리-프로젝트&quot;&gt;1. 이슈 유형과 요청 유형 구분 (회사 관리 프로젝트)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;이번 업데이트에서는 Service Management 프로젝트에서 에이전트가 이슈를 생성 시, 이슈 유형에 따른 요청 유형이 구분되도록 업데이트 되었습니다.&lt;/p&gt;
+
+    &lt;p&gt;이를 통해, 이슈 유형을 클릭 시 요청 유형이 이슈 유형에 따라 자동으로 변경되어 리스트가 표시되기 때문에 요청 유형 관리가 더욱 편리해졌습니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Jira Service Management/2022_4Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-고객에게-초대-메일-재-전송&quot;&gt;2. 고객에게 초대 메일 재 전송&lt;/h3&gt;
+
+&lt;p&gt;해당 기능은 서비스 데스크 패널이 아닌 프로젝트의 Agent가 관리하는 기능입니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;과거  고객분들에게 서비스 데스크 초대 메일을 전달 후 문제 발생에 따른 재 초대 메일을 보낼 때, 해당 고객의 프로필에 접근하여 메일을 다시 전달해야 하는 번거로움이 있었습니다.&lt;/p&gt;
+
+    &lt;p&gt;이번 업데이트에는 &lt;strong&gt;초대 다시 보내기&lt;/strong&gt; 기능을 사용하여 번거롭게 사용자 프로필에 접근할 필요 없이  &lt;strong&gt;“하나의 버튼“&lt;/strong&gt;만 클릭하여 초대 메일을 다시 전송할 수 있습니다.&lt;/p&gt;
+
+    &lt;p&gt;해당 기능은 프로젝트 좌측 메뉴의 &lt;strong&gt;고객(Customers)&lt;/strong&gt; 항목에 있습니다.&lt;/p&gt;
+
+    &lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Jira Service Management/2022_4Q/2.png&quot; /&gt;&lt;/center&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-인사이트-명칭-변경&quot;&gt;3. 인사이트 명칭 변경&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;기존 Jira Service Management 에서 자산 관리로 사용되는 &lt;strong&gt;인사이트(Insight)&lt;/strong&gt;가 &lt;strong&gt;자산(Asset)&lt;/strong&gt;이라는 명칭으로 변경되었습니다.  명칭 변경에 따른 기능은 크게 바뀌지 않으며, 기존 인사이트의 자산 관리 기능은 정상적으로 사용이 가능합니다. 또한 스키마 검색에 사용되는 &lt;strong&gt;IQL(Insight Query Language)&lt;/strong&gt; 명칭이 &lt;strong&gt;AQL(Asset Query Language)&lt;/strong&gt;로 변경되었습니다.&lt;/p&gt;
+
+    &lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Jira Service Management/2022_4Q/3.png&quot; /&gt;&lt;/center&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-서비스-데스크---패스워드-보안-정책-개선&quot;&gt;4. 서비스 데스크 - 패스워드 보안 정책 개선&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;이번 서비스 데스크 고객 측면에서 보안적인 사항이 추가되었습니다. 이제 서비스 데스크에 문의를 남기는 사용자 분이 처음 포털에 가입 시 최소 8자 이상의 패스워드를 설정해야 하며, 패스워드는 최대 100자까지 입력할 수 있습니다.
+    &lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Jira Service Management/2022_4Q/4.png&quot; /&gt;&lt;/center&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;기타-개선-사항&quot;&gt;기타 개선 사항&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;큐 제한 증가 : 각 작업에서 확인가능한 큐의 갯수를 50개에서 300개로 확대되었습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;confluence&quot;&gt;Confluence&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-프레젠테이션-모드-개선&quot;&gt;1. 프레젠테이션 모드 개선&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Confluence 프레젠테이션 모드의 경우, 페이지를 파워포인트 처럼 출력하여 발표할 수 있는 기능입니다. 이번 분기에는 프레젠테이션 모드에 세션 이동 기능이 추가되었습니다. 해당 기능은 Confluence의 머릿글을 기반으로 TOC(Table Of Contents) 기능을 수행할 수 있습니다.&lt;/p&gt;
+
+    &lt;p&gt;세션 클릭 시 해당 세션으로 페이지가 이동하고, 나머지 부분은 반투명 처리되어 표시됩니다.&lt;/p&gt;
+
+    &lt;p&gt;Confluence 프레젠테이션 모드는 페이지 우측 상단 &lt;strong&gt;●●● → 프레젠테이션 모드&lt;/strong&gt;를 클릭하여 활성화 할 수 있습니다.&lt;/p&gt;
+    &lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Confluence/2022_4Q/1.png&quot; /&gt;&lt;/center&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-사용된-템플릿-확인하기&quot;&gt;2. 사용된 템플릿 확인하기&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;템플릿을 이용해 만든 페이지의 경우, 페이지 상단에 &lt;strong&gt;템플릿 이용(with a template)&lt;/strong&gt; 글씨가 표시됩니다. 해당 텍스트를 클릭하여 보기(View)를 클릭하여 해당 페이지에 사용된 템플릿을 확인할 수 있으며, 필요시 해당 템플릿을 통해 바로 페이지를 생성할 수 있습니다.
+    &lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Confluence/2022_4Q/2.png&quot; /&gt;&lt;/center&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-들여쓰기-내어쓰기-툴바-개선&quot;&gt;3. 들여쓰기 내어쓰기 툴바 개선&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;기존에 들여쓰기 기능을 수행할 경우, 오로지  &lt;strong&gt;Shfift+Tab&lt;/strong&gt; 단축키를 사용해야만 하여, 단축키가 익숙치 않은 사용자분들이 많은 불편함을 겪었습니다.&lt;/p&gt;
+
+    &lt;p&gt;이제 페이지 편집창에 들여쓰기와 내어쓰기 화면이 추가되어 버튼 하나만 클릭하면 들여쓰기와 내어쓰기를 수행할 수 있습니다.&lt;/p&gt;
+
+    &lt;p&gt;들여쓰기 및 내어쓰기를 지원하는 매크로는 아래와 같습니다.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;-제목 및 단락&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;-글머리 기호 목록&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;-번호 목록&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;-작업 항목&lt;/p&gt;
+
+        &lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Confluence/2022_4Q/3.png&quot; /&gt;&lt;/center&gt;
+        &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.😃&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2023 00:00:00 +0900</pubDate>
+        <link>/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Cloud.html</link>
+        <guid isPermaLink="true">/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Cloud.html</guid>
+        
+        <category>Atlassian</category>
+        
+        <category>Atlassian Cloud</category>
+        
+        <category>아틀라시안</category>
+        
+        <category>아틀라시안클라우드</category>
+        
+        <category>Jira</category>
+        
+        <category>jira</category>
+        
+        <category>Jira Cloud</category>
+        
+        <category>Release</category>
+        
+        <category>Release Note</category>
+        
+        <category>Jira Sofrware</category>
+        
+        <category>Jira Service Management</category>
+        
+        <category>Confluence</category>
+        
+        <category>컨플</category>
+        
+        <category>DevOps</category>
+        
+        <category>데브옵스</category>
+        
+        <category>dev</category>
+        
+        <category>Dev</category>
+        
+        <category>에자일</category>
+        
+        <category>Agile</category>
+        
+        <category>Wiki</category>
+        
+        
+        <category>Release Note</category>
+        
+      </item>
     
       <item>
         <title>23년 2월 15일, 아틀라시안 서버 라이선스 가격 인상 및 지원 종료 발표 안내</title>
@@ -141,8 +395,8 @@
 &lt;p&gt;감사합니다.&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/company%20news/2023/01/11/Atlassian-License-Pee-Notification.html</link>
-        <guid isPermaLink="true">http://localhost:4000/company%20news/2023/01/11/Atlassian-License-Pee-Notification.html</guid>
+        <link>/company%20news/2023/01/11/Atlassian-License-Pee-Notification.html</link>
+        <guid isPermaLink="true">/company%20news/2023/01/11/Atlassian-License-Pee-Notification.html</guid>
         
         <category>Atlassian</category>
         
@@ -299,8 +553,8 @@
 
 </description>
         <pubDate>Mon, 21 Nov 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/release%20note/2022/11/21/crowd-2022.html</link>
-        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/11/21/crowd-2022.html</guid>
+        <link>/release%20note/2022/11/21/crowd-2022.html</link>
+        <guid isPermaLink="true">/release%20note/2022/11/21/crowd-2022.html</guid>
         
         <category>Atlassian</category>
         
@@ -790,8 +1044,8 @@
 &lt;p&gt;감사합니다.😃&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Sep 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Server.html</link>
-        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Server.html</guid>
+        <link>/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Server.html</link>
+        <guid isPermaLink="true">/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Server.html</guid>
         
         <category>Atlassian</category>
         
@@ -958,8 +1212,8 @@
 
 </description>
         <pubDate>Thu, 29 Sep 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Cloud.html</link>
-        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Cloud.html</guid>
+        <link>/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Cloud.html</link>
+        <guid isPermaLink="true">/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Cloud.html</guid>
         
         <category>Atlassian</category>
         
@@ -1102,8 +1356,8 @@
 &lt;p&gt;감사합니다.&lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Sep 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/company%20news/2022/09/14/October-2022-Atlassian-Cloud-Pricing-Changes.html</link>
-        <guid isPermaLink="true">http://localhost:4000/company%20news/2022/09/14/October-2022-Atlassian-Cloud-Pricing-Changes.html</guid>
+        <link>/company%20news/2022/09/14/October-2022-Atlassian-Cloud-Pricing-Changes.html</link>
+        <guid isPermaLink="true">/company%20news/2022/09/14/October-2022-Atlassian-Cloud-Pricing-Changes.html</guid>
         
         <category>Atlassian</category>
         
@@ -1264,8 +1518,8 @@
 
 </description>
         <pubDate>Tue, 13 Sep 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/how%20to/2022/09/13/7-ways-to-get-your-work-noticed-in-confluence.html</link>
-        <guid isPermaLink="true">http://localhost:4000/how%20to/2022/09/13/7-ways-to-get-your-work-noticed-in-confluence.html</guid>
+        <link>/how%20to/2022/09/13/7-ways-to-get-your-work-noticed-in-confluence.html</link>
+        <guid isPermaLink="true">/how%20to/2022/09/13/7-ways-to-get-your-work-noticed-in-confluence.html</guid>
         
         <category>Atlassian</category>
         
@@ -1563,8 +1817,8 @@
 &lt;p&gt;감사합니다.&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Jul 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/inside%20atlassian/2022/07/26/OKRs-vs-KPIs.html</link>
-        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2022/07/26/OKRs-vs-KPIs.html</guid>
+        <link>/inside%20atlassian/2022/07/26/OKRs-vs-KPIs.html</link>
+        <guid isPermaLink="true">/inside%20atlassian/2022/07/26/OKRs-vs-KPIs.html</guid>
         
         <category>Atlassian</category>
         
@@ -1684,8 +1938,8 @@
 &lt;p&gt;감사합니다.&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 Jul 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/inside%20atlassian/2022/07/07/Atlassian-in-seoul-22-recap.html</link>
-        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2022/07/07/Atlassian-in-seoul-22-recap.html</guid>
+        <link>/inside%20atlassian/2022/07/07/Atlassian-in-seoul-22-recap.html</link>
+        <guid isPermaLink="true">/inside%20atlassian/2022/07/07/Atlassian-in-seoul-22-recap.html</guid>
         
         <category>Atlassian</category>
         
@@ -2253,8 +2507,8 @@
 &lt;p&gt;감사합니다.😃&lt;/p&gt;
 </description>
         <pubDate>Mon, 27 Jun 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Server.html</link>
-        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Server.html</guid>
+        <link>/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Server.html</link>
+        <guid isPermaLink="true">/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Server.html</guid>
         
         <category>Atlassian</category>
         
@@ -2273,232 +2527,6 @@
         <category>Jira Server</category>
         
         <category>Data Center</category>
-        
-        <category>Release</category>
-        
-        <category>Release Note</category>
-        
-        <category>Jira Sofrware</category>
-        
-        <category>Jira Service Management</category>
-        
-        <category>Confluence</category>
-        
-        <category>컨플</category>
-        
-        <category>DevOps</category>
-        
-        <category>데브옵스</category>
-        
-        <category>dev</category>
-        
-        <category>Dev</category>
-        
-        <category>에자일</category>
-        
-        <category>Agile</category>
-        
-        <category>Wiki</category>
-        
-        
-        <category>Release Note</category>
-        
-      </item>
-    
-      <item>
-        <title>2022 Atlassian 주요 제품 릴리즈 노트  ( Apr ~ Jun) - Cloud</title>
-        <description>&lt;!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) --&gt;
-
-&lt;p&gt;안녕하세요. 디무브 입니다! :balloon:&lt;/p&gt;
-
-&lt;p&gt;이번 시간에는 2022년 2분기 기간 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence의 클라우드 제품 릴리즈 노트를 말씀드리려합니다.&lt;/p&gt;
-
-&lt;p&gt;각 제품의 Cloud 버전에 어떠한 변화가 있었는지 여러분과 함께 확인해볼 수 있는 시간을 마련했으니 꼭 확인해보세요!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;jira-software&quot;&gt;Jira Software&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-클라우드-간-마이그레이션-지원&quot;&gt;1. 클라우드 간 마이그레이션 지원&lt;/h3&gt;
-
-&lt;p&gt;기존 클라우드 간 마이그레이션 방법은 Zip파일로 클라우드 사이트를 백업 후 새로운 사이트에 복원하는 방법 밖에 없어 백업과 복원간 많은 시간이 소요되며 불완전한 복원으로 인해 Jira를 사용하기 어려웠습니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 이제 클라우드 환경에서도 Jira Cloud Migration Assistant 툴이 지원되어 둘 이상의 클라우드 사이트 간의 사용자 정보와 Jira 환경을 마이그레이션 할 수 있습니다. &lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-볼-수-있는-이슈의-갯수-개선&quot;&gt;2. 볼 수 있는 이슈의 갯수 개선&lt;/h3&gt;
-
-&lt;p&gt;Jira의 이슈 안에서 연결된 이슈나 하위 이슈로 볼 수 있는 최대 갯수는 100개 정도로 만약 100개 보다 더 많은 갯수의 이슈를 보려면 필터나 이슈 검색을 통해 찾아봐야 하는 불편함이 있었습니다. 하지만 이제 최대 500개 까지의 이슈를 한 이슈 내에서 확인이 가능합니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/2.png&quot; /&gt;&lt;/center&gt;
-
-&lt;center&gt; &lt;p style=&quot;color:rgba(0,0,0,.55);&quot;&gt;이슈 보기 화면&lt;/p&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;또한 로드맵에서 볼 수 있는 이슈의 갯수를 기존 최대 3,000개에서 5,000개 까지 확인할 수 있도록 개선되었습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/3.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt; &lt;p style=&quot;color:rgba(0,0,0,.55);&quot;&gt;Jira 로드맵&lt;/p&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;3-보드에서-개발-현황-확인&quot;&gt;3. 보드에서 개발 현황 확인&lt;/h3&gt;
-
-&lt;p&gt;기존의 개발 현황을 확인하기 위해서는 이슈를 클릭한 다음, 이슈 필드의 “Development“ 패널을 통해 개발현황을 확인해야 하여 전체적인 이슈의 개발 현황을 확인할 때는 많은 어려움이 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 이제 Jira의 보드에서 개발 현황을 바로 확인할 수 있습니다. 카드의 브랜치 아이콘에 마우스를 대면 풀 리퀘스트나 브랜치, 커밋 등의 정보를 확인할 수 있어 하나하나 이슈를 접근할 필요 없이 개발 현황을 바로 확인이 가능합니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/4.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;4-대시-보드-복원-jsm도-동일하게-적용&quot;&gt;4. 대시 보드 복원 (JSM도 동일하게 적용)&lt;/h3&gt;
-
-&lt;p&gt;기존 Jira는 대시보드 삭제 시 복구가 불가능하기 때문에 다시 일일이 만들어야 하는 번거로움이 있었습니다. 이제 프로젝트 처럼 휴지통에 최대 60일 동안 보관이 가능하기 때문에 삭제한 대시보드를 다시 복구할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;대시보드를 복구하기 위해서는 관리자 계정으로 로그인 후 &lt;strong&gt;시스템 → 좌측 메뉴의 대시보드(Dashboards) →&lt;/strong&gt;
-&lt;strong&gt;Show dashboards moved to trash 란을 체크 → Restore&lt;/strong&gt;를 클릭하여 복구할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/5.png&quot; /&gt;&lt;/center&gt;
-
-&lt;center&gt;&lt;img style=&quot;width:50%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/6.png&quot; /&gt;&lt;/center&gt;
-
-&lt;h3 id=&quot;5-프로젝트-요약-페이지-추가&quot;&gt;5. 프로젝트 요약 페이지 추가&lt;/h3&gt;
-
-&lt;p&gt;이번에 새롭게 추가된 Jira의 기능 중 하나는 프로젝트 진행상황을 보기 쉽게 한 눈에 볼 수 있는 것입니다.&lt;/p&gt;
-
-&lt;p&gt;아래 이미지와 같이 하나의 프로젝트 내 이슈 상태에 따른 프로젝트 진행 상황과 우선 순위, 프로젝트를 진행 중인 사람, 연관된 프로젝트 등을 정리하여 하나의 페이지에 표시됩니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img style=&quot;width: 70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_2Q/7.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;버그 개선점&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;JQL을 통해 스프린트 검색 시 하위 작업 이슈가 검색되지 않은 이슈를 해결하였습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;jira-service-management&quot;&gt;Jira Service Management&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-대기열-큐의-성능-및-확장성-향상&quot;&gt;1. 대기열 큐의 성능 및 확장성 향상&lt;/h3&gt;
-
-&lt;p&gt;1,000개 이상의 이슈가 있는 대기열의 경우 프로젝트 사이드 바에 이슈 수가 999+로 표시됩니다. 이에 큐를 선택하게 되면 정확한 이슈의 갯수가 대기열에 표시되어 모든 대기열에 있는 이슈를 새로 고침 빈도가 줄어들어 성능을 향상 시킬 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-변경-요청에-대한-리스크를-식별하는-새로운-방법-도입&quot;&gt;2. 변경 요청에 대한 리스크를 식별하는 새로운 방법 도입&lt;/h3&gt;
-
-&lt;p&gt;이제 변경 요청 사항에 대한 이슈를 볼 때 인사이트 패널을 사용하여 변경 사항을 승인하기 전 변경 사항에 대한 잠재적인 위험 요소를 스캔할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;스캔 실행 시 다음과 같은 항목이 표시됩니다:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Changes : 변경 사항으로 설정된 동일한 기간에 하나 이상의 변경 사항이 있는 경우 충돌사항으로 인식하여 표시합니다. 또한 변경 사항의 계획된 종료일로부터 최대 일주일 이내에 계획 되어 있는다른 변경 내용도 보여 줍니다.&lt;/p&gt;
-
-    &lt;center&gt;&lt;img style=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/2.png&quot; /&gt;&lt;/center&gt;
-    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Incidents : 변경 사항 적용 시 영향을 받는 서비스와 관련된 인시던트를 표시합니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/3.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;3-이해관계자-필드-추가&quot;&gt;3. 이해관계자 필드 추가&lt;/h3&gt;
-
-&lt;p&gt;인시던트 관리에서 이해관계자는 인시던트 의사결정 등 인시던트 해결을 위해 필요한 존재이며 이해관계자 관리는 인시던트 대응에 있어 중요하면서 어려운 요소입니다. 이에 Jira 이슈에서 발생한 인시던트 내 이해관계자 필드를 추가하여 누가 해당 인시던트의 이해관계자인지 바로 확인할 수 있으며 필요 시 새로운 이해관계자를 추가할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img style=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira%20Service%20Management/2022_2Q/4.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;confluence&quot;&gt;Confluence&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-패널의-커스터마이징&quot;&gt;1. 패널의 커스터마이징&lt;/h3&gt;
-
-&lt;p&gt;Confluence에서 이용 가능한 기존 패널의 경우 5가지 색상 패널만 제공하여 간단한 정보만 입력해야 했기 때문에 많은 사용자 분들의 아쉬움이 있었습니다. 이제 패널의 커스터마이징을 통해 다양한 색상과 이모지를 추가하여 패널을 구성할 수 있습니다.  커스터 마이징된 패널은 아래와 같이 구성이 가능합니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-저장되지-않은-초안-찾기&quot;&gt;2. 저장되지 않은 초안 찾기&lt;/h3&gt;
-
-&lt;p&gt;이번 분기 업데이트 중 하나는 저장하지 않거나 작성 중 취소한 초안들을 찾을 수 있도록 하였습니다. Confluence 상단 메뉴의 &lt;strong&gt;Recent → Drafts&lt;/strong&gt; 로 확인하거나 본인의 프로필로 이동한 후 &lt;strong&gt;Drafts&lt;/strong&gt;를 클릭하여 본인이 작성한 초안들을 확인할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/2.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt; &lt;p style=&quot;color:rgba(0,0,0,.55);&quot;&gt;상단 메뉴 바에서 초안 찾기&lt;/p&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/3.png&quot; /&gt;&lt;/center&gt;
-&lt;center&gt; &lt;p style=&quot;color:rgba(0,0,0,.55);&quot;&gt;프로필에서 초안 찾기&lt;/p&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;3-보관할-페이지-추천-confluence-프리미엄-플랜에서만-지원합니다&quot;&gt;3. 보관할 페이지 추천 (Confluence 프리미엄 플랜에서만 지원합니다)&lt;/h3&gt;
-
-&lt;div style=&quot;border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);&quot;&gt;&lt;div style=&quot;flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); &quot;&gt;&lt;span role=&quot;img&quot; style=&quot;--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;&quot;&gt;&lt;svg style=&quot;width: 24; height: 24; role: presentation;&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z&quot; fill=&quot;currentColor&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;notebox-text&quot;&gt;해당 기능은 Confluence 프리미엄 플랜 기능 중 하나인 Bulk Archive 기능에서 발생하는 이벤트 입니다.&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Confluence 의 &lt;strong&gt;일괄 보관(Bulk Archive)&lt;/strong&gt; 기능은 페이지를 일괄 보관할 때 사용하는 기능이며 스페이스 내 &lt;strong&gt;관리(admin)&lt;/strong&gt; 권한이 있는 사용자만 사용이 가능합니다.&lt;/p&gt;
-
-&lt;p&gt;만약 &lt;strong&gt;일괄 보관(Bulk Archive)&lt;/strong&gt; 기능을 사용할 수 있는 사용자가 전체 페이지를 보관할 때 특정 페이지를 볼 수 없거나 보관할 수 있는 권한이 없는 페이지가 있을 경우, 권한이 없는 페이지는 생략하고 나머지 페이지는 보관됩니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/4.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt; &lt;p style=&quot;color:rgba(0,0,0,.55);&quot;&gt;기본 페이지 구조&lt;/p&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/5.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt; &lt;p style=&quot;color:rgba(0,0,0,.55);&quot;&gt;사용자가 페이지를 볼 수 있는 권한이 없는 경우 보관 시 볼 수 없는 페이지는 생략되어 표시됩니다.&lt;/p&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;페이지 일괄 보관 완료 후 메일이나 알림을 통해 보관이 생략된 페이지가 있음을 알림과 함께 보관할 수 있는 방법을 아래의 이미지와 안내합니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_2Q/6.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
-
-&lt;p&gt;감사합니다.😃&lt;/p&gt;
-</description>
-        <pubDate>Mon, 27 Jun 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud.html</link>
-        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Cloud.html</guid>
-        
-        <category>Atlassian</category>
-        
-        <category>Atlassian Cloud</category>
-        
-        <category>아틀라시안</category>
-        
-        <category>아틀라시안클라우드</category>
-        
-        <category>Jira</category>
-        
-        <category>jira</category>
-        
-        <category>Jira Cloud</category>
         
         <category>Release</category>
         
