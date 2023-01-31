@@ -3,11 +3,468 @@
   <channel>
     <title>Welcome!</title>
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 Jan 2023 14:59:05 +0900</pubDate>
-    <lastBuildDate>Tue, 31 Jan 2023 14:59:05 +0900</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 31 Jan 2023 16:00:30 +0900</pubDate>
+    <lastBuildDate>Tue, 31 Jan 2023 16:00:30 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>2022-2023 Atlassian 주요 제품 릴리즈 노트  ( Oct ~ Jan) - Data Center</title>
+        <description>&lt;!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) --&gt;
+
+&lt;p&gt;안녕하세요. 디무브 입니다 &lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png&quot; alt=&quot;:balloon:&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이번 시간에는 2022년 4분기 기간과 2023년 1월까지 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence, Bitbucket의 Server/DataCenter 제품 릴리즈 노트를 설명드리려 합니다.&lt;/p&gt;
+
+&lt;p&gt;각 제품의 버전에 어떠한 변화가 있었는지 함께 확인 할 수 있는 시간을 놓치지 마세요!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-jira-software&quot;&gt;&lt;strong&gt;1. Jira Software&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;-version-93x--version-95x&quot;&gt;&lt;strong&gt;■ Version 9.3.x ~ Version 9.5.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-데이터베이스-코어-성능이-개선되었습니다&quot;&gt;1. 데이터베이스 코어 성능이 개선되었습니다.&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;데이터 베이스 앱 속성에 대한 정확도 향상&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Jira Diagnostics 플러그인에 두 가지 새로운 시스템 속성을 추가하여 데이터베이스 사용에 대한 정확성이 높아졌습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;제품 내 상태 진단을 위한 연결 메트릭 추가&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;새로운 메트릭을 사용하면 인스턴스를 더 효율적으로 진단하고 성능 문제를 해결할 수 있습니다.&lt;/p&gt;
+
+&lt;div style=&quot;border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);&quot;&gt;&lt;div style=&quot;flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); &quot;&gt;&lt;span role=&quot;img&quot; style=&quot;--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;&quot;&gt;&lt;svg style=&quot;width: 24; height: 24; role: presentation;&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z&quot; fill=&quot;currentColor&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;notebox-text&quot;&gt;아래 링크를 클릭하여 자세히 알아보세요! &lt;br /&gt; &lt;a href=&quot;https://confluence.atlassian.com/jirasoftware/jira-software-9-3-x-release-notes-1168850570.html&quot; target=&quot;_blank&quot;&gt;Jira 소프트웨어 9.3.X 릴리즈 정보 | 아틀라시안 지원 | 아틀라시안 문서&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-jira-94-lts의-프로젝트-찾아보기-속도-개선&quot;&gt;2. Jira 9.4 LTS의 프로젝트 찾아보기 속도 개선&lt;/h3&gt;
+
+&lt;p&gt;이전 버전의 Jira와 대비하여 약 10% 프로젝트 찾아보기 속도가 빨라졌습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-감사-로그-개선&quot;&gt;3. 감사 로그 개선&lt;/h3&gt;
+
+&lt;p&gt;이전 버전에서는 수백만 개 이상의 이벤트가 포함된 감사 로그 페이지는 로딩 자체로 문제가 생길 수 있었습니다. 하지만 &lt;strong&gt;9.5 버전 이후&lt;/strong&gt; 버전에서는 증분 방식으로 데이터베이스를 캐시하여 해결되었습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-진단-기능-추가&quot;&gt;4. 진단 기능 추가&lt;/h3&gt;
+
+&lt;p&gt;인스턴스 성능을 모니터링하는 IPD 도구가 업데이트 되었습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사용자 인터페이스&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;사용자 IPD 모니터링을 수동으로 관리가 가능합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;새로운 REST API 엔드포인트&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;IPD 모니터링을 관리하기위해 엔드포인트가 추가 되었습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;새로운 IPD 지표&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;인스턴스 진단을 위한 HTTP연결 및 메일 대기열 지표를 추가하였습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;해결된-이슈-사항&quot;&gt;&lt;strong&gt;해결된 이슈 사항&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;-version-93x&quot;&gt;&lt;strong&gt;■ Version 9.3.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;공유 대상 검색 드롭다운 누락&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSWSERVER-21467?src=confmacro&quot;&gt;JSWSERVER-21467&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;GitLab에 연결 시 2시간 후에 만료되는 토큰 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSWSERVER-21417?src=confmacro&quot;&gt;JSWSERVER-21417&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;페이지가 칸반 보드에서 생성된 이슈로 스크롤 되지 않는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSWSERVER-20594?src=confmacro&quot;&gt;JSWSERVER-20594&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;칸반 보드 이슈 : 키보드로 엑세스 할 수 없는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74031?src=confmacro&quot;&gt;JRASERVER-74031&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Start Date 타임 스태프가 상대값으로 표시되는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSWSERVER-21433?src=confmacro&quot;&gt;JSWSERVER-21433&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;-version-94x&quot;&gt;&lt;strong&gt;■ Version 9.4.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;노드가 이슈 보관 작업을 따라가지 않는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74330?src=confmacro&quot;&gt;JRASERVER-74330&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;활동 탭이 초기화 되지 않음&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74303?src=confmacro&quot;&gt;JRASERVER-74303&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;댓글이 게시 후 자동 업데이트가 되지 않는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74165?src=confmacro&quot;&gt;JRASERVER-74165&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;보안 PDP/IMAP이 인증서 없이 작동하는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-62180?src=confmacro&quot;&gt;JRASERVER-62180&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;전환 권한을 제거하면 기본 View 워크플로도 제거됩니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74081?src=confmacro&quot;&gt;JRASERVER-74081&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;사용자 관리 메뉴에서 프로젝트 역할을 편집하면 405 오류가 발생 합니다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74452?src=confmacro&quot;&gt;JRASERVER-74452&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;우선 순위 선택기가 열리지 않는 이슈&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74416?src=confmacro&quot;&gt;JRASERVER-74416&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;-version-95x&quot;&gt;&lt;strong&gt;■ Version 9.5.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;시스템 대시보드에서 텍스트가 최소 생상 대비 요구 사항을 충족하지 못하는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74498?src=confmacro&quot;&gt;JRASERVER-74498&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;우선 순위 선택기가 열리지 않는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74416?src=confmacro&quot;&gt;JRASERVER-74416&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;머리글에 탐색 링크에 대한 메뉴 모음이 없는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74189?src=confmacro&quot;&gt;JRASERVER-74189&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;헤더에 링크 가능한 이름이 누락되는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74188?src=confmacro&quot;&gt;JRASERVER-74188&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;버전 및 에픽 필터에 대화형 요소가 비어있는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74498?src=confmacro&quot;&gt;JRASERVER&lt;/a&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74047?src=confmacro&quot;&gt;-74047&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;대시보드에서 더 많은 활동 표시 링크에접근 가능한 이름이 누락되는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74181?src=confmacro&quot;&gt;JRASERVER-74181&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;스위치 보고서에서 그룹화가 누락되는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74498?src=confmacro&quot;&gt;JRASERVER&lt;/a&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74041?src=confmacro&quot;&gt;-74041&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;2-jira-service-management&quot;&gt;&lt;strong&gt;2. Jira Service Management&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;-version-53x--version-55x&quot;&gt;&lt;strong&gt;■ Version 5.3.x ~ Version 5.5.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-향상된-이메일-필터링&quot;&gt;&lt;strong&gt;1. 향상된 이메일 필터링&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;이전 버전에서 이메일 필터링 기능에 아쉬워 하셨던 분들이 많으셨을 것 입니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 &lt;strong&gt;Version 5.3&lt;/strong&gt; 버전에서는 관리자에게 기본 설정된 메일 필터 기능을 켜거나 끌 수 있는 옵션을 제공 합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:50%;&quot; src=&quot;http://localhost:4000/assets/images/Release%20Note%20Server/Jira Service Management/2022_4Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;해당 기능은 위와 같이 설정 &amp;gt; 이메일 요청 &amp;gt; 허가목록 에서 설정 가능합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-향상된-기능&quot;&gt;&lt;strong&gt;2. 향상된 기능&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Java 17에 대한 기능이 추가되었습니다.&lt;/li&gt;
+  &lt;li&gt;H2 데이터베이스가 1.4.200에서 2.1.214로 업그레이드 되었습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-헬프-포털-열-정렬&quot;&gt;&lt;strong&gt;3. 헬프 포털 열 정렬&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;이제 내 요청 페이지에서 열을 오름차순과 내림차순으로 정렬이 가능합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:50%;&quot; src=&quot;http://localhost:4000/assets/images/Release%20Note%20Server/Jira Service Management/2022_4Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div style=&quot;border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);&quot;&gt;&lt;div style=&quot;flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); &quot;&gt;&lt;span role=&quot;img&quot; style=&quot;--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;&quot;&gt;&lt;svg style=&quot;width: 24; height: 24; role: presentation;&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z&quot; fill=&quot;currentColor&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;notebox-text&quot;&gt;헬프 포털 환경은 5.3 버전 이후 로그인을 하지 않아도 접속 가능하게 변경되었습니다.&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-1-해결된-이슈-사항&quot;&gt;&lt;strong&gt;2-1. 해결된 이슈 사항&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;-version-53x54x&quot;&gt;&lt;strong&gt;■ Version 5.3.x~5.4.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;노드가 이슈 보관 작업을 따라잡지 못하는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74330?src=confmacro&quot;&gt;JRASERVER-74330&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;활동 탭이 초기화 되지 않는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74330?src=confmacro&quot;&gt;JRASERVER&lt;/a&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74303?src=confmacro&quot;&gt;-74303&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;전환 권한을 제거하면 기본 View 워크플로도 제거되는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74081?src=confmacro&quot;&gt;JRASERVER-74081&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;고객 포털의 설명 필드를 읽는데 오랜 시간이 소요되는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11235?src=confmacro&quot;&gt;JSDSERVER-11235&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;-version-55x&quot;&gt;&lt;strong&gt;■ Version 5.5.x&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;이슈에 대한 의견 추가 버튼이 다른 페이지로 리다이렉션 되는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11937?src=confmacro&quot;&gt;JSDSERVER-11937&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;특정 이메일 에이전트의 메시지가 스트립 따옴표가 제거 되지 않는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11954?src=confmacro&quot;&gt;JSDSERVER-11954&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;고객 포털에서 해상도 “완료”를 특정 언어로 번역 불가한 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-12109?src=confmacro&quot;&gt;JSDSERVER-12109&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;비지니스 서비스/개체 만들기에 레이블 이름이 누락 된 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11375?src=confmacro&quot;&gt;JSDSERVER-11375&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;3-confluence&quot;&gt;3. Confluence&lt;/h2&gt;
+
+&lt;h3 id=&quot;-version-720x--80&quot;&gt;&lt;strong&gt;■ Version 7.20.x ~ 8.0&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-jira의-고급-로드맵-기능을-confluence에-추가&quot;&gt;1. Jira의 고급 로드맵 기능을 Confluence에 추가&lt;/h3&gt;
+
+&lt;p&gt;이제 고급 로드맵을 사용하여 Confluence에 더 풍부한 보고서를 작성 가능합니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:50%;&quot; src=&quot;http://localhost:4000/assets/images/Release%20Note%20Server/Confluence/2022_4Q/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-이모티콘-개선&quot;&gt;2. 이모티콘 개선&lt;/h3&gt;
+
+&lt;p&gt;이모티콘 메뉴를 팀으로 부터 받기 원하는 이모티콘으로 개선하였습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:50%;&quot; src=&quot;http://localhost:4000/assets/images/Release%20Note%20Server/Confluence/2022_4Q/2.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-라이선스-사용량-관리-페이지-추가&quot;&gt;3. 라이선스 사용량 관리 페이지 추가&lt;/h3&gt;
+
+&lt;p&gt;관리자는 이제 미사용 혹은 유휴 계정을 한번에 파악 할 수 있습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:50%;&quot; src=&quot;http://localhost:4000/assets/images/Release%20Note%20Server/Confluence/2022_4Q/3.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img sytle=&quot;width:50%;&quot; src=&quot;http://localhost:4000/assets/images/Release%20Note%20Server/Confluence/2022_4Q/4.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div style=&quot;border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);&quot;&gt;&lt;div style=&quot;flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); &quot;&gt;&lt;span role=&quot;img&quot; style=&quot;--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;&quot;&gt;&lt;svg style=&quot;width: 24; height: 24; role: presentation;&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z&quot; fill=&quot;currentColor&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;notebox-text&quot;&gt;해당 설정 페이지는 설정&amp;gt; 일반구성&amp;gt; 라이센스 세부 정보에서 확인 가능합니다.&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-version-720x에서-해결된-이슈&quot;&gt;&lt;strong&gt;■ Version 7.20.x에서 해결된 이슈&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C키 바로 가기를 끌 수 없는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-79855?src=confmacro&quot;&gt;CONFSERVER-79855&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;xlsx 파일에 대한 검색 결과를 변환 할 수 없는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-79855?src=confmacro&quot;&gt;CONFSERVER&lt;/a&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-59160?src=confmacro&quot;&gt;-59160&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;유저 디렉토리에서 큰 페이지를 열면 매우 느려지는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-80119?src=confmacro&quot;&gt;CONFSERVER-80119&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;-version-820x에서-해결된-이슈&quot;&gt;&lt;strong&gt;■ Version 8.20.x에서 해결된 이슈&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;길이가 4000자 이상인 HTML 스크립트 요소가 매트로내에서 렌더링 될때 손상되는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-79855?src=confmacro&quot;&gt;CONFSERVER&lt;/a&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-81454?src=confmacro&quot;&gt;-81454&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;컨플루언스 8.0에서 클라우드로 마이그레이션이 실패하는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-79855?src=confmacro&quot;&gt;CONFSERVER&lt;/a&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-81246?src=confmacro&quot;&gt;-81246&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;E,M 단축키를 끌 수 없는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-79855?src=confmacro&quot;&gt;CONFSERVER&lt;/a&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-79863?src=confmacro&quot;&gt;-79863&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Jira 매크로가 간헐적으로 사용자 정의 필드 제목을 표시하는 현상&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-79855?src=confmacro&quot;&gt;CONFSERVER&lt;/a&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-79938?src=confmacro&quot;&gt;-79938&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.😃&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Server.html</link>
+        <guid isPermaLink="true">http://localhost:4000/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Server.html</guid>
+        
+        <category>Atlassian</category>
+        
+        <category>Atlassian Cloud</category>
+        
+        <category>아틀라시안</category>
+        
+        <category>아틀라시안클라우드</category>
+        
+        <category>Jira</category>
+        
+        <category>jira</category>
+        
+        <category>Jira Cloud</category>
+        
+        <category>Release</category>
+        
+        <category>Release Note</category>
+        
+        <category>Jira Sofrware</category>
+        
+        <category>Jira Service Management</category>
+        
+        <category>Confluence</category>
+        
+        <category>컨플</category>
+        
+        <category>DevOps</category>
+        
+        <category>데브옵스</category>
+        
+        <category>dev</category>
+        
+        <category>Dev</category>
+        
+        <category>에자일</category>
+        
+        <category>Agile</category>
+        
+        <category>Wiki</category>
+        
+        <category>Bitbuket</category>
+        
+        
+        <category>Release Note</category>
+        
+      </item>
     
       <item>
         <title>2022-2023 Atlassian 주요 제품 릴리즈 노트 (Oct ~ Jan) - Cloud</title>
@@ -215,8 +672,8 @@
 &lt;p&gt;감사합니다.😃&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2023 00:00:00 +0900</pubDate>
-        <link>/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Cloud.html</link>
-        <guid isPermaLink="true">/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Cloud.html</guid>
+        <link>http://localhost:4000/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Cloud.html</link>
+        <guid isPermaLink="true">http://localhost:4000/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Cloud.html</guid>
         
         <category>Atlassian</category>
         
@@ -536,8 +993,8 @@
 
 </description>
         <pubDate>Tue, 31 Jan 2023 00:00:00 +0900</pubDate>
-        <link>/webinars/2023/01/31/202210-Atlassian-Cloud-Webinar.html</link>
-        <guid isPermaLink="true">/webinars/2023/01/31/202210-Atlassian-Cloud-Webinar.html</guid>
+        <link>http://localhost:4000/webinars/2023/01/31/202210-Atlassian-Cloud-Webinar.html</link>
+        <guid isPermaLink="true">http://localhost:4000/webinars/2023/01/31/202210-Atlassian-Cloud-Webinar.html</guid>
         
         <category>Atlassian</category>
         
@@ -702,8 +1159,8 @@
 &lt;p&gt;감사합니다.&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate>
-        <link>/company%20news/2023/01/11/Atlassian-License-Pee-Notification.html</link>
-        <guid isPermaLink="true">/company%20news/2023/01/11/Atlassian-License-Pee-Notification.html</guid>
+        <link>http://localhost:4000/company%20news/2023/01/11/Atlassian-License-Pee-Notification.html</link>
+        <guid isPermaLink="true">http://localhost:4000/company%20news/2023/01/11/Atlassian-License-Pee-Notification.html</guid>
         
         <category>Atlassian</category>
         
@@ -860,8 +1317,8 @@
 
 </description>
         <pubDate>Mon, 21 Nov 2022 00:00:00 +0900</pubDate>
-        <link>/release%20note/2022/11/21/crowd-2022.html</link>
-        <guid isPermaLink="true">/release%20note/2022/11/21/crowd-2022.html</guid>
+        <link>http://localhost:4000/release%20note/2022/11/21/crowd-2022.html</link>
+        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/11/21/crowd-2022.html</guid>
         
         <category>Atlassian</category>
         
@@ -1351,8 +1808,8 @@
 &lt;p&gt;감사합니다.😃&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Sep 2022 00:00:00 +0900</pubDate>
-        <link>/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Server.html</link>
-        <guid isPermaLink="true">/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Server.html</guid>
+        <link>http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Server.html</link>
+        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Server.html</guid>
         
         <category>Atlassian</category>
         
@@ -1519,8 +1976,8 @@
 
 </description>
         <pubDate>Thu, 29 Sep 2022 00:00:00 +0900</pubDate>
-        <link>/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Cloud.html</link>
-        <guid isPermaLink="true">/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Cloud.html</guid>
+        <link>http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Cloud.html</link>
+        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Cloud.html</guid>
         
         <category>Atlassian</category>
         
@@ -1663,8 +2120,8 @@
 &lt;p&gt;감사합니다.&lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Sep 2022 00:00:00 +0900</pubDate>
-        <link>/company%20news/2022/09/14/October-2022-Atlassian-Cloud-Pricing-Changes.html</link>
-        <guid isPermaLink="true">/company%20news/2022/09/14/October-2022-Atlassian-Cloud-Pricing-Changes.html</guid>
+        <link>http://localhost:4000/company%20news/2022/09/14/October-2022-Atlassian-Cloud-Pricing-Changes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/company%20news/2022/09/14/October-2022-Atlassian-Cloud-Pricing-Changes.html</guid>
         
         <category>Atlassian</category>
         
@@ -1825,8 +2282,8 @@
 
 </description>
         <pubDate>Tue, 13 Sep 2022 00:00:00 +0900</pubDate>
-        <link>/how%20to/2022/09/13/7-ways-to-get-your-work-noticed-in-confluence.html</link>
-        <guid isPermaLink="true">/how%20to/2022/09/13/7-ways-to-get-your-work-noticed-in-confluence.html</guid>
+        <link>http://localhost:4000/how%20to/2022/09/13/7-ways-to-get-your-work-noticed-in-confluence.html</link>
+        <guid isPermaLink="true">http://localhost:4000/how%20to/2022/09/13/7-ways-to-get-your-work-noticed-in-confluence.html</guid>
         
         <category>Atlassian</category>
         
@@ -2124,8 +2581,8 @@
 &lt;p&gt;감사합니다.&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Jul 2022 00:00:00 +0900</pubDate>
-        <link>/inside%20atlassian/2022/07/26/OKRs-vs-KPIs.html</link>
-        <guid isPermaLink="true">/inside%20atlassian/2022/07/26/OKRs-vs-KPIs.html</guid>
+        <link>http://localhost:4000/inside%20atlassian/2022/07/26/OKRs-vs-KPIs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2022/07/26/OKRs-vs-KPIs.html</guid>
         
         <category>Atlassian</category>
         
@@ -2150,135 +2607,6 @@
         <category>Performancereview</category>
         
         <category>Jiraworkmanagement</category>
-        
-        
-        <category>Inside Atlassian</category>
-        
-      </item>
-    
-      <item>
-        <title>3년만에 돌아온 아틀라시안 고객 컨퍼런스, &apos;Atlassian in Seoul 22&apos; 후기</title>
-        <description>&lt;p&gt;안녕하세요, 디무브 입니다! 🎈&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;지난 6월 30일, Atlassian in 서울 ‘22 행사가 성황리에 진행되었는데요!&lt;/p&gt;
-
-&lt;p&gt;그 동안 코로나 팬데믹으로 인해 직접 만나뵙기 어려웠던 Atlassian의 고객 분들을 무려 3년만에 초청하여 모실 수 있었던 매우 뜻깊은 자리였습니다.&lt;/p&gt;
-
-&lt;p&gt;컨퍼런스에서는 다양한 국가에서 방한한 아틀라시안 임직원들의 업계 최신 트렌드와 아틀라시안 로드맵에 대한 흥미로운 세션은 물론 실제 고객 사례를 소개해 드렸습니다.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안 플래티넘 솔루션 파트너인 디무브에서는 아틀라시안의 주력 솔루션인 ITSM(IT Service Management)과 Cloud Migration 서비스를 주제로 솔루션 부스를 운영하였는데요.&lt;/p&gt;
-
-&lt;p&gt;컨퍼런스에서 소개된 다양한 세션과 부스 현장을 돌아보며 그날의 하이라이트를 공유해드리고자 합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;atlassian-sessions&quot;&gt;Atlassian Sessions&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/atlassianinseoul_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;대망의 행사 당일, 새벽부터 정말 장대비가 계속 쏟아졌는데요.&lt;/p&gt;
-
-&lt;p&gt;너무 많은 비가 와서 고객분들께서 오시는 길이 힘들지 않을까 걱정했지만, 다행히도 많은 분들께서 아틀라시안에 대한 애정과 열정으로 비를 뚫고 참석해 주셨습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/atlassianinseoul_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;오전 10시가 되자 아틀라시안의 한국 총괄 디렉터인 류윤상 대표님의 #힙하고 #체계적으로 #일하는 방법에 대한 오프닝 키노트를 시작으로 본격적으로 행사가 진행되었습니다.&lt;/p&gt;
-
-&lt;p&gt;오프닝 키노트를 통해 아틀라시안에서 말하는 연결된 경험과 유연함이 어떻게 솔루션화 되어 조직의 협업 문화를 강화하고 업무 프로세스를 디지털화 하는지에 대한 아틀라시안의 혁신을 다시 한번 느낄 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/atlassianinseoul_3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;또한, 지난 4월 Atlassian Team ‘22 컨퍼런스에서 최초로 공개되었던 신제품 &lt;a href=&quot;http://blog.dmove.kr/inside%20atlassian/2022/04/20/Introducing-Atlas.html&quot;&gt;Atlas&lt;/a&gt;, &lt;a href=&quot;http://blog.dmove.kr/inside%20atlassian/2022/04/21/Introducing-Compass.html&quot;&gt;Compass&lt;/a&gt; 그리고 &lt;a href=&quot;http://blog.dmove.kr/inside%20atlassian/2022/04/26/Atlassian-Datalake-and-Analytics.html&quot;&gt;Data Lake&lt;/a&gt;에 대해서도 한국 고객분들을 대상으로 다시 한번 소개하는 시간이 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;그 뒤로 Atlassian Platform 기반의 Open Work Management, ITSM, DevOps, Scaled Agile 솔루션 및 SaaS 전환을 위한 방법론, SaaS 전환에 있어 고민이 필보안/컴플라이언스, 아이덴티티 &amp;amp; 접근 관리 등에 대한 세션이 진행되었는데요.&lt;/p&gt;
-
-&lt;p&gt;모든 세션에 대한 보다 자세한 내용은 &lt;a href=&quot;https://www.atlassiankr.com/&quot; title=&quot;https://www.atlassiankr.com/&quot;&gt;&lt;strong&gt;아틀라시안 in 서울 2022 홈페이지&lt;/strong&gt;&lt;/a&gt;에서 확인해 보실 수 있습니다!&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;itsm-solution-booth&quot;&gt;ITSM Solution Booth&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/atlassianinseoul_5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;아틀라시안의 대표 솔루션은 총 4가지로 나뉠 수 있는데, 바로 Scaled Agile, ITSM, DevOps 그리고 Work Management 입니다.&lt;/p&gt;
-
-&lt;p&gt;디무브에서는 그 중에서 &lt;strong&gt;ITSM&lt;/strong&gt;을 주제로 한 솔루션 부스에서 고객 분들을 맞이 하였습니다.&lt;/p&gt;
-
-&lt;p&gt;주요 ITSM 프로세스에 대한 데모 영상 및 시연은 물론, 아틀라시안 in 서울의 주제인 ‘아틀라시안 클라우드’에 대한 데모와 마이그레이션 서비스 안내까지, 솔루션 파트너의 입장에서 고객 분들께 제공해 드릴 수 있는 다양한 서비스를 소개해 드릴 수 있는 기회를 갖게 되어서 정말 뜻깊은 시간이었는데요.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/atlassianinseoul_6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;정말 많은 고객 분들께서 저희 부스를 찾아 주셔서 아틀라시안의 ITSM과 클라우드에 대한 상담도 하시고, 설문조사 이벤트에도 적극적으로 참여해 주셨습니다.&lt;/p&gt;
-
-&lt;p&gt;비대면으로만 소통하던 고객 분들을 실제로 뵙기도 하고, 또 새로운 고객 분들께 저희 디무브의 서비스를 알려드릴 수 있어서 매우 기뻤습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;see-you-next-year&quot;&gt;See you next year!&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog/atlassianinseoul_7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;아틀라시안 본사 팀 분들은 물론, 디무브를 포함한 아틀라시안의 한국 파트너들도 이번 컨퍼런스에서 보다 많은 고객분들을 직접 만나고 새로운 전략에 대한 아이디어를 드리고자 노력하였는데요.&lt;/p&gt;
-
-&lt;p&gt;오전 10시부터 오후6시까지 궂은 날씨에도 긴 시간 동안 참석해주신 모든 아틀라시안 고객 분들께 다시 한번 감사의 말씀을 드리며, 이번 컨퍼런스를 통해 아틀라시안과 함께할 앞으로의 로드맵에 대한 많은 인사이트를 얻어 가셨길 바랍니다.&lt;/p&gt;
-
-&lt;p&gt;저희에게도 이번 컨퍼런스는 고객 분들의 의견을 생생하게 접할 수 있어 매우 의미있는 시간이었으며, 앞으로도 더욱 많은 고객 분들께서 아틀라시안을 통해 조직의 잠재력을 최대화 하실 수 있도록 열심히 지원해드리겠습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;컨퍼런스의 모든 사진과 발표자료 및 영상이 궁금하신 분들은 &lt;a href=&quot;https://www.atlassiankr.com/&quot;&gt;아틀라시안 in 서울 2022 홈페이지&lt;/a&gt;에 방문해주시고, 관련하여 궁금하신 점이 있으시다면 언제든지 저희에게 알려주세요!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Atlassian in Seoul ‘23&lt;/strong&gt; 으로 다시 찾아뵐 그날을 고대하겠습니다.&lt;/p&gt;
-
-&lt;p&gt;감사합니다.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 Jul 2022 00:00:00 +0900</pubDate>
-        <link>/inside%20atlassian/2022/07/07/Atlassian-in-seoul-22-recap.html</link>
-        <guid isPermaLink="true">/inside%20atlassian/2022/07/07/Atlassian-in-seoul-22-recap.html</guid>
-        
-        <category>Atlassian</category>
-        
-        <category>아틀라시안</category>
-        
-        <category>아틀라시안인서울</category>
-        
-        <category>Atlassian Cloud</category>
-        
-        <category>Jira</category>
-        
-        <category>Confluence</category>
-        
-        <category>CloudMigration</category>
-        
-        <category>아틀라시안클라우드</category>
-        
-        <category>디무브</category>
-        
-        <category>atlassianinseoul</category>
-        
-        <category>아틀라시안in서울</category>
-        
-        <category>Atlas</category>
-        
-        <category>Compass</category>
-        
-        <category>Datalake</category>
-        
-        <category>아틀라시안행사</category>
-        
-        <category>파르나스호텔</category>
         
         
         <category>Inside Atlassian</category>
