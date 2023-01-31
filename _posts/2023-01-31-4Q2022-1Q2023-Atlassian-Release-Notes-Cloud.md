@@ -82,7 +82,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 - 로드맵에서 이슈를 분류할 때 컴포넌트를 통해 로드맵을 필터링 하는 기능이 추가되었습니다. 
   <center><img sytle="width:50%;" src="https://blog.dmove.kr/assets/images/Release%20Note%20Cloud/Jira/2022_4Q/6.png"></center> <br/>
 
-
+---
 
 ## Jira Service Management
 
@@ -135,7 +135,7 @@ tags: [Atlassian, Atlassian Cloud, 아틀라시안, 아틀라시안클라우드,
 
 - 큐 제한 증가 : 각 작업에서 확인가능한 큐의 갯수를 50개에서 300개로 확대되었습니다.
 
-
+---
 
 ## Confluence
 
