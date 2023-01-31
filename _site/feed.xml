@@ -5,8 +5,8 @@
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 Jan 2023 13:53:29 +0900</pubDate>
-    <lastBuildDate>Tue, 31 Jan 2023 13:53:29 +0900</lastBuildDate>
+    <pubDate>Tue, 31 Jan 2023 14:59:05 +0900</pubDate>
+    <lastBuildDate>Tue, 31 Jan 2023 14:59:05 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -260,6 +260,313 @@
         
         
         <category>Release Note</category>
+        
+      </item>
+    
+      <item>
+        <title>디무브 웨비나 생생후기-아틀라시안 클라우드 프리미엄 200% 활용하기</title>
+        <description>&lt;p&gt;안녕하세요, 디무브입니다🎈&lt;/p&gt;
+
+&lt;p&gt;지난 10월 27일 IT 혁신을 위한 아틀라시안 클라우드 프리미엄 200% 활용하기 웨비나 발표가 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;평소 아틀라시안이 클라우드 프리미엄에 관심을 많이 가지시고 사용하신 분도 있을테고, 또한 관심은 많이 있지만 아직 사용을 하시지 않는 분들도 많으실 것 같습니다.&lt;/p&gt;
+
+&lt;p&gt;이에 따라 디무브에서 가장 인기 많은 단계인 프리미엄 단계에 대해서 소개와 디무브 엔지니어들의 노하우를 통해서 아틀라시안 클라우드 프리미엄 버전의 활용 과정을 상세히 공유 해드렸는데요.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안 클라우드에 대한 기업들의 높은 관심을 증명하듯 예상보다 더 많은 인원이 이번 웨비나에 참석해주셨습니다&lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/64x64/1f600.png&quot; alt=&quot;:grinning:&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;다시 한번 참여해주신 모든 분들께 감사의 말씀을 드리며 이번 시간에는 진행했던 웨비나에 대해 생생하게 리뷰해보는 시간을 가져보려합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;본 웨비나는 아래와 같이 크게 3개의 Agenda로 진행하였습니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;시간&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;주제&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;16:00~16:25&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;아틀라시안 프리미엄 플랜 특징&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;16:25~16:45&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Jira 클라우드 프리미엄 주요 기능Confluence 클라우드 프리미엄 주요 기능&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;16:45~15:55&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;클라우드 프리미엄 고객 사례&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;16:55~17:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Q&amp;amp;A&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;session-1-아틀라시안-프리미엄-플랜-특징&quot;&gt;#Session 1. 아틀라시안 프리미엄 플랜 특징&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/1.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;아직 클라우드로 넘어오시지 않은 데이터 센터 유저들을 위해서 우선 아틀라시안 클라우드의 이점 세가지에 대해서 집고 넘어가도록 하겠습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;1효율성-개선&quot;&gt;1.효율성 개선&lt;/h3&gt;
+
+&lt;p&gt;인프라 비용 및 IT 리소스를 비즈니스 우선 순위에 전략적으로 재할당 가능합니다.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안 클라우드를 사용함으로써 인프라 지출과 관리적인 부분에 대한 오버헤드를 적절히 재 분배 함으로써 IT 팀의 영향력을 높일 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;즉, 업그레이드 및 기타 운영/관리에 소요되는 시간을 비즈니스 발전을 위해 재조정할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;2팀-생산성-가속화&quot;&gt;2.팀 생산성 가속화&lt;/h3&gt;
+
+&lt;p&gt;온프라미스 시스템에 대해서 소요되었던 운영, 유지보수와 같은 작업을 오프로딩 함으로써 얻을 수 있는 비용 절감 측면 외에도 아틀라시안 클라우드 제품이 팀 생산성을 가속화하고 사용자와 관리자 모두에게 업무에 집중할 수 있는 시간을 확보할 수 있습니다&lt;/p&gt;
+
+&lt;p&gt;몇 분을 절약하는 것이 언뜻 보기에는 별 것 아닌 것처럼 보일 수 있지만,&lt;/p&gt;
+
+&lt;p&gt;이 시간들이 쌓이고 쌓인다면 조직 전체 ROI에 얼마나 중요한 영향을 미치는지 알게 될 것입니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;3내장된-보안-및-규정-준수&quot;&gt;&lt;strong&gt;3.내장된 보안 및 규정 준수&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;아시다시피 보안 및 규정준수같은 경우는 지켜지고 있는지 한눈에 보기 힘든 사항 중 하나인데요,&lt;/p&gt;
+
+&lt;p&gt;아틀라시안은 업계에서 인정하는 인증 발급 기관으로부터 인증을 받고,&lt;/p&gt;
+
+&lt;p&gt;표준 및 규정을 준수하고 있기 때문에 고객이 믿고 데이터를 맡길 수 있는 확신을 주고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/2.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;보시다시피 PCI GDPR 등 많은 인증을 통해 클라우드 제품에 대한 신뢰가 가실 거라 생각됩니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/3.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;아틀라시안의 클라우드 플랜은 총 네가지로, 프리, 스탠다드, 프리미엄, 엔터프라이즈 이렇게 구성 되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;플랜 선택은 실제 사용하고자 하는 사용자 수는 물론, 어떤 기능을 사용하고자 하는 지에 따라서 맞는 플랜을 선택하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Free는 10명 이하 소규모 사용자가 선택할 수 있는 무료 플랜으로, 규모가 작은 스타트업이나 적은 구성원이 선택할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;플랜명 밑에 밑줄이 쳐저있는 스탠다드부터 프리미엄, 엔터프라이즈 플랜들은 유료 구독 플랜으로,&lt;/p&gt;
+
+&lt;p&gt;디무브와 같은 파트너사를 통해 구독을 진행하셔야만 합리적인 가격으로 기술 지원 및 혜택을 받으실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;세 가지 플랜은 사용하고자 하는 회사 규모와 요구사항에 맞게 선택하실 수 있는데, 가장 선호도가 높은 플랜이 바로 ‘프리미엄’ 플랜입니다.&lt;/p&gt;
+
+&lt;p&gt;차이를 나누면 두가지로 나눌 수 있겠는데요&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/4.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;먼저 저장공간에서의 차이입니다.&lt;/p&gt;
+
+&lt;p&gt;구독 플랜에 따라 저장공간이 달라지는데요, 스탠다드의 경우 250기가 바이트의 저장 제한이 있지만,&lt;/p&gt;
+
+&lt;p&gt;프리미엄 플랜을 선택하실 경우 용량 제한 없이 무제한으로 저장이 가능합니다.&lt;/p&gt;
+
+&lt;p&gt;따라서 많은 작업을 요하거나, 파일 업로드양이 많은 기업에서는 프리미엄 플랜을 선택할 수 밖에 없는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;또한 프리미엄 플랜부터 가동시간 개런티가 추가됩니다. 앞서 말씀 드렸다싶이 프리미엄은 99.9%, 앤터프라이즈는 99.95%의 SLA 가동시간을 보장합니다.&lt;/p&gt;
+
+&lt;p&gt;그리고 지원 관련하여서, 스탠다드 플랜은 아틀라시안에 지원 요청 문의를 남겼을 때 시차로 인한 오랜 기다림이 요구됩니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 프리미엄 플랜 구독시에는 365일 24시간 운영되는 아틀라시안 전담 팀에서 중요한 문제에 관해 1시간 이내에 답변해 드립니다.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안과 소통하실 때엔 당연히 모두 영어로 하셔야 합니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 디무브를 통해 구독을 진행하시면 경험 많은 엔지니어로 구성된 전담 솔루션 팀에서 로컬에서 바로 도움을 드릴 수도 있고,&lt;/p&gt;
+
+&lt;p&gt;디무브가 대신 아틀라시안과 소통을 해드리기 때문에 기술지원이나 소통 염려가 사라지게 됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/5.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;블로그를 읽으시는 관리자 레벨이신 분들께서 흥미를 느끼실 것 같습니다.&lt;/p&gt;
+
+&lt;p&gt;관리자 인사이트 기능을 통해 사용자들의 일간,주간 그리고 월간 통계를 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;또한 IP를 통한 접속 제어가 가능합니다. 특정한 ip만 접속 가능토록 도와주는 IP 허용 목록 기능을 통해 보안을 강화하실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;또한 샌드박스와 릴리즈 트랙을 통해&lt;/p&gt;
+
+&lt;p&gt;팀에 공개하기전 제품 테스트나 제품 업데이트 전 적응 시간을 확보 할 수 도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/6.png&quot; alt=&quot;img&quot; /&gt;
+지금부터는 Jira 클라우드 프리미엄 기능에 대해서 다뤄보도록 하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/7.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;스탠다드의 로드맵 기능은 강력하긴하지만 프로젝트 하나 뿐만 아니라 여러 프로젝트를 관리하는 PO입장에서 하나의 프로젝트의 이슈들만 볼 수 있는게 아쉬울 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;그래서 이런 점을 보완한 고급 로드맵 기능을 프리미엄 구독 부터 만나보실수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;어렵고 복잡한 기능이라 실제로 사용하시는 분들이 그리 많진 않지만, 사용하게 되면 굉장히 만족도가 높은 기능입니다.&lt;/p&gt;
+
+&lt;p&gt;팀 진행 전체 상황을 실시간으로 추적하여 계획을 세울 수 있는 기능이 필요하시다면 대규모 작업을 미리 계획하실 때 유용하게 사용 가능하실 것 입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/8.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;고급 로드맵의 핵심 개념부터 설명 드리겠습니다&lt;/p&gt;
+
+&lt;p&gt;고급 로드맵은 지라의 보드, 프로젝트 및 필터에 액세스하여 사용자 지정 가능한 인터페이스에서 데이터를 시각화합니다.&lt;/p&gt;
+
+&lt;p&gt;샌드박스 환경으로 작동하므로 지라에서 원본 데이터를 업데이트하기 전에 계획하고 실험할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;클릭 한 번으로 계획의 주요 경로를 수립하고 다양한 변형을 탐색하며 지라 인터페이스를 업데이트할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이로인해 위 화면에서도 볼 수 있듯 고급 로드맵의 계획은 조직의 목표를 개략적으로 설명하고 팀이 마일스톤과 주요 결과를 달성할 수 있는 경로를 전달하기 위해 공유하는 정보의 출처가 됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/9.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이슈 소스는 지라에서 계획을 만드는 데 어떠한 데이터를 사용할지를 결정합니다. 해야 할 작업과 해결하려고 하는 문제에 대해 간략하게 설명합니다.&lt;/p&gt;
+
+&lt;p&gt;이슈 소스는 계획을 만드는 중에 가장 먼저 선택하며 언제든지 조정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;고급 로드맵 에는 세 가지 유형의 이슈 소스가 있습니다. 보드 프로젝트 필터 입니다.&lt;/p&gt;
+
+&lt;p&gt;기본 기능에서 보여드렸던 보드, 가장 큰틀이라고 설명드렸던 프로젝트, JQL이라는 쿼리 언어로 원하는 값을 출력가능한 필터로 다양한 구성이 가능합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/10.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위처럼&lt;/p&gt;
+
+&lt;p&gt;제외 규칙을 사용하면 계획의 이슈 소스를 세분화하므로 가장 관련성이 높은 이슈가 표시됩니다.&lt;/p&gt;
+
+&lt;p&gt;집중하는 분야에 따라서 특정 이슈 유형, 상태 또는 릴리스를 제외하도록 규칙을 설정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;또한 완료한 이슈를 계획에 얼마 동안 유지할 것인지 조정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/11.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;계층의 경우는 조직 전체에서 작업을 계획하고 추적하는 경우 에픽 이상의 계층 수준을 만들어야 합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 회사 전체의 목표를 나타내는 이니셔티브 계층 수준을 만들 수 있습니다. 이니셔티브를 에픽 수준 위에 배치하면 에픽의 컨테이너로 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;고급 로드맵 의 계층 구조는 지라의 기본 이슈 유형에서 상속합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/12.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;종속성은 우발 상황 및 블로커와 같은 계획 내 이슈 사이의 관계를 나타냅니다.&lt;/p&gt;
+
+&lt;p&gt;프로젝트 또는 프로그램 관리자가 로드맵에서 중요한 경로를 결정할 때 종속성을 시각화하고 이해하는 것이 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;종속성을 완전하게 매핑했으면 팀은 대체 경로에 대해 조정하고 계획할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이슈 서로의 종속성은 줄로 표시 할 수 도 있고&lt;/p&gt;
+
+&lt;p&gt;덕분에 누구에게 할당되어 있는지, 어느 이슈와 연결이 되어있는지 에픽 간 관계를 쉽게 시각적으로 표시할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/13.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/14.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;작업 수용량은 팀이 주어진 기간에 수행하는 작업의 단위를 나타냅니다.&lt;/p&gt;
+
+&lt;p&gt;특정 마일스톤에 따라 작업을 완료할 수 있는 팀의 역량을 가늠하는 데 사용할 수 있으며, 주요 결정을 내릴 때 위험을 평가하는 데 매우 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/15.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;고급 로드맵은 지라 데이터의 샌드박스 환경의 역할을 하므로 시나리오를 사용하여&lt;/p&gt;
+
+&lt;p&gt;마일스톤 또는 프로젝트 완료로 향하는 대체 경로를 탐색할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;즉 다양한 시나리오를 활용하여 계획하면 중단을 최소화하는 방식으로 적응할 수 있는 것이죠&lt;/p&gt;
+
+&lt;p&gt;최상의 경우를 목표로 삼고, 최악의 경우를 대비하고, 최상과 최악 사이의 모든 경우에 대비할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/16.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;릴리즈 기능입니다. 릴리스는 계획에서 작업을 완료해야 할 시점을 표시하는 마일스톤입니다.&lt;/p&gt;
+
+&lt;p&gt;작업을 구성하는 방식에 따라, 릴리스는 계획을 만드는 과정에서 선택하며 언제든지 제외 규칙을 통해 조정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/17.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;지금까지 고급 로드맵의 핵심 키워드에 대해서 말씀드렸습니다.&lt;/p&gt;
+
+&lt;p&gt;또한 밑에 영상에서 확인 할 수 있는 시연 시나리오에서는 해당 오너는 진행시킬 프로젝트 A에 대해서 가상의 계획을 세우고 적합한 담당자를 찾고 해당 담당자가 현재 할당중인 이슈에 대해서 참고하여 일정을 계획하고 공유하는 영상을 준비하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/18.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;지금부터는 Confluence 클라우드 프리미엄 기능에 대해서 다뤄보도록 하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/19.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;컨플루언스 프리미엄 첫번째 기능입니다.&lt;/p&gt;
+
+&lt;p&gt;인사이트 기능을 통해 사용자 추이와 페이지의 반응을 확인 가능합니다.&lt;/p&gt;
+
+&lt;p&gt;관리자는 해당 사이트의 페이지와 사용자 추이를 통해 컨플루언스의 방향을 점검하고 계획할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/20.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;두번째 프리미엄 기능은 컨플루언스 팀 캘린더 입니다.&lt;/p&gt;
+
+&lt;p&gt;컨플루언스 프리미엄의 팀 캘린더를 사용하면 개인별 업무 일정과 컨플루언스 페이지로 연결되는 개인 및 팀의 일정을 효과적으로 공유하고 소통할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;팀 캘린더를 통해 팀을 체계적으로 유지하고 업무 가능 상태를 빠르게 파악할 수 있게 되는데요.&lt;/p&gt;
+
+&lt;p&gt;뿐만 아니라 jira의 이슈를 원하는대로 표기가 가능하여 프로젝트에 대한 일정을 잡기 용이 합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;이번 웨비나를 통해 아틀라시안 클라우드의 이점부터 프리미엄 구독 고객의 사례들까지 세세하게 알아보았는데요!&lt;/p&gt;
+
+&lt;p&gt;시연 영상과 함께 준비 되었다보니 포스팅에서는 미쳐 담지 못한 지라와 컨플루언스를 연동하여 결합 사용 시연 시나리오 또한 밑에 링크에 준비되었으니 관련하여 더 생생한 후기가 궁금하시다면 아래 링크를 통해 영상으로도 확인 가능하니 참고 부탁 드립니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;»영상 보러 가기&lt;/strong&gt; [&lt;img src=&quot;https://www.youtube.com/s/desktop/d8e1215c/img/favicon_32x32.png&quot; alt=&quot;img&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=KqgmSJ4yzXo&quot;&gt;웨비나 다시보기] 아틀라시안 클라우드 프리미엄 200% 활용하기&lt;/a&gt;   &lt;strong&gt;»&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;앞으로도 저희 디무브는 아틀라시안 클라우드 관련하여 더 좋은 내용으로 찾아뵐 것을 약속드리며&lt;/p&gt;
+
+&lt;p&gt;클라우드 마이그레이션 관련하여 궁금하신 사항이 있으신 경우 언제든지 연락 부탁드립니다.&lt;/p&gt;
+
+&lt;p&gt;그럼 이만 본 포스팅을 마치도록 하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;감사합니다&lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/64x64/1f600.png&quot; alt=&quot;:grinning:&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;문의 사항이 있으시면
+언제든지 문의 부탁드립니다  »&lt;a href=&quot;http://dmove.co.kr/contact-us/quote-service-inquiry&quot;&gt;문의하기&lt;/a&gt;»&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 31 Jan 2023 00:00:00 +0900</pubDate>
+        <link>/webinars/2023/01/31/202210-Atlassian-Cloud-Webinar.html</link>
+        <guid isPermaLink="true">/webinars/2023/01/31/202210-Atlassian-Cloud-Webinar.html</guid>
+        
+        <category>Atlassian</category>
+        
+        <category>아틀라시안</category>
+        
+        <category>아틀라시안웨비나</category>
+        
+        <category>Atlassian Cloud</category>
+        
+        <category>Jira</category>
+        
+        <category>Confluence</category>
+        
+        <category>CloudMigration</category>
+        
+        <category>Servertocloud</category>
+        
+        <category>클라우드마이그레이션</category>
+        
+        <category>아틀라시안클라우드</category>
+        
+        <category>디무브</category>
+        
+        <category>Atlassianwebinar</category>
+        
+        <category>올쇼tv</category>
+        
+        
+        <category>Webinars</category>
         
       </item>
     
@@ -1975,587 +2282,6 @@
         
         
         <category>Inside Atlassian</category>
-        
-      </item>
-    
-      <item>
-        <title>2022 Atlassian 주요 제품 릴리즈 노트 (Apr ~ Jun) - Data Center</title>
-        <description>&lt;!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) --&gt;
-
-&lt;p&gt;안녕하세요. 디무브 입니다! :balloon:&lt;/p&gt;
-
-&lt;p&gt;2022년 1분기 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence에도 크고 작은 변화가 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;각 제품의 Server 및 Data Center 버전에 어떠한 변화가 있었는지 여러분과 함께 확인해볼 수 있는 시간을 마련했으니 꼭 확인해보세요!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;jira-software&quot;&gt;Jira Software&lt;/h2&gt;
-
-&lt;h3 id=&quot;-version-90x&quot;&gt;&lt;strong&gt;■ Version 9.0.x&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;2022년 6월 21일 출시 - 전체 내용은 &lt;a href=&quot;https://confluence.atlassian.com/jirasoftware/jira-software-8-22-x-release-notes-1115656979.html&quot;&gt;해당문서&lt;/a&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-이제-automation-for-jira-가-jira-data-center에-포함-됩니다&quot;&gt;1. 이제 Automation for Jira 가 Jira Data Center에 포함 됩니다.&lt;/h3&gt;
-
-&lt;p&gt;기존에는 별도 애드온으로 구매가 필요했던 Automation for Jira 기능이 이제 Jira Data Center에 내장되어 제공 됩니다.&lt;/p&gt;
-
-&lt;p&gt;9.0 버전의 경우 Automation for Jira 애드온이 자동적으로 포함되지만 이하 버전의 경우 별도로 마켓플레이스에서 다운로드 혹은 설치 해야 합니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Automation for Jira의 강력함은 세 부분으로 구성 되게 됩니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Triggers&lt;/strong&gt;: 모든 규칙은 트리거의 조건에 의해 시작 됩니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Conditions&lt;/strong&gt;: 규칙을 구체화하고 범위를 좁힐 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Actions&lt;/strong&gt;: 조건이 충족되고 발생하는 작업입니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div style=&quot;border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(255, 250, 230); color:rgb(255, 153, 31);&quot;&gt;&lt;span role=&quot;img&quot; aria-label=&quot;Panel warning&quot; class=&quot;css-pxzk9z&quot; style=&quot;--icon-primary-color:currentColor; --icon-secondary-color:var(--ds-surface, #FFFFFF);&quot;&gt;&lt;svg width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; role=&quot;presentation&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M13.4897 4.34592L21.8561 18.8611C21.9525 19.0288 22.0021 19.2181 21.9999 19.4101C21.9977 19.6021 21.9438 19.7903 21.8435 19.9559C21.7432 20.1215 21.6001 20.2588 21.4282 20.3542C21.2563 20.4497 21.0616 20.4999 20.8636 20.5H3.13707C2.93882 20.5 2.74401 20.4498 2.57196 20.3543C2.39992 20.2588 2.25663 20.1213 2.15631 19.9556C2.05598 19.7898 2.00212 19.6015 2.00006 19.4093C1.998 19.2171 2.04782 19.0278 2.14456 18.86L10.5121 4.34592C10.6602 4.08939 10.8762 3.87577 11.1377 3.72708C11.3993 3.57838 11.6971 3.5 12.0003 3.5C12.3036 3.5 12.6013 3.57838 12.8629 3.72708C13.1245 3.87577 13.3404 4.08939 13.4885 4.34592H13.4897ZM12.0003 7.82538C11.8232 7.82537 11.6482 7.86212 11.4869 7.93317C11.3257 8.00423 11.182 8.10793 11.0656 8.2373C10.9492 8.36668 10.8627 8.51872 10.8119 8.68321C10.7611 8.8477 10.7473 9.02083 10.7713 9.19093L11.3546 13.3416C11.3754 13.4933 11.4523 13.6326 11.5711 13.7334C11.6899 13.8343 11.8424 13.8899 12.0003 13.8899C12.1582 13.8899 12.3107 13.8343 12.4295 13.7334C12.5483 13.6326 12.6253 13.4933 12.6461 13.3416L13.2293 9.19093C13.2533 9.02083 13.2395 8.8477 13.1887 8.68321C13.138 8.51872 13.0515 8.36668 12.935 8.2373C12.8186 8.10793 12.6749 8.00423 12.5137 7.93317C12.3525 7.86212 12.1774 7.82537 12.0003 7.82538V7.82538ZM12.0003 17.3369C12.3395 17.3369 12.6649 17.2062 12.9047 16.9737C13.1446 16.7412 13.2793 16.4258 13.2793 16.0969C13.2793 15.7681 13.1446 15.4527 12.9047 15.2202C12.6649 14.9877 12.3395 14.857 12.0003 14.857C11.6611 14.857 11.3358 14.9877 11.0959 15.2202C10.8561 15.4527 10.7213 15.7681 10.7213 16.0969C10.7213 16.4258 10.8561 16.7412 11.0959 16.9737C11.3358 17.2062 11.6611 17.3369 12.0003 17.3369V17.3369Z&quot; fill=&quot;currentColor&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;div style=&quot;flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); &quot;&gt;&lt;/div&gt; 
-    &lt;div class=&quot;notebox-text&quot; style=&quot;color:black;&quot;&gt;Automation for Jira 애드온은 데이터 센터 버전에서만 무료로 제공되며 서버 버전의 경우 라이센스를 구입하셔야합니다.&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;2-activity-탭-개선&quot;&gt;2. Activity 탭 개선&lt;/h3&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/2.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Activity 탭: 이슈에 대한 모든 이벤트가 표시됩니다.&lt;/li&gt;
-  &lt;li&gt;Activity 탭 이벤트: 이슈에 대한 모든 탭 관련 활동이 목록으로 표시 됩니다.&lt;/li&gt;
-  &lt;li&gt;이슈 활동 정렬 : 이슈에 대한 가장 오래된 이벤트와 최신 이벤트를 볼 수 있습니다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;3-jira-이슈-사항의-활동-로그-필터링&quot;&gt;3. Jira 이슈 사항의 활동 로그 필터링&lt;/h3&gt;
-
-&lt;p&gt;Jira 9.0 버전에서는 Jira 이슈에 대한 활동 로그 사항을 자세히 확인하기 위해 필터링을 걸어 로그를 파악 및 추적이 가능합니다. 해다 기능을 통해 최근에 추가된 주석을 확인하거나 이전 또는 최신의 이벤트를 확인할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img style=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/3.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt; &lt;p style=&quot;color:rgba(0,0,0,.55);&quot;&gt;10개의 이벤트를 로드 한 후 Shift + Select 를 사용하여 모든 이벤트를 한번에 로드 할 수 도 있습니다.&lt;/p&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;3-1-이슈-상태-및-전환-개선&quot;&gt;3-1 이슈 상태 및 전환 개선&lt;/h3&gt;
-
-&lt;p&gt;클릭 한번으로 상태 메뉴에서 모든 이슈와 상태 및 전환을 확인 할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;기존 나열된 상태에서 9.0 버전 에서는 현재 상태를 표시하는 드롭 다운이 추가되고 클릭 시 이슈의 상태와 전환을&lt;/p&gt;
-
-&lt;p&gt;나타냅니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img style=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/4.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt; &lt;p style=&quot;color:rgba(0,0,0,.55);&quot;&gt;기존 Jira 이슈 상태창 (8.20.8 버전)&lt;/p&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img style=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/5.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt; &lt;p style=&quot;color:rgba(0,0,0,.55);&quot;&gt;신규 Jira 이슈 상태창 (9.0 버전)&lt;/p&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;4-이슈-상태-및-전환-개선&quot;&gt;4. 이슈 상태 및 전환 개선&lt;/h3&gt;
-
-&lt;p&gt;기존 Confluence 에서는 Atlassian 클라우드와 DC/server 제품을 구분해서 들어오려면 개별적인 네트워크를 열어야 하기 때문에 번거로움을 가지고 있었습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/6.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;하지만 어플리케이션 터널을 사용한다면 네트워크 터널링을 통해 Atlassian Cloud의 조직과 네트워크 제품 사이에 보안 경로를 생성합니다.&lt;/p&gt;
-
-&lt;p&gt;이제 이 경로를 통해 안전하고 간편한 방식으로 제품을 통합 할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_2Q/7.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;5-속도에-대한-개선-사항&quot;&gt;5. 속도에 대한 개선 사항&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;이슈 보기에서 로드 지연 개선&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;첨부 파일이 포함된 이슈의 지연 시간을 단축 하였습니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;대시보드 보기에서 로드 지연 개선&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;인라인 가젯에 대한 신규 지연 로드 메커니즘 도입에 따라 대시보드 보기가 더 빠르게 로드 됩니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;해결된-이슈-사항&quot;&gt;해결된 이슈 사항&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Version 9.0&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;보고서에서 번업 차트가 사용 하지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSWSERVER-21321&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;필터, 이슈 결과,통계가 외부 가젯으로 conflunce에 작동하지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSWSERVER-21293&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Jira: log4j &amp;lt; 1.2.7-atlassian-16의 여러 취약점&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73885&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;컨텐츠 전송 네트워크 시스템 메뉴가 설정에 보이지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73655&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;데이터 베이스를 다시 시작하면 캐시 복제 이슈가 발생합니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73252&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;동일하지 않은 출처 사이트에서 이슈 수집기를 제출하면 HTTP 404가 발생합니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73212&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;PostgreSql 14에 대한 JIRA 지원이 불가능 합니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-72910&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Version 8.22.2&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Quick Links 가젯이 Conflunece에서 가젯으로서 작동하지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSWSERVER-21294&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;필터 결과가 Confluence에서 가젯으로서 작동하지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSWSERVER-21293&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;이슈 통계가 Confluence에서 가젯으로서 작동하지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSWSERVER-21292&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;대시보드의 프로젝트 가젯에 둘 이상의 프로젝트가 있는 경우 Jira v8.22에서 가젯 로드가 완료되지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSWSERVER-21266&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;“이미 활성 ThreadEventsCapture가 있습니다” 오류와 함께 DVCS 웹훅 처리가 실패합니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSWSERVER-20965&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;REST API /rest/auth/1/session은 LDAPS 사용자에게 “클래스를 찾을 수 없음” 예외를 발생시킵니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73266&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;“I/O 리액터가 비정상적으로 종료됨” 오류 후 Jira 웹훅 작동이 중지 됩니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-72995&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;@멘션 이메일 알림이 이름 대신 사용자 이름(UID)을 표시합니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-72873&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;Version 8.22.3&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;번업 차트는 번다운 차트로 리디렉션됩니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSWSERVER-21344&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;보고서에서 사용할 수 없는 번업 차트가 있습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSWSERVER-21297&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;전환에 포스트 기능 추가 화면이 사용자 선택기 제안에 표시되지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSWSERVER-21279&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Jira: log4j &amp;lt; 1.2.7-atlassian-16의 여러 취약점이 개선되었습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73885&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;페이지 스크롤 막대를 사용하여 대시보드 메뉴를 스크롤할 수 없습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73831&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Windows 기본 추출기로 Jira 8.20.8 zip을 추출할 수 없습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73749&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;NodeRemoved/”노드 비활성화됨” 이벤트만 감사 로그에 기록됩니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73690&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;표에 4번째 행을 추가할 때 표의 상위 2개 행과 겹치는 표 도구가 있습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73327&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;jira-service-management&quot;&gt;Jira Service Management&lt;/h2&gt;
-
-&lt;p&gt;이번 분기 내  Jira Service Management는 훨씬 더 나은 제품을 위해 업데이트를 진행중입니다. 버전 업그레이드를 통해 해결할 수 있는 버그 및 개선 사항은 다음과 같습니다 :&lt;/p&gt;
-
-&lt;h3 id=&quot;-version-422x&quot;&gt;&lt;strong&gt;■ Version 4.22.x&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;숫자로 된 사용자 이름을 가진 상담원은 고객 포털에서 이슈를 생성할 때 “대신 이 요청 제기” 필드에 기본값으로 채워지지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSDSERVER-11256&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;새 이메일 채널을 생성할 때 이메일 서비스 제공업체에 대한 ‘기타’ 옵션이 누락됩니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSDSERVER-11219&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;고객 포털에 여러 단일 사용자 선택기 필드를 추가하면 일부 필드를 편집할 수 없습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSDSERVER-11136&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;시스템 설정에 콘텐츠 전송 네트워크 시스템 메뉴가 없습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73655&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;REST API /rest/auth/1/session은 LDAPS 사용자에게 클래스를 찾을 수 없음 예외를 발생시킵니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-73266&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;“I/O 리액터가 비정상적으로 종료됨” 오류 후 Jira 웹훅 작동이 중지 됩니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-72995&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;@멘션 이메일 알림이 이름 대신 사용자 이름(UID)을 표시합니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-72873&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Jira Lucene Reindexing 메시지가 잘못되었습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JRASERVER-72235&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;confluence&quot;&gt;Confluence&lt;/h2&gt;
-
-&lt;h3 id=&quot;-version-717x--718x&quot;&gt;&lt;strong&gt;■ Version 7.17.x ~ 7.18.x&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;1-1-클러스터의-로깅-수준-변경이-더-쉬워졌습니다&quot;&gt;1-1. 클러스터의 로깅 수준 변경이 더 쉬워졌습니다.&lt;/h3&gt;
-
-&lt;p&gt;기존 Confluence 에서는 이슈가 발생하였을 때 어떤 노드에서 이슈가 발생했는지 확인하기 어려워 이슈에 대한 사항을 추적하기 어려웠습니다.&lt;/p&gt;
-
-&lt;p&gt;이번 업데이트에서는 각 노드별 로그 및 프로파일 설정을 할 수 있기 때문에 각 노드별로 이슈 또는 업데이트 사항에 대한 로그를 확인할 수 있어 변경 사항 및 이슈 추적을 더 쉽게 수행할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_2Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-보안-어플리케이션-터널로-클라우드-제품에-연결이-가능합니다&quot;&gt;2. 보안 어플리케이션 터널로 클라우드 제품에 연결이 가능합니다.&lt;/h3&gt;
-
-&lt;p&gt;기존 Confluence 에서는 Atlassian 클라우드와 DC/server 제품을 구분해서 들어오려면 개별적인 네트워크를 열어야 하기 때문에 번거로움을 가지고 있었습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_2Q/2.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;하지만 어플리케이션 터널을 사용한다면 네트워크 터널링을 통해 Atlassian Cloud의 조직과 네트워크 제품 사이에 보안 경로를 생성합니다.&lt;/p&gt;
-
-&lt;p&gt;이제 이 경로를 통해 안전하고 간편한 방식으로 제품을 통합 할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_2Q/3.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;3-version-7171에서-해결된-버그&quot;&gt;3. &lt;strong&gt;Version 7.17.1~에서 해결된 버그&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;2022년 4월 6일 출시 ~ 전체 내용은 &lt;a href=&quot;http://atlassian.com/&quot;&gt;해결된 이슈&lt;/a&gt; 문서에서 확인하실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Version 7.18.1에서 해결된 이슈&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CVE-2022-22965에 대한 FAQ에 설명된 이슈 해결 추적&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-78586&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Confluence Data Center - Hazelcast의 Java 역직렬화 취약점(CVE-2016-10750)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-78179&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;HazelCast(Confluence) 포트를 통한 Confluence DataCenter의 RCE&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-79017&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Confluence Server 및 Data Center에서 OGNL 주입을 통한 원격 코드 실행 - CVE-2022-26134&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-79016&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;version-7180에서-해결된-이슈&quot;&gt;&lt;strong&gt;Version 7.18.0에서 해결된 이슈&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;데이터베이스 권한 검사는 Oracle의 역할을 지원하지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-55446&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;기본 Content API 엔드포인트에 도달하면 대규모 인스턴스에서 성능 이슈가 발생할 수 있습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-57639&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;보기 파워포인트 매크로를 사용하거나 미리 보기 생성 시 간단한 PPTX 파일로 인해 OOME가 발생할 수 있습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-61143&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Excel의 표 또는 Word의 서식 있는 콘텐츠를 붙여넣으면 페이지에 추가 이미지 첨부 파일이 삽입됩니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-78579&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Confluence: log4j &amp;lt; 1.2.7-atlassian-16의 여러 취약점&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-78991&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;version-7174에서-해결된-이슈&quot;&gt;&lt;strong&gt;Version 7.17.4에서 해결된 이슈&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;OGNL 템플릿 주입을 통한 인증되지 않은 원격 코드 실행 취약점 - 중복&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-79000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;잘못된 i18n 로케일로 변환된 고급 감사 이벤트가 있습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-79023&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;version-7173에서-해결된-이슈&quot;&gt;&lt;strong&gt;Version 7.17.3에서 해결된 이슈&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Excel의 표 또는 Word의 서식 있는 콘텐츠를 붙여넣으면 페이지에 추가 이미지 첨부 파일이 삽입됩니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-78579&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;version-7172에서-해결된-이슈&quot;&gt;&lt;strong&gt;Version 7.17.2에서 해결된 이슈&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Confluence 온프레미스 환경에서 Jira Cloud에 이슈를 생성할 수 없습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-75951&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;빠른 권한은 1000개 이상의 그룹이 있는 사용자를 지원하지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;CONSERVER-78296&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
-
-&lt;p&gt;감사합니다.😃&lt;/p&gt;
-</description>
-        <pubDate>Mon, 27 Jun 2022 00:00:00 +0900</pubDate>
-        <link>/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Server.html</link>
-        <guid isPermaLink="true">/release%20note/2022/06/27/2Q2022-Atlassian-Release-Notes-Server.html</guid>
-        
-        <category>Atlassian</category>
-        
-        <category>Atlassian Data Center</category>
-        
-        <category>아틀라시안</category>
-        
-        <category>아틀라시안 서버</category>
-        
-        <category>데이터 센터</category>
-        
-        <category>Jira</category>
-        
-        <category>jira</category>
-        
-        <category>Jira Server</category>
-        
-        <category>Data Center</category>
-        
-        <category>Release</category>
-        
-        <category>Release Note</category>
-        
-        <category>Jira Sofrware</category>
-        
-        <category>Jira Service Management</category>
-        
-        <category>Confluence</category>
-        
-        <category>컨플</category>
-        
-        <category>DevOps</category>
-        
-        <category>데브옵스</category>
-        
-        <category>dev</category>
-        
-        <category>Dev</category>
-        
-        <category>에자일</category>
-        
-        <category>Agile</category>
-        
-        <category>Wiki</category>
-        
-        
-        <category>Release Note</category>
         
       </item>
     
