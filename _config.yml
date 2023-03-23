@@ -21,7 +21,7 @@ authors:
     avatar : 'assets/images/main/img_ourteam_jenna.png'
     email : jenna@dmove.kr
     description : 디무브 Sales & Marketing Manager Jenna 입니다.
-    web : https://dmove.co.kr/company/our-team#jenna
+    web : https://www.dmove.co.kr/company/our-team#jenna
 
 
   sarah:
@@ -31,7 +31,7 @@ authors:
     avatar : 'assets/images/main/img_ourteam_sarah.png'
     email : jenna@dmove.kr
     description : 디무브 Sales Admin 업무를 수행하고 있는 sarah 입니다.
-    web : https://dmove.co.kr/company/our-team#sarah
+    web : https://www.dmove.co.kr/company/our-team#sarah
 
 
   ellin:
@@ -41,7 +41,7 @@ authors:
     avatar : 'assets/images/main/img_ourteam_ellin.png'
     email : ellin@dmove.kr
     description : 디무브 Office Manager Ellin 입니다.
-    web : https://dmove.co.kr/company/our-team#ellin
+    web : https://www.dmove.co.kr/company/our-team#ellin
 
 
   andy:
@@ -51,7 +51,7 @@ authors:
     avatar : 'assets/images/main/img_ourteam_andy.png'
     email : wign21@dmove.kr
     description : 디무브 Atlassian Solution Engineer Andy 입니다.
-    web : https://dmove.co.kr/company/our-team#andy 
+    web : https://www.dmove.co.kr/company/our-team#andy 
 
     
 
@@ -63,7 +63,7 @@ authors:
     avatar : 'assets/images/main/img_ourteam_jackson.png'
     email : jackson@dmove.kr
     description : 디무브 Atlassian Solution Engineer Jackson 입니다.
-    web : https://dmove.co.kr/company/our-team#jackson
+    web : https://www.dmove.co.kr/company/our-team#jackson
 
   ethan:
     name : Ethan
@@ -72,7 +72,7 @@ authors:
     avatar : 'assets/images/main/img_ourteam_ethan.png'
     email : ethan@dmove.kr
     description : 디무브 아틀라시안 개발자로 근무하고 있습니다. 블로그 많이 사랑해 주세요!
-    web : https://dmove.co.kr/company/our-team#ethan
+    web : https://www.dmove.co.kr/company/our-team#ethan
 
   eddie:
     name : Eddie
@@ -81,7 +81,7 @@ authors:
     avatar : 'assets/images/main/img_ourteam_eddie.png'
     email : eddie@dmove.kr
     description : 디무브 Atlassian Solution Engineer Eddie 입니다.
-    web : https://dmove.co.kr/company/our-team#eddie 
+    web : https://www.dmove.co.kr/company/our-team#eddie 
 
 # Plugins
 plugins:
