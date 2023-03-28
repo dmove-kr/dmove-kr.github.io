@@ -4,7 +4,6 @@ title: Atlassian Confluence Cloud 사용자 티어 확대
 Subtitle: Atlassian Cloud Migration Webinar
 date: 2023-03-28
 author : sarah
-image : assets/images/Webinar/20221027/Thumbnail.png
 categories: [Company News]
 tags: [Atlassian, 아틀라시안, Atlassian Cloud, Jira, Confluence, Jira Service Management, 아틀라시안클라우드, 협업툴, 아틀라시안가격]
 ---
