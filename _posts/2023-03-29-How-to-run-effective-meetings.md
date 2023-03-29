@@ -63,7 +63,7 @@ tags: [Atlassian, 아틀라시안, Atlassian Cloud, Confluence, 아틀라시안�
 
  
 
-![img](https://api.media.atlassian.com/file/42b48adc-2935-4912-83a9-89daeb295ca9/image?allowAnimated=true&client=590ec727-dc86-43ed-9d0b-3f79195d9307&collection=contentId-35402711091&height=1638&max-age=2592000&mode=full-fit&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQwMjcxMTA5MSI6WyJyZWFkIl19LCJleHAiOjE2ODAwNjY1NzIsIm5iZiI6MTY4MDA2MzY5Mn0.RlhYy6d2W2Sl_mOnaZXrOa8kUZeZBFwjv-2IsJETr8A&width=2206#media-blob-url=true&id=42b48adc-2935-4912-83a9-89daeb295ca9&collection=contentId-35402711091&contextId=35402711091&height=1088&width=1464&alt=)
+![img](https://blog.dmove.kr/assets/images/Hybrid-Work/1.png)
 
  
 
