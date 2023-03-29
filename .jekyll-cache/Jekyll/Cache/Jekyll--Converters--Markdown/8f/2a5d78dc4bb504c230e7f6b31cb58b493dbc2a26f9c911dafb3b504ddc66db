@@ -8,7 +8,7 @@
 
 <hr />
 
-<h1 id="1-jira-software"><strong>1. Jira Software</strong></h1>
+<h2 id="1-jira-software"><strong>1. Jira Software</strong></h2>
 
 <h3 id="-version-93x--version-95x"><strong>■ Version 9.3.x ~ Version 9.5.x</strong></h3>
 
@@ -198,7 +198,7 @@
   </tbody>
 </table>
 
-<h1 id="2-jira-service-management"><strong>2. Jira Service Management</strong></h1>
+<h2 id="2-jira-service-management"><strong>2. Jira Service Management</strong></h2>
 
 <h3 id="-version-53x--version-55x"><strong>■ Version 5.3.x ~ Version 5.5.x</strong></h3>
 
@@ -208,7 +208,7 @@
 
 <p>하지만 <strong>Version 5.3</strong> 버전에서는 관리자에게 기본 설정된 메일 필터 기능을 켜거나 끌 수 있는 옵션을 제공 합니다.</p>
 
-<center><img sytle="width:50%;" src="http://localhost:4000/assets/images/Release%20Note%20Server/Jira Service Management/2022_4Q/1.png" /></center>
+<center><img sytle="width:50%;" src="https://blog.dmove.kr/assets/images/Release%20Note%20Server/Jira Service Management/2022_4Q/1.png" /></center>
 <p><br /></p>
 
 <p>해당 기능은 위와 같이 설정 &gt; 이메일 요청 &gt; 허가목록 에서 설정 가능합니다.</p>
@@ -224,7 +224,7 @@
 
 <p>이제 내 요청 페이지에서 열을 오름차순과 내림차순으로 정렬이 가능합니다.</p>
 
-<center><img sytle="width:50%;" src="http://localhost:4000/assets/images/Release%20Note%20Server/Jira Service Management/2022_4Q/2.png" /></center>
+<center><img sytle="width:50%;" src="https://blog.dmove.kr/assets/images/Release%20Note%20Server/Jira Service Management/2022_4Q/2.png" /></center>
 <p><br /></p>
 
 <div style="border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);"><div style="flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); "><span role="img" style="--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;"><svg style="width: 24; height: 24; role: presentation;"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z" fill="currentColor"></path></svg></span></div> <div class="notebox-text">헬프 포털 환경은 5.3 버전 이후 로그인을 하지 않아도 접속 가능하게 변경되었습니다.</div></div>
@@ -300,7 +300,7 @@
   </tbody>
 </table>
 
-<h1 id="3-confluence">3. Confluence</h1>
+<h2 id="3-confluence">3. Confluence</h2>
 
 <h3 id="-version-720x--80"><strong>■ Version 7.20.x ~ 8.0</strong></h3>
 
@@ -308,24 +308,24 @@
 
 <p>이제 고급 로드맵을 사용하여 Confluence에 더 풍부한 보고서를 작성 가능합니다.</p>
 
-<center><img sytle="width:50%;" src="http://localhost:4000/assets/images/Release%20Note%20Server/Confluence/2022_4Q/1.png" /></center>
+<center><img sytle="width:50%;" src="https://blog.dmove.kr/assets/images/Release%20Note%20Server/Confluence/2022_4Q/1.png" /></center>
 <p><br /></p>
 
 <h3 id="2-이모티콘-개선">2. 이모티콘 개선</h3>
 
 <p>이모티콘 메뉴를 팀으로 부터 받기 원하는 이모티콘으로 개선하였습니다.</p>
 
-<center><img sytle="width:50%;" src="http://localhost:4000/assets/images/Release%20Note%20Server/Confluence/2022_4Q/2.png" /></center>
+<center><img sytle="width:50%;" src="https://blog.dmove.kr/assets/images/Release%20Note%20Server/Confluence/2022_4Q/2.png" /></center>
 <p><br /></p>
 
 <h3 id="3-라이선스-사용량-관리-페이지-추가">3. 라이선스 사용량 관리 페이지 추가</h3>
 
 <p>관리자는 이제 미사용 혹은 유휴 계정을 한번에 파악 할 수 있습니다.</p>
 
-<center><img sytle="width:50%;" src="http://localhost:4000/assets/images/Release%20Note%20Server/Confluence/2022_4Q/3.png" /></center>
+<center><img sytle="width:50%;" src="https://blog.dmove.kr/assets/images/Release%20Note%20Server/Confluence/2022_4Q/3.png" /></center>
 <p><br /></p>
 
-<center><img sytle="width:50%;" src="http://localhost:4000/assets/images/Release%20Note%20Server/Confluence/2022_4Q/4.png" /></center>
+<center><img sytle="width:50%;" src="https://blog.dmove.kr/assets/images/Release%20Note%20Server/Confluence/2022_4Q/4.png" /></center>
 <p><br /></p>
 
 <div style="border-radius: 3px; margin: 0.75rem 0px 0px; padding: 8px; display: flex; background-color: rgb(222, 235, 255);"><div style="flex-shrink: 0; height:24px; widht:24px; box-sizing: content-box; padding-right: 8px; text-align: center; user-select: none; color: rgb(0, 82, 204); "><span role="img" style="--icon-primary-color: currentcolor; --icon-secondary-color: var(--ds-surface, #FFFFFF); vertical-align: middle; display: inline-flex; flex-shrink: 0; line-height: 1;"><svg style="width: 24; height: 24; role: presentation;"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22V22ZM12 11.375C11.6685 11.375 11.3505 11.5067 11.1161 11.7411C10.8817 11.9755 10.75 12.2935 10.75 12.625V15.75C10.75 16.0815 10.8817 16.3995 11.1161 16.6339C11.3505 16.8683 11.6685 17 12 17C12.3315 17 12.6495 16.8683 12.8839 16.6339C13.1183 16.3995 13.25 16.0815 13.25 15.75V12.625C13.25 12.2935 13.1183 11.9755 12.8839 11.7411C12.6495 11.5067 12.3315 11.375 12 11.375ZM12 9.96875C12.4558 9.96875 12.893 9.78767 13.2153 9.46534C13.5377 9.14301 13.7188 8.70584 13.7188 8.25C13.7188 7.79416 13.5377 7.35699 13.2153 7.03466C12.893 6.71233 12.4558 6.53125 12 6.53125C11.5442 6.53125 11.107 6.71233 10.7847 7.03466C10.4623 7.35699 10.2812 7.79416 10.2812 8.25C10.2812 8.70584 10.4623 9.14301 10.7847 9.46534C11.107 9.78767 11.5442 9.96875 12 9.96875Z" fill="currentColor"></path></svg></span></div> <div class="notebox-text">해당 설정 페이지는 설정&gt; 일반구성&gt; 라이센스 세부 정보에서 확인 가능합니다.</div></div>

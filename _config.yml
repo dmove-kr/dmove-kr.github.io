@@ -23,6 +23,15 @@ authors:
     description : 디무브 Sales & Marketing Manager Jenna 입니다.
     web : https://www.dmove.co.kr/company/our-team#jenna
 
+  
+  hailey:
+    name : hailey
+    display_name : Hailey
+    executive : Marketing Manager
+    avatar : 'assets/images/main/img_ourteam_hailey.png'
+    email : jenna@dmove.kr
+    description : 디무브 Sales & Marketing Manager hailey 입니다.
+    web : https://www.dmove.co.kr/company/our-team#hailey
 
   sarah:
     name : sarah

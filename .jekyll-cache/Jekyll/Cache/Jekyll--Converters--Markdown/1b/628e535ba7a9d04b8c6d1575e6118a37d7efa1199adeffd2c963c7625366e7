@@ -1,4 +1,4 @@
-I"�)<!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) -->
+I"�)<!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) -->
 
 <p>안녕하세요. 디무브 입니다 <img src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png" alt=":balloon:" /></p>
 
@@ -80,6 +80,8 @@
   </li>
 </ul>
 
+<hr />
+
 <h2 id="jira-service-management">Jira Service Management</h2>
 
 <h3 id="1-이슈-유형과-요청-유형-구분-회사-관리-프로젝트">1. 이슈 유형과 요청 유형 구분 (회사 관리 프로젝트)</h3>
@@ -137,6 +139,8 @@
 <ul>
   <li>큐 제한 증가 : 각 작업에서 확인가능한 큐의 갯수를 50개에서 300개로 확대되었습니다.</li>
 </ul>
+
+<hr />
 
 <h2 id="confluence">Confluence</h2>
 
