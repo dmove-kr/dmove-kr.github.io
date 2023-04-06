@@ -740,6 +740,11 @@ h6 {
 
 
 
+.h2 {
+
+    font-size: 1.7rem;
+
+}
 
 
 
@@ -1105,4 +1110,14 @@ table {
   }
 
   
+.left-box {
+    float: left;
+    max-width: 45%;
+    margin-right: 5%;
+}
 
+.right-box{
+    max-width: 45%;
+    float: left;
+    margin-left : 5%;
+}
