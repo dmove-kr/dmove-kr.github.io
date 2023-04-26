@@ -5,9 +5,142 @@
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Apr 2023 15:30:46 +0900</pubDate>
-    <lastBuildDate>Thu, 06 Apr 2023 15:30:46 +0900</lastBuildDate>
+    <pubDate>Wed, 26 Apr 2023 09:55:10 +0900</pubDate>
+    <lastBuildDate>Wed, 26 Apr 2023 09:55:10 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>아틀라시안 클라우드 사용자 추가 시 비용 계산</title>
+        <description>&lt;p&gt;안녕하세요.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안 플래티넘 솔루션 파트너사 디무브입니다.&lt;/p&gt;
+
+&lt;p&gt;이번 포스팅에서는 많은 분들께서 궁금해 하시는 사용자 추가에 따른 비용 계산 방법을 알려드리고자 합니다.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안 클라우드 연간 구독 상품을 이용하다 보면 신규 입사자, 프로젝트 운영에 따른 외부 사용자 추가, 사내 사용 부서 확대 등 다양한 이유로 사용자 추가가 필요해지는 상황들이 종종 생깁니다. 구독 중인 티어 범위 내에서 사용자가 추가된다면 문제 없지만, 티어 최대치까지 다 사용했다면 다음 티어로의 업그레이드를 진행하셔야 합니다.&lt;/p&gt;
+
+&lt;p&gt;이때 업그레이드를 위해 추가로 부담해야 하는 비용은 얼마일까요? 이미 1년 사용료를 납부했는데 업그레이드를 하게 되면 이중 과금이 되는 건 아닐까요?&lt;/p&gt;
+
+&lt;p&gt;많은 분들이 궁금해 하셨던 연간 구독 상품 이용 중 사용자 추가, 즉 티어 업그레이드에 따른 추가 비용은 어떻게 계산하는지 알려드리도록 하겠습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;이해를 돕기 위해 다음과 같이 연간 구독 비용을 가정해 보겠습니다.&lt;/p&gt;
+
+&lt;div style=&quot;width: 100%; border-collapse: collapse; border: 1px solid var(--ds-border, #C1C7D0);  background-color: rgb(230, 252, 255); &quot;&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt; &lt;strong&gt; A 고객사 상황&lt;/strong&gt;&lt;/p&gt; &lt;br /&gt;
+&lt;ul&gt;
+    &lt;li&gt;오늘 날짜: 6월 30일&lt;/li&gt;
+    &lt;li&gt;구독 상품: Confluence Cloud
+        &lt;ul&gt;
+            &lt;li&gt;100명: 10,000원&lt;/li&gt;
+            &lt;li&gt;200명: 20,000원&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;구독 기간: 1월 1일 ~ 12월 31일 (12개월)&lt;/li&gt;
+    &lt;li&gt;고객 요청 사항&lt;/li&gt;
+    &lt;p&gt;1월 1일부터 12개월간 최대 100명의 사용자가 Confluence를 사용하는 것으로 10,000원 납부 완료.&lt;/p&gt;
+    &lt;p&gt;7월 1일 프로젝트 진행을 위해 해외 지사 50명을 A사의 Confluence 사용자로 추가하고자 함.&lt;/p&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;이 경우 1월 1일부터 사용하던 100명은 그대로인 상태에서, 7월 1일부터 50명이 추가된 총 인원 150명이 함께 사용을 해야 하는 상황이 된 것인데요. A사의 Confluence 사용자 인원 및 기간을 정리하면 다음과 같습니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://api.media.atlassian.com/file/2e7d8df6-7d6c-4a29-92dd-2b64cea4e3fa/image?allowAnimated=true&amp;amp;client=590ec727-dc86-43ed-9d0b-3f79195d9307&amp;amp;collection=contentId-35420766251&amp;amp;height=718&amp;amp;max-age=2592000&amp;amp;mode=full-fit&amp;amp;token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQyMDc2NjI1MSI6WyJyZWFkIl19LCJleHAiOjE2ODI0NzA5MTMsIm5iZiI6MTY4MjQ2ODAzM30.GYCo3vVMt2WgPNvz67ph2gYQscOZLkW7gyhX3wLj_p4&amp;amp;width=3072#media-blob-url=true&amp;amp;id=2e7d8df6-7d6c-4a29-92dd-2b64cea4e3fa&amp;amp;collection=contentId-35420766251&amp;amp;contextId=35420766251&amp;amp;height=220&amp;amp;width=941&amp;amp;alt=&quot; /&gt;&lt;/center&gt;
+
+&lt;center&gt;그림1. 기간별 사용자 인원&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;이럴 경우 인원 추가에 따른 비용 계산은 다음과 같이 하게 됩니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사용자 추가 후 &lt;strong&gt;최종 사용자 수의 티어 단위를 확인&lt;/strong&gt;합니다.
+    &lt;ol&gt;
+      &lt;li&gt;최종 사용자수 : 100명+50명=150명&lt;/li&gt;
+      &lt;li&gt;100명 다음 티어 단위는 &lt;strong&gt;200명 (101-200명)&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;해당 티어의 연간 금액을 &lt;strong&gt;사용하고자 하는 기간(6개월)만큼만 일할 계산&lt;/strong&gt;합니다.
+    &lt;ol&gt;
+      &lt;li&gt;200명 연간 금액 = 20,000원&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;200명 6개월 금액 = 10,000원 ㉠&lt;/strong&gt;
+        &lt;ol&gt;
+          &lt;li&gt;(20,000원/12개월)*6개월=10,000원&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기 납부한 비용 중 소진된 비용과 &lt;strong&gt;미 소진 비용&lt;/strong&gt;을 계산합니다.
+    &lt;ol&gt;
+      &lt;li&gt;기 납부 비용: 10,000원 (100명 기준, 1/1 ~ 12/31)&lt;/li&gt;
+      &lt;li&gt;소진한 비용: 5,000원
+        &lt;ol&gt;
+          &lt;li&gt;100명이 1/1~ 6/ 30까지 이용한 것에 대한 비용 = (10,000원/12개월)*6개월 = 5,000원&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;미 소진 비용: 5,000원 ㉡&lt;/strong&gt; (7/1 ~ 12/31)
+        &lt;ol&gt;
+          &lt;li&gt;기 납부 비용 (10,000원)- 소진한 비용 (5,000원)= 5,000원&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;200명의 6개월 금액(㉠)에서 100명이 6개월 간 사용한 비용을 뺀 나머지 비용(㉡)을 빼면 A사가 사용자 티어변경(100 →200)으로 추가 납부해야 하는 최종 금액이 나옵니다.
+    &lt;ol&gt;
+      &lt;li&gt;10,000원 ㉠ - 5,000원 ㉡= 5,000원&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;A사는 7월 1일부터 사용자 50명(최대 100명까지)을 추가하기 위해 5,000원을 더 납부해야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*이해를 돕고자 월 단위로 계산함.&lt;/p&gt;
+
+&lt;p&gt;A사가 Confleunce를 6개월(1/1~6/30) 동안 100명 기준으로 사용한 뒤, 나머지 6개월(7/1~12/31)은 200명 기준으로 사용하여 납부한 총 비용은 15,000원이 됩니다.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://api.media.atlassian.com/file/4f1e1e2a-c987-478f-9d13-9704756ef5a0/image?allowAnimated=true&amp;amp;client=590ec727-dc86-43ed-9d0b-3f79195d9307&amp;amp;collection=contentId-35420766251&amp;amp;height=1508&amp;amp;max-age=2592000&amp;amp;mode=full-fit&amp;amp;token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQyMDc2NjI1MSI6WyJyZWFkIl19LCJleHAiOjE2ODI0NzA5MTMsIm5iZiI6MTY4MjQ2ODAzM30.GYCo3vVMt2WgPNvz67ph2gYQscOZLkW7gyhX3wLj_p4&amp;amp;width=3072#media-blob-url=true&amp;amp;id=4f1e1e2a-c987-478f-9d13-9704756ef5a0&amp;amp;collection=contentId-35420766251&amp;amp;contextId=35420766251&amp;amp;height=507&amp;amp;width=1032&amp;amp;alt=&quot; /&gt;&lt;/center&gt;
+
+&lt;center&gt;그림 2. 기간별 사용자 인원과 소진된 비용&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;아틀라시안 클라우드 라이선스 구독 기간 중간에 사용자 추가시 부담해야 하는 비용 계산 방법, 이해가 되셨나요? 사용자 추가 뿐 아니라 플랜 업그레이드 시에도 위와 마찬가지로 계산합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;아틀라시안에서는 정가 기준으로 일할 계산을 하고, 디무브는 일할 계산 및 할인 적용한 가격을 공급할 수 있기 때문에 여러분들이 계산하는 것과는 조금 차이가 날 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;사용자 추가 및 플랜 업그레이드 관련하여 문의사항 있으시다면 지금 바로 디무브에 연락주세요!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 25 Apr 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/company%20news/2023/04/25/Atlassian-Cloud-User-Pee.html</link>
+        <guid isPermaLink="true">http://localhost:4000/company%20news/2023/04/25/Atlassian-Cloud-User-Pee.html</guid>
+        
+        <category>아틀라시안클라우드</category>
+        
+        <category>사용자추가</category>
+        
+        <category>사용자 업그레이드</category>
+        
+        <category>티어업그레이드</category>
+        
+        <category>플랜업그레이드</category>
+        
+        <category>플랜변경</category>
+        
+        <category>아틀라시안추가비용</category>
+        
+        <category>아틀라시안업그레이드</category>
+        
+        <category>추가비용계산</category>
+        
+        
+        <category>Company News</category>
+        
+      </item>
     
       <item>
         <title>Jira Service Management를 사용하여 HR개선하는 방법</title>
@@ -2222,172 +2355,6 @@
         <category>Wiki</category>
         
         <category>Bitbuket</category>
-        
-        
-        <category>Release Note</category>
-        
-      </item>
-    
-      <item>
-        <title>2022 Atlassian 주요 제품 릴리즈 노트  ( Jul ~ Sep) - Cloud</title>
-        <description>&lt;!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) --&gt;
-
-&lt;p&gt;안녕하세요. 디무브 입니다 &lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png&quot; alt=&quot;:balloon:&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이번 시간에는 2022년 3분기 기간 동안 아틀라시안의 주요제품인 Jira Software, Jira Service Management 및 Confluence의 클라우드 제품 릴리즈 노트를 말씀드리려합니다.&lt;/p&gt;
-
-&lt;p&gt;각 제품의 Cloud 버전에 어떠한 변화가 있었는지 함께 확인 할 수 있는 시간을 놓치지 마세요!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;jira-software&quot;&gt;Jira Software&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-스마트-링크-미리보기&quot;&gt;1. 스마트 링크 미리보기&lt;/h3&gt;
-
-&lt;p&gt;기존 Jira 의 링크는 해당 URL을 타고 들어가야만 해당 정보를 얻을 수 있다는 단점이 존재 하였습니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 이제 스마트 링크를 사용하여 링크 뒤에 사이트에 대해 다른 탭을 열 필요 없이 다른 이슈 또는 페이지에 대한 링크를 포함하여 미리 볼 수 있게 되었습니다!&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;위처럼 커서를 링크에 둘 경우, 해당 링크의 주요 정보를 미리 볼 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-시스템-대시-보드-익명-접근-방지&quot;&gt;2. 시스템 대시 보드 익명 접근 방지&lt;/h3&gt;
-
-&lt;p&gt;이번 분기 업데이트 내용 중 하나는 Jira  대시보드 엑세스 기능이 추가되었습니다.&lt;/p&gt;
-
-&lt;p&gt;관리자 계정의 사용자가 사이트 내 조직에 속해 있지 않다면, 기본 대시보드에 접근이 불가능합니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;3-이슈-생성-간-이슈의-상태-설정&quot;&gt;3. 이슈 생성 간 이슈의 상태 설정&lt;/h3&gt;
-
-&lt;p&gt;기존 Jira같은 경우는 이슈를 만들고 상태를 변경하여야만 했기 때문에 많은 사용자 분들이 이슈를 생성할 때 해당 이슈의 상태를 지정하기를 원했습니다. 이제 이슈 생성 중 이슈의 상태를 설정할 수 있도록 새롭게 &lt;strong&gt;상태&lt;/strong&gt; 필드가 추가 되었습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira/2022_3Q/3.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;위 이미지 처럼  이슈 생성 간 이슈 전환을 할 필요 없이 필드에서 이슈 상태를 선택 할 수 있도록 구성이 가능합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;jira-service-management&quot;&gt;Jira Service Management&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-서비스-데스크-이슈-생성-시-요청-등록-기능-추가-agent&quot;&gt;1. 서비스 데스크 이슈 생성 시 요청 등록 기능 추가 (Agent)&lt;/h3&gt;
-
-&lt;p&gt;기존 JSM에서는 요청을 등록 하려면 서비스 포털에서만 요청을 선택할 수 있고, 이슈 생성 시에는 요청 유형을 선택할 수 없기 때문에, 이슈를 등록하여 서비스 요청을 생성하는 경우 많은 어려움이 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;이번 업데이트에서는  이슈를 생성 시 요청 유형을 별도로 선택 할 수 있어 굳이 서비스 포털에서 요청 등록을 하지 않더라도 이슈 생성을 통해 서비스 요청 유형을 지정할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira Service Management/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-서비스-포털-에서-사용자-멘션-기능-추가&quot;&gt;2. 서비스 포털 에서 사용자 멘션 기능 추가&lt;/h3&gt;
-
-&lt;p&gt;포탈에 서비스 요청을 할 때 기존 서비스 요청을 처리하는 특정 담당자를 언급(멘션)하는 기능은 지원되지 않았습니다.&lt;/p&gt;
-
-&lt;p&gt;이에 기존 담당자와 요청에 대해 이야기 하려면 따로 유선으로 연락을 하거나 문자를 통해 이야기 해야 했기 때문에 서비스 데스크의 순 기능을 발휘할 수 없었습니다.이번 업데이트 에서는 JSM 포털에서 요청 등록 시 사용자 언급이 가능하게 되었습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Jira Service Management/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;위처럼 &lt;strong&gt;’@’ 후 맨션&lt;/strong&gt; 기능을 사용해 담당자를 호출 할 수도 있어서 정보를 정확하게 공유가 가능합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;confluence&quot;&gt;Confluence&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-관련-페이지-추천&quot;&gt;1. 관련 페이지 추천&lt;/h3&gt;
-
-&lt;p&gt;새로운 기능으로 Confluence 관련 페이지가 추가되었습니다.&lt;/p&gt;
-
-&lt;p&gt;모든 페이지의 가장 하단에 관련 페이지 추천이 3개 표시가 됩니다. 해당 관련 페이지는 내용을 기반으로 관련된 페이지를 Confluence가 추천해 줍니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-페이지에-상태-추가&quot;&gt;2. 페이지에 상태 추가&lt;/h3&gt;
-
-&lt;p&gt;기존에 페이지 작성 시 초안을 작성하거나 미완성 문서를 작성 할 때&lt;/p&gt;
-
-&lt;p&gt;제목 앞에 [미완성]을 붙이는 등 불편하고 번거로운 경우가 많았을 것 입니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 이제 상태를 나타낼 수 있는 항목이 새로 생겼고&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/e1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;위처럼 페이지에 대한 상태를 나타내 해당 페이지의 상태를 공유하는 것이 가능해 졌습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;상태는 색과 멘트까지 직접 입력이 가능합니다!&lt;/p&gt;
-
-&lt;h3 id=&quot;3-ppt모드가-추가-되었습니다&quot;&gt;3. PPT모드가 추가 되었습니다!&lt;/h3&gt;
-
-&lt;p&gt;평소 페이지에 대한 발표, 소개를 진행함에 있어서 드래그로 내려서 소개를 하시거나 문서 내보내기를 통해  다운로드 받아서 PPT로 변환 시켜 내용 공유를 진행 하셨을 것 입니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 이제 프리젠테이션 모드 기능 추가로 인해 내용을 팀원에게 공유하거나 발표를 진행 할 때 보다 간편하게 공유가 가능해 졌습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/3.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Cloud/Confluence/2022_3Q/4.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;프레젠테이션 모드를 실행하게 되면 페이지를 파트별로 나눠서 보여주고, QR같은 기능과 함께 사용하면 팀원과 모두 손쉽게 페이지 정보 공유가 가능합니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
-
-&lt;p&gt;감사합니다.😃&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 29 Sep 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Cloud.html</link>
-        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Cloud.html</guid>
-        
-        <category>Atlassian</category>
-        
-        <category>Atlassian Cloud</category>
-        
-        <category>아틀라시안</category>
-        
-        <category>아틀라시안클라우드</category>
-        
-        <category>Jira</category>
-        
-        <category>jira</category>
-        
-        <category>Jira Cloud</category>
-        
-        <category>Release</category>
-        
-        <category>Release Note</category>
-        
-        <category>Jira Sofrware</category>
-        
-        <category>Jira Service Management</category>
-        
-        <category>Confluence</category>
-        
-        <category>컨플</category>
-        
-        <category>DevOps</category>
-        
-        <category>데브옵스</category>
-        
-        <category>dev</category>
-        
-        <category>Dev</category>
-        
-        <category>에자일</category>
-        
-        <category>Agile</category>
-        
-        <category>Wiki</category>
         
         
         <category>Release Note</category>
