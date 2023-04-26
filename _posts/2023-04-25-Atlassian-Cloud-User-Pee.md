@@ -56,7 +56,7 @@ tags: [아틀라시안클라우드, 사용자추가 ,사용자 업그레이드 ,
 
 이 경우 1월 1일부터 사용하던 100명은 그대로인 상태에서, 7월 1일부터 50명이 추가된 총 인원 150명이 함께 사용을 해야 하는 상황이 된 것인데요. A사의 Confluence 사용자 인원 및 기간을 정리하면 다음과 같습니다. 
 
-<center><img src="https://api.media.atlassian.com/file/2e7d8df6-7d6c-4a29-92dd-2b64cea4e3fa/image?allowAnimated=true&client=590ec727-dc86-43ed-9d0b-3f79195d9307&collection=contentId-35420766251&height=718&max-age=2592000&mode=full-fit&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQyMDc2NjI1MSI6WyJyZWFkIl19LCJleHAiOjE2ODI0NzA5MTMsIm5iZiI6MTY4MjQ2ODAzM30.GYCo3vVMt2WgPNvz67ph2gYQscOZLkW7gyhX3wLj_p4&width=3072#media-blob-url=true&id=2e7d8df6-7d6c-4a29-92dd-2b64cea4e3fa&collection=contentId-35420766251&contextId=35420766251&height=220&width=941&alt="></center>
+<center><img src="https://blog.dmove.kr/assets/images/Atlassian-Cloud-User-Pee/1.png"></center>
 
 <center>그림1. 기간별 사용자 인원</center> 
 
@@ -91,7 +91,7 @@ A사가 Confleunce를 6개월(1/1~6/30) 동안 100명 기준으로 사용한 뒤
 
 
 
-<center><img src="https://api.media.atlassian.com/file/4f1e1e2a-c987-478f-9d13-9704756ef5a0/image?allowAnimated=true&client=590ec727-dc86-43ed-9d0b-3f79195d9307&collection=contentId-35420766251&height=1508&max-age=2592000&mode=full-fit&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQyMDc2NjI1MSI6WyJyZWFkIl19LCJleHAiOjE2ODI0NzA5MTMsIm5iZiI6MTY4MjQ2ODAzM30.GYCo3vVMt2WgPNvz67ph2gYQscOZLkW7gyhX3wLj_p4&width=3072#media-blob-url=true&id=4f1e1e2a-c987-478f-9d13-9704756ef5a0&collection=contentId-35420766251&contextId=35420766251&height=507&width=1032&alt="></center>
+<center><img src="https://blog.dmove.kr/assets/images/Atlassian-Cloud-User-Pee/2.png"></center>
 
 
 
