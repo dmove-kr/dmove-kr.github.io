@@ -5,9 +5,109 @@
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Apr 2023 09:55:10 +0900</pubDate>
-    <lastBuildDate>Wed, 26 Apr 2023 09:55:10 +0900</lastBuildDate>
+    <pubDate>Fri, 28 Apr 2023 10:01:19 +0900</pubDate>
+    <lastBuildDate>Fri, 28 Apr 2023 10:01:19 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>아틀라시안의 새로운 프로젝트 소개- 세계 최초의 협업 소닉 브랜드</title>
+        <description>&lt;p&gt;안녕하세요 디무브입니다.&lt;/p&gt;
+
+&lt;p&gt;많은 분이 따라따따따 혹은 두둥~이란 소리를 들으면 특정 브랜드를 바로 떠올리실텐데요.&lt;/p&gt;
+
+&lt;p&gt;이처럼 소리만으로 그 브랜드를 기억해 내는 것을 소닉 브랜딩이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;최근 글로벌 1위 협업툴 아틀라시안도 이 같은 소닉브랜딩을 시도했는데요.&lt;/p&gt;
+
+&lt;p&gt;세계적인 협업툴 브랜드는 색다른 콜라보레이션을 어떻게 진행했는지, 그리고 이 프로젝트를 통해 어떤 가치를 배웠는지 공유해보면 좋을 것 같아 아틀라시안 브랜드 전략팀 리더, ELI MISHKIN의 포스팅을 통해 글을 공유해보려고 합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;인텔, 맥도날드, 넷플릭스 와 같은 소수의 회사는 소리만으로도 알 수 있는데요. 이렇게 몇 초 길이의 음악 시퀀스로 특정 제품이나 조직에 대한 청취자의 감정을 즉시 불러일으키는 것을 &lt;strong&gt;소닉 브랜딩&lt;/strong&gt;이라고 합니다!&lt;/p&gt;
+
+&lt;p&gt;하지만 어느 브랜드가 어떤 소리를 내는지 신경 쓰는 사람이 있을까요? 브랜드의 소리가 왜 중요한가요?&lt;/p&gt;
+
+&lt;p&gt;Atlassian에게는 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;또한 좋은 팀워크와 마찬가지로 독특함을 표현하는 브랜드들에게도 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;브랜드를 나타내는 소리만으로 사람들과 깊게 연결될 수 있기 때문입니다.&lt;/p&gt;
+
+&lt;p&gt;이처럼 &lt;strong&gt;소리를 통해 브랜드를 표현하는 소닉 브랜딩은&lt;/strong&gt; 브랜드를 돋보이게 하고 감각을 자극하며 브랜드가 담고 있는 의미를 강력하게 전달하는 데 도움이 됩니다.&lt;/p&gt;
+
+&lt;p&gt;소닉브랜딩은 브랜드의 소리를 들었을 때 그 브랜드가 원하는 감정과 수준만큼 브랜드를 경험하는 소비자가 느낄 수 있어야 합니다.&lt;/p&gt;
+
+&lt;p&gt;결국 우리는 모두 인간이기 때문에 소리를 통해 공감 되는 감정이 가장 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian 브랜드팀은 최근 &lt;a href=&quot;https://mademusicstudio.com/&quot;&gt;Made Music Studio&lt;/a&gt; 전문가의 도움을 받아 브랜드 사운드를 정의하는 여정에 착수했고 이 여정은 몇 가지 원칙에 따라 진행되었습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;브랜드 및 사용자 경험 향상&lt;/li&gt;
+  &lt;li&gt;점점 시끄러워지는 현장에서 더욱 드러남&lt;/li&gt;
+  &lt;li&gt;우리 브랜드가 상징하는 팀 협력정신 지향&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;우리가 어떻게 우리만의 소닉 브랜드를 개발했는지, 브랜드만의 소리 정체성이 주는 이점, 그리고 모든 팀이 우리의 노력을 통해 얻을 수 있는 이점에 대해 알아보십시오.&lt;/p&gt;
+
+&lt;h2 id=&quot;소닉-브랜드가-중요한-이유는-무엇입니까&quot;&gt;&lt;strong&gt;소닉 브랜드가 중요한 이유는 무엇입니까?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;소닉 브랜드는 특정 브랜드나 제품과 관련된 시그니처 사운드인 일종의 “오디오 북극성”으로 생각할 수 있습니다. 이 레버의 청각적 특성은 몇 가지 이유로 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;소리는 본질적으로 미묘하고 거의 마술처럼 감정과 연결되어 있습니다. “감정은 뇌가 수행해야 하는 가장 복잡한 일 중 하나이며, 감정의 가장 중요한 동인 중 하나는 소리입니다.” 브라운 대학의 청각 신경과학자 Seth Horowitz가 NPR과의 인터뷰에서 말했습니다. “당신이 듣는 모든 것은 당신에게 어느 정도 영향을 미치고 당신이 세상에 반응하는 방식을 변화시킵니다.”&lt;/p&gt;
+
+&lt;p&gt;특히 소리는 기억 및 그에 상응하는 감정과 강하게 연관되어 있는데, 감각 처리와 기억 저장이 우리 뇌의 같은 부분에서 일어나기 때문입니다. 따라서 사람들이 소리를 브랜드와 연관시키면 그 브랜드에 대한 정서는 그 소리를 들을 때마다 촉발됩니다. 그리고 종종 그 감정은 소리 때문에 긍정적으로 바뀔 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;우리는 수십 개의 B2B SaaS 회사 중 하나이며, 고객과 공동 작업자가 자주 생각하기를 바랍니다. Sonic 브랜드를 만들기 시작했을 때 우리의 초점은 &lt;strong&gt;&lt;em&gt;우리를 차별화하는 것이었습니다.&lt;/em&gt;&lt;/strong&gt; 왜냐하면 우리를 차별화하는 것은 사람들이 우리에 대해 독특하고 가치 있다고 생각하는 것, 즉 모든 종류의 팀이 &lt;strong&gt;&lt;em&gt;함께&lt;/em&gt;&lt;/strong&gt; 문제를 해결하는 데 도움이 되는 협업 소프트웨어 및 관행이기 때문입니다 .&lt;/p&gt;
+
+&lt;h2 id=&quot;협업의-소리를-찾아서&quot;&gt;&lt;strong&gt;협업의 소리를 찾아서&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;소닉 브랜딩 프로세스는 4개월이 걸렸으며 Atlassian Way에 따라 4단계로 실행되었습니다. Atlassian Way는 아틀라시안 내부에서 사용하는 프레임 워크로 제품과 서비스를 구축하고 배송하는 단계를 통해 작업하는 것을 의미합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Wonder&lt;/strong&gt; : 첫 번째 단계에서 우리는 고객과 해결해야 할 잠재적 문제 또는 활용할 기회를 이해하려고 합니다. 이는 음악과 사운드의 기존 사용에 대한 감사, 이해관계자와의 인터뷰, 우리 대행사인 Made Music Studio를 참여시켜 프로젝트의 방향과 산출물을 설정하는 창의적인 브리핑을 의미합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Explore&lt;/strong&gt; : Atlassian Way의 두 번째 단계는 다양한 솔루션과 성공의 정의를 실험하고 아이디어를 내는 것을 중심으로 진행됩니다. 우리는 Atlassian 직원, 고객 및 커뮤니티 구성원의 참여를 요청하는 여러 차례의 데모 검토를 수행했으며(자세한 내용은 나중에 설명) 600명이 넘는 사람들과 음향 옵션을 테스트했습니다. 그들의 피드백을 바탕으로 우리는 우리의 sonic 브랜드를 다듬고 완성했습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make&lt;/strong&gt; : 이 단계에서 우리는 음향 브랜드를 가시성이 높은 터치포인트로 짜 넣었습니다. 예를 들어 브랜드 광고가 끝날 때 큰 이벤트 순간을 위한 백킹 트랙으로 사용하고 팟캐스트 끝에 집어넣었습니다. 앞으로 몇 달 동안 우리의 음파 브랜드는 훨씬 더 많은 마케팅 환경에 진출해 소닉브랜딩이 제품 사용자 경험을 개선할 수 있는지를 탐색할 것입니다. (이 과정은 Wonder - Make 단계를 도는 선순환으로 볼 수 있습니다. ).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Impact:&lt;/strong&gt; 네 번째 단계에서는 다른 브랜드 지표와 함께 브랜드 리프트 연구를 사용하여 시간 경과에 따른 Sonic 브랜드의 영향을 측정했습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;완성된-atlassian의-소리가-궁금하시다면--sonic-브랜드-테마--로고-듣기&quot;&gt;&lt;strong&gt;완성된 Atlassian의 소리가 궁금하시다면 ▶&lt;/strong&gt; &lt;a href=&quot;https://www.atlassian.com/blog/strategy/sonic-branding&quot;&gt;&lt;strong&gt;Sonic 브랜드 테마 &amp;amp; 로고 듣기&lt;/strong&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://api.media.atlassian.com/file/b1caec39-6d82-47cb-b525-d908f3e1c74a/image?allowAnimated=true&amp;amp;client=590ec727-dc86-43ed-9d0b-3f79195d9307&amp;amp;collection=contentId-35424141417&amp;amp;height=2044&amp;amp;max-age=2592000&amp;amp;mode=full-fit&amp;amp;token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQyNDE0MTQxNyI6WyJyZWFkIl19LCJleHAiOjE2ODI2NDYxODgsIm5iZiI6MTY4MjY0MzMwOH0.A7ive_380wM1bMgnOU5AZ9F04VVkVMFuGFEQZ6lz36g&amp;amp;width=2844#media-blob-url=true&amp;amp;id=b1caec39-6d82-47cb-b525-d908f3e1c74a&amp;amp;collection=contentId-35424141417&amp;amp;contextId=35424141417&amp;amp;height=968&amp;amp;width=1346&amp;amp;alt=&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;출처 : &lt;a href=&quot;http://atlassian.com/&quot;&gt;&lt;img src=&quot;https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/favicon.png&quot; alt=&quot;img&quot; /&gt;Collaboration software for software, IT and business teams&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;우리는 세계 최초의 협업 소닉 브랜드를 만들었다고 믿습니다.&lt;/p&gt;
+
+&lt;p&gt;여러분이 들을 수 있는 스냅, 박수, 구르는 소리는 수십 명의 Atlassian, 고객 및 커뮤니티 구성원이 제공했으며 디지털 신디사이저 및 드럼 패턴과 함께 첼로, 베이스 및 기타와 같은 유기적인 악기와 혼합되었습니다.&lt;/p&gt;
+
+&lt;p&gt;Atlassian 본연의 가치와 마찬가지로 당사의 음향 브랜드는 인간과 디지털의 조화입니다. - 세상을 바꾸는 팀워크를 위한 소리&lt;/p&gt;
+
+&lt;h2 id=&quot;교훈&quot;&gt;&lt;strong&gt;교훈&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;이 프로젝트를 이끌면서 저는 소닉 브랜드를 만드는 것이 좋은 팀워크와 매우 흡사하다는 것을 배웠습니다. 그것은 단지 한 가지에 관한 것이 아닙니다. 그것은 예술과 과학, 전략과 창의성, 데이터와 인간의 판단, 신념과 열린 마음의 조화입니다. 궁극적으로 가장 효과적인 방법은 사람들과 연결될 기회를 찾는 것입니다. 그런 다음 진정성 있고 독특하게 느껴지는 방식으로 소통하고 협업 하세요.&lt;/p&gt;
+
+&lt;p&gt;결국 효과적인 팀워크는 어려울 수 있습니다. 우리 회사는 사람들이 팀워크를 위한 도움이 필요하기 때문에 존재합니다. 팀은 사람으로 구성되어 있기 때문에, 좋은 팀워크는 많은 마감일, 의견, 변화, 과정 그리고 작업을 탐색하는 것이 필요합니다 .&lt;/p&gt;
+
+&lt;p&gt;Atlassian은 소닉 브랜드와의 협업 중심에 사람을 둔 것이 자랑스럽습니다. 그리고 고객이 혼자서는 불가능했을 일을 해낼 때 소닉 하이 파이브를 할 수 있기를 기대합니다.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Apr 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/inside%20atlassian/2023/04/28/Atlassian-New-project-Sonic-Brand.html</link>
+        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2023/04/28/Atlassian-New-project-Sonic-Brand.html</guid>
+        
+        <category>Atlassian</category>
+        
+        <category>아틀라시안</category>
+        
+        <category>협업툴</category>
+        
+        
+        <category>Inside Atlassian</category>
+        
+      </item>
     
       <item>
         <title>아틀라시안 클라우드 사용자 추가 시 비용 계산</title>
@@ -48,7 +148,7 @@
 
 &lt;p&gt;이 경우 1월 1일부터 사용하던 100명은 그대로인 상태에서, 7월 1일부터 50명이 추가된 총 인원 150명이 함께 사용을 해야 하는 상황이 된 것인데요. A사의 Confluence 사용자 인원 및 기간을 정리하면 다음과 같습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;https://api.media.atlassian.com/file/2e7d8df6-7d6c-4a29-92dd-2b64cea4e3fa/image?allowAnimated=true&amp;amp;client=590ec727-dc86-43ed-9d0b-3f79195d9307&amp;amp;collection=contentId-35420766251&amp;amp;height=718&amp;amp;max-age=2592000&amp;amp;mode=full-fit&amp;amp;token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQyMDc2NjI1MSI6WyJyZWFkIl19LCJleHAiOjE2ODI0NzA5MTMsIm5iZiI6MTY4MjQ2ODAzM30.GYCo3vVMt2WgPNvz67ph2gYQscOZLkW7gyhX3wLj_p4&amp;amp;width=3072#media-blob-url=true&amp;amp;id=2e7d8df6-7d6c-4a29-92dd-2b64cea4e3fa&amp;amp;collection=contentId-35420766251&amp;amp;contextId=35420766251&amp;amp;height=220&amp;amp;width=941&amp;amp;alt=&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Atlassian-Cloud-User-Pee/1.png&quot; /&gt;&lt;/center&gt;
 
 &lt;center&gt;그림1. 기간별 사용자 인원&lt;/center&gt;
 
@@ -100,7 +200,7 @@
 
 &lt;p&gt;A사가 Confleunce를 6개월(1/1~6/30) 동안 100명 기준으로 사용한 뒤, 나머지 6개월(7/1~12/31)은 200명 기준으로 사용하여 납부한 총 비용은 15,000원이 됩니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;https://api.media.atlassian.com/file/4f1e1e2a-c987-478f-9d13-9704756ef5a0/image?allowAnimated=true&amp;amp;client=590ec727-dc86-43ed-9d0b-3f79195d9307&amp;amp;collection=contentId-35420766251&amp;amp;height=1508&amp;amp;max-age=2592000&amp;amp;mode=full-fit&amp;amp;token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQyMDc2NjI1MSI6WyJyZWFkIl19LCJleHAiOjE2ODI0NzA5MTMsIm5iZiI6MTY4MjQ2ODAzM30.GYCo3vVMt2WgPNvz67ph2gYQscOZLkW7gyhX3wLj_p4&amp;amp;width=3072#media-blob-url=true&amp;amp;id=4f1e1e2a-c987-478f-9d13-9704756ef5a0&amp;amp;collection=contentId-35420766251&amp;amp;contextId=35420766251&amp;amp;height=507&amp;amp;width=1032&amp;amp;alt=&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Atlassian-Cloud-User-Pee/2.png&quot; /&gt;&lt;/center&gt;
 
 &lt;center&gt;그림 2. 기간별 사용자 인원과 소진된 비용&lt;/center&gt;
 
@@ -1822,497 +1922,6 @@
         <pubDate>Mon, 21 Nov 2022 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/release%20note/2022/11/21/crowd-2022.html</link>
         <guid isPermaLink="true">http://localhost:4000/release%20note/2022/11/21/crowd-2022.html</guid>
-        
-        <category>Atlassian</category>
-        
-        <category>Atlassian Cloud</category>
-        
-        <category>아틀라시안</category>
-        
-        <category>아틀라시안클라우드</category>
-        
-        <category>Jira</category>
-        
-        <category>jira</category>
-        
-        <category>Jira Cloud</category>
-        
-        <category>Release</category>
-        
-        <category>Release Note</category>
-        
-        <category>Jira Sofrware</category>
-        
-        <category>Jira Service Management</category>
-        
-        <category>Confluence</category>
-        
-        <category>컨플</category>
-        
-        <category>DevOps</category>
-        
-        <category>데브옵스</category>
-        
-        <category>dev</category>
-        
-        <category>Dev</category>
-        
-        <category>에자일</category>
-        
-        <category>Agile</category>
-        
-        <category>Wiki</category>
-        
-        <category>Bitbuket</category>
-        
-        
-        <category>Release Note</category>
-        
-      </item>
-    
-      <item>
-        <title>2022 Atlassian 주요 제품 릴리즈 노트  ( Jul ~ Sep) - Data Center</title>
-        <description>&lt;!-- ![릴리즈 노트 이미지](https://dmove-kr.github.io/assets/images/banners/Release%20Note%20Server/%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%85%B8%ED%8A%B8%20Server-1.png) --&gt;
-
-&lt;p&gt;안녕하세요. 디무브 입니다 &lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f388.png&quot; alt=&quot;:balloon:&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이번 시간에는 2022년 3분기 기간 동안 아틀라시안의 주요 제품인 Jira Software, Jira Service Management 및 Confluence, Bitbucket의 Server/DataCenter 제품 릴리즈 노트를 설명드리려 합니다.&lt;/p&gt;
-
-&lt;p&gt;각 제품의 버전에 어떠한 변화가 있었는지 함께 확인 할 수 있는 시간을 놓치지 마세요!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;jira-software&quot;&gt;Jira Software&lt;/h2&gt;
-
-&lt;h3 id=&quot;-version-91x--version-92x&quot;&gt;&lt;strong&gt;■ Version 9.1.x ~ Version 9.2x&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;1-애자일-보드의-성능이-개선-되었습니다&quot;&gt;1. 애자일 보드의 성능이 개선 되었습니다.&lt;/h3&gt;
-
-&lt;p&gt;이전 버전의 Jira 는 스프린트를 사용하면 스프린트의 수 가 많아질수록 애자일 보드가 느려지는 현상이 있었습니다. 이번 9.1 버전 부터는 보드 지연 이슈가 개선 되어  성능 문제로 작업이 중단 되지 않고 작업에 집중하실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;아래 링크를 클릭하여 자세히 알아보세요!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://confluence.atlassian.com/jiracore/preparing-for-jira-9-1-1142444576.html&quot;&gt;에자일 보드 확인하기&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-감사-로그-제외-기능-추가&quot;&gt;2. 감사 로그 제외 기능 추가&lt;/h3&gt;
-
-&lt;p&gt;감사 로그에서 특정 이벤트에 대한 로그를 제외 시킬 수 있는 기능이 추가 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;아래 이미지 처럼 Excluded Events 항목에서 이벤트를 선택하여 해당 이벤트에 대한 기록을 제외할 수 있습니다. 로그를 제외시킴으로서 불필요한 로그를 바로 바로 필터링 가능합니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;3-애자일-뷰-화면-개선&quot;&gt;3. 애자일 뷰 화면 개선&lt;/h3&gt;
-
-&lt;p&gt;이번 업데이트에서는 Jira 애자일 뷰 화면이 개선되었습니다.&lt;/p&gt;
-
-&lt;p&gt;Jira Backlog 및 Board 애자일 뷰에 대해 페이지 로딩 시간을 크게 줄여 앱이 더 빠르고 안정적으로 작업을 수행 할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;자세한 사항은 아래 링크에서 확인 하실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;아래 링크를 클릭하여 자세히 알아보세요!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://confluence.atlassian.com/jiracore/preparing-for-jira-9-2-1155149623.html&quot;&gt;개선된 에자일 뷰 확인하기&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;4-이슈-네비게이터-개선&quot;&gt;4. 이슈 네비게이터 개선&lt;/h3&gt;
-
-&lt;p&gt;Jira에 필드가 많은 사용자인 경우 이슈 네이게이터에서 원하는 값을 한번에 찾기 힘드셨을 것 입니다.&lt;/p&gt;
-
-&lt;p&gt;이번 업데이트에서는 너무 많이 검색되는 이슈를 해결하기 위해 목록에서 이슈 검색의 열 드롭 다운에 대한 결과 우선순위 지정 기능이 추가 되었습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;이제 검색어가 여러 필드와 일치하더라도 정확하게 일치하는 항목이 우선으로 표시 됩니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;해결된-이슈-사항&quot;&gt;&lt;strong&gt;해결된 이슈 사항&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;-version-91x&quot;&gt;&lt;strong&gt;■ Version 9.1.x&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;스프린트의 캐시로 인해 성능이 저하되는 이슈&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSWSERVER-20618?src=confmacro&quot;&gt;JSWSERVER-20618&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JQL 검색 후 뒤로 버튼을 사용해도 검색 결과가 변경 되지 않은 이슈&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73925?src=confmacro&quot;&gt;JRASERVER-73925&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Jira Agile Wallboard 가젯에 대한 드롭다운 목록에서 다른 보드가 나오는 현상&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73826?src=confmacro&quot;&gt;JRASERVER-73826&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;MYSQL 8.22.1 로 업그레이드 한 후 Jira 서비스 가동 불가 이슈&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73725?src=confmacro&quot;&gt;JRASERVER-73725&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;백로그 페이지 : “추가 옵션” 엑세스 가능한 이름이 누락 됩니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73587?src=confmacro&quot;&gt;JRASERVER-73587&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;-version-92x&quot;&gt;&lt;strong&gt;■ Version 9.2x&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;“에픽 링크” 드롭 다운 제안이 제대로 작동하지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSWSERVER-21280?src=confmacro&quot;&gt;JSWSERVER-21280&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;server.xml connector 파일에서 SSL 문서가 잘못되는 이슈&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-74250?src=confmacro&quot;&gt;JRASERVER-74250&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;[Critical]&lt;/strong&gt; 아파치 톰캣 CVE-2022-34305 보안 이슈 해결&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73956?src=confmacro&quot;&gt;JRASERVER-73956&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;에픽 링크 검색 시 일부 결과가 누락되는 현상&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73922?src=confmacro&quot;&gt;JRASERVER-73922&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;백로그: 버전 및 에픽 필터 페이지에 랜드마크가 누락&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73322?src=confmacro&quot;&gt;JRASERVER-73322&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;이슈 생성 시 성능 저하로 인해 이슈 생성이 어려워지는 현상&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-73193?src=confmacro&quot;&gt;JRASERVER-73193&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;이슈를 삭제 동안 커스텀 필드 값을 업데이트 하게 될 경우, 삭제 프로세스에 대한 스레드가 멈추는 현상&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JRASERVER-70522?src=confmacro&quot;&gt;JRASERVER-70522&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;jira-service-management&quot;&gt;Jira Service Management&lt;/h2&gt;
-
-&lt;h3 id=&quot;-version-50x--version-52x&quot;&gt;&lt;strong&gt;■ Version 5.0.x ~ Version 5.2x&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;1-빠르고-정확해진-sla-멀티-스레드-기능-개선&quot;&gt;&lt;strong&gt;1. 빠르고 정확해진 SLA, 멀티 스레드 기능 개선&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;1.1 이슈 성능 SLA 재측정 기능 추가&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;이슈 보기 화면에서 이슈에 대한 SLA(&lt;em&gt;Service-Level Agreement&lt;/em&gt;)를 재측정이 가능합니다.&lt;/p&gt;
-
-    &lt;p&gt;SLA를 설정하는 방법은 아래와 같습니다 :&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;이슈 보기에서 &lt;strong&gt;SLA 패널&lt;/strong&gt;로 이동합니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;SLA 우측 상단&lt;/strong&gt; 의 ●●● 을 클릭 후 &lt;strong&gt;Recalculated all SLAs&lt;/strong&gt; 를 클릭합니다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira Service Management/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;1.2 멀티 스레드 기능 추가&lt;/p&gt;
-
-&lt;p&gt;스레드 외 처리 모드를 선택 할 수 있는 SLA(&lt;em&gt;Service-Level Agreement&lt;/em&gt;)기능이 추가 되었습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;2백그라운드-처리-개선&quot;&gt;&lt;strong&gt;2.백그라운드 처리 개선&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;PSMQ(Pretty Simple Message Queue)가 함께 JSM의 일부 영역을 최적화 하여 인스턴스의 안정성과 크기 조정을 개선하는데 도움이 됩니다. 이를 통해 20~65% 향상된 스레드 메시지 처리 향상시킬 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;변경 사항은 다음과 같습니다 :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;데이터베이스 메시지 큐 속성 테이블 호출 제거&lt;/li&gt;
-  &lt;li&gt;API 및 쿼리에서 메시지 우선 순위 제거&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;3-고객센터-공지-개선&quot;&gt;&lt;strong&gt;3. 고객센터 공지 개선&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;도움말 센터와 고객 포탈에서 표시되는 배너가 개선 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;이제 공지 사항을 수정 할 수 있는 페이지가 추가 됩니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira Service Management/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;또한 고객 포털에서 배너를 삭제 하는 경우 첨부된 번역이 있을 경우 경고 메시지가 나오게 됩니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Jira Service Management/2022_3Q/3.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;이처럼 배너 콘텐츠의 불일치 방지와 삭제가 쉽게 개선이 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;이 기능은 해당 플래그와 함께 기본적으로 활성화됩니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-1-해결된-이슈-사항&quot;&gt;&lt;strong&gt;2-1. 해결된 이슈 사항&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;-version-50x51x&quot;&gt;&lt;strong&gt;■ Version 5.0.x~5.1.x&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;기술 자료 문서 간격에 오류가 발생&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11298?src=confmacro&quot;&gt;JSDSERVER-11298&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;숫자 사용자 이름을 가진 에이전트는 고객 포털에서 이슈 생성 시 “대신 이 요청 제기” 필드에 오류가 발생&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11256?src=confmacro&quot;&gt;JSDSERVER-11256&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;고객 포탈에 여러 단일 사용자 선택기 필드를 추가하면 일부 필드 편집이 불가한 현상&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11136?src=confmacro&quot;&gt;JSDSERVER-11136&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;이슈에서 SLA 필드를 가리키면 기한 정보가 표시되지 않는 현상&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11055?src=confmacro&quot;&gt;JSDSERVER-11055&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;-version-52x&quot;&gt;&lt;strong&gt;■ Version 5.2.x&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;비즈니스 서비스/개체 생성에 대한 레이블 등 여러 오류&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11796?src=confmacro&quot;&gt;JSDSERVER-11796&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;JSM 업그레이드 후 인사이트 사용자 정의 필드 값이 비어 있는 현상&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11894?src=confmacro&quot;&gt;JSDSERVER-11894&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;내보내기 중 개체 유형의 경우 CSV 파일이 생성되지 않는 현상&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11169?src=confmacro&quot;&gt;JSDSERVER-11169&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Insight/Jira 관리자가 아닌 개체 스키마 관리자는 가져오기를 수동으로 실행할 때 권한 오류가 표시되는 현상&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/JSDSERVER-11292?src=confmacro&quot;&gt;JSDSERVER-11292&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;confluence&quot;&gt;Confluence&lt;/h2&gt;
-
-&lt;h3 id=&quot;-version-718x--719x&quot;&gt;&lt;strong&gt;■ Version 7.18.x ~ 7.19.x&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;1-클러스터에서-로깅-수준을-변경하는-것이-더-쉬워졌습니다&quot;&gt;1. 클러스터에서 로깅 수준을 변경하는 것이 더 쉬워졌습니다.&lt;/h3&gt;
-
-&lt;p&gt;7.18버전 업데이트 이후 클러스터 별로 로그를 확인할 때 클러스터 노드를 선택 하여 로그를 관리할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Confluence/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-719-버전의-lts-장기-서비스-지원&quot;&gt;2. 7.19 버전의 LTS 장기 서비스 지원&lt;/h3&gt;
-
-&lt;p&gt;이번 업데이트에서는 7.19 버전의 Confluence 장기 서비스 지원이 가능한 버전으로 선정되었습니다.&lt;/p&gt;
-
-&lt;p&gt;기존 장기 지원 릴리스 버전인 7.13와 7.19x 버전의 차이점은 아래와 같습니다:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;OAuth 2.0 통합을 위한 향상된 보안&lt;/li&gt;
-  &lt;li&gt;데이터베이스 암호 암호화&lt;/li&gt;
-  &lt;li&gt;SSO에 여러 ID 공급자 사용&lt;/li&gt;
-  &lt;li&gt;사이트를 계속 실행하는 새로운 응용 프로그램 메트릭&lt;/li&gt;
-  &lt;li&gt;더 빠른 권한 검사&lt;/li&gt;
-  &lt;li&gt;가동 중지 시간 없이 다음 Confluence로 업그레이드&lt;/li&gt;
-  &lt;li&gt;보존 규칙을 사용하여 기록 데이터를 정리하고 휴지통을 지웁니다.&lt;/li&gt;
-  &lt;li&gt;접근성 향상을 위해 업데이트된 VPAT 문서&lt;/li&gt;
-  &lt;li&gt;PSQL 및 MSQL을 포함한 데이터베이스에 대한 추가 지원&lt;/li&gt;
-  &lt;li&gt;쿠버네티스에 Confluence Data Center 설치 가능&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;-version-718x에서-해결된-이슈&quot;&gt;&lt;strong&gt;■ Version 7.18.x에서 해결된 이슈&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;[취약]CVE-2022-22965에 대한 FAQ에 설명된 문제의 추적 해결&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-78586?src=confmacro&quot;&gt;CONFSERVER-78586&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;[취약]Confluence Server &amp;amp; Data Center의 OGNL 주입을 통한 원격 코드 실행(CVE-2022-26134)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-79016?src=confmacro&quot;&gt;CONFSERVER-79016&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;[취약] Confluence Data Center java 역직렬화 취약점 개선&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-78179?src=confmacro&quot;&gt;CONFSERVER-78179&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;라틴어가 아닌 문자는 PDF로 사용자 지정 내보내기 페이지에 표시되지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-45192?src=confmacro&quot;&gt;CONFSERVER-45192&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;-version-719x에서-해결된-이슈&quot;&gt;&lt;strong&gt;■ Version 7.19.x에서 해결된 이슈&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Confluence 좋아요 및 의견을 작성해도 주요 인기있는 피드에 나타나지 않습니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-79588?src=confmacro&quot;&gt;CONFSERVER-79588&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;날짜 @currentDate 변수에 대한 잘못된 날짜 형식이 표기 됩니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-58977?src=confmacro&quot;&gt;CONFSERVER-58977&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;엑셀 표 또는 워드의 내용을 붙여 넣으면 페이지에 추가 이미지 첨부 파일이 삽입 됩니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-78579?src=confmacro&quot;&gt;CONFSERVER-78579&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;윈도우 기본 Office 응용 프로그램에서 차트 이미지를 붙여 넣으면 업로드가 트리거 되지 않으며 서버 오류가 발생 됩니다.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-78052?src=confmacro&quot;&gt;CONFSERVER-78052&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;bitbucket&quot;&gt;Bitbucket&lt;/h2&gt;
-
-&lt;h3 id=&quot;-version-82x--84x&quot;&gt;&lt;strong&gt;■ Version 8.2.x ~ 8.4.x&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;1-개발자에게-레포지토리-생성-권한-부여-가능&quot;&gt;1. 개발자에게 레포지토리 생성 권한 부여 가능&lt;/h3&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Bitbucket/2022_3Q/1.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;위 이미지와 같이 개발자에게 레포지토리를 만들기 권한을 부여하고 새 레포지토리를 생성하게 되면 개발자가 자신이 만든 저장소의 관리자가 됩니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-노출된-비밀을-알려주는-검사-기능&quot;&gt;2. 노출된 비밀을 알려주는 검사 기능&lt;/h3&gt;
-
-&lt;p&gt;개발자가 API 개발이나 테스트를 위해 사용한 코드에 토큰, 키, 암호가 레포지토리에 저장이 될 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이는 곧 큰 보안 취약점으로 엄청난 피해를 가져다 올 수 있습니다. 이번 업데이트 된 “&lt;strong&gt;Secret Scanning&lt;/strong&gt;“ 기능은 커밋이 진행되는 동안 보안 상으로 취약점이 될 만할 키나 토큰 정보를 확인하여  즉각적으로 알릴 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이를 통해 레포지토리를 즉각적으로 수정하여 보안점을 개선할 수 있습니다.&lt;/p&gt;
-
-&lt;center&gt;&lt;img sytle=&quot;width:70%;&quot; src=&quot;https://blog.dmove.kr/assets/images/banners/Release%20Note%20Server/Bitbucket/2022_3Q/2.png&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;해결된-이슈&quot;&gt;&lt;strong&gt;해결된 이슈&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Key&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;저장소가 미러에서 동기화를 중지하는 현상&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/BSERV-13477?src=confmacro&quot;&gt;BSERV-13477&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Bitbucket 8.3.0의 언어 팩에 대한 잘못된 인코딩&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/BSERV-13424?src=confmacro&quot;&gt;BSERV-13424&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;[Critical]&lt;/strong&gt; 중요 심각도 명령 주입 취약점 개선&lt;a href=&quot;https://jira.atlassian.com/browse/BSERV-13438?src=confmacro&quot;&gt;(CVE-2022-36804)&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/CONFSERVER-78179?src=confmacro&quot;&gt;CONFSERVER-78179&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;프로세스가 취소되면 명령 입력 처리기가 중단 되는 형상&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/BSERV-13358?src=confmacro&quot;&gt;BSERV-13358&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Bitbucket 브라우저의 오류 메시지에 민감한 DB 세부 정보를 표시 하는 현상&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://jira.atlassian.com/browse/BSERV-13222?src=confmacro&quot;&gt;BSERV-13222&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DONE&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Atlassian은 더 나은 제품을 제공하기 위하여 계속해서 투자하고 개발하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian 제품에 대한 궁금증이 있으실 경우 언제든지 Platinum Solution Partner인 디무브에게 문의해주세요!&lt;/p&gt;
-
-&lt;p&gt;감사합니다.😃&lt;/p&gt;
-</description>
-        <pubDate>Thu, 29 Sep 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Server.html</link>
-        <guid isPermaLink="true">http://localhost:4000/release%20note/2022/09/29/3Q2022-Atlassian-Release-Notes-Server.html</guid>
         
         <category>Atlassian</category>
         
