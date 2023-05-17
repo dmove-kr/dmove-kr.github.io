@@ -3,11 +3,284 @@
   <channel>
     <title>Welcome!</title>
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 May 2023 17:24:12 +0900</pubDate>
-    <lastBuildDate>Thu, 11 May 2023 17:24:12 +0900</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 17 May 2023 15:50:45 +0900</pubDate>
+    <lastBuildDate>Wed, 17 May 2023 15:50:45 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Team &apos;23에서 소개된 Jira Cloud 새로운 기능</title>
+        <description>&lt;p&gt;안녕하세요! 디무브입니다.&lt;/p&gt;
+
+&lt;p&gt;이번에는 Team ‘23에서 발표된 Jira Cloud의 새롭게 추가될 내용에 대해 공유해 보도록 하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;이미 여러 번 공지된 것처럼 Atlassian은 2024년 2월 15일 서버 제품에 대한 지원 종료를 선언한 뒤 클라우드 기반 제품에 대해 기능 업데이트를 제공하고 있는데요.&lt;/p&gt;
+
+&lt;p&gt;이번에 Jira Cloud에 새롭게 추가된 기능은 무엇인지 함께 확인해보도록 하겠습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-jira-dark-theme&quot;&gt;&lt;strong&gt;#1 Jira Dark Theme&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;center&gt;&lt;img style=&quot;width:100%;&quot; src=&quot;/assets/images/Team23/Jira-Cloud-New-Feature/1.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;사용자들은 눈 피로도, 전력 소모량 등 다양한 이유로 다크모드에서 작업하는 것을 선호하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이에 맞춰 2022년, 12월 7일 아틀라시안은 웹 페이지에서 다크모드를 적용할 수 있도록 지속적인 업데이트를 진행하고 있는데요.&lt;/p&gt;
+
+&lt;p&gt;현재 (2023년 5월) Open Beta 형식으로 다크 모드 테마를 제공하는 중이며, 2023년 중순에는 모든 클라우드 사용자가 다크 모드를 사용할 수 있도록 업데이트를 제공할 계획입니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;다크모드 테마의 경우 Open Beta로 제공 중이기 때문에 아래 순서에 따라 사용자 개인별로 변경한 뒤 적용하여 사용하실 수 있습니다.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Jira Cloud 로그인  &amp;gt; 우측 상단의 사용자 프로필 아이콘을 클릭 &amp;gt; Theme (Beta) &amp;gt; Light, Dark, Match System, Original 중 선택&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://api.media.atlassian.com/file/f291af1b-2b4b-47ca-8694-b51db3c58cf0/image?allowAnimated=true&amp;amp;client=590ec727-dc86-43ed-9d0b-3f79195d9307&amp;amp;collection=contentId-35435544577&amp;amp;height=2758&amp;amp;max-age=2592000&amp;amp;mode=full-fit&amp;amp;token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQzNTU0NDU3NyI6WyJyZWFkIl19LCJleHAiOjE2ODQzMDcxNDMsIm5iZiI6MTY4NDMwNDI2M30.qvJsXGrzPiixUycIMWOpay4YH6NBUmPQo9KOfxODkZQ&amp;amp;width=3072#media-blob-url=true&amp;amp;id=f291af1b-2b4b-47ca-8694-b51db3c58cf0&amp;amp;collection=contentId-35435544577&amp;amp;contextId=35435544577&amp;amp;height=897&amp;amp;width=999&amp;amp;alt=&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-security-in-jira&quot;&gt;&lt;strong&gt;#2 Security In Jira&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://api.media.atlassian.com/file/78ac6969-4216-453b-beea-823d07d6fca1/image?allowAnimated=true&amp;amp;client=590ec727-dc86-43ed-9d0b-3f79195d9307&amp;amp;collection=contentId-35435544577&amp;amp;height=1728&amp;amp;max-age=2592000&amp;amp;mode=full-fit&amp;amp;token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQzNTU0NDU3NyI6WyJyZWFkIl19LCJleHAiOjE2ODQzMDcxNDMsIm5iZiI6MTY4NDMwNDI2M30.qvJsXGrzPiixUycIMWOpay4YH6NBUmPQo9KOfxODkZQ&amp;amp;width=3072#media-blob-url=true&amp;amp;id=78ac6969-4216-453b-beea-823d07d6fca1&amp;amp;collection=contentId-35435544577&amp;amp;contextId=35435544577&amp;amp;height=562&amp;amp;width=999&amp;amp;alt=&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;한국 인터넷 진흥원에 따르면 2023년 5월 2일 자로 제공 중인 보안 취약점 레포트(CVE Report)는 총 224,319건으로 수많은 보안 취약점이 존재하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;안전한 DevSecOps 환경 구축에 대한 수요가 점점 늘어남에 따라 Atlassian은 현재 제공 중인 DEVELOPMENT 기능 내부에 Security 기능을 추가하여, DevSecOps 환경을 구축할 수 있도록 기능을 추가할 계획이라 발표했습니다.&lt;/p&gt;
+
+&lt;p&gt;Security 기능은 Jira 프로젝트와 보안 취약점을 검출할 수 있는 서비스를 연결해 DevSecOps 파이프라인 구동 시 검출할 수 있는 코드의 보안 취약점을 다른 서비스에서 확인하지 않고 Jira 프로젝트 내부에서 바로 확인할 수 있도록 해줍니다.&lt;/p&gt;
+
+&lt;p&gt;과거에는 &lt;strong&gt;snyk&lt;/strong&gt; 서비스와의 연동을 통한 보안 취약점 분석이 가능했지만 향후 &lt;strong&gt;snyk&lt;/strong&gt; 뿐만이 아니라 &lt;strong&gt;Mend(구 WhiteSource), StackHawk, Lacework&lt;/strong&gt; 등과도 서비스 연계 및 지원을 제공할 예정이라고 발표했습니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 Jira Security 기능은 CI/CD에도 도입될 수 있도록 &lt;strong&gt;Jira Release Center, Github Actions, Gitlab Pipeline&lt;/strong&gt;과도 연계될 예정입니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-broader-advanced-roadmap&quot;&gt;&lt;strong&gt;#3 Broader Advanced Roadmap&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;현재 Jira에서 제공 중인 Advanced Roadmap 기능은 차후에 JSM(Jira Service Management)과 JWM(Jira Work Management)에도 확장할 계획이라 발표했는데요.&lt;/p&gt;
+
+&lt;p&gt;관련 내용은 추후 업데이트 되면 다시 한번 전달해 드리겠습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4-jsm-jira-service-management-new-templates&quot;&gt;&lt;strong&gt;#4 JSM (Jira Service Management) New templates&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://api.media.atlassian.com/file/b631c14e-f4f7-425b-9965-2bf3fe8c9838/image?allowAnimated=true&amp;amp;client=590ec727-dc86-43ed-9d0b-3f79195d9307&amp;amp;collection=contentId-35435544577&amp;amp;height=2186&amp;amp;max-age=2592000&amp;amp;mode=full-fit&amp;amp;token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQzNTU0NDU3NyI6WyJyZWFkIl19LCJleHAiOjE2ODQzMDcxNDMsIm5iZiI6MTY4NDMwNDI2M30.qvJsXGrzPiixUycIMWOpay4YH6NBUmPQo9KOfxODkZQ&amp;amp;width=3072#media-blob-url=true&amp;amp;id=b631c14e-f4f7-425b-9965-2bf3fe8c9838&amp;amp;collection=contentId-35435544577&amp;amp;contextId=35435544577&amp;amp;height=711&amp;amp;width=999&amp;amp;alt=&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;최근 JSM에 Design Team과 Sales Team을 위한 새로운 템플릿이 추가 되었습니다. 추가된 템플릿은 사용자 필요에 따라 커스터마이징할 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;5-virtual-agent--atlassian-intelligence&quot;&gt;&lt;strong&gt;#5 Virtual Agent- Atlassian Intelligence&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;div style=&quot;display: inline-block;&quot;&gt;
+&lt;div class=&quot;left-box&quot;&gt;
+    &lt;img src=&quot;/assets/images/Team23/Jira-Cloud-New-Feature/5.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;right-box&quot;&gt;
+&lt;img src=&quot;/assets/images/Team23/Jira-Cloud-New-Feature/6.png&quot; /&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;그동안은 아틀라시안에서는 사용자 요청이 있으면 관련 담당자가 요청을 확인하고, 답변을 진행하는 형태로 처리해 왔습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 최근 들어 ChatGPT와 같은 인공지능 활용이 높아지면서 Atlassian 역시 고객의 요청에 대해 관련 데이터를 학습한 뒤 답변, 처리할 수 있는 Virtual Agent, Atlassian Intelligence를 개발했습니다&lt;/p&gt;
+
+&lt;p&gt;아틀라시안 AI는 Jira, Confluence 내 작업 내용을 학습한 뒤 사용자가 질문을 했을 때 1차로 답변을 합니다. 이후 사용자의 추가 요청에 따라 2차, 3차 답변을 하거나 요청을 처리할 수 있는 담당자를 배정합니다.&lt;/p&gt;
+
+&lt;p&gt;이 같은 Virtual Agent 기능은 현재 Slack에서만 제공 중이며, 차후 Teams에도 해당 기능을 업데이트할 예정으로 밝혔는데요. 현재 Virtual Agent는 &lt;a href=&quot;https://www.atlassian.com/ko/software/jira/service-management/features/itsm/virtual-agent&quot;&gt;Early Access&lt;/a&gt;를 신청하여 Slack에서 체험해 보실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;AI(Atlassian Intelligence)가 무엇인지, 어떤 기능이 있는지 궁금하시다면 앞선 포스팅에서 확인하실 수 있습니다.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;6-slack--teams-integration&quot;&gt;&lt;strong&gt;#6 Slack &amp;amp; Teams Integration&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Team23/Jira-Cloud-New-Feature/7.png&quot; /&gt;&lt;/p&gt;
+
+&lt;center&gt;Slack Integration with JSM&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Team23/Jira-Cloud-New-Feature/8.png&quot; /&gt;&lt;/p&gt;
+
+&lt;center&gt;Teams Integration with JSM&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;이제 JSM (Jira Service Management)에서도 Slack 연동이 가능하게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;JSM과 Slack을 연동하면 사용자가 JSM에서 요청을 접수했을 때 슬랙에서 관련 알림을 받아볼 수 있게 되어 신속하게 요청을 처리할 수 있기 때문에 더 신속하게 요청을 처리할 수 있다는 장점이 있습니다.&lt;/p&gt;
+
+&lt;p&gt;연동 기능은 차후 Teams에도 해당 기능을 제공할 예정이라고 발표했습니다.&lt;/p&gt;
+
+&lt;p&gt;Teams Integration 기능은 사용자가 JSM 관련 앱이 설치되어 있는 채팅방에서 요청을 남겼을 때 JSM에 해당 주제로 요청이 등록되고 이를 JSM 내부에서 확인할 수 있는 기능입니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;7-portal-customization&quot;&gt;&lt;strong&gt;#7 Portal Customization&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Team23/Jira-Cloud-New-Feature/9.png&quot; /&gt;&lt;/p&gt;
+
+&lt;center&gt;기존 Portal 화면&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Team23/Jira-Cloud-New-Feature/10.png&quot; /&gt;&lt;/p&gt;
+
+&lt;center&gt;업데이트 화면 예시&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;이전의 JSM Portal Customize의 경우 설정된 Portal의 Background Color 변경, Header Image 변경, Logo 삽입, 배치 요소 수정 등 커스터마이징할 수 있는 부분이 제한적이라 아쉬운 부분이 많았는데요.&lt;/p&gt;
+
+&lt;p&gt;이러한 아쉬움을 해소하기 위해 차후 Customization에 대한 기능을 업데이트해 사용자가 UI 등을 더욱 폭넓게 변경할 수 있도록 지원하겠다고 발표했습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;8-jsm-cloud---topic&quot;&gt;&lt;strong&gt;#8 JSM Cloud - Topic&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/Team23/Jira-Cloud-New-Feature/11.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;JSM Cloud는 사용자 편의를 위해 사용자가 요청하기 전 주제 별로 해당 내용과 관련된 자료가 있는지 우선적으로 확인 할 수 있는 Topics 기능을 추가했습니다.&lt;/p&gt;
+
+&lt;p&gt;해당 기능은 위에 보이는 이미지와 같이 Confluence 내부에 작성되어 있는 Knowledge Base Space, 요청 유형, 외부 리소스별로 추가하여 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;여기까지 이번 Team ‘23에서 소개된 Jira Cloud의 새로운 기능에 대해 소개해 드렸는데요.&lt;/p&gt;
+
+&lt;p&gt;이 밖에도 Jira에 대해 궁금하신 점 있으시면 언제든 아틀라시안 플래티넘 파트너 디무브에 문의주세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 17 May 2023 00:00:00 +0900</pubDate>
+        <link>/inside%20atlassian/2023/05/17/Atlassian-Team23-Jira-Cloud-New-Feature.html</link>
+        <guid isPermaLink="true">/inside%20atlassian/2023/05/17/Atlassian-Team23-Jira-Cloud-New-Feature.html</guid>
+        
+        <category>Atlassian</category>
+        
+        <category>Team23</category>
+        
+        <category>아틀라시안</category>
+        
+        <category>Atlassianteam23</category>
+        
+        <category>teamanywhere</category>
+        
+        <category>Jira</category>
+        
+        <category>Jira Cloud</category>
+        
+        <category>New Feature</category>
+        
+        <category>Jira New Feature</category>
+        
+        
+        <category>Inside Atlassian</category>
+        
+      </item>
+    
+      <item>
+        <title>아이디어 실행을 위한 디지털 캔버스, Confluence Whiteboards를 소개합니다!</title>
+        <description>&lt;p&gt;안녕하세요, 디무브 입니다! 🎈&lt;/p&gt;
+
+&lt;p&gt;이번에는 Team ‘23에서 발표한 내용 중 하나인 Confluence의 새로운 기능, Whiteboards에 대해 공유해 보도록 하겠습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Confluence Whiteboards&lt;/strong&gt;는 모든 구성원의 아이디어를 연결한 작업 공간, Confluence에서 더 쉽고 자유롭게 브레인스토밍하고 아이디어를 실행할 수 있게 도와주는 새로운 디지털 캔버스입니다.&lt;/p&gt;
+
+&lt;p&gt;한 공간에서 일할 때 자유롭게 아이디어를 공유하고 발전시킬 수 있지만, 팀원들과 원격 근무처럼 분산된 환경에서 일할 때 함께 아이디어를 논의하고 브레인스토밍하는 것은 까다로운 일입니다.&lt;/p&gt;
+
+&lt;p&gt;아틀라시안은 이런 어려움을 해결하기 위해 구조화되지 않은 화이트보드 내 아이디어를 Confluence 페이지에서 구조화하고 이를 Jira와 연결해 통합할 수 있는 환경 즉. &lt;strong&gt;컨플루언스 화이트보드&lt;/strong&gt;를 만들었습니다.&lt;/p&gt;
+
+&lt;p&gt;그럼 컨플루언스 화이트보드에 어떤 기능들이 있는지, 어떻게 활용할 수 있는지 알아보겠습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;자유로운-브레인스토밍&quot;&gt;&lt;strong&gt;자유로운 브레인스토밍&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/Team23/Confluence-WhiteBoard/1.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;컨플루언스 화이트보드를 사용하면 팀원들의 아이디어를 실시간 또는 비동기식으로 빠르게 공동 작업을 진행할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;제공되는 템플릿과 함께 스티커 메모, 스탬프, 스티커, 이미지, 타이머, 선, 다중 사용자 편집과 같은 다양한 시각적 요소의 도구 상자를 사용하면 팀이 창의력을 발휘하고 신속하게 아이디어를 캡처하고 통합할 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;아이디어를-행동으로&quot;&gt;&lt;strong&gt;아이디어를 행동으로&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/Team23/Confluence-WhiteBoard/2.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;컨플루언스 화이트보드는 단순히 아이디어를 모으고 기획하는 것에서 끝이 아닌 구조화된 아이디어를 단순하고 빠르게 실행 가능한 작업으로 옮길 수 있게 합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jira 이슈 생성 : 클릭 한 번으로 스티커 메모를 단일 또는 여러 지라 이슈로 전환&lt;/li&gt;
+  &lt;li&gt;Jira 이슈 편집 : 화이트보드 내 Jira 문제를 확장해 세부 정보 추가 혹은 티켓 편집&lt;/li&gt;
+  &lt;li&gt;Confluence 페이지 전환 : 화이트보드 내 비구조화된 아이디어들을 컨플루언스 페이지에 구조화된 형태로 전환&lt;/li&gt;
+  &lt;li&gt;이슈 연결 : 두 개의 지라 이슈를 연결해 우선순위, 담당자와 같은 관계를 보여줄 수 있음&lt;/li&gt;
+  &lt;li&gt;스마트섹션 : 화이트보드에서 모든 문제를 엔지니어 한 명 또는 특정 스프린트에 할당하는 것과 같이 Jira 문제를 대량으로 빠르게 업데이트&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;아틀라시안은 제공되는 솔루션 간 연결, 확장을 통해 업무 환경이 개선될 수 있게 하는 만큼 새로운 화이트보드 기능은 &lt;strong&gt;클라우드 기반 제품&lt;/strong&gt;-Jira Software, Jira Workmanagement. Jira Product Discovery, Jira Service Management에서 작동이 가능합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;작업-시각화&quot;&gt;&lt;strong&gt;작업 시각화&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/Team23/Confluence-WhiteBoard/3.png&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;컨플루언스 화이트보드는 아이디어를 모으고 기획하는 것뿐 아니라 아이디어 간 구조, 기획 단계에서 업무 진행 및 우선순위 등을 한 페이지에서 볼 수 있게 해주기 때문에 쉽게 파악하고 빠르게 실행할 수 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jira 가져오기 : 모든 Jira 이슈를 하나의 화면에서 볼 수 있는 작업 시각화&lt;/li&gt;
+  &lt;li&gt;스마트섹션 : Jira에서 이슈 관리, 스프린트 작업 할당, 우선순위를 업데이트하는데 사용할 수 있는 자동화된 섹션 생성, Jira 이슈를 스마트 섹션에 드롭하면 나머지를 자동으로 처리&lt;/li&gt;
+  &lt;li&gt;스마트 링크 : 다른 아틀라시안 제품이나 Figma, Loom 같은 서드파티 애드온과 같이 사용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;여기까지 이번 Team ‘23에서 새롭게 소개된 기능 Confluence Whiteboards에 대해 소개해 드렸습니다.&lt;/p&gt;
+
+&lt;p&gt;모든 프로젝트가 아이디어에서 시작하는 만큼 자유롭게 논의하고 이를 구조화해 정리하는 건 아주 중요한데요.&lt;/p&gt;
+
+&lt;p&gt;특히 컨플루언스 화이트보드는 한 곳에서 아이디어를 논의하고 구조화하는 시간을 줄일 수 있다는 점에서 업무 효율의 향상 효과를 나타낼 것으로 기대됩니다.&lt;/p&gt;
+
+&lt;p&gt;곧 베타 버전이 출시될 예정이니 화이트보드 사용이 궁금하시다면 &lt;a href=&quot;https://www.atlassian.com/software/confluence/whiteboards&quot;&gt;Confluence Whiteboards- Coming Soon!&lt;/a&gt; 에서 대기자 명단에 등록해주세요.&lt;/p&gt;
+
+&lt;p&gt;﻿컨플루언스 활용이나 화이트보드와 관련해 더욱 궁금한 점이 있으시다면 디무브에 문의하세요!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;
+
+&lt;p&gt;﻿&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 17 May 2023 00:00:00 +0900</pubDate>
+        <link>/inside%20atlassian/2023/05/17/Atlassian-Team23-Confluence-WhiteBoard.html</link>
+        <guid isPermaLink="true">/inside%20atlassian/2023/05/17/Atlassian-Team23-Confluence-WhiteBoard.html</guid>
+        
+        <category>Atlassian</category>
+        
+        <category>Team23</category>
+        
+        <category>아틀라시안</category>
+        
+        <category>Atlassianteam23</category>
+        
+        <category>teamanywhere</category>
+        
+        <category>Confluence</category>
+        
+        <category>WhiteBoard</category>
+        
+        <category>Confluence WhiteBoard</category>
+        
+        
+        <category>Inside Atlassian</category>
+        
+      </item>
     
       <item>
         <title>PO/PM 업무 효율을 높일 수 있는 아틀라시안의 &apos;Jira Product Discovery&apos;를 소개합니다.</title>
@@ -106,8 +379,8 @@
 
 </description>
         <pubDate>Thu, 11 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/inside%20atlassian/2023/05/11/Jira-Product-Discovery-Introdcution.html</link>
-        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2023/05/11/Jira-Product-Discovery-Introdcution.html</guid>
+        <link>/inside%20atlassian/2023/05/11/Jira-Product-Discovery-Introdcution.html</link>
+        <guid isPermaLink="true">/inside%20atlassian/2023/05/11/Jira-Product-Discovery-Introdcution.html</guid>
         
         <category>Atlassian</category>
         
@@ -208,8 +481,8 @@
 &lt;p&gt;Atlassian은 소닉 브랜드와의 협업 중심에 사람을 둔 것이 자랑스럽습니다. 그리고 고객이 혼자서는 불가능했을 일을 해낼 때 소닉 하이 파이브를 할 수 있기를 기대합니다.&lt;/p&gt;
 </description>
         <pubDate>Fri, 28 Apr 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/inside%20atlassian/2023/04/28/Atlassian-New-project-Sonic-Brand.html</link>
-        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2023/04/28/Atlassian-New-project-Sonic-Brand.html</guid>
+        <link>/inside%20atlassian/2023/04/28/Atlassian-New-project-Sonic-Brand.html</link>
+        <guid isPermaLink="true">/inside%20atlassian/2023/04/28/Atlassian-New-project-Sonic-Brand.html</guid>
         
         <category>Atlassian</category>
         
@@ -329,8 +602,8 @@
 
 </description>
         <pubDate>Tue, 25 Apr 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/company%20news/2023/04/25/Atlassian-Cloud-User-Pee.html</link>
-        <guid isPermaLink="true">http://localhost:4000/company%20news/2023/04/25/Atlassian-Cloud-User-Pee.html</guid>
+        <link>/company%20news/2023/04/25/Atlassian-Cloud-User-Pee.html</link>
+        <guid isPermaLink="true">/company%20news/2023/04/25/Atlassian-Cloud-User-Pee.html</guid>
         
         <category>아틀라시안클라우드</category>
         
@@ -473,8 +746,8 @@
 
 </description>
         <pubDate>Thu, 06 Apr 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/how%20to/2023/04/06/Using-JSM-to-Improve-HR.html</link>
-        <guid isPermaLink="true">http://localhost:4000/how%20to/2023/04/06/Using-JSM-to-Improve-HR.html</guid>
+        <link>/how%20to/2023/04/06/Using-JSM-to-Improve-HR.html</link>
+        <guid isPermaLink="true">/how%20to/2023/04/06/Using-JSM-to-Improve-HR.html</guid>
         
         <category>Atlassian</category>
         
@@ -645,8 +918,8 @@
 
 </description>
         <pubDate>Wed, 29 Mar 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/how%20to/2023/03/29/How-to-run-effective-meetings.html</link>
-        <guid isPermaLink="true">http://localhost:4000/how%20to/2023/03/29/How-to-run-effective-meetings.html</guid>
+        <link>/how%20to/2023/03/29/How-to-run-effective-meetings.html</link>
+        <guid isPermaLink="true">/how%20to/2023/03/29/How-to-run-effective-meetings.html</guid>
         
         <category>Atlassian</category>
         
@@ -712,8 +985,8 @@
 
 </description>
         <pubDate>Tue, 28 Mar 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/company%20news/2023/03/28/Atlassian-Cloud-User-Tier-Expand.html</link>
-        <guid isPermaLink="true">http://localhost:4000/company%20news/2023/03/28/Atlassian-Cloud-User-Tier-Expand.html</guid>
+        <link>/company%20news/2023/03/28/Atlassian-Cloud-User-Tier-Expand.html</link>
+        <guid isPermaLink="true">/company%20news/2023/03/28/Atlassian-Cloud-User-Tier-Expand.html</guid>
         
         <category>Atlassian</category>
         
@@ -1145,8 +1418,8 @@
 &lt;p&gt;감사합니다.😃&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Server.html</link>
-        <guid isPermaLink="true">http://localhost:4000/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Server.html</guid>
+        <link>/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Server.html</link>
+        <guid isPermaLink="true">/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Server.html</guid>
         
         <category>Atlassian</category>
         
@@ -1405,8 +1678,8 @@
 &lt;p&gt;감사합니다.😃&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Cloud.html</link>
-        <guid isPermaLink="true">http://localhost:4000/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Cloud.html</guid>
+        <link>/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Cloud.html</link>
+        <guid isPermaLink="true">/release%20note/2023/01/31/4Q2022-1Q2023-Atlassian-Release-Notes-Cloud.html</guid>
         
         <category>Atlassian</category>
         
@@ -1450,454 +1723,6 @@
         
         
         <category>Release Note</category>
-        
-      </item>
-    
-      <item>
-        <title>디무브 웨비나 생생후기-아틀라시안 클라우드 프리미엄 200% 활용하기</title>
-        <description>&lt;p&gt;안녕하세요, 디무브입니다🎈&lt;/p&gt;
-
-&lt;p&gt;지난 10월 27일 IT 혁신을 위한 아틀라시안 클라우드 프리미엄 200% 활용하기 웨비나 발표가 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;평소 아틀라시안이 클라우드 프리미엄에 관심을 많이 가지시고 사용하신 분도 있을테고, 또한 관심은 많이 있지만 아직 사용을 하시지 않는 분들도 많으실 것 같습니다.&lt;/p&gt;
-
-&lt;p&gt;이에 따라 디무브에서 가장 인기 많은 단계인 프리미엄 단계에 대해서 소개와 디무브 엔지니어들의 노하우를 통해서 아틀라시안 클라우드 프리미엄 버전의 활용 과정을 상세히 공유 해드렸는데요.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안 클라우드에 대한 기업들의 높은 관심을 증명하듯 예상보다 더 많은 인원이 이번 웨비나에 참석해주셨습니다&lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/64x64/1f600.png&quot; alt=&quot;:grinning:&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;다시 한번 참여해주신 모든 분들께 감사의 말씀을 드리며 이번 시간에는 진행했던 웨비나에 대해 생생하게 리뷰해보는 시간을 가져보려합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;본 웨비나는 아래와 같이 크게 3개의 Agenda로 진행하였습니다.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;시간&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;주제&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;16:00~16:25&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;아틀라시안 프리미엄 플랜 특징&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;16:25~16:45&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Jira 클라우드 프리미엄 주요 기능Confluence 클라우드 프리미엄 주요 기능&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;16:45~15:55&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;클라우드 프리미엄 고객 사례&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;16:55~17:00&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Q&amp;amp;A&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;session-1-아틀라시안-프리미엄-플랜-특징&quot;&gt;#Session 1. 아틀라시안 프리미엄 플랜 특징&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/1.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;아직 클라우드로 넘어오시지 않은 데이터 센터 유저들을 위해서 우선 아틀라시안 클라우드의 이점 세가지에 대해서 집고 넘어가도록 하겠습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;1효율성-개선&quot;&gt;1.효율성 개선&lt;/h3&gt;
-
-&lt;p&gt;인프라 비용 및 IT 리소스를 비즈니스 우선 순위에 전략적으로 재할당 가능합니다.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안 클라우드를 사용함으로써 인프라 지출과 관리적인 부분에 대한 오버헤드를 적절히 재 분배 함으로써 IT 팀의 영향력을 높일 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;즉, 업그레이드 및 기타 운영/관리에 소요되는 시간을 비즈니스 발전을 위해 재조정할 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;2팀-생산성-가속화&quot;&gt;2.팀 생산성 가속화&lt;/h3&gt;
-
-&lt;p&gt;온프라미스 시스템에 대해서 소요되었던 운영, 유지보수와 같은 작업을 오프로딩 함으로써 얻을 수 있는 비용 절감 측면 외에도 아틀라시안 클라우드 제품이 팀 생산성을 가속화하고 사용자와 관리자 모두에게 업무에 집중할 수 있는 시간을 확보할 수 있습니다&lt;/p&gt;
-
-&lt;p&gt;몇 분을 절약하는 것이 언뜻 보기에는 별 것 아닌 것처럼 보일 수 있지만,&lt;/p&gt;
-
-&lt;p&gt;이 시간들이 쌓이고 쌓인다면 조직 전체 ROI에 얼마나 중요한 영향을 미치는지 알게 될 것입니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;3내장된-보안-및-규정-준수&quot;&gt;&lt;strong&gt;3.내장된 보안 및 규정 준수&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;아시다시피 보안 및 규정준수같은 경우는 지켜지고 있는지 한눈에 보기 힘든 사항 중 하나인데요,&lt;/p&gt;
-
-&lt;p&gt;아틀라시안은 업계에서 인정하는 인증 발급 기관으로부터 인증을 받고,&lt;/p&gt;
-
-&lt;p&gt;표준 및 규정을 준수하고 있기 때문에 고객이 믿고 데이터를 맡길 수 있는 확신을 주고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/2.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;보시다시피 PCI GDPR 등 많은 인증을 통해 클라우드 제품에 대한 신뢰가 가실 거라 생각됩니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/3.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;아틀라시안의 클라우드 플랜은 총 네가지로, 프리, 스탠다드, 프리미엄, 엔터프라이즈 이렇게 구성 되어 있습니다.&lt;/p&gt;
-
-&lt;p&gt;플랜 선택은 실제 사용하고자 하는 사용자 수는 물론, 어떤 기능을 사용하고자 하는 지에 따라서 맞는 플랜을 선택하실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Free는 10명 이하 소규모 사용자가 선택할 수 있는 무료 플랜으로, 규모가 작은 스타트업이나 적은 구성원이 선택할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;플랜명 밑에 밑줄이 쳐저있는 스탠다드부터 프리미엄, 엔터프라이즈 플랜들은 유료 구독 플랜으로,&lt;/p&gt;
-
-&lt;p&gt;디무브와 같은 파트너사를 통해 구독을 진행하셔야만 합리적인 가격으로 기술 지원 및 혜택을 받으실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;세 가지 플랜은 사용하고자 하는 회사 규모와 요구사항에 맞게 선택하실 수 있는데, 가장 선호도가 높은 플랜이 바로 ‘프리미엄’ 플랜입니다.&lt;/p&gt;
-
-&lt;p&gt;차이를 나누면 두가지로 나눌 수 있겠는데요&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/4.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;먼저 저장공간에서의 차이입니다.&lt;/p&gt;
-
-&lt;p&gt;구독 플랜에 따라 저장공간이 달라지는데요, 스탠다드의 경우 250기가 바이트의 저장 제한이 있지만,&lt;/p&gt;
-
-&lt;p&gt;프리미엄 플랜을 선택하실 경우 용량 제한 없이 무제한으로 저장이 가능합니다.&lt;/p&gt;
-
-&lt;p&gt;따라서 많은 작업을 요하거나, 파일 업로드양이 많은 기업에서는 프리미엄 플랜을 선택할 수 밖에 없는 것입니다.&lt;/p&gt;
-
-&lt;p&gt;또한 프리미엄 플랜부터 가동시간 개런티가 추가됩니다. 앞서 말씀 드렸다싶이 프리미엄은 99.9%, 앤터프라이즈는 99.95%의 SLA 가동시간을 보장합니다.&lt;/p&gt;
-
-&lt;p&gt;그리고 지원 관련하여서, 스탠다드 플랜은 아틀라시안에 지원 요청 문의를 남겼을 때 시차로 인한 오랜 기다림이 요구됩니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 프리미엄 플랜 구독시에는 365일 24시간 운영되는 아틀라시안 전담 팀에서 중요한 문제에 관해 1시간 이내에 답변해 드립니다.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안과 소통하실 때엔 당연히 모두 영어로 하셔야 합니다.&lt;/p&gt;
-
-&lt;p&gt;하지만 디무브를 통해 구독을 진행하시면 경험 많은 엔지니어로 구성된 전담 솔루션 팀에서 로컬에서 바로 도움을 드릴 수도 있고,&lt;/p&gt;
-
-&lt;p&gt;디무브가 대신 아틀라시안과 소통을 해드리기 때문에 기술지원이나 소통 염려가 사라지게 됩니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/5.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;블로그를 읽으시는 관리자 레벨이신 분들께서 흥미를 느끼실 것 같습니다.&lt;/p&gt;
-
-&lt;p&gt;관리자 인사이트 기능을 통해 사용자들의 일간,주간 그리고 월간 통계를 확인하실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;또한 IP를 통한 접속 제어가 가능합니다. 특정한 ip만 접속 가능토록 도와주는 IP 허용 목록 기능을 통해 보안을 강화하실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;또한 샌드박스와 릴리즈 트랙을 통해&lt;/p&gt;
-
-&lt;p&gt;팀에 공개하기전 제품 테스트나 제품 업데이트 전 적응 시간을 확보 할 수 도 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/6.png&quot; alt=&quot;img&quot; /&gt;
-지금부터는 Jira 클라우드 프리미엄 기능에 대해서 다뤄보도록 하겠습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/7.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;스탠다드의 로드맵 기능은 강력하긴하지만 프로젝트 하나 뿐만 아니라 여러 프로젝트를 관리하는 PO입장에서 하나의 프로젝트의 이슈들만 볼 수 있는게 아쉬울 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;그래서 이런 점을 보완한 고급 로드맵 기능을 프리미엄 구독 부터 만나보실수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;어렵고 복잡한 기능이라 실제로 사용하시는 분들이 그리 많진 않지만, 사용하게 되면 굉장히 만족도가 높은 기능입니다.&lt;/p&gt;
-
-&lt;p&gt;팀 진행 전체 상황을 실시간으로 추적하여 계획을 세울 수 있는 기능이 필요하시다면 대규모 작업을 미리 계획하실 때 유용하게 사용 가능하실 것 입니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/8.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;고급 로드맵의 핵심 개념부터 설명 드리겠습니다&lt;/p&gt;
-
-&lt;p&gt;고급 로드맵은 지라의 보드, 프로젝트 및 필터에 액세스하여 사용자 지정 가능한 인터페이스에서 데이터를 시각화합니다.&lt;/p&gt;
-
-&lt;p&gt;샌드박스 환경으로 작동하므로 지라에서 원본 데이터를 업데이트하기 전에 계획하고 실험할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;클릭 한 번으로 계획의 주요 경로를 수립하고 다양한 변형을 탐색하며 지라 인터페이스를 업데이트할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이로인해 위 화면에서도 볼 수 있듯 고급 로드맵의 계획은 조직의 목표를 개략적으로 설명하고 팀이 마일스톤과 주요 결과를 달성할 수 있는 경로를 전달하기 위해 공유하는 정보의 출처가 됩니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/9.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이슈 소스는 지라에서 계획을 만드는 데 어떠한 데이터를 사용할지를 결정합니다. 해야 할 작업과 해결하려고 하는 문제에 대해 간략하게 설명합니다.&lt;/p&gt;
-
-&lt;p&gt;이슈 소스는 계획을 만드는 중에 가장 먼저 선택하며 언제든지 조정할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;고급 로드맵 에는 세 가지 유형의 이슈 소스가 있습니다. 보드 프로젝트 필터 입니다.&lt;/p&gt;
-
-&lt;p&gt;기본 기능에서 보여드렸던 보드, 가장 큰틀이라고 설명드렸던 프로젝트, JQL이라는 쿼리 언어로 원하는 값을 출력가능한 필터로 다양한 구성이 가능합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/10.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;위처럼&lt;/p&gt;
-
-&lt;p&gt;제외 규칙을 사용하면 계획의 이슈 소스를 세분화하므로 가장 관련성이 높은 이슈가 표시됩니다.&lt;/p&gt;
-
-&lt;p&gt;집중하는 분야에 따라서 특정 이슈 유형, 상태 또는 릴리스를 제외하도록 규칙을 설정할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;또한 완료한 이슈를 계획에 얼마 동안 유지할 것인지 조정할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/11.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;계층의 경우는 조직 전체에서 작업을 계획하고 추적하는 경우 에픽 이상의 계층 수준을 만들어야 합니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 회사 전체의 목표를 나타내는 이니셔티브 계층 수준을 만들 수 있습니다. 이니셔티브를 에픽 수준 위에 배치하면 에픽의 컨테이너로 사용할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;고급 로드맵 의 계층 구조는 지라의 기본 이슈 유형에서 상속합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/12.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;종속성은 우발 상황 및 블로커와 같은 계획 내 이슈 사이의 관계를 나타냅니다.&lt;/p&gt;
-
-&lt;p&gt;프로젝트 또는 프로그램 관리자가 로드맵에서 중요한 경로를 결정할 때 종속성을 시각화하고 이해하는 것이 중요합니다.&lt;/p&gt;
-
-&lt;p&gt;종속성을 완전하게 매핑했으면 팀은 대체 경로에 대해 조정하고 계획할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이슈 서로의 종속성은 줄로 표시 할 수 도 있고&lt;/p&gt;
-
-&lt;p&gt;덕분에 누구에게 할당되어 있는지, 어느 이슈와 연결이 되어있는지 에픽 간 관계를 쉽게 시각적으로 표시할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/13.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/14.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;작업 수용량은 팀이 주어진 기간에 수행하는 작업의 단위를 나타냅니다.&lt;/p&gt;
-
-&lt;p&gt;특정 마일스톤에 따라 작업을 완료할 수 있는 팀의 역량을 가늠하는 데 사용할 수 있으며, 주요 결정을 내릴 때 위험을 평가하는 데 매우 중요합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/15.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;고급 로드맵은 지라 데이터의 샌드박스 환경의 역할을 하므로 시나리오를 사용하여&lt;/p&gt;
-
-&lt;p&gt;마일스톤 또는 프로젝트 완료로 향하는 대체 경로를 탐색할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;즉 다양한 시나리오를 활용하여 계획하면 중단을 최소화하는 방식으로 적응할 수 있는 것이죠&lt;/p&gt;
-
-&lt;p&gt;최상의 경우를 목표로 삼고, 최악의 경우를 대비하고, 최상과 최악 사이의 모든 경우에 대비할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/16.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;릴리즈 기능입니다. 릴리스는 계획에서 작업을 완료해야 할 시점을 표시하는 마일스톤입니다.&lt;/p&gt;
-
-&lt;p&gt;작업을 구성하는 방식에 따라, 릴리스는 계획을 만드는 과정에서 선택하며 언제든지 제외 규칙을 통해 조정할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/17.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;지금까지 고급 로드맵의 핵심 키워드에 대해서 말씀드렸습니다.&lt;/p&gt;
-
-&lt;p&gt;또한 밑에 영상에서 확인 할 수 있는 시연 시나리오에서는 해당 오너는 진행시킬 프로젝트 A에 대해서 가상의 계획을 세우고 적합한 담당자를 찾고 해당 담당자가 현재 할당중인 이슈에 대해서 참고하여 일정을 계획하고 공유하는 영상을 준비하였습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/18.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;지금부터는 Confluence 클라우드 프리미엄 기능에 대해서 다뤄보도록 하겠습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/19.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;컨플루언스 프리미엄 첫번째 기능입니다.&lt;/p&gt;
-
-&lt;p&gt;인사이트 기능을 통해 사용자 추이와 페이지의 반응을 확인 가능합니다.&lt;/p&gt;
-
-&lt;p&gt;관리자는 해당 사이트의 페이지와 사용자 추이를 통해 컨플루언스의 방향을 점검하고 계획할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/Webinar/20221027/20.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;두번째 프리미엄 기능은 컨플루언스 팀 캘린더 입니다.&lt;/p&gt;
-
-&lt;p&gt;컨플루언스 프리미엄의 팀 캘린더를 사용하면 개인별 업무 일정과 컨플루언스 페이지로 연결되는 개인 및 팀의 일정을 효과적으로 공유하고 소통할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;팀 캘린더를 통해 팀을 체계적으로 유지하고 업무 가능 상태를 빠르게 파악할 수 있게 되는데요.&lt;/p&gt;
-
-&lt;p&gt;뿐만 아니라 jira의 이슈를 원하는대로 표기가 가능하여 프로젝트에 대한 일정을 잡기 용이 합니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;이번 웨비나를 통해 아틀라시안 클라우드의 이점부터 프리미엄 구독 고객의 사례들까지 세세하게 알아보았는데요!&lt;/p&gt;
-
-&lt;p&gt;시연 영상과 함께 준비 되었다보니 포스팅에서는 미쳐 담지 못한 지라와 컨플루언스를 연동하여 결합 사용 시연 시나리오 또한 밑에 링크에 준비되었으니 관련하여 더 생생한 후기가 궁금하시다면 아래 링크를 통해 영상으로도 확인 가능하니 참고 부탁 드립니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;»영상 보러 가기&lt;/strong&gt; [&lt;img src=&quot;https://www.youtube.com/s/desktop/d8e1215c/img/favicon_32x32.png&quot; alt=&quot;img&quot; /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=KqgmSJ4yzXo&quot;&gt;웨비나 다시보기] 아틀라시안 클라우드 프리미엄 200% 활용하기&lt;/a&gt;   &lt;strong&gt;»&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;앞으로도 저희 디무브는 아틀라시안 클라우드 관련하여 더 좋은 내용으로 찾아뵐 것을 약속드리며&lt;/p&gt;
-
-&lt;p&gt;클라우드 마이그레이션 관련하여 궁금하신 사항이 있으신 경우 언제든지 연락 부탁드립니다.&lt;/p&gt;
-
-&lt;p&gt;그럼 이만 본 포스팅을 마치도록 하겠습니다.&lt;/p&gt;
-
-&lt;p&gt;감사합니다&lt;img src=&quot;https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/64x64/1f600.png&quot; alt=&quot;:grinning:&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;문의 사항이 있으시면
-언제든지 문의 부탁드립니다  »&lt;a href=&quot;http://dmove.co.kr/contact-us/quote-service-inquiry&quot;&gt;문의하기&lt;/a&gt;»&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 31 Jan 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/webinars/2023/01/31/202210-Atlassian-Cloud-Webinar.html</link>
-        <guid isPermaLink="true">http://localhost:4000/webinars/2023/01/31/202210-Atlassian-Cloud-Webinar.html</guid>
-        
-        <category>Atlassian</category>
-        
-        <category>아틀라시안</category>
-        
-        <category>아틀라시안웨비나</category>
-        
-        <category>Atlassian Cloud</category>
-        
-        <category>Jira</category>
-        
-        <category>Confluence</category>
-        
-        <category>CloudMigration</category>
-        
-        <category>Servertocloud</category>
-        
-        <category>클라우드마이그레이션</category>
-        
-        <category>아틀라시안클라우드</category>
-        
-        <category>디무브</category>
-        
-        <category>Atlassianwebinar</category>
-        
-        <category>올쇼tv</category>
-        
-        
-        <category>Webinars</category>
-        
-      </item>
-    
-      <item>
-        <title>23년 2월 15일, 아틀라시안 서버 라이선스 가격 인상 및 지원 종료 발표 안내</title>
-        <description>&lt;p&gt;안녕하세요.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안 플래티넘 솔루션 파트너사 디무브입니다.&lt;/p&gt;
-
-&lt;p&gt;2023년 1월 10일(태평양 표준시 기준), 아틀라시안에서는 서버 라이선스에 대한 새로운 정책을 발표했습니다. 서버 라이선스 이용자 분들께서 꼭 아셔야 하는 내용이오니, 아래 정리된 내용을 꼼꼼하게 확인 부탁드립니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;1애드온-신규-구매-중단&quot;&gt;1.애드온 신규 구매 중단&lt;/h3&gt;
-
-&lt;p&gt;23년 2월 15일부터 마켓플레이스를 통한 신규 구매가 중단됩니다. 이는 아틀라시안의 서버 지원  종료 정책과 관련되며, 애드온의 기술 지원, 버그 수정, 패치 적용 등이 2023년 2월 15일 이전에만 가능함을 의미합니다.&lt;/p&gt;
-
-&lt;p&gt;단, Fisheye와 Crucible 서버 앱은 마켓플레이스를 통한 구매가 가능합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-가격-인상&quot;&gt;2. 가격 인상&lt;/h3&gt;
-
-&lt;p&gt;23년 2월 15일부터 가격이 인상됩니다. 서버 라이선스 신규 구매 및 업그레이드는 21년 2월 부로 종료되었으므로 본 가격 인상은 라이선스 갱신 고객만 해당하게 됩니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Jira Software -Server&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;사용자 티어&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;현재 소비자가&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;조정 후 가격&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;25&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 3,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 4,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;50&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 6,800&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 7,600&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;100&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 13,300&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 13,900&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;250&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 26,400&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 27,600&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 40,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 46,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 60,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 60,300&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;Confluence - Server&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;사용자 티어&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;현재 소비자가&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;조정 후 가격&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;25&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 2,700&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 3,100&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;50&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 5,300&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 5,800&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;100&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 10,200&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 10,900&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;250&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 19,800&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 20,700&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 30,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 34,500&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 45,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;USD 45,300&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;※ 10,000명 및 10,000+ 티어는 가격 조정 없습니다.&lt;/p&gt;
-
-&lt;p&gt;더불어 모든 &lt;strong&gt;서버 라이선스 지원 기간이 24년 2월 15일자로 일괄 종료&lt;/strong&gt;됩니다.  Server는 영구 라이선스이지만, 아틀라시안의 버그 수정 및 보안 업데이트에 대한 지원 및 유지 관리가 24년 2월 종료되므로 지금이 클라우드 또는 데이터센터로의 마이그레이션을 검토해 볼 수 있는 시점이라고 할 수 있습니다. 보통 마이그레이션은 환경이 얼마나 복잡한지에 따라 다르지만, 서버에서 클라우드로 가는 것은 약 3~12개월이 소요되기 때문입니다.&lt;/p&gt;
-
-&lt;p&gt;서버 라이선스 갱신 및 애드온 구매, 마이그레이션 등 아틀라시안 관련 문의 사항은 디무브에 연락주시면 안내토록 하겠습니다.&lt;/p&gt;
-
-&lt;p&gt;감사합니다.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/company%20news/2023/01/11/Atlassian-License-Pee-Notification.html</link>
-        <guid isPermaLink="true">http://localhost:4000/company%20news/2023/01/11/Atlassian-License-Pee-Notification.html</guid>
-        
-        <category>Atlassian</category>
-        
-        <category>아틀라시안</category>
-        
-        <category>Atlassian Cloud</category>
-        
-        <category>Jira</category>
-        
-        <category>Confluence</category>
-        
-        <category>Jira Service Management</category>
-        
-        <category>아틀라시안클라우드</category>
-        
-        <category>협업툴</category>
-        
-        <category>아틀라시안가격</category>
-        
-        
-        <category>Company News</category>
         
       </item>
     
