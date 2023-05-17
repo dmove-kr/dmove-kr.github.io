@@ -45,7 +45,7 @@ tags: [Atlassian, Team23, 아틀라시안, Atlassianteam23, teamanywhere, Jira, 
 
   **Jira Cloud 로그인  > 우측 상단의 사용자 프로필 아이콘을 클릭 > Theme (Beta) > Light, Dark, Match System, Original 중 선택**
 
-![img](https://api.media.atlassian.com/file/f291af1b-2b4b-47ca-8694-b51db3c58cf0/image?allowAnimated=true&client=590ec727-dc86-43ed-9d0b-3f79195d9307&collection=contentId-35435544577&height=2758&max-age=2592000&mode=full-fit&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQzNTU0NDU3NyI6WyJyZWFkIl19LCJleHAiOjE2ODQzMDcxNDMsIm5iZiI6MTY4NDMwNDI2M30.qvJsXGrzPiixUycIMWOpay4YH6NBUmPQo9KOfxODkZQ&width=3072#media-blob-url=true&id=f291af1b-2b4b-47ca-8694-b51db3c58cf0&collection=contentId-35435544577&contextId=35435544577&height=897&width=999&alt=)
+<center><img style="width:100%;" src="/assets/images/Team23/Jira-Cloud-New-Feature/2.png"></center> <br/>
 
  
 
@@ -57,7 +57,7 @@ tags: [Atlassian, Team23, 아틀라시안, Atlassianteam23, teamanywhere, Jira, 
 
  
 
-![img](https://api.media.atlassian.com/file/78ac6969-4216-453b-beea-823d07d6fca1/image?allowAnimated=true&client=590ec727-dc86-43ed-9d0b-3f79195d9307&collection=contentId-35435544577&height=1728&max-age=2592000&mode=full-fit&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQzNTU0NDU3NyI6WyJyZWFkIl19LCJleHAiOjE2ODQzMDcxNDMsIm5iZiI6MTY4NDMwNDI2M30.qvJsXGrzPiixUycIMWOpay4YH6NBUmPQo9KOfxODkZQ&width=3072#media-blob-url=true&id=78ac6969-4216-453b-beea-823d07d6fca1&collection=contentId-35435544577&contextId=35435544577&height=562&width=999&alt=)
+<center><img style="width:100%;" src="/assets/images/Team23/Jira-Cloud-New-Feature/3.png"></center> <br/>
 
  
 
@@ -97,7 +97,7 @@ Security 기능은 Jira 프로젝트와 보안 취약점을 검출할 수 있는
 
  
 
-![img](https://api.media.atlassian.com/file/b631c14e-f4f7-425b-9965-2bf3fe8c9838/image?allowAnimated=true&client=590ec727-dc86-43ed-9d0b-3f79195d9307&collection=contentId-35435544577&height=2186&max-age=2592000&mode=full-fit&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQzNTU0NDU3NyI6WyJyZWFkIl19LCJleHAiOjE2ODQzMDcxNDMsIm5iZiI6MTY4NDMwNDI2M30.qvJsXGrzPiixUycIMWOpay4YH6NBUmPQo9KOfxODkZQ&width=3072#media-blob-url=true&id=b631c14e-f4f7-425b-9965-2bf3fe8c9838&collection=contentId-35435544577&contextId=35435544577&height=711&width=999&alt=)
+<center><img style="width:100%;" src="/assets/images/Team23/Jira-Cloud-New-Feature/4.png"></center> <br/>
 
  
 
