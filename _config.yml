@@ -28,7 +28,7 @@ authors:
     name : hailey
     display_name : Hailey
     executive : Marketing Manager
-    avatar : 'assets/images/banners/Dmove.png'
+    avatar : 'assets/images/main/default-woman.svg'
     email : jenna@dmove.kr
     description : 디무브 Sales & Marketing Manager hailey 입니다.
     web : https://www.dmove.co.kr/company/our-team#hailey
@@ -95,7 +95,7 @@ authors:
     name : Ray
     display_name : Ray
     executive : Solution Engineer
-    avatar : 'assets/images/banners/Dmove.png'
+    avatar : 'assets/images/main/default-man.svg'
     email : eddie@dmove.kr
     description : 디무브 Solution Engineer Ray 입니다.
     web : https://www.dmove.co.kr/company/our-team#ray
