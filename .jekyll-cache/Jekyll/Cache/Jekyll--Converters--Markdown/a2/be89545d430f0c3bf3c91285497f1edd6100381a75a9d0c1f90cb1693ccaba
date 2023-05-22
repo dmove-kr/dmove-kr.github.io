@@ -1,4 +1,4 @@
-I"B(<p>안녕하세요! 디무브입니다.</p>
+I""!<p>안녕하세요! 디무브입니다.</p>
 
 <p>이번에는 Team ‘23에서 발표된 Jira Cloud의 새롭게 추가될 내용에 대해 공유해 보도록 하겠습니다.</p>
 
@@ -27,13 +27,15 @@
   </li>
 </ul>
 
-<p><img src="https://api.media.atlassian.com/file/f291af1b-2b4b-47ca-8694-b51db3c58cf0/image?allowAnimated=true&amp;client=590ec727-dc86-43ed-9d0b-3f79195d9307&amp;collection=contentId-35435544577&amp;height=2758&amp;max-age=2592000&amp;mode=full-fit&amp;token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQzNTU0NDU3NyI6WyJyZWFkIl19LCJleHAiOjE2ODQzMDcxNDMsIm5iZiI6MTY4NDMwNDI2M30.qvJsXGrzPiixUycIMWOpay4YH6NBUmPQo9KOfxODkZQ&amp;width=3072#media-blob-url=true&amp;id=f291af1b-2b4b-47ca-8694-b51db3c58cf0&amp;collection=contentId-35435544577&amp;contextId=35435544577&amp;height=897&amp;width=999&amp;alt=" alt="img" /></p>
+<center><img style="width:100%;" src="/assets/images/Team23/Jira-Cloud-New-Feature/2.png" /></center>
+<p><br /></p>
 
 <hr />
 
 <h2 id="2-security-in-jira"><strong>#2 Security In Jira</strong></h2>
 
-<p><img src="https://api.media.atlassian.com/file/78ac6969-4216-453b-beea-823d07d6fca1/image?allowAnimated=true&amp;client=590ec727-dc86-43ed-9d0b-3f79195d9307&amp;collection=contentId-35435544577&amp;height=1728&amp;max-age=2592000&amp;mode=full-fit&amp;token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQzNTU0NDU3NyI6WyJyZWFkIl19LCJleHAiOjE2ODQzMDcxNDMsIm5iZiI6MTY4NDMwNDI2M30.qvJsXGrzPiixUycIMWOpay4YH6NBUmPQo9KOfxODkZQ&amp;width=3072#media-blob-url=true&amp;id=78ac6969-4216-453b-beea-823d07d6fca1&amp;collection=contentId-35435544577&amp;contextId=35435544577&amp;height=562&amp;width=999&amp;alt=" alt="img" /></p>
+<center><img style="width:100%;" src="/assets/images/Team23/Jira-Cloud-New-Feature/3.png" /></center>
+<p><br /></p>
 
 <p>한국 인터넷 진흥원에 따르면 2023년 5월 2일 자로 제공 중인 보안 취약점 레포트(CVE Report)는 총 224,319건으로 수많은 보안 취약점이 존재하고 있습니다.</p>
 
@@ -57,7 +59,8 @@
 
 <h2 id="4-jsm-jira-service-management-new-templates"><strong>#4 JSM (Jira Service Management) New templates</strong></h2>
 
-<p><img src="https://api.media.atlassian.com/file/b631c14e-f4f7-425b-9965-2bf3fe8c9838/image?allowAnimated=true&amp;client=590ec727-dc86-43ed-9d0b-3f79195d9307&amp;collection=contentId-35435544577&amp;height=2186&amp;max-age=2592000&amp;mode=full-fit&amp;token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OTBlYzcyNy1kYzg2LTQzZWQtOWQwYi0zZjc5MTk1ZDkzMDciLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0zNTQzNTU0NDU3NyI6WyJyZWFkIl19LCJleHAiOjE2ODQzMDcxNDMsIm5iZiI6MTY4NDMwNDI2M30.qvJsXGrzPiixUycIMWOpay4YH6NBUmPQo9KOfxODkZQ&amp;width=3072#media-blob-url=true&amp;id=b631c14e-f4f7-425b-9965-2bf3fe8c9838&amp;collection=contentId-35435544577&amp;contextId=35435544577&amp;height=711&amp;width=999&amp;alt=" alt="img" /></p>
+<center><img style="width:100%;" src="/assets/images/Team23/Jira-Cloud-New-Feature/4.png" /></center>
+<p><br /></p>
 
 <p>최근 JSM에 Design Team과 Sales Team을 위한 새로운 템플릿이 추가 되었습니다. 추가된 템플릿은 사용자 필요에 따라 커스터마이징할 수 있습니다.</p>
 

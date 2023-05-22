@@ -63,7 +63,6 @@ authors:
     web : https://www.dmove.co.kr/company/our-team#andy 
 
     
-
   
   jackson:
     name : Jackson
@@ -91,6 +90,17 @@ authors:
     email : eddie@dmove.kr
     description : 디무브 Atlassian Solution Engineer Eddie 입니다.
     web : https://www.dmove.co.kr/company/our-team#eddie 
+
+  ray:
+    name : Ray
+    display_name : Ray
+    executive : Solution Engineer
+    avatar : 'assets/images/main/img_ourteam_ray.png'
+    email : eddie@dmove.kr
+    description : 디무브 Solution Engineer Ray 입니다.
+    web : https://www.dmove.co.kr/company/our-team#ray
+  
+  
 
 # Plugins
 plugins:

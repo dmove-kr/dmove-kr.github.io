@@ -4,7 +4,6 @@ title: 2022년 10월 아틀라시안 클라우드 가격 인상 안내
 Subtitle: October 22' Cloud Pricing Changes
 date: 2022-09-14
 author : jenna
-featured: true
 image: https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629
 categories: [Company News]
 tags: [Atlassian, 아틀라시안, Atlassian Cloud, Jira, Confluence, Jira Service Management, 아틀라시안클라우드, 협업툴, 아틀라시안가격]

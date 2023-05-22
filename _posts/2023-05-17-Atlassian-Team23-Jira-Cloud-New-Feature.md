@@ -4,7 +4,8 @@ layout: post
 title: Team '23에서 소개된 Jira Cloud 새로운 기능
 Subtitle: Jira Cloud New Feature
 date: 2023-05-17
-author : hailey
+author : ray
+featured: true
 image : assets/images/Team23/Jira-Cloud-New-Feature/Thumbnail.png
 categories: [Inside Atlassian]
 tags: [Atlassian, Team23, 아틀라시안, Atlassianteam23, teamanywhere, Jira, Jira Cloud, New Feature, Jira New Feature]
