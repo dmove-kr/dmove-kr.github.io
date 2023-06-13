@@ -3,11 +3,107 @@
   <channel>
     <title>Welcome!</title>
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 May 2023 16:06:28 +0900</pubDate>
-    <lastBuildDate>Mon, 22 May 2023 16:06:28 +0900</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 13 Jun 2023 09:26:58 +0900</pubDate>
+    <lastBuildDate>Tue, 13 Jun 2023 09:26:58 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>업스킬링(Upskilling)을 위한 필수 요소 - 지금이 미래에 대비한 인력 확보 기회</title>
+        <description>&lt;p&gt;안녕하세요, 디무브 입니다! 🎈&lt;/p&gt;
+
+&lt;p&gt;언택트, 메타버스, AI 등 새로운 기술들을 다양한 산업에 접목시키며 디지털 트랜스포메이션이 빠르게 일어나고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이 같은 변화에서 핵심 가치로 떠오르는 것은 &lt;strong&gt;디지털 전환 시대에 살아남을 인재를 확보하는 것&lt;/strong&gt;입니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 단순히 디지털과 데이터에 익숙한 인재를 새롭게 채용하는 것은 시간, 비용 측면에서 기업에게도 많은 리스크가 있습니다. 따라서 대부분의 기업들은 새로운 인력을 충원하기보다 기존 인력의 스킬갭을 줄여 활용하는 것에 중점을 두고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이를 위해 사용할 수 있는 HR 전략이 바로 &lt;strong&gt;업스킬링(Upskilling)과 리스킬링(Reskilling)&lt;/strong&gt;입니다.&lt;/p&gt;
+
+&lt;p&gt;단어만 보면 둘 다 직원의 기술 역량을 발전 시켜준다는 의미라 어떤 차이가 있는지 궁금하실텐데요.&lt;/p&gt;
+
+&lt;p&gt;오늘은 4차 산업 혁명 시대를 대비하기 위해 기업이 구성원들을 어떻게 조직하고 업스킬링 vs. 리스킬링 전략을 운영해야 할지 아틀라시안 아티클을 가지고 정리해 보겠습니다!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;직원과-조직의-성장에-투자해-그들이-업무에-창의적이고-적극적으로-참여할-수-있도록-지원하세요&quot;&gt;&lt;em&gt;직원과 조직의 성장에 투자해 그들이 업무에 창의적이고 적극적으로 참여할 수 있도록 지원하세요!&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;AI와 데이터 분석의 빠른 발전이 세계 경제 포럼이 명명한 “4차 산업 혁명”을 주도하면서 업무 세계는 심각한 변화의 흐름 속에 있습니다. 세계 경제 포럼은 이르면 2025년, 전 세계 노동력의 절반이 어느 정도의 직무 기술을 다시 교육받아야 할 것으로 추정합니다. 당면한 문제는 시급하고, 어쩌면 위협적일 수도 있습니다. 그러나 미래 지향적인 기업 리더에게는 팀의 지식과 노하우에 투자함으로써 미래를 대비해 적극적으로 인력을 확보할 수 있는 기회가 될 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;upskilling-vs-reskilling&quot;&gt;Upskilling vs. Reskilling&lt;/h2&gt;
+
+&lt;p&gt;모든 조직의 요구 사항은 다르지만, 직원을 다시 교육하기 위한 노력은 광범위하게 &lt;strong&gt;업스킬링과 리스킬링&lt;/strong&gt; 두 가지로 분류됩니다.&lt;/p&gt;
+
+&lt;p&gt;두 용어는 때때로 같은 의미로 사용되지만, 각기 다른 목표를 달성하기 위한 별개의 접근 방식입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“업스킬링”&lt;/strong&gt;은 직원이 가진 기존 기술을 향상시키거나 현재의 역할을 보완하기 위한 목적으로 새로운 기술을 가르치는 것을 의미합니다. 업스킬링의 목표는 직원의 성장과 조직의 성장에 투자함으로써 직원이 업무에 적극적으로 참여할 수 있도록 돕는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;반면, &lt;strong&gt;“리스킬링”&lt;/strong&gt;은 직원들이 회사 내에서 맡은 직무에서 새로운 직무로 전환할 수 있도록 교육하는 것을 의미합니다. 이는 직원의 현재 업무가 조직 내에서 더 이상 필요하지 않거나 산업 변화와 같은 외부 요인으로 다른 기술을 배워야 하는 경우에 해당됩니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, MIT Sloan의 연구원들은 대퇴사(Great Resignment) 기간 동안 기술 고객 서비스 및 IT 지원과 같은 업무는 신규 직원을 고용하기보다 기존 직원의 기술 역량을 재 설계하고 교육하는 데 의존하는 고용주가 증가하고 있다는 것을 발견했습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;업스킬링에-대한-투자-성과&quot;&gt;&lt;strong&gt;업스킬링에 대한 투자 성과&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;MIT Sloan 연구원들은 근로자의 업스킬링 계획이 때때로 직원들에게 부정적일 수 있다고 지적합니다.&lt;/p&gt;
+
+&lt;p&gt;특히, 이 같은 현상은 상대적으로 경력직 직원들에게서 자주 나타납니다. 그러나 일반적으로 근로자들은 직원 성장에 대한 회사의 투자에 긍정적으로 반응하는 것으로 나타났습니다.&lt;/p&gt;
+
+&lt;p&gt;2019년 PwC Global CEO 설문 조사는 발전된 업스킬링 프로그램과 개선된 직원 참여도, 혁신, 유망한 인재 유치 및 보유 능력 사이에 긍정적인 상관관계가 있음을 보여주었습니다. 그리고 영국 e-러닝 솔루션 플랫폼 imc의 새로운 보고서는 2,000명의 근로자를 대상으로 한 설문조사에서 절반 이상이 개인 또는 전문적인 개발 기회가 부족하여 일을 그만두었다고 발표했습니다. 이는 대퇴사의 여파가 “대규모 업스킬링에 대한 요구이자 갈증”이라는 것을 설명합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;-업스킬링-프로그램-모범-사례&quot;&gt;💡 &lt;strong&gt;업스킬링 프로그램: 모범 사례&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;가장-많은-혜택을-받을-근로자-우선-선정&quot;&gt;가장 많은 혜택을 받을 근로자 우선 선정&lt;/h3&gt;
+
+&lt;p&gt;Management.org 의 최고 인사 책임자인 Steven Mostyn은 그의 회사가 이러한 결정을 내리기 전 직원의 성과를 살펴본다고 말합니다. Mostyn은 “직원이 자신이 맡은 바를 잘 수행하고 있고 회사가 그를 승진 시킬 계획이라면 회사는 그가 업스킬링을 위해 필요한 교육과 계획을 준비해야 한다. 반대로 성과가 낮은 직원은 맡은 업무를 보다 효율적으로 수행하기 위해 리스킬링을 받고 때로는 업무 효율을 높이기 위한 업스킬링 프로그램이 필요할 수도 있다”라고 말했습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;업스킬링-프로세스-운용&quot;&gt;업스킬링 프로세스 운용&lt;/h3&gt;
+
+&lt;p&gt;United Planet의 국제 비즈니스 및 가상 교환 책임자인 Donna Lubrano는 진정한 “학습 조직(Learning Organization)”은 근로자의 연간 또는 반기 별 성과 평가로 전문 인력 개발 평가 방법을 구축하는 것이 이상적이라고 덧붙였습니다. 관리자는 자신의 직원이 맡은 역할을 성공적으로 수행하는 것을 저해하는 부분이 무엇인지 파악한 후 회사의 거시적인 목표와 예산 등을 고려해 부족한 부분을 메꿀 수 있는 전략을 수립할 줄 알아야 합니다. 성공적인 전략 수립을 위해서는 해당 직원의 학습 스타일도 고려해야 합니다. 업스킬링을 위한 전략을 구축할 때 천편일률적인 접근 방식을 채택하는 기업은 상반된 결과를 얻을 가능성이 높습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;직원-입력-통합&quot;&gt;직원 입력 통합&lt;/h3&gt;
+
+&lt;p&gt;성공적인 업스킬링 이니셔티브에는 직원의 의견도 포함되어야 합니다. 연구에 따르면 직원들이 어떤 기술을 배우고 싶은지 선택할 수 있는 권한을 갖게 되면 그 과정에서 주인 의식을 느낀다고 합니다. 관리자와 직원 간의 의견을 나누는 상호 협력적 접근 방식은 교육을 위한 노력이 개별 직원의 목표와 회사의 더 큰 비전 모두를 충족할 수 있게 해줍니다. 또한 리더는 직원들에게 새로운 기술을 습득할 수 있는 기회뿐만 아니라 이 기회를 통해 어떤 성과 혹은 결과를 얻을 수 있는지 전달해야 합니다. 직원이 자신의 향후 커리어에 대해 명확하게 이해함으로써 직원들은 조직 내에서 자신 미래를 구상할 수 있을 뿐만 아니라 조직이 성장과 투자에 적극적이라는 것을 알 수 있습니다. Lubrano는 “이는 조직이 직원들이 가치 있다는 것을 알고 있음을 보여주며, 미션의 성공에 대한 그들의 헌신을 새롭게 한다.”라고 말했습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;-하지-말아야-할-것&quot;&gt;🚫 &lt;strong&gt;&lt;em&gt;하지 말아야 할 것&lt;/em&gt;&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;업스킬링과 리스킬링에서 하지 말아야 할 것에 대해 말하자면, &lt;strong&gt;P2P(Peer to Peer) 기술 교육을 선도하기 위해 디지털 네이티브 세대인 젊은 직원들에게 의존하는 것&lt;/strong&gt;입니다.&lt;/p&gt;
+
+&lt;p&gt;이는 디지털에 친숙하지 않은 고위 직원들의 분노와 디지털 네이티브에서 제외된 젊은 직원들을 좌절 시키는 원인이 됩니다. 마찬가지로, Mostyn은 교육 및 컨퍼런스는 관리 직급 근로자 대상으로 제한하고, 관리자가 부하 직원을 훈련 시킬 것을 기대하지 말라고 조언합니다. 이는 많은 관리자들이 배운 것을 제대로 전파하지 못하기 때문입니다. 이보단 교육이 필요한 직원을 파악하여 직접 그들에게 투자하는 것이 더욱 효과적입니다.&lt;/p&gt;
+
+&lt;p&gt;요컨대, 근로자 리스킬링은 근로자 스스로 자신의 분야에서 관련성을 유지하고 전반적인 직무 만족에 기여할 수 있도록 돕는 것이 필수적입니다. 또한 업스킬링은 직원들이 자신의 커리어 패스를 형성할 수 있는 가치와 권한을 느끼게 함으로써 직원들의 참여도를 높일 수 있습니다. 기업이 인력의 성장에 투자하는 것은 모두에게 이상적인 선택입니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;디지털 전환 시대, 조직의 성장을 위해 관리자와 HR 담당자는 어떻게 준비해야 할지 HR 전략을 소개해 드렸는데요.&lt;/p&gt;
+
+&lt;p&gt;앞으로도 아틀라시안 관련 소식뿐 아니라 조직 업무 효율을 개선하기 위한 다양한 아이디어와 활용 사례도 공유 드려보겠습니다!&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0900</pubDate>
+        <link>/how%20to/2023/06/13/time-to-future-proof-your-workforce.html</link>
+        <guid isPermaLink="true">/how%20to/2023/06/13/time-to-future-proof-your-workforce.html</guid>
+        
+        <category>Atlassian</category>
+        
+        <category>아틀라시안</category>
+        
+        <category>업스킬링</category>
+        
+        <category>메타버스</category>
+        
+        <category>DT</category>
+        
+        <category>디지털 트랜스포메이션</category>
+        
+        <category>Digital Transformation</category>
+        
+        
+        <category>How To</category>
+        
+      </item>
     
       <item>
         <title>Team &apos;23에서 소개된 Confluence 새로운 기능</title>
@@ -135,8 +231,8 @@
 
 </description>
         <pubDate>Mon, 22 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/inside%20atlassian/2023/05/22/Atlassian-Team23-Confluence-New-Feature.html</link>
-        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2023/05/22/Atlassian-Team23-Confluence-New-Feature.html</guid>
+        <link>/inside%20atlassian/2023/05/22/Atlassian-Team23-Confluence-New-Feature.html</link>
+        <guid isPermaLink="true">/inside%20atlassian/2023/05/22/Atlassian-Team23-Confluence-New-Feature.html</guid>
         
         <category>Atlassian</category>
         
@@ -299,8 +395,8 @@
 
 </description>
         <pubDate>Mon, 22 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/inside%20atlassian/2023/05/22/Atlassian-Team23-Atlassian-Intelligence.html</link>
-        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2023/05/22/Atlassian-Team23-Atlassian-Intelligence.html</guid>
+        <link>/inside%20atlassian/2023/05/22/Atlassian-Team23-Atlassian-Intelligence.html</link>
+        <guid isPermaLink="true">/inside%20atlassian/2023/05/22/Atlassian-Team23-Atlassian-Intelligence.html</guid>
         
         <category>Atlassian</category>
         
@@ -477,8 +573,8 @@
 
 </description>
         <pubDate>Wed, 17 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/inside%20atlassian/2023/05/17/Atlassian-Team23-Jira-Cloud-New-Feature.html</link>
-        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2023/05/17/Atlassian-Team23-Jira-Cloud-New-Feature.html</guid>
+        <link>/inside%20atlassian/2023/05/17/Atlassian-Team23-Jira-Cloud-New-Feature.html</link>
+        <guid isPermaLink="true">/inside%20atlassian/2023/05/17/Atlassian-Team23-Jira-Cloud-New-Feature.html</guid>
         
         <category>Atlassian</category>
         
@@ -579,8 +675,8 @@
 
 </description>
         <pubDate>Wed, 17 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/inside%20atlassian/2023/05/17/Atlassian-Team23-Confluence-WhiteBoard.html</link>
-        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2023/05/17/Atlassian-Team23-Confluence-WhiteBoard.html</guid>
+        <link>/inside%20atlassian/2023/05/17/Atlassian-Team23-Confluence-WhiteBoard.html</link>
+        <guid isPermaLink="true">/inside%20atlassian/2023/05/17/Atlassian-Team23-Confluence-WhiteBoard.html</guid>
         
         <category>Atlassian</category>
         
@@ -700,8 +796,8 @@
 
 </description>
         <pubDate>Thu, 11 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/inside%20atlassian/2023/05/11/Jira-Product-Discovery-Introdcution.html</link>
-        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2023/05/11/Jira-Product-Discovery-Introdcution.html</guid>
+        <link>/inside%20atlassian/2023/05/11/Jira-Product-Discovery-Introdcution.html</link>
+        <guid isPermaLink="true">/inside%20atlassian/2023/05/11/Jira-Product-Discovery-Introdcution.html</guid>
         
         <category>Atlassian</category>
         
@@ -802,8 +898,8 @@
 &lt;p&gt;Atlassian은 소닉 브랜드와의 협업 중심에 사람을 둔 것이 자랑스럽습니다. 그리고 고객이 혼자서는 불가능했을 일을 해낼 때 소닉 하이 파이브를 할 수 있기를 기대합니다.&lt;/p&gt;
 </description>
         <pubDate>Fri, 28 Apr 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/inside%20atlassian/2023/04/28/Atlassian-New-project-Sonic-Brand.html</link>
-        <guid isPermaLink="true">http://localhost:4000/inside%20atlassian/2023/04/28/Atlassian-New-project-Sonic-Brand.html</guid>
+        <link>/inside%20atlassian/2023/04/28/Atlassian-New-project-Sonic-Brand.html</link>
+        <guid isPermaLink="true">/inside%20atlassian/2023/04/28/Atlassian-New-project-Sonic-Brand.html</guid>
         
         <category>Atlassian</category>
         
@@ -923,8 +1019,8 @@
 
 </description>
         <pubDate>Tue, 25 Apr 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/company%20news/2023/04/25/Atlassian-Cloud-User-Pee.html</link>
-        <guid isPermaLink="true">http://localhost:4000/company%20news/2023/04/25/Atlassian-Cloud-User-Pee.html</guid>
+        <link>/company%20news/2023/04/25/Atlassian-Cloud-User-Pee.html</link>
+        <guid isPermaLink="true">/company%20news/2023/04/25/Atlassian-Cloud-User-Pee.html</guid>
         
         <category>아틀라시안클라우드</category>
         
@@ -1067,8 +1163,8 @@
 
 </description>
         <pubDate>Thu, 06 Apr 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/how%20to/2023/04/06/Using-JSM-to-Improve-HR.html</link>
-        <guid isPermaLink="true">http://localhost:4000/how%20to/2023/04/06/Using-JSM-to-Improve-HR.html</guid>
+        <link>/how%20to/2023/04/06/Using-JSM-to-Improve-HR.html</link>
+        <guid isPermaLink="true">/how%20to/2023/04/06/Using-JSM-to-Improve-HR.html</guid>
         
         <category>Atlassian</category>
         
@@ -1239,8 +1335,8 @@
 
 </description>
         <pubDate>Wed, 29 Mar 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/how%20to/2023/03/29/How-to-run-effective-meetings.html</link>
-        <guid isPermaLink="true">http://localhost:4000/how%20to/2023/03/29/How-to-run-effective-meetings.html</guid>
+        <link>/how%20to/2023/03/29/How-to-run-effective-meetings.html</link>
+        <guid isPermaLink="true">/how%20to/2023/03/29/How-to-run-effective-meetings.html</guid>
         
         <category>Atlassian</category>
         
@@ -1268,67 +1364,6 @@
         
         
         <category>How To</category>
-        
-      </item>
-    
-      <item>
-        <title>Atlassian Confluence Cloud 사용자 티어 확대</title>
-        <description>&lt;p&gt;안녕하세요.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안 플래티넘 파트너사 디무브입니다.&lt;/p&gt;
-
-&lt;p&gt;협업 툴로 유명한 컨플루언스 (Confluence).&lt;/p&gt;
-
-&lt;p&gt;아틀라시안에서는 23년 3월 22일부터 더 큰 조직에서도 사용할 수 있도록 Confluence Cloud Standard 및 Premium 플랜의 사용자를 50,000명까지 확대하였습니다.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;변경 전&lt;/th&gt;
-      &lt;th&gt;변경 후&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;최대 35,000명&lt;/td&gt;
-      &lt;td&gt;최대 50,000명&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;월간 및 연간 구독 원하는 구독 방식으로 더 많은 구성원들이 컨플루언스를 사용할 수 있게 되었는데요, 컨플루언스 사용자가 35,000명이 초과되어 고민하시던 분들은 지금 바로 업그레이드를 하실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;마켓플레이스 애드온 사용자 티어는 곧 업데이트 될 예정입니다.&lt;/p&gt;
-
-&lt;p&gt;사용자 업그레이드 및 신규 구축을 위한 문의사항은 언제든 연락주세요.&lt;/p&gt;
-
-&lt;p&gt;감사합니다.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 28 Mar 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/company%20news/2023/03/28/Atlassian-Cloud-User-Tier-Expand.html</link>
-        <guid isPermaLink="true">http://localhost:4000/company%20news/2023/03/28/Atlassian-Cloud-User-Tier-Expand.html</guid>
-        
-        <category>Atlassian</category>
-        
-        <category>아틀라시안</category>
-        
-        <category>Atlassian Cloud</category>
-        
-        <category>Jira</category>
-        
-        <category>Confluence</category>
-        
-        <category>Jira Service Management</category>
-        
-        <category>아틀라시안클라우드</category>
-        
-        <category>협업툴</category>
-        
-        <category>아틀라시안가격</category>
-        
-        
-        <category>Company News</category>
         
       </item>
     
