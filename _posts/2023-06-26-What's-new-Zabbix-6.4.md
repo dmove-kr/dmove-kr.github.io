@@ -4,7 +4,7 @@ title: Zabbix v.6.4 출시!
 subtitle: Zabbix6.4
 date: 2023-06-26
 author : jackson
-image : /assets/images/banners/Zabbix/6.4/Thumbnails.png
+image : https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/Thumbnails.png
 categories: [Release Note]
 tags: [Dmove, Zabbix,zabbix6.4,자빅스]
 ---
@@ -39,7 +39,7 @@ Zabbix 6.4 버전은 JIP (Just-in-time) LDAP 및 SAML 사용자 프로비저닝 
 
 Zabbix 6.4에서는 LDAP 및 SAML 인증을 위한 JIT 사용자 프로비저닝 지원이 추가되었습니다.
 
- <center><img src="/assets/images/banners/Zabbix/6.4/1.png"></center><br/>
+ <center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/1.png"></center><br/>
 
 
 
@@ -47,7 +47,7 @@ Zabbix 관리자는 이제 LDAP 그룹 패턴을 선택하여 사용자 프로�
 
  
 
-<center><img src="/assets/images/banners/Zabbix/6.4/2.png"></center><br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/2.png"></center><br/>
 
  
 
@@ -67,11 +67,11 @@ Zabbix 관리자는 이제 LDAP 그룹 패턴을 선택하여 사용자 프로�
 
  
 
-<center><img src="/assets/images/banners/Zabbix/6.4/3.png"></center><br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/3.png"></center><br/>
 
  
 
-<center><img src="/assets/images/banners/Zabbix/6.4/4.png"></center><br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/4.png"></center><br/>
 
  
 
@@ -113,7 +113,7 @@ Zabbix 6.2에 도입된 변경 사항(Configuration change deltas만 수집)을 
 
  
 
-<center><img src="/assets/images/banners/Zabbix/6.4/5.png"></center><br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/5.png"></center><br/>
 
  
 
@@ -121,15 +121,15 @@ OID를 통해 수집된 값들은 JSON 형식으로 전처리 과정을 거쳐 �
 
 
 
-<center><img src="/assets/images/banners/Zabbix/6.4/6.png"></center><br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/6.png"></center><br/>
 
-<center><img src="/assets/images/banners/Zabbix/6.4/7.png"></center><br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/7.png"></center><br/>
 
 JSON 형태로 변환된 데이터들은  LLD 디스커버리 개념으로 사용하여 각각의 데이터로 세분화하여  아이템과 트리거 프로토타입을 구성할 수 있습니다.
 
  
 
-<center><img src="/assets/images/banners/Zabbix/6.4/8.png"></center><br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/8.png"></center><br/>
 
  
 
@@ -146,7 +146,7 @@ Zabbix 구성 요소 업그레이드 워크플로우(특히 대규모 환경)를
 
  
 
-<center><img src="/assets/images/banners/Zabbix/6.4/9.png"></center><br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/9.png"></center><br/>
 
 | **Server ver.** | **Current Proxy ver.** | **Outdated Proxy ver.** | **Unsupported proxy version**   |
 | :-------------- | :--------------------- | :---------------------- | :------------------------------ |
@@ -164,7 +164,7 @@ Zabbix 구성 요소 업그레이드 워크플로우(특히 대규모 환경)를
 
 Zabbix 메뉴 레이아웃이 재설계되었습니다. 새로운 메뉴 레이아웃의 목표는 주요 Zabbix 기능에 대한 논리적이고 일관된 액세스를 제공하는 것입니다.
 
-<center><img src="/assets/images/banners/Zabbix/6.4/10.png"></center><br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/10.png"></center><br/>
 
 ## 7. HTTP를 통한 실시간 metrix & event 스트리밍
 
@@ -178,7 +178,7 @@ Zabbix 관리자는 태그 필터를 사용하여 스트리밍용 데이터를 �
 
  
 
-<center><img src="/assets/images/banners/Zabbix/6.4/11.png"></center><br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/11.png"></center><br/>
 
 Zabbix 6.4는 HTTP를 통해 메트릭 및 이벤트를 실시간으로 스트리밍하여 다른 애플리케이션에 분석 보고서 및 AI 엔진의 정보 소스로 사용할 수 있습니다. 각 메트릭과 이벤트 정보는 Kafka, RabbitMQ 또는 Amazon Kinesis와 같은 메시지 브로커와 연동하여 외부 서비스에서 스트리밍된 데이터들을  실시간 으로 조정할 수 있습니다 .  
 
@@ -194,7 +194,7 @@ Zabbix 6.4는 HTTP를 통해 메트릭 및 이벤트를 실시간으로 스트�
 
 템플릿 버전의 경우 템플릿을 생성한 벤더사와 버전의 형태로  Zabbix 프론트엔드 화면에서 확인이 가능합니다. 벤더와 버전 정보는 커스텀 템플릿을 작성할 때 추가할 수 있습니다.
 
-<center><img src="/assets/images/banners/Zabbix/6.4/12.png"></center><br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/12.png"></center><br/>
 
  
 
@@ -217,7 +217,7 @@ Zabbix 6.4는 HTTP를 통해 메트릭 및 이벤트를 실시간으로 스트�
 
  
 
-<center><img src="/assets/images/banners/Zabbix/6.4/13.png"></center><br/>
+<center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/13.png"></center><br/>
 
  
 
@@ -241,7 +241,7 @@ Zabbix 6.4는 HTTP를 통해 메트릭 및 이벤트를 실시간으로 스트�
 
   
 
-  <center><img src="/assets/images/banners/Zabbix/6.4/14.png"></center><br/>
+  <center><img src="https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/14.png"></center><br/>
 
   
 
