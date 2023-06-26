@@ -259,6 +259,3 @@ Zabbix 6.4는 HTTP를 통해 메트릭 및 이벤트를 실시간으로 스트�
 
 
 
-Multiple options can be selected.
-
-레이블 추가
