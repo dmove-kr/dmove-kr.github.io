@@ -5,9 +5,45 @@
     <description>기술과 문화 그리고 다양한 소식들을 공유합니다.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Jun 2023 18:14:57 +0900</pubDate>
-    <lastBuildDate>Mon, 26 Jun 2023 18:14:57 +0900</lastBuildDate>
+    <pubDate>Fri, 28 Jul 2023 13:42:16 +0900</pubDate>
+    <lastBuildDate>Fri, 28 Jul 2023 13:42:16 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>-공지- 디무브, 블로그 이전 안내</title>
+        <description>&lt;center&gt;&lt;a href=&quot;https://dmove.tistory.com&quot;&gt; &lt;img src=&quot;http://localhost:4000/assets/images/New-Blog-Introduce.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;p&gt;안녕하세요, 디무브입니다.&lt;/p&gt;
+
+&lt;p&gt;그동안 디무브 블로그를 이용해 주신 여러분께 감사의 말씀 올립니다.&lt;/p&gt;
+
+&lt;p&gt;효율적인 소통과 디무브 소식을 빠르게 전달하기 위해,&lt;/p&gt;
+
+&lt;p&gt;기존 블로그를 폐쇄하고 Tistory 블로그를 활용하기로 하였습니다.&lt;/p&gt;
+
+&lt;p&gt;기존 블로그는 유지되지만&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2023년 7월31일&lt;/strong&gt;부터 디무브의 새로운 소식은 이전하는 Tistory 블로그를 이용해주시면 감사하겠습니다!&lt;/p&gt;
+
+&lt;p&gt;아래 링크를 클릭하시면 새로운 블로그를 보실 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;그럼 앞으로 더욱 발전된 콘텐츠로 찾아뵙겠습니다.&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;디무브 신규 블로그 바로가기&lt;/strong&gt;: &lt;a href=&quot;https://dmove.tistory.com/&quot;&gt;&lt;img src=&quot;https://dmove.tistory.com/favicon.ico&quot; alt=&quot;img&quot; /&gt;Dmove&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 28 Jul 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/blog%20%EC%9D%B4%EC%A0%84/2023/07/28/Blog-End.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog%20%EC%9D%B4%EC%A0%84/2023/07/28/Blog-End.html</guid>
+        
+        <category>Blog</category>
+        
+        
+        <category>Blog 이전</category>
+        
+      </item>
     
       <item>
         <title>Zabbix v.6.4 출시!</title>
@@ -29,12 +65,12 @@
 
 &lt;p&gt;Zabbix 6.4에서는 LDAP 및 SAML 인증을 위한 JIT 사용자 프로비저닝 지원이 추가되었습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/1.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/1.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Zabbix 관리자는 이제 LDAP 그룹 패턴을 선택하여 사용자 프로비저닝을 구성하고 검색된 사용자에게 사용자 그룹 및 사용자 역할을 자동으로 할당할 수 있습니다. 미디어 유형은 LDAP/SAML 속성을 기반으로 매핑도 가능합니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/2.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/2.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;2-cause--symptom-이벤트-표시-기능-추가&quot;&gt;2. Cause &amp;amp; Symptom 이벤트 표시 기능 추가&lt;/h2&gt;
@@ -45,10 +81,10 @@
 
 &lt;p&gt;추가적으로 장애 원인에 대한 사항으로 {EVENT.CAUSE} 매크로를 추가하여 트리거를 정의하거나 알림 등을 설정할 수 있으며 이벤트 원인과 관련된 API 정보를 제공받아 원인을 분석할 수 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/3.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/3.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/4.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/4.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;3-즉각적인-configuration-설정-반영&quot;&gt;3. 즉각적인 Configuration 설정 반영&lt;/h2&gt;
@@ -77,20 +113,20 @@
 
 &lt;p&gt;새롭게 추가된 WALK 항목은 OID 값을 확인한 뒤,  &lt;em&gt;GetBulk&lt;/em&gt; 요청을 통해 특정 OID 아래에 있는 모든 값들을 폴링합니다. SNMP GetBulk 요청을 통해 엔터프라이즈 계층 SNMP 장치에서 더 나은 성능과 더 빠른 메트릭 수집 및 검색을 제공할 수 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/5.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/5.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;OID를 통해 수집된 값들은 JSON 형식으로 전처리 과정을 거쳐 데이터를 저장할 수 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/6.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/6.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/7.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/7.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;JSON 형태로 변환된 데이터들은  LLD 디스커버리 개념으로 사용하여 각각의 데이터로 세분화하여  아이템과 트리거 프로토타입을 구성할 수 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/8.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/8.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;5-outdated-proxy에-대한-데이터-수집-지원&quot;&gt;5. Outdated proxy에 대한 데이터 수집 지원&lt;/h2&gt;
@@ -104,7 +140,7 @@
   &lt;li&gt;최종 LTS 버전(5&amp;lt;6) 보다 낮은 프록시의 경우 데이터 수집이 &lt;strong&gt;지원되지 않습니다&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/9.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/9.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;table&gt;
@@ -142,7 +178,7 @@
 
 &lt;p&gt;Zabbix 메뉴 레이아웃이 재설계되었습니다. 새로운 메뉴 레이아웃의 목표는 주요 Zabbix 기능에 대한 논리적이고 일관된 액세스를 제공하는 것입니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/10.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/10.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;7-http를-통한-실시간-metrix--event-스트리밍&quot;&gt;7. HTTP를 통한 실시간 metrix &amp;amp; event 스트리밍&lt;/h2&gt;
@@ -153,7 +189,7 @@
 
 &lt;p&gt;&lt;em&gt;Administration-General&lt;/em&gt; 아래에 새로운 &lt;em&gt;Connector&lt;/em&gt; 섹션이 추가 되었습니다 . 여기에서 Zabbix 관리자는 항목 값과 이벤트를 푸시해야 하는 외부 시스템을 정의할 수 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/11.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/11.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Zabbix 6.4는 HTTP를 통해 메트릭 및 이벤트를 실시간으로 스트리밍하여 다른 애플리케이션에 분석 보고서 및 AI 엔진의 정보 소스로 사용할 수 있습니다. 각 메트릭과 이벤트 정보는 Kafka, RabbitMQ 또는 Amazon Kinesis와 같은 메시지 브로커와 연동하여 외부 서비스에서 스트리밍된 데이터들을  실시간 으로 조정할 수 있습니다 .&lt;/p&gt;
@@ -164,7 +200,7 @@
 
 &lt;p&gt;템플릿 버전의 경우 템플릿을 생성한 벤더사와 버전의 형태로  Zabbix 프론트엔드 화면에서 확인이 가능합니다. 벤더와 버전 정보는 커스텀 템플릿을 작성할 때 추가할 수 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/12.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/12.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;9-zabbix-위젯-생성을-위한-개발-프레임-워크&quot;&gt;9. Zabbix 위젯 생성을 위한 개발 프레임 워크&lt;/h2&gt;
@@ -180,7 +216,7 @@
 
 &lt;p&gt;이러한 변경 사항 외에도 새로운 Zabbix 공식 홈페이지에 커스텀 위젯을 생성할 수 있는 튜토리얼 가이드가 제공되고 있습니다. 이 섹션에는 커뮤니티에서 프론트엔드 모듈 및 위젯 개발을 안내하는 가이드, 자습서 및 코드 예제와 Zabbix 에이전트 2 사용자 정의 Go 플러그인 개발에 대한 도움말이 포함되어 있습니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/13.png&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/13.png&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;10-인터페이스를-확인하지-않는-아이템-유형-추가&quot;&gt;10. 인터페이스를 확인하지 않는 아이템 유형 추가&lt;/h2&gt;
@@ -202,7 +238,7 @@
   &lt;li&gt;
     &lt;p&gt;Telnet agent&lt;/p&gt;
 
-    &lt;center&gt;&lt;img src=&quot;/assets/images/banners/Zabbix/6.4/14.png&quot; /&gt;&lt;/center&gt;
+    &lt;center&gt;&lt;img src=&quot;https://blog.dmove.kr/assets/images/banners/Zabbix/6.4/14.png&quot; /&gt;&lt;/center&gt;
     &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -217,9 +253,6 @@
 
 &lt;p&gt;감사합니다.&lt;/p&gt;
 
-&lt;p&gt;Multiple options can be selected.&lt;/p&gt;
-
-&lt;p&gt;레이블 추가&lt;/p&gt;
 </description>
         <pubDate>Mon, 26 Jun 2023 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/release%20note/2023/06/26/What's-new-Zabbix-6.4.html</link>
@@ -1271,140 +1304,6 @@
         
         
         <category>Company News</category>
-        
-      </item>
-    
-      <item>
-        <title>Jira Service Management를 사용하여 HR개선하는 방법</title>
-        <description>&lt;p&gt;안녕하세요, 디무브 입니다! 🎈&lt;/p&gt;
-
-&lt;p&gt;이제는 개발, 기술 부서 뿐 아니라 세일즈, 마케팅, HR 부서까지 Jira, Confluence 등 아틀라시안 여러 솔루션을 사용해 업무 효율을 높이고 개선하고 있는데요.&lt;/p&gt;
-
-&lt;p&gt;이번 포스팅에서는 아틀라시안 IT팀이 Jira Service Management(JSM)를 통해 HR업무를 개선한 케이스를 공유해보려고 합니다.&lt;/p&gt;
-
-&lt;div style=&quot;background-color: rgb(227, 252, 239); padding-left: 12px; padding: 8px;  &quot;&gt; 
-    &lt;strong&gt;Jira Service Management (JSM)&lt;/strong&gt; &lt;br /&gt;
-&lt;li&gt;하나의 플랫폼에서 개발, IT 운영 및 비즈니스 팀 연결&lt;/li&gt;
-&lt;li&gt;팀 전체에 신속하게 뛰어난 서비스 경험 제공&lt;/li&gt;
-&lt;li&gt;하나의 플랫폼에서 협업&lt;/li&gt;
-&lt;li&gt;인시던트를 신속하게 해결&lt;/li&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;JSM은 기술, 비즈니스 두 팀 모두 이점을 누릴 수 있지만, 특히 HR팀에서 활용하기 좋습니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian의 인사 기술 IT 팀은 HR 부서와 함께 속도와 가치를 창출할 수 있는 창의적인 방법을 찾기 위해 노력하고 있는데요. Atlassian IT 팀의 시니어 매니저인 폴 비아지오(Paul Biagio)는 Jira Service Management를 사용하여 인사 서비스를 개선하는 기획 및 개발 이니셔티브의 중심에 있습니다. 폴과 그의 팀은 새로운 직원의 워크플로우를 자동화하여 입사 절차를 개선하는 몇 가지 중요하고 창의적인 방법을 발견했습니다.&lt;/p&gt;
-
-&lt;div style=&quot;display: inline-block;&quot;&gt;
-&lt;div class=&quot;left-box&quot;&gt;
-    &lt;quoto&gt;“Jira Service Management는 몇 가지 이유로 HR업무 해결책의 중요한 부분이라고 할 수 있습니다.&lt;/quoto&gt;
-    &lt;p&gt;먼저, JSM은 각 팀과 Workday와 같은 HR 플랫폼 사이의 간극을 줄일 수 있게 해줍니다. &lt;/p&gt;
-    &lt;p&gt;덕분에 우리는 한 곳에서 다양한 직원 및 HR팀 업무를 추적하고 지원할 수 있습니다. 또한, 우리는 End to End 성능을 측정할 수 있는 더 나은 데이터를 얻을 수 있습니다.&quot; &lt;/p&gt;
-    &lt;p&gt;ㅡ 폴 비아지오 (Paul Biagio)
-    &lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;right-box&quot;&gt;
-&lt;img src=&quot;/assets/images/Using-JSM-HR/1.png&quot; /&gt;
-&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;더-나은-온보딩-절차의-필요성&quot;&gt;&lt;strong&gt;더 나은 온보딩 절차의 필요성&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Atlassian에서는 특히 신입 입사자의 온보딩 절차를 개선하고자 합니다. 회사가 빠르게 성장하고 있는 경우 JSM을 활용해 온보딩 과정의 자동화와 효율성을 이룬다면 비용을 줄이는 것은 물론 다음과 같은 이점을 얻을 수 있습니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;인사 팀이 업무를 처리할 수 있는 여력 증가&lt;/li&gt;
-  &lt;li&gt;간단하고 빠른 워크플로우로 시간과 비용 절약&lt;/li&gt;
-  &lt;li&gt;워크플로우 측정 가능성을 추가해 감독 및 프로세스 개선&lt;/li&gt;
-  &lt;li&gt;시스템을 사용하는 직원들에게 직관적이고 즐거운 경험 제공&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Atlassian의 인력 성장은 COVID 봉쇄 조치가 전 세계적으로 시행 된 시점에 가속화 되었다는 점에서 더욱 독특합니다. 실제로 현재 재직 중인 직원의 약 40%가 펜대믹 시기에 일을 시작했으며, 원격 근무로 직원 대부분이 아틀라시안 실제 사무실 내부를 본 적이 없습니다. 현재 원격으로 근무하고 있는 직원들을 지원하고 이 같은 형태로 더 많은 인력을 채용할 수 있게 하게 하는데 있어 온보딩 절차 개선은 매우 중요합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;jira-service-management를-선택한-이유&quot;&gt;&lt;strong&gt;Jira Service Management를 선택한 이유&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Jira Service Management를 선택한 이유는 많은 단계가 쉽게 자동화되고 간소화될 수 있기 때문입니다.&lt;/p&gt;
-
-&lt;p&gt;ITSM의 선두 주자인 Jira Service Management은 요청 관리, 문제 관리, 구성 관리 등의 기능을 제공합니다. 내장된 템플릿 및 API 덕분에 다른 플랫폼 및 소프트웨어 도구와 쉽게 통합할 수도 있습니다.&lt;/p&gt;
-
-&lt;p&gt;폴 비아지오는 “Jira Service Management는 인적 자원 정보 시스템(HRIS)을 흉내 내려고 하지 않기 때문에 업계를 선도하는 HRIS에서 데이터를 자동화하여 새로운 가치를 발휘 할 수 있다 이점이 있다.” 라고도 말했습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;jira-service-management가-입사절차를-용이하게-만드는-방법&quot;&gt;Jira Service Management가 입사절차를 용이하게 만드는 방법&lt;/h2&gt;
-
-&lt;div style=&quot;display: inline-block;&quot;&gt;
-&lt;div class=&quot;right-box&quot;&gt;
-&lt;img src=&quot;/assets/images/Using-JSM-HR/2.png&quot; /&gt;
-&lt;/div&gt;
-&lt;div class=&quot;right-box&quot;&gt;    
-    &lt;p&gt;Workday는 우리의 HRIS로 인적 자원과 관련된 데이터를 위한 유일한 소스입니다. 우리는 HRIS에서 데이터를 Jira에 공급하면 정보를 사용해 결정 및 작업을 더 효율적으로 수행할 수 있다는 것을 알고 있었습니다. &lt;/p&gt;
-    &lt;p&gt;따라서 Jira와 HRIS 사이의 연결고리를 만들기 위해 제3 자 자동화 플랫폼 인 Workato를 사용했습니다. &lt;/p&gt;
-    &lt;/div&gt; &lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;폴에 따르면 Workato는 Workday와 Jira를 묶어주는 접착제로 우리가 누군가를 고용하고 Workday에 추가하면 Workato 레시피를 통해 Jira Service Management에서 티켓을 자동으로 생성할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;그 티켓이 만들어지면 Workday는 노트북 및 계정 제공, 액세서리 요청 및 방향 제공 등 인사 팀이 따르는 입사 절차의 요청 목록을 만들기 시작합니다. 이러한 작업 중 많은 작업은 HRIS에는 내장되어 있지 않지만, Jira Service Management과 Workato를 사용하여 이 과정을 자동화하면 단시간에 작업할 수 있습니다. 간단히 말해 Jira Service Management를 활용하면 온보딩 절차를 훨씬 빠르고 효율적으로 진행할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Workday와 Jira Service Management 사이를 Workato를 사용해 통합시키면 분할된 팀을 연결하고 작업을 오나료하는데 걸리는 시간 (+ 이로 인해 드는 전사적인 비용)을 줄일 수 있습니다. 프로세스를 자동화하면 입사 절차의 전 카탈로그를 중앙에서 추적하고 측정할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;Atlassian의 인사 운영 책임자인 Andi Breslin은 “Jira Service Management 온보딩 작업이 온보딩 운영팀 대기열에 포함되도록 함으로써 인적 오류의 위험을 줄이고 수작업이 필요한 많은 업무를 줄일 수 있습니다.” 라고 말했는데요.&lt;/p&gt;
-
-&lt;p&gt;이처럼 온보딩 프로세스를 가속화 하는 것은 인재확보 팀과 신입 직원들에게 가치를 더하는 것 뿐만 아니라 온보딩 운영팀의 역량도 높여줍니다.”&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;jira-service-management이-사례를-효율적으로-관리하는-방법&quot;&gt;&lt;strong&gt;Jira Service Management이 사례를 효율적으로 관리하는 방법&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;우리는 모든 필요한 작업에 대해 Jira Service Management 케이스를 로깅하고 프론트엔드 포털을 구축했습니다. 이러한 케이스는 지리적 위치에 따라 적절한 서비스 수준 계약 (SLA)이 있는 해당 지리적 영역의 올바른 인적 자원 부서 멤버에게 할당될 수 있습니다. 이 작업을 추적하는 것은 팀이 운영에 더 가까워지도록 지원하기 때문에 더욱 중요합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;우리가-배운-것과-다음-단계&quot;&gt;&lt;strong&gt;우리가 배운 것과 다음 단계&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Atlassian은 강력한 HRIS 도구를 사용하여 Jira Service Management을 더욱 개선했습니다. 그리고 Workato를 활용해 HRIS와 Jira를 통합 시키고 Jira Service Management의 내장된 템플릿 및 API 덕분에 구현을 간단하게 할 수 있도록 개선 시켰습니다.&lt;/p&gt;
-
-&lt;p&gt;아틀라시안은 앞으로는 JSM을 활용해 HR뿐 아니라 전사적으로 비즈니스-중요한 거래 간 전근, 해지, 주소 변경 등을 개선하기 위해 지속적으로 빌드 해나갈 계획입니다.&lt;/p&gt;
-
-&lt;div style=&quot;display: inline-block;&quot;&gt;
-&lt;div class=&quot;left-box&quot;&gt;
-&lt;img src=&quot;/assets/images/Using-JSM-HR/3.png&quot; /&gt;
-&lt;/div&gt;
-&lt;div class=&quot;right-box&quot;&gt;    
-    &lt;p&gt;Atlassian ITSM 팀에게 Jira Service Management은 분리된 팀 간의 접점을 구축해 소통을 촉진하고 광범위한 비즈니스 플랫폼의 기능의 갭을 채우기 위한 능력 있는 도구입니다.  &lt;/p&gt;
-    &lt;p&gt;이러한 요소들은 지원자 추적 시스템, Lever와 함께 추가적인 비즈니스 가치를 발휘하는데 영향을 미쳤습니다. &lt;/p&gt;
-    &lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Atlassian ITSM 팀에게 Jira Service Management은 분리된 팀 간, 광범위한 비즈니스 플랫폼의 기능 간 갭을 채울 수 있는 도구입니다. 이러한 요소들은 Lever, 지원자 추적 시스템과 함께 추가적인 비즈니스 가치를 발휘하기 위해 아주 중요합니다.&lt;/p&gt;
-
-&lt;p&gt;폴 비아지오가 “전 직원 라이프 사이클 - 채용에서 첫날까지, 성과 검토와 같은 연례적인 활동에서 실제로 마지막 날까지 -이 Jira Service Management에 의해 영향을 받을 것 같지 않습니다. 기회는 무한하고 가치가 있습니다.”라고 말한 만큼 여러분의 인사 팀이 입사 절차를 개선하고자 하는 경우 Jira Service Management는 황금의 티켓이 될 수 있을 것이라고 생각합니다.&lt;/p&gt;
-
-&lt;p&gt;JSM의 데모 등록이나 활용 방법이 궁금하시다면 디무브에 문의 남겨주세요!&lt;/p&gt;
-
-&lt;p&gt;감사합니다.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 06 Apr 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/how%20to/2023/04/06/Using-JSM-to-Improve-HR.html</link>
-        <guid isPermaLink="true">http://localhost:4000/how%20to/2023/04/06/Using-JSM-to-Improve-HR.html</guid>
-        
-        <category>Atlassian</category>
-        
-        <category>아틀라시안</category>
-        
-        <category>Atlassian JSM Jira Service Management</category>
-        
-        <category>협업툴</category>
-        
-        
-        <category>How To</category>
         
       </item>
     
