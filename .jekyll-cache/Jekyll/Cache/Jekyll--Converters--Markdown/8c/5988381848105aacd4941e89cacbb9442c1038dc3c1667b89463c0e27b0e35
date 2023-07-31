@@ -1,4 +1,16 @@
-I"�
+I"��
+<script>
+    function pop()
+    {
+        window.open("Dmove-End.html", "pop", "width=400,height=500,history=no,resizable=no,status=no,scrollbars=yes,menubar=no")
+    }
+
+  
+    </script>
+
+<body onload="javascript:pop()">
+</body>
+
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
@@ -21,7 +33,7 @@
                     <div class="wrapthumbnail">
                         <a href="/blog%20%EC%9D%B4%EC%A0%84/2023/07/28/Blog-End.html">
                             
-                            <img class="featured-box-img-cover" src="/" />
+                                <img class="featured-box-not-image" src="/assets/images/Dmove.png" />
                             
                         </a>
                     </div>
@@ -97,7 +109,9 @@
                     <div class="wrapthumbnail">
                         <a href="/how%20to/2023/06/13/time-to-future-proof-your-workforce.html">
                             
-                            <img class="featured-box-img-cover" src="/assets/images/Blog%20Thumbnails/Upskilling.png" />
+                                
+                                <img class="featured-box-img-cover" src="https://blog.dmove.kr/assets/images/Blog%20Thumbnails/Upskilling.png" />
+                                
                             
                         </a>
                     </div>
@@ -168,7 +182,9 @@
                     <div class="wrapthumbnail">
                         <a href="/inside%20atlassian/2023/05/22/Atlassian-Team23-Confluence-New-Feature.html">
                             
-                            <img class="featured-box-img-cover" src="/assets/images/Team23/Confluence-New-Feature/Thumbnail.png" />
+                                
+                                <img class="featured-box-img-cover" src="https://blog.dmove.kr/assets/images/Team23/Confluence-New-Feature/Thumbnail.png" />
+                                
                             
                         </a>
                     </div>
@@ -239,7 +255,9 @@
                     <div class="wrapthumbnail">
                         <a href="/inside%20atlassian/2023/05/22/Atlassian-Team23-Atlassian-Intelligence.html">
                             
-                            <img class="featured-box-img-cover" src="/assets/images/Team23/Atlassian-Intelligence/Thumbnail.png" />
+                                
+                                <img class="featured-box-img-cover" src="https://blog.dmove.kr/assets/images/Team23/Atlassian-Intelligence/Thumbnail.png" />
+                                
                             
                         </a>
                     </div>
@@ -310,7 +328,9 @@
                     <div class="wrapthumbnail">
                         <a href="/inside%20atlassian/2023/05/17/Atlassian-Team23-Jira-Cloud-New-Feature.html">
                             
-                            <img class="featured-box-img-cover" src="/assets/images/Team23/Jira-Cloud-New-Feature/Thumbnail.png" />
+                                
+                                <img class="featured-box-img-cover" src="https://blog.dmove.kr/assets/images/Team23/Jira-Cloud-New-Feature/Thumbnail.png" />
+                                
                             
                         </a>
                     </div>
@@ -381,7 +401,9 @@
                     <div class="wrapthumbnail">
                         <a href="/inside%20atlassian/2023/05/17/Atlassian-Team23-Confluence-WhiteBoard.html">
                             
-                            <img class="featured-box-img-cover" src="/assets/images/Team23/Confluence-WhiteBoard/Thumbnail.png" />
+                                
+                                <img class="featured-box-img-cover" src="https://blog.dmove.kr/assets/images/Team23/Confluence-WhiteBoard/Thumbnail.png" />
+                                
                             
                         </a>
                     </div>
@@ -488,7 +510,9 @@
                     <div class="wrapthumbnail">
                         <a href="/company%20news/2023/01/11/Atlassian-License-Pee-Notification.html">
                             
-                            <img class="featured-box-img-cover" src="https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629" />
+                                
+                                <img class="featured-box-img-cover" src="https://wac-cdn.atlassian.com/dam/jcr:9a041894-cd35-49b4-8998-7b3b7e582236/Jira@2x.png?cdnVersion=1629" />
+                                
                             
                         </a>
                     </div>
@@ -1029,7 +1053,7 @@
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/Blog%20Thumbnails/Upskilling.png" alt="업스킬링(Upskilling)을 위한 필수 요소 - 지금이 미래에 대비한 인력 확보 기회" /> 
+                        <img class="img-fluid" src="https://blog.dmove.kr/assets/images/Blog%20Thumbnails/Upskilling.png" alt="업스킬링(Upskilling)을 위한 필수 요소 - 지금이 미래에 대비한 인력 확보 기회" /> 
                     
                 
 
@@ -1094,7 +1118,7 @@
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/Team23/Confluence-New-Feature/Thumbnail.png" alt="Team '23에서 소개된 Confluence 새로운 기능" /> 
+                        <img class="img-fluid" src="https://blog.dmove.kr/assets/images/Team23/Confluence-New-Feature/Thumbnail.png" alt="Team '23에서 소개된 Confluence 새로운 기능" /> 
                     
                 
 
@@ -1159,7 +1183,7 @@
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/Team23/Atlassian-Intelligence/Thumbnail.png" alt="클라우드 제품 유저에게만, 새롭게 합류한 가상의 팀원 'AI'를 소개합니다." /> 
+                        <img class="img-fluid" src="https://blog.dmove.kr/assets/images/Team23/Atlassian-Intelligence/Thumbnail.png" alt="클라우드 제품 유저에게만, 새롭게 합류한 가상의 팀원 'AI'를 소개합니다." /> 
                     
                 
 
@@ -1224,7 +1248,7 @@
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/Team23/Jira-Cloud-New-Feature/Thumbnail.png" alt="Team '23에서 소개된 Jira Cloud 새로운 기능" /> 
+                        <img class="img-fluid" src="https://blog.dmove.kr/assets/images/Team23/Jira-Cloud-New-Feature/Thumbnail.png" alt="Team '23에서 소개된 Jira Cloud 새로운 기능" /> 
                     
                 
 
@@ -1289,7 +1313,7 @@
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/Team23/Confluence-WhiteBoard/Thumbnail.png" alt="아이디어 실행을 위한 디지털 캔버스, Confluence Whiteboards를 소개합니다!" /> 
+                        <img class="img-fluid" src="https://blog.dmove.kr/assets/images/Team23/Confluence-WhiteBoard/Thumbnail.png" alt="아이디어 실행을 위한 디지털 캔버스, Confluence Whiteboards를 소개합니다!" /> 
                     
                 
 
