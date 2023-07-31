@@ -6,7 +6,7 @@ Subtitle: Confluence-New-Feature
 date: 2023-06-13
 author : hailey
 featured: true
-image : assets/images/Blog%20Thumbnails/Upskilling.png
+image : https://blog.dmove.kr/assets/images/Blog%20Thumbnails/Upskilling.png
 categories: [How To]
 tags: [Atlassian, 아틀라시안, 업스킬링, 메타버스, DT, 디지털 트랜스포메이션, Digital Transformation]
 

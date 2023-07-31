@@ -6,7 +6,7 @@ Subtitle: Atlassian-Intelligence
 date: 2023-05-22
 author : eddie
 featured: true
-image : assets/images/Team23/Atlassian-Intelligence/Thumbnail.png
+image : https://blog.dmove.kr/assets/images/Team23/Atlassian-Intelligence/Thumbnail.png
 categories: [Inside Atlassian]
 tags: [Atlassian, Team23, 아틀라시안, Atlassianteam23, teamanywhere, Atlassian, Atlassian Intelligence, 아틀라시안 인텔리젠스, AI, GPT]
 

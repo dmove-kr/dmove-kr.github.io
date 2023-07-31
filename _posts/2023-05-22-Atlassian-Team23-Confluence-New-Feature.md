@@ -6,7 +6,7 @@ Subtitle: Confluence-New-Feature
 date: 2023-05-22
 author : jackson
 featured: true
-image : assets/images/Team23/Confluence-New-Feature/Thumbnail.png
+image : https://blog.dmove.kr/assets/images/Team23/Confluence-New-Feature/Thumbnail.png
 categories: [Inside Atlassian]
 tags: [Atlassian, Team23, 아틀라시안, Atlassianteam23, teamanywhere, Confluence, WhiteBoard, Confluence WhiteBoard, Confluence-New-Feature]
 

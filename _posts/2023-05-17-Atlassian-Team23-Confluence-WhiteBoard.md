@@ -6,7 +6,7 @@ Subtitle: Confluence-WhiteBoard
 date: 2023-05-17
 author : hailey
 featured: true
-image : assets/images/Team23/Confluence-WhiteBoard/Thumbnail.png
+image : https://blog.dmove.kr/assets/images/Team23/Confluence-WhiteBoard/Thumbnail.png
 categories: [Inside Atlassian]
 tags: [Atlassian, Team23, 아틀라시안, Atlassianteam23, teamanywhere, Confluence, WhiteBoard, Confluence WhiteBoard]
 
